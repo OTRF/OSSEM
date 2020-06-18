@@ -7,14 +7,21 @@ This page contains the list of events for Microsoft-Windows-EnhancedStorage-EhSt
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
+|[2](events/event-2.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
+|[3](events/event-3.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
+|[4](events/event-4.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
+|[5](events/event-5.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
+|[6](events/event-6.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
+|[7](events/event-7.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
+|[8](events/event-8.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
+|[9](events/event-9.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
 |[10](events/event-10.md)|None|etw_level_Error, etw_opcode_TcgLib, etw_task_Driver|
-|[100](events/event-100.md)|None|etw_level_Informational, etw_opcode_General, etw_task_Driver|
-|[101](events/event-101.md)|None|etw_level_Warning, etw_opcode_General, etw_task_Driver|
-|[102](events/event-102.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
 |[11](events/event-11.md)|None|etw_level_Error, etw_opcode_TcgLib, etw_task_Driver|
 |[12](events/event-12.md)|None|etw_level_Informational, etw_opcode_General, etw_task_Driver|
 |[13](events/event-13.md)|None|etw_level_Informational, etw_opcode_General, etw_task_Driver|
-|[2](events/event-2.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
+|[100](events/event-100.md)|None|etw_level_Informational, etw_opcode_General, etw_task_Driver|
+|[101](events/event-101.md)|None|etw_level_Warning, etw_opcode_General, etw_task_Driver|
+|[102](events/event-102.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
 |[200](events/event-200.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_GetSiloCaps|
 |[201](events/event-201.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_GetSiloCaps|
 |[202](events/event-202.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ExecuteSiloCmd|
@@ -45,10 +52,3 @@ This page contains the list of events for Microsoft-Windows-EnhancedStorage-EhSt
 |[227](events/event-227.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_IoctlSetBandMetadata|
 |[228](events/event-228.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_IoctlRelinquishSilo|
 |[229](events/event-229.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_IoctlRelinquishSilo|
-|[3](events/event-3.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
-|[4](events/event-4.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
-|[5](events/event-5.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
-|[6](events/event-6.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
-|[7](events/event-7.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
-|[8](events/event-8.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|
-|[9](events/event-9.md)|None|etw_level_Error, etw_opcode_General, etw_task_Driver|

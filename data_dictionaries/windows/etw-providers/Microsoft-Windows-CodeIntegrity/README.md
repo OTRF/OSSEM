@@ -112,9 +112,6 @@ This page contains the list of events for Microsoft-Windows-CodeIntegrity, as co
 |[3079](events/event-3079_v3.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy, version_3|
 |[3080](events/event-3080.md)|None|etw_level_Informational, etw_opcode_SiPolicyFailureIgnored, etw_task_ValidateSIPolicy|
 |[3080](events/event-3080_v1.md)|None|etw_level_Informational, etw_opcode_SiPolicyFailureIgnored, etw_task_ValidateSIPolicy, version_1|
-|[3080](events/event-3080_v10.md)|None|etw_level_Informational, etw_opcode_SiPolicyFailureIgnored, etw_task_ValidateSIPolicy, version_10|
-|[3080](events/event-3080_v11.md)|None|etw_level_Informational, etw_opcode_SiPolicyFailureIgnored, etw_task_ValidateSIPolicy, version_11|
-|[3080](events/event-3080_v12.md)|None|etw_level_Informational, etw_opcode_SiPolicyFailureIgnored, etw_task_ValidateSIPolicy, version_12|
 |[3080](events/event-3080_v2.md)|None|etw_level_Informational, etw_opcode_SiPolicyFailureIgnored, etw_task_ValidateSIPolicy, version_2|
 |[3080](events/event-3080_v3.md)|None|etw_level_Informational, etw_opcode_SiPolicyFailureIgnored, etw_task_ValidateSIPolicy, version_3|
 |[3080](events/event-3080_v4.md)|None|etw_level_Informational, etw_opcode_SiPolicyFailureIgnored, etw_task_ValidateSIPolicy, version_4|
@@ -123,11 +120,11 @@ This page contains the list of events for Microsoft-Windows-CodeIntegrity, as co
 |[3080](events/event-3080_v7.md)|None|etw_level_Informational, etw_opcode_SiPolicyFailureIgnored, etw_task_ValidateSIPolicy, version_7|
 |[3080](events/event-3080_v8.md)|None|etw_level_Informational, etw_opcode_SiPolicyFailureIgnored, etw_task_ValidateSIPolicy, version_8|
 |[3080](events/event-3080_v9.md)|None|etw_level_Informational, etw_opcode_SiPolicyFailureIgnored, etw_task_ValidateSIPolicy, version_9|
+|[3080](events/event-3080_v10.md)|None|etw_level_Informational, etw_opcode_SiPolicyFailureIgnored, etw_task_ValidateSIPolicy, version_10|
+|[3080](events/event-3080_v11.md)|None|etw_level_Informational, etw_opcode_SiPolicyFailureIgnored, etw_task_ValidateSIPolicy, version_11|
+|[3080](events/event-3080_v12.md)|None|etw_level_Informational, etw_opcode_SiPolicyFailureIgnored, etw_task_ValidateSIPolicy, version_12|
 |[3081](events/event-3081.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy|
 |[3081](events/event-3081_v1.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy, version_1|
-|[3081](events/event-3081_v10.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy, version_10|
-|[3081](events/event-3081_v11.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy, version_11|
-|[3081](events/event-3081_v12.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy, version_12|
 |[3081](events/event-3081_v2.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy, version_2|
 |[3081](events/event-3081_v3.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy, version_3|
 |[3081](events/event-3081_v4.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy, version_4|
@@ -136,6 +133,9 @@ This page contains the list of events for Microsoft-Windows-CodeIntegrity, as co
 |[3081](events/event-3081_v7.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy, version_7|
 |[3081](events/event-3081_v8.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy, version_8|
 |[3081](events/event-3081_v9.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy, version_9|
+|[3081](events/event-3081_v10.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy, version_10|
+|[3081](events/event-3081_v11.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy, version_11|
+|[3081](events/event-3081_v12.md)|None|etw_level_Error, etw_opcode_PolicyFailure, etw_task_ValidateSIPolicy, version_12|
 |[3082](events/event-3082.md)|None|etw_level_Informational, etw_opcode_WhqlFailure, etw_task_WhqlEnforcement|
 |[3083](events/event-3083.md)|None|etw_level_Warning, etw_opcode_WhqlFailure, etw_task_WhqlEnforcement|
 |[3084](events/event-3084.md)|None|etw_level_Informational, etw_opcode_WhqlSettings, etw_task_WhqlEnforcement|

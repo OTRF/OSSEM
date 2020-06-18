@@ -6,6 +6,24 @@ This page contains the list of events for Microsoft-Windows-AsynchronousCausalit
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[4112](events/event-4112_v1.md)|None|etw_level_Critical, etw_keywords_AsynchronousOperation SystemOperation OperationCreate, etw_task_task_0, version_1|
+|[4113](events/event-4113_v1.md)|None|etw_level_Critical, etw_keywords_AsynchronousOperation LibraryOperation OperationCreate, etw_task_task_0, version_1|
+|[4114](events/event-4114_v1.md)|None|etw_level_Critical, etw_keywords_AsynchronousOperation ApplicationOperation OperationCreate, etw_task_task_0, version_1|
+|[4144](events/event-4144_v1.md)|None|etw_level_Warning, etw_keywords_AsynchronousOperation SystemOperation OperationCreate, etw_task_task_0, version_1|
+|[4145](events/event-4145_v1.md)|None|etw_level_Warning, etw_keywords_AsynchronousOperation LibraryOperation OperationCreate, etw_task_task_0, version_1|
+|[4146](events/event-4146_v1.md)|None|etw_level_Warning, etw_keywords_AsynchronousOperation ApplicationOperation OperationCreate, etw_task_task_0, version_1|
+|[4176](events/event-4176_v1.md)|None|etw_level_Verbose, etw_keywords_AsynchronousOperation SystemOperation OperationCreate, etw_task_task_0, version_1|
+|[4177](events/event-4177_v1.md)|None|etw_level_Verbose, etw_keywords_AsynchronousOperation LibraryOperation OperationCreate, etw_task_task_0, version_1|
+|[4178](events/event-4178_v1.md)|None|etw_level_Verbose, etw_keywords_AsynchronousOperation ApplicationOperation OperationCreate, etw_task_task_0, version_1|
+|[8208](events/event-8208_v1.md)|None|etw_level_Critical, etw_keywords_AsynchronousOperation SystemOperation, etw_task_task_0, version_1|
+|[8209](events/event-8209_v1.md)|None|etw_level_Critical, etw_keywords_AsynchronousOperation LibraryOperation, etw_task_task_0, version_1|
+|[8210](events/event-8210_v1.md)|None|etw_level_Critical, etw_keywords_AsynchronousOperation ApplicationOperation, etw_task_task_0, version_1|
+|[8240](events/event-8240_v1.md)|None|etw_level_Warning, etw_keywords_AsynchronousOperation SystemOperation, etw_task_task_0, version_1|
+|[8241](events/event-8241_v1.md)|None|etw_level_Warning, etw_keywords_AsynchronousOperation LibraryOperation, etw_task_task_0, version_1|
+|[8242](events/event-8242_v1.md)|None|etw_level_Warning, etw_keywords_AsynchronousOperation ApplicationOperation, etw_task_task_0, version_1|
+|[8272](events/event-8272_v1.md)|None|etw_level_Verbose, etw_keywords_AsynchronousOperation SystemOperation, etw_task_task_0, version_1|
+|[8273](events/event-8273_v1.md)|None|etw_level_Verbose, etw_keywords_AsynchronousOperation LibraryOperation, etw_task_task_0, version_1|
+|[8274](events/event-8274_v1.md)|None|etw_level_Verbose, etw_keywords_AsynchronousOperation ApplicationOperation, etw_task_task_0, version_1|
 |[12304](events/event-12304_v1.md)|None|etw_level_Critical, etw_keywords_Relation SystemOperation, etw_task_task_0, version_1|
 |[12305](events/event-12305_v1.md)|None|etw_level_Critical, etw_keywords_Relation LibraryOperation, etw_task_task_0, version_1|
 |[12306](events/event-12306_v1.md)|None|etw_level_Critical, etw_keywords_Relation ApplicationOperation, etw_task_task_0, version_1|
@@ -33,21 +51,3 @@ This page contains the list of events for Microsoft-Windows-AsynchronousCausalit
 |[16720](events/event-16720_v1.md)|None|etw_level_Verbose, etw_keywords_OperationWork SystemOperation, etw_task_task_0, version_1|
 |[16721](events/event-16721_v1.md)|None|etw_level_Verbose, etw_keywords_OperationWork LibraryOperation, etw_task_task_0, version_1|
 |[16722](events/event-16722_v1.md)|None|etw_level_Verbose, etw_keywords_OperationWork ApplicationOperation, etw_task_task_0, version_1|
-|[4112](events/event-4112_v1.md)|None|etw_level_Critical, etw_keywords_AsynchronousOperation SystemOperation OperationCreate, etw_task_task_0, version_1|
-|[4113](events/event-4113_v1.md)|None|etw_level_Critical, etw_keywords_AsynchronousOperation LibraryOperation OperationCreate, etw_task_task_0, version_1|
-|[4114](events/event-4114_v1.md)|None|etw_level_Critical, etw_keywords_AsynchronousOperation ApplicationOperation OperationCreate, etw_task_task_0, version_1|
-|[4144](events/event-4144_v1.md)|None|etw_level_Warning, etw_keywords_AsynchronousOperation SystemOperation OperationCreate, etw_task_task_0, version_1|
-|[4145](events/event-4145_v1.md)|None|etw_level_Warning, etw_keywords_AsynchronousOperation LibraryOperation OperationCreate, etw_task_task_0, version_1|
-|[4146](events/event-4146_v1.md)|None|etw_level_Warning, etw_keywords_AsynchronousOperation ApplicationOperation OperationCreate, etw_task_task_0, version_1|
-|[4176](events/event-4176_v1.md)|None|etw_level_Verbose, etw_keywords_AsynchronousOperation SystemOperation OperationCreate, etw_task_task_0, version_1|
-|[4177](events/event-4177_v1.md)|None|etw_level_Verbose, etw_keywords_AsynchronousOperation LibraryOperation OperationCreate, etw_task_task_0, version_1|
-|[4178](events/event-4178_v1.md)|None|etw_level_Verbose, etw_keywords_AsynchronousOperation ApplicationOperation OperationCreate, etw_task_task_0, version_1|
-|[8208](events/event-8208_v1.md)|None|etw_level_Critical, etw_keywords_AsynchronousOperation SystemOperation, etw_task_task_0, version_1|
-|[8209](events/event-8209_v1.md)|None|etw_level_Critical, etw_keywords_AsynchronousOperation LibraryOperation, etw_task_task_0, version_1|
-|[8210](events/event-8210_v1.md)|None|etw_level_Critical, etw_keywords_AsynchronousOperation ApplicationOperation, etw_task_task_0, version_1|
-|[8240](events/event-8240_v1.md)|None|etw_level_Warning, etw_keywords_AsynchronousOperation SystemOperation, etw_task_task_0, version_1|
-|[8241](events/event-8241_v1.md)|None|etw_level_Warning, etw_keywords_AsynchronousOperation LibraryOperation, etw_task_task_0, version_1|
-|[8242](events/event-8242_v1.md)|None|etw_level_Warning, etw_keywords_AsynchronousOperation ApplicationOperation, etw_task_task_0, version_1|
-|[8272](events/event-8272_v1.md)|None|etw_level_Verbose, etw_keywords_AsynchronousOperation SystemOperation, etw_task_task_0, version_1|
-|[8273](events/event-8273_v1.md)|None|etw_level_Verbose, etw_keywords_AsynchronousOperation LibraryOperation, etw_task_task_0, version_1|
-|[8274](events/event-8274_v1.md)|None|etw_level_Verbose, etw_keywords_AsynchronousOperation ApplicationOperation, etw_task_task_0, version_1|

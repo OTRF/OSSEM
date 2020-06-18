@@ -7,8 +7,29 @@ This page contains the list of events for Microsoft-Windows-PushNotifications-Pl
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Verbose, etw_keywords_wpndbg, etw_task_task_0|
+|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_wpnplat, etw_task_task_0|
+|[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_wpnplat, etw_opcode_Start, etw_task_SwitchPrivilege|
+|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_wpnplat, etw_opcode_Stop, etw_task_SwitchPrivilege|
+|[12](events/event-12.md)|None|etw_level_Informational, etw_keywords_wpnplat, etw_task_task_0|
+|[13](events/event-13.md)|None|etw_level_Verbose, etw_keywords_wpnplat, etw_task_task_0|
+|[15](events/event-15.md)|None|etw_level_Verbose, etw_keywords_wpnplat, etw_task_task_0|
+|[19](events/event-19.md)|None|etw_level_Verbose, etw_keywords_wpndbg, etw_task_task_0|
+|[20](events/event-20.md)|None|etw_level_Verbose, etw_keywords_wpndbg, etw_task_task_0|
+|[21](events/event-21.md)|None|etw_level_Informational, etw_keywords_wpnplat, etw_opcode_Start, etw_task_ProcessTileUpdateSettings|
+|[23](events/event-23.md)|None|etw_level_Informational, etw_keywords_wpnplat, etw_task_ProcessTileUpdateSettings|
+|[26](events/event-26.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot, etw_task_task_0|
+|[27](events/event-27.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot, etw_task_task_0|
+|[28](events/event-28.md)|None|etw_level_Verbose, etw_keywords_wpnplat wpntroubleshoot, etw_task_task_0|
+|[31](events/event-31.md)|None|etw_level_Verbose, etw_keywords_wpnplat, etw_task_task_0|
+|[35](events/event-35.md)|None|etw_level_Verbose, etw_keywords_wpnplat, etw_task_task_0|
+|[36](events/event-36.md)|None|etw_level_Verbose, etw_keywords_wpnplat, etw_task_task_0|
+|[37](events/event-37.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot wpndebug_connectivity, etw_task_task_0|
+|[38](events/event-38.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot, etw_task_task_0|
+|[39](events/event-39.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot, etw_task_task_0|
+|[40](events/event-40.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot, etw_task_task_0|
+|[41](events/event-41.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot, etw_task_task_0|
+|[42](events/event-42.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot wpndebug_connectivity, etw_task_task_0|
 |[1000](events/event-1000.md)|None|etw_level_Informational, etw_keywords_wpnconn, etw_task_task_0|
-|[10000](events/event-10000.md)|None|etw_level_Verbose, etw_keywords_wpndbg, etw_task_task_0|
 |[1001](events/event-1001.md)|None|etw_level_Informational, etw_keywords_wpnconn, etw_task_task_0|
 |[1002](events/event-1002.md)|None|etw_level_Informational, etw_keywords_wpnconn, etw_task_task_0|
 |[1005](events/event-1005.md)|None|etw_level_Informational, etw_keywords_wpnconn wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage wpntroubleshoot wpndebug_connectivity wpndebug_connectivity_isConnected, etw_task_ConnectionEstablishment|
@@ -45,7 +66,6 @@ This page contains the list of events for Microsoft-Windows-PushNotifications-Pl
 |[1116](events/event-1116.md)|None|etw_level_Error, etw_keywords_wpnprv wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage wpntroubleshoot wpndebug_connectivity wpndebug_connectivity_error, etw_opcode_Stop, etw_task_ConnectionEstablishment|
 |[1117](events/event-1117.md)|None|etw_level_Informational, etw_keywords_wpnprv wpndebug_connectivity wpndebug_connectivity_error, etw_task_task_0|
 |[1118](events/event-1118.md)|None|etw_level_Informational, etw_keywords_wpnprv, etw_task_task_0|
-|[12](events/event-12.md)|None|etw_level_Informational, etw_keywords_wpnplat, etw_task_task_0|
 |[1201](events/event-1201.md)|None|etw_level_Informational, etw_keywords_wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage wnptrans, etw_opcode_Start, etw_task_ConnectionEstablishment|
 |[1202](events/event-1202.md)|None|etw_level_Informational, etw_keywords_wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage wnptrans, etw_opcode_Stop, etw_task_ConnectionEstablishment|
 |[1203](events/event-1203.md)|None|etw_level_Informational, etw_keywords_wnptrans, etw_opcode_Start, etw_task_task_0|
@@ -101,7 +121,6 @@ This page contains the list of events for Microsoft-Windows-PushNotifications-Pl
 |[1266](events/event-1266.md)|None|etw_level_Informational, etw_keywords_wnptrans, etw_task_task_0|
 |[1267](events/event-1267.md)|None|etw_level_Verbose, etw_keywords_wnptrans wpndebug_connectivity wpndebug_connectivity_isConnected, etw_task_task_0|
 |[1268](events/event-1268.md)|None|etw_level_Verbose, etw_keywords_wnptrans wpndebug_connectivity wpndebug_connectivity_isConnected, etw_task_task_0|
-|[13](events/event-13.md)|None|etw_level_Verbose, etw_keywords_wpnplat, etw_task_task_0|
 |[1302](events/event-1302.md)|None|etw_level_Informational, etw_keywords_wpnprv, etw_task_task_0|
 |[1303](events/event-1303.md)|None|etw_level_Informational, etw_keywords_wpnprv, etw_task_task_0|
 |[1304](events/event-1304.md)|None|etw_level_Informational, etw_keywords_wpnprv, etw_task_task_0|
@@ -116,9 +135,6 @@ This page contains the list of events for Microsoft-Windows-PushNotifications-Pl
 |[1313](events/event-1313.md)|None|etw_level_Informational, etw_keywords_wnptrans, etw_task_task_0|
 |[1314](events/event-1314.md)|None|etw_level_Informational, etw_keywords_wnptrans, etw_task_task_0|
 |[1315](events/event-1315.md)|None|etw_level_Informational, etw_keywords_wnptrans, etw_task_task_0|
-|[15](events/event-15.md)|None|etw_level_Verbose, etw_keywords_wpnplat, etw_task_task_0|
-|[19](events/event-19.md)|None|etw_level_Verbose, etw_keywords_wpndbg, etw_task_task_0|
-|[20](events/event-20.md)|None|etw_level_Verbose, etw_keywords_wpndbg, etw_task_task_0|
 |[2000](events/event-2000.md)|None|etw_level_Informational, etw_keywords_wpnend, etw_opcode_Start, etw_task_RequestChannel|
 |[2001](events/event-2001.md)|None|etw_level_Informational, etw_keywords_wpnend wpntroubleshoot, etw_opcode_Stop, etw_task_RequestChannel|
 |[2002](events/event-2002.md)|None|etw_level_Informational, etw_keywords_wpnend wpntroubleshoot, etw_task_task_0|
@@ -165,7 +181,6 @@ This page contains the list of events for Microsoft-Windows-PushNotifications-Pl
 |[2051](events/event-2051.md)|None|etw_level_Error, etw_keywords_wpnend wpntroubleshoot wpndebug_polling_error, etw_opcode_Stop, etw_task_PeriodicPoll|
 |[2052](events/event-2052.md)|None|etw_level_Informational, etw_keywords_wpnend wpntroubleshoot wpndebug_polling_error, etw_opcode_Stop, etw_task_PeriodicPoll|
 |[2053](events/event-2053.md)|None|etw_level_Error, etw_keywords_wpnend wpntroubleshoot wpndebug_polling_error, etw_opcode_Stop, etw_task_PeriodicPoll|
-|[21](events/event-21.md)|None|etw_level_Informational, etw_keywords_wpnplat, etw_opcode_Start, etw_task_ProcessTileUpdateSettings|
 |[2100](events/event-2100.md)|None|etw_level_Verbose, etw_keywords_wpnend wpndev_NotificationE2E, etw_task_task_0|
 |[2101](events/event-2101.md)|None|etw_level_Verbose, etw_keywords_wpnend wpndev_NotificationE2E, etw_task_task_0|
 |[2102](events/event-2102.md)|None|etw_level_Verbose, etw_keywords_wpnend wpndev_NotificationE2E, etw_task_task_0|
@@ -201,7 +216,6 @@ This page contains the list of events for Microsoft-Windows-PushNotifications-Pl
 |[2202](events/event-2202.md)|None|etw_level_Verbose, etw_keywords_wpnend wpndev_NotificationE2E, etw_task_task_0|
 |[2203](events/event-2203.md)|None|etw_level_Verbose, etw_keywords_wpndebug_raw_isolate wpnend wpndev_NotificationE2E, etw_opcode_Stop, etw_task_NewCloudNotificationArrival|
 |[2250](events/event-2250.md)|None|etw_level_Verbose, etw_keywords_wpnend, etw_task_task_0|
-|[23](events/event-23.md)|None|etw_level_Informational, etw_keywords_wpnplat, etw_task_ProcessTileUpdateSettings|
 |[2300](events/event-2300.md)|None|etw_level_Verbose, etw_keywords_wpnend, etw_task_task_0|
 |[2301](events/event-2301.md)|None|etw_level_Verbose, etw_keywords_wpnend, etw_task_task_0|
 |[2400](events/event-2400.md)|None|etw_level_Informational, etw_keywords_wpnend, etw_task_task_0|
@@ -220,9 +234,6 @@ This page contains the list of events for Microsoft-Windows-PushNotifications-Pl
 |[2413](events/event-2413.md)|None|etw_level_Informational, etw_keywords_wpnend wpntroubleshoot, etw_task_task_0|
 |[2414](events/event-2414.md)|None|etw_level_Informational, etw_keywords_wpnend wpntroubleshoot, etw_task_task_0|
 |[2415](events/event-2415.md)|None|etw_level_Informational, etw_keywords_wpnend wpntroubleshoot, etw_task_task_0|
-|[26](events/event-26.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot, etw_task_task_0|
-|[27](events/event-27.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot, etw_task_task_0|
-|[28](events/event-28.md)|None|etw_level_Verbose, etw_keywords_wpnplat wpntroubleshoot, etw_task_task_0|
 |[3000](events/event-3000.md)|None|etw_level_Informational, etw_keywords_wpnui, etw_opcode_Start, etw_task_TileSessionCreate|
 |[3001](events/event-3001.md)|None|etw_level_Informational, etw_keywords_wpnui, etw_opcode_Stop, etw_task_TileSessionCreate|
 |[3002](events/event-3002.md)|None|etw_level_Informational, etw_keywords_wpnui, etw_opcode_Start, etw_task_TileSessionUpdate|
@@ -271,7 +282,6 @@ This page contains the list of events for Microsoft-Windows-PushNotifications-Pl
 |[3056](events/event-3056.md)|None|etw_level_Informational, etw_keywords_wpnui wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage wpnperf_NewCloudNotificationArrival wpnperf_NewCloudNotificationArrivalWithCloudImage wpntroubleshoot wpndebug_cloudtile_isolate wpndebug_localtile_isolate wpndev_NotificationE2E, etw_task_task_0|
 |[3057](events/event-3057.md)|None|etw_level_Informational, etw_keywords_wpnui, etw_opcode_Start, etw_task_TileSessionClose|
 |[3058](events/event-3058.md)|None|etw_level_Informational, etw_keywords_wpnui, etw_opcode_Stop, etw_task_TileSessionClose|
-|[31](events/event-31.md)|None|etw_level_Verbose, etw_keywords_wpnplat, etw_task_task_0|
 |[3104](events/event-3104.md)|None|etw_level_Verbose, etw_keywords_wpnui wpndev_NotificationE2E, etw_task_task_0|
 |[3107](events/event-3107.md)|None|etw_level_Error, etw_keywords_wpnend wpntroubleshoot, etw_task_task_0|
 |[3110](events/event-3110.md)|None|etw_level_Informational, etw_task_AFCForwardToast|
@@ -287,14 +297,4 @@ This page contains the list of events for Microsoft-Windows-PushNotifications-Pl
 |[3146](events/event-3146.md)|None|etw_level_Informational, etw_keywords_wpnui, etw_task_task_0|
 |[3147](events/event-3147.md)|None|etw_level_Informational, etw_keywords_wpnui, etw_task_task_0|
 |[3148](events/event-3148.md)|None|etw_level_Informational, etw_keywords_wpnui, etw_task_task_0|
-|[35](events/event-35.md)|None|etw_level_Verbose, etw_keywords_wpnplat, etw_task_task_0|
-|[36](events/event-36.md)|None|etw_level_Verbose, etw_keywords_wpnplat, etw_task_task_0|
-|[37](events/event-37.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot wpndebug_connectivity, etw_task_task_0|
-|[38](events/event-38.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot, etw_task_task_0|
-|[39](events/event-39.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot, etw_task_task_0|
-|[40](events/event-40.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot, etw_task_task_0|
-|[41](events/event-41.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot, etw_task_task_0|
-|[42](events/event-42.md)|None|etw_level_Informational, etw_keywords_wpnplat wpntroubleshoot wpndebug_connectivity, etw_task_task_0|
-|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_wpnplat, etw_task_task_0|
-|[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_wpnplat, etw_opcode_Start, etw_task_SwitchPrivilege|
-|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_wpnplat, etw_opcode_Stop, etw_task_SwitchPrivilege|
+|[10000](events/event-10000.md)|None|etw_level_Verbose, etw_keywords_wpndbg, etw_task_task_0|

@@ -6,6 +6,8 @@ This page contains the list of events for Microsoft-Client-Licensing-Platform, a
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[19](events/event-19.md)|None|etw_level_Informational, etw_keywords_SERVICE_PERF_KEYWORD, etw_opcode_Start, etw_task_Service_Call|
+|[20](events/event-20.md)|None|etw_level_Informational, etw_keywords_SERVICE_PERF_KEYWORD, etw_opcode_Stop, etw_task_Service_Call|
 |[100](events/event-100.md)|None|etw_level_Informational, etw_keywords_SERVICE_KEYWORD, etw_task_task_0|
 |[101](events/event-101.md)|None|etw_level_Informational, etw_keywords_SERVICE_KEYWORD, etw_task_task_0|
 |[103](events/event-103.md)|None|etw_level_Error, etw_keywords_SERVICE_KEYWORD, etw_task_task_0|
@@ -34,5 +36,3 @@ This page contains the list of events for Microsoft-Client-Licensing-Platform, a
 |[172](events/event-172.md)|None|etw_level_Informational, etw_keywords_SERVICE_KEYWORD, etw_task_task_0|
 |[173](events/event-173.md)|None|etw_level_Informational, etw_keywords_SERVICE_KEYWORD, etw_task_task_0|
 |[174](events/event-174.md)|None|etw_level_Informational, etw_keywords_SERVICE_KEYWORD, etw_task_task_0|
-|[19](events/event-19.md)|None|etw_level_Informational, etw_keywords_SERVICE_PERF_KEYWORD, etw_opcode_Start, etw_task_Service_Call|
-|[20](events/event-20.md)|None|etw_level_Informational, etw_keywords_SERVICE_PERF_KEYWORD, etw_opcode_Stop, etw_task_Service_Call|

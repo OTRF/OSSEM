@@ -6,6 +6,10 @@ This page contains the list of events for Microsoft-Windows-Diagnostics-PerfTrac
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[200](events/event-200.md)|None|etw_level_Informational, etw_keywords_PerfTrackStatus, etw_task_PerfPipe_TraceCapture_StartEnd|
+|[218](events/event-218.md)|None|etw_level_Informational, etw_keywords_PerfTrackStatus, etw_task_PerfPipe_TraceCapture_Trigger|
+|[500](events/event-500.md)|None|etw_level_Informational, etw_keywords_SQMStatus, etw_task_SqmLogger_AddToScenarioStream|
+|[800](events/event-800.md)|None|etw_level_Informational, etw_keywords_PerfTrackStatus, etw_task_ConfigCriteria_Result|
 |[1100](events/event-1100.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_IdleDetection_PostBoot|
 |[1101](events/event-1101.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_IdleDetection_PostResumeFromSleep|
 |[1102](events/event-1102.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_IdleDetection_PostResumeFromHibernate|
@@ -30,7 +34,3 @@ This page contains the list of events for Microsoft-Windows-Diagnostics-PerfTrac
 |[1509](events/event-1509.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_PerfTrack_moStop_resumeResponsive|
 |[1510](events/event-1510.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_PerfTrack_moStop_resizeVisibleComplete|
 |[1511](events/event-1511.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_PerfTrack_moStop_resizeResponsive|
-|[200](events/event-200.md)|None|etw_level_Informational, etw_keywords_PerfTrackStatus, etw_task_PerfPipe_TraceCapture_StartEnd|
-|[218](events/event-218.md)|None|etw_level_Informational, etw_keywords_PerfTrackStatus, etw_task_PerfPipe_TraceCapture_Trigger|
-|[500](events/event-500.md)|None|etw_level_Informational, etw_keywords_SQMStatus, etw_task_SqmLogger_AddToScenarioStream|
-|[800](events/event-800.md)|None|etw_level_Informational, etw_keywords_PerfTrackStatus, etw_task_ConfigCriteria_Result|

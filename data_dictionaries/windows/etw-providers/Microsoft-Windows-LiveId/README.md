@@ -6,23 +6,6 @@ This page contains the list of events for Microsoft-Windows-LiveId, as collected
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
-|[10000](events/event-10000.md)|None|etw_level_Critical, etw_keywords_Critical WlidBho, etw_task_task_0|
-|[10001](events/event-10001.md)|None|etw_level_Error, etw_keywords_Error WlidBho, etw_task_task_0|
-|[10002](events/event-10002.md)|None|etw_level_Warning, etw_keywords_Warning WlidBho, etw_task_task_0|
-|[10003](events/event-10003.md)|None|etw_level_Informational, etw_keywords_WlidBho, etw_task_task_0|
-|[10004](events/event-10004.md)|None|etw_level_Critical, etw_keywords_Critical WlidBho, etw_task_task_0|
-|[10005](events/event-10005.md)|None|etw_level_Error, etw_keywords_Error WlidBho, etw_task_task_0|
-|[10006](events/event-10006.md)|None|etw_level_Warning, etw_keywords_Warning WlidBho, etw_task_task_0|
-|[10007](events/event-10007.md)|None|etw_level_Informational, etw_keywords_WlidBho, etw_task_task_0|
-|[10008](events/event-10008.md)|None|etw_level_Verbose, etw_keywords_Function WlidBho, etw_task_task_0|
-|[10009](events/event-10009.md)|None|etw_level_Verbose, etw_keywords_Function WlidBho, etw_task_task_0|
-|[10010](events/event-10010.md)|None|etw_level_Error, etw_keywords_Error Function WlidBho, etw_task_task_0|
-|[10011](events/event-10011.md)|None|etw_level_Verbose, etw_keywords_Function WlidBho, etw_task_task_0|
-|[10012](events/event-10012.md)|None|etw_level_Error, etw_keywords_Error WlidBho, etw_task_task_0|
-|[10013](events/event-10013.md)|None|etw_level_Error, etw_keywords_Error WlidBho, etw_task_task_0|
-|[10014](events/event-10014.md)|None|etw_level_Warning, etw_keywords_Function Warning WlidBho, etw_task_task_0|
-|[10015](events/event-10015.md)|None|etw_level_Verbose, etw_keywords_WlidBho, etw_task_task_0|
-|[10016](events/event-10016.md)|None|etw_level_Verbose, etw_keywords_WlidBho, etw_task_task_0|
 |[1006](events/event-1006.md)|None|etw_level_Informational, etw_keywords_Analytic, etw_opcode_Stop, etw_task_IdentityProviderOperation|
 |[1008](events/event-1008.md)|None|etw_level_Informational, etw_keywords_Analytic, etw_opcode_Stop, etw_task_IdentityProviderOperation|
 |[1014](events/event-1014.md)|None|etw_level_Informational, etw_keywords_Analytic, etw_opcode_Stop, etw_task_WLIDServiceOperation|
@@ -31,40 +14,6 @@ This page contains the list of events for Microsoft-Windows-LiveId, as collected
 |[1020](events/event-1020.md)|None|etw_level_Informational, etw_keywords_Analytic, etw_opcode_Stop, etw_task_LiveIdModernAPIOperation|
 |[1021](events/event-1021.md)|None|etw_level_Error, etw_keywords_Error Operational, etw_task_LiveIdModernAPIOperation|
 |[1022](events/event-1022.md)|None|etw_level_Error, etw_keywords_Error Operational, etw_task_LiveIdModernAPIOperation|
-|[11000](events/event-11000.md)|None|etw_level_Critical, etw_keywords_Critical TokenProvider, etw_task_task_0|
-|[11001](events/event-11001.md)|None|etw_level_Error, etw_keywords_Error TokenProvider, etw_task_task_0|
-|[11002](events/event-11002.md)|None|etw_level_Warning, etw_keywords_Warning TokenProvider, etw_task_task_0|
-|[11003](events/event-11003.md)|None|etw_level_Informational, etw_keywords_TokenProvider, etw_task_task_0|
-|[11004](events/event-11004.md)|None|etw_level_Critical, etw_keywords_Critical TokenProvider, etw_task_task_0|
-|[11005](events/event-11005.md)|None|etw_level_Error, etw_keywords_Error TokenProvider, etw_task_task_0|
-|[11006](events/event-11006.md)|None|etw_level_Warning, etw_keywords_Warning TokenProvider, etw_task_task_0|
-|[11007](events/event-11007.md)|None|etw_level_Informational, etw_keywords_TokenProvider, etw_task_task_0|
-|[11008](events/event-11008.md)|None|etw_level_Verbose, etw_keywords_Function TokenProvider, etw_task_task_0|
-|[11009](events/event-11009.md)|None|etw_level_Verbose, etw_keywords_Function TokenProvider, etw_task_task_0|
-|[11010](events/event-11010.md)|None|etw_level_Error, etw_keywords_Error Function TokenProvider, etw_task_task_0|
-|[11011](events/event-11011.md)|None|etw_level_Verbose, etw_keywords_Function TokenProvider, etw_task_task_0|
-|[11012](events/event-11012.md)|None|etw_level_Error, etw_keywords_Error TokenProvider, etw_task_task_0|
-|[11013](events/event-11013.md)|None|etw_level_Error, etw_keywords_Error TokenProvider, etw_task_task_0|
-|[11014](events/event-11014.md)|None|etw_level_Warning, etw_keywords_Function Warning TokenProvider, etw_task_task_0|
-|[11015](events/event-11015.md)|None|etw_level_Verbose, etw_keywords_TokenProvider, etw_task_task_0|
-|[11016](events/event-11016.md)|None|etw_level_Verbose, etw_keywords_TokenProvider, etw_task_task_0|
-|[12000](events/event-12000.md)|None|etw_level_Critical, etw_keywords_Critical Extension, etw_task_task_0|
-|[12001](events/event-12001.md)|None|etw_level_Error, etw_keywords_Error Extension, etw_task_task_0|
-|[12002](events/event-12002.md)|None|etw_level_Warning, etw_keywords_Warning Extension, etw_task_task_0|
-|[12003](events/event-12003.md)|None|etw_level_Informational, etw_keywords_Extension, etw_task_task_0|
-|[12004](events/event-12004.md)|None|etw_level_Critical, etw_keywords_Critical Extension, etw_task_task_0|
-|[12005](events/event-12005.md)|None|etw_level_Error, etw_keywords_Error Extension, etw_task_task_0|
-|[12006](events/event-12006.md)|None|etw_level_Warning, etw_keywords_Warning Extension, etw_task_task_0|
-|[12007](events/event-12007.md)|None|etw_level_Informational, etw_keywords_Extension, etw_task_task_0|
-|[12008](events/event-12008.md)|None|etw_level_Verbose, etw_keywords_Function Extension, etw_task_task_0|
-|[12009](events/event-12009.md)|None|etw_level_Verbose, etw_keywords_Function Extension, etw_task_task_0|
-|[12010](events/event-12010.md)|None|etw_level_Error, etw_keywords_Error Function Extension, etw_task_task_0|
-|[12011](events/event-12011.md)|None|etw_level_Verbose, etw_keywords_Function Extension, etw_task_task_0|
-|[12012](events/event-12012.md)|None|etw_level_Error, etw_keywords_Error Extension, etw_task_task_0|
-|[12013](events/event-12013.md)|None|etw_level_Error, etw_keywords_Error Extension, etw_task_task_0|
-|[12014](events/event-12014.md)|None|etw_level_Warning, etw_keywords_Function Warning Extension, etw_task_task_0|
-|[12015](events/event-12015.md)|None|etw_level_Verbose, etw_keywords_Extension, etw_task_task_0|
-|[12016](events/event-12016.md)|None|etw_level_Verbose, etw_keywords_Extension, etw_task_task_0|
 |[2016](events/event-2016.md)|None|etw_level_Informational, etw_keywords_Analytic, etw_opcode_Stop, etw_task_WLIDCredProvOperation|
 |[2018](events/event-2018.md)|None|etw_level_Informational, etw_keywords_Analytic, etw_opcode_Stop, etw_task_WLIDCredProvOperation|
 |[2020](events/event-2020.md)|None|etw_level_Informational, etw_keywords_Analytic, etw_opcode_Stop, etw_task_WLIDCredProvOperation|
@@ -213,3 +162,54 @@ This page contains the list of events for Microsoft-Windows-LiveId, as collected
 |[9015](events/event-9015.md)|None|etw_level_Verbose, etw_keywords_WlidProv, etw_task_task_0|
 |[9016](events/event-9016.md)|None|etw_level_Verbose, etw_keywords_WlidProv, etw_task_task_0|
 |[9100](events/event-9100.md)|None|etw_level_Verbose, etw_keywords_WlidProv Credentials, etw_task_task_0|
+|[10000](events/event-10000.md)|None|etw_level_Critical, etw_keywords_Critical WlidBho, etw_task_task_0|
+|[10001](events/event-10001.md)|None|etw_level_Error, etw_keywords_Error WlidBho, etw_task_task_0|
+|[10002](events/event-10002.md)|None|etw_level_Warning, etw_keywords_Warning WlidBho, etw_task_task_0|
+|[10003](events/event-10003.md)|None|etw_level_Informational, etw_keywords_WlidBho, etw_task_task_0|
+|[10004](events/event-10004.md)|None|etw_level_Critical, etw_keywords_Critical WlidBho, etw_task_task_0|
+|[10005](events/event-10005.md)|None|etw_level_Error, etw_keywords_Error WlidBho, etw_task_task_0|
+|[10006](events/event-10006.md)|None|etw_level_Warning, etw_keywords_Warning WlidBho, etw_task_task_0|
+|[10007](events/event-10007.md)|None|etw_level_Informational, etw_keywords_WlidBho, etw_task_task_0|
+|[10008](events/event-10008.md)|None|etw_level_Verbose, etw_keywords_Function WlidBho, etw_task_task_0|
+|[10009](events/event-10009.md)|None|etw_level_Verbose, etw_keywords_Function WlidBho, etw_task_task_0|
+|[10010](events/event-10010.md)|None|etw_level_Error, etw_keywords_Error Function WlidBho, etw_task_task_0|
+|[10011](events/event-10011.md)|None|etw_level_Verbose, etw_keywords_Function WlidBho, etw_task_task_0|
+|[10012](events/event-10012.md)|None|etw_level_Error, etw_keywords_Error WlidBho, etw_task_task_0|
+|[10013](events/event-10013.md)|None|etw_level_Error, etw_keywords_Error WlidBho, etw_task_task_0|
+|[10014](events/event-10014.md)|None|etw_level_Warning, etw_keywords_Function Warning WlidBho, etw_task_task_0|
+|[10015](events/event-10015.md)|None|etw_level_Verbose, etw_keywords_WlidBho, etw_task_task_0|
+|[10016](events/event-10016.md)|None|etw_level_Verbose, etw_keywords_WlidBho, etw_task_task_0|
+|[11000](events/event-11000.md)|None|etw_level_Critical, etw_keywords_Critical TokenProvider, etw_task_task_0|
+|[11001](events/event-11001.md)|None|etw_level_Error, etw_keywords_Error TokenProvider, etw_task_task_0|
+|[11002](events/event-11002.md)|None|etw_level_Warning, etw_keywords_Warning TokenProvider, etw_task_task_0|
+|[11003](events/event-11003.md)|None|etw_level_Informational, etw_keywords_TokenProvider, etw_task_task_0|
+|[11004](events/event-11004.md)|None|etw_level_Critical, etw_keywords_Critical TokenProvider, etw_task_task_0|
+|[11005](events/event-11005.md)|None|etw_level_Error, etw_keywords_Error TokenProvider, etw_task_task_0|
+|[11006](events/event-11006.md)|None|etw_level_Warning, etw_keywords_Warning TokenProvider, etw_task_task_0|
+|[11007](events/event-11007.md)|None|etw_level_Informational, etw_keywords_TokenProvider, etw_task_task_0|
+|[11008](events/event-11008.md)|None|etw_level_Verbose, etw_keywords_Function TokenProvider, etw_task_task_0|
+|[11009](events/event-11009.md)|None|etw_level_Verbose, etw_keywords_Function TokenProvider, etw_task_task_0|
+|[11010](events/event-11010.md)|None|etw_level_Error, etw_keywords_Error Function TokenProvider, etw_task_task_0|
+|[11011](events/event-11011.md)|None|etw_level_Verbose, etw_keywords_Function TokenProvider, etw_task_task_0|
+|[11012](events/event-11012.md)|None|etw_level_Error, etw_keywords_Error TokenProvider, etw_task_task_0|
+|[11013](events/event-11013.md)|None|etw_level_Error, etw_keywords_Error TokenProvider, etw_task_task_0|
+|[11014](events/event-11014.md)|None|etw_level_Warning, etw_keywords_Function Warning TokenProvider, etw_task_task_0|
+|[11015](events/event-11015.md)|None|etw_level_Verbose, etw_keywords_TokenProvider, etw_task_task_0|
+|[11016](events/event-11016.md)|None|etw_level_Verbose, etw_keywords_TokenProvider, etw_task_task_0|
+|[12000](events/event-12000.md)|None|etw_level_Critical, etw_keywords_Critical Extension, etw_task_task_0|
+|[12001](events/event-12001.md)|None|etw_level_Error, etw_keywords_Error Extension, etw_task_task_0|
+|[12002](events/event-12002.md)|None|etw_level_Warning, etw_keywords_Warning Extension, etw_task_task_0|
+|[12003](events/event-12003.md)|None|etw_level_Informational, etw_keywords_Extension, etw_task_task_0|
+|[12004](events/event-12004.md)|None|etw_level_Critical, etw_keywords_Critical Extension, etw_task_task_0|
+|[12005](events/event-12005.md)|None|etw_level_Error, etw_keywords_Error Extension, etw_task_task_0|
+|[12006](events/event-12006.md)|None|etw_level_Warning, etw_keywords_Warning Extension, etw_task_task_0|
+|[12007](events/event-12007.md)|None|etw_level_Informational, etw_keywords_Extension, etw_task_task_0|
+|[12008](events/event-12008.md)|None|etw_level_Verbose, etw_keywords_Function Extension, etw_task_task_0|
+|[12009](events/event-12009.md)|None|etw_level_Verbose, etw_keywords_Function Extension, etw_task_task_0|
+|[12010](events/event-12010.md)|None|etw_level_Error, etw_keywords_Error Function Extension, etw_task_task_0|
+|[12011](events/event-12011.md)|None|etw_level_Verbose, etw_keywords_Function Extension, etw_task_task_0|
+|[12012](events/event-12012.md)|None|etw_level_Error, etw_keywords_Error Extension, etw_task_task_0|
+|[12013](events/event-12013.md)|None|etw_level_Error, etw_keywords_Error Extension, etw_task_task_0|
+|[12014](events/event-12014.md)|None|etw_level_Warning, etw_keywords_Function Warning Extension, etw_task_task_0|
+|[12015](events/event-12015.md)|None|etw_level_Verbose, etw_keywords_Extension, etw_task_task_0|
+|[12016](events/event-12016.md)|None|etw_level_Verbose, etw_keywords_Extension, etw_task_task_0|

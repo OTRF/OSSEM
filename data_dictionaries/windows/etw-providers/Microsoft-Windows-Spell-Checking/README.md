@@ -7,11 +7,11 @@ This page contains the list of events for Microsoft-Windows-Spell-Checking, as c
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Informational, etw_opcode_Send, etw_task_Spellchecking|
+|[2](events/event-2.md)|None|etw_level_Informational, etw_opcode_Receive, etw_task_Spellchecking|
 |[16](events/event-16.md)|None|etw_level_Warning, etw_task_task_0|
 |[17](events/event-17.md)|None|etw_level_Error, etw_task_task_0|
 |[18](events/event-18.md)|None|etw_level_Error, etw_task_task_0|
 |[19](events/event-19.md)|None|etw_level_Error, etw_task_task_0|
-|[2](events/event-2.md)|None|etw_level_Informational, etw_opcode_Receive, etw_task_Spellchecking|
 |[20](events/event-20.md)|None|etw_level_Warning, etw_task_task_0|
 |[23](events/event-23.md)|None|etw_level_Informational, etw_opcode_Send, etw_task_Spellchecking|
 |[24](events/event-24.md)|None|etw_level_Informational, etw_opcode_Receive, etw_task_Spellchecking|

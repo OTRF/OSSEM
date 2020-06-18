@@ -7,7 +7,6 @@ This page contains the list of events for Microsoft-Windows-Dwm-Udwm, as collect
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Informational, etw_keywords_Udwm, etw_opcode_Start, etw_task_UdwmGraphicsStreamChange|
-|[10000](events/event-10000.md)|None|etw_level_Informational, etw_keywords_Udwm, etw_task_PerfTrack_UdwmLivePreviewAnimation_FirstFrameFinished|
 |[2](events/event-2.md)|None|etw_level_Informational, etw_keywords_Udwm, etw_opcode_Stop, etw_task_UdwmGraphicsStreamChange|
 |[5](events/event-5.md)|None|etw_level_Informational, etw_keywords_Udwm, etw_task_UdwmProcessModeChange|
 |[5000](events/event-5000.md)|None|etw_level_Informational, etw_keywords_Udwm, etw_task_UdwmStartup|
@@ -92,3 +91,4 @@ This page contains the list of events for Microsoft-Windows-Dwm-Udwm, as collect
 |[9005](events/event-9005.md)|None|etw_level_Informational, etw_keywords_Udwm, etw_task_task_0|
 |[9006](events/event-9006.md)|None|etw_level_Informational, etw_keywords_Udwm, etw_task_task_0|
 |[9009](events/event-9009.md)|None|etw_level_Informational, etw_keywords_Udwm, etw_task_task_0|
+|[10000](events/event-10000.md)|None|etw_level_Informational, etw_keywords_Udwm, etw_task_PerfTrack_UdwmLivePreviewAnimation_FirstFrameFinished|

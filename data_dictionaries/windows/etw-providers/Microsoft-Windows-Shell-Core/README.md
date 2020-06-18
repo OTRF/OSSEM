@@ -7,8 +7,16 @@ This page contains the list of events for Microsoft-Windows-Shell-Core, as colle
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_AggregatePropertyProvider_GetValue|
+|[2](events/event-2.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_AggregatePropertyProvider_GetValue|
+|[3](events/event-3.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_AggregatePropertyProvider_GetValueObject|
+|[4](events/event-4.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_AggregatePropertyProvider_GetValueObject|
 |[101](events/event-101.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_AutoplayCPL_PopulateUI|
 |[102](events/event-102.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_AutoplayCPL_PopulateUI|
+|[111](events/event-111.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_DeskCPL_DisplayDialog|
+|[112](events/event-112.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_DeskCPL_DisplayDialog|
+|[113](events/event-113.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_MainCPL_CPLAppletInvoked|
+|[114](events/event-114.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_MainCPL_CPLAppletInvoked|
+|[115](events/event-115.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_MainCPL_DialogPaint|
 |[1021](events/event-1021.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_AutoLists_MSSQuery|
 |[1022](events/event-1022.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_AutoLists_MSSQuery|
 |[1028](events/event-1028.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_AutoLists_MSSQueryAddResultsToQueue|
@@ -57,28 +65,150 @@ This page contains the list of events for Microsoft-Windows-Shell-Core, as colle
 |[1099](events/event-1099.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_DataLayer_RSMNotificationArrival|
 |[1100](events/event-1100.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_DataLayer_RSMRealization|
 |[1101](events/event-1101.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_DataLayer_RSMRealization|
-|[11011](events/event-11011.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_FilterControl_InsertFilters|
-|[11013](events/event-11013.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_ListViewPopup_SetRedraw|
-|[11014](events/event-11014.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_ListViewPopup_SetRedraw|
 |[1103](events/event-1103.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_DataLayer_RSMRealization|
 |[1106](events/event-1106.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_DataLayer_ResultSetRealize|
 |[1108](events/event-1108.md)|None|etw_level_Informational, etw_keywords_Shell ExplorerPerf, etw_opcode_Start, etw_task_DataLayer_ResultSetProcessBatch|
 |[1109](events/event-1109.md)|None|etw_level_Informational, etw_keywords_Shell ExplorerPerf, etw_opcode_Stop, etw_task_DataLayer_ResultSetProcessBatch|
-|[111](events/event-111.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_DeskCPL_DisplayDialog|
 |[1113](events/event-1113.md)|None|etw_level_Informational, etw_keywords_Shell ExplorerPerf, etw_opcode_Stop, etw_task_DataLayer_ResultSetWaitForResults|
 |[1114](events/event-1114.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_DataLayer_ResultSetFilterResults|
 |[1115](events/event-1115.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_DataLayer_ResultSetFilterResults|
 |[1116](events/event-1116.md)|None|etw_level_Informational, etw_keywords_Shell ExplorerPerf, etw_opcode_Start, etw_task_DataLayer_ResultSetSortResults|
 |[1118](events/event-1118.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_DataLayer_ResultSetGroupResults|
-|[112](events/event-112.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_DeskCPL_DisplayDialog|
 |[1120](events/event-1120.md)|None|etw_level_Informational, etw_keywords_Shell ExplorerPerf, etw_opcode_Start, etw_task_DataLayer_ResultSetMergeBatch|
 |[1121](events/event-1121.md)|None|etw_level_Informational, etw_keywords_Shell ExplorerPerf, etw_opcode_Stop, etw_task_DataLayer_ResultSetMergeBatch|
 |[1128](events/event-1128.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_DataLayer_ReuseFirstBatch|
-|[113](events/event-113.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_MainCPL_CPLAppletInvoked|
 |[1130](events/event-1130.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_DataLayer_ReuseCached|
-|[114](events/event-114.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_MainCPL_CPLAppletInvoked|
-|[115](events/event-115.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_MainCPL_DialogPaint|
 |[1152](events/event-1152.md)|None|etw_level_Error, etw_keywords_Shell, etw_task_DataLayer_AppItemsStateModifyCommitFailure|
+|[1415](events/event-1415.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_OpenSearch_Http_Response|
+|[1417](events/event-1417.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_OpenSearch_Description_Installed|
+|[1419](events/event-1419.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_OpenSearch_Provider_Queried|
+|[2022](events/event-2022.md)|None|etw_level_Informational, etw_keywords_Shell ExplorerPerf, etw_task_Browseui_FrameMessagePump_KeyDown|
+|[2023](events/event-2023.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Browseui_FrameMessagePump_LButtonAction|
+|[2024](events/event-2024.md)|None|etw_level_Informational, etw_keywords_Shell ExplorerPerf, etw_task_Browseui_FrameMessagePump_RButtonAction|
+|[2045](events/event-2045.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Browseui_Back_Button_Clicked|
+|[2047](events/event-2047.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Browseui_Forward_Button_Clicked|
+|[2057](events/event-2057.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Browseui_AutoComplete_StartCompletion|
+|[2058](events/event-2058.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Browseui_AutoComplete_StartCompletion|
+|[2059](events/event-2059.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Browseui_AutoComplete_UpdateCompletion|
+|[2060](events/event-2060.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Browseui_AutoComplete_UpdateCompletion|
+|[2061](events/event-2061.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Browseui_AutoComplete_StartSearch|
+|[2062](events/event-2062.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Browseui_AutoComplete_StartSearch|
+|[2063](events/event-2063.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Browseui_AutoComplete_OnSearchComplete|
+|[2064](events/event-2064.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Browseui_AutoComplete_OnSearchComplete|
+|[2065](events/event-2065.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Browseui_AddressEditBox_ParsePath|
+|[2067](events/event-2067.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Browseui_FrameMessagePump_Activate|
+|[3007](events/event-3007.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ComCtl32_PropertyPage_CreatePropertySheetPage|
+|[4001](events/event-4001.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_CTray_MessageLoop_LButtonAction|
+|[4005](events/event-4005.md)|None|etw_level_Informational, etw_keywords_Shell WDI, etw_task_CTray_Responsiveness|
+|[4007](events/event-4007.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_CTray_MessageLoop_Return|
+|[4008](events/event-4008.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_CTray_MessageLoop_Return|
+|[6202](events/event-6202.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_Extract|
+|[6204](events/event-6204.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_FastExtract|
+|[6206](events/event-6206.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_CacheLookup|
+|[6217](events/event-6217.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Thumbnails_GetThumbnail|
+|[6218](events/event-6218.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_GetThumbnail|
+|[6220](events/event-6220.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_SetThumbnail|
+|[6226](events/event-6226.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_ReadThumbsDB|
+|[6228](events/event-6228.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_LoadFromThumbsDB|
+|[6230](events/event-6230.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_WriteThumbsDB|
+|[6231](events/event-6231.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Thumbnails_CropLookupSize|
+|[6236](events/event-6236.md)|None|etw_level_Informational, etw_task_RemoteThumbsDb_SQM|
+|[6237](events/event-6237.md)|None|etw_level_Informational, etw_task_RemoteThumbsDb_SQM|
+|[6238](events/event-6238.md)|None|etw_level_Informational, etw_task_RemoteThumbsDb_SQM|
+|[6239](events/event-6239.md)|None|etw_level_Error, etw_keywords_Shell, etw_task_Thumbnails_FullExtractionFailed|
+|[6241](events/event-6241.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_CacheDataFile_GetThumbnail|
+|[6242](events/event-6242.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Thumbnails_GetThumbnailStream|
+|[6243](events/event-6243.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_GetThumbnailStream|
+|[6510](events/event-6510.md)|None|etw_level_Informational, etw_keywords_Shell ExplorerPerf, etw_opcode_Stop, etw_task_CommonFileDialog_Open|
+|[6515](events/event-6515.md)|None|etw_level_Informational, etw_task_CommonFileDialog_SQM|
+|[6516](events/event-6516.md)|None|etw_level_Informational, etw_task_CommonFileDialog_SQM|
+|[6517](events/event-6517.md)|None|etw_level_Informational, etw_task_CommonFileDialog_SQM|
+|[6518](events/event-6518.md)|None|etw_level_Informational, etw_task_CommonFileDialog_SQM|
+|[9501](events/event-9501.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Open|
+|[9509](events/event-9509.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Explorer_StartPane_AllPrograms_Show|
+|[9513](events/event-9513.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartPane_OpenBox_Char|
+|[9517](events/event-9517.md)|None|etw_level_Informational, etw_keywords_Shell ExplorerPerf, etw_task_Explorer_StartPane_OpenBox_SearchReady|
+|[9525](events/event-9525.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_ControlPanel_Launch|
+|[9527](events/event-9527.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Favorites_Launch|
+|[9529](events/event-9529.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_RecentItems_Launch|
+|[9531](events/event-9531.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Help_Launch|
+|[9533](events/event-9533.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Network_Launch|
+|[9535](events/event-9535.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Printers_Launch|
+|[9539](events/event-9539.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_SPAD_Launch|
+|[9541](events/event-9541.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_AdminTools_Launch|
+|[9543](events/event-9543.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Run_Launch|
+|[9545](events/event-9545.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_MFU_Launch|
+|[9547](events/event-9547.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Pinned_Launch|
+|[9549](events/event-9549.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_ConnectTo_Launch|
+|[9551](events/event-9551.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartPane_AllPrograms_BackButton|
+|[9553](events/event-9553.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ExplorerFrame_OpenComputer|
+|[9555](events/event-9555.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ExplorerFrame_OpenDocuments|
+|[9557](events/event-9557.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ExplorerFrame_OpenMusic|
+|[9559](events/event-9559.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ExplorerFrame_OpenPictures|
+|[9560](events/event-9560.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ExplorerFrame_NavigateDataSource|
+|[9561](events/event-9561.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Visible_Menu_Items|
+|[9563](events/event-9563.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Mode|
+|[9565](events/event-9565.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Pinned_Item_Added|
+|[9567](events/event-9567.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Pinned_Item_Removed|
+|[9568](events/event-9568.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Pinned_Items_Rearranged|
+|[9569](events/event-9569.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartPane_AllPrograms_Launched|
+|[9571](events/event-9571.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Pinned_Count|
+|[9573](events/event-9573.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_MFU_Count|
+|[9575](events/event-9575.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartPane_AllPrograms_Folder_Opened|
+|[9577](events/event-9577.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartPane_AllPrograms_Count|
+|[9581](events/event-9581.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_NetworkCons_Launch|
+|[9583](events/event-9583.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_Is_Mobile_PC|
+|[9585](events/event-9585.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_Is_Joined_To_Domain|
+|[9587](events/event-9587.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Cascading_Menu_Items|
+|[9589](events/event-9589.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_User_Account_Type|
+|[9591](events/event-9591.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_Breadcrumbbar_Selected_Navigation|
+|[9593](events/event-9593.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_Breadcrumbbar_Edited_Navigation|
+|[9595](events/event-9595.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_WordWheel_Activated|
+|[9597](events/event-9597.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ExplorerFrame_OpenProfile|
+|[9599](events/event-9599.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_Help_Launched|
+|[9613](events/event-9613.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_InitInstrumentation|
+|[9615](events/event-9615.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_FolderSettings|
+|[9617](events/event-9617.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_Start|
+|[9619](events/event-9619.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Games_Launch|
+|[9625](events/event-9625.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Start, etw_task_Explorer_PlaySoundRequest|
+|[9626](events/event-9626.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_PlaySoundRequest|
+|[9631](events/event-9631.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_SessionChangeMessage|
+|[9633](events/event-9633.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_PowerMessage|
+|[9635](events/event-9635.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_PowerBroadcastMessage|
+|[9639](events/event-9639.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_IconCache_ImageListSize|
+|[9641](events/event-9641.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_IconCache_TableSize|
+|[9647](events/event-9647.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_task_Explorer_Startup_PhaseReached|
+|[9648](events/event-9648.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Start, etw_task_Explorer_Startup_Step|
+|[9649](events/event-9649.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_Startup_Step|
+|[9652](events/event-9652.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Start, etw_task_Explorer_Startup_ParallelStep|
+|[9653](events/event-9653.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_Startup_ParallelStep|
+|[9654](events/event-9654.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_task_0|
+|[9660](events/event-9660.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_Roaming_BootstrapRestore|
+|[9705](events/event-9705.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Start, etw_task_Explorer_EnumeratingRunKey|
+|[9706](events/event-9706.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_EnumeratingRunKey|
+|[9707](events/event-9707.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Start, etw_task_Explorer_ExecutingFromRunKey|
+|[9708](events/event-9708.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_ExecutingFromRunKey|
+|[9709](events/event-9709.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Start, etw_task_Explorer_ExecutingFromRunKeyAsJob|
+|[9710](events/event-9710.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_ExecutingFromRunKeyAsJob|
+|[9711](events/event-9711.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Start, etw_task_Explorer_ExecutingFromStartupMenu|
+|[9712](events/event-9712.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_ExecutingFromStartupMenu|
+|[9713](events/event-9713.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_task_Explorer_StartupAppName|
+|[9714](events/event-9714.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_task_Explorer_BoxingProcess|
+|[9716](events/event-9716.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_task_Explorer_Startup_Run6432_Stats|
+|[9717](events/event-9717.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_task_Explorer_Startup_Run6432_Failed|
+|[9808](events/event-9808.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_EXPLORER_NAVIGATE|
+|[9810](events/event-9810.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_EXPLORER_DRAG_DROP|
+|[9811](events/event-9811.md)|None|etw_level_Error, etw_keywords_Shell, etw_task_Explorer_PinDefaultItems_RetrievePidlFailure|
+|[9812](events/event-9812.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_PinnedListItemRemoved|
+|[9903](events/event-9903.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_ExplorerFrame_FirstPage_RealizeGroupPass1|
+|[9904](events/event-9904.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_ExplorerFrame_FirstPage_RealizeGroupPass1|
+|[9905](events/event-9905.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_ExplorerFrame_FirstPage_RealizeGroupPass2|
+|[9906](events/event-9906.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_ExplorerFrame_FirstPage_RealizeGroupPass2|
+|[9907](events/event-9907.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ExplorerFrame_ExplorerLauncher_Launch_Failure|
+|[9910](events/event-9910.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_SearchFolder_CreateItemCollection|
+|[11011](events/event-11011.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_FilterControl_InsertFilters|
+|[11013](events/event-11013.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_ListViewPopup_SetRedraw|
+|[11014](events/event-11014.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_ListViewPopup_SetRedraw|
 |[12001](events/event-12001.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Shlwapi_SHRegisterValidateTemplate|
 |[13503](events/event-13503.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Notification_Launch|
 |[13505](events/event-13505.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Notification_Displayed|
@@ -90,9 +220,6 @@ This page contains the list of events for Microsoft-Windows-Shell-Core, as colle
 |[13517](events/event-13517.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Notification_WrenchDismissed|
 |[14004](events/event-14004.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_PreviewPane_UpdateSelection|
 |[14009](events/event-14009.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_PreviewPane_SQM|
-|[1415](events/event-1415.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_OpenSearch_Http_Response|
-|[1417](events/event-1417.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_OpenSearch_Description_Installed|
-|[1419](events/event-1419.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_OpenSearch_Provider_Queried|
 |[14201](events/event-14201.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_TypeAhead_SearchHistoryResults|
 |[14202](events/event-14202.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_TypeAhead_SearchHistoryResults|
 |[14203](events/event-14203.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_TypeAhead_LocalMetadataResults|
@@ -264,7 +391,6 @@ This page contains the list of events for Microsoft-Windows-Shell-Core, as colle
 |[19628](events/event-19628.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Shell32_ControlPanel_SlowAppletsLoaded|
 |[19801](events/event-19801.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ShowDesktop_Usage|
 |[19900](events/event-19900.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_StartButton_ChangeState|
-|[2](events/event-2.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_AggregatePropertyProvider_GetValue|
 |[20007](events/event-20007.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_StartMenu_Left_Control_Button_Split_Open|
 |[20009](events/event-20009.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_StartMenu_Right_Control_Button_Split_Open|
 |[20011](events/event-20011.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_StartMenu_Left_Control_Button_Label|
@@ -298,21 +424,6 @@ This page contains the list of events for Microsoft-Windows-Shell-Core, as colle
 |[20072](events/event-20072.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Destination_Menu_Layout_StartMenuTaskbar|
 |[20073](events/event-20073.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Destination_Removal_StartMenuTaskbar|
 |[20076](events/event-20076.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_StartMenu_Animation|
-|[2022](events/event-2022.md)|None|etw_level_Informational, etw_keywords_Shell ExplorerPerf, etw_task_Browseui_FrameMessagePump_KeyDown|
-|[2023](events/event-2023.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Browseui_FrameMessagePump_LButtonAction|
-|[2024](events/event-2024.md)|None|etw_level_Informational, etw_keywords_Shell ExplorerPerf, etw_task_Browseui_FrameMessagePump_RButtonAction|
-|[2045](events/event-2045.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Browseui_Back_Button_Clicked|
-|[2047](events/event-2047.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Browseui_Forward_Button_Clicked|
-|[2057](events/event-2057.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Browseui_AutoComplete_StartCompletion|
-|[2058](events/event-2058.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Browseui_AutoComplete_StartCompletion|
-|[2059](events/event-2059.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Browseui_AutoComplete_UpdateCompletion|
-|[2060](events/event-2060.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Browseui_AutoComplete_UpdateCompletion|
-|[2061](events/event-2061.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Browseui_AutoComplete_StartSearch|
-|[2062](events/event-2062.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Browseui_AutoComplete_StartSearch|
-|[2063](events/event-2063.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Browseui_AutoComplete_OnSearchComplete|
-|[2064](events/event-2064.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Browseui_AutoComplete_OnSearchComplete|
-|[2065](events/event-2065.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Browseui_AddressEditBox_ParsePath|
-|[2067](events/event-2067.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Browseui_FrameMessagePump_Activate|
 |[20920](events/event-20920.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_UserInfo_GetUserName|
 |[20921](events/event-20921.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_UserInfo_GetUserName|
 |[21001](events/event-21001.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_SystemTray_ChangeNotify|
@@ -511,13 +622,6 @@ This page contains the list of events for Microsoft-Windows-Shell-Core, as colle
 |[28191](events/event-28191.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Shell32_OperationTile_SQMStream|
 |[28193](events/event-28193.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Shell32_OperationManager_SQMStream|
 |[28195](events/event-28195.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Shell32_ConflictUI_SQMStream|
-|[3](events/event-3.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_AggregatePropertyProvider_GetValueObject|
-|[3007](events/event-3007.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ComCtl32_PropertyPage_CreatePropertySheetPage|
-|[4](events/event-4.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_AggregatePropertyProvider_GetValueObject|
-|[4001](events/event-4001.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_CTray_MessageLoop_LButtonAction|
-|[4005](events/event-4005.md)|None|etw_level_Informational, etw_keywords_Shell WDI, etw_task_CTray_Responsiveness|
-|[4007](events/event-4007.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_CTray_MessageLoop_Return|
-|[4008](events/event-4008.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_CTray_MessageLoop_Return|
 |[50201](events/event-50201.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_CDBurn_SQM_PrepareDisc_Launch|
 |[50202](events/event-50202.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_CDBurn_SQM_PrepareDisc_Mastered|
 |[50203](events/event-50203.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_CDBurn_SQM_PrepareDisc_LiveFS|
@@ -678,7 +782,6 @@ This page contains the list of events for Microsoft-Windows-Shell-Core, as colle
 |[61621](events/event-61621.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_DataPackage_SetCustomText|
 |[61641](events/event-61641.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_HtmlFormatHelper_GetStaticFragment|
 |[61649](events/event-61649.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_HtmlFormatHelper_CreateHtmlFormat|
-|[6202](events/event-6202.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_Extract|
 |[62020](events/event-62020.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_PlaylistFolder_Document_Load|
 |[62021](events/event-62021.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_PlaylistFolder_Document_Load|
 |[62022](events/event-62022.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_PlaylistFolder_Document_GetItem|
@@ -692,8 +795,6 @@ This page contains the list of events for Microsoft-Windows-Shell-Core, as colle
 |[62031](events/event-62031.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_PlaylistFolder_Document_Commit|
 |[62032](events/event-62032.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_PlaylistFolder_Document_Save|
 |[62033](events/event-62033.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_PlaylistFolder_Document_Save|
-|[6204](events/event-6204.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_FastExtract|
-|[6206](events/event-6206.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_CacheLookup|
 |[62072](events/event-62072.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_OperationManager_TileAnimation_Started|
 |[62073](events/event-62073.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_OperationManager_TileAnimation_Frame_Updated|
 |[62074](events/event-62074.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_OperationManager_TileAnimation_Terminated|
@@ -745,11 +846,8 @@ This page contains the list of events for Microsoft-Windows-Shell-Core, as colle
 |[62162](events/event-62162.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_FilePicker_NamespaceExtensionFilter_Deny|
 |[62163](events/event-62163.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_TileManagement_PackageInfo_MergePriFailed|
 |[62164](events/event-62164.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_TileManagement_PackageInfo_InstallFailed|
-|[6217](events/event-6217.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Thumbnails_GetThumbnail|
 |[62170](events/event-62170.md)|None|etw_level_Informational, etw_keywords_LogonPerformance, etw_opcode_Start, etw_task_LogonPerformance_TaskRunTime|
 |[62171](events/event-62171.md)|None|etw_level_Informational, etw_keywords_LogonPerformance, etw_opcode_Stop, etw_task_LogonPerformance_TaskRunTime|
-|[6218](events/event-6218.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_GetThumbnail|
-|[6220](events/event-6220.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_SetThumbnail|
 |[62200](events/event-62200.md)|None|etw_level_Error, etw_task_Activation_Watermark_Register_Licensing_Event_Error|
 |[62201](events/event-62201.md)|None|etw_level_Error, etw_task_Activation_Watermark_Window_Creation_Error|
 |[62202](events/event-62202.md)|None|etw_level_Error, etw_task_Activation_Watermark_Render_Error|
@@ -757,10 +855,6 @@ This page contains the list of events for Microsoft-Windows-Shell-Core, as colle
 |[62250](events/event-62250.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_TileManagement_AppTileInfo_UpdateLSN_Alarm|
 |[62251](events/event-62251.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_TileManagement_AppTileInfo_RevertUpdateLSN_Alarm|
 |[62252](events/event-62252.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_TileManagement_AppTileInfo_RemoveLSN_Alarm|
-|[6226](events/event-6226.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_ReadThumbsDB|
-|[6228](events/event-6228.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_LoadFromThumbsDB|
-|[6230](events/event-6230.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_WriteThumbsDB|
-|[6231](events/event-6231.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Thumbnails_CropLookupSize|
 |[62320](events/event-62320.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_FilePlaceholder_Save|
 |[62321](events/event-62321.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_FilePlaceholder_Save|
 |[62323](events/event-62323.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_FilePlaceholder_ClearPrimaryStream|
@@ -776,11 +870,7 @@ This page contains the list of events for Microsoft-Windows-Shell-Core, as colle
 |[62333](events/event-62333.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_FileChunkMap_Create|
 |[62335](events/event-62335.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_FileChunkMap_SetFileCompletionState|
 |[62336](events/event-62336.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_FileChunkMap_SetFileCompletionState|
-|[6236](events/event-6236.md)|None|etw_level_Informational, etw_task_RemoteThumbsDb_SQM|
-|[6237](events/event-6237.md)|None|etw_level_Informational, etw_task_RemoteThumbsDb_SQM|
-|[6238](events/event-6238.md)|None|etw_level_Informational, etw_task_RemoteThumbsDb_SQM|
 |[62380](events/event-62380.md)|None|etw_level_Informational, etw_keywords_Shell ElizaPrototype, etw_task_StartMenuFeedback|
-|[6239](events/event-6239.md)|None|etw_level_Error, etw_keywords_Shell, etw_task_Thumbnails_FullExtractionFailed|
 |[62400](events/event-62400.md)|None|etw_level_Informational, etw_keywords_Shell CloudExperienceHost, etw_opcode_Start, etw_task_CloudExperienceHost_AppActivity|
 |[62401](events/event-62401.md)|None|etw_level_Informational, etw_keywords_Shell CloudExperienceHost, etw_opcode_Stop, etw_task_CloudExperienceHost_AppActivity|
 |[62402](events/event-62402.md)|None|etw_level_Informational, etw_keywords_Shell CloudExperienceHost, etw_task_CloudExperienceHost_AppEvent1|
@@ -791,101 +881,11 @@ This page contains the list of events for Microsoft-Windows-Shell-Core, as colle
 |[62407](events/event-62407.md)|None|etw_level_Informational, etw_keywords_Shell CloudExperienceHost, etw_task_CloudExperienceHost_WebAppEvent2|
 |[62408](events/event-62408.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf keyword_200000000000, etw_opcode_Start, etw_task_Explorer_ExecutingPackagedStartupApp|
 |[62409](events/event-62409.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf keyword_200000000000, etw_opcode_Stop, etw_task_Explorer_ExecutingPackagedStartupApp|
-|[6241](events/event-6241.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_CacheDataFile_GetThumbnail|
-|[6242](events/event-6242.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Thumbnails_GetThumbnailStream|
 |[62421](events/event-62421.md)|None|etw_level_Informational, etw_keywords_Restore, etw_opcode_Stop, etw_task_LogonTask_Restore|
 |[62422](events/event-62422.md)|None|etw_level_Informational, etw_keywords_Restore, etw_task_LogonTask_Restore|
 |[62423](events/event-62423.md)|None|etw_level_Informational, etw_keywords_Restore, etw_task_LogonTask_Restore|
-|[6243](events/event-6243.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_Thumbnails_GetThumbnailStream|
 |[62440](events/event-62440.md)|None|etw_level_Informational, etw_task_AppDefaults_UserChoiceHashMismatch|
 |[62441](events/event-62441.md)|None|etw_level_Informational, etw_task_AppDefaults_ResetToRecommended|
 |[62442](events/event-62442.md)|None|etw_level_Informational, etw_task_AppDefaults_UpgradeToRecommendedApp|
 |[62443](events/event-62443.md)|None|etw_level_Informational, etw_task_AppDefaults_Info|
 |[62460](events/event-62460.md)|None|etw_level_Informational, etw_keywords_Shell OOBEHealth, etw_task_OOBEHealth_Progress|
-|[6510](events/event-6510.md)|None|etw_level_Informational, etw_keywords_Shell ExplorerPerf, etw_opcode_Stop, etw_task_CommonFileDialog_Open|
-|[6515](events/event-6515.md)|None|etw_level_Informational, etw_task_CommonFileDialog_SQM|
-|[6516](events/event-6516.md)|None|etw_level_Informational, etw_task_CommonFileDialog_SQM|
-|[6517](events/event-6517.md)|None|etw_level_Informational, etw_task_CommonFileDialog_SQM|
-|[6518](events/event-6518.md)|None|etw_level_Informational, etw_task_CommonFileDialog_SQM|
-|[9501](events/event-9501.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Open|
-|[9509](events/event-9509.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_Explorer_StartPane_AllPrograms_Show|
-|[9513](events/event-9513.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartPane_OpenBox_Char|
-|[9517](events/event-9517.md)|None|etw_level_Informational, etw_keywords_Shell ExplorerPerf, etw_task_Explorer_StartPane_OpenBox_SearchReady|
-|[9525](events/event-9525.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_ControlPanel_Launch|
-|[9527](events/event-9527.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Favorites_Launch|
-|[9529](events/event-9529.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_RecentItems_Launch|
-|[9531](events/event-9531.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Help_Launch|
-|[9533](events/event-9533.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Network_Launch|
-|[9535](events/event-9535.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Printers_Launch|
-|[9539](events/event-9539.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_SPAD_Launch|
-|[9541](events/event-9541.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_AdminTools_Launch|
-|[9543](events/event-9543.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Run_Launch|
-|[9545](events/event-9545.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_MFU_Launch|
-|[9547](events/event-9547.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Pinned_Launch|
-|[9549](events/event-9549.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_ConnectTo_Launch|
-|[9551](events/event-9551.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartPane_AllPrograms_BackButton|
-|[9553](events/event-9553.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ExplorerFrame_OpenComputer|
-|[9555](events/event-9555.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ExplorerFrame_OpenDocuments|
-|[9557](events/event-9557.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ExplorerFrame_OpenMusic|
-|[9559](events/event-9559.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ExplorerFrame_OpenPictures|
-|[9560](events/event-9560.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ExplorerFrame_NavigateDataSource|
-|[9561](events/event-9561.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Visible_Menu_Items|
-|[9563](events/event-9563.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Mode|
-|[9565](events/event-9565.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Pinned_Item_Added|
-|[9567](events/event-9567.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Pinned_Item_Removed|
-|[9568](events/event-9568.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Pinned_Items_Rearranged|
-|[9569](events/event-9569.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartPane_AllPrograms_Launched|
-|[9571](events/event-9571.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Pinned_Count|
-|[9573](events/event-9573.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_MFU_Count|
-|[9575](events/event-9575.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartPane_AllPrograms_Folder_Opened|
-|[9577](events/event-9577.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartPane_AllPrograms_Count|
-|[9581](events/event-9581.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_NetworkCons_Launch|
-|[9583](events/event-9583.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_Is_Mobile_PC|
-|[9585](events/event-9585.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_Is_Joined_To_Domain|
-|[9587](events/event-9587.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Cascading_Menu_Items|
-|[9589](events/event-9589.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_User_Account_Type|
-|[9591](events/event-9591.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_Breadcrumbbar_Selected_Navigation|
-|[9593](events/event-9593.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_Breadcrumbbar_Edited_Navigation|
-|[9595](events/event-9595.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_WordWheel_Activated|
-|[9597](events/event-9597.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ExplorerFrame_OpenProfile|
-|[9599](events/event-9599.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_Help_Launched|
-|[9613](events/event-9613.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_InitInstrumentation|
-|[9615](events/event-9615.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_FolderSettings|
-|[9617](events/event-9617.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_Start|
-|[9619](events/event-9619.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_StartMenu_Games_Launch|
-|[9625](events/event-9625.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Start, etw_task_Explorer_PlaySoundRequest|
-|[9626](events/event-9626.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_PlaySoundRequest|
-|[9631](events/event-9631.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_SessionChangeMessage|
-|[9633](events/event-9633.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_PowerMessage|
-|[9635](events/event-9635.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_PowerBroadcastMessage|
-|[9639](events/event-9639.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_IconCache_ImageListSize|
-|[9641](events/event-9641.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_IconCache_TableSize|
-|[9647](events/event-9647.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_task_Explorer_Startup_PhaseReached|
-|[9648](events/event-9648.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Start, etw_task_Explorer_Startup_Step|
-|[9649](events/event-9649.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_Startup_Step|
-|[9652](events/event-9652.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Start, etw_task_Explorer_Startup_ParallelStep|
-|[9653](events/event-9653.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_Startup_ParallelStep|
-|[9654](events/event-9654.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_task_0|
-|[9660](events/event-9660.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_Roaming_BootstrapRestore|
-|[9705](events/event-9705.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Start, etw_task_Explorer_EnumeratingRunKey|
-|[9706](events/event-9706.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_EnumeratingRunKey|
-|[9707](events/event-9707.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Start, etw_task_Explorer_ExecutingFromRunKey|
-|[9708](events/event-9708.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_ExecutingFromRunKey|
-|[9709](events/event-9709.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Start, etw_task_Explorer_ExecutingFromRunKeyAsJob|
-|[9710](events/event-9710.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_ExecutingFromRunKeyAsJob|
-|[9711](events/event-9711.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Start, etw_task_Explorer_ExecutingFromStartupMenu|
-|[9712](events/event-9712.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_opcode_Stop, etw_task_Explorer_ExecutingFromStartupMenu|
-|[9713](events/event-9713.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_task_Explorer_StartupAppName|
-|[9714](events/event-9714.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_task_Explorer_BoxingProcess|
-|[9716](events/event-9716.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_task_Explorer_Startup_Run6432_Stats|
-|[9717](events/event-9717.md)|None|etw_level_Informational, etw_keywords_Shell StartupPerf, etw_task_Explorer_Startup_Run6432_Failed|
-|[9808](events/event-9808.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_EXPLORER_NAVIGATE|
-|[9810](events/event-9810.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_EXPLORER_DRAG_DROP|
-|[9811](events/event-9811.md)|None|etw_level_Error, etw_keywords_Shell, etw_task_Explorer_PinDefaultItems_RetrievePidlFailure|
-|[9812](events/event-9812.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_Explorer_PinnedListItemRemoved|
-|[9903](events/event-9903.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_ExplorerFrame_FirstPage_RealizeGroupPass1|
-|[9904](events/event-9904.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_ExplorerFrame_FirstPage_RealizeGroupPass1|
-|[9905](events/event-9905.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Start, etw_task_ExplorerFrame_FirstPage_RealizeGroupPass2|
-|[9906](events/event-9906.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_ExplorerFrame_FirstPage_RealizeGroupPass2|
-|[9907](events/event-9907.md)|None|etw_level_Informational, etw_keywords_Shell, etw_task_ExplorerFrame_ExplorerLauncher_Launch_Failure|
-|[9910](events/event-9910.md)|None|etw_level_Informational, etw_keywords_Shell, etw_opcode_Stop, etw_task_SearchFolder_CreateItemCollection|

@@ -7,7 +7,37 @@ This page contains the list of events for Microsoft-Windows-MF, as collected by 
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Informational, etw_task_MediaFoundationDevproxyQueueBuffersToDevice|
+|[2](events/event-2.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxySendBuffersToDevice|
+|[3](events/event-3.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxySendBuffersToDevice|
+|[4](events/event-4.md)|None|etw_level_Informational, etw_task_MediaFoundationDevproxyProcessInput|
+|[5](events/event-5.md)|None|etw_level_Informational, etw_opcode_METransformHaveOutput, etw_task_MediaFoundationDevproxyOutput|
+|[6](events/event-6.md)|None|etw_level_Informational, etw_opcode_DevproxyProcessOutput, etw_task_MediaFoundationDevproxyOutput|
+|[7](events/event-7.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxySetInputType|
+|[8](events/event-8.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxySetInputType|
+|[9](events/event-9.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxySetOutputType|
 |[10](events/event-10.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxySetOutputType|
+|[11](events/event-11.md)|None|etw_level_Informational, etw_task_MediaFoundationDevproxyFlush|
+|[12](events/event-12.md)|None|etw_level_Informational, etw_task_MediaFoundationDevproxyKSPinStateChange|
+|[13](events/event-13.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxyVideoPluginLoad|
+|[14](events/event-14.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxyVideoPluginLoad|
+|[15](events/event-15.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxyVideoPluginProcessInput|
+|[16](events/event-16.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxyVideoPluginProcessInput|
+|[17](events/event-17.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxyVideoPluginProcessOnput|
+|[18](events/event-18.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxyVideoPluginProcessOnput|
+|[19](events/event-19.md)|None|etw_level_Informational, etw_opcode_D3DAllocatorCreated, etw_task_MediaFoundationDevproxyD3DAllocator|
+|[20](events/event-20.md)|None|etw_level_Informational, etw_opcode_D3DAllocatorReleased, etw_task_MediaFoundationDevproxyD3DAllocator|
+|[23](events/event-23.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxyMFTDynamicFormatChange|
+|[24](events/event-24.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxyMFTDynamicFormatChange|
+|[25](events/event-25.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxyMFTStreamState|
+|[26](events/event-26.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxyMFTStreamState|
+|[27](events/event-27.md)|None|etw_level_Informational, etw_task_MediaFoundationDevproxySendBuffersToDevice|
+|[28](events/event-28.md)|None|etw_level_Informational, etw_task_task_0|
+|[29](events/event-29.md)|None|etw_level_Informational, etw_task_task_0|
+|[30](events/event-30.md)|None|etw_level_Informational, etw_task_task_0|
+|[31](events/event-31.md)|None|etw_level_Informational, etw_task_MediaFoundationDevproxyPhotoConfirmation|
+|[32](events/event-32.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxyDMFTNotification|
+|[33](events/event-33.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxyDMFTNotification|
+|[34](events/event-34.md)|None|etw_level_Informational, etw_task_MediaFoundationDevproxyDMFTNotificationInit|
 |[1001](events/event-1001.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationLoadTopology|
 |[1002](events/event-1002.md)|None|etw_level_Informational, etw_task_MediaFoundationLoadTopology|
 |[1003](events/event-1003.md)|None|etw_level_Informational, etw_task_MediaFoundationFallBackToDefaultD3DFmt|
@@ -39,7 +69,6 @@ This page contains the list of events for Microsoft-Windows-MF, as collected by 
 |[1029](events/event-1029.md)|None|etw_level_Verbose, etw_opcode_Stop, etw_task_MediaProc:SourceNode_ProcessSample|
 |[1098](events/event-1098.md)|None|etw_level_Verbose, etw_task_MediaFoundationOPMPoll|
 |[1099](events/event-1099.md)|None|etw_level_Verbose, etw_task_MediaFoundationOPMPoll_1099|
-|[11](events/event-11.md)|None|etw_level_Informational, etw_task_MediaFoundationDevproxyFlush|
 |[1100](events/event-1100.md)|None|etw_level_Verbose, etw_task_MediaFoundationIMFInputTrustAuthority_RequestAccess|
 |[1101](events/event-1101.md)|None|etw_level_Verbose, etw_task_MediaFoundationIMFInputTrustAuthority_GetDecrypter|
 |[1102](events/event-1102.md)|None|etw_level_Verbose, etw_task_MediaFoundationIMFInputTrustAuthority_GetPolicy|
@@ -85,7 +114,6 @@ This page contains the list of events for Microsoft-Windows-MF, as collected by 
 |[1150](events/event-1150.md)|None|etw_level_Verbose, etw_task_MediaFoundationVideoFrameConstrict|
 |[1151](events/event-1151.md)|None|etw_level_Error, etw_task_MediaFoundationOPMFail|
 |[1160](events/event-1160.md)|None|etw_level_Informational, etw_task_MediaFoundationPMPServerProxy_LaunchedProcess|
-|[12](events/event-12.md)|None|etw_level_Informational, etw_task_MediaFoundationDevproxyKSPinStateChange|
 |[1200](events/event-1200.md)|None|etw_level_Informational, etw_task_task_0|
 |[1201](events/event-1201.md)|None|etw_level_Informational, etw_task_task_0|
 |[1202](events/event-1202.md)|None|etw_level_Informational, etw_task_MFDevproxyMFTProcessMessageTask|
@@ -102,7 +130,6 @@ This page contains the list of events for Microsoft-Windows-MF, as collected by 
 |[1213](events/event-1213.md)|None|etw_level_Verbose, etw_opcode_Start, etw_task_MediaFoundationAsyncProcessOutput(MFT)|
 |[1214](events/event-1214.md)|None|etw_level_Verbose, etw_opcode_Stop, etw_task_MediaFoundationAsyncProcessOutput(MFT)|
 |[1215](events/event-1215.md)|None|etw_level_Verbose, etw_task_MediaFoundationNodeInfoSetWorkQueue|
-|[13](events/event-13.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxyVideoPluginLoad|
 |[1300](events/event-1300.md)|None|etw_level_Verbose, etw_task_MFDSReceiveSampleCP|
 |[1301](events/event-1301.md)|None|etw_level_Verbose, etw_task_MFDSSendSampleEvent|
 |[1302](events/event-1302.md)|None|etw_level_Verbose, etw_task_MFDSSamplePoolPending|
@@ -125,7 +152,6 @@ This page contains the list of events for Microsoft-Windows-MF, as collected by 
 |[1351](events/event-1351.md)|None|etw_level_Verbose, etw_opcode_Stop, etw_task_MPCreateQTMovie|
 |[1352](events/event-1352.md)|None|etw_level_Verbose, etw_task_MPSampleQueue|
 |[1353](events/event-1353.md)|None|etw_level_Verbose, etw_task_MPCompactAudioSample|
-|[14](events/event-14.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxyVideoPluginLoad|
 |[1417](events/event-1417.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDeviceMFTInitialization|
 |[1418](events/event-1418.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDeviceMFTInitialization|
 |[1419](events/event-1419.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDeviceMFTSetOutputTypeInitialization|
@@ -136,29 +162,3 @@ This page contains the list of events for Microsoft-Windows-MF, as collected by 
 |[1424](events/event-1424.md)|None|etw_level_Informational, etw_task_MediaFoundationDeviceMFTMErrorThrown|
 |[1425](events/event-1425.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_DeviceMFTMDeviceTransformSetOutputType|
 |[1426](events/event-1426.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_DeviceMFTMDeviceTransformSetOutputType|
-|[15](events/event-15.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxyVideoPluginProcessInput|
-|[16](events/event-16.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxyVideoPluginProcessInput|
-|[17](events/event-17.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxyVideoPluginProcessOnput|
-|[18](events/event-18.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxyVideoPluginProcessOnput|
-|[19](events/event-19.md)|None|etw_level_Informational, etw_opcode_D3DAllocatorCreated, etw_task_MediaFoundationDevproxyD3DAllocator|
-|[2](events/event-2.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxySendBuffersToDevice|
-|[20](events/event-20.md)|None|etw_level_Informational, etw_opcode_D3DAllocatorReleased, etw_task_MediaFoundationDevproxyD3DAllocator|
-|[23](events/event-23.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxyMFTDynamicFormatChange|
-|[24](events/event-24.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxyMFTDynamicFormatChange|
-|[25](events/event-25.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxyMFTStreamState|
-|[26](events/event-26.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxyMFTStreamState|
-|[27](events/event-27.md)|None|etw_level_Informational, etw_task_MediaFoundationDevproxySendBuffersToDevice|
-|[28](events/event-28.md)|None|etw_level_Informational, etw_task_task_0|
-|[29](events/event-29.md)|None|etw_level_Informational, etw_task_task_0|
-|[3](events/event-3.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxySendBuffersToDevice|
-|[30](events/event-30.md)|None|etw_level_Informational, etw_task_task_0|
-|[31](events/event-31.md)|None|etw_level_Informational, etw_task_MediaFoundationDevproxyPhotoConfirmation|
-|[32](events/event-32.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxyDMFTNotification|
-|[33](events/event-33.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxyDMFTNotification|
-|[34](events/event-34.md)|None|etw_level_Informational, etw_task_MediaFoundationDevproxyDMFTNotificationInit|
-|[4](events/event-4.md)|None|etw_level_Informational, etw_task_MediaFoundationDevproxyProcessInput|
-|[5](events/event-5.md)|None|etw_level_Informational, etw_opcode_METransformHaveOutput, etw_task_MediaFoundationDevproxyOutput|
-|[6](events/event-6.md)|None|etw_level_Informational, etw_opcode_DevproxyProcessOutput, etw_task_MediaFoundationDevproxyOutput|
-|[7](events/event-7.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxySetInputType|
-|[8](events/event-8.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_MediaFoundationDevproxySetInputType|
-|[9](events/event-9.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_MediaFoundationDevproxySetOutputType|

@@ -7,7 +7,6 @@ This page contains the list of events for Microsoft-Windows-StateRepository, as 
 |events|Description|Tags|
 |---|---|---|
 |[100](events/event-100.md)|None|etw_level_Error, etw_keywords_STATEREPOSITORY_KEYWORD, etw_task_StateRepository.Task.DataAccessLayer|
-|[1000](events/event-1000.md)|None|etw_level_Informational, etw_keywords_STATEREPOSITORY_KEYWORD STATEREPOSITORY_PERF_KEYWORD, etw_task_StateRepository.Task.DataAccessLayer|
 |[101](events/event-101.md)|None|etw_level_Informational, etw_keywords_STATEREPOSITORY_KEYWORD, etw_task_StateRepository.Task.DataAccessLayer|
 |[102](events/event-102.md)|None|etw_level_Error, etw_keywords_STATEREPOSITORY_KEYWORD, etw_task_StateRepository.Task.DataAccessLayer|
 |[103](events/event-103.md)|None|etw_level_Error, etw_keywords_STATEREPOSITORY_KEYWORD, etw_task_StateRepository.Task.DataAccessLayer|
@@ -94,3 +93,4 @@ This page contains the list of events for Microsoft-Windows-StateRepository, as 
 |[275](events/event-275.md)|None|etw_level_Warning, etw_keywords_STATEREPOSITORY_KEYWORD keyword_200000000000, etw_task_StateRepository.Task.DataAccessLayer|
 |[276](events/event-276.md)|None|etw_level_Warning, etw_keywords_STATEREPOSITORY_KEYWORD keyword_200000000000, etw_task_StateRepository.Task.DataAccessLayer|
 |[277](events/event-277.md)|None|etw_level_Warning, etw_keywords_STATEREPOSITORY_KEYWORD keyword_200000000000, etw_task_StateRepository.Task.DataAccessLayer|
+|[1000](events/event-1000.md)|None|etw_level_Informational, etw_keywords_STATEREPOSITORY_KEYWORD STATEREPOSITORY_PERF_KEYWORD, etw_task_StateRepository.Task.DataAccessLayer|

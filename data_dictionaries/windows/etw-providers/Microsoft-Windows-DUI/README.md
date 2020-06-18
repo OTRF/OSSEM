@@ -6,12 +6,6 @@ This page contains the list of events for Microsoft-Windows-DUI, as collected by
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
-|[117](events/event-117.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Stop, etw_task_DirectUI_StyleSheet_Resolve|
-|[121](events/event-121.md)|None|etw_level_Informational, etw_keywords_Default, etw_task_DirectUI_TouchScrollViewer_TileManagement|
-|[122](events/event-122.md)|None|etw_level_Informational, etw_keywords_Default, etw_task_DirectUI_TouchScrollViewer_TileManagement|
-|[126](events/event-126.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Start, etw_task_DirectUI_TouchScrollViewer_IntersectTest|
-|[127](events/event-127.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Stop, etw_task_DirectUI_TouchScrollViewer_IntersectTest|
-|[128](events/event-128.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Start, etw_task_DirectUI_CreateElement|
 |[46](events/event-46.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Stop, etw_task_DirectUI_EndDeferWork|
 |[48](events/event-48.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Stop, etw_task_DirectUI_PostSourceChangeWork|
 |[66](events/event-66.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Stop, etw_task_DirectUI_AnimationTrapStoryboard|
@@ -33,3 +27,9 @@ This page contains the list of events for Microsoft-Windows-DUI, as collected by
 |[93](events/event-93.md)|None|etw_level_Informational, etw_keywords_Default, etw_task_DirectUI_ModernProgressBarForegroundColor|
 |[94](events/event-94.md)|None|etw_level_Informational, etw_keywords_Default, etw_task_DirectUI_ModernProgressBarBackgroundColor|
 |[95](events/event-95.md)|None|etw_level_Informational, etw_keywords_Default, etw_task_DirectUI_ModernProgressBarState|
+|[117](events/event-117.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Stop, etw_task_DirectUI_StyleSheet_Resolve|
+|[121](events/event-121.md)|None|etw_level_Informational, etw_keywords_Default, etw_task_DirectUI_TouchScrollViewer_TileManagement|
+|[122](events/event-122.md)|None|etw_level_Informational, etw_keywords_Default, etw_task_DirectUI_TouchScrollViewer_TileManagement|
+|[126](events/event-126.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Start, etw_task_DirectUI_TouchScrollViewer_IntersectTest|
+|[127](events/event-127.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Stop, etw_task_DirectUI_TouchScrollViewer_IntersectTest|
+|[128](events/event-128.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Start, etw_task_DirectUI_CreateElement|

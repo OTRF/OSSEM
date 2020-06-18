@@ -7,10 +7,6 @@ This page contains the list of events for Microsoft-Windows-ModernDeployment-Dia
 |events|Description|Tags|
 |---|---|---|
 |[100](events/event-100.md)|None|etw_level_Warning, etw_task_task_0|
-|[1002](events/event-1002.md)|None|etw_level_Error, etw_task_task_0|
-|[1005](events/event-1005.md)|None|etw_level_Error, etw_task_task_0|
-|[1006](events/event-1006.md)|None|etw_level_Error, etw_task_task_0|
-|[1008](events/event-1008.md)|None|etw_level_Error, etw_task_task_0|
 |[101](events/event-101.md)|None|etw_level_Informational, etw_task_task_0|
 |[102](events/event-102.md)|None|etw_level_Error, etw_task_task_0|
 |[103](events/event-103.md)|None|etw_level_Informational, etw_task_task_0|
@@ -20,9 +16,6 @@ This page contains the list of events for Microsoft-Windows-ModernDeployment-Dia
 |[108](events/event-108.md)|None|etw_level_Error, etw_task_task_0|
 |[109](events/event-109.md)|None|etw_level_Informational, etw_task_task_0|
 |[110](events/event-110.md)|None|etw_level_Error, etw_task_task_0|
-|[1100](events/event-1100.md)|None|etw_level_Informational, etw_task_task_0|
-|[1101](events/event-1101.md)|None|etw_level_Informational, etw_task_task_0|
-|[1102](events/event-1102.md)|None|etw_level_Informational, etw_task_task_0|
 |[112](events/event-112.md)|None|etw_level_Error, etw_task_task_0|
 |[113](events/event-113.md)|None|etw_level_Error, etw_task_task_0|
 |[115](events/event-115.md)|None|etw_level_Error, etw_task_task_0|
@@ -83,3 +76,10 @@ This page contains the list of events for Microsoft-Windows-ModernDeployment-Dia
 |[710](events/event-710.md)|None|etw_level_Error, etw_task_task_0|
 |[711](events/event-711.md)|None|etw_level_Error, etw_task_task_0|
 |[712](events/event-712.md)|None|etw_level_Warning, etw_task_task_0|
+|[1002](events/event-1002.md)|None|etw_level_Error, etw_task_task_0|
+|[1005](events/event-1005.md)|None|etw_level_Error, etw_task_task_0|
+|[1006](events/event-1006.md)|None|etw_level_Error, etw_task_task_0|
+|[1008](events/event-1008.md)|None|etw_level_Error, etw_task_task_0|
+|[1100](events/event-1100.md)|None|etw_level_Informational, etw_task_task_0|
+|[1101](events/event-1101.md)|None|etw_level_Informational, etw_task_task_0|
+|[1102](events/event-1102.md)|None|etw_level_Informational, etw_task_task_0|

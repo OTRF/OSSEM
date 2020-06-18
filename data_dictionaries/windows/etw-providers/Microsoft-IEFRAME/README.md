@@ -6,14 +6,37 @@ This page contains the list of events for Microsoft-IEFRAME, as collected by the
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[9](events/event-9.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_LeftButtonAction|
 |[10](events/event-10.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Shdocvw_BaseBrowser_Navigate|
 |[11](events/event-11.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Shdocvw_BaseBrowser_Navigate|
+|[12](events/event-12.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Shdocvw_BaseBrowser_DocumentComplete|
+|[17](events/event-17.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Browseui_Tabs_AddTabButton|
+|[18](events/event-18.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Browseui_Tabs_AddTabAPI|
+|[19](events/event-19.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Browseui_Tabs_TabReadyForNavigate|
+|[20](events/event-20.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Browseui_Tabs_CloseTab|
+|[21](events/event-21.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Browseui_Tabs_CloseTab|
+|[22](events/event-22.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Browseui_Tabs_SwitchTabs|
+|[23](events/event-23.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Browseui_Tabs_SwitchTabs|
+|[64](events/event-64.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_CtrlLeftButtonAction|
+|[65](events/event-65.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_ExtensionCreate|
+|[66](events/event-66.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_ExtensionCreate|
+|[67](events/event-67.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_ExtensionSetSite|
+|[68](events/event-68.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_ExtensionSetSite|
+|[69](events/event-69.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_ExtensionShowDW|
+|[70](events/event-70.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_ExtensionShowDW|
+|[71](events/event-71.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_ExtensionCloseDW|
+|[72](events/event-72.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_ExtensionCloseDW|
+|[73](events/event-73.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_ExtensionSetSiteNull|
+|[74](events/event-74.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_ExtensionSetSiteNull|
+|[75](events/event-75.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_ExtensionRelease|
+|[76](events/event-76.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_ExtensionRelease|
+|[78](events/event-78.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_LCIE_ForeignProcessMessageQueueDequeueAll|
+|[79](events/event-79.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_LCIE_ForeignProcessMessageQueueEnqueue|
 |[115](events/event-115.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_DataModel_Query|
 |[116](events/event-116.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_DataModel_Query|
 |[117](events/event-117.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_DataModel_Provider_Query|
 |[118](events/event-118.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_DataModel_Provider_Query|
 |[119](events/event-119.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_DataModel_Provider_WorkerThread|
-|[12](events/event-12.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Shdocvw_BaseBrowser_DocumentComplete|
 |[120](events/event-120.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_DataModel_Provider_WorkerThread|
 |[121](events/event-121.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_DataModel_Provider_CreateDataList|
 |[122](events/event-122.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_DataModel_Provider_CreateDataList|
@@ -27,10 +50,8 @@ This page contains the list of events for Microsoft-IEFRAME, as collected by the
 |[149](events/event-149.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_FavoritesBar_WriteLinksCache|
 |[150](events/event-150.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_FavoritesBar_WriteLinksCache|
 |[157](events/event-157.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Find_HighlightHitsStatus|
-|[17](events/event-17.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Browseui_Tabs_AddTabButton|
 |[173](events/event-173.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_IE_API_Timer|
 |[174](events/event-174.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_IE_API_Timer|
-|[18](events/event-18.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Browseui_Tabs_AddTabAPI|
 |[183](events/event-183.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Shdocvw_BaseBrowser_FireEvent_BeforeNavigate|
 |[184](events/event-184.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Shdocvw_BaseBrowser_FireEvent_BeforeNavigate|
 |[185](events/event-185.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Shdocvw_BaseBrowser_FireEvent_DocumentComplete|
@@ -38,16 +59,11 @@ This page contains the list of events for Microsoft-IEFRAME, as collected by the
 |[187](events/event-187.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Shdocvw_BaseBrowser_FireEvent_DownloadBegin|
 |[188](events/event-188.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Shdocvw_BaseBrowser_FireEvent_DownloadBegin|
 |[189](events/event-189.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Shdocvw_BaseBrowser_FireEvent_DownloadComplete|
-|[19](events/event-19.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Browseui_Tabs_TabReadyForNavigate|
 |[190](events/event-190.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Shdocvw_BaseBrowser_FireEvent_DownloadComplete|
 |[191](events/event-191.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Shdocvw_BaseBrowser_FireEvent_NavigateComplete|
 |[192](events/event-192.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Shdocvw_BaseBrowser_FireEvent_NavigateComplete|
-|[20](events/event-20.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Browseui_Tabs_CloseTab|
-|[21](events/event-21.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Browseui_Tabs_CloseTab|
 |[217](events/event-217.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_DLM_DownloadBar_Close|
-|[22](events/event-22.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Browseui_Tabs_SwitchTabs|
 |[225](events/event-225.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_IdleTask_Execution_Time|
-|[23](events/event-23.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Browseui_Tabs_SwitchTabs|
 |[232](events/event-232.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Find_MatchAndHighlightHits|
 |[311](events/event-311.md)|None|etw_level_Always, etw_keywords_immersive, etw_task_IMTravelLogMVC_StateChange|
 |[312](events/event-312.md)|None|etw_level_Always, etw_keywords_immersive, etw_task_IMTravelLogMVC_Info|
@@ -172,13 +188,11 @@ This page contains the list of events for Microsoft-IEFRAME, as collected by the
 |[613](events/event-613.md)|None|etw_level_Always, etw_keywords_verbose, etw_opcode_Stop, etw_task_Recovery_WriteInitialStore|
 |[614](events/event-614.md)|None|etw_level_Always, etw_keywords_verbose, etw_opcode_Start, etw_task_Recovery_ReadRecoveryStore|
 |[615](events/event-615.md)|None|etw_level_Always, etw_keywords_verbose, etw_opcode_Stop, etw_task_Recovery_ReadRecoveryStore|
-|[64](events/event-64.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_CtrlLeftButtonAction|
 |[642](events/event-642.md)|None|etw_level_Informational, etw_keywords_mshtml, etw_task_BrowseUI_CStorage|
 |[644](events/event-644.md)|None|etw_level_Informational, etw_keywords_HistoryJournal, etw_task_History_Journal_Write_Command|
 |[645](events/event-645.md)|None|etw_level_Always, etw_keywords_tabhydration, etw_task_Browseui_TabSuspension_Check_Suspendable|
 |[648](events/event-648.md)|None|etw_level_Informational, etw_keywords_HUX, etw_task_Browseui_TabBand_Activity|
 |[649](events/event-649.md)|None|etw_level_Informational, etw_keywords_HUX, etw_task_Browseui_TabBand_Activity|
-|[65](events/event-65.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_ExtensionCreate|
 |[650](events/event-650.md)|None|etw_level_Informational, etw_keywords_HUX, etw_task_Browseui_TabBand_Activity|
 |[651](events/event-651.md)|None|etw_level_Informational, etw_keywords_HUX, etw_task_Browseui_TabBand_Activity|
 |[652](events/event-652.md)|None|etw_level_Informational, etw_keywords_HUX, etw_task_Browseui_TabBand_Activity|
@@ -189,18 +203,4 @@ This page contains the list of events for Microsoft-IEFRAME, as collected by the
 |[657](events/event-657.md)|None|etw_level_Informational, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Device_Info_Util|
 |[658](events/event-658.md)|None|etw_level_Informational, etw_keywords_primarynav, etw_opcode_Start, etw_task_HistoryJournal|
 |[659](events/event-659.md)|None|etw_level_Informational, etw_keywords_primarynav, etw_opcode_Stop, etw_task_HistoryJournal|
-|[66](events/event-66.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_ExtensionCreate|
 |[666](events/event-666.md)|None|etw_level_Informational, etw_keywords_mshtml, etw_task_WebStorage_Platform|
-|[67](events/event-67.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_ExtensionSetSite|
-|[68](events/event-68.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_ExtensionSetSite|
-|[69](events/event-69.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_ExtensionShowDW|
-|[70](events/event-70.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_ExtensionShowDW|
-|[71](events/event-71.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_ExtensionCloseDW|
-|[72](events/event-72.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_ExtensionCloseDW|
-|[73](events/event-73.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_ExtensionSetSiteNull|
-|[74](events/event-74.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_ExtensionSetSiteNull|
-|[75](events/event-75.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_ExtensionRelease|
-|[76](events/event-76.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_ExtensionRelease|
-|[78](events/event-78.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_LCIE_ForeignProcessMessageQueueDequeueAll|
-|[79](events/event-79.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_LCIE_ForeignProcessMessageQueueEnqueue|
-|[9](events/event-9.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_LeftButtonAction|

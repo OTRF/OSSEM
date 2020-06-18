@@ -7,6 +7,14 @@ This page contains the list of events for Microsoft-Windows-DirectShow-Core, as 
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Warning, etw_task_task_0|
+|[2](events/event-2.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_PluginManager|
+|[3](events/event-3.md)|None|etw_level_Warning, etw_task_PluginManager|
+|[4](events/event-4.md)|None|etw_level_Informational, etw_task_PluginManager|
+|[5](events/event-5.md)|None|etw_level_Informational, etw_task_PluginManager|
+|[6](events/event-6.md)|None|etw_level_Informational, etw_task_PluginManager|
+|[7](events/event-7.md)|None|etw_level_Warning, etw_task_PluginManager|
+|[8](events/event-8.md)|None|etw_level_Verbose, etw_task_PluginManager|
+|[9](events/event-9.md)|None|etw_level_Verbose, etw_task_PluginManager|
 |[10](events/event-10.md)|None|etw_level_Verbose, etw_task_PluginManager|
 |[100](events/event-100.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_DirectShowFilterGraphRenderFile|
 |[101](events/event-101.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_DirectShowFilterGraphRenderFile|
@@ -30,11 +38,3 @@ This page contains the list of events for Microsoft-Windows-DirectShow-Core, as 
 |[119](events/event-119.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_DirectShowFilterGraphGetState|
 |[120](events/event-120.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_DirectShowFilterGraphGetState|
 |[121](events/event-121.md)|None|etw_level_Informational, etw_task_DirectShowFilterGraphRemoveFilter|
-|[2](events/event-2.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_PluginManager|
-|[3](events/event-3.md)|None|etw_level_Warning, etw_task_PluginManager|
-|[4](events/event-4.md)|None|etw_level_Informational, etw_task_PluginManager|
-|[5](events/event-5.md)|None|etw_level_Informational, etw_task_PluginManager|
-|[6](events/event-6.md)|None|etw_level_Informational, etw_task_PluginManager|
-|[7](events/event-7.md)|None|etw_level_Warning, etw_task_PluginManager|
-|[8](events/event-8.md)|None|etw_level_Verbose, etw_task_PluginManager|
-|[9](events/event-9.md)|None|etw_level_Verbose, etw_task_PluginManager|

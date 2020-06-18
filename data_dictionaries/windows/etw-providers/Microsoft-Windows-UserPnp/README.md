@@ -6,15 +6,6 @@ This page contains the list of events for Microsoft-Windows-UserPnp, as collecte
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
-|[20001](events/event-20001.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
-|[20002](events/event-20002.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
-|[20003](events/event-20003.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
-|[20004](events/event-20004.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
-|[20005](events/event-20005.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
-|[20006](events/event-20006.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
-|[20007](events/event-20007.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
-|[20008](events/event-20008.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
-|[20009](events/event-20009.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
 |[7550](events/event-7550.md)|None|etw_level_Informational, etw_keywords_UserPnp, etw_task_PnP_PlugPlay_DeviceInstall|
 |[7551](events/event-7551.md)|None|etw_level_Informational, etw_keywords_UserPnp, etw_opcode_Start, etw_task_PnP_PlugPlay_ProcessDeviceInstallBatch|
 |[7552](events/event-7552.md)|None|etw_level_Informational, etw_keywords_UserPnp, etw_opcode_Stop, etw_task_PnP_PlugPlay_ProcessDeviceInstallBatch|
@@ -34,3 +25,12 @@ This page contains the list of events for Microsoft-Windows-UserPnp, as collecte
 |[8000](events/event-8000.md)|None|etw_level_Warning, etw_keywords_UserPnp, etw_task_task_0|
 |[8007](events/event-8007.md)|None|etw_level_Error, etw_keywords_UserPnp, etw_task_task_0|
 |[8010](events/event-8010.md)|None|etw_level_Informational, etw_task_FinishInstallOperationsstatehaschanged.|
+|[20001](events/event-20001.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
+|[20002](events/event-20002.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
+|[20003](events/event-20003.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
+|[20004](events/event-20004.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
+|[20005](events/event-20005.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
+|[20006](events/event-20006.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
+|[20007](events/event-20007.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
+|[20008](events/event-20008.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|
+|[20009](events/event-20009.md)|None|etw_level_Informational, etw_task_PnP_PlugPlay_DeviceInstall|

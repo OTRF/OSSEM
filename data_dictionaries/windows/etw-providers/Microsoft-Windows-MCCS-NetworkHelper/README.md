@@ -7,6 +7,7 @@ This page contains the list of events for Microsoft-Windows-MCCS-NetworkHelper, 
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Error, etw_keywords_Error, etw_task_task_0|
+|[2](events/event-2.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[101](events/event-101.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[102](events/event-102.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[103](events/event-103.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
@@ -17,7 +18,6 @@ This page contains the list of events for Microsoft-Windows-MCCS-NetworkHelper, 
 |[109](events/event-109.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[110](events/event-110.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[111](events/event-111.md)|None|etw_level_Error, etw_keywords_Error, etw_task_task_0|
-|[2](events/event-2.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[201](events/event-201.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[202](events/event-202.md)|None|etw_level_Informational, etw_keywords_StateTransition, etw_task_task_0|
 |[203](events/event-203.md)|None|etw_level_Informational, etw_keywords_StateTransition, etw_task_task_0|

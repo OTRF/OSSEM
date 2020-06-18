@@ -6,17 +6,6 @@ This page contains the list of events for Microsoft-Windows-Search, as collected
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
-|[10013](events/event-10013.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
-|[10014](events/event-10014.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
-|[10020](events/event-10020.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
-|[10021](events/event-10021.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
-|[10022](events/event-10022.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
-|[10023](events/event-10023.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
-|[10024](events/event-10024.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
-|[10025](events/event-10025.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
-|[10026](events/event-10026.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
-|[10027](events/event-10027.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
-|[10028](events/event-10028.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
 |[1003](events/event-1003.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
 |[1004](events/event-1004.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
 |[1005](events/event-1005.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
@@ -130,3 +119,14 @@ This page contains the list of events for Microsoft-Windows-Search, as collected
 |[9001](events/event-9001.md)|None|etw_level_Always, etw_opcode_opcode_192, etw_task_task_0|
 |[9002](events/event-9002.md)|None|etw_level_Always, etw_opcode_opcode_192, etw_task_task_0|
 |[9003](events/event-9003.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
+|[10013](events/event-10013.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
+|[10014](events/event-10014.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
+|[10020](events/event-10020.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
+|[10021](events/event-10021.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
+|[10022](events/event-10022.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
+|[10023](events/event-10023.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
+|[10024](events/event-10024.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
+|[10025](events/event-10025.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
+|[10026](events/event-10026.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
+|[10027](events/event-10027.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
+|[10028](events/event-10028.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|

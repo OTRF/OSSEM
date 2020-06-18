@@ -6,6 +6,17 @@ This page contains the list of events for Microsoft-Windows-Shell-AuthUI, as col
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[5001](events/event-5001.md)|None|etw_level_Error, etw_task_task_0|
+|[5002](events/event-5002.md)|None|etw_level_Error, etw_task_task_0|
+|[5004](events/event-5004.md)|None|etw_level_Error, etw_task_task_0|
+|[5006](events/event-5006.md)|None|etw_level_Error, etw_task_task_0|
+|[5007](events/event-5007.md)|None|etw_level_Error, etw_task_task_0|
+|[5008](events/event-5008.md)|None|etw_level_Warning, etw_task_task_0|
+|[5009](events/event-5009.md)|None|etw_level_Error, etw_task_task_0|
+|[5010](events/event-5010.md)|None|etw_level_Error, etw_task_task_0|
+|[5011](events/event-5011.md)|None|etw_level_Error, etw_task_task_0|
+|[5012](events/event-5012.md)|None|etw_level_Warning, etw_task_task_0|
+|[5013](events/event-5013.md)|None|etw_level_Warning, etw_task_task_0|
 |[15016](events/event-15016.md)|None|etw_level_Informational, etw_task_Common_AddCredProvider|
 |[15018](events/event-15018.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Common_CreateCredProviderThread|
 |[15020](events/event-15020.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Common_CredProviderThreadProc|
@@ -42,17 +53,6 @@ This page contains the list of events for Microsoft-Windows-Shell-AuthUI, as col
 |[25114](events/event-25114.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Logon_AccessPage_Camera_ControlCreation|
 |[25116](events/event-25116.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Logon_AccessPage_Camera_ViewfinderInitialization|
 |[45013](events/event-45013.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Shutdown_SlideToShutDownScreen_ShowModal|
-|[5001](events/event-5001.md)|None|etw_level_Error, etw_task_task_0|
-|[5002](events/event-5002.md)|None|etw_level_Error, etw_task_task_0|
-|[5004](events/event-5004.md)|None|etw_level_Error, etw_task_task_0|
-|[5006](events/event-5006.md)|None|etw_level_Error, etw_task_task_0|
-|[5007](events/event-5007.md)|None|etw_level_Error, etw_task_task_0|
-|[5008](events/event-5008.md)|None|etw_level_Warning, etw_task_task_0|
-|[5009](events/event-5009.md)|None|etw_level_Error, etw_task_task_0|
-|[5010](events/event-5010.md)|None|etw_level_Error, etw_task_task_0|
-|[5011](events/event-5011.md)|None|etw_level_Error, etw_task_task_0|
-|[5012](events/event-5012.md)|None|etw_level_Warning, etw_task_task_0|
-|[5013](events/event-5013.md)|None|etw_level_Warning, etw_task_task_0|
 |[55013](events/event-55013.md)|None|etw_level_Informational, etw_task_CredentialProviderUser_CloneUserArray|
 |[55014](events/event-55014.md)|None|etw_level_Informational, etw_task_CredentialProviderUser_SetProviderFilter|
 |[55015](events/event-55015.md)|None|etw_level_Informational, etw_task_CredentialProviderUser_GetAccountOptions|

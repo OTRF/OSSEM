@@ -7,7 +7,37 @@ This page contains the list of events for Microsoft-User Experience Virtualizati
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_task_task_0|
+|[2](events/event-2.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_AppAgent|
+|[3](events/event-3.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AgentService, etw_task_AgentService|
+|[4](events/event-4.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_AppAgentCommon|
+|[5](events/event-5.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_UevCommon|
+|[6](events/event-6.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_ChangeManager|
+|[7](events/event-7.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_Configuration|
+|[8](events/event-8.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_CscChangeManager|
+|[9](events/event-9.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_CSCTool, etw_task_CscTool|
 |[10](events/event-10.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_LocalStore|
+|[11](events/event-11.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_Orchestrator|
+|[12](events/event-12.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_Packager|
+|[13](events/event-13.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_TemplateService, etw_task_TemplateService|
+|[14](events/event-14.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_SynchronizationController, etw_task_SyncProvider|
+|[15](events/event-15.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_SynchronizationController, etw_task_SyncController|
+|[16](events/event-16.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_ApplicationMonitor, etw_task_AppMonitor|
+|[17](events/event-17.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_TemplateConsole, etw_task_TemplateConsole|
+|[18](events/event-18.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_TrayApp, etw_task_TrayApp|
+|[19](events/event-19.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_SynchronizationController, etw_task_CommonWinRT|
+|[507](events/event-507.md)|None|etw_level_Informational, etw_opcode_AppAgent, etw_task_AppAgentruntime|
+|[509](events/event-509.md)|None|etw_level_Error, etw_opcode_AppAgent, etw_task_AppAgentruntime|
+|[690](events/event-690.md)|None|etw_level_Always, etw_opcode_AgentService, etw_task_AgentService|
+|[691](events/event-691.md)|None|etw_level_Critical, etw_opcode_AgentService, etw_task_AgentService|
+|[692](events/event-692.md)|None|etw_level_Error, etw_opcode_AgentService, etw_task_AgentService|
+|[693](events/event-693.md)|None|etw_level_Warning, etw_opcode_AgentService, etw_task_AgentService|
+|[694](events/event-694.md)|None|etw_level_Informational, etw_opcode_AgentService, etw_task_AgentService|
+|[695](events/event-695.md)|None|etw_level_Verbose, etw_opcode_AgentService, etw_task_AgentService|
+|[701](events/event-701.md)|None|etw_level_Error, etw_opcode_AgentService, etw_task_ServiceControl|
+|[703](events/event-703.md)|None|etw_level_Warning, etw_opcode_AgentService, etw_task_CodeInjection|
+|[704](events/event-704.md)|None|etw_level_Warning, etw_opcode_AgentService, etw_task_CodeInjection|
+|[705](events/event-705.md)|None|etw_level_Error, etw_opcode_AgentService, etw_task_CodeInjection|
+|[707](events/event-707.md)|None|etw_level_Warning, etw_opcode_AgentService, etw_task_ServiceControl|
 |[1001](events/event-1001.md)|None|etw_level_Informational, etw_opcode_AppAgent, etw_task_task_0|
 |[1002](events/event-1002.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Configuration_60|
 |[1003](events/event-1003.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Configuration_60|
@@ -21,22 +51,6 @@ This page contains the list of events for Microsoft-User Experience Virtualizati
 |[1012](events/event-1012.md)|None|etw_level_Warning, etw_opcode_TemplateService, etw_task_TemplateProcessing|
 |[1013](events/event-1013.md)|None|etw_level_Error, etw_opcode_AppAgent, etw_task_TemplateProcessing|
 |[1014](events/event-1014.md)|None|etw_level_Warning, etw_opcode_TemplateService, etw_task_TemplateProcessing|
-|[11](events/event-11.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_Orchestrator|
-|[12](events/event-12.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_Packager|
-|[12003](events/event-12003.md)|None|etw_level_Informational, etw_task_Tasktosavein_memorySQMsessiondatatoafile.|
-|[13](events/event-13.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_TemplateService, etw_task_TemplateService|
-|[13000](events/event-13000.md)|None|etw_level_Warning, etw_opcode_SynchronizationController, etw_task_SyncController_160|
-|[13001](events/event-13001.md)|None|etw_level_Warning, etw_opcode_SynchronizationController, etw_task_SyncController_160|
-|[13002](events/event-13002.md)|None|etw_level_Warning, etw_opcode_SynchronizationController, etw_task_SyncController_160|
-|[13006](events/event-13006.md)|None|etw_level_Informational, etw_opcode_SynchronizationController, etw_task_SyncController_160|
-|[13007](events/event-13007.md)|None|etw_level_Warning, etw_opcode_SynchronizationController, etw_task_SyncController_160|
-|[13008](events/event-13008.md)|None|etw_level_Warning, etw_opcode_SynchronizationController, etw_task_SyncController_160|
-|[13009](events/event-13009.md)|None|etw_level_Warning, etw_opcode_SynchronizationController, etw_task_SyncController_160|
-|[14](events/event-14.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_SynchronizationController, etw_task_SyncProvider|
-|[14000](events/event-14000.md)|None|etw_level_Warning, etw_opcode_ApplicationMonitor, etw_task_AppMonitor_170|
-|[15](events/event-15.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_SynchronizationController, etw_task_SyncController|
-|[15000](events/event-15000.md)|None|etw_level_Error, etw_opcode_TemplateConsole, etw_task_TemplateConsole_1016|
-|[15003](events/event-15003.md)|None|etw_level_Error, etw_opcode_TemplateConsole, etw_task_TemplateConsole_1016|
 |[1501](events/event-1501.md)|None|etw_level_Warning, etw_opcode_ApplySettingsLocationTemplateCatalog, etw_task_SettingsTemplateCatalogProcessing|
 |[1503](events/event-1503.md)|None|etw_level_Verbose, etw_opcode_ApplySettingsLocationTemplateCatalog, etw_task_TemplateProcessing|
 |[1504](events/event-1504.md)|None|etw_level_Verbose, etw_opcode_ApplySettingsLocationTemplateCatalog, etw_task_SettingsTemplateCatalogProcessing|
@@ -48,16 +62,6 @@ This page contains the list of events for Microsoft-User Experience Virtualizati
 |[1512](events/event-1512.md)|None|etw_level_Verbose, etw_opcode_ApplySettingsLocationTemplateCatalog, etw_task_SettingsTemplateCatalogProcessing|
 |[1513](events/event-1513.md)|None|etw_level_Verbose, etw_opcode_ApplySettingsLocationTemplateCatalog, etw_task_SettingsTemplateCatalogProcessing|
 |[1514](events/event-1514.md)|None|etw_level_Warning, etw_opcode_ApplySettingsLocationTemplateCatalog, etw_task_SettingsTemplateCatalogProcessing|
-|[16](events/event-16.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_ApplicationMonitor, etw_task_AppMonitor|
-|[16001](events/event-16001.md)|None|etw_level_Informational, etw_task_IPCMessage|
-|[17](events/event-17.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_TemplateConsole, etw_task_TemplateConsole|
-|[17000](events/event-17000.md)|None|etw_level_Error, etw_opcode_AppManagementConfiguration, etw_task_EnableDisableUev|
-|[17001](events/event-17001.md)|None|etw_level_Error, etw_opcode_AppManagementConfiguration, etw_task_EnableDisableUev|
-|[17002](events/event-17002.md)|None|etw_level_Error, etw_opcode_AppManagementConfiguration, etw_task_ProcessUevInboxTemplates|
-|[17003](events/event-17003.md)|None|etw_level_Error, etw_opcode_AppManagementConfiguration, etw_task_ProcessUevInboxTemplates|
-|[18](events/event-18.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_TrayApp, etw_task_TrayApp|
-|[19](events/event-19.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_SynchronizationController, etw_task_CommonWinRT|
-|[2](events/event-2.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_AppAgent|
 |[2000](events/event-2000.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Orchestrator_120|
 |[2001](events/event-2001.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Orchestrator_120|
 |[2002](events/event-2002.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Orchestrator_120|
@@ -86,9 +90,7 @@ This page contains the list of events for Microsoft-User Experience Virtualizati
 |[2045](events/event-2045.md)|None|etw_level_Warning, etw_opcode_AppAgent, etw_task_Orchestrator_120|
 |[2046](events/event-2046.md)|None|etw_level_Warning, etw_opcode_AppAgent, etw_task_Orchestrator_120|
 |[2048](events/event-2048.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Orchestrator_120|
-|[3](events/event-3.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AgentService, etw_task_AgentService|
 |[3000](events/event-3000.md)|None|etw_level_Warning, etw_opcode_AppAgent, etw_task_Packager_30|
-|[4](events/event-4.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_AppAgentCommon|
 |[4000](events/event-4000.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Synchronizationtofilesystem|
 |[4004](events/event-4004.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Synchronizationtofilesystem|
 |[4005](events/event-4005.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Synchronizationtofilesystem|
@@ -120,30 +122,13 @@ This page contains the list of events for Microsoft-User Experience Virtualizati
 |[4073](events/event-4073.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Local/remotechangemanager,offlinefiles|
 |[4074](events/event-4074.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Local/remotechangemanager,offlinefiles|
 |[4075](events/event-4075.md)|None|etw_level_Error, etw_opcode_AppAgent, etw_task_Synchronizationtofilesystem|
-|[5](events/event-5.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_UevCommon|
 |[5000](events/event-5000.md)|None|etw_level_Warning, etw_opcode_AppAgent, etw_task_Packager_30|
 |[5001](events/event-5001.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Packager_30|
 |[5002](events/event-5002.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Packager_30|
 |[5003](events/event-5003.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Packager_30|
-|[507](events/event-507.md)|None|etw_level_Informational, etw_opcode_AppAgent, etw_task_AppAgentruntime|
-|[509](events/event-509.md)|None|etw_level_Error, etw_opcode_AppAgent, etw_task_AppAgentruntime|
 |[5312](events/event-5312.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Packager_30|
 |[5313](events/event-5313.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_Packager_30|
 |[5314](events/event-5314.md)|None|etw_level_Warning, etw_opcode_AppAgent, etw_task_Packager_30|
-|[6](events/event-6.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_ChangeManager|
-|[690](events/event-690.md)|None|etw_level_Always, etw_opcode_AgentService, etw_task_AgentService|
-|[691](events/event-691.md)|None|etw_level_Critical, etw_opcode_AgentService, etw_task_AgentService|
-|[692](events/event-692.md)|None|etw_level_Error, etw_opcode_AgentService, etw_task_AgentService|
-|[693](events/event-693.md)|None|etw_level_Warning, etw_opcode_AgentService, etw_task_AgentService|
-|[694](events/event-694.md)|None|etw_level_Informational, etw_opcode_AgentService, etw_task_AgentService|
-|[695](events/event-695.md)|None|etw_level_Verbose, etw_opcode_AgentService, etw_task_AgentService|
-|[7](events/event-7.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_Configuration|
-|[701](events/event-701.md)|None|etw_level_Error, etw_opcode_AgentService, etw_task_ServiceControl|
-|[703](events/event-703.md)|None|etw_level_Warning, etw_opcode_AgentService, etw_task_CodeInjection|
-|[704](events/event-704.md)|None|etw_level_Warning, etw_opcode_AgentService, etw_task_CodeInjection|
-|[705](events/event-705.md)|None|etw_level_Error, etw_opcode_AgentService, etw_task_CodeInjection|
-|[707](events/event-707.md)|None|etw_level_Warning, etw_opcode_AgentService, etw_task_ServiceControl|
-|[8](events/event-8.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_AppAgent, etw_task_CscChangeManager|
 |[8000](events/event-8000.md)|None|etw_level_Error, etw_opcode_UE_VGenerator, etw_task_UEVGenerator|
 |[8010](events/event-8010.md)|None|etw_level_Error, etw_opcode_UE_VGenerator, etw_task_UEVGenerator|
 |[8020](events/event-8020.md)|None|etw_level_Error, etw_opcode_UE_VGenerator, etw_task_UEVGenerator|
@@ -164,7 +149,6 @@ This page contains the list of events for Microsoft-User Experience Virtualizati
 |[8360](events/event-8360.md)|None|etw_level_Error, etw_opcode_UE_VGenerator, etw_task_UEVGenerator|
 |[8370](events/event-8370.md)|None|etw_level_Error, etw_opcode_UE_VGenerator, etw_task_UEVGenerator|
 |[8400](events/event-8400.md)|None|etw_level_Error, etw_opcode_UE_VGenerator, etw_task_UEVGenerator|
-|[9](events/event-9.md)|None|etw_level_Verbose, etw_keywords_DebugTrace, etw_opcode_CSCTool, etw_task_CscTool|
 |[9001](events/event-9001.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_LocalStore_140|
 |[9002](events/event-9002.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_LocalStore_140|
 |[9003](events/event-9003.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_LocalStore_140|
@@ -199,3 +183,19 @@ This page contains the list of events for Microsoft-User Experience Virtualizati
 |[9032](events/event-9032.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_LocalStore_140|
 |[9033](events/event-9033.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_LocalStore_140|
 |[9034](events/event-9034.md)|None|etw_level_Verbose, etw_opcode_AppAgent, etw_task_LocalStore_140|
+|[12003](events/event-12003.md)|None|etw_level_Informational, etw_task_Tasktosavein_memorySQMsessiondatatoafile.|
+|[13000](events/event-13000.md)|None|etw_level_Warning, etw_opcode_SynchronizationController, etw_task_SyncController_160|
+|[13001](events/event-13001.md)|None|etw_level_Warning, etw_opcode_SynchronizationController, etw_task_SyncController_160|
+|[13002](events/event-13002.md)|None|etw_level_Warning, etw_opcode_SynchronizationController, etw_task_SyncController_160|
+|[13006](events/event-13006.md)|None|etw_level_Informational, etw_opcode_SynchronizationController, etw_task_SyncController_160|
+|[13007](events/event-13007.md)|None|etw_level_Warning, etw_opcode_SynchronizationController, etw_task_SyncController_160|
+|[13008](events/event-13008.md)|None|etw_level_Warning, etw_opcode_SynchronizationController, etw_task_SyncController_160|
+|[13009](events/event-13009.md)|None|etw_level_Warning, etw_opcode_SynchronizationController, etw_task_SyncController_160|
+|[14000](events/event-14000.md)|None|etw_level_Warning, etw_opcode_ApplicationMonitor, etw_task_AppMonitor_170|
+|[15000](events/event-15000.md)|None|etw_level_Error, etw_opcode_TemplateConsole, etw_task_TemplateConsole_1016|
+|[15003](events/event-15003.md)|None|etw_level_Error, etw_opcode_TemplateConsole, etw_task_TemplateConsole_1016|
+|[16001](events/event-16001.md)|None|etw_level_Informational, etw_task_IPCMessage|
+|[17000](events/event-17000.md)|None|etw_level_Error, etw_opcode_AppManagementConfiguration, etw_task_EnableDisableUev|
+|[17001](events/event-17001.md)|None|etw_level_Error, etw_opcode_AppManagementConfiguration, etw_task_EnableDisableUev|
+|[17002](events/event-17002.md)|None|etw_level_Error, etw_opcode_AppManagementConfiguration, etw_task_ProcessUevInboxTemplates|
+|[17003](events/event-17003.md)|None|etw_level_Error, etw_opcode_AppManagementConfiguration, etw_task_ProcessUevInboxTemplates|

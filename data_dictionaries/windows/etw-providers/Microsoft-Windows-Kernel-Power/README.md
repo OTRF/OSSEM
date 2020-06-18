@@ -7,7 +7,80 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Critical, etw_keywords_po:Scenario po:Performance po:SleepDiagnostic po:WdiDiagnostic, etw_opcode_Start, etw_task_PowerTransition|
+|[2](events/event-2.md)|None|etw_level_Critical, etw_keywords_po:Scenario po:Performance po:SleepDiagnostic, etw_opcode_Stop, etw_task_PowerTransition|
+|[4](events/event-4.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_PhaseStop, etw_task_QueryApps|
+|[6](events/event-6.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_PhaseStop, etw_task_QueryServices|
+|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_po:Performance, etw_opcode_Start, etw_task_Irp|
+|[7](events/event-7_v1.md)|None|etw_level_Informational, etw_keywords_po:Performance, etw_opcode_Start, etw_task_Irp, version_1|
+|[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_po:Performance, etw_opcode_Stop, etw_task_Irp|
+|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight po:WdiDiagnostic, etw_opcode_Veto, etw_task_QueryApps|
 |[10](events/event-10.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight po:WdiDiagnostic, etw_opcode_Veto, etw_task_QueryServices|
+|[11](events/event-11.md)|None|etw_level_Informational, etw_task_IrpWaiting|
+|[12](events/event-12.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Start, etw_task_QueryApps|
+|[13](events/event-13.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Stop, etw_task_QueryApps|
+|[14](events/event-14.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Start, etw_task_QueryServices|
+|[15](events/event-15.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Stop, etw_task_QueryServices|
+|[16](events/event-16.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Start, etw_task_SuspendApps|
+|[17](events/event-17.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Stop, etw_task_SuspendApps|
+|[18](events/event-18.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Start, etw_task_SuspendServices|
+|[19](events/event-19.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Stop, etw_task_SuspendServices|
+|[20](events/event-20.md)|None|etw_level_Informational, etw_keywords_po:Performance, etw_opcode_Start, etw_task_Driver|
+|[21](events/event-21.md)|None|etw_level_Informational, etw_keywords_po:Performance, etw_opcode_Stop, etw_task_Driver|
+|[28](events/event-28.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Start, etw_task_ResumeApps|
+|[29](events/event-29.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Start, etw_task_ResumeServices|
+|[32](events/event-32.md)|None|etw_level_Informational, etw_task_QueryFailedApp|
+|[33](events/event-33.md)|None|etw_level_Informational, etw_task_QueryFailedService|
+|[34](events/event-34.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight po:WdiDiagnostic, etw_task_Hibernate|
+|[35](events/event-35.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight po:SleepDiagnostic po:WdiDiagnostic, etw_opcode_PhaseStart, etw_task_SuspendDevices|
+|[39](events/event-39.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight po:SleepDiagnostic, etw_task_PowerTransition|
+|[39](events/event-39_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight po:SleepDiagnostic po:WdiDiagnostic, etw_task_PowerTransition, version_1|
+|[40](events/event-40.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight po:WdiDiagnostic, etw_opcode_Veto, etw_task_QueryDrivers|
+|[41](events/event-41_v1.md)|None|etw_level_Critical, etw_keywords_po:Simple, etw_task_DirtyTransition, version_1|
+|[41](events/event-41_v2.md)|None|etw_level_Critical, etw_keywords_po:Simple, etw_task_DirtyTransition, version_2|
+|[41](events/event-41_v3.md)|None|etw_level_Critical, etw_keywords_po:Simple keyword_400000000000, etw_task_DirtyTransition, version_3|
+|[41](events/event-41_v4.md)|None|etw_level_Critical, etw_keywords_po:Simple keyword_400000000000, etw_task_DirtyTransition, version_4|
+|[41](events/event-41_v5.md)|None|etw_level_Critical, etw_keywords_po:Simple keyword_400000000000, etw_task_DirtyTransition, version_5|
+|[41](events/event-41_v6.md)|None|etw_level_Critical, etw_keywords_po:Simple keyword_400000000000, etw_task_DirtyTransition, version_6|
+|[42](events/event-42.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_PreSleepNotification|
+|[42](events/event-42_v2.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_PreSleepNotification, version_2|
+|[42](events/event-42_v3.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_PreSleepNotification, version_3|
+|[60](events/event-60.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight po:WdiDiagnostic, etw_task_UserQueryAllowed|
+|[61](events/event-61.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight po:WdiDiagnostic, etw_task_KernelQueryAllowed|
+|[62](events/event-62.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_SetExecutionState|
+|[62](events/event-62_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_SetExecutionState, version_1|
+|[63](events/event-63.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionChange|
+|[63](events/event-63_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionChange, version_1|
+|[72](events/event-72.md)|None|etw_level_Informational, etw_keywords_po:Idle, etw_task_IdleCheck|
+|[73](events/event-73.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight po:WdiDiagnostic, etw_task_SetSystemState|
+|[74](events/event-74.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_RegisterSystemState|
+|[77](events/event-77.md)|None|etw_level_Informational, etw_keywords_po:Idle, etw_task_DeviceIdleCheck|
+|[78](events/event-78.md)|None|etw_level_Informational, etw_keywords_po:Idle, etw_task_DiskIdleCheck|
+|[79](events/event-79.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance, etw_task_SkipTick|
+|[80](events/event-80.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_CoolingModeChange|
+|[81](events/event-81.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_PassiveCoolingDiagnostic|
+|[82](events/event-82.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_PassiveCoolingOperational|
+|[83](events/event-83.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_ActiveCoolingDiagnostic|
+|[84](events/event-84.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_ActiveCoolingOperational|
+|[85](events/event-85.md)|None|etw_level_Error, etw_keywords_po:Thermal, etw_task_CriticalTripPointExceededDiagnostic|
+|[86](events/event-86.md)|None|etw_level_Error, etw_keywords_po:Thermal, etw_task_CriticalTripPointExceededSystem|
+|[87](events/event-87.md)|None|etw_level_Error, etw_keywords_po:Thermal, etw_task_S4TripPointExceededDiagnostic|
+|[88](events/event-88.md)|None|etw_level_Error, etw_keywords_po:Thermal, etw_task_S4TripPointExceededSystem|
+|[89](events/event-89.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_ThermalZoneEnumerated|
+|[90](events/event-90.md)|None|etw_level_Warning, etw_keywords_po:Thermal, etw_task_IllegalProcessorThrottleDiagnostic|
+|[91](events/event-91.md)|None|etw_level_Warning, etw_keywords_po:Thermal, etw_task_IllegalProcessorThrottleOperational|
+|[92](events/event-92.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_CreatePowerRequest|
+|[92](events/event-92_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_CreatePowerRequest, version_1|
+|[93](events/event-93.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_ChangePowerRequest|
+|[93](events/event-93_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_ChangePowerRequest, version_1|
+|[94](events/event-94.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_ClosePowerRequest|
+|[95](events/event-95.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionUpdate|
+|[96](events/event-96.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionRundown|
+|[96](events/event-96_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionRundown, version_1|
+|[97](events/event-97.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionRequestRundown|
+|[98](events/event-98.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionKernelChange|
+|[98](events/event-98_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionKernelChange, version_1|
+|[99](events/event-99.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_PowerRequestRundown|
+|[99](events/event-99_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_PowerRequestRundown, version_1|
 |[104](events/event-104.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_SleepDisableReasonRundown|
 |[105](events/event-105.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_AcDcStateChange|
 |[105](events/event-105_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_AcDcStateChange, version_1|
@@ -16,7 +89,6 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |[107](events/event-107_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:PerfTrackContext po:DiagnosticLight, etw_task_PostSleepNotification, version_1|
 |[108](events/event-108.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight, etw_task_PowerTransition|
 |[109](events/event-109.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight keyword_400000000000, etw_task_ShutdownAction|
-|[11](events/event-11.md)|None|etw_level_Informational, etw_task_IrpWaiting|
 |[110](events/event-110.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimerResolutionStackRundown|
 |[111](events/event-111.md)|None|etw_level_Informational, etw_keywords_po:PowerSetting, etw_task_PowerSettingRundown|
 |[111](events/event-111_v1.md)|None|etw_level_Informational, etw_keywords_po:PowerSetting, etw_task_PowerSettingRundown, version_1|
@@ -32,7 +104,6 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |[117](events/event-117_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight po:WdiDiagnostic, etw_task_PowerTransition, version_1|
 |[118](events/event-118.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_IdleResiliencyStart|
 |[119](events/event-119.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_IdleResiliencyEnd|
-|[12](events/event-12.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Start, etw_task_QueryApps|
 |[120](events/event-120.md)|None|etw_level_Informational, etw_keywords_po:Scenario po:Performance po:PerformanceLight, etw_task_PowerTransition|
 |[121](events/event-121.md)|None|etw_level_Informational, etw_keywords_po:Scenario po:Performance po:PerformanceLight, etw_task_PowerTransition|
 |[121](events/event-121_v1.md)|None|etw_level_Informational, etw_keywords_po:Scenario po:Performance po:PerformanceLight, etw_task_PowerTransition, version_1|
@@ -48,7 +119,6 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |[127](events/event-127.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight, etw_task_task_0|
 |[128](events/event-128.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight, etw_task_task_0|
 |[129](events/event-129.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight, etw_task_task_0|
-|[13](events/event-13.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Stop, etw_task_QueryApps|
 |[130](events/event-130.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_PowerTransition|
 |[131](events/event-131.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_PowerTransition|
 |[132](events/event-132.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_FirmwarePlatformRoleRundown|
@@ -57,7 +127,6 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |[137](events/event-137.md)|None|etw_level_Error, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_task_0|
 |[138](events/event-138.md)|None|etw_level_Informational, etw_task_ThermalPerfTrack|
 |[139](events/event-139.md)|None|etw_level_Informational, etw_task_ThermalDurationPerfTrack|
-|[14](events/event-14.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Start, etw_task_QueryServices|
 |[140](events/event-140.md)|None|etw_level_Informational, etw_task_CsConsumptionPerfTrack|
 |[141](events/event-141.md)|None|etw_level_Informational, etw_task_CsFanPerfTrack|
 |[142](events/event-142.md)|None|etw_level_Critical, etw_keywords_po:Simple, etw_task_AbnormalReset|
@@ -70,7 +139,6 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |[147](events/event-147.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_opcode_Stop, etw_task_PowerSettingCallback|
 |[148](events/event-148.md)|None|etw_level_Informational, etw_keywords_po:Scenario po:Performance po:PerformanceLight, etw_task_EnergySaverState|
 |[149](events/event-149.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight keyword_400000000000, etw_task_SessionDisplayOff|
-|[15](events/event-15.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Stop, etw_task_QueryServices|
 |[150](events/event-150.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight keyword_400000000000, etw_task_SessionDisplayOn|
 |[151](events/event-151.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_CoolingExtensionAdd|
 |[152](events/event-152.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_CoolingExtensionRundown|
@@ -81,7 +149,6 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |[157](events/event-157.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_ThermalRequestRundown|
 |[158](events/event-158.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_ThermalRequestRemove|
 |[159](events/event-159.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_ThermalRequestPassiveUpdate|
-|[16](events/event-16.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Start, etw_task_SuspendApps|
 |[160](events/event-160.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_ThermalRequestActiveUpdate|
 |[161](events/event-161.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_CsDripsWatchdog|
 |[161](events/event-161_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_CsDripsWatchdog, version_1|
@@ -96,7 +163,6 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |[167](events/event-167.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_SystemIdle|
 |[168](events/event-168.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_SystemIdle|
 |[169](events/event-169.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_opcode_Start, etw_task_SystemIdle|
-|[17](events/event-17.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Stop, etw_task_SuspendApps|
 |[170](events/event-170.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_opcode_Stop, etw_task_SystemIdle|
 |[171](events/event-171.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_CsDeepSleepWatchdog|
 |[171](events/event-171_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_CsDeepSleepWatchdog, version_1|
@@ -106,7 +172,6 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |[177](events/event-177.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_CsComplianceUpdate|
 |[178](events/event-178.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_BackgroundActivityPolicyUpdate|
 |[179](events/event-179.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_ForceIdleStateChange|
-|[18](events/event-18.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Start, etw_task_SuspendServices|
 |[180](events/event-180.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_ForceIdleReset|
 |[181](events/event-181.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_DeepSleepSetConstraint|
 |[182](events/event-182.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_DeepSleepClearConstraint|
@@ -115,9 +180,6 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |[185](events/event-185.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_RtcWakeInfo|
 |[186](events/event-186.md)|None|etw_level_Informational, etw_keywords_po:Performance, etw_opcode_Pended, etw_task_Irp|
 |[187](events/event-187.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight keyword_400000000000, etw_task_NtInitiatePowerActionApiCall|
-|[19](events/event-19.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Stop, etw_task_SuspendServices|
-|[2](events/event-2.md)|None|etw_level_Critical, etw_keywords_po:Scenario po:Performance po:SleepDiagnostic, etw_opcode_Stop, etw_task_PowerTransition|
-|[20](events/event-20.md)|None|etw_level_Informational, etw_keywords_po:Performance, etw_opcode_Start, etw_task_Driver|
 |[200](events/event-200.md)|None|etw_level_Informational, etw_task_task_0|
 |[201](events/event-201.md)|None|etw_level_Informational, etw_task_task_0|
 |[202](events/event-202.md)|None|etw_level_Informational, etw_task_task_0|
@@ -127,9 +189,6 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |[206](events/event-206.md)|None|etw_level_Informational, etw_task_task_0|
 |[207](events/event-207.md)|None|etw_level_Informational, etw_task_task_0|
 |[208](events/event-208.md)|None|etw_level_Informational, etw_task_task_0|
-|[21](events/event-21.md)|None|etw_level_Informational, etw_keywords_po:Performance, etw_opcode_Stop, etw_task_Driver|
-|[28](events/event-28.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Start, etw_task_ResumeApps|
-|[29](events/event-29.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_Start, etw_task_ResumeServices|
 |[300](events/event-300.md)|None|etw_level_Informational, etw_keywords_po:RuntimeFx, etw_task_PluginRegistration|
 |[301](events/event-301.md)|None|etw_level_Informational, etw_keywords_po:RuntimeFx, etw_task_PluginRegistrationRundown|
 |[302](events/event-302.md)|None|etw_level_Informational, etw_keywords_po:RuntimeFx, etw_task_DevicePreparation|
@@ -154,7 +213,6 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |[317](events/event-317.md)|None|etw_level_Informational, etw_keywords_po:RuntimeFx, etw_task_DevicePowerRequirementFromPep|
 |[318](events/event-318.md)|None|etw_level_Informational, etw_keywords_po:RuntimeFx, etw_task_DeviceIdleConstraints|
 |[319](events/event-319.md)|None|etw_level_Informational, etw_keywords_po:RuntimeFx, etw_task_ComponentIdleConstraints|
-|[32](events/event-32.md)|None|etw_level_Informational, etw_task_QueryFailedApp|
 |[320](events/event-320.md)|None|etw_level_Informational, etw_keywords_po:SleepStudy, etw_task_DeviceVerboseRundown|
 |[320](events/event-320_v1.md)|None|etw_level_Informational, etw_keywords_po:SleepStudy, etw_task_DeviceVerboseRundown, version_1|
 |[320](events/event-320_v2.md)|None|etw_level_Informational, etw_keywords_po:SleepStudy, etw_task_DeviceVerboseRundown, version_2|
@@ -168,17 +226,10 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |[327](events/event-327.md)|None|etw_level_Informational, etw_keywords_po:RuntimeFx, etw_task_ComponentPerformanceState|
 |[328](events/event-328.md)|None|etw_level_Informational, etw_keywords_po:RuntimeFx, etw_task_ComponentPerformanceState|
 |[329](events/event-329.md)|None|etw_level_Informational, etw_keywords_po:RuntimeFx, etw_task_DebuggerTransitionRequirements|
-|[33](events/event-33.md)|None|etw_level_Informational, etw_task_QueryFailedService|
 |[330](events/event-330.md)|None|etw_level_Informational, etw_keywords_po:RuntimeFx, etw_opcode_Start, etw_task_DefaultPepWorker|
 |[331](events/event-331.md)|None|etw_level_Informational, etw_keywords_po:RuntimeFx, etw_opcode_Stop, etw_task_DefaultPepWorker|
 |[332](events/event-332.md)|None|etw_level_Critical, etw_keywords_po:RuntimeFx, etw_task_DefaultPepWorkerDeviceRecovered|
 |[333](events/event-333.md)|None|etw_level_Critical, etw_keywords_po:RuntimeFx, etw_task_DefaultPepWorkerDeviceOrphaned|
-|[34](events/event-34.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight po:WdiDiagnostic, etw_task_Hibernate|
-|[35](events/event-35.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight po:SleepDiagnostic po:WdiDiagnostic, etw_opcode_PhaseStart, etw_task_SuspendDevices|
-|[39](events/event-39.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight po:SleepDiagnostic, etw_task_PowerTransition|
-|[39](events/event-39_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight po:SleepDiagnostic po:WdiDiagnostic, etw_task_PowerTransition, version_1|
-|[4](events/event-4.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_PhaseStop, etw_task_QueryApps|
-|[40](events/event-40.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight po:WdiDiagnostic, etw_opcode_Veto, etw_task_QueryDrivers|
 |[400](events/event-400.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_SessionCreated|
 |[401](events/event-401.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_SessionClosed|
 |[402](events/event-402.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_SessionConnected|
@@ -199,15 +250,6 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |[416](events/event-416.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_InputState|
 |[417](events/event-417.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_DisplayState|
 |[418](events/event-418.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_PolicyChange|
-|[41](events/event-41_v1.md)|None|etw_level_Critical, etw_keywords_po:Simple, etw_task_DirtyTransition, version_1|
-|[41](events/event-41_v2.md)|None|etw_level_Critical, etw_keywords_po:Simple, etw_task_DirtyTransition, version_2|
-|[41](events/event-41_v3.md)|None|etw_level_Critical, etw_keywords_po:Simple keyword_400000000000, etw_task_DirtyTransition, version_3|
-|[41](events/event-41_v4.md)|None|etw_level_Critical, etw_keywords_po:Simple keyword_400000000000, etw_task_DirtyTransition, version_4|
-|[41](events/event-41_v5.md)|None|etw_level_Critical, etw_keywords_po:Simple keyword_400000000000, etw_task_DirtyTransition, version_5|
-|[41](events/event-41_v6.md)|None|etw_level_Critical, etw_keywords_po:Simple keyword_400000000000, etw_task_DirtyTransition, version_6|
-|[42](events/event-42.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_PreSleepNotification|
-|[42](events/event-42_v2.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_PreSleepNotification, version_2|
-|[42](events/event-42_v3.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_PreSleepNotification, version_3|
 |[500](events/event-500.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_IoCoalescingOn|
 |[503](events/event-503.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_IoCoalescingDiskIdle|
 |[504](events/event-504.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemLatencyUpdate|
@@ -284,45 +326,3 @@ This page contains the list of events for Microsoft-Windows-Kernel-Power, as col
 |[553](events/event-553.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_DirectedFxPowerStateFailure|
 |[554](events/event-554.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_DirectedDripsDeviceStats|
 |[555](events/event-555.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_ExecutePowerAction|
-|[6](events/event-6.md)|None|etw_level_Informational, etw_keywords_po:Performance po:PerformanceLight, etw_opcode_PhaseStop, etw_task_QueryServices|
-|[60](events/event-60.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight po:WdiDiagnostic, etw_task_UserQueryAllowed|
-|[61](events/event-61.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight po:WdiDiagnostic, etw_task_KernelQueryAllowed|
-|[62](events/event-62.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_SetExecutionState|
-|[62](events/event-62_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_SetExecutionState, version_1|
-|[63](events/event-63.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionChange|
-|[63](events/event-63_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionChange, version_1|
-|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_po:Performance, etw_opcode_Start, etw_task_Irp|
-|[72](events/event-72.md)|None|etw_level_Informational, etw_keywords_po:Idle, etw_task_IdleCheck|
-|[73](events/event-73.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight po:WdiDiagnostic, etw_task_SetSystemState|
-|[74](events/event-74.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_RegisterSystemState|
-|[77](events/event-77.md)|None|etw_level_Informational, etw_keywords_po:Idle, etw_task_DeviceIdleCheck|
-|[78](events/event-78.md)|None|etw_level_Informational, etw_keywords_po:Idle, etw_task_DiskIdleCheck|
-|[79](events/event-79.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:Performance, etw_task_SkipTick|
-|[7](events/event-7_v1.md)|None|etw_level_Informational, etw_keywords_po:Performance, etw_opcode_Start, etw_task_Irp, version_1|
-|[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_po:Performance, etw_opcode_Stop, etw_task_Irp|
-|[80](events/event-80.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_CoolingModeChange|
-|[81](events/event-81.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_PassiveCoolingDiagnostic|
-|[82](events/event-82.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_PassiveCoolingOperational|
-|[83](events/event-83.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_ActiveCoolingDiagnostic|
-|[84](events/event-84.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_ActiveCoolingOperational|
-|[85](events/event-85.md)|None|etw_level_Error, etw_keywords_po:Thermal, etw_task_CriticalTripPointExceededDiagnostic|
-|[86](events/event-86.md)|None|etw_level_Error, etw_keywords_po:Thermal, etw_task_CriticalTripPointExceededSystem|
-|[87](events/event-87.md)|None|etw_level_Error, etw_keywords_po:Thermal, etw_task_S4TripPointExceededDiagnostic|
-|[88](events/event-88.md)|None|etw_level_Error, etw_keywords_po:Thermal, etw_task_S4TripPointExceededSystem|
-|[89](events/event-89.md)|None|etw_level_Informational, etw_keywords_po:Thermal, etw_task_ThermalZoneEnumerated|
-|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight po:WdiDiagnostic, etw_opcode_Veto, etw_task_QueryApps|
-|[90](events/event-90.md)|None|etw_level_Warning, etw_keywords_po:Thermal, etw_task_IllegalProcessorThrottleDiagnostic|
-|[91](events/event-91.md)|None|etw_level_Warning, etw_keywords_po:Thermal, etw_task_IllegalProcessorThrottleOperational|
-|[92](events/event-92.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_CreatePowerRequest|
-|[92](events/event-92_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_CreatePowerRequest, version_1|
-|[93](events/event-93.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_ChangePowerRequest|
-|[93](events/event-93_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_ChangePowerRequest, version_1|
-|[94](events/event-94.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_ClosePowerRequest|
-|[95](events/event-95.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionUpdate|
-|[96](events/event-96.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionRundown|
-|[96](events/event-96_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionRundown, version_1|
-|[97](events/event-97.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionRequestRundown|
-|[98](events/event-98.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionKernelChange|
-|[98](events/event-98_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic, etw_task_SystemTimeResolutionKernelChange, version_1|
-|[99](events/event-99.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_PowerRequestRundown|
-|[99](events/event-99_v1.md)|None|etw_level_Informational, etw_keywords_po:Diagnostic po:DiagnosticLight, etw_task_PowerRequestRundown, version_1|

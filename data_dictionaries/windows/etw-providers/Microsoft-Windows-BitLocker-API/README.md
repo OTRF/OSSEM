@@ -6,19 +6,6 @@ This page contains the list of events for Microsoft-Windows-BitLocker-API, as co
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
-|[4096](events/event-4096.md)|None|etw_level_Error, etw_task_task_0|
-|[4099](events/event-4099.md)|None|etw_level_Error, etw_task_task_0|
-|[4102](events/event-4102.md)|None|etw_level_Error, etw_task_task_0|
-|[4103](events/event-4103.md)|None|etw_level_Error, etw_task_task_0|
-|[4106](events/event-4106.md)|None|etw_level_Error, etw_task_task_0|
-|[4111](events/event-4111.md)|None|etw_level_Warning, etw_task_task_0|
-|[4112](events/event-4112.md)|None|etw_level_Informational, etw_task_task_0|
-|[4113](events/event-4113.md)|None|etw_level_Informational, etw_task_task_0|
-|[4114](events/event-4114.md)|None|etw_level_Warning, etw_task_task_0|
-|[4116](events/event-4116.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_task_0|
-|[4117](events/event-4117.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_task_0|
-|[4118](events/event-4118.md)|None|etw_level_Error, etw_task_task_0|
-|[4123](events/event-4123.md)|None|etw_level_Informational, etw_task_task_0|
 |[513](events/event-513.md)|None|etw_level_Informational, etw_task_task_0|
 |[514](events/event-514.md)|None|etw_level_Warning, etw_task_task_0|
 |[515](events/event-515.md)|None|etw_level_Informational, etw_task_task_0|
@@ -117,3 +104,16 @@ This page contains the list of events for Microsoft-Windows-BitLocker-API, as co
 |[861](events/event-861.md)|None|etw_level_Error, etw_task_task_0|
 |[862](events/event-862.md)|None|etw_level_Error, etw_task_task_0|
 |[863](events/event-863.md)|None|etw_level_Error, etw_task_task_0|
+|[4096](events/event-4096.md)|None|etw_level_Error, etw_task_task_0|
+|[4099](events/event-4099.md)|None|etw_level_Error, etw_task_task_0|
+|[4102](events/event-4102.md)|None|etw_level_Error, etw_task_task_0|
+|[4103](events/event-4103.md)|None|etw_level_Error, etw_task_task_0|
+|[4106](events/event-4106.md)|None|etw_level_Error, etw_task_task_0|
+|[4111](events/event-4111.md)|None|etw_level_Warning, etw_task_task_0|
+|[4112](events/event-4112.md)|None|etw_level_Informational, etw_task_task_0|
+|[4113](events/event-4113.md)|None|etw_level_Informational, etw_task_task_0|
+|[4114](events/event-4114.md)|None|etw_level_Warning, etw_task_task_0|
+|[4116](events/event-4116.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_task_0|
+|[4117](events/event-4117.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_task_0|
+|[4118](events/event-4118.md)|None|etw_level_Error, etw_task_task_0|
+|[4123](events/event-4123.md)|None|etw_level_Informational, etw_task_task_0|

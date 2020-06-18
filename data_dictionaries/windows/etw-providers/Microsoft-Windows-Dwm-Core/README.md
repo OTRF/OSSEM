@@ -7,8 +7,51 @@ This page contains the list of events for Microsoft-Windows-Dwm-Core, as collect
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Informational, etw_keywords_DetailedFrameInformation, etw_task_SCHEDULE_FRAMEINFO|
-|[100](events/event-100.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_BIND_GDISPRITEBITMAP_FIRST_TOKEN|
+|[2](events/event-2.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_TIME|
+|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmFrameRate, etw_opcode_Stop, etw_task_SCHEDULE_WFVB|
+|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmFrameRate, etw_opcode_Stop, etw_task_SCHEDULE_WFW|
 |[11](events/event-11.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_PROCESS_FRAME|
+|[14](events/event-14.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_SCHEDULE_RENDER|
+|[15](events/event-15.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Start, etw_task_SCHEDULE_PRESENT|
+|[18](events/event-18.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_SCHEDULE_GETPRESENTCOUNT|
+|[24](events/event-24.md)|None|etw_level_Informational, etw_keywords_FrameDrawInconsistencyInformation, etw_task_SCHEDULE_GLITCH|
+|[25](events/event-25.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_GLITCH_RECOVERY_ATTEMPT|
+|[29](events/event-29.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Start, etw_task_ETWGUID_PUSH_INTERNAL_LAYER_EVENT|
+|[30](events/event-30.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_ETWGUID_PUSH_INTERNAL_LAYER_EVENT|
+|[33](events/event-33.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_ETWGUID_BITMAPCOPYEVENT|
+|[35](events/event-35.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_ETWGUID_COPYFRONTTOBACKBUFFEREVENT|
+|[40](events/event-40.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Start, etw_task_ETWGUID_CLEAREVENT|
+|[42](events/event-42.md)|None|etw_level_Informational, etw_keywords_DwmCore FrameVisualization, etw_task_ETWGUID_DIRTYREGIONEVENT|
+|[43](events/event-43.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Start, etw_task_ETWGUID_OCCLUSIONEVENT|
+|[44](events/event-44.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ETWGUID_OCCLUSIONEVENT|
+|[45](events/event-45.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_ETWGUID_OCCLUSIONEVENT|
+|[46](events/event-46.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_ETWGUID_DWMUPDATEWINDOW|
+|[49](events/event-49.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Start, etw_task_ETWGUID_DRAWEVENT|
+|[50](events/event-50.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ETWGUID_DRAWEVENT|
+|[51](events/event-51.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_ETWGUID_DRAWEVENT|
+|[52](events/event-52.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Start, etw_task_ETWGUID_DESKTOPRTCREATE|
+|[53](events/event-53.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_ETWGUID_DESKTOPRTCREATE|
+|[54](events/event-54.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Start, etw_task_MILEVENT_MEDIA_UCE_PROCESSQUEUEEVENT|
+|[55](events/event-55.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_MILEVENT_MEDIA_UCE_PROCESSQUEUEEVENT|
+|[56](events/event-56.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_MILEVENT_MEDIA_UCE_PROCESSQUEUEEVENT|
+|[57](events/event-57.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmFrameRate, etw_opcode_Start, etw_task_MILEVENT_MEDIA_UCE_PRECOMPUTEEVENT|
+|[58](events/event-58.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_MILEVENT_MEDIA_UCE_PRECOMPUTEEVENT|
+|[59](events/event-59.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Start, etw_task_MILEVENT_MEDIA_UCE_RENDEREVENT|
+|[60](events/event-60.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_MILEVENT_MEDIA_UCE_RENDEREVENT|
+|[61](events/event-61.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Start, etw_task_MILEVENT_MEDIA_UCE_PRESENTEVENT|
+|[62](events/event-62.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_MILEVENT_MEDIA_UCE_PRESENTEVENT|
+|[64](events/event-64.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_MILEVENT_MEDIA_UCE_PROCESSPRESENTHISTORY_GetPresentHistory|
+|[65](events/event-65.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_MILEVENT_MEDIA_UCE_PROCESSPRESENTHISTORY|
+|[67](events/event-67.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_MILEVENT_MEDIA_UCE_CHECKDEVICESTATE|
+|[83](events/event-83.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_GDISPRITE_LOGICALSURFACE_ASSOCIATION|
+|[84](events/event-84.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_WINDOWNODE_GDISPRITE_ASSOCIATION|
+|[85](events/event-85.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_ROUNDTRIPREQUEST_STATE|
+|[87](events/event-87.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_PRESENTHISTORYTOKEN_GDI|
+|[88](events/event-88.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_PRESENTHISTORYTOKEN_GDISYSMEM|
+|[91](events/event-91.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_PRESENTHISTORYTOKEN_BLT|
+|[96](events/event-96.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Start, etw_task_ETWGUID_MAGNIFIERRENDERTARGET_CAPTUREBITS|
+|[97](events/event-97.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_ETWGUID_MAGNIFIERRENDERTARGET_CAPTUREBITS|
+|[100](events/event-100.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_BIND_GDISPRITEBITMAP_FIRST_TOKEN|
 |[114](events/event-114.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_UPDATE_FRAME_INDEXES|
 |[115](events/event-115.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Start, etw_task_MILEVENT_MEDIA_UCE_BLTDESKTOP|
 |[116](events/event-116.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_MILEVENT_MEDIA_UCE_BLTDESKTOP|
@@ -30,13 +73,11 @@ This page contains the list of events for Microsoft-Windows-Dwm-Core, as collect
 |[136](events/event-136.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_DCOMPEVENT_END_ANIMATION|
 |[137](events/event-137.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_NEW_EFFECTIVE_REFRESH_PERIOD_DELTAS|
 |[138](events/event-138.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmFrameRate, etw_task_SCHEDULE_NEW_EFFECTIVE_REFRESH_PERIOD|
-|[14](events/event-14.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_SCHEDULE_RENDER|
 |[144](events/event-144.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ETWGUID_DIRECTFLIP_TRANSITIONEVENT|
 |[145](events/event-145.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ETWGUID_DIRECTFLIP_PRESENTEVENT|
 |[146](events/event-146.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ETWGUID_DIRECTFLIP_SUPPORTEVENT|
 |[147](events/event-147.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ETWGUID_DIRECTFLIP_PINEVENT|
 |[148](events/event-148.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ETWGUID_DIRECTFLIP_UNPINEVENT|
-|[15](events/event-15.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Start, etw_task_SCHEDULE_PRESENT|
 |[151](events/event-151.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ETWGUID_RENDEROPT_DISCARDRESOURCEEVENT|
 |[152](events/event-152.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ETWGUID_RENDEROPT_TILEABLECOPYEVENT|
 |[153](events/event-153.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Start, etw_task_OPEN_SHARED_TEXTURE_EVENT|
@@ -50,7 +91,6 @@ This page contains the list of events for Microsoft-Windows-Dwm-Core, as collect
 |[175](events/event-175_v3.md)|None|etw_level_Verbose, etw_keywords_DwmCore LowOverheadSmoothnessTracking DwmInput, etw_task_TOUCH_LAST_FRAME_EVENT, version_3|
 |[176](events/event-176_v1.md)|None|etw_level_Verbose, etw_keywords_DwmCore DwmInput, etw_task_TOUCH_INTERACTION_DEBUG_EVENTS, version_1|
 |[178](events/event-178_v1.md)|None|etw_level_Verbose, etw_keywords_DwmCore DwmInput, etw_task_TOUCH_INTERACTION_DEBUG_EVENTS, version_1|
-|[18](events/event-18.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_SCHEDULE_GETPRESENTCOUNT|
 |[180](events/event-180.md)|None|etw_level_Verbose, etw_keywords_DwmCore FrameVisualization, etw_opcode_Start, etw_task_ETWGUID_DRAWING_CONTEXT_FRAME|
 |[182](events/event-182.md)|None|etw_level_Verbose, etw_keywords_FrameVisualization, etw_task_ETWGUID_DRAWING_CONTEXT_STATE|
 |[183](events/event-183.md)|None|etw_level_Verbose, etw_keywords_FrameVisualization, etw_task_ETWGUID_COMPOSITION_SURFACE_DRAW|
@@ -63,7 +103,6 @@ This page contains the list of events for Microsoft-Windows-Dwm-Core, as collect
 |[195](events/event-195.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_MILEVENT_MEDIA_UCE_PROCESSSURFACEUPDATES|
 |[196](events/event-196.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_SURFACEUPDATE|
 |[197](events/event-197.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ETWGUID_RENDEROPT_DISCARDVIEWEVENT|
-|[2](events/event-2.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_TIME|
 |[201](events/event-201.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_DERIVEDISPLAYSET|
 |[202](events/event-202.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_RETIREFRAME|
 |[203](events/event-203.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_GETPRESENTSTATS1|
@@ -94,7 +133,6 @@ This page contains the list of events for Microsoft-Windows-Dwm-Core, as collect
 |[237](events/event-237_v1.md)|None|etw_level_Informational, etw_keywords_DwmCore LowOverheadSmoothnessTracking, etw_task_TELEMETRY_ANIMATION_PERFORMANCE_ANALYSIS_EVENT, version_1|
 |[238](events/event-238.md)|None|etw_level_Verbose, etw_keywords_DwmCore LowOverheadSmoothnessTracking, etw_task_ANIMATION_FIRST_FRAME_EVENT|
 |[239](events/event-239.md)|None|etw_level_Verbose, etw_keywords_DwmCore LowOverheadSmoothnessTracking, etw_task_ANIMATION_LAST_FRAME_EVENT|
-|[24](events/event-24.md)|None|etw_level_Informational, etw_keywords_FrameDrawInconsistencyInformation, etw_task_SCHEDULE_GLITCH|
 |[240](events/event-240_v2.md)|None|etw_level_Informational, etw_keywords_DwmCore LowOverheadSmoothnessTracking, etw_task_TELEMETRY_AGGREGATED_VSYNC_ANALYSIS_EVENT, version_2|
 |[241](events/event-241.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_ETWGUID_COPYFRONTTOBACKBUFFERDELTAEVENT|
 |[242](events/event-242.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SWAPCHAIN_BUFFERS|
@@ -102,7 +140,6 @@ This page contains the list of events for Microsoft-Windows-Dwm-Core, as collect
 |[247](events/event-247.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ETWGUID_SETINDEPENDENTFLIPINFO|
 |[248](events/event-248.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ETWGUID_PRIMITIVE_GROUP_SELF_OCCLUSION_INFO|
 |[249](events/event-249.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmInput, etw_task_INPUT_SINK_TRANSFORM_UPDATE|
-|[25](events/event-25.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_GLITCH_RECOVERY_ATTEMPT|
 |[250](events/event-250.md)|None|etw_level_Verbose, etw_keywords_DwmCore DwmInput, etw_task_TOUCH_INTERACTION_DEBUG_EVENTS|
 |[258](events/event-258.md)|None|etw_level_Verbose, etw_keywords_DwmCore DwmInput, etw_task_TOUCH_INTERACTION_DEBUG_EVENTS|
 |[259](events/event-259_v1.md)|None|etw_level_Informational, etw_keywords_DwmCore LowOverheadSmoothnessTracking, etw_task_TELEMETRY_ANIMATION_TTFF_ANALYSIS_EVENT, version_1|
@@ -127,7 +164,6 @@ This page contains the list of events for Microsoft-Windows-Dwm-Core, as collect
 |[287](events/event-287.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ADVANCED_DIRECTFLIP_RESTORECONTENT|
 |[288](events/event-288.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ADVANCED_DIRECTFLIP_CANCEL|
 |[289](events/event-289.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_DISPLAYSURFACE_SWAPCHAINCANDIDATE|
-|[29](events/event-29.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Start, etw_task_ETWGUID_PUSH_INTERNAL_LAYER_EVENT|
 |[290](events/event-290.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_DISPLAYSURFACE_REJECTCANDIDATE|
 |[291](events/event-291.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_DISPLAYSURFACE_CANDIDATEATTRIBUTES|
 |[292](events/event-292.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmInput, etw_task_MANIPULATION_POINTER_BUFFERED|
@@ -138,7 +174,6 @@ This page contains the list of events for Microsoft-Windows-Dwm-Core, as collect
 |[297](events/event-297.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmInput, etw_task_MIDMANIPULATION_UPDATE_VISUAL_REMOVAL|
 |[298](events/event-298.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmInput, etw_task_MIDMANIPULATION_UPDATE_VISUAL_PROP|
 |[299](events/event-299.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmInput, etw_task_MIDMANIPULATION_UPDATE_CAPTURE_CONTACT|
-|[30](events/event-30.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_ETWGUID_PUSH_INTERNAL_LAYER_EVENT|
 |[300](events/event-300.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmInput, etw_task_INTERACTION_TOUCHPAD_CONFIGURATION_CHANGED|
 |[301](events/event-301.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmInput, etw_task_INTERACTION_PEN_CONFIGURATION_CHANGED|
 |[302](events/event-302.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmInput, etw_task_INTERACTION_MOUSE_CONFIGURATION_CHANGED|
@@ -162,7 +197,6 @@ This page contains the list of events for Microsoft-Windows-Dwm-Core, as collect
 |[326](events/event-326_v1.md)|None|etw_level_Verbose, etw_keywords_DwmCore DwmInput, etw_task_TOUCH_INTERACTION_DEBUG_EVENTS, version_1|
 |[328](events/event-328.md)|None|etw_level_Verbose, etw_keywords_DwmCore DwmInput, etw_task_TOUCH_INTERACTION_DEBUG_EVENTS|
 |[329](events/event-329.md)|None|etw_level_Verbose, etw_keywords_DwmCore DwmInput, etw_task_TOUCH_INTERACTION_DEBUG_EVENTS|
-|[33](events/event-33.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_ETWGUID_BITMAPCOPYEVENT|
 |[330](events/event-330.md)|None|etw_level_Verbose, etw_keywords_DwmCore DwmInput, etw_task_TOUCH_FIRST_FRAME_EVENT|
 |[331](events/event-331.md)|None|etw_level_Verbose, etw_keywords_DwmCore DwmInput, etw_task_TOUCH_FIRST_FRAME_EVENT|
 |[332](events/event-332.md)|None|etw_level_Verbose, etw_keywords_DwmCore DwmInput, etw_task_TOUCH_INTERACTION_DEBUG_EVENTS|
@@ -176,7 +210,6 @@ This page contains the list of events for Microsoft-Windows-Dwm-Core, as collect
 |[347](events/event-347.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmHolographic, etw_task_HOLOGRAPHICINTEROPTARGET_RENDERCOMPLETE|
 |[348](events/event-348.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmHolographic, etw_task_HOLOGRAPHICINTEROPTARGET_TIMEINQUEUE|
 |[349](events/event-349.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Start, etw_task_SHADERS_EFFECT_COMPILE|
-|[35](events/event-35.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_ETWGUID_COPYFRONTTOBACKBUFFEREVENT|
 |[350](events/event-350.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_SHADERS_EFFECT_COMPILE|
 |[353](events/event-353.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_SHADERS_D3DSHADER_LINK_INFO|
 |[354](events/event-354.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Start, etw_task_SHADERS_D3DSHADER_CREATE|
@@ -211,7 +244,6 @@ This page contains the list of events for Microsoft-Windows-Dwm-Core, as collect
 |[391](events/event-391.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_COMPUTESCRIBBLE_GPUFINISHED|
 |[392](events/event-392.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_COMPUTESCRIBBLE_DRAWINFO|
 |[393](events/event-393.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_COMPUTESCRIBBLE_TELEMETRYDROPPED|
-|[40](events/event-40.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Start, etw_task_ETWGUID_CLEAREVENT|
 |[400](events/event-400.md)|None|etw_level_Informational, etw_keywords_DwmDiagTrack, etw_task_DIAGTRACK_TRIGGER|
 |[401](events/event-401.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Start, etw_task_COMPUTESCRIBBLE_RENDERBLOCKED|
 |[402](events/event-402.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_COMPUTESCRIBBLE_RENDERBLOCKED|
@@ -223,35 +255,3 @@ This page contains the list of events for Microsoft-Windows-Dwm-Core, as collect
 |[408](events/event-408.md)|None|etw_level_Verbose, etw_keywords_DwmCore DwmInput, etw_task_TOUCH_INTERACTION_DEBUG_EVENTS|
 |[409](events/event-409.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Start, etw_task_HWDEVICE|
 |[410](events/event-410.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_HWDEVICE|
-|[42](events/event-42.md)|None|etw_level_Informational, etw_keywords_DwmCore FrameVisualization, etw_task_ETWGUID_DIRTYREGIONEVENT|
-|[43](events/event-43.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Start, etw_task_ETWGUID_OCCLUSIONEVENT|
-|[44](events/event-44.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ETWGUID_OCCLUSIONEVENT|
-|[45](events/event-45.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_ETWGUID_OCCLUSIONEVENT|
-|[46](events/event-46.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_ETWGUID_DWMUPDATEWINDOW|
-|[49](events/event-49.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Start, etw_task_ETWGUID_DRAWEVENT|
-|[50](events/event-50.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_ETWGUID_DRAWEVENT|
-|[51](events/event-51.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_ETWGUID_DRAWEVENT|
-|[52](events/event-52.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Start, etw_task_ETWGUID_DESKTOPRTCREATE|
-|[53](events/event-53.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_ETWGUID_DESKTOPRTCREATE|
-|[54](events/event-54.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Start, etw_task_MILEVENT_MEDIA_UCE_PROCESSQUEUEEVENT|
-|[55](events/event-55.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_MILEVENT_MEDIA_UCE_PROCESSQUEUEEVENT|
-|[56](events/event-56.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_MILEVENT_MEDIA_UCE_PROCESSQUEUEEVENT|
-|[57](events/event-57.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmFrameRate, etw_opcode_Start, etw_task_MILEVENT_MEDIA_UCE_PRECOMPUTEEVENT|
-|[58](events/event-58.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_MILEVENT_MEDIA_UCE_PRECOMPUTEEVENT|
-|[59](events/event-59.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Start, etw_task_MILEVENT_MEDIA_UCE_RENDEREVENT|
-|[60](events/event-60.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_MILEVENT_MEDIA_UCE_RENDEREVENT|
-|[61](events/event-61.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Start, etw_task_MILEVENT_MEDIA_UCE_PRESENTEVENT|
-|[62](events/event-62.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_MILEVENT_MEDIA_UCE_PRESENTEVENT|
-|[64](events/event-64.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_task_MILEVENT_MEDIA_UCE_PROCESSPRESENTHISTORY_GetPresentHistory|
-|[65](events/event-65.md)|None|etw_level_Verbose, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_MILEVENT_MEDIA_UCE_PROCESSPRESENTHISTORY|
-|[67](events/event-67.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_MILEVENT_MEDIA_UCE_CHECKDEVICESTATE|
-|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmFrameRate, etw_opcode_Stop, etw_task_SCHEDULE_WFVB|
-|[83](events/event-83.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_GDISPRITE_LOGICALSURFACE_ASSOCIATION|
-|[84](events/event-84.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_WINDOWNODE_GDISPRITE_ASSOCIATION|
-|[85](events/event-85.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_ROUNDTRIPREQUEST_STATE|
-|[87](events/event-87.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_PRESENTHISTORYTOKEN_GDI|
-|[88](events/event-88.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_PRESENTHISTORYTOKEN_GDISYSMEM|
-|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_DwmCore DwmFrameRate, etw_opcode_Stop, etw_task_SCHEDULE_WFW|
-|[91](events/event-91.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_task_SCHEDULE_PRESENTHISTORYTOKEN_BLT|
-|[96](events/event-96.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Start, etw_task_ETWGUID_MAGNIFIERRENDERTARGET_CAPTUREBITS|
-|[97](events/event-97.md)|None|etw_level_Informational, etw_keywords_DwmCore, etw_opcode_Stop, etw_task_ETWGUID_MAGNIFIERRENDERTARGET_CAPTUREBITS|

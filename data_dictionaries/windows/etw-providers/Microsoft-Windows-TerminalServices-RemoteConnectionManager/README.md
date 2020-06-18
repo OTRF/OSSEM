@@ -6,6 +6,23 @@ This page contains the list of events for Microsoft-Windows-TerminalServices-Rem
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[2](events/event-2.md)|None|etw_level_Verbose, etw_task_task_0|
+|[3](events/event-3.md)|None|etw_level_Verbose, etw_task_task_0|
+|[4](events/event-4.md)|None|etw_level_Warning, etw_task_task_0|
+|[5](events/event-5.md)|None|etw_level_Error, etw_task_task_0|
+|[6](events/event-6.md)|None|etw_level_Verbose, etw_task_task_0|
+|[7](events/event-7.md)|None|etw_level_Verbose, etw_task_task_0|
+|[8](events/event-8.md)|None|etw_level_Error, etw_task_task_0|
+|[9](events/event-9.md)|None|etw_level_Error, etw_task_task_0|
+|[257](events/event-257.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Stop, etw_task_task_0|
+|[258](events/event-258.md)|None|etw_level_Informational, etw_task_task_0|
+|[259](events/event-259.md)|None|etw_level_Informational, etw_task_task_0|
+|[260](events/event-260.md)|None|etw_level_Warning, etw_task_task_0|
+|[261](events/event-261.md)|None|etw_level_Informational, etw_task_task_0|
+|[262](events/event-262.md)|None|etw_level_Informational, etw_task_task_0|
+|[272](events/event-272.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Start, etw_task_ConnectionTime|
+|[273](events/event-273.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Stop, etw_task_ConnectionTime|
+|[274](events/event-274.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Stop, etw_task_ConnectionTime|
 |[1003](events/event-1003.md)|None|etw_level_Warning, etw_task_task_0|
 |[1011](events/event-1011.md)|None|etw_level_Warning, etw_task_task_0|
 |[1137](events/event-1137.md)|None|etw_level_Error, etw_task_task_0|
@@ -35,7 +52,10 @@ This page contains the list of events for Microsoft-Windows-TerminalServices-Rem
 |[1287](events/event-1287.md)|None|etw_level_Informational, etw_task_task_0|
 |[1288](events/event-1288.md)|None|etw_level_Informational, etw_task_task_0|
 |[1289](events/event-1289.md)|None|etw_level_Informational, etw_task_task_0|
-|[2](events/event-2.md)|None|etw_level_Verbose, etw_task_task_0|
+|[2304](events/event-2304.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Start, etw_task_SessionArbitration|
+|[2305](events/event-2305.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Stop, etw_task_SessionArbitration|
+|[2306](events/event-2306.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Start, etw_task_NotifyLogonToLicensing|
+|[2307](events/event-2307.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Stop, etw_task_NotifyLogonToLicensing|
 |[20482](events/event-20482.md)|None|etw_level_Informational, etw_task_task_0|
 |[20483](events/event-20483.md)|None|etw_level_Informational, etw_task_task_0|
 |[20484](events/event-20484.md)|None|etw_level_Error, etw_task_task_0|
@@ -74,22 +94,6 @@ This page contains the list of events for Microsoft-Windows-TerminalServices-Rem
 |[20521](events/event-20521.md)|None|etw_level_Informational, etw_task_task_0|
 |[20522](events/event-20522.md)|None|etw_level_Informational, etw_task_task_0|
 |[20523](events/event-20523.md)|None|etw_level_Informational, etw_task_task_0|
-|[2304](events/event-2304.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Start, etw_task_SessionArbitration|
-|[2305](events/event-2305.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Stop, etw_task_SessionArbitration|
-|[2306](events/event-2306.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Start, etw_task_NotifyLogonToLicensing|
-|[2307](events/event-2307.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Stop, etw_task_NotifyLogonToLicensing|
-|[257](events/event-257.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Stop, etw_task_task_0|
-|[258](events/event-258.md)|None|etw_level_Informational, etw_task_task_0|
-|[259](events/event-259.md)|None|etw_level_Informational, etw_task_task_0|
-|[260](events/event-260.md)|None|etw_level_Warning, etw_task_task_0|
-|[261](events/event-261.md)|None|etw_level_Informational, etw_task_task_0|
-|[262](events/event-262.md)|None|etw_level_Informational, etw_task_task_0|
-|[272](events/event-272.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Start, etw_task_ConnectionTime|
-|[273](events/event-273.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Stop, etw_task_ConnectionTime|
-|[274](events/event-274.md)|None|etw_level_Informational, etw_keywords_PerfInstrumentation, etw_opcode_Stop, etw_task_ConnectionTime|
-|[3](events/event-3.md)|None|etw_level_Verbose, etw_task_task_0|
-|[4](events/event-4.md)|None|etw_level_Warning, etw_task_task_0|
-|[5](events/event-5.md)|None|etw_level_Error, etw_task_task_0|
 |[50180](events/event-50180.md)|None|etw_level_Warning, etw_task_task_0|
 |[50195](events/event-50195.md)|None|etw_level_Warning, etw_task_task_0|
 |[50213](events/event-50213.md)|None|etw_level_Error, etw_task_task_0|
@@ -102,7 +106,3 @@ This page contains the list of events for Microsoft-Windows-TerminalServices-Rem
 |[50309](events/event-50309.md)|None|etw_level_Warning, etw_task_task_0|
 |[50310](events/event-50310.md)|None|etw_level_Warning, etw_task_task_0|
 |[50312](events/event-50312.md)|None|etw_level_Warning, etw_task_task_0|
-|[6](events/event-6.md)|None|etw_level_Verbose, etw_task_task_0|
-|[7](events/event-7.md)|None|etw_level_Verbose, etw_task_task_0|
-|[8](events/event-8.md)|None|etw_level_Error, etw_task_task_0|
-|[9](events/event-9.md)|None|etw_level_Error, etw_task_task_0|

@@ -6,6 +6,14 @@ This page contains the list of events for Microsoft-Windows-StorPort, as collect
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[1](events/event-1_v1.md)|None|etw_level_Error, etw_keywords_Reset, etw_opcode_OpCodeLUReset, etw_task_LogicalUnitreset, version_1|
+|[2](events/event-2_v1.md)|None|etw_level_Error, etw_keywords_Reset, etw_opcode_OpCodeTargetReset, etw_task_Targetreset, version_1|
+|[4](events/event-4_v1.md)|None|etw_level_Informational, etw_keywords_PortNotification, etw_opcode_OpCodeResetDetected, etw_task_Resetdetectednotification, version_1|
+|[5](events/event-5_v1.md)|None|etw_level_Informational, etw_keywords_PortNotification, etw_opcode_OpCodeLinkDown, etw_task_Linkdownnotification, version_1|
+|[6](events/event-6_v1.md)|None|etw_level_Informational, etw_keywords_PortNotification, etw_opcode_OpCodeLinkUp, etw_task_LinkUpnotification, version_1|
+|[7](events/event-7_v1.md)|None|etw_level_Informational, etw_keywords_PortNotification, etw_opcode_OpCodeRequestTimerCall, etw_task_RequestTimernotification, version_1|
+|[8](events/event-8_v1.md)|None|etw_level_Informational, etw_keywords_PauseResume, etw_opcode_OpCodePortPause, etw_task_Portpause, version_1|
+|[9](events/event-9_v1.md)|None|etw_level_Informational, etw_keywords_PauseResume, etw_opcode_OpCodePortResume, etw_task_Portresume, version_1|
 |[10](events/event-10_v1.md)|None|etw_level_Informational, etw_keywords_PauseResume, etw_opcode_OpCodePortPauseDevice, etw_task_Portpausedevice, version_1|
 |[11](events/event-11_v1.md)|None|etw_level_Informational, etw_keywords_PauseResume, etw_opcode_OpCodePortResumeDevice, etw_task_Portresumedevice, version_1|
 |[12](events/event-12_v1.md)|None|etw_level_Informational, etw_keywords_PortNotification, etw_opcode_OpCodeBusChangeDetected, etw_task_Buschangedetectnotification, version_1|
@@ -16,7 +24,14 @@ This page contains the list of events for Microsoft-Windows-StorPort, as collect
 |[17](events/event-17_v1.md)|None|etw_level_Informational, etw_keywords_Config, etw_task_None, version_1|
 |[18](events/event-18_v1.md)|None|etw_level_Warning, etw_keywords_Config, etw_task_None, version_1|
 |[19](events/event-19_v1.md)|None|etw_level_Informational, etw_keywords_Config, etw_task_None, version_1|
-|[1](events/event-1_v1.md)|None|etw_level_Error, etw_keywords_Reset, etw_opcode_OpCodeLUReset, etw_task_LogicalUnitreset, version_1|
+|[20](events/event-20_v1.md)|None|etw_level_Informational, etw_keywords_Config, etw_task_None, version_1|
+|[21](events/event-21_v1.md)|None|etw_level_Informational, etw_keywords_Config, etw_task_None, version_1|
+|[22](events/event-22_v1.md)|None|etw_level_Informational, etw_keywords_Config, etw_task_None, version_1|
+|[23](events/event-23_v1.md)|None|etw_level_Informational, etw_keywords_Config, etw_task_None, version_1|
+|[24](events/event-24_v1.md)|None|etw_level_Informational, etw_keywords_Perf, etw_task_None, version_1|
+|[25](events/event-25_v1.md)|None|etw_level_Informational, etw_keywords_PortNotification, etw_opcode_OpCodeStateChangeDetected, etw_task_Statechangedetectnotification, version_1|
+|[26](events/event-26_v1.md)|None|etw_level_Informational, etw_keywords_Enum, etw_opcode_OpCodeTargetedReenumeration, etw_task_Targetedreenumeration, version_1|
+|[27](events/event-27_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_StorportinitializesstorageD3., etw_task_None, version_1|
 |[200](events/event-200_v2.md)|None|etw_level_Informational, etw_keywords_IO_Performance, etw_task_Port, version_2|
 |[201](events/event-201_v2.md)|None|etw_level_Informational, etw_keywords_IO_Performance, etw_task_Port, version_2|
 |[202](events/event-202_v2.md)|None|etw_level_Informational, etw_keywords_Read, etw_opcode_Dispatchingofrequest., etw_task_Port, version_2|
@@ -27,7 +42,6 @@ This page contains the list of events for Microsoft-Windows-StorPort, as collect
 |[207](events/event-207_v2.md)|None|etw_level_Informational, etw_keywords_Write LowMemoryWrite, etw_opcode_Dispatchingofrequest., etw_task_Port, version_2|
 |[208](events/event-208_v1.md)|None|etw_level_Informational, etw_keywords_Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite, etw_opcode_Completionofrequest., etw_task_Port, version_1|
 |[209](events/event-209_v1.md)|None|etw_level_Informational, etw_keywords_Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite, etw_opcode_Retryhandling., etw_task_Port, version_1|
-|[20](events/event-20_v1.md)|None|etw_level_Informational, etw_keywords_Config, etw_task_None, version_1|
 |[210](events/event-210_v1.md)|None|etw_level_Informational, etw_keywords_Flush, etw_task_Port, version_1|
 |[211](events/event-211_v1.md)|None|etw_level_Informational, etw_keywords_Flush, etw_opcode_Completionofrequest., etw_task_Port, version_1|
 |[212](events/event-212_v1.md)|None|etw_level_Informational, etw_keywords_IOCTL, etw_opcode_Dispatchingofrequest., etw_task_Port, version_1|
@@ -38,7 +52,6 @@ This page contains the list of events for Microsoft-Windows-StorPort, as collect
 |[217](events/event-217_v1.md)|None|etw_level_Informational, etw_keywords_PnP, etw_opcode_Dispatchingofrequest., etw_task_Port, version_1|
 |[218](events/event-218_v1.md)|None|etw_level_Informational, etw_keywords_PnP, etw_opcode_Completionofrequest., etw_task_Port, version_1|
 |[219](events/event-219_v1.md)|None|etw_level_Informational, etw_keywords_PnP Enum, etw_opcode_Completionofrequest., etw_task_Port, version_1|
-|[21](events/event-21_v1.md)|None|etw_level_Informational, etw_keywords_Config, etw_task_None, version_1|
 |[220](events/event-220_v1.md)|None|etw_level_Informational, etw_keywords_Queue, etw_opcode_EventQueuerelatedoperation., etw_task_Port, version_1|
 |[221](events/event-221_v1.md)|None|etw_level_Informational, etw_keywords_PassThrough IOCTL, etw_opcode_Dispatchingofrequest., etw_task_Port, version_1|
 |[222](events/event-222_v1.md)|None|etw_level_Informational, etw_keywords_Logo_Performance, etw_task_Port, version_1|
@@ -49,7 +62,6 @@ This page contains the list of events for Microsoft-Windows-StorPort, as collect
 |[227](events/event-227_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Start, etw_task_Port, version_1|
 |[228](events/event-228_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Stop, etw_task_Port, version_1|
 |[229](events/event-229_v2.md)|None|etw_level_Informational, etw_keywords_Power, etw_task_Port, version_2|
-|[22](events/event-22_v1.md)|None|etw_level_Informational, etw_keywords_Config, etw_task_None, version_1|
 |[230](events/event-230_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Start, etw_task_Port, version_1|
 |[231](events/event-231_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Stop, etw_task_Port, version_1|
 |[232](events/event-232_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Start, etw_task_Port, version_1|
@@ -60,7 +72,6 @@ This page contains the list of events for Microsoft-Windows-StorPort, as collect
 |[237](events/event-237_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Stop, etw_task_Port, version_1|
 |[238](events/event-238_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Start, etw_task_Port, version_1|
 |[239](events/event-239_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Stop, etw_task_Port, version_1|
-|[23](events/event-23_v1.md)|None|etw_level_Informational, etw_keywords_Config, etw_task_None, version_1|
 |[240](events/event-240_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_task_Port, version_1|
 |[241](events/event-241_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Start, etw_task_Port, version_1|
 |[242](events/event-242_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Stop, etw_task_Port, version_1|
@@ -70,7 +81,6 @@ This page contains the list of events for Microsoft-Windows-StorPort, as collect
 |[246](events/event-246_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Stop, etw_task_Port, version_1|
 |[247](events/event-247_v1.md)|None|etw_level_Informational, etw_keywords_Queue, etw_opcode_EventQueuerelatedoperation., etw_task_Port, version_1|
 |[248](events/event-248_v1.md)|None|etw_level_Informational, etw_keywords_ISR, etw_opcode_Completionofrequest., etw_task_Isr, version_1|
-|[24](events/event-24_v1.md)|None|etw_level_Informational, etw_keywords_Perf, etw_task_None, version_1|
 |[250](events/event-250_v1.md)|None|etw_level_Informational, etw_keywords_keyword_200000000000, etw_task_Port, version_1|
 |[251](events/event-251_v1.md)|None|etw_level_Informational, etw_keywords_keyword_200000000000, etw_task_Port, version_1|
 |[252](events/event-252_v1.md)|None|etw_level_Informational, etw_keywords_keyword_200000000000, etw_task_Port, version_1|
@@ -81,7 +91,6 @@ This page contains the list of events for Microsoft-Windows-StorPort, as collect
 |[257](events/event-257_v1.md)|None|etw_level_Informational, etw_keywords_keyword_200000000000, etw_task_Port, version_1|
 |[258](events/event-258_v1.md)|None|etw_level_Informational, etw_keywords_keyword_200000000000, etw_task_Port, version_1|
 |[259](events/event-259_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Stop, etw_task_Port, version_1|
-|[25](events/event-25_v1.md)|None|etw_level_Informational, etw_keywords_PortNotification, etw_opcode_OpCodeStateChangeDetected, etw_task_Statechangedetectnotification, version_1|
 |[260](events/event-260_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Completionofrequest., etw_task_Port, version_1|
 |[261](events/event-261_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_task_Port, version_1|
 |[262](events/event-262_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Dispatchingofrequest., etw_task_Port, version_1|
@@ -91,10 +100,6 @@ This page contains the list of events for Microsoft-Windows-StorPort, as collect
 |[267](events/event-267_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Start, etw_task_Port, version_1|
 |[268](events/event-268_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_Stop, etw_task_Port, version_1|
 |[269](events/event-269_v1.md)|None|etw_level_Informational, etw_keywords_PassThrough IOCTL, etw_opcode_Completionofrequest., etw_task_Port, version_1|
-|[26](events/event-26_v1.md)|None|etw_level_Informational, etw_keywords_Enum, etw_opcode_OpCodeTargetedReenumeration, etw_task_Targetedreenumeration, version_1|
-|[27](events/event-27_v1.md)|None|etw_level_Informational, etw_keywords_Power, etw_opcode_StorportinitializesstorageD3., etw_task_None, version_1|
-|[2](events/event-2_v1.md)|None|etw_level_Error, etw_keywords_Reset, etw_opcode_OpCodeTargetReset, etw_task_Targetreset, version_1|
-|[4](events/event-4_v1.md)|None|etw_level_Informational, etw_keywords_PortNotification, etw_opcode_OpCodeResetDetected, etw_task_Resetdetectednotification, version_1|
 |[500](events/event-500_v2.md)|None|etw_level_Error, etw_keywords_keyword_80000000000, etw_task_None, version_2|
 |[501](events/event-501_v1.md)|None|etw_level_Error, etw_keywords_Reset, etw_opcode_OpCodeBusReset, etw_task_Busreset, version_1|
 |[502](events/event-502_v1.md)|None|etw_level_Error, etw_keywords_DeviceState, etw_task_None, version_1|
@@ -144,8 +149,3 @@ This page contains the list of events for Microsoft-Windows-StorPort, as collect
 |[546](events/event-546_v1.md)|None|etw_level_Warning, etw_keywords_keyword_200000000000, etw_task_Port, version_1|
 |[547](events/event-547_v1.md)|None|etw_level_Warning, etw_keywords_keyword_200000000000, etw_task_Port, version_1|
 |[548](events/event-548_v1.md)|None|etw_level_Warning, etw_keywords_keyword_200000000000, etw_task_Port, version_1|
-|[5](events/event-5_v1.md)|None|etw_level_Informational, etw_keywords_PortNotification, etw_opcode_OpCodeLinkDown, etw_task_Linkdownnotification, version_1|
-|[6](events/event-6_v1.md)|None|etw_level_Informational, etw_keywords_PortNotification, etw_opcode_OpCodeLinkUp, etw_task_LinkUpnotification, version_1|
-|[7](events/event-7_v1.md)|None|etw_level_Informational, etw_keywords_PortNotification, etw_opcode_OpCodeRequestTimerCall, etw_task_RequestTimernotification, version_1|
-|[8](events/event-8_v1.md)|None|etw_level_Informational, etw_keywords_PauseResume, etw_opcode_OpCodePortPause, etw_task_Portpause, version_1|
-|[9](events/event-9_v1.md)|None|etw_level_Informational, etw_keywords_PauseResume, etw_opcode_OpCodePortResume, etw_task_Portresume, version_1|

@@ -6,6 +6,7 @@ This page contains the list of events for Microsoft-Windows-Proximity-Common, as
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[5](events/event-5.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Proximity_DeviceArrivalTrigger|
 |[10](events/event-10.md)|None|etw_level_Informational, etw_keywords_ProximityAssociation, etw_opcode_Start, etw_task_Proximity_OOBMessageProcessing|
 |[11](events/event-11.md)|None|etw_level_Informational, etw_keywords_ProximityAssociation, etw_opcode_Start, etw_task_Proximity_OOBMessagePublishing|
 |[12](events/event-12.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Proximity_OOBMessagePublishing|
@@ -24,4 +25,3 @@ This page contains the list of events for Microsoft-Windows-Proximity-Common, as
 |[30](events/event-30.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Proximity_ReceiveSharedContent|
 |[31](events/event-31.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Proximity_ReceiveSharedContent|
 |[41](events/event-41.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Proximity_SocketConnect|
-|[5](events/event-5.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Proximity_DeviceArrivalTrigger|

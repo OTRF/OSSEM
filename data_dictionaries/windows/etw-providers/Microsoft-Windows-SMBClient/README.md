@@ -7,10 +7,12 @@ This page contains the list of events for Microsoft-Windows-SMBClient, as collec
 |events|Description|Tags|
 |---|---|---|
 |[101](events/event-101.md)|None|etw_level_Error, etw_keywords_keyword_400000000000, etw_task_task_0|
-|[2000](events/event-2000.md)|None|etw_level_Informational, etw_keywords_keyword_40000000000, etw_task_task_0|
-|[20001](events/event-20001.md)|None|etw_level_Informational, etw_keywords_keyword_400000000000, etw_task_task_0|
 |[201](events/event-201.md)|None|etw_level_Error, etw_keywords_keyword_400000000000, etw_task_task_0|
 |[301](events/event-301.md)|None|etw_level_Error, etw_keywords_keyword_400000000000, etw_task_task_0|
+|[401](events/event-401.md)|None|etw_level_Error, etw_keywords_keyword_400000000000, etw_task_task_0|
+|[501](events/event-501.md)|None|etw_level_Error, etw_keywords_keyword_400000000000, etw_task_task_0|
+|[2000](events/event-2000.md)|None|etw_level_Informational, etw_keywords_keyword_40000000000, etw_task_task_0|
+|[20001](events/event-20001.md)|None|etw_level_Informational, etw_keywords_keyword_400000000000, etw_task_task_0|
 |[30103](events/event-30103.md)|None|etw_level_Verbose, etw_keywords_Smb_Perf, etw_task_task_0|
 |[30104](events/event-30104.md)|None|etw_level_Verbose, etw_keywords_Smb_Perf, etw_task_task_0|
 |[30105](events/event-30105.md)|None|etw_level_Verbose, etw_keywords_Smb_Perf, etw_task_task_0|
@@ -114,5 +116,3 @@ This page contains the list of events for Microsoft-Windows-SMBClient, as collec
 |[32002](events/event-32002.md)|None|etw_level_Informational, etw_keywords_Smb_Info, etw_task_task_0|
 |[32003](events/event-32003.md)|None|etw_level_Informational, etw_keywords_Smb_Info, etw_task_task_0|
 |[40000](events/event-40000.md)|None|etw_level_Informational, etw_keywords_keyword_40000000000, etw_task_task_0|
-|[401](events/event-401.md)|None|etw_level_Error, etw_keywords_keyword_400000000000, etw_task_task_0|
-|[501](events/event-501.md)|None|etw_level_Error, etw_keywords_keyword_400000000000, etw_task_task_0|

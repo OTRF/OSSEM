@@ -8,6 +8,7 @@ This page contains the list of events for Microsoft-Windows-UniversalTelemetryCl
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Informational, etw_keywords_Tenant, etw_task_Tenant_Register|
 |[2](events/event-2.md)|None|etw_level_Informational, etw_keywords_Tenant, etw_task_Tenant_Unregister|
+|[3](events/event-3.md)|None|etw_level_Informational, etw_keywords_Tenant, etw_task_Tenant_UpdateDailyUploadQuota|
 |[20](events/event-20.md)|None|etw_level_Informational, etw_keywords_Upload, etw_task_Upload_UrlChanged|
 |[21](events/event-21.md)|None|etw_level_Informational, etw_keywords_Upload, etw_task_Upload_ConnectionError|
 |[22](events/event-22.md)|None|etw_level_Informational, etw_keywords_Upload, etw_task_Upload_SevilleBandwidthMonitor_TierChange|
@@ -18,7 +19,6 @@ This page contains the list of events for Microsoft-Windows-UniversalTelemetryCl
 |[27](events/event-27.md)|None|etw_level_Informational, etw_keywords_Upload, etw_task_Upload_SevilleEventlog_Info|
 |[28](events/event-28.md)|None|etw_level_Warning, etw_keywords_Upload, etw_task_Upload_SevilleEventlog_Warning|
 |[29](events/event-29.md)|None|etw_level_Error, etw_keywords_Upload, etw_task_Upload_SevilleEventlog_Error|
-|[3](events/event-3.md)|None|etw_level_Informational, etw_keywords_Tenant, etw_task_Tenant_UpdateDailyUploadQuota|
 |[50](events/event-50.md)|None|etw_level_Informational, etw_keywords_Service, etw_task_Service_ServiceStart|
 |[55](events/event-55.md)|None|etw_level_Informational, etw_keywords_Service, etw_task_Service_InternetAvailable|
 |[56](events/event-56.md)|None|etw_level_Informational, etw_keywords_Service, etw_task_Service_FreeNetworkAvailable|

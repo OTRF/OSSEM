@@ -7,6 +7,7 @@ This page contains the list of events for Microsoft-Windows-MCCS-SyncController,
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Error, etw_keywords_Error, etw_task_task_0|
+|[2](events/event-2.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[102](events/event-102.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[103](events/event-103.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[104](events/event-104.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
@@ -17,7 +18,6 @@ This page contains the list of events for Microsoft-Windows-MCCS-SyncController,
 |[194](events/event-194.md)|None|etw_level_Error, etw_keywords_CommsService, etw_task_task_0|
 |[195](events/event-195.md)|None|etw_level_Error, etw_keywords_CommsService, etw_task_task_0|
 |[196](events/event-196.md)|None|etw_level_Warning, etw_keywords_CommsService, etw_task_task_0|
-|[2](events/event-2.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[201](events/event-201.md)|None|etw_level_Informational, etw_keywords_StateTransition, etw_task_task_0|
 |[500](events/event-500.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
 |[501](events/event-501.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|

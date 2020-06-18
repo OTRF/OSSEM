@@ -6,7 +6,6 @@ This page contains the list of events for Microsoft-Windows-AppXDeployment, as c
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
-|[1033](events/event-1033.md)|None|etw_level_Informational, etw_keywords_AppXDeployment, etw_opcode_Stop, etw_task_AppXDeployment.Task.Client.Deployment|
 |[302](events/event-302.md)|None|etw_level_Error, etw_keywords_AppXDeployment keyword_400000000000, etw_task_AppXDeployment.Task.Client.Deployment|
 |[303](events/event-303.md)|None|etw_level_Warning, etw_keywords_AppXDeployment, etw_task_AppXDeployment.Task.Client.Deployment|
 |[304](events/event-304.md)|None|etw_level_Informational, etw_keywords_AppXDeployment, etw_task_AppXDeployment.Task.Client.Deployment|
@@ -32,3 +31,4 @@ This page contains the list of events for Microsoft-Windows-AppXDeployment, as c
 |[326](events/event-326.md)|None|etw_level_Verbose, etw_keywords_AppXDeployment, etw_task_task_0|
 |[327](events/event-327.md)|None|etw_level_Verbose, etw_keywords_AppXDeployment, etw_task_task_0|
 |[328](events/event-328.md)|None|etw_level_Error, etw_keywords_AppXDeployment, etw_task_task_0|
+|[1033](events/event-1033.md)|None|etw_level_Informational, etw_keywords_AppXDeployment, etw_opcode_Stop, etw_task_AppXDeployment.Task.Client.Deployment|

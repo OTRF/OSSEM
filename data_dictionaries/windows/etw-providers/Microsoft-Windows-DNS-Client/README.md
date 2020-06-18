@@ -53,14 +53,6 @@ This page contains the list of events for Microsoft-Windows-DNS-Client, as colle
 |[3018](events/event-3018.md)|None|etw_level_Informational, etw_task_task_0|
 |[3019](events/event-3019.md)|None|etw_level_Informational, etw_task_task_0|
 |[3020](events/event-3020.md)|None|etw_level_Informational, etw_task_task_0|
-|[60004](events/event-60004.md)|None|etw_level_Error, etw_task_DnsNetError|
-|[60005](events/event-60005.md)|None|etw_level_Warning, etw_task_DnsNetWarning|
-|[60006](events/event-60006.md)|None|etw_level_Informational, etw_task_DnsStateTransition|
-|[60007](events/event-60007.md)|None|etw_level_Informational, etw_task_DnsContextUpdate|
-|[60008](events/event-60008.md)|None|etw_level_Error, etw_task_DnsPolicyReadError|
-|[60101](events/event-60101.md)|None|etw_level_Informational, etw_task_DnsV4Tuple|
-|[60102](events/event-60102.md)|None|etw_level_Informational, etw_task_DnsV6Tuple|
-|[60103](events/event-60103.md)|None|etw_level_Informational, etw_task_DnsInterfaceInfo|
 |[8001](events/event-8001.md)|None|etw_level_Error, etw_keywords_ut:DnsAutoLogKeyword, etw_task_DnsGenericError|
 |[8002](events/event-8002.md)|None|etw_level_Error, etw_keywords_ut:DnsAutoLogKeyword, etw_task_DnsGenericError|
 |[8003](events/event-8003.md)|None|etw_level_Warning, etw_task_DnsRegistration|
@@ -99,3 +91,11 @@ This page contains the list of events for Microsoft-Windows-DNS-Client, as colle
 |[8036](events/event-8036.md)|None|etw_level_Warning, etw_task_DnsRegistration|
 |[8037](events/event-8037.md)|None|etw_level_Warning, etw_task_DnsRegistration|
 |[8038](events/event-8038.md)|None|etw_level_Warning, etw_task_DnsRegistration|
+|[60004](events/event-60004.md)|None|etw_level_Error, etw_task_DnsNetError|
+|[60005](events/event-60005.md)|None|etw_level_Warning, etw_task_DnsNetWarning|
+|[60006](events/event-60006.md)|None|etw_level_Informational, etw_task_DnsStateTransition|
+|[60007](events/event-60007.md)|None|etw_level_Informational, etw_task_DnsContextUpdate|
+|[60008](events/event-60008.md)|None|etw_level_Error, etw_task_DnsPolicyReadError|
+|[60101](events/event-60101.md)|None|etw_level_Informational, etw_task_DnsV4Tuple|
+|[60102](events/event-60102.md)|None|etw_level_Informational, etw_task_DnsV6Tuple|
+|[60103](events/event-60103.md)|None|etw_level_Informational, etw_task_DnsInterfaceInfo|

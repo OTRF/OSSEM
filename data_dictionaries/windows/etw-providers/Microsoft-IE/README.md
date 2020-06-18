@@ -7,7 +7,87 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CDoc_OnPaint|
+|[1](events/event-1_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CDoc_OnPaint, version_1|
+|[2](events/event-2.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CDoc_OnPaint|
+|[2](events/event-2_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CDoc_OnPaint, version_1|
+|[3](events/event-3.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_Layout|
+|[3](events/event-3_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_Layout, version_1|
+|[4](events/event-4.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_Layout|
+|[4](events/event-4_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_Layout, version_1|
+|[5](events/event-5.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CMarkup_BackgroundLayout|
+|[6](events/event-6.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_task_Mshtml_CMarkup_OnLoadStatusDone|
+|[7](events/event-7.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_DOMContentLoadedEvent_Start|
+|[7](events/event-7_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_DOMContentLoadedEvent_Start, version_1|
+|[8](events/event-8.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_DOMContentLoadedEvent_Stop|
+|[8](events/event-8_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_DOMContentLoadedEvent_Stop, version_1|
+|[9](events/event-9.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_LoadEvent_Start|
+|[9](events/event-9_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_LoadEvent_Start, version_1|
 |[10](events/event-10.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_LoadEvent_Stop|
+|[10](events/event-10_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_LoadEvent_Stop, version_1|
+|[32](events/event-32.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CFormElement_DoSubmit|
+|[33](events/event-33.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CDoc_ExecuteScriptURL|
+|[34](events/event-34.md)|None|etw_level_Always, etw_keywords_primarynav ap, etw_opcode_Start, etw_task_AntiPhishing_Evaluate|
+|[35](events/event-35.md)|None|etw_level_Always, etw_keywords_primarynav ap, etw_opcode_Stop, etw_task_AntiPhishing_Evaluate|
+|[36](events/event-36.md)|None|etw_level_Always, etw_keywords_primarynav ap, etw_task_AntiPhishing_ProcessingComplete|
+|[37](events/event-37.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Mshtml_CDwnBindData_OnProgress|
+|[38](events/event-38.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Mshtml_CDwnBindData_OnProgress|
+|[39](events/event-39.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Mshtml_CDwnBindData_Bind|
+|[40](events/event-40.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Mshtml_CDwnBindData_Bind|
+|[41](events/event-41.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CHtmPre_Suspend|
+|[42](events/event-42.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CHtmPre_SpeculativeRejected|
+|[43](events/event-43.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CHtmPre_ScriptStart|
+|[44](events/event-44.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_HtmPost_PostManKillTimer|
+|[45](events/event-45.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_HtmPost_PostManSetTimer|
+|[46](events/event-46.md)|None|etw_level_Always, etw_keywords_subsystem mshtml pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_HtmPost_PostManOnTimer|
+|[47](events/event-47.md)|None|etw_level_Always, etw_keywords_subsystem mshtml pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_HtmPost_PostManOnTimer|
+|[48](events/event-48.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_HtmPost_SetFlag|
+|[49](events/event-49.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_HtmPost_ClearFlag|
+|[50](events/event-50.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_HtmPost_AbandonTimeslice|
+|[51](events/event-51.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_HtmPost_YieldToPreparser|
+|[52](events/event-52.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_HtmPost_YieldToPreparser|
+|[53](events/event-53.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_HtmPost_OnPostDone|
+|[54](events/event-54.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CScriptElement_CommitCode|
+|[55](events/event-55.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_CHtmRootParseCtx_ElementsAdded|
+|[56](events/event-56.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_CMarkup_InvalDoc|
+|[57](events/event-57.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_NotifyGoesInteractive|
+|[58](events/event-58.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_NotifyGoesInteractive|
+|[59](events/event-59.md)|None|etw_level_Always, etw_keywords_subsystem pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_SwitchMarkup|
+|[60](events/event-60.md)|None|etw_level_Always, etw_keywords_subsystem pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_SwitchMarkup|
+|[61](events/event-61.md)|None|etw_level_Always, etw_keywords_subsystem pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_UnloadContents|
+|[62](events/event-62.md)|None|etw_level_Always, etw_keywords_subsystem pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_UnloadContents|
+|[63](events/event-63.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_InitImageSizeCache|
+|[64](events/event-64.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_InitImageSizeCache|
+|[65](events/event-65.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_CDoc_Running2InplaceInvalDoc|
+|[66](events/event-66.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_CView_InvalidateRect|
+|[67](events/event-67.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_CView_InvalidateRgn|
+|[68](events/event-68.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_CDoc_Invalidate|
+|[69](events/event-69.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CHTMLoad_Write|
+|[70](events/event-70.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Mshtml_CWindow_SuperNavigate2|
+|[71](events/event-71.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Mshtml_CWindow_SuperNavigate2|
+|[72](events/event-72.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CImgHelper_RequestLayout|
+|[73](events/event-73.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_HtmPre_Run|
+|[74](events/event-74.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_HtmPre_Run|
+|[75](events/event-75.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Mshtml_CImgTaskExec|
+|[76](events/event-76.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Mshtml_CImgTaskExec|
+|[77](events/event-77.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Mshtml_CImgTask_ReadYield|
+|[78](events/event-78.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Mshtml_CImgTask_ReadYield|
+|[79](events/event-79.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CDwnTaskExec_ThreadExecBail|
+|[80](events/event-80.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Mshtml_CDwnTaskExec_ThreadExecRun|
+|[81](events/event-81.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Mshtml_CDwnTaskExec_ThreadExecRun|
+|[82](events/event-82.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CWindow_Script|
+|[83](events/event-83.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CWindow_Script|
+|[84](events/event-84.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CWindow_CommitCodeLight|
+|[84](events/event-84_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CWindow_CommitCodeLight, version_1|
+|[85](events/event-85.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CWindow_CommitCodeLight|
+|[85](events/event-85_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CWindow_CommitCodeLight, version_1|
+|[86](events/event-86.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_HtmPost_PostManExecute|
+|[87](events/event-87.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_HtmPost_PostManExecute|
+|[88](events/event-88.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_HtmPost_Exec|
+|[88](events/event-88_v1.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_HtmPost_Exec, version_1|
+|[89](events/event-89.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_HtmPost_Exec|
+|[89](events/event-89_v1.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_HtmPost_Exec, version_1|
+|[90](events/event-90.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CImgTask_Init|
+|[92](events/event-92.md)|None|etw_level_Always, etw_keywords_primarynav mshtml, etw_task_Mshtml_OffscreenBufferCreated|
 |[100](events/event-100.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_CDoc_PaintRect|
 |[101](events/event-101.md)|None|etw_level_Always, etw_keywords_subsystem, etw_opcode_Start, etw_task_Mshtml_CElement_HandleMouseHoverForStyle|
 |[102](events/event-102.md)|None|etw_level_Always, etw_keywords_subsystem, etw_opcode_Stop, etw_task_Mshtml_CElement_HandleMouseHoverForStyle|
@@ -18,7 +98,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[107](events/event-107.md)|None|etw_level_Always, etw_keywords_subsystem, etw_opcode_Start, etw_task_Mshtml_CStorage_RemoveItem|
 |[108](events/event-108.md)|None|etw_level_Always, etw_keywords_subsystem, etw_opcode_Stop, etw_task_Mshtml_CStorage_RemoveItem|
 |[109](events/event-109.md)|None|etw_level_Always, etw_keywords_subsystem, etw_opcode_Start, etw_task_Mshtml_CStorageHelper_CommitToDisk|
-|[10](events/event-10_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_LoadEvent_Stop, version_1|
 |[110](events/event-110.md)|None|etw_level_Always, etw_keywords_subsystem, etw_opcode_Stop, etw_task_Mshtml_CStorageHelper_CommitToDisk|
 |[111](events/event-111.md)|None|etw_level_Always, etw_keywords_subsystem, etw_opcode_Start, etw_task_Mshtml_CStorageHelper_MergeFromDisk|
 |[112](events/event-112.md)|None|etw_level_Always, etw_keywords_subsystem, etw_opcode_Stop, etw_task_Mshtml_CStorageHelper_MergeFromDisk|
@@ -94,8 +173,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[197](events/event-197.md)|None|etw_level_Always, etw_keywords_verbose, etw_task_Mshtml_SAM_Allocate|
 |[198](events/event-198.md)|None|etw_level_Always, etw_keywords_verbose, etw_task_Mshtml_SAM_Free|
 |[199](events/event-199.md)|None|etw_level_Always, etw_keywords_verbose, etw_task_Mshtml_SAM_Segment_Create|
-|[1](events/event-1_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CDoc_OnPaint, version_1|
-|[2](events/event-2.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CDoc_OnPaint|
 |[200](events/event-200.md)|None|etw_level_Always, etw_keywords_verbose, etw_task_Mshtml_SAM_Segment_Delete|
 |[201](events/event-201.md)|None|etw_level_Always, etw_keywords_paintbeat, etw_task_Mshtml_AlignedTimer_Setup|
 |[201](events/event-201_v1.md)|None|etw_level_Always, etw_keywords_paintbeat, etw_task_Mshtml_AlignedTimer_Setup, version_1|
@@ -147,20 +224,14 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[253](events/event-253.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_Image_Offer|
 |[254](events/event-254.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_Image_Reclaim|
 |[255](events/event-255.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_Image_Reclaim_Fail|
-|[2](events/event-2_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CDoc_OnPaint, version_1|
-|[3](events/event-3.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_Layout|
-|[32](events/event-32.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CFormElement_DoSubmit|
-|[33](events/event-33.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CDoc_ExecuteScriptURL|
 |[338](events/event-338.md)|None|etw_level_Always, etw_keywords_mshtml touch, etw_opcode_Start, etw_task_Mshtml_CTouchHelper_HandleTouchMessage|
 |[339](events/event-339.md)|None|etw_level_Always, etw_keywords_mshtml touch, etw_opcode_Stop, etw_task_Mshtml_CTouchHelper_HandleTouchMessage|
-|[34](events/event-34.md)|None|etw_level_Always, etw_keywords_primarynav ap, etw_opcode_Start, etw_task_AntiPhishing_Evaluate|
 |[340](events/event-340.md)|None|etw_level_Always, etw_keywords_mshtml touch, etw_opcode_Start, etw_task_Mshtml_CTouchHelper_DispatchTouchEvent|
 |[341](events/event-341.md)|None|etw_level_Always, etw_keywords_mshtml touch, etw_opcode_Stop, etw_task_Mshtml_CTouchHelper_DispatchTouchEvent|
 |[342](events/event-342.md)|None|etw_level_Always, etw_keywords_animation, etw_opcode_Start, etw_task_Mshtml_Animations_Update|
 |[343](events/event-343.md)|None|etw_level_Always, etw_keywords_animation, etw_opcode_Stop, etw_task_Mshtml_Animations_Update|
 |[348](events/event-348.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_MediaElement_PlayPause|
 |[349](events/event-349.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_MediaElement_PlayPause|
-|[35](events/event-35.md)|None|etw_level_Always, etw_keywords_primarynav ap, etw_opcode_Stop, etw_task_AntiPhishing_Evaluate|
 |[350](events/event-350.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_MediaElement_PlayPause|
 |[351](events/event-351.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_MediaElement_PlayPause|
 |[352](events/event-352.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_MediaElement_VolumeChange|
@@ -171,7 +242,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[357](events/event-357.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_MediaElement_Seek|
 |[358](events/event-358.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_MediaElement_Seek|
 |[359](events/event-359.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_MediaElement_Seek|
-|[36](events/event-36.md)|None|etw_level_Always, etw_keywords_primarynav ap, etw_task_AntiPhishing_ProcessingComplete|
 |[360](events/event-360.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_MediaElement_Seek|
 |[361](events/event-361.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_MediaElement_Zoom|
 |[362](events/event-362.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_MediaElement_Zoom|
@@ -179,25 +249,16 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[364](events/event-364.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_MediaElement_Zoom|
 |[365](events/event-365.md)|None|etw_level_Always, etw_keywords_subsystem, etw_opcode_Start, etw_task_Mshtml_CElement_HandleMouseForActiveStyle|
 |[366](events/event-366.md)|None|etw_level_Always, etw_keywords_subsystem, etw_opcode_Stop, etw_task_Mshtml_CElement_HandleMouseForActiveStyle|
-|[37](events/event-37.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Mshtml_CDwnBindData_OnProgress|
 |[375](events/event-375.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_CElement_GetTooltipText|
-|[38](events/event-38.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Mshtml_CDwnBindData_OnProgress|
-|[39](events/event-39.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Mshtml_CDwnBindData_Bind|
 |[397](events/event-397.md)|None|etw_level_Always, etw_keywords_subsystem composition, etw_task_Mshtml_Composition_Layer_Invalidate|
-|[3](events/event-3_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_Layout, version_1|
-|[4](events/event-4.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_Layout|
-|[40](events/event-40.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Mshtml_CDwnBindData_Bind|
 |[404](events/event-404.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_MediaElement_PlayTo_Connect|
 |[405](events/event-405.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_MediaElement_PlayTo_Connect|
 |[406](events/event-406.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_MediaElement_PlayTo_Disconnect|
 |[407](events/event-407.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_MediaElement_PlayTo_Disconnect|
 |[408](events/event-408_v1.md)|None|etw_level_Always, etw_keywords_animation, etw_opcode_Start, etw_task_Mshtml_Animations_Animating, version_1|
 |[409](events/event-409.md)|None|etw_level_Always, etw_keywords_animation, etw_opcode_Stop, etw_task_Mshtml_Animations_Animating|
-|[41](events/event-41.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CHtmPre_Suspend|
 |[410](events/event-410_v1.md)|None|etw_level_Always, etw_keywords_animation, etw_opcode_Start, etw_task_Mshtml_Animations_Transitioning, version_1|
 |[411](events/event-411.md)|None|etw_level_Always, etw_keywords_animation, etw_opcode_Stop, etw_task_Mshtml_Animations_Transitioning|
-|[42](events/event-42.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CHtmPre_SpeculativeRejected|
-|[43](events/event-43.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CHtmPre_ScriptStart|
 |[430](events/event-430.md)|None|etw_level_Always, etw_keywords_paintbeat, etw_task_Mshtml_SetTimeout_Url|
 |[431](events/event-431.md)|None|etw_level_Always, etw_keywords_paintbeat, etw_task_Mshtml_FormsTimer_Set|
 |[432](events/event-432.md)|None|etw_level_Always, etw_keywords_paintbeat, etw_task_Mshtml_FormsTimer_Reset|
@@ -208,15 +269,12 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[437](events/event-437.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_MediaElement_Visualization|
 |[438](events/event-438.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_MediaElement_Visualization|
 |[439](events/event-439.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_MediaElement_Buffering|
-|[44](events/event-44.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_HtmPost_PostManKillTimer|
 |[440](events/event-440.md)|None|etw_level_Always, etw_keywords_mshtml touch, etw_task_Mshtml_TouchSelection_GripperShown|
 |[441](events/event-441.md)|None|etw_level_Always, etw_keywords_mshtml touch, etw_task_Mshtml_TouchSelection_GripperHidden|
-|[45](events/event-45.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_HtmPost_PostManSetTimer|
 |[456](events/event-456.md)|None|etw_level_Always, etw_keywords_composition, etw_task_Mshtml_Composition_Scrollbar_Paint|
 |[457](events/event-457.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_OleSite_Immersive_Incompatible|
 |[458](events/event-458.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_UrlAction_ActiveX_Immersive_Incompatible|
 |[459](events/event-459.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_MediaElement_FrameStep|
-|[46](events/event-46.md)|None|etw_level_Always, etw_keywords_subsystem mshtml pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_HtmPost_PostManOnTimer|
 |[460](events/event-460.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_MediaElement_FrameStep|
 |[461](events/event-461.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_MediaElement_FrameStep|
 |[462](events/event-462.md)|None|etw_level_Always, etw_keywords_animation, etw_opcode_Start, etw_task_Mshtml_IndependentAnimation_Start|
@@ -228,7 +286,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[467](events/event-467.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_MediaElement_EndOfMedia|
 |[468](events/event-468.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CActiveScriptHolder_Construct|
 |[469](events/event-469.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CActiveScriptHolder_Close|
-|[47](events/event-47.md)|None|etw_level_Always, etw_keywords_subsystem mshtml pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_HtmPost_PostManOnTimer|
 |[470](events/event-470.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_CJScript9Holder_TypeSystem_Init|
 |[471](events/event-471.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_CJScript9Holder_TypeSystem_Init|
 |[472](events/event-472.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_CScriptCollection_WebOC_FirstScriptExecutionEvent|
@@ -239,7 +296,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[477](events/event-477.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_CActiveScriptHolder_WebPlatform_NewScriptEngineEvent|
 |[478](events/event-478.md)|None|etw_level_Always, etw_keywords_jscript_verbose, etw_task_JScript_Parse|
 |[479](events/event-479.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CView_HitTest_InActiveView|
-|[48](events/event-48.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_HtmPost_SetFlag|
 |[480](events/event-480.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_CView_HitTest_MessageContext|
 |[481](events/event-481.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_CView_HitTest_MessageContext|
 |[482](events/event-482.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_CView_ExecuteInvalidationTasks|
@@ -250,7 +306,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[487](events/event-487.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_CDoc_OnMouseMessage|
 |[488](events/event-488.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_CDoc_OnMouseMessage|
 |[489](events/event-489.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_IndependentHitTest|
-|[49](events/event-49.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_HtmPost_ClearFlag|
 |[490](events/event-490.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_IndependentHitTest|
 |[491](events/event-491.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_IndependentHitTestInfo|
 |[492](events/event-492.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_DocumentSuspend|
@@ -262,9 +317,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[496](events/event-496.md)|None|etw_level_Always, etw_keywords_composition, etw_task_Mshtml_Composition_Create_ImplicitLayer|
 |[498](events/event-498.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_HoverDeferral_Undeferred|
 |[499](events/event-499.md)|None|etw_level_Always, etw_keywords_composition, etw_task_Mshtml_Composition_Destination_PreRender|
-|[4](events/event-4_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_Layout, version_1|
-|[5](events/event-5.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CMarkup_BackgroundLayout|
-|[50](events/event-50.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_HtmPost_AbandonTimeslice|
 |[500](events/event-500.md)|None|etw_level_Always, etw_keywords_composition, etw_task_Mshtml_Composition_Create_SBLayer|
 |[501](events/event-501.md)|None|etw_level_Always, etw_keywords_composition, etw_task_Mshtml_Composition_Create_SBLayer_Surface|
 |[502](events/event-502.md)|None|etw_level_Always, etw_keywords_composition, etw_task_Mshtml_Composition_Destroy_SBLayer|
@@ -273,7 +325,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[505](events/event-505.md)|None|etw_level_Always, etw_keywords_composition, etw_task_Mshtml_CDoc_PaintRect|
 |[506](events/event-506.md)|None|etw_level_Always, etw_keywords_composition, etw_task_Mshtml_Composition_Scroller_PVR|
 |[508](events/event-508.md)|None|etw_level_Always, etw_keywords_flipahead, etw_opcode_Stop, etw_task_FlipAhead_UpdateTarget|
-|[51](events/event-51.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_HtmPost_YieldToPreparser|
 |[510](events/event-510.md)|None|etw_level_Always, etw_keywords_flipahead, etw_task_FlipAhead_InvokeTarget|
 |[512](events/event-512.md)|None|etw_level_Always, etw_keywords_verbose invalidation, etw_task_Mshtml_CView_ExecuteInvalidationTasks_Stats|
 |[513](events/event-513.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_XML_Http_Request_Open_Sync_On_UI_Thread|
@@ -283,7 +334,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[517](events/event-517.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_MediaElement_FullScreen|
 |[518](events/event-518.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_MediaElement_FullScreen|
 |[519](events/event-519.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_MediaElement_FullScreen|
-|[52](events/event-52.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_HtmPost_YieldToPreparser|
 |[520](events/event-520.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_MediaElement_FullScreen|
 |[523](events/event-523.md)|None|etw_level_Always, etw_keywords_animation composition_verbose, etw_opcode_Start, etw_task_Mshtml_Animations_Instance|
 |[524](events/event-524.md)|None|etw_level_Always, etw_keywords_animation composition_verbose, etw_opcode_Stop, etw_task_Mshtml_Animations_Instance|
@@ -296,7 +346,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[528](events/event-528_v1.md)|None|etw_level_Always, etw_keywords_eventsandtimers, etw_opcode_Start, etw_task_Mshtml_EventDebug_DOM_Event_Invoke_Callback, version_1|
 |[529](events/event-529.md)|None|etw_level_Always, etw_keywords_eventsandtimers, etw_opcode_Stop, etw_task_Mshtml_EventDebug_DOM_Event_Invoke_Callback|
 |[529](events/event-529_v1.md)|None|etw_level_Always, etw_keywords_eventsandtimers, etw_opcode_Stop, etw_task_Mshtml_EventDebug_DOM_Event_Invoke_Callback, version_1|
-|[53](events/event-53.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_task_Mshtml_HtmPost_OnPostDone|
 |[530](events/event-530.md)|None|etw_level_Always, etw_keywords_eventsandtimers, etw_opcode_Start, etw_task_Mshtml_EventDebug_Timer_Invoke_Callback|
 |[530](events/event-530_v1.md)|None|etw_level_Always, etw_keywords_eventsandtimers, etw_opcode_Start, etw_task_Mshtml_EventDebug_Timer_Invoke_Callback, version_1|
 |[530](events/event-530_v2.md)|None|etw_level_Always, etw_keywords_eventsandtimers, etw_opcode_Start, etw_task_Mshtml_EventDebug_Timer_Invoke_Callback, version_2|
@@ -311,7 +360,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[537](events/event-537.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_DMTouchTarget_UpdateContentRectForBusyState|
 |[538](events/event-538.md)|None|etw_level_Always, etw_keywords_composition, etw_task_Mshtml_DispNode_Description|
 |[539](events/event-539.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Prefetching|
-|[54](events/event-54.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CScriptElement_CommitCode|
 |[540](events/event-540.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_Prefetching|
 |[541](events/event-541.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_Prefetching|
 |[542](events/event-542.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Prefetching|
@@ -321,7 +369,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[546](events/event-546.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Prerendering|
 |[547](events/event-547.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Prerendering|
 |[548](events/event-548.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Prerendering|
-|[55](events/event-55.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_CHtmRootParseCtx_ElementsAdded|
 |[550](events/event-550.md)|None|etw_level_Always, etw_keywords_subsystem composition, etw_task_Mshtml_Composition_IR_Disabled|
 |[551](events/event-551.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_Prerendering|
 |[552](events/event-552.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_Prerendering|
@@ -330,9 +377,7 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[556](events/event-556.md)|None|etw_level_Always, etw_keywords_subsystem composition, etw_opcode_Start, etw_task_Mshtml_RenderTask_Processing|
 |[557](events/event-557.md)|None|etw_level_Always, etw_keywords_subsystem composition, etw_opcode_Stop, etw_task_Mshtml_RenderTask_Processing|
 |[558](events/event-558.md)|None|etw_level_Always, etw_keywords_subsystem composition, etw_task_Mshtml_RenderTask_RenderThreadStateUpdate|
-|[56](events/event-56.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_CMarkup_InvalDoc|
 |[562](events/event-562.md)|None|etw_level_Always, etw_keywords_verbose, etw_task_Mshtml_FormatDetection_EntityFound|
-|[57](events/event-57.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_NotifyGoesInteractive|
 |[571](events/event-571.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_TravelLogPrerendering|
 |[572](events/event-572.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_TravelLogPrerendering|
 |[573](events/event-573.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_TravelLogPrerendering|
@@ -341,7 +386,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[576](events/event-576.md)|None|etw_level_Always, etw_keywords_eventsandtimers, etw_task_Mshtml_EventDebug_XmlHttpRequest_Relate|
 |[579](events/event-579.md)|None|etw_level_Always, etw_keywords_eventsandtimers mshtml, etw_opcode_Start, etw_task_Mshtml_EventDebug_MediaQuery_Invoke_Callback|
 |[579](events/event-579_v1.md)|None|etw_level_Always, etw_keywords_eventsandtimers mshtml, etw_opcode_Start, etw_task_Mshtml_EventDebug_MediaQuery_Invoke_Callback, version_1|
-|[58](events/event-58.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_NotifyGoesInteractive|
 |[580](events/event-580.md)|None|etw_level_Always, etw_keywords_eventsandtimers mshtml, etw_opcode_Stop, etw_task_Mshtml_EventDebug_MediaQuery_Invoke_Callback|
 |[580](events/event-580_v1.md)|None|etw_level_Always, etw_keywords_eventsandtimers mshtml, etw_opcode_Stop, etw_task_Mshtml_EventDebug_MediaQuery_Invoke_Callback, version_1|
 |[581](events/event-581.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_Media_TextTrack_Parsing|
@@ -353,17 +397,13 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[587](events/event-587.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_Media_TextTrack_Parsing|
 |[588](events/event-588.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_Media_TextTrack_Parsing|
 |[589](events/event-589.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_Media_TextTrack_Parsing|
-|[59](events/event-59.md)|None|etw_level_Always, etw_keywords_subsystem pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_SwitchMarkup|
 |[590](events/event-590.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_Media_TextTrack_Parsing|
 |[591](events/event-591.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_Media_TextTrack_Parsing|
 |[592](events/event-592.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_Media_TextTrack_Parsing|
 |[593](events/event-593.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_Media_TextTrack_Parsing|
 |[594](events/event-594.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_Media_TextTrack_Parsing|
-|[6](events/event-6.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_task_Mshtml_CMarkup_OnLoadStatusDone|
-|[60](events/event-60.md)|None|etw_level_Always, etw_keywords_subsystem pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_SwitchMarkup|
 |[609](events/event-609.md)|None|etw_level_Always, etw_keywords_primarynav mshtml, etw_task_Mshtml_CDoc_Navigation|
 |[609](events/event-609_v1.md)|None|etw_level_Always, etw_keywords_primarynav mshtml, etw_task_Mshtml_CDoc_Navigation, version_1|
-|[61](events/event-61.md)|None|etw_level_Always, etw_keywords_subsystem pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_UnloadContents|
 |[610](events/event-610.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_WebWorker|
 |[611](events/event-611.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_WebWorker|
 |[612](events/event-612.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_WebWorker|
@@ -374,15 +414,12 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[617](events/event-617.md)|None|etw_level_Always, etw_keywords_subsystem composition, etw_opcode_Stop, etw_task_Mshtml_RenderTask_ApplyPSP|
 |[618](events/event-618.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_CDoc_PrepareForSetVisible|
 |[619](events/event-619.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_CDoc_PrepareForSetVisible|
-|[62](events/event-62.md)|None|etw_level_Always, etw_keywords_subsystem pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_UnloadContents|
 |[620](events/event-620.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_CDoc_OnSuspendDocument|
 |[621](events/event-621.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_CDoc_OnSuspendDocument|
 |[622](events/event-622.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_CDoc_OnUserVisibilityChanged|
 |[623](events/event-623.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_CDoc_OnUserVisibilityChanged|
 |[624](events/event-624.md)|None|etw_level_Always, etw_keywords_verbose, etw_task_Mshtml_SetStyle|
-|[63](events/event-63.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Start, etw_task_Mshtml_InitImageSizeCache|
 |[637](events/event-637.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CGarbageTracker_CollectGarbage|
-|[64](events/event-64.md)|None|etw_level_Always, etw_keywords_subsystem mshtml, etw_opcode_Stop, etw_task_Mshtml_InitImageSizeCache|
 |[640](events/event-640.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_CDoc_HostPaintUpdateNotification|
 |[641](events/event-641.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_CDoc_HostPaintUpdateNotification|
 |[642](events/event-642.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CDoc_HostPaintUpdateNotification_IgnoredRequest|
@@ -395,7 +432,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[647](events/event-647.md)|None|etw_level_Error, etw_keywords_mshtml, etw_task_Mshtml_Generic_Diagnosis_Win_Error|
 |[648](events/event-648.md)|None|etw_level_Error, etw_keywords_mshtml, etw_task_Mshtml_Generic_Diagnosis_Trace_Hr_Error|
 |[649](events/event-649.md)|None|etw_level_Informational, etw_keywords_mshtml, etw_task_Mshtml_Generic_Diagnosis|
-|[65](events/event-65.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_CDoc_Running2InplaceInvalDoc|
 |[650](events/event-650.md)|None|etw_level_Informational, etw_keywords_mshtml, etw_task_Mshtml_Generic_Diagnosis_Info1|
 |[651](events/event-651.md)|None|etw_level_Warning, etw_keywords_mshtml, etw_task_Mshtml_Generic_Diagnosis_Warn0|
 |[652](events/event-652.md)|None|etw_level_Warning, etw_keywords_mshtml, etw_task_Mshtml_Generic_Diagnosis_Warn1|
@@ -406,7 +442,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[657](events/event-657.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CDoc_UpdateUnitInfo|
 |[658](events/event-658.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CView_UpdateRootScrollerSizeAndZoom|
 |[659](events/event-659.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CView_SetFixedLayoutWidth|
-|[66](events/event-66.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_CView_InvalidateRect|
 |[660](events/event-660.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CView_SetViewportMode_FixedLayoutWidth|
 |[661](events/event-661.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CView_SetViewportMode_VisualHeightExclusion|
 |[662](events/event-662.md)|None|etw_level_Always, etw_keywords_touch, etw_task_Mshtml_CDMScrollableTouchTarget_OnViewportStatusChanged|
@@ -417,7 +452,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[667](events/event-667.md)|None|etw_level_Always, etw_keywords_touch, etw_task_Mshtml_CDMScrollableTouchTargetHandler_ContentState|
 |[668](events/event-668.md)|None|etw_level_Always, etw_keywords_touch, etw_task_Mshtml_CDMScrollableTouchTargetHandler_ContentState|
 |[669](events/event-669.md)|None|etw_level_Always, etw_keywords_touch, etw_task_Mshtml_CDMScrollableTouchTargetHandler_StartTarget|
-|[67](events/event-67.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_CView_InvalidateRgn|
 |[670](events/event-670.md)|None|etw_level_Always, etw_keywords_touch, etw_task_Mshtml_CDMTouchTargetHandler_ApplyViewportStatusChange|
 |[671](events/event-671.md)|None|etw_level_Informational, etw_keywords_touch, etw_task_Mshtml_TouchDiagnosis_GenericInfo_Output|
 |[672](events/event-672.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_task_Mshtml_CDMCrossSlideDraggableTouchTarget_AssignDispLayerImpl|
@@ -428,7 +462,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[677](events/event-677.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_task_Mshtml_CDMHoldDraggableTouchTarget_OnInteraction|
 |[678](events/event-678.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_task_Mshtml_CDMDraggableTouchTarget_SetDragDropConfiguration|
 |[679](events/event-679.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_task_Mshtml_CDMDraggableTouchTarget_OnDragDropStatusChangeImp|
-|[68](events/event-68.md)|None|etw_level_Always, etw_keywords_subsystem, etw_task_Mshtml_CDoc_Invalidate|
 |[680](events/event-680.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_task_Mshtml_CDMDraggableTouchTarget_BeginInteraction|
 |[681](events/event-681.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_task_Mshtml_CDMDraggableTouchTarget_HandleDragStateChanges|
 |[682](events/event-682.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_task_Mshtml_CDMDraggableTouchTarget_ReturnTargetToOriginalLocation|
@@ -439,7 +472,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[687](events/event-687.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CStorage|
 |[688](events/event-688.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CStorage|
 |[689](events/event-689.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CStorage|
-|[69](events/event-69.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CHTMLoad_Write|
 |[690](events/event-690.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CStorage|
 |[694](events/event-694.md)|None|etw_level_Always, etw_keywords_touch, etw_task_Mshtml_CTouchHelper_PreFilterMessageForCapture_CommitDeferredActionsForDoubleTapZoom|
 |[695](events/event-695.md)|None|etw_level_Always, etw_keywords_touch, etw_task_Mshtml_CDoubleTap_PanAndZoom|
@@ -447,8 +479,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[697](events/event-697.md)|None|etw_level_Always, etw_keywords_touch, etw_task_Mshtml_CTouchHelper_IsDoubleClick|
 |[698](events/event-698.md)|None|etw_level_Always, etw_keywords_animation, etw_task_Mshtml_Animations_Instance|
 |[699](events/event-699.md)|None|etw_level_Always, etw_keywords_animation, etw_task_Mshtml_Animations_Instance|
-|[7](events/event-7.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_DOMContentLoadedEvent_Start|
-|[70](events/event-70.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Mshtml_CWindow_SuperNavigate2|
 |[700](events/event-700.md)|None|etw_level_Always, etw_keywords_touch, etw_task_Mshtml_CTouchHelper_HandleTouchMessage_Info|
 |[701](events/event-701.md)|None|etw_level_Always, etw_keywords_draganddrop, etw_task_Mshtml_DragAndDrop_Fire_DragEnd|
 |[702](events/event-702.md)|None|etw_level_Always, etw_keywords_draganddrop, etw_task_Mshtml_DragAndDrop_Fire_DragEnter|
@@ -459,7 +489,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[707](events/event-707.md)|None|etw_level_Always, etw_keywords_draganddrop, etw_task_Mshtml_DragAndDrop_Fire_DragLeave|
 |[708](events/event-708.md)|None|etw_level_Always, etw_keywords_touch, etw_task_Mshtml_Post_MSManipulationStateChange|
 |[709](events/event-709.md)|None|etw_level_Always, etw_keywords_touch, etw_task_Mshtml_Fire_MSManipulationStateChange|
-|[71](events/event-71.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Mshtml_CWindow_SuperNavigate2|
 |[710](events/event-710.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_opcode_Start, etw_task_Mshtml_CDragPreview_RenderPreview|
 |[711](events/event-711.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_opcode_Stop, etw_task_Mshtml_CDragPreview_RenderPreview|
 |[712](events/event-712.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_opcode_Start, etw_task_Mshtml_CDragPreview_Initialize|
@@ -470,7 +499,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[717](events/event-717.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_opcode_Stop, etw_task_Mshtml_CDragPreview_Hookup|
 |[718](events/event-718.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_opcode_Start, etw_task_Mshtml_CTouchDragDropHelper_DragInitiated|
 |[719](events/event-719.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_opcode_Stop, etw_task_Mshtml_CTouchDragDropHelper_DragInitiated|
-|[72](events/event-72.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CImgHelper_RequestLayout|
 |[720](events/event-720.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_opcode_Start, etw_task_Mshtml_CTouchDragDropHelper_DragCancelled|
 |[721](events/event-721.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_opcode_Stop, etw_task_Mshtml_CTouchDragDropHelper_DragCancelled|
 |[722](events/event-722.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_opcode_Start, etw_task_Mshtml_CTouchDragDropHelper_OnDragging|
@@ -480,7 +508,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[726](events/event-726.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_opcode_Start, etw_task_Mshtml_CTouchDragDropHelper_Shutdown|
 |[727](events/event-727.md)|None|etw_level_Always, etw_keywords_draganddrop touch, etw_opcode_Stop, etw_task_Mshtml_CTouchDragDropHelper_Shutdown|
 |[728](events/event-728.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Prerendering|
-|[73](events/event-73.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_HtmPre_Run|
 |[730](events/event-730.md)|None|etw_level_Always, etw_keywords_webocevents, etw_task_Mshtml_WebOCEvents_BeforeNavigate|
 |[731](events/event-731.md)|None|etw_level_Always, etw_keywords_webocevents, etw_task_Mshtml_WebOCEvents_BeforeNavigateRefresh|
 |[732](events/event-732.md)|None|etw_level_Always, etw_keywords_webocevents, etw_task_Mshtml_WebOCEvents_NavigateComplete|
@@ -491,7 +518,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[737](events/event-737.md)|None|etw_level_Always, etw_keywords_webocevents, etw_task_Mshtml_WebOCEvents_NavigateRedirected|
 |[738](events/event-738.md)|None|etw_level_Always, etw_keywords_webocevents, etw_task_Mshtml_WebOCEvents_DelegateNavigate|
 |[739](events/event-739.md)|None|etw_level_Always, etw_keywords_webocevents, etw_task_Mshtml_WebOCEvents_DOMContentLoaded|
-|[74](events/event-74.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_HtmPre_Run|
 |[740](events/event-740.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_MemoryProtector_ReclaimMemoryWithoutProtection|
 |[741](events/event-741.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_MemoryProtector_ReclaimMemoryWithoutProtection|
 |[742](events/event-742.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_MemoryProtector_SyncMark|
@@ -502,7 +528,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[747](events/event-747.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_CSP_AddPolicy|
 |[748](events/event-748.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_CSP_AddPolicy|
 |[749](events/event-749.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_CSP_CheckPolicy|
-|[75](events/event-75.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Mshtml_CImgTaskExec|
 |[750](events/event-750.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_CSP_CheckPolicy|
 |[751](events/event-751.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_EdgeHTML_Webview_AppPermissionResponse|
 |[752](events/event-752.md)|None|etw_level_Always, etw_keywords_mshtml httpdiag, etw_task_Mshtml_Download_Initiator|
@@ -513,7 +538,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[757](events/event-757.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Ortc_Connectivity_Check|
 |[758](events/event-758.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Ortc_Dtls_State|
 |[759](events/event-759.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Ortc_Create_Render_Sample_Queue|
-|[76](events/event-76.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Mshtml_CImgTaskExec|
 |[760](events/event-760.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Ortc_Render_Sample_Dropped|
 |[761](events/event-761.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Ortc_Audio_Render_Sample_Time_Push|
 |[762](events/event-762.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Ortc_Audio_Render_Sample_Time_Pull|
@@ -524,7 +548,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[767](events/event-767.md)|None|etw_level_Always, etw_keywords_verbose, etw_task_Mshtml_Selectors_Api_Query_Selector|
 |[768](events/event-768.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_Image_Pooling_Budget_Enforce|
 |[769](events/event-769.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_Image_Pooling_Budget_Enforce|
-|[77](events/event-77.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Mshtml_CImgTask_ReadYield|
 |[770](events/event-770.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Ortc_Set_Video_Size_Preference|
 |[771](events/event-771.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Ortc_Audio_Drift_Render_Sample_Dropped|
 |[772](events/event-772.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Ortc_Audio_Clock_Stall_Render_Sample_Dropped|
@@ -535,7 +558,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[777](events/event-777.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_Ortc_Ice_Transport_Stats|
 |[778](events/event-778.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_Ortc_Ice_Transport_Stats|
 |[779](events/event-779.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_Ortc_Sender_Stats|
-|[78](events/event-78.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Mshtml_CImgTask_ReadYield|
 |[780](events/event-780.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_Ortc_Sender_Stats|
 |[781](events/event-781.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_Ortc_Receiver_Stats|
 |[782](events/event-782.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_Ortc_Receiver_Stats|
@@ -544,10 +566,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[785](events/event-785.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Media_Capture_Sample_Received|
 |[786](events/event-786.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Media_Capture_Sample_Dropped|
 |[787](events/event-787.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_CStorage|
-|[79](events/event-79.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CDwnTaskExec_ThreadExecBail|
-|[7](events/event-7_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_DOMContentLoadedEvent_Start, version_1|
-|[8](events/event-8.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_DOMContentLoadedEvent_Stop|
-|[80](events/event-80.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Start, etw_task_Mshtml_CDwnTaskExec_ThreadExecRun|
 |[800](events/event-800.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_WebPlatStorageServer|
 |[801](events/event-801.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_WebPlatStorageServer|
 |[802](events/event-802.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_WebPlatStorageServer|
@@ -558,7 +576,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[807](events/event-807.md)|None|etw_level_Informational, etw_task_WebPlatStorageServer|
 |[808](events/event-808.md)|None|etw_level_Always, etw_keywords_paintbeat, etw_opcode_Start, etw_task_Mshtml_AlignedTimer_Processing|
 |[809](events/event-809.md)|None|etw_level_Always, etw_keywords_paintbeat, etw_opcode_Stop, etw_task_Mshtml_AlignedTimer_Processing|
-|[81](events/event-81.md)|None|etw_level_Always, etw_keywords_primarynav, etw_opcode_Stop, etw_task_Mshtml_CDwnTaskExec_ThreadExecRun|
 |[810](events/event-810_v2.md)|None|etw_level_Always, etw_keywords_paintbeat, etw_task_Mshtml_AlignedTimer_Fire, version_2|
 |[811](events/event-811.md)|None|etw_level_Always, etw_keywords_privaterefcount, etw_task_Mshtml_CBase_AddPrivateRef|
 |[812](events/event-812.md)|None|etw_level_Always, etw_keywords_privaterefcount, etw_task_Mshtml_CBase_ReleasePrivateRef|
@@ -569,7 +586,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[817](events/event-817.md)|None|etw_level_Informational, etw_task_WebPlatStorageServer_Handle|
 |[818](events/event-818.md)|None|etw_level_Informational, etw_task_WebPlatStorageServer_Handle|
 |[819](events/event-819.md)|None|etw_level_Informational, etw_task_WebPlatStorageServer_Handle|
-|[82](events/event-82.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CWindow_Script|
 |[820](events/event-820.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_WebPlatStorageServer_RPC_Method|
 |[821](events/event-821.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_WebPlatStorageServer_RPC_Method|
 |[822](events/event-822.md)|None|etw_level_Always, etw_keywords_gwnd, etw_opcode_Start, etw_task_Mshtml_Gwnd_Task|
@@ -580,7 +596,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[827](events/event-827.md)|None|etw_level_Always, etw_keywords_paintbeat, etw_task_Mshtml_Aligned_RAF_Fire|
 |[828](events/event-828.md)|None|etw_level_Always, etw_keywords_paintbeat, etw_task_Mshtml_Aligned_RAF_Enabled|
 |[829](events/event-829.md)|None|etw_level_Always, etw_keywords_paintbeat, etw_task_Mshtml_Aligned_RAF_Disabled|
-|[83](events/event-83.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CWindow_Script|
 |[830](events/event-830.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Start, etw_task_Mshtml_Query_App_Link_Support_Task|
 |[831](events/event-831.md)|None|etw_level_Always, etw_keywords_mshtml, etw_opcode_Stop, etw_task_Mshtml_Query_App_Link_Support_Task|
 |[832](events/event-832.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_Launch_Uri_Async_Task|
@@ -591,7 +606,6 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[837](events/event-837.md)|None|etw_level_Always, etw_keywords_gwnd, etw_opcode_Start, etw_task_Mshtml_EventLoop_PerformMicrotaskCheckpoint|
 |[838](events/event-838.md)|None|etw_level_Always, etw_keywords_gwnd, etw_opcode_Stop, etw_task_Mshtml_EventLoop_PerformMicrotaskCheckpoint|
 |[839](events/event-839.md)|None|etw_level_Always, etw_keywords_gwnd, etw_task_Mshtml_EventLoop_YieldTaskExecution|
-|[84](events/event-84.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CWindow_CommitCodeLight|
 |[840](events/event-840.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_WebRTC_Ice_Connection_State|
 |[841](events/event-841.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_WebRTC_Ice_Gathering_State|
 |[842](events/event-842.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_WebRTC_Signaling_State|
@@ -602,16 +616,12 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[847](events/event-847.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_PowerStateController_Register|
 |[848](events/event-848.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_PowerStateController_Unregister|
 |[849](events/event-849.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_PowerStateController_Visible|
-|[84](events/event-84_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CWindow_CommitCodeLight, version_1|
-|[85](events/event-85.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CWindow_CommitCodeLight|
 |[850](events/event-850.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_PowerStateController_Invisible|
 |[851](events/event-851.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_PowerStateController_LowPowerState|
 |[852](events/event-852.md)|None|etw_level_Always, etw_keywords_mshtml, etw_task_Mshtml_PowerStateController_NormalPowerState|
 |[854](events/event-854.md)|None|etw_level_Always, etw_keywords_gwnd, etw_task_Mshtml_EventLoop_MessageGroupCallbackStop|
 |[857](events/event-857.md)|None|etw_level_Always, etw_keywords_gwnd, etw_task_Mshtml_EventLoop_DriveRegularTasksFromLow|
 |[859](events/event-859.md)|None|etw_level_Always, etw_keywords_jscript, etw_task_JScript_Parse_Script|
-|[85](events/event-85_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CWindow_CommitCodeLight, version_1|
-|[86](events/event-86.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_HtmPost_PostManExecute|
 |[860](events/event-860.md)|None|etw_level_Always, etw_keywords_subsystem composition, etw_opcode_Start, etw_task_Mshtml_Canvas_CommandList|
 |[862](events/event-862.md)|None|etw_level_Always, etw_keywords_subsystem composition, etw_task_Mshtml_Canvas_CommandList|
 |[863](events/event-863.md)|None|etw_level_Always, etw_keywords_extensions, etw_opcode_Start, etw_task_Edgehtml_Extensions_WrxMessage|
@@ -620,14 +630,4 @@ This page contains the list of events for Microsoft-IE, as collected by the Even
 |[867](events/event-867.md)|None|etw_level_Always, etw_keywords_paintbeat, etw_task_Mshtml_AlignedBeat_Timer_Beat|
 |[868](events/event-868.md)|None|etw_level_Always, etw_keywords_paintbeat, etw_task_Mshtml_AlignedBeat_VSync_Beat|
 |[869](events/event-869.md)|None|etw_level_Always, etw_keywords_mshtml extensions, etw_opcode_Start, etw_task_Edgehtml_Extensions_Script_Execution|
-|[87](events/event-87.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_HtmPost_PostManExecute|
 |[870](events/event-870.md)|None|etw_level_Always, etw_keywords_mshtml extensions, etw_opcode_Stop, etw_task_Edgehtml_Extensions_Script_Execution|
-|[88](events/event-88.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_HtmPost_Exec|
-|[88](events/event-88_v1.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_HtmPost_Exec, version_1|
-|[89](events/event-89.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_HtmPost_Exec|
-|[89](events/event-89_v1.md)|None|etw_level_Always, etw_keywords_primarynav mshtml pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_HtmPost_Exec, version_1|
-|[8](events/event-8_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Stop, etw_task_Mshtml_CMarkup_DOMContentLoadedEvent_Stop, version_1|
-|[9](events/event-9.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_LoadEvent_Start|
-|[90](events/event-90.md)|None|etw_level_Always, etw_keywords_primarynav, etw_task_Mshtml_CImgTask_Init|
-|[92](events/event-92.md)|None|etw_level_Always, etw_keywords_primarynav mshtml, etw_task_Mshtml_OffscreenBufferCreated|
-|[9](events/event-9_v1.md)|None|etw_level_Always, etw_keywords_primarynav pageloadbreakdown, etw_opcode_Start, etw_task_Mshtml_CMarkup_LoadEvent_Start, version_1|

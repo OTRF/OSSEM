@@ -6,6 +6,26 @@ This page contains the list of events for Microsoft-Windows-USB-USBXHCI, as coll
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[3](events/event-3.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIControlerRundown|
+|[3](events/event-3_v1.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIControlerRundown, version_1|
+|[3](events/event-3_v2.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIControlerRundown, version_2|
+|[3](events/event-3_v3.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIControlerRundown, version_3|
+|[4](events/event-4.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIDeviceRundown|
+|[4](events/event-4_v1.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIDeviceRundown, version_1|
+|[4](events/event-4_v2.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIDeviceRundown, version_2|
+|[4](events/event-4_v3.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIDeviceRundown, version_3|
+|[5](events/event-5.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIEndpointRundown|
+|[6](events/event-6.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIControllerCreate|
+|[6](events/event-6_v1.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIControllerCreate, version_1|
+|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIControllerDelete|
+|[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceCreate|
+|[8](events/event-8_v1.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceCreate, version_1|
+|[8](events/event-8_v2.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceCreate, version_2|
+|[8](events/event-8_v3.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceCreate, version_3|
+|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceUpdate|
+|[9](events/event-9_v1.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceUpdate, version_1|
+|[9](events/event-9_v2.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceUpdate, version_2|
+|[9](events/event-9_v3.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceUpdate, version_3|
 |[10](events/event-10.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceDelete|
 |[10](events/event-10_v1.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceDelete, version_1|
 |[10](events/event-10_v2.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceDelete, version_2|
@@ -29,7 +49,6 @@ This page contains the list of events for Microsoft-Windows-USB-USBXHCI, as coll
 |[27](events/event-27.md)|None|etw_level_Informational, etw_keywords_Default Power, etw_opcode_Stop, etw_task_USBXHCIControllerRestoreState|
 |[28](events/event-28.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Start, etw_task_USBXHCIControllerInternalReset|
 |[29](events/event-29.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Stop, etw_task_USBXHCIControllerInternalReset|
-|[3](events/event-3.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIControlerRundown|
 |[30](events/event-30.md)|None|etw_level_Error, etw_keywords_Default HWVerifyHost keyword_400000000000, etw_opcode_Information, etw_task_USBXHCIControllerError|
 |[31](events/event-31.md)|None|etw_level_Informational, etw_keywords_Default ControllerCommand, etw_opcode_Information, etw_task_USBXHCICommand|
 |[32](events/event-32.md)|None|etw_level_Informational, etw_keywords_Default ControllerCommand, etw_opcode_Information, etw_task_USBXHCICommand|
@@ -43,10 +62,6 @@ This page contains the list of events for Microsoft-Windows-USB-USBXHCI, as coll
 |[38](events/event-38_v1.md)|None|etw_level_Informational, etw_keywords_Performance, etw_opcode_RequestfromVTL0driverreceivedintrustlet, etw_task_RequesttoVTL1IUMtrustlet, version_1|
 |[39](events/event-39.md)|None|etw_level_Informational, etw_keywords_Default Performance, etw_opcode_RequestfromVTL0drivercompletedintrustlet, etw_task_RequesttoVTL1IUMtrustlet|
 |[39](events/event-39_v1.md)|None|etw_level_Informational, etw_keywords_Performance, etw_opcode_RequestfromVTL0drivercompletedintrustlet, etw_task_RequesttoVTL1IUMtrustlet, version_1|
-|[3](events/event-3_v1.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIControlerRundown, version_1|
-|[3](events/event-3_v2.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIControlerRundown, version_2|
-|[3](events/event-3_v3.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIControlerRundown, version_3|
-|[4](events/event-4.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIDeviceRundown|
 |[40](events/event-40.md)|None|etw_level_Informational, etw_keywords_Default Performance, etw_opcode_Stop, etw_task_RequesttoVTL1IUMtrustlet|
 |[40](events/event-40_v1.md)|None|etw_level_Informational, etw_keywords_Performance, etw_opcode_Stop, etw_task_RequesttoVTL1IUMtrustlet, version_1|
 |[41](events/event-41.md)|None|etw_level_Informational, etw_keywords_Default Performance, etw_opcode_USBtransferinitialized, etw_task_USBtransfer|
@@ -63,18 +78,3 @@ This page contains the list of events for Microsoft-Windows-USB-USBXHCI, as coll
 |[47](events/event-47.md)|None|etw_level_Informational, etw_keywords_Default keyword_400000000000, etw_opcode_Information, etw_task_StopTrackingForTimeSync|
 |[48](events/event-48.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_ConfigureEndpoint|
 |[49](events/event-49.md)|None|etw_level_Error, etw_keywords_Default keyword_400000000000, etw_opcode_Information, etw_task_USBXHCIControllerHealthInformation|
-|[4](events/event-4_v1.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIDeviceRundown, version_1|
-|[4](events/event-4_v2.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIDeviceRundown, version_2|
-|[4](events/event-4_v3.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIDeviceRundown, version_3|
-|[5](events/event-5.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_USBXHCIEndpointRundown|
-|[6](events/event-6.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIControllerCreate|
-|[6](events/event-6_v1.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIControllerCreate, version_1|
-|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIControllerDelete|
-|[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceCreate|
-|[8](events/event-8_v1.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceCreate, version_1|
-|[8](events/event-8_v2.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceCreate, version_2|
-|[8](events/event-8_v3.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceCreate, version_3|
-|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceUpdate|
-|[9](events/event-9_v1.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceUpdate, version_1|
-|[9](events/event-9_v2.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceUpdate, version_2|
-|[9](events/event-9_v3.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_USBXHCIDeviceUpdate, version_3|
