@@ -9,6 +9,7 @@ import os
 import yaml
 import mistune
 import argparse
+from natsort import natsorted
 from bs4 import BeautifulSoup
 from jinja2 import Environment, FileSystemLoader
 
@@ -472,7 +473,7 @@ class ossemParser():
                     if item == entry_type:
                         entry['data_set_type'] = item #TODO: capitalize
                         events_root_path = os.path.join(root_path, entry['filepath'], item)
-                        for event in sorted(os.listdir(events_root_path)):
+                        for event in natsorted(os.listdir(events_root_path)):
                             if event.endswith('.yml'):
                                 event_file_path = os.path.join(events_root_path, event)
                                 readme = yaml.load(open(event_file_path, 'r'), Loader=yaml.Loader)
