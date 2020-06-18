@@ -319,8 +319,13 @@ class ossemParser():
         """ read a yaml file and return dict """
         rootpath = root_path[:root_path.index(context)+1]
         filepath = root_path[root_path.index(context)+1:]
-        yml_file = yaml.load(open(file_path, 'r'), Loader=yaml.Loader)
-        filename = file_path.split('/')[-1].split('.')[0]
+        try:
+            yml_file = yaml.load(open(file_path, 'r'), Loader=yaml.Loader)
+            filename = file_path.split('/')[-1].split('.')[0]
+        except Exception as e:
+            print('[!] Failed parsing', file_path)
+            return None
+
         if not yml_file:
             print('[!] Failed parsing {}'.format(file_path))
             return None
@@ -476,13 +481,16 @@ class ossemParser():
                         for event in natsorted(os.listdir(events_root_path)):
                             if event.endswith('.yml'):
                                 event_file_path = os.path.join(events_root_path, event)
-                                readme = yaml.load(open(event_file_path, 'r'), Loader=yaml.Loader)
-                                if readme:
-                                    sub_data_sets.append({
-                                        'title': readme['event_code'] if 'event_code' in readme else readme['title'],
-                                        'link': '{}/{}.md'.format(item, event.split('.')[0]),
-                                        'description': self.remove_new_lines(readme['description']),
-                                        'tags': readme['tags']})
+                                try:
+                                    readme = yaml.load(open(event_file_path, 'r'), Loader=yaml.Loader)
+                                    if readme:
+                                        sub_data_sets.append({
+                                            'title': readme['event_code'] if 'event_code' in readme else readme['title'],
+                                            'link': '{}/{}.md'.format(item, event.split('.')[0]),
+                                            'description': self.remove_new_lines(readme['description']),
+                                            'tags': readme['tags']})
+                                except Exception as e:
+                                    print('[!] Failed parsing', event_file_path)
 
                     #indexes pointing to other indexes
                     else:
