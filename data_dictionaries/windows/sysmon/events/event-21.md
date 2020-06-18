@@ -54,7 +54,7 @@ When a consumer binds to a filter, this event logs the consumer name and filter 
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
 | tag               | RuleName  | string | custom tag mapped to event. i.e ATT&CK technique ID | T1114                                     |
-| event_type        | EventType | string | wmievent type                                       | WmiBindingEvent                           |
+| event_category_type        | EventType | string | wmievent type                                       | WmiBindingEvent                           |
 | @timestamp        | UtcTime   | date   | Time in UTC when event was created                  | 2018-09-12 00:47:16.997                   |
 | wmi_operation     | Operation | string | wmievent filter operation                           | Created                                   |
 | user_name         | User      | string | user that created the wmi filter                    | DESKTOP-LFD11QP\pedro                     |

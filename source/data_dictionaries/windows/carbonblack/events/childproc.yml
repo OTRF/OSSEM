@@ -30,9 +30,9 @@ event_fields:
   type: BOOLEAN
   description: Specifies whether this process_guid is the child or the parent
   sample_value: 'true'
-- standard_name: event_type
+- standard_name: event_category_type
   standard_type: TBD
-  name: event_type
+  name: event_category_type
   type: TEXT
   description: The type of event
   sample_value: childproc
@@ -84,7 +84,7 @@ event_fields:
   type: INTEGER
   description: Endpoint timestamp of this event since epoch
   sample_value: '1447697423'
-- standard_name: event_type_detailed
+- standard_name: event_category_type_detailed
   standard_type: TBD
   name: type
   type: TEXT

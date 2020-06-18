@@ -13,7 +13,7 @@ A registry key has been created, deleted, or modified on an endpoint monitored b
     "actiontype": 2,
     "cb_server": "cbserver",
     "computer_name": "JASON-WIN81-VM",
-    "event_type": "regmod",
+    "event_category_type": "regmod",
     "link_process": "https://cbtests/#analyze/00000001-0000-0484-01d1-1e951b7c000b/1",
     "link_sensor": "https://cbtests/#/host/1",
     "md5": "0E7196981EDE614F1F54FFF2C3843ADF",
@@ -34,7 +34,7 @@ A registry key has been created, deleted, or modified on an endpoint monitored b
 |	actiontype	|	actiontype	|	INTEGER	|	Enum value of the registry modification: 1=createkey, 2=writeval, 4=delkey, 8=delval	|	2	|
 |	cb_server	|	cb_server	|	TEXT	|	Used to distinguish between multiple Cb Response servers. Set this in the “server_name” option of cb-event-forwarder.ini.	|	cbserver	|
 |	host_name	|	computer_name	|	TEXT	|	hostname of the sensor	|	JASON-WIN81-VM	|
-|	event_type	|	event_type	|	TEXT	|	The type of event	|	regmod	|
+|	event_category_type	|	event_type	|	TEXT	|	The type of event	|	regmod	|
 |	process_link	|	link_process	|	TEXT	|	Deep link to Cb Response UI for process	|	https://cbtests/#analyze/00000001-0000-0484-01d1-1e951b7c000b/1	|
 |	sensor_link	|	link_sensor	|	TEXT	|	Deep link to Cb Response UI for sensor	|	https://cbtests/#/host/1	|
 |	hash	|	md5	|	TEXT	|	md5 of process executable	|	0E7196981EDE614F1F54FFF2C3843ADF	|

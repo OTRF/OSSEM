@@ -55,7 +55,7 @@ This Registry event type identifies Registry value modifications. The event reco
 |	Standard Name	| Field Name |	Type	|	Description	|	Sample Value	|
 |	----------------	|	----------------	|	----------------	|	----------------	|	----------------	|
 | tag                  | RuleName     | string  | custom tag mapped to event. i.e ATT&CK technique ID                                   | T1114                                                                                 |
-| event_type           | EventType    | string  | registry event. Registry values modifications                                         | SetValue                                                                              |
+| event_category_type           | EventType    | string  | registry event. Registry values modifications                                         | SetValue                                                                              |
 | @timestamp           | UtcTime      | date    | Time in UTC when event was created                                                    | 2020-04-01 09:01:01.576                                                               |
 | process_guid         | ProcessGuid  | string  | Process Guid of the process that modified a registry value                            | {A98268C1-95F9-5ACD-0000-001025861000}                                                |
 | process_id           | ProcessId    | integer | Process ID used by the os to identify the process that that modified a registry value | 4624                                                                                  |

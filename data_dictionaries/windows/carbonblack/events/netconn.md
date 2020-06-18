@@ -13,7 +13,7 @@ A network connection has been received or initiated by an endpoint monitored by 
     "computer_name": "WIN-OTEMNUTBS23",
     "direction": "outbound",
     "domain": "carbonblack.com",
-    "event_type": "netconn",
+    "event_category_type": "netconn",
     "ipv4": "23.4.187.27",
     "link_process": "https://cbtests/#analyze/00000007-0000-090c-01d1-2099b8f18a82/1",
     "link_sensor": "https://cbtests/#/host/7",
@@ -39,7 +39,7 @@ A network connection has been received or initiated by an endpoint monitored by 
 |	host_name	|	computer_name	|	TEXT	|	hostname of the sensor	|	WIN-OTEMNUTBS23	|
 | direction		|	direction	|	TEXT	|	Direction of the netconn event: inbound or outbound	|	outbound	|
 | domain		|	domain	|	TEXT	|	The DNS name of the network peer, if available.	|	carbonblack.com	|
-|	event_type	|	event_type	|	TEXT	|	The type of event	|	netconn	|
+|	event_type	|	event_category_type	|	TEXT	|	The type of event	|	netconn	|
 |	ipv4	|	ipv4	|	TEXT	|	remote ipv4 address of network connection. Maintained for backward compatibility for earlier versions of the event forwarder. See local_ip and remote_ip.	|	23.4.187.27	|
 |	process_link	|	link_process	|	TEXT	|	Deep link to Cb Response UI for process	|	https://cbtests/#analyze/00000007-0000-090c-01d1-2099b8f18a82/1 |
 |	sensor_link	|	link_sensor	|	TEXT	|	Deep link to Cb Response UI for sensor	|	https://cbtests/#/host/7	|
