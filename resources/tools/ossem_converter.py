@@ -15,7 +15,8 @@ class ossemParser():
     def __init__(self):
         self.cim_entities = []
         self.cim_entities_indexes = []
-        self.cim_ignore = ['domain_or_hostname_or_fqdn.md']
+        self.cim_ignore = []
+        self.ignored_paths = []
         self.data_dictionaries = []
         self.data_dictionaries_indexes = []
         self.data_dictionaries_ignore = []
@@ -68,7 +69,13 @@ class ossemParser():
                     if cim in path and name not in self.cim_ignore:
                         yml_data = self.read_yml(cim, path, filepath)
                         if yml_data:
-                            self.cim_entities.append(yml_data)
+                            if len(yml_data['data_fields']) == 0 or \
+                                yml_data['title'] == None or \
+                                yml_data['description'] == None:
+                                print('[!] Skipping {} because entity is incomplete'.format(filepath))
+                                self.ignored_paths.append(filepath)
+                            else:
+                                self.cim_entities.append(yml_data)
 
                     elif dd in path:
                         yml_data = self.read_yml(dd, path, filepath)
@@ -196,6 +203,11 @@ class ossemParser():
                         for event in natsorted(os.listdir(events_root_path)):
                             if event.endswith('.yml'):
                                 event_file_path = os.path.join(events_root_path, event)
+
+                                #skip file paths marked as ignored
+                                if event_file_path in self.ignored_paths:
+                                    continue
+
                                 try:
                                     readme = yaml.load(open(event_file_path, 'r'), Loader=yaml.Loader)
                                     if readme:
