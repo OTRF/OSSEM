@@ -3,7 +3,7 @@
 
 __appname__ = 'OSSEM Converter'
 __author__  = 'Ricardo Dias @hxnoyd'
-__version__ = "0.1.0"
+__version__ = "0.1.6"
 
 import os
 import yaml
