@@ -7,10 +7,8 @@ __version__ = "0.1.0"
 
 import os
 import yaml
-import mistune
 import argparse
 from natsort import natsorted
-from bs4 import BeautifulSoup
 from jinja2 import Environment, FileSystemLoader
 
 class ossemParser():
