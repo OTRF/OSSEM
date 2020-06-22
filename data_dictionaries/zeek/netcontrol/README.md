@@ -6,7 +6,7 @@ The following are fields added to each event, for the rest of the fields see its
 
 | Standard Name                   | Field Name                      | Type                            | Description                        | Sample Value                    |
 | ------------------------------- | ------------------------------- | ------------------------------- | -------------------------------    | ------------------------------- |
-| event_log_category_type         | z_Enrichment                    | string                          | The Zeek "category" for these logs | `netcontrol`             |
+| event_category_type         | z_Enrichment                    | string                          | The Zeek "category" for these logs | `netcontrol`             |
 
 ## Data Dictionaries
 
