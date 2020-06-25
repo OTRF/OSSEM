@@ -1,3 +1,38 @@
+- data_source: Process command-line
+  sub_data_source: process creation
+  source_data_element: process
+  relationship: created
+  target_data_element: process
+  event_id: 4688
+  event_id_description: A new process has been created
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Detailed Tracking
+  data_sub_category: Audit Process Creation
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Detailed Tracking -> Audit
+    Process Creation
+  enable_commands: auditpol.exe /set /subcategory:"Process Creation" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Process command-line
+  sub_data_source: process creation
+  source_data_element: process
+  relationship: created
+  target_data_element: process
+  event_id: 1
+  event_id_description: Process creation
+  provider_name: Microsoft-Windows-Sysmon
+  event_channel: Microsoft-windows-sysmon/operational
+  data_category: Process Creation
+  data_sub_category: N/A
+  minimum_operating_system: Windows 7, Windows 2008 R2
+  gpo: N/A
+  enable_commands: Sysmon64.exe -i /Sysmon64.exe -i -l /Sysmon64.exe -c -l /  <ProcessCreate
+    onmatch="exclude"/>
+  client_default: No auditing
+  server_default: No auditing
 - data_source: Windows event logs, Authentication logs
   sub_data_source: NTLM Credentials Validation
   source_data_element: host
