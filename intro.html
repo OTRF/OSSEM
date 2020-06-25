@@ -177,31 +177,31 @@
 <h1>Project Structure<a class="headerlink" href="#project-structure" title="Permalink to this headline">¶</a></h1>
 <p>There are four main folders:</p>
 <ul class="simple">
-<li><p><code class="xref any docutils literal notranslate"><strong><span class="pre">Common</span> <span class="pre">Information</span> <span class="pre">Model</span> <span class="pre">(CIM)</span></strong></code>:</p>
+<li><p><strong>Common Information Model (CIM)</strong>:</p>
 <ul>
 <li><p>Facilitates the normalization of data sets by providing a standard way to parse security event logs</p></li>
-<li><p>It is organized by specific entities associated with event logs and defined in more details by <code class="xref any docutils literal notranslate"><span class="pre">Data</span> <span class="pre">Dictionaries</span></code></p></li>
+<li><p>It is organized by specific entities associated with event logs and defined in more details by <strong>Data Dictionaries</strong>.</p></li>
 <li><p>The definitions of each entity and its respective field names are mostly general descriptions that could help and expedite event logs parsing procedures.</p></li>
 </ul>
 </li>
-<li><p><code class="xref any docutils literal notranslate"><strong><span class="pre">Data</span> <span class="pre">Dictionaries</span></strong></code>:</p>
+<li><p><strong>Data Dictionaries</strong>:</p>
 <ul>
 <li><p>Contains specific information about several security event logs organized by operating system and their respective data sets</p></li>
 <li><p>Each dictionary describes a single event log and its corresponding event field names</p></li>
-<li><p>The difference between the <code class="xref any docutils literal notranslate"><span class="pre">Common</span> <span class="pre">Information</span> <span class="pre">Model</span></code> folder and the data dictionaries is that in the CIM the field definitions are more general whereas in a data dictionary, each field name definition is unique to the specific event log.</p></li>
+<li><p>The difference between the <strong>Common Information Model</strong> folder and the data dictionaries is that in the CIM the field definitions are more general whereas in a data dictionary, each field name definition is unique to the specific event log.</p></li>
 </ul>
 </li>
-<li><p><code class="xref any docutils literal notranslate"><strong><span class="pre">Detection</span> <span class="pre">Data</span> <span class="pre">Model</span></strong></code>:</p>
+<li><p><strong>Detection Data Model</strong>:</p>
 <ul>
 <li><p>Focuses on defining the required data in form of data objects and the relationships among each other needed to facilitate the creation of data analytics and validate the detection of adversary techniques</p></li>
 <li><p>This is inspired by the awesome work of MITRE with their project <a class="reference external" href="https://car.mitre.org/wiki/Main_Page">CAR Analytics</a></p></li>
-<li><p>The information needed for each data object is pulled from the entities defined in the <code class="xref any docutils literal notranslate"><span class="pre">Common</span> <span class="pre">Information</span> <span class="pre">Model</span></code></p></li>
+<li><p>The information needed for each data object is pulled from the entities defined in the <strong>Common Information Model</strong>.</p></li>
 </ul>
 </li>
-<li><p><code class="xref any docutils literal notranslate"><strong><span class="pre">ATTACK</span> <span class="pre">Data</span> <span class="pre">Sources</span></strong></code>:</p>
+<li><p><strong>ATTACK Data Sources</strong>:</p>
 <ul>
 <li><p>Focuses on the documentation of data sources suggested or associated with techniques defined in the <a class="reference external" href="https://attack.mitre.org/wiki/Technique_Matrix">Enterprise Matrix</a></p></li>
-<li><p>In addition, here is where data sources will be mapped with specific data objects defined in the <code class="xref any docutils literal notranslate"><span class="pre">Detection</span> <span class="pre">Data</span> <span class="pre">Model</span></code> part of the project with the main goal of creating a link between techniques, data sources and data analytics</p></li>
+<li><p>In addition, here is where data sources will be mapped with specific data objects defined in the <strong>Detection Data Model</strong> part of the project with the main goal of creating a link between techniques, data sources and data analytics</p></li>
 </ul>
 </li>
 </ul>
