@@ -1,4 +1,4 @@
-- data_source: Windows event logs, Authentication logs
+- data_source: Authentication logs
   sub_data_source: NTLM Credentials Validation
   source_data_element: host
   relationship: authenticated
@@ -18,7 +18,7 @@
     /failure:enable
   client_default: No auditing
   server_default: Success
-- data_source: Windows event logs, Authentication logs
+- data_source: Authentication logs
   sub_data_source: kerberos TGT authentication failure
   source_data_element: user
   relationship: authenticated_with
@@ -37,7 +37,7 @@
     /success:enable
   client_default: No auditing
   server_default: Success
-- data_source: Windows event logs, Authentication logs
+- data_source: Authentication logs
   sub_data_source: user account successful authentication
   source_data_element: user
   relationship: authenticated
@@ -54,7 +54,7 @@
   enable_commands: auditpol.exe /set /subcategory:"Logon" /success:enable /failure:enable
   client_default: Success
   server_default: Success, Failure
-- data_source: Windows event logs, Authentication logs
+- data_source: Authentication logs
   sub_data_source: user account authentication with explicit credential
   source_data_element: user
   relationship: authenticated
