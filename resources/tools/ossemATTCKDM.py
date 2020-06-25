@@ -11,10 +11,10 @@ from os import path
 ds_files = glob.glob(path.join(path.dirname(__file__), '../../attack_data_sources/event-mappings', "*.yml"))
 ds_loaded = [yaml.safe_load(open(yf).read()) for yf in ds_files]
 
-all_data_sources = {'ds': []}
+all_data_sources = []
 
 for ds in ds_loaded:
-    all_data_sources['ds'].extend(ds)
+    all_data_sources.extend(ds)
 
 with open(r'../../attack_data_sources/event-mappings/all_data_sources.yml', 'w') as file:
-    yaml.dump(all_data_sources['ds'], file, sort_keys=False)
+    yaml.dump(all_data_sources, file, sort_keys=False)
