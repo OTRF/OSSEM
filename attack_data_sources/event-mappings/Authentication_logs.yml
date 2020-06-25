@@ -1,0 +1,73 @@
+- data_source: Windows event logs, Authentication logs
+  sub_data_source: NTLM Credentials Validation
+  source_data_element: host
+  relationship: authenticated
+  target_data_element: user
+  event_id: 4776
+  event_id_description: The computer attempted to validate the credentials for an
+    account
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Logon
+  data_sub_category: Audit Credential Validation
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Logon -> Audit
+    Credential Validation
+  enable_commands: auditpol.exe /set /subcategory:"Credential Validation" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: Success
+- data_source: Windows event logs, Authentication logs
+  sub_data_source: kerberos TGT authentication failure
+  source_data_element: user
+  relationship: authenticated_with
+  target_data_element: ticket granting ticket
+  event_id: 4771
+  event_id_description: Kerberos pre-authentication failed
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Logon
+  data_sub_category: Audit Kerberos Authentication Service
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Logon -> Audit
+    Kerberos Authentication Service
+  enable_commands: auditpol.exe /set /subcategory:"Kerberos Authentication Service"
+    /success:enable
+  client_default: No auditing
+  server_default: Success
+- data_source: Windows event logs, Authentication logs
+  sub_data_source: user account successful authentication
+  source_data_element: user
+  relationship: authenticated
+  target_data_element: host
+  event_id: 4624
+  event_id_description: An account was successfully logged on
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Logon/Logoff
+  data_sub_category: Audit Logon
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Logon/Logoff -> Audit Logon
+  enable_commands: auditpol.exe /set /subcategory:"Logon" /success:enable /failure:enable
+  client_default: Success
+  server_default: Success, Failure
+- data_source: Windows event logs, Authentication logs
+  sub_data_source: user account authentication with explicit credential
+  source_data_element: user
+  relationship: authenticated
+  target_data_element: host
+  event_id: 4648
+  event_id_description: A logon was attempted using explicit credentials
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Logon/Logoff
+  data_sub_category: Audit Logon
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Logon/Logoff -> Audit Logon
+  enable_commands: auditpol.exe /set /subcategory:"Logon" /success:enable /failure:enable
+  client_default: Success
+  server_default: Success, Failure

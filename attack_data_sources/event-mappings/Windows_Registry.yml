@@ -1,0 +1,119 @@
+- data_source: Windows event logs, Windows Registry
+  sub_data_source: win registry key value modification
+  source_data_element: user
+  relationship: modified
+  target_data_element: win registry key value
+  event_id: 4657
+  event_id_description: A registry value was modified.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Registry
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs, Windows Registry
+  sub_data_source: win registry key value modification
+  source_data_element: process
+  relationship: modified
+  target_data_element: win registry key value
+  event_id: 4657
+  event_id_description: A registry value was modified.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Registry
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows Registry
+  sub_data_source: win registry key creation
+  source_data_element: process
+  relationship: created
+  target_data_element: win registry key
+  event_id: 12
+  event_id_description: Registry key and value create and delete operations map to
+    this event type. (Object create and delete)
+  provider_name: Microsoft-Windows-Sysmon
+  event_channel: Microsoft-windows-sysmon/operational
+  data_category: Registry Key
+  data_sub_category: Registry Key Created
+  minimum_operating_system: Windows 7, Windows 2008 R2
+  gpo: N/A
+  enable_commands: <RegistryEvent onmatch="exclude" />
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows Registry
+  sub_data_source: win registry key deletion
+  source_data_element: process
+  relationship: deleted
+  target_data_element: win registry key
+  event_id: 12
+  event_id_description: Registry key and value create and delete operations map to
+    this event type. (Object create and delete)
+  provider_name: Microsoft-Windows-Sysmon
+  event_channel: Microsoft-windows-sysmon/operational
+  data_category: Registry Key
+  data_sub_category: Registry Key Deleted
+  minimum_operating_system: Windows 7, Windows 2008 R2
+  gpo: N/A
+  enable_commands: <RegistryEvent onmatch="exclude" />
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows Registry
+  sub_data_source: win registry key modification
+  source_data_element: process
+  relationship: renamed
+  target_data_element: win registry key
+  event_id: 14
+  event_id_description: Registry key and value rename operations map to this event
+    type. (Key and Value Rename)
+  provider_name: Microsoft-Windows-Sysmon
+  event_channel: Microsoft-windows-sysmon/operational
+  data_category: Registry Key
+  data_sub_category: Registry Key Renamed
+  minimum_operating_system: Windows 7, Windows 2008 R2
+  gpo: N/A
+  enable_commands: <RegistryEvent onmatch="exclude" />
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows Registry
+  sub_data_source: win registry key value modification
+  source_data_element: process
+  relationship: renamed
+  target_data_element: win registry key value
+  event_id: 14
+  event_id_description: Registry key and value rename operations map to this event
+    type. (Key and Value Rename)
+  provider_name: Microsoft-Windows-Sysmon
+  event_channel: Microsoft-windows-sysmon/operational
+  data_category: Registry Key
+  data_sub_category: Registry Key Value Renamed
+  minimum_operating_system: Windows 7, Windows 2008 R2
+  gpo: N/A
+  enable_commands: <RegistryEvent onmatch="exclude" />
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows Registry
+  sub_data_source: win registry key value modification
+  source_data_element: process
+  relationship: modified
+  target_data_element: win registry key value
+  event_id: 13
+  event_id_description: This Registry event type identifies Registry value modifications.
+    (Value Set)
+  provider_name: Microsoft-Windows-Sysmon
+  event_channel: Microsoft-windows-sysmon/operational
+  data_category: Registry Key
+  data_sub_category: Registry Value Set
+  minimum_operating_system: Windows 7, Windows 2008 R2
+  gpo: N/A
+  enable_commands: <RegistryEvent onmatch="exclude" />
+  client_default: No auditing
+  server_default: No auditing

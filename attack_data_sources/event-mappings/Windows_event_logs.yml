@@ -1,0 +1,1512 @@
+- data_source: Windows event logs
+  sub_data_source: kerberos TGT request
+  source_data_element: user
+  relationship: requested
+  target_data_element: ticket granting ticket
+  event_id: 4768
+  event_id_description: A Kerberos authentication ticket (TGT) was requested
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Logon
+  data_sub_category: Audit Kerberos Authentication Service
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Logon -> Audit
+    Kerberos Authentication Service
+  enable_commands: auditpol.exe /set /subcategory:"Kerberos Authentication Service"
+    /success:enable
+  client_default: No auditing
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: kerberos service ticket request
+  source_data_element: user
+  relationship: requested
+  target_data_element: service ticket
+  event_id: 4769
+  event_id_description: A Kerberos service ticket was requested
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Logon
+  data_sub_category: Audit Kerberos Service Ticket Operations
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Logon -> Audit
+    Kerberos Service Ticket Operations
+  enable_commands: auditpol.exe /set /subcategory:"Kerberos Service Ticket Operations"
+    /success:enable
+  client_default: No auditing
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: kerberos service ticket renewal
+  source_data_element: user
+  relationship: renewed
+  target_data_element: service ticket
+  event_id: 4770
+  event_id_description: A Kerberos service ticket was renewed
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Logon
+  data_sub_category: Audit Kerberos Service Ticket Operations
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Logon -> Audit
+    Kerberos Service Ticket Operations
+  enable_commands: auditpol.exe /set /subcategory:"Kerberos Service Ticket Operations"
+    /success:enable
+  client_default: No auditing
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: kerberos service ticket failure
+  source_data_element: user
+  relationship: requested
+  target_data_element: service ticket
+  event_id: 4773
+  event_id_description: A Kerberos service ticket request failed
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Logon
+  data_sub_category: Audit Kerberos Service Ticket Operations
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Logon -> Audit
+    Kerberos Service Ticket Operations
+  enable_commands: auditpol.exe /set /subcategory:"Kerberos Service Ticket Operations"
+    /success:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: user rdp session
+  source_data_element: user
+  relationship: disconnected_from
+  target_data_element: host
+  event_id: 4779
+  event_id_description: A session was disconnected from a Window Station
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Logon
+  data_sub_category: Audit Other Logon/Logoff Events
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Logon/Logoff -> Audit Other
+    Logon/Logoff Events
+  enable_commands: auditpol.exe /set /subcategory:"Other Logon/Logoff Events" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: user rdp session
+  source_data_element: user
+  relationship: connected_to
+  target_data_element: host
+  event_id: 4778
+  event_id_description: A session was reconnected to a Window Station
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Logon
+  data_sub_category: Audit Other Logon/Logoff Events
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Logon/Logoff -> Audit Other
+    Logon/Logoff Events
+  enable_commands: auditpol.exe /set /subcategory:"Other Logon/Logoff Events" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: user lock operation
+  source_data_element: user
+  relationship: locked
+  target_data_element: host
+  event_id: 4800
+  event_id_description: The workstation was locked
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Logon
+  data_sub_category: Audit Other Logon/Logoff Events
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Logon/Logoff -> Audit Other
+    Logon/Logoff Events
+  enable_commands: auditpol.exe /set /subcategory:"Other Logon/Logoff Events" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: user unlock operation
+  source_data_element: user
+  relationship: unlocked
+  target_data_element: host
+  event_id: 4801
+  event_id_description: The workstation was unlocked
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Logon
+  data_sub_category: Audit Other Logon/Logoff Events
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Logon/Logoff -> Audit Other
+    Logon/Logoff Events
+  enable_commands: auditpol.exe /set /subcategory:"Other Logon/Logoff Events" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: computer account creation
+  source_data_element: user
+  relationship: created
+  target_data_element: computer
+  event_id: 4741
+  event_id_description: A computer account was created
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Computer Account Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Computer Account Management
+  enable_commands: auditpol.exe /set /subcategory:"Computer Account Management" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: computer account change
+  source_data_element: user
+  relationship: changed
+  target_data_element: computer
+  event_id: 4742
+  event_id_description: A computer account was changed
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Computer Account Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Computer Account Management
+  enable_commands: auditpol.exe /set /subcategory:"Computer Account Management" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: computer account deletion
+  source_data_element: user
+  relationship: deleted
+  target_data_element: computer
+  event_id: 4743
+  event_id_description: A computer account was deleted
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Computer Account Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Computer Account Management
+  enable_commands: auditpol.exe /set /subcategory:"Computer Account Management" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: distribution group creation
+  source_data_element: user
+  relationship: created
+  target_data_element: group
+  event_id: 4749
+  event_id_description: A security-disabled global group was created
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Distribution Group Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Distribution Group Management
+  enable_commands: auditpol.exe /set /subcategory:"Distribution Group Management"
+    /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: distribution group change
+  source_data_element: user
+  relationship: changed
+  target_data_element: group
+  event_id: 4750
+  event_id_description: A security-disabled global group was changed
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Distribution Group Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Distribution Group Management
+  enable_commands: auditpol.exe /set /subcategory:"Distribution Group Management"
+    /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: distribution group member addition
+  source_data_element: user
+  relationship: added
+  target_data_element: user
+  event_id: 4751
+  event_id_description: A member was added to a security-disabled global group
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Distribution Group Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Distribution Group Management
+  enable_commands: auditpol.exe /set /subcategory:"Distribution Group Management"
+    /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: distribution group member removal
+  source_data_element: user
+  relationship: removed
+  target_data_element: user
+  event_id: 4752
+  event_id_description: A member was removed from a security-disabled global group
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Distribution Group Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Distribution Group Management
+  enable_commands: auditpol.exe /set /subcategory:"Distribution Group Management"
+    /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: distribution group deletion
+  source_data_element: user
+  relationship: deleted
+  target_data_element: group
+  event_id: 4753
+  event_id_description: A security-disabled global group was deleted
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Distribution Group Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Distribution Group Management
+  enable_commands: auditpol.exe /set /subcategory:"Distribution Group Management"
+    /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: security group creation
+  source_data_element: user
+  relationship: created
+  target_data_element: group
+  event_id: 4731
+  event_id_description: A security-enabled local group was created
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Security Group Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Security Group Management
+  enable_commands: auditpol.exe /set /subcategory:"Security Group Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: security group member addition
+  source_data_element: user
+  relationship: added
+  target_data_element: user
+  event_id: 4732
+  event_id_description: A member was added to a security-enabled local group.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Security Group Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Security Group Management
+  enable_commands: auditpol.exe /set /subcategory:"Security Group Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: security group member removal
+  source_data_element: user
+  relationship: removed
+  target_data_element: user
+  event_id: 4733
+  event_id_description: A member was removed from a security-enabled local group.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Security Group Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Security Group Management
+  enable_commands: auditpol.exe /set /subcategory:"Security Group Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: security group deletion
+  source_data_element: user
+  relationship: deleted
+  target_data_element: group
+  event_id: 4734
+  event_id_description: A security-enabled local group was deleted.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Security Group Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Security Group Management
+  enable_commands: auditpol.exe /set /subcategory:"Security Group Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: security group change
+  source_data_element: user
+  relationship: changed
+  target_data_element: group
+  event_id: 4735
+  event_id_description: A security-enabled local group was changed.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Security Group Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Security Group Management
+  enable_commands: auditpol.exe /set /subcategory:"Security Group Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: security group type change
+  source_data_element: user
+  relationship: changed_type
+  target_data_element: group
+  event_id: 4764
+  event_id_description: "A group\u2019s type was changed"
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Security Group Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Security Group Management
+  enable_commands: auditpol.exe /set /subcategory:"Security Group Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: security group enumeration
+  source_data_element: user
+  relationship: enumerated
+  target_data_element: group members
+  event_id: 4799
+  event_id_description: A security-enabled local group membership was enumerated
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Security Group Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    Security Group Management
+  enable_commands: auditpol.exe /set /subcategory:"Security Group Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: user account creation
+  source_data_element: user
+  relationship: created
+  target_data_element: user
+  event_id: 4720
+  event_id_description: A user account was created.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit User Account Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    User Account Management
+  enable_commands: auditpol.exe /set /subcategory:"User Account Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: user account enable
+  source_data_element: user
+  relationship: enabled
+  target_data_element: user
+  event_id: 4722
+  event_id_description: A user account was enabled.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit User Account Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    User Account Management
+  enable_commands: auditpol.exe /set /subcategory:"User Account Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: user account password change
+  source_data_element: user
+  relationship: changed_password
+  target_data_element: user
+  event_id: 4723
+  event_id_description: An attempt was made to change an account's password.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit User Account Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    User Account Management
+  enable_commands: auditpol.exe /set /subcategory:"User Account Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: user account password reset
+  source_data_element: user
+  relationship: reset_password
+  target_data_element: user
+  event_id: 4724
+  event_id_description: An attempt was made to reset an account's password.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit User Account Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    User Account Management
+  enable_commands: auditpol.exe /set /subcategory:"User Account Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: user account disable
+  source_data_element: user
+  relationship: disabled
+  target_data_element: user
+  event_id: 4725
+  event_id_description: A user account was disabled.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit User Account Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    User Account Management
+  enable_commands: auditpol.exe /set /subcategory:"User Account Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: user account deletion
+  source_data_element: user
+  relationship: deleted
+  target_data_element: user
+  event_id: 4726
+  event_id_description: A user account was deleted.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit User Account Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    User Account Management
+  enable_commands: auditpol.exe /set /subcategory:"User Account Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: user account change
+  source_data_element: user
+  relationship: changed
+  target_data_element: user
+  event_id: 4738
+  event_id_description: A user account was changed.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit User Account Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    User Account Management
+  enable_commands: auditpol.exe /set /subcategory:"User Account Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: user account lock
+  source_data_element: user
+  relationship: locked
+  target_data_element: user
+  event_id: 4740
+  event_id_description: A user account was locked out.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit User Account Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    User Account Management
+  enable_commands: auditpol.exe /set /subcategory:"User Account Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: user account unlock
+  source_data_element: user
+  relationship: unlocked
+  target_data_element: user
+  event_id: 4767
+  event_id_description: A user account was unlocked.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit User Account Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    User Account Management
+  enable_commands: auditpol.exe /set /subcategory:"User Account Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: user account name change
+  source_data_element: user
+  relationship: changed_name
+  target_data_element: user
+  event_id: 4781
+  event_id_description: The name of an account was changed
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit User Account Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    User Account Management
+  enable_commands: auditpol.exe /set /subcategory:"User Account Management" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: user account group enumeration
+  source_data_element: user
+  relationship: enumerated
+  target_data_element: user
+  event_id: 4798
+  event_id_description: A user's local group membership was enumerated.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit User Account Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    User Account Management
+  enable_commands: auditpol.exe /set /subcategory:"User Account Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: user account group enumeration
+  source_data_element: user
+  relationship: enumerated
+  target_data_element: group
+  event_id: 4799
+  event_id_description: A security-enabled local group membership was enumerated
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Management
+  data_sub_category: Audit Security Group Management
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Management -> Audit
+    User Account Management
+  enable_commands: auditpol.exe /set /subcategory:"Security Group Management" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: directory service object access
+  source_data_element: user
+  relationship: accessed
+  target_data_element: ad object
+  event_id: 4662
+  event_id_description: An operation was performed on an object
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit DS Access
+  data_sub_category: Audit Directory Service Access
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> DS Access -> Directory
+    Service Access
+  enable_commands: auditpol.exe /set /subcategory:"Directory Service Access" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: directory service object handle request
+  source_data_element: user
+  relationship: requested_a_handle
+  target_data_element: ad object
+  event_id: 4661
+  event_id_description: A handle to an object was requested
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit DS Access
+  data_sub_category: Audit Directory Service Access
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> DS Access -> Directory
+    Service Access
+  enable_commands: auditpol.exe /set /subcategory:"Directory Service Access" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: directory service object modification
+  source_data_element: user
+  relationship: modified
+  target_data_element: ad object
+  event_id: 5136
+  event_id_description: A directory service object was modified
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit DS Access
+  data_sub_category: Audit Directory Service Changes
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> DS Access -> Directory
+    Service Access
+  enable_commands: auditpol.exe /set /subcategory:"Directory Service Changes" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: directory service object creation
+  source_data_element: user
+  relationship: created
+  target_data_element: ad object
+  event_id: 5137
+  event_id_description: A directory service object was created
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit DS Access
+  data_sub_category: Audit Directory Service Changes
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> DS Access -> Directory
+    Service Access
+  enable_commands: auditpol.exe /set /subcategory:"Directory Service Changes" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: directory service object restoration
+  source_data_element: user
+  relationship: restored
+  target_data_element: ad object
+  event_id: 5138
+  event_id_description: A directory service object was undeleted
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit DS Access
+  data_sub_category: Audit Directory Service Changes
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> DS Access -> Directory
+    Service Access
+  enable_commands: auditpol.exe /set /subcategory:"Directory Service Changes" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: directory service object move
+  source_data_element: user
+  relationship: moved
+  target_data_element: ad object
+  event_id: 5139
+  event_id_description: A directory service object was moved
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit DS Access
+  data_sub_category: Audit Directory Service Changes
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> DS Access -> Directory
+    Service Access
+  enable_commands: auditpol.exe /set /subcategory:"Directory Service Changes" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: directory service object deletion
+  source_data_element: user
+  relationship: deleted
+  target_data_element: ad object
+  event_id: 5141
+  event_id_description: A directory service object was deleted
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit DS Access
+  data_sub_category: Audit Directory Service Changes
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> DS Access -> Directory
+    Service Access
+  enable_commands: auditpol.exe /set /subcategory:"Directory Service Changes" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: user account lockout
+  source_data_element: user
+  relationship: failed
+  target_data_element: host
+  event_id: 4625
+  event_id_description: An account failed to log on
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Logon/Logoff
+  data_sub_category: Audit Account Lockout
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Logon/Logoff -> Audit Account
+    Lockout
+  enable_commands: auditpol.exe /set /subcategory:"Account Lockout" /success:enable
+  client_default: Success
+  server_default: Success
+- data_source: Windows event logs
+  sub_data_source: network share access
+  source_data_element: user
+  relationship: accessed
+  target_data_element: network share
+  event_id: 5140
+  event_id_description: A network share object was accessed.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit File Share
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Object Access -> Audit
+    File Share
+  enable_commands: auditpol.exe /set /subcategory:"File Share" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: network share addition
+  source_data_element: user
+  relationship: added
+  target_data_element: network share
+  event_id: 5142
+  event_id_description: A network share object was added.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit File Share
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Object Access -> Audit
+    File Share
+  enable_commands: auditpol.exe /set /subcategory:"File Share" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: network share modification
+  source_data_element: user
+  relationship: modified
+  target_data_element: network share
+  event_id: 5143
+  event_id_description: A network share object was modified.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit File Share
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Object Access -> Audit
+    File Share
+  enable_commands: auditpol.exe /set /subcategory:"File Share" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: network share deletion
+  source_data_element: user
+  relationship: deleted
+  target_data_element: network share
+  event_id: 5144
+  event_id_description: A network share object was deleted.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit File Share
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Object Access -> Audit
+    File Share
+  enable_commands: auditpol.exe /set /subcategory:"File Share" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: win registry access request
+  source_data_element: process
+  relationship: requested_a_handle
+  target_data_element: win registry key
+  event_id: 4656
+  event_id_description: A handle to an object was requested.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Handle
+    Manipulation
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: win registry access request
+  source_data_element: user
+  relationship: requested_a_handle
+  target_data_element: win registry key
+  event_id: 4656
+  event_id_description: A handle to an object was requested.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Handle
+    Manipulation
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: win registry deletion request
+  source_data_element: process
+  relationship: requested_a_handle
+  target_data_element: win registry key
+  event_id: 4656
+  event_id_description: A handle to an object was requested.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Handle
+    Manipulation
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: win registry deletion request
+  source_data_element: user
+  relationship: requested_a_handle
+  target_data_element: win registry key
+  event_id: 4656
+  event_id_description: A handle to an object was requested.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Handle
+    Manipulation
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: symbolic link creation
+  source_data_element: user
+  relationship: created
+  target_data_element: symbolic link
+  event_id: 4664
+  event_id_description: An attempt was made to create a hard link.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit File System
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Handle
+    Manipulation
+  enable_commands: auditpol.exe /set /subcategory:"File System" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: scheduled task creation
+  source_data_element: user
+  relationship: created
+  target_data_element: scheduled task
+  event_id: 4698
+  event_id_description: A scheduled task was created.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Other Object Access Events
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Object Access -> Audit
+    Other Object Access Events
+  enable_commands: auditpol.exe /set /subcategory:"Other Object Access Events" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: scheduled task deletion
+  source_data_element: user
+  relationship: deleted
+  target_data_element: scheduled task
+  event_id: 4699
+  event_id_description: A scheduled task was deleted.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Other Object Access Events
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Object Access -> Audit
+    Other Object Access Events
+  enable_commands: auditpol.exe /set /subcategory:"Other Object Access Events" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: scheduled task enable
+  source_data_element: user
+  relationship: enabled
+  target_data_element: scheduled task
+  event_id: 4700
+  event_id_description: A scheduled task was enabled.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Other Object Access Events
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Object Access -> Audit
+    Other Object Access Events
+  enable_commands: auditpol.exe /set /subcategory:"Other Object Access Events" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: scheduled tast disable
+  source_data_element: user
+  relationship: disabled
+  target_data_element: scheduled task
+  event_id: 4701
+  event_id_description: A scheduled task was disabled.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Other Object Access Events
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Object Access -> Audit
+    Other Object Access Events
+  enable_commands: auditpol.exe /set /subcategory:"Other Object Access Events" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: scheduled task update
+  source_data_element: user
+  relationship: updated
+  target_data_element: scheduled task
+  event_id: 4702
+  event_id_description: A scheduled task was updated.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Other Object Access Events
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Object Access -> Audit
+    Other Object Access Events
+  enable_commands: auditpol.exe /set /subcategory:"Other Object Access Events" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: win registry key deletion
+  source_data_element: process
+  relationship: deleted
+  target_data_element: null
+  event_id: 4660
+  event_id_description: An object was deleted
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Registry
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: win registry key access
+  source_data_element: process
+  relationship: accessed
+  target_data_element: win registry key
+  event_id: 4663
+  event_id_description: An attempt was made to access an object.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Registry
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: win registry key access
+  source_data_element: user
+  relationship: accessed
+  target_data_element: win registry key
+  event_id: 4663
+  event_id_description: An attempt was made to access an object.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Registry
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: win registry key deletion
+  source_data_element: process
+  relationship: deleted
+  target_data_element: win registry key
+  event_id: 4663
+  event_id_description: An attempt was made to access an object.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Registry
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: win registry key deletion
+  source_data_element: user
+  relationship: deleted
+  target_data_element: win registry key
+  event_id: 4663
+  event_id_description: An attempt was made to access an object.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Registry
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: win registry key handle closed
+  source_data_element: process
+  relationship: closed_a_handle
+  target_data_element: handle
+  event_id: 4658
+  event_id_description: The handle to an object was closed
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Registry
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: win registry key permissions change
+  source_data_element: process
+  relationship: changed_permissions
+  target_data_element: win registry key
+  event_id: 4670
+  event_id_description: Permissions on an object were changed.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Registry
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: win registry key permissions change
+  source_data_element: user
+  relationship: changed_permissions
+  target_data_element: win registry key
+  event_id: 4670
+  event_id_description: Permissions on an object were changed.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Registry
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs, Windows Registry
+  sub_data_source: win registry key value modification
+  source_data_element: user
+  relationship: modified
+  target_data_element: win registry key value
+  event_id: 4657
+  event_id_description: A registry value was modified.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Registry
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs, Windows Registry
+  sub_data_source: win registry key value modification
+  source_data_element: process
+  relationship: modified
+  target_data_element: win registry key value
+  event_id: 4657
+  event_id_description: A registry value was modified.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit Registry
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit Registry
+  enable_commands: auditpol.exe /set /subcategory:"Registry" /success:enable /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: sam service object handle request
+  source_data_element: user
+  relationship: requested_a_handle
+  target_data_element: sam object
+  event_id: 4661
+  event_id_description: A handle to an object was requested
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Object Access
+  data_sub_category: Audit SAM
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policy -> Object Access -> Audit SAM
+  enable_commands: auditpol.exe /set /subcategory:"SAM" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: user account access addition
+  source_data_element: user
+  relationship: granted_access
+  target_data_element: user
+  event_id: 4717
+  event_id_description: System security access was granted to an account.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Policy Change
+  data_sub_category: Audit Authentication Policy Change
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Policy Change -> Audit
+    Authentication Policy Change
+  enable_commands: auditpol.exe /set /subcategory:"Authentication Policy Change" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: user account access removal
+  source_data_element: user
+  relationship: removed_access
+  target_data_element: user
+  event_id: 4718
+  event_id_description: System security access was removed from an account.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Policy Change
+  data_sub_category: Audit Authentication Policy Change
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Policy Change -> Audit
+    Authentication Policy Change
+  enable_commands: auditpol.exe /set /subcategory:"Authentication Policy Change" /success:enable
+    /failure:enable
+  client_default: Success
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: non-sensitive privileged operation
+  source_data_element: process
+  relationship: attempted
+  target_data_element: object
+  event_id: 4674
+  event_id_description: An operation was attempted on a privileged object.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Privilege Use
+  data_sub_category: Audit Non Sensitive Privilege Use
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Audit Non Sensitive Privilege
+    Use
+  enable_commands: auditpol.exe /set /subcategory:"Non Sensitive Privilege Use" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: sensitive privileged service operation
+  source_data_element: process
+  relationship: called
+  target_data_element: privileged service
+  event_id: 4673
+  event_id_description: A privileged service was called.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Privilege Use
+  data_sub_category: Audit Sensitive Privilege Use
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System  Audit Policies -> Audit Sensitive Privilege
+    Use
+  enable_commands: auditpol.exe /set /subcategory:"Sensitive Privilege Use" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: sensitive privileged operation
+  source_data_element: process
+  relationship: attempted
+  target_data_element: privileged object
+  event_id: 4674
+  event_id_description: An operation was attempted on a privileged object.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Privilege Use
+  data_sub_category: Audit Sensitive Privilege Use
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Audit Sensitive Privilege
+    Use
+  enable_commands: auditpol.exe /set /subcategory:"Sensitive Privilege Use" /success:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs
+  sub_data_source: win firewall service stop
+  source_data_element: process
+  relationship: stopped
+  target_data_element: Firewall Service
+  event_id: 5025
+  event_id_description: The Windows Firewall Service has been stopped.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit System
+  data_sub_category: Audit Other System Events
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> System -> Audit Other System
+    Events
+  enable_commands: auditpol.exe /set /subcategory:"Other System Events" /success:enable
+  client_default: No auditing
+  server_default: Success and Failure
+- data_source: Windows event logs
+  sub_data_source: win firewall service stop
+  source_data_element: user
+  relationship: stopped
+  target_data_element: Firewall Service
+  event_id: 5025
+  event_id_description: The Windows Firewall Service has been stopped.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit System
+  data_sub_category: Audit Other System Events
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> System -> Audit Other System
+    Events
+  enable_commands: auditpol.exe /set /subcategory:"Other System Events" /success:enable
+  client_default: No auditing
+  server_default: Success and Failure
+- data_source: Windows event logs
+  sub_data_source: win firewall driver stop
+  source_data_element: process
+  relationship: stopped
+  target_data_element: Firewall Driver
+  event_id: 5034
+  event_id_description: The Windows Firewall Driver was stopped.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit System
+  data_sub_category: Audit Other System Events
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> System -> Audit Other System
+    Events
+  enable_commands: auditpol.exe /set /subcategory:"Other System Events" /success:enable
+  client_default: No auditing
+  server_default: Success and Failure
+- data_source: Windows event logs
+  sub_data_source: win firewall driver stop
+  source_data_element: user
+  relationship: stopped
+  target_data_element: Firewall Driver
+  event_id: 5034
+  event_id_description: The Windows Firewall Driver was stopped.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit System
+  data_sub_category: Audit Other System Events
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> System -> Audit Other System
+    Events
+  enable_commands: auditpol.exe /set /subcategory:"Other System Events" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: Success and Failure
+- data_source: Windows event logs
+  sub_data_source: win service installation
+  source_data_element: user
+  relationship: installed
+  target_data_element: service
+  event_id: 4697
+  event_id_description: A service was installed in the system.
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit System
+  data_sub_category: Audit Security System Extension
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> System -> Audit Security
+    System Extension
+  enable_commands: auditpol.exe /set /subcategory:"Security System Extension" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Windows event logs, Authentication logs
+  sub_data_source: NTLM Credentials Validation
+  source_data_element: host
+  relationship: authenticated
+  target_data_element: user
+  event_id: 4776
+  event_id_description: The computer attempted to validate the credentials for an
+    account
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Logon
+  data_sub_category: Audit Credential Validation
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Logon -> Audit
+    Credential Validation
+  enable_commands: auditpol.exe /set /subcategory:"Credential Validation" /success:enable
+    /failure:enable
+  client_default: No auditing
+  server_default: Success
+- data_source: Windows event logs, Authentication logs
+  sub_data_source: kerberos TGT authentication failure
+  source_data_element: user
+  relationship: authenticated_with
+  target_data_element: ticket granting ticket
+  event_id: 4771
+  event_id_description: Kerberos pre-authentication failed
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Account Logon
+  data_sub_category: Audit Kerberos Authentication Service
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Account Logon -> Audit
+    Kerberos Authentication Service
+  enable_commands: auditpol.exe /set /subcategory:"Kerberos Authentication Service"
+    /success:enable
+  client_default: No auditing
+  server_default: Success
+- data_source: Windows event logs, Authentication logs
+  sub_data_source: user account successful authentication
+  source_data_element: user
+  relationship: authenticated
+  target_data_element: host
+  event_id: 4624
+  event_id_description: An account was successfully logged on
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Logon/Logoff
+  data_sub_category: Audit Logon
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Logon/Logoff -> Audit Logon
+  enable_commands: auditpol.exe /set /subcategory:"Logon" /success:enable /failure:enable
+  client_default: Success
+  server_default: Success, Failure
+- data_source: Windows event logs, Authentication logs
+  sub_data_source: user account authentication with explicit credential
+  source_data_element: user
+  relationship: authenticated
+  target_data_element: host
+  event_id: 4648
+  event_id_description: A logon was attempted using explicit credentials
+  provider_name: Microsoft-Windows-Security-Auditing
+  event_channel: Security
+  data_category: Audit Logon/Logoff
+  data_sub_category: Audit Logon
+  minimum_operating_system: Windows Vista, Windows 2008
+  gpo: Computer Configuration -> Windows Settings -> Security Settings -> Advanced
+    Audit Policy Configuration -> System Audit Policies -> Logon/Logoff -> Audit Logon
+  enable_commands: auditpol.exe /set /subcategory:"Logon" /success:enable /failure:enable
+  client_default: Success
+  server_default: Success, Failure

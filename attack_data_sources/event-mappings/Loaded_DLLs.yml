@@ -1,0 +1,17 @@
+- data_source: Loaded DLLs
+  sub_data_source: module load
+  source_data_element: process
+  relationship: loaded
+  target_data_element: module
+  event_id: 7
+  event_id_description: The image loaded event logs when a module is loaded in a specific
+    process .
+  provider_name: Microsoft-Windows-Sysmon
+  event_channel: Microsoft-windows-sysmon/operational
+  data_category: Image Loaded
+  data_sub_category: Module loaded in Process
+  minimum_operating_system: Windows 7, Windows 2008 R2
+  gpo: N/A
+  enable_commands: <ImageLoad onmatch="exclude" />
+  client_default: No auditing
+  server_default: No auditing

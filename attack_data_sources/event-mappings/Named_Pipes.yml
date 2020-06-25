@@ -1,0 +1,33 @@
+- data_source: Named Pipes
+  sub_data_source: win pipe creation
+  source_data_element: process
+  relationship: created
+  target_data_element: pipe
+  event_id: 17
+  event_id_description: This event generates when a named pipe is created.
+  provider_name: Microsoft-Windows-Sysmon
+  event_channel: Microsoft-windows-sysmon/operational
+  data_category: Pipe Creation
+  data_sub_category: N/A
+  minimum_operating_system: Windows 7, Windows 2008 R2
+  gpo: N/A
+  enable_commands: <TargetFilename onmatch="exclude" />
+  client_default: No auditing
+  server_default: No auditing
+- data_source: Named Pipes
+  sub_data_source: win pipe connection
+  source_data_element: process
+  relationship: connected_to
+  target_data_element: pipe
+  event_id: 18
+  event_id_description: This event logs when a named pipe connection is made between
+    a client and a server.
+  provider_name: Microsoft-Windows-Sysmon
+  event_channel: Microsoft-windows-sysmon/operational
+  data_category: Pipe Connection
+  data_sub_category: N/A
+  minimum_operating_system: Windows 7, Windows 2008 R2
+  gpo: N/A
+  enable_commands: <TargetFilename onmatch="exclude" />
+  client_default: No auditing
+  server_default: No auditing
