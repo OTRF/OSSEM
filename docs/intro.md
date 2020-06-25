@@ -1,8 +1,9 @@
 # OSSEM
 
-The Open Source Security Events Metadata (OSSEM) is a community-led project that focuses primarily on the documentation and standardization of security event logs from diverse data sources and operating systems. Security events are documented in a dictionary format and can be used as a reference for projects like the ThreatHunter-Playbook while mapping data sources to data analytics used to validate the detection of adversarial techniques. In addition, the project provides a common information model (CIM) that can be used for data engineers during data normalization procedures to allow security analysts to query and analyze data across diverse data sources. Finally, the project also provides documentation about the structure and relationships identified in specific data sources to facilitate the development of data analytics.
+[![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![Open_Threat_Research Community](https://img.shields.io/badge/Open_Threat_Research-Community-brightgreen.svg)
 
-<img src="resources/images/OSSEM_logo.png" width=300>
+The Open Source Security Events Metadata (OSSEM) is a community-led project that focuses primarily on the documentation and standardization of security event logs from diverse data sources and operating systems. Security events are documented in a dictionary format and can be used as a reference for projects like the ThreatHunter-Playbook while mapping data sources to data analytics used to validate the detection of adversarial techniques. In addition, the project provides a common information model (CIM) that can be used for data engineers during data normalization procedures to allow security analysts to query and analyze data across diverse data sources. Finally, the project also provides documentation about the structure and relationships identified in specific data sources to facilitate the development of data analytics.
 
 # Goals
 
@@ -18,7 +19,7 @@ There are four main folders:
 
 * **Common Information Model (CIM)**:
   * Facilitates the normalization of data sets by providing a standard way to parse security event logs
-  * It is organized by specific entities associated with event logs and defined in more details by [Data Dictionaries](./data_dictionaries)
+  * It is organized by specific entities associated with event logs and defined in more details by **Data Dictionaries**.
   * The definitions of each entity and its respective field names are mostly general descriptions that could help and expedite event logs parsing procedures.
 * **Data Dictionaries**:
   * Contains specific information about several security event logs organized by operating system and their respective data sets
