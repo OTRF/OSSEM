@@ -22,7 +22,7 @@ RUN adduser --disabled-password \
 
 USER ${NB_USER}
 
-RUN python3 -m pip install requests yaml attackcti==0.3.2 --user
+RUN python3 -m pip install requests PyYAML attackcti==0.3.2 --user
 
 COPY docs ${HOME}/docs
 
