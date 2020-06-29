@@ -6,74 +6,48 @@ This page contains the list of events for Microsoft-Windows-Immersive-Shell, as 
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
-|[10000](events/event-10000.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_WindowLayoutChange|
 |[101](events/event-101.md)|None|etw_level_Informational, etw_keywords_keyword_400000000000, etw_opcode_Start, etw_task_ImmersiveShellStartup|
-|[1013](events/event-1013.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_TileXML_ProcessMRTResource|
 |[102](events/event-102.md)|None|etw_level_Informational, etw_keywords_keyword_400000000000, etw_opcode_Stop, etw_task_ImmersiveShellStartup|
-|[1027](events/event-1027.md)|None|etw_level_Error, etw_keywords_NotificationE2E wpndebug_TileParsingErrors, etw_task_TileXML_AllContentClipped|
 |[111](events/event-111.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ImmersiveShellComponentStartup|
-|[11100](events/event-11100.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_task_PLM_PriorityChanged|
-|[11110](events/event-11110.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_task_PLM_TerminateApp|
-|[11111](events/event-11111.md)|None|etw_level_Error, etw_keywords_PLMComponent, etw_task_PLM_StartUp_PsmRegisterFailure|
-|[11115](events/event-11115.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_task_PLM_QuiesceHangReport|
-|[11116](events/event-11116.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_task_PLM_ActivationHangReport|
-|[11118](events/event-11118.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_opcode_Start, etw_task_PerfTrack_PLM_ResumeApplication_EndToEnd|
-|[11119](events/event-11119.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_opcode_Stop, etw_task_PerfTrack_PLM_ResumeApplication_EndToEnd|
-|[11120](events/event-11120.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_opcode_Start, etw_task_PLM_ExecutionReason|
-|[11121](events/event-11121.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_opcode_Stop, etw_task_PLM_ExecutionReason|
-|[11122](events/event-11122.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_task_PLM_ExecutionReason|
-|[11123](events/event-11123.md)|None|etw_level_Error, etw_keywords_PLMComponent, etw_task_PLM_JobError|
 |[112](events/event-112.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_ImmersiveShellComponentStartup|
-|[11202](events/event-11202.md)|None|etw_level_Informational, etw_task_Accounts_LoadAppWidgets|
-|[11204](events/event-11204.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Accounts_Launch_ProviderCommand|
-|[11205](events/event-11205.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Accounts_Launch_ProviderCommand|
-|[11206](events/event-11206.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Accounts_Launch_AccountCommand|
-|[11207](events/event-11207.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Accounts_Launch_AccountCommand|
-|[11208](events/event-11208.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Accounts_Launch_CredentialCommand|
-|[11209](events/event-11209.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Accounts_Launch_CredentialCommand|
-|[11210](events/event-11210.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Accounts_Launch_Command|
-|[11211](events/event-11211.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Accounts_Launch_Command|
-|[11212](events/event-11212.md)|None|etw_level_Informational, etw_task_Accounts_GetProviderCommands|
-|[11213](events/event-11213.md)|None|etw_level_Informational, etw_task_Accounts_GetAccountCommands|
-|[11214](events/event-11214.md)|None|etw_level_Informational, etw_task_Accounts_GetCredentialCommands|
-|[11215](events/event-11215.md)|None|etw_level_Informational, etw_task_Accounts_GetCommands|
-|[11301](events/event-11301.md)|None|etw_level_Informational, etw_keywords_LockScreenCallBroker, etw_opcode_Start, etw_task_LockScreenCallBroker_StartCall|
-|[11302](events/event-11302.md)|None|etw_level_Informational, etw_keywords_LockScreenCallBroker, etw_opcode_Stop, etw_task_LockScreenCallBroker_StartCall|
-|[11303](events/event-11303.md)|None|etw_level_Informational, etw_keywords_LockScreenCallBroker, etw_opcode_Start, etw_task_LockScreenCallBroker_EndCall|
-|[11304](events/event-11304.md)|None|etw_level_Informational, etw_keywords_LockScreenCallBroker, etw_opcode_Stop, etw_task_LockScreenCallBroker_EndCall|
-|[11305](events/event-11305.md)|None|etw_level_Informational, etw_keywords_LockScreenCallBroker, etw_task_LockScreenCallBroker_AppLaunched|
-|[11306](events/event-11306.md)|None|etw_level_Informational, etw_keywords_LockScreenCallBroker, etw_task_LockScreenCallBroker_VisualsChanged|
-|[11307](events/event-11307.md)|None|etw_level_Informational, etw_keywords_LockScreenCallBroker, etw_task_LockScreenCallBroker_CallTitleChanged|
-|[1201](events/event-1201.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ImmersiveShellBadgeParseXML|
-|[1202](events/event-1202.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_ImmersiveShellBadgeParseXML|
-|[1203](events/event-1203.md)|None|etw_level_Error, etw_keywords_NotificationE2E, etw_task_ImmersiveShellBadgeParseXML|
 |[121](events/event-121.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ImmersiveShellAppManagerModeNotification|
 |[122](events/event-122.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_ImmersiveShellAppManagerModeNotification|
 |[123](events/event-123.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ImmersiveShellAppManagerZbandNotification|
 |[124](events/event-124.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_ImmersiveShellAppManagerZbandNotification|
 |[125](events/event-125.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ImmersiveShellAppManagerZbandChanged|
 |[126](events/event-126.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_ImmersiveShellAppManagerZbandChanged|
+|[141](events/event-141.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ImmersiveShellAppManagerModeChanged|
+|[142](events/event-142.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_ImmersiveShellAppManagerModeChanged|
+|[153](events/event-153.md)|None|etw_level_Informational, etw_task_ImmersiveShellLayoutUpdate|
+|[156](events/event-156.md)|None|etw_level_Informational, etw_task_ImmersiveShellLayoutInvalidate|
+|[161](events/event-161.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ImmersiveShellIHMNotification|
+|[162](events/event-162.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_ImmersiveShellIHMNotification|
+|[163](events/event-163.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ImmersiveShellIHMNotification|
+|[165](events/event-165.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ImmersiveShellAppIHMNotification|
+|[166](events/event-166.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_ImmersiveShellAppIHMNotification|
+|[171](events/event-171.md)|None|etw_level_Informational, etw_task_ImmersiveShellAppManagerApplicationStateChange|
+|[173](events/event-173.md)|None|etw_level_Informational, etw_task_ImmersiveShellAppManagerWindowTitleChange|
+|[181](events/event-181.md)|None|etw_level_Informational, etw_task_ImmersiveShellUIDrag|
+|[1013](events/event-1013.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_TileXML_ProcessMRTResource|
+|[1027](events/event-1027.md)|None|etw_level_Error, etw_keywords_NotificationE2E wpndebug_TileParsingErrors, etw_task_TileXML_AllContentClipped|
+|[1201](events/event-1201.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ImmersiveShellBadgeParseXML|
+|[1202](events/event-1202.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_ImmersiveShellBadgeParseXML|
+|[1203](events/event-1203.md)|None|etw_level_Error, etw_keywords_NotificationE2E, etw_task_ImmersiveShellBadgeParseXML|
 |[1310](events/event-1310.md)|None|etw_level_Informational, etw_task_AppLayoutItem|
 |[1317](events/event-1317.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_SwitchToAppByIdWithArguments|
 |[1318](events/event-1318.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_SwitchToAppByIdWithArguments|
 |[1402](events/event-1402.md)|None|etw_level_Informational, etw_task_BackstackManager_GetBackstack|
 |[1408](events/event-1408.md)|None|etw_level_Informational, etw_task_BackstackManager_RemoveApp|
-|[141](events/event-141.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ImmersiveShellAppManagerModeChanged|
-|[142](events/event-142.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_ImmersiveShellAppManagerModeChanged|
 |[1462](events/event-1462.md)|None|etw_level_Informational, etw_task_DropFeedbackItem_Show|
 |[1463](events/event-1463.md)|None|etw_level_Informational, etw_task_DropFeedbackItem_Update|
 |[1477](events/event-1477.md)|None|etw_level_Informational, etw_task_LauncherTip_ContextMenuHash|
-|[153](events/event-153.md)|None|etw_level_Informational, etw_task_ImmersiveShellLayoutUpdate|
-|[156](events/event-156.md)|None|etw_level_Informational, etw_task_ImmersiveShellLayoutInvalidate|
 |[1601](events/event-1601.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_AppsFolder_ParseDisplayName|
 |[1602](events/event-1602.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_AppsFolder_ParseDisplayName|
-|[161](events/event-161.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ImmersiveShellIHMNotification|
 |[1612](events/event-1612.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_AppsFolder_GetPropertyStoreForKeys|
 |[1614](events/event-1614.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_AppsFolder_ImmersiveApp_OpenVerb|
 |[1615](events/event-1615.md)|None|etw_level_Informational, etw_task_AppsFolderItemState_NotifyChange|
 |[1618](events/event-1618.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_AppsFolder_DualModeVerb|
 |[1619](events/event-1619.md)|None|etw_level_Informational, etw_task_AppsFolder_DualModeVerb|
-|[162](events/event-162.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_ImmersiveShellIHMNotification|
 |[1621](events/event-1621.md)|None|etw_level_Informational, etw_task_AppsFolder_ImmersiveApp_OpenVerb|
 |[1622](events/event-1622.md)|None|etw_level_Informational, etw_task_AppsFolderItemState_Enqueue|
 |[1623](events/event-1623.md)|None|etw_level_Informational, etw_task_AppsFolderItemState_Commit|
@@ -81,14 +55,8 @@ This page contains the list of events for Microsoft-Windows-Immersive-Shell, as 
 |[1626](events/event-1626.md)|None|etw_level_Informational, etw_task_AppsFolder_ImmersiveApp_OpenVerb|
 |[1627](events/event-1627.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Launcher_Uninstall_RemovePackage|
 |[1628](events/event-1628.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Launcher_Uninstall_RemovePackage|
-|[163](events/event-163.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ImmersiveShellIHMNotification|
 |[1631](events/event-1631.md)|None|etw_level_Informational, etw_task_AppsFolder_ImmersiveApp_InstallRequest|
 |[1632](events/event-1632.md)|None|etw_level_Error, etw_task_AppsFolder_LaunchImmersiveApp_Failure|
-|[165](events/event-165.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_ImmersiveShellAppIHMNotification|
-|[166](events/event-166.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_ImmersiveShellAppIHMNotification|
-|[171](events/event-171.md)|None|etw_level_Informational, etw_task_ImmersiveShellAppManagerApplicationStateChange|
-|[173](events/event-173.md)|None|etw_level_Informational, etw_task_ImmersiveShellAppManagerWindowTitleChange|
-|[181](events/event-181.md)|None|etw_level_Informational, etw_task_ImmersiveShellUIDrag|
 |[1830](events/event-1830.md)|None|etw_level_Informational, etw_keywords_NotificationE2E, etw_task_TileNotifications_PauseNotifications|
 |[1833](events/event-1833.md)|None|etw_level_Informational, etw_keywords_NotificationE2E, etw_task_TileNotifications_ResumeNotifications|
 |[1844](events/event-1844.md)|None|etw_level_Informational, etw_task_Tiles_MRT|
@@ -432,3 +400,35 @@ This page contains the list of events for Microsoft-Windows-Immersive-Shell, as 
 |[8222](events/event-8222.md)|None|etw_level_Informational, etw_task_BackStackMusicPlay_Mark_NonInteractive|
 |[9950](events/event-9950.md)|None|etw_level_Informational, etw_task_TWinUICreateInstance_SxS|
 |[9951](events/event-9951.md)|None|etw_level_Informational, etw_task_DllGetClassObject_SxS|
+|[10000](events/event-10000.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_WindowLayoutChange|
+|[11100](events/event-11100.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_task_PLM_PriorityChanged|
+|[11110](events/event-11110.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_task_PLM_TerminateApp|
+|[11111](events/event-11111.md)|None|etw_level_Error, etw_keywords_PLMComponent, etw_task_PLM_StartUp_PsmRegisterFailure|
+|[11115](events/event-11115.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_task_PLM_QuiesceHangReport|
+|[11116](events/event-11116.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_task_PLM_ActivationHangReport|
+|[11118](events/event-11118.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_opcode_Start, etw_task_PerfTrack_PLM_ResumeApplication_EndToEnd|
+|[11119](events/event-11119.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_opcode_Stop, etw_task_PerfTrack_PLM_ResumeApplication_EndToEnd|
+|[11120](events/event-11120.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_opcode_Start, etw_task_PLM_ExecutionReason|
+|[11121](events/event-11121.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_opcode_Stop, etw_task_PLM_ExecutionReason|
+|[11122](events/event-11122.md)|None|etw_level_Informational, etw_keywords_PLMComponent, etw_task_PLM_ExecutionReason|
+|[11123](events/event-11123.md)|None|etw_level_Error, etw_keywords_PLMComponent, etw_task_PLM_JobError|
+|[11202](events/event-11202.md)|None|etw_level_Informational, etw_task_Accounts_LoadAppWidgets|
+|[11204](events/event-11204.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Accounts_Launch_ProviderCommand|
+|[11205](events/event-11205.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Accounts_Launch_ProviderCommand|
+|[11206](events/event-11206.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Accounts_Launch_AccountCommand|
+|[11207](events/event-11207.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Accounts_Launch_AccountCommand|
+|[11208](events/event-11208.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Accounts_Launch_CredentialCommand|
+|[11209](events/event-11209.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Accounts_Launch_CredentialCommand|
+|[11210](events/event-11210.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Accounts_Launch_Command|
+|[11211](events/event-11211.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Accounts_Launch_Command|
+|[11212](events/event-11212.md)|None|etw_level_Informational, etw_task_Accounts_GetProviderCommands|
+|[11213](events/event-11213.md)|None|etw_level_Informational, etw_task_Accounts_GetAccountCommands|
+|[11214](events/event-11214.md)|None|etw_level_Informational, etw_task_Accounts_GetCredentialCommands|
+|[11215](events/event-11215.md)|None|etw_level_Informational, etw_task_Accounts_GetCommands|
+|[11301](events/event-11301.md)|None|etw_level_Informational, etw_keywords_LockScreenCallBroker, etw_opcode_Start, etw_task_LockScreenCallBroker_StartCall|
+|[11302](events/event-11302.md)|None|etw_level_Informational, etw_keywords_LockScreenCallBroker, etw_opcode_Stop, etw_task_LockScreenCallBroker_StartCall|
+|[11303](events/event-11303.md)|None|etw_level_Informational, etw_keywords_LockScreenCallBroker, etw_opcode_Start, etw_task_LockScreenCallBroker_EndCall|
+|[11304](events/event-11304.md)|None|etw_level_Informational, etw_keywords_LockScreenCallBroker, etw_opcode_Stop, etw_task_LockScreenCallBroker_EndCall|
+|[11305](events/event-11305.md)|None|etw_level_Informational, etw_keywords_LockScreenCallBroker, etw_task_LockScreenCallBroker_AppLaunched|
+|[11306](events/event-11306.md)|None|etw_level_Informational, etw_keywords_LockScreenCallBroker, etw_task_LockScreenCallBroker_VisualsChanged|
+|[11307](events/event-11307.md)|None|etw_level_Informational, etw_keywords_LockScreenCallBroker, etw_task_LockScreenCallBroker_CallTitleChanged|

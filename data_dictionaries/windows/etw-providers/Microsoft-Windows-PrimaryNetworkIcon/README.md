@@ -6,11 +6,6 @@ This page contains the list of events for Microsoft-Windows-PrimaryNetworkIcon, 
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
-|[1005](events/event-1005.md)|None|etw_level_Error, etw_task_task_0|
-|[1006](events/event-1006.md)|None|etw_level_Error, etw_task_task_0|
-|[1007](events/event-1007.md)|None|etw_level_Informational, etw_task_task_0|
-|[1008](events/event-1008.md)|None|etw_level_Informational, etw_task_task_0|
-|[1010](events/event-1010.md)|None|etw_level_Error, etw_task_task_0|
 |[121](events/event-121.md)|None|etw_level_Informational, etw_task_PrimaryNetworkIcon_Task_Disconnected|
 |[123](events/event-123.md)|None|etw_level_Informational, etw_task_PrimaryNetworkIcon_Task_Limited|
 |[124](events/event-124.md)|None|etw_level_Informational, etw_task_PrimaryNetworkIcon_Task_LocalConnected|
@@ -23,4 +18,9 @@ This page contains the list of events for Microsoft-Windows-PrimaryNetworkIcon, 
 |[132](events/event-132.md)|None|etw_level_Informational, etw_task_PrimaryNetworkIcon_Task_Wireless_LocalConnected|
 |[133](events/event-133.md)|None|etw_level_Informational, etw_task_PrimaryNetworkIcon_Task_Airplane_Mode|
 |[134](events/event-134.md)|None|etw_level_Informational, etw_task_PrimaryNetworkIcon_Task_InternetConnected_MBB_Shared|
+|[1005](events/event-1005.md)|None|etw_level_Error, etw_task_task_0|
+|[1006](events/event-1006.md)|None|etw_level_Error, etw_task_task_0|
+|[1007](events/event-1007.md)|None|etw_level_Informational, etw_task_task_0|
+|[1008](events/event-1008.md)|None|etw_level_Informational, etw_task_task_0|
+|[1010](events/event-1010.md)|None|etw_level_Error, etw_task_task_0|
 |[2001](events/event-2001.md)|None|etw_level_Informational, etw_task_InterfaceHotspotNotification|

@@ -6,8 +6,20 @@ This page contains the list of events for Microsoft-AppV-Client, as collected by
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
-|[10001](events/event-10001_v1.md)|None|etw_level_Error, etw_keywords_Subsystems, etw_task_SubsystemStartup, version_1|
-|[10002](events/event-10002_v1.md)|None|etw_level_Error, etw_keywords_Subsystems, etw_task_ClientStartup, version_1|
+|[3](events/event-3_v1.md)|None|etw_level_Error, etw_keywords_Startup, etw_opcode_Start, etw_task_ClientStartup, version_1|
+|[4](events/event-4_v1.md)|None|etw_level_Error, etw_keywords_Startup Logon, etw_opcode_Start, etw_task_ClientStartup, version_1|
+|[5](events/event-5_v1.md)|None|etw_level_Error, etw_keywords_Logon, etw_opcode_Start, etw_task_UserLogon, version_1|
+|[6](events/event-6_v1.md)|None|etw_level_Error, etw_keywords_Logoff, etw_opcode_Stop, etw_task_UserLogoff, version_1|
+|[7](events/event-7_v1.md)|None|etw_level_Error, etw_keywords_API, etw_opcode_Send, etw_task_APIRequest, version_1|
+|[8](events/event-8_v1.md)|None|etw_level_Error, etw_keywords_Logon, etw_opcode_Start, etw_task_UserLogon, version_1|
+|[9](events/event-9_v1.md)|None|etw_level_Error, etw_keywords_API, etw_task_APIRequest, version_1|
+|[11](events/event-11_v1.md)|None|etw_level_Warning, etw_keywords_Startup, etw_task_ClientStartup, version_1|
+|[12](events/event-12_v1.md)|None|etw_level_Warning, etw_keywords_Shutdown, etw_task_ClientShutdown, version_1|
+|[13](events/event-13.md)|None|etw_level_Warning, etw_task_APIRequest|
+|[16](events/event-16_v1.md)|None|etw_level_Error, etw_keywords_Startup, etw_opcode_Start, etw_task_ClientStartup, version_1|
+|[17](events/event-17_v1.md)|None|etw_level_Error, etw_keywords_Startup, etw_opcode_Start, etw_task_ClientStartup, version_1|
+|[101](events/event-101_v1.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_APIRequest, version_1|
+|[102](events/event-102_v1.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_APIRequest, version_1|
 |[1001](events/event-1001_v1.md)|None|etw_level_Error, etw_keywords_Shutdown, etw_opcode_Stop, etw_task_ClientShutdown, version_1|
 |[1002](events/event-1002_v1.md)|None|etw_level_Informational, etw_keywords_Publishing, etw_task_ConfigurePackage, version_1|
 |[1003](events/event-1003_v1.md)|None|etw_level_Informational, etw_keywords_Publishing, etw_task_PublishPackage, version_1|
@@ -27,7 +39,6 @@ This page contains the list of events for Microsoft-AppV-Client, as collected by
 |[1017](events/event-1017_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_RemovePackage, version_1|
 |[1018](events/event-1018_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_UnpublishPackage, version_1|
 |[1019](events/event-1019_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_UnpublishPackage, version_1|
-|[101](events/event-101_v1.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_APIRequest, version_1|
 |[1020](events/event-1020_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_RemovePackage, version_1|
 |[1021](events/event-1021_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_UnpublishVirtualApplicationConnectionGroup, version_1|
 |[1022](events/event-1022_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_UnpublishVirtualApplicationConnectionGroup, version_1|
@@ -38,7 +49,6 @@ This page contains the list of events for Microsoft-AppV-Client, as collected by
 |[1027](events/event-1027_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_ConfigurePackage, version_1|
 |[1028](events/event-1028_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_ConfigurePackage, version_1|
 |[1029](events/event-1029_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_ConfigurePackage, version_1|
-|[102](events/event-102_v1.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_APIRequest, version_1|
 |[1030](events/event-1030_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_ConfigurePackage, version_1|
 |[1031](events/event-1031_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_PublishPackage, version_1|
 |[1032](events/event-1032_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_PublishPackage, version_1|
@@ -92,6 +102,57 @@ This page contains the list of events for Microsoft-AppV-Client, as collected by
 |[1080](events/event-1080_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_RemovePackage, version_1|
 |[1082](events/event-1082_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_PublishPackage, version_1|
 |[1083](events/event-1083_v1.md)|None|etw_level_Error, etw_keywords_Publishing, etw_task_UnpublishPackage, version_1|
+|[2001](events/event-2001_v1.md)|None|etw_level_Error, etw_keywords_Startup Logon Catalog, etw_task_UserLogon, version_1|
+|[2002](events/event-2002_v1.md)|None|etw_level_Warning, etw_keywords_Startup Logon Catalog, etw_task_UserLogon, version_1|
+|[2003](events/event-2003_v1.md)|None|etw_level_Warning, etw_keywords_Startup Logon Catalog, etw_task_UserLogon, version_1|
+|[2004](events/event-2004_v1.md)|None|etw_level_Error, etw_keywords_Startup Catalog, etw_task_task_0, version_1|
+|[2005](events/event-2005_v1.md)|None|etw_level_Error, etw_keywords_Startup Catalog, etw_task_ClientStartup, version_1|
+|[2006](events/event-2006_v1.md)|None|etw_level_Error, etw_keywords_Startup Catalog, etw_task_ClientStartup, version_1|
+|[3001](events/event-3001_v1.md)|None|etw_level_Critical, etw_keywords_Common, etw_opcode_Stop, etw_task_Impersonation/Deimpersonation, version_1|
+|[3002](events/event-3002_v1.md)|None|etw_level_Critical, etw_keywords_Common, etw_opcode_Stop, etw_task_Impersonation/Deimpersonation, version_1|
+|[4001](events/event-4001_v1.md)|None|etw_level_Error, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
+|[4002](events/event-4002_v1.md)|None|etw_level_Error, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
+|[4004](events/event-4004_v1.md)|None|etw_level_Informational, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
+|[4005](events/event-4005_v1.md)|None|etw_level_Informational, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
+|[4006](events/event-4006_v1.md)|None|etw_level_Error, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
+|[4007](events/event-4007_v1.md)|None|etw_level_Error, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
+|[4008](events/event-4008_v1.md)|None|etw_level_Warning, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
+|[4009](events/event-4009_v1.md)|None|etw_level_Error, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
+|[4010](events/event-4010_v1.md)|None|etw_level_Warning, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
+|[5003](events/event-5003_v1.md)|None|etw_level_Informational, etw_keywords_VFS, etw_task_VirtualFileSystemRedirection, version_1|
+|[6001](events/event-6001_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
+|[6002](events/event-6002_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
+|[6006](events/event-6006_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
+|[6007](events/event-6007_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
+|[6008](events/event-6008_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
+|[6009](events/event-6009_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
+|[6010](events/event-6010_v1.md)|None|etw_level_Informational, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
+|[6011](events/event-6011_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
+|[6012](events/event-6012_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
+|[6015](events/event-6015_v1.md)|None|etw_level_Warning, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
+|[7001](events/event-7001_v1.md)|None|etw_level_Error, etw_keywords_Settings, etw_task_SettingChanges, version_1|
+|[8001](events/event-8001_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ParseDynamicConfigurationFile, version_1|
+|[8002](events/event-8002_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ParseDynamicConfigurationFile, version_1|
+|[8003](events/event-8003_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
+|[8004](events/event-8004_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
+|[8005](events/event-8005_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
+|[8006](events/event-8006_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
+|[8007](events/event-8007_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
+|[8008](events/event-8008_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
+|[8009](events/event-8009_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
+|[8010](events/event-8010_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
+|[8011](events/event-8011_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
+|[8012](events/event-8012_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
+|[8013](events/event-8013_v1.md)|None|etw_level_Warning, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
+|[8014](events/event-8014_v1.md)|None|etw_level_Warning, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
+|[8015](events/event-8015_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigurePackage, version_1|
+|[8016](events/event-8016_v1.md)|None|etw_level_Warning, etw_keywords_DynamicConfiguration, etw_task_ConfigurePackage, version_1|
+|[9001](events/event-9001_v1.md)|None|etw_level_Error, etw_keywords_ClientManagement, etw_task_PowerShellInvoke, version_1|
+|[9002](events/event-9002_v1.md)|None|etw_level_Warning, etw_keywords_ClientManagement, etw_task_PowerShellInvoke, version_1|
+|[9009](events/event-9009_v1.md)|None|etw_level_Error, etw_keywords_ClientManagement, etw_task_PowershellProcess, version_1|
+|[9010](events/event-9010_v1.md)|None|etw_level_Error, etw_keywords_ClientManagement, etw_task_PowershellProcess, version_1|
+|[10001](events/event-10001_v1.md)|None|etw_level_Error, etw_keywords_Subsystems, etw_task_SubsystemStartup, version_1|
+|[10002](events/event-10002_v1.md)|None|etw_level_Error, etw_keywords_Subsystems, etw_task_ClientStartup, version_1|
 |[11002](events/event-11002_v1.md)|None|etw_level_Error, etw_keywords_ClientCoExistence, etw_task_PublishPackage, version_1|
 |[11003](events/event-11003_v1.md)|None|etw_level_Error, etw_keywords_ClientCoExistence, etw_task_UnpublishPackage, version_1|
 |[11004](events/event-11004_v1.md)|None|etw_level_Warning, etw_keywords_ClientCoExistence, etw_task_PublishPackage, version_1|
@@ -103,10 +164,7 @@ This page contains the list of events for Microsoft-AppV-Client, as collected by
 |[11010](events/event-11010_v1.md)|None|etw_level_Warning, etw_keywords_ClientCoExistence, etw_task_PublishPackage, version_1|
 |[11011](events/event-11011_v1.md)|None|etw_level_Warning, etw_keywords_ClientCoExistence, etw_task_PublishPackage, version_1|
 |[11012](events/event-11012_v1.md)|None|etw_level_Informational, etw_keywords_ClientCoExistence, etw_task_PublishPackage, version_1|
-|[11](events/event-11_v1.md)|None|etw_level_Warning, etw_keywords_Startup, etw_task_ClientStartup, version_1|
 |[12001](events/event-12001_v1.md)|None|etw_level_Error, etw_keywords_VREG, etw_opcode_Start, etw_task_VirtualEnvironmentStart, version_1|
-|[12](events/event-12_v1.md)|None|etw_level_Warning, etw_keywords_Shutdown, etw_task_ClientShutdown, version_1|
-|[13](events/event-13.md)|None|etw_level_Warning, etw_task_APIRequest|
 |[13001](events/event-13001_v1.md)|None|etw_level_Informational, etw_keywords_VFS, etw_task_UserStateDeletion, version_1|
 |[13002](events/event-13002_v1.md)|None|etw_level_Error, etw_keywords_VFS, etw_task_UserStateDeletion, version_1|
 |[13003](events/event-13003_v1.md)|None|etw_level_Error, etw_keywords_VirtualAppLaunch, etw_task_ApplicationLaunch, version_1|
@@ -143,7 +201,6 @@ This page contains the list of events for Microsoft-AppV-Client, as collected by
 |[16002](events/event-16002_v1.md)|None|etw_level_Error, etw_keywords_VOBJ, etw_task_VirtualEnvironmentStart, version_1|
 |[16003](events/event-16003_v1.md)|None|etw_level_Error, etw_keywords_VOBJ, etw_task_PublishVirtualApplicationConnectionGroup, version_1|
 |[16004](events/event-16004_v1.md)|None|etw_level_Error, etw_keywords_VOBJ, etw_task_PublishPackage, version_1|
-|[16](events/event-16_v1.md)|None|etw_level_Error, etw_keywords_Startup, etw_opcode_Start, etw_task_ClientStartup, version_1|
 |[17001](events/event-17001_v1.md)|None|etw_level_Warning, etw_keywords_Reporting, etw_task_UploadReportingData, version_1|
 |[17002](events/event-17002_v1.md)|None|etw_level_Error, etw_keywords_Reporting, etw_task_UploadReportingData, version_1|
 |[17003](events/event-17003_v1.md)|None|etw_level_Error, etw_keywords_Reporting, etw_task_CreateReportingData, version_1|
@@ -155,7 +212,6 @@ This page contains the list of events for Microsoft-AppV-Client, as collected by
 |[17010](events/event-17010_v1.md)|None|etw_level_Error, etw_keywords_Reporting, etw_task_CreateReportingData, version_1|
 |[17011](events/event-17011_v1.md)|None|etw_level_Warning, etw_keywords_Reporting, etw_task_UploadReportingData, version_1|
 |[17012](events/event-17012_v1.md)|None|etw_level_Error, etw_keywords_Reporting, etw_task_CreateReportingData, version_1|
-|[17](events/event-17_v1.md)|None|etw_level_Error, etw_keywords_Startup, etw_opcode_Start, etw_task_ClientStartup, version_1|
 |[18001](events/event-18001_v1.md)|None|etw_level_Error, etw_keywords_VirtualAppLaunch, etw_task_ApplicationLaunch, version_1|
 |[18002](events/event-18002_v1.md)|None|etw_level_Error, etw_keywords_VirtualAppLaunch, etw_task_ApplicationLaunch, version_1|
 |[18003](events/event-18003_v1.md)|None|etw_level_Error, etw_keywords_VirtualAppLaunch, etw_task_ApplicationLaunch, version_1|
@@ -199,64 +255,8 @@ This page contains the list of events for Microsoft-AppV-Client, as collected by
 |[19805](events/event-19805_v1.md)|None|etw_level_Error, etw_keywords_PublishingRefresh, etw_task_PublishingRefresh, version_1|
 |[20001](events/event-20001_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_PublishVirtualApplicationConnectionGroup, version_1|
 |[20002](events/event-20002_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_PublishPackage, version_1|
-|[2001](events/event-2001_v1.md)|None|etw_level_Error, etw_keywords_Startup Logon Catalog, etw_task_UserLogon, version_1|
-|[2002](events/event-2002_v1.md)|None|etw_level_Warning, etw_keywords_Startup Logon Catalog, etw_task_UserLogon, version_1|
-|[2003](events/event-2003_v1.md)|None|etw_level_Warning, etw_keywords_Startup Logon Catalog, etw_task_UserLogon, version_1|
-|[2004](events/event-2004_v1.md)|None|etw_level_Error, etw_keywords_Startup Catalog, etw_task_task_0, version_1|
-|[2005](events/event-2005_v1.md)|None|etw_level_Error, etw_keywords_Startup Catalog, etw_task_ClientStartup, version_1|
-|[2006](events/event-2006_v1.md)|None|etw_level_Error, etw_keywords_Startup Catalog, etw_task_ClientStartup, version_1|
 |[20101](events/event-20101_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_PublishPackage, version_1|
 |[21001](events/event-21001_v1.md)|None|etw_level_Error, etw_keywords_Integration, etw_task_Integration, version_1|
 |[22001](events/event-22001_v1.md)|None|etw_level_Warning, etw_keywords_SxS, etw_task_SidebySide, version_1|
 |[24001](events/event-24001_v1.md)|None|etw_level_Error, etw_keywords_AppManagementConfiguration, etw_task_Enable/DisableAppv, version_1|
 |[24002](events/event-24002_v1.md)|None|etw_level_Error, etw_keywords_AppManagementConfiguration, etw_task_Enable/DisableAppv, version_1|
-|[3001](events/event-3001_v1.md)|None|etw_level_Critical, etw_keywords_Common, etw_opcode_Stop, etw_task_Impersonation/Deimpersonation, version_1|
-|[3002](events/event-3002_v1.md)|None|etw_level_Critical, etw_keywords_Common, etw_opcode_Stop, etw_task_Impersonation/Deimpersonation, version_1|
-|[3](events/event-3_v1.md)|None|etw_level_Error, etw_keywords_Startup, etw_opcode_Start, etw_task_ClientStartup, version_1|
-|[4001](events/event-4001_v1.md)|None|etw_level_Error, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
-|[4002](events/event-4002_v1.md)|None|etw_level_Error, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
-|[4004](events/event-4004_v1.md)|None|etw_level_Informational, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
-|[4005](events/event-4005_v1.md)|None|etw_level_Informational, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
-|[4006](events/event-4006_v1.md)|None|etw_level_Error, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
-|[4007](events/event-4007_v1.md)|None|etw_level_Error, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
-|[4008](events/event-4008_v1.md)|None|etw_level_Warning, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
-|[4009](events/event-4009_v1.md)|None|etw_level_Error, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
-|[4010](events/event-4010_v1.md)|None|etw_level_Warning, etw_keywords_EmbeddedScripting, etw_task_ExecuteEmbeddedScripts, version_1|
-|[4](events/event-4_v1.md)|None|etw_level_Error, etw_keywords_Startup Logon, etw_opcode_Start, etw_task_ClientStartup, version_1|
-|[5003](events/event-5003_v1.md)|None|etw_level_Informational, etw_keywords_VFS, etw_task_VirtualFileSystemRedirection, version_1|
-|[5](events/event-5_v1.md)|None|etw_level_Error, etw_keywords_Logon, etw_opcode_Start, etw_task_UserLogon, version_1|
-|[6001](events/event-6001_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
-|[6002](events/event-6002_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
-|[6006](events/event-6006_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
-|[6007](events/event-6007_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
-|[6008](events/event-6008_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
-|[6009](events/event-6009_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
-|[6010](events/event-6010_v1.md)|None|etw_level_Informational, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
-|[6011](events/event-6011_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
-|[6012](events/event-6012_v1.md)|None|etw_level_Error, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
-|[6015](events/event-6015_v1.md)|None|etw_level_Warning, etw_keywords_VirtualServices, etw_task_ConfigureVirtualServices, version_1|
-|[6](events/event-6_v1.md)|None|etw_level_Error, etw_keywords_Logoff, etw_opcode_Stop, etw_task_UserLogoff, version_1|
-|[7001](events/event-7001_v1.md)|None|etw_level_Error, etw_keywords_Settings, etw_task_SettingChanges, version_1|
-|[7](events/event-7_v1.md)|None|etw_level_Error, etw_keywords_API, etw_opcode_Send, etw_task_APIRequest, version_1|
-|[8001](events/event-8001_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ParseDynamicConfigurationFile, version_1|
-|[8002](events/event-8002_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ParseDynamicConfigurationFile, version_1|
-|[8003](events/event-8003_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
-|[8004](events/event-8004_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
-|[8005](events/event-8005_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
-|[8006](events/event-8006_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
-|[8007](events/event-8007_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
-|[8008](events/event-8008_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
-|[8009](events/event-8009_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
-|[8010](events/event-8010_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
-|[8011](events/event-8011_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
-|[8012](events/event-8012_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
-|[8013](events/event-8013_v1.md)|None|etw_level_Warning, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
-|[8014](events/event-8014_v1.md)|None|etw_level_Warning, etw_keywords_DynamicConfiguration, etw_task_ConfigureVirtualApplicationConnectionGroup, version_1|
-|[8015](events/event-8015_v1.md)|None|etw_level_Error, etw_keywords_DynamicConfiguration, etw_task_ConfigurePackage, version_1|
-|[8016](events/event-8016_v1.md)|None|etw_level_Warning, etw_keywords_DynamicConfiguration, etw_task_ConfigurePackage, version_1|
-|[8](events/event-8_v1.md)|None|etw_level_Error, etw_keywords_Logon, etw_opcode_Start, etw_task_UserLogon, version_1|
-|[9001](events/event-9001_v1.md)|None|etw_level_Error, etw_keywords_ClientManagement, etw_task_PowerShellInvoke, version_1|
-|[9002](events/event-9002_v1.md)|None|etw_level_Warning, etw_keywords_ClientManagement, etw_task_PowerShellInvoke, version_1|
-|[9009](events/event-9009_v1.md)|None|etw_level_Error, etw_keywords_ClientManagement, etw_task_PowershellProcess, version_1|
-|[9010](events/event-9010_v1.md)|None|etw_level_Error, etw_keywords_ClientManagement, etw_task_PowershellProcess, version_1|
-|[9](events/event-9_v1.md)|None|etw_level_Error, etw_keywords_API, etw_task_APIRequest, version_1|

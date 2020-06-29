@@ -6,6 +6,7 @@ This page contains the list of events for Microsoft-Windows-DesktopActivityModer
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_StartStopDriver, etw_opcode_Stop, etw_task_StartDriver|
 |[21](events/event-21.md)|None|etw_level_Informational, etw_keywords_Control, etw_opcode_Start, etw_task_SuspendResume|
 |[22](events/event-22.md)|None|etw_level_Informational, etw_keywords_Control, etw_opcode_Stop, etw_task_SuspendResume|
 |[23](events/event-23.md)|None|etw_level_Informational, etw_keywords_Control, etw_opcode_Start, etw_task_Throttle|
@@ -21,4 +22,3 @@ This page contains the list of events for Microsoft-Windows-DesktopActivityModer
 |[53](events/event-53.md)|None|etw_level_Informational, etw_keywords_Pdc, etw_task_PdcCallback|
 |[60](events/event-60.md)|None|etw_level_Informational, etw_keywords_IoTracking, etw_task_IoTrackingPerfTrack|
 |[61](events/event-61.md)|None|etw_level_Verbose, etw_keywords_IoTracking, etw_task_IoTrackingCallback|
-|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_StartStopDriver, etw_opcode_Stop, etw_task_StartDriver|

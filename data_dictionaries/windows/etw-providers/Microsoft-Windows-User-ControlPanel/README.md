@@ -6,8 +6,6 @@ This page contains the list of events for Microsoft-Windows-User-ControlPanel, a
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
-|[25000](events/event-25000.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_PerfTrack_UAM_TaskFlowPageChange|
-|[25001](events/event-25001.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_PerfTrack_UAM_TaskFlowPageChange|
 |[8001](events/event-8001.md)|None|etw_level_Informational, etw_task_UserAccount_AddUserWizard_DomainUserAdded|
 |[8002](events/event-8002.md)|None|etw_level_Informational, etw_task_UserAccount_AddUserWizard_ExistingOnlineUserAdded|
 |[8003](events/event-8003.md)|None|etw_level_Informational, etw_task_UserAccount_AddUserWizard_InstallProviderLinkClickedonLocal|
@@ -33,3 +31,5 @@ This page contains the list of events for Microsoft-Windows-User-ControlPanel, a
 |[8023](events/event-8023.md)|None|etw_level_Informational, etw_task_UserAccount_AddUserDialog_OnlineWizardError|
 |[9001](events/event-9001.md)|None|etw_level_Error, etw_task_task_0|
 |[9002](events/event-9002.md)|None|etw_level_Error, etw_task_task_0|
+|[25000](events/event-25000.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_PerfTrack_UAM_TaskFlowPageChange|
+|[25001](events/event-25001.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_PerfTrack_UAM_TaskFlowPageChange|

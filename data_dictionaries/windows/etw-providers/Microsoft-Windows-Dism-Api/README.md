@@ -6,6 +6,11 @@ This page contains the list of events for Microsoft-Windows-Dism-Api, as collect
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[5](events/event-5.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismOpenSession|
+|[6](events/event-6.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismOpenSession|
+|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismCloseSession|
+|[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismCloseSession|
+|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismMountImage|
 |[10](events/event-10.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismMountImage|
 |[11](events/event-11.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismUnmountImage|
 |[12](events/event-12.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismUnmountImage|
@@ -36,7 +41,6 @@ This page contains the list of events for Microsoft-Windows-Dism-Api, as collect
 |[47](events/event-47.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismGetFeatures|
 |[48](events/event-48.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismGetFeatures|
 |[49](events/event-49.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismGetFeatureInfo|
-|[5](events/event-5.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismOpenSession|
 |[50](events/event-50.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismGetFeatureInfo|
 |[51](events/event-51.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismGetFeatureParent|
 |[52](events/event-52.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismGetFeatureParent|
@@ -47,7 +51,6 @@ This page contains the list of events for Microsoft-Windows-Dism-Api, as collect
 |[57](events/event-57.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismRemoveDriver|
 |[58](events/event-58.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismRemoveDriver|
 |[59](events/event-59.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismGetDrivers|
-|[6](events/event-6.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismOpenSession|
 |[60](events/event-60.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismGetDrivers|
 |[61](events/event-61.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismGetDriverInfo|
 |[62](events/event-62.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismGetDriverInfo|
@@ -58,7 +61,6 @@ This page contains the list of events for Microsoft-Windows-Dism-Api, as collect
 |[67](events/event-67.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismSetEdition|
 |[68](events/event-68.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismSetEdition|
 |[69](events/event-69.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismSetProductKey|
-|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismCloseSession|
 |[70](events/event-70.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismSetProductKey|
 |[71](events/event-71.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismGetCurrentEdition|
 |[72](events/event-72.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismGetCurrentEdition|
@@ -69,7 +71,6 @@ This page contains the list of events for Microsoft-Windows-Dism-Api, as collect
 |[77](events/event-77.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismAddProvisionedAppxPackage|
 |[78](events/event-78.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismAddProvisionedAppxPackage|
 |[79](events/event-79.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismRemoveProvisionedAppxPackage|
-|[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismCloseSession|
 |[80](events/event-80.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismRemoveProvisionedAppxPackage|
 |[81](events/event-81.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismGetProvisionedAppxPackages|
 |[82](events/event-82.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismGetProvisionedAppxPackages|
@@ -79,4 +80,3 @@ This page contains the list of events for Microsoft-Windows-Dism-Api, as collect
 |[86](events/event-86.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismOptimizeImage|
 |[87](events/event-87.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismRemoveProvisionedAppxPackage|
 |[88](events/event-88.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Stop, etw_task_DismRemoveProvisionedAppxPackage|
-|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_DismApiEvent, etw_opcode_Start, etw_task_DismMountImage|

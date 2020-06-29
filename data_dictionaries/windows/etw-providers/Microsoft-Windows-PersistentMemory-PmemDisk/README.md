@@ -7,6 +7,8 @@ This page contains the list of events for Microsoft-Windows-PersistentMemory-Pme
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Informational, etw_task_task_0|
+|[2](events/event-2.md)|None|etw_level_Informational, etw_task_task_0|
+|[3](events/event-3.md)|None|etw_level_Informational, etw_keywords_IO_Performance, etw_task_task_0|
 |[101](events/event-101.md)|None|etw_level_Informational, etw_keywords_Read, etw_task_task_0|
 |[102](events/event-102.md)|None|etw_level_Informational, etw_keywords_Write, etw_task_task_0|
 |[103](events/event-103.md)|None|etw_level_Informational, etw_keywords_Read PagingRead, etw_task_task_0|
@@ -16,7 +18,6 @@ This page contains the list of events for Microsoft-Windows-PersistentMemory-Pme
 |[107](events/event-107.md)|None|etw_level_Informational, etw_keywords_IOCTL, etw_task_task_0|
 |[108](events/event-108.md)|None|etw_level_Informational, etw_keywords_PnP, etw_task_task_0|
 |[109](events/event-109.md)|None|etw_level_Informational, etw_keywords_PnP, etw_task_task_0|
-|[2](events/event-2.md)|None|etw_level_Informational, etw_task_task_0|
 |[202](events/event-202.md)|None|etw_level_Critical, etw_task_task_0|
 |[203](events/event-203.md)|None|etw_level_Informational, etw_task_task_0|
 |[204](events/event-204.md)|None|etw_level_Error, etw_task_task_0|
@@ -29,7 +30,6 @@ This page contains the list of events for Microsoft-Windows-PersistentMemory-Pme
 |[213](events/event-213.md)|None|etw_level_Critical, etw_task_task_0|
 |[214](events/event-214.md)|None|etw_level_Critical, etw_task_task_0|
 |[215](events/event-215.md)|None|etw_level_Error, etw_task_task_0|
-|[3](events/event-3.md)|None|etw_level_Informational, etw_keywords_IO_Performance, etw_task_task_0|
 |[300](events/event-300.md)|None|etw_level_Error, etw_task_task_0|
 |[301](events/event-301.md)|None|etw_level_Informational, etw_task_task_0|
 |[302](events/event-302.md)|None|etw_level_Error, etw_task_task_0|

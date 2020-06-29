@@ -6,6 +6,8 @@ This page contains the list of events for Microsoft-Windows-TSF-msctf, as collec
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[5](events/event-5.md)|None|etw_level_Informational, etw_keywords_Perf, etw_opcode_Start, etw_task_ActivateCiceroForThread|
+|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_Perf, etw_opcode_Stop, etw_task_ActivateCiceroForThread|
 |[19](events/event-19.md)|None|etw_level_Informational, etw_keywords_Perf, etw_opcode_Start, etw_task_ActivateTIP|
 |[20](events/event-20.md)|None|etw_level_Informational, etw_keywords_Perf, etw_opcode_Stop, etw_task_ActivateTIP|
 |[21](events/event-21.md)|None|etw_level_Informational, etw_keywords_Perf, etw_opcode_Start, etw_task_DeactivateTIP|
@@ -21,7 +23,6 @@ This page contains the list of events for Microsoft-Windows-TSF-msctf, as collec
 |[42](events/event-42.md)|None|etw_level_Informational, etw_keywords_ALPC, etw_opcode_Start, etw_task_ProcessALPCMessage|
 |[43](events/event-43.md)|None|etw_level_Error, etw_keywords_ALPC, etw_opcode_Stop, etw_task_ProcessALPCMessage|
 |[45](events/event-45.md)|None|etw_level_Informational, etw_keywords_ALPC, etw_opcode_Reply, etw_task_ProcessALPCMessage|
-|[5](events/event-5.md)|None|etw_level_Informational, etw_keywords_Perf, etw_opcode_Start, etw_task_ActivateCiceroForThread|
 |[52](events/event-52.md)|None|etw_level_Informational, etw_keywords_TSFEvent, etw_opcode_Start, etw_task_ITfThreadFocusSink_OnSetThreadFocus|
 |[53](events/event-53.md)|None|etw_level_Informational, etw_keywords_TSFEvent, etw_opcode_Stop, etw_task_ITfThreadFocusSink_OnSetThreadFocus|
 |[54](events/event-54.md)|None|etw_level_Informational, etw_keywords_TSFEvent, etw_opcode_Start, etw_task_ITfThreadFocusSink_OnKillThreadFocus|
@@ -36,7 +37,6 @@ This page contains the list of events for Microsoft-Windows-TSF-msctf, as collec
 |[67](events/event-67.md)|None|etw_level_Informational, etw_keywords_OOPIME, etw_task_IMELocalServer|
 |[68](events/event-68.md)|None|etw_level_Informational, etw_keywords_OOPIME, etw_task_IMELocalServer|
 |[69](events/event-69.md)|None|etw_level_Informational, etw_keywords_OOPIME, etw_task_IMELocalServer|
-|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_Perf, etw_opcode_Stop, etw_task_ActivateCiceroForThread|
 |[70](events/event-70.md)|None|etw_level_Informational, etw_keywords_OOPIME, etw_task_IMELocalServer|
 |[74](events/event-74.md)|None|etw_level_Informational, etw_keywords_OOPIME, etw_task_InputProfileActivation|
 |[75](events/event-75.md)|None|etw_level_Informational, etw_keywords_OOPIME, etw_task_InputProfileActivation|

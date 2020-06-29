@@ -7,61 +7,23 @@ This page contains the list of events for Microsoft-Windows-Direct3D12, as colle
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Always, etw_keywords_Names, etw_task_Name|
-|[100](events/event-100.md)|None|etw_level_Always, etw_keywords_Devices JournalEntries, etw_task_JournalEntry|
-|[101](events/event-101.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_CommandPool|
-|[102](events/event-102.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_CommandPool|
-|[103](events/event-103.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_CommandPool|
-|[104](events/event-104.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_CommandRecorder|
-|[105](events/event-105.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_CommandRecorder|
-|[106](events/event-106.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_CommandRecorder|
-|[107](events/event-107.md)|None|etw_level_Always, etw_keywords_Resources, etw_opcode_Start, etw_task_CommandRecorderAcquire|
-|[108](events/event-108.md)|None|etw_level_Always, etw_keywords_Resources, etw_opcode_Stop, etw_task_CommandRecorderUnacquire|
-|[109](events/event-109.md)|None|etw_level_Always, etw_keywords_Resources, etw_task_CreateHeapSharedHandle|
-|[110](events/event-110.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_StateObject|
-|[111](events/event-111.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_StateObject|
-|[112](events/event-112.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_StateObject|
-|[113](events/event-113.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_MetaCommand|
-|[114](events/event-114.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_MetaCommand|
-|[115](events/event-115.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_MetaCommand|
-|[116](events/event-116.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_ProtectedResourceSession|
-|[117](events/event-117.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_ProtectedResourceSession|
-|[118](events/event-118.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_ProtectedResourceSession|
-|[119](events/event-119.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_LifetimeTracker|
-|[120](events/event-120.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_LifetimeTracker|
-|[121](events/event-121.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_LifetimeTracker|
-|[122](events/event-122.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_SchedulingGroup|
-|[123](events/event-123.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_SchedulingGroup|
-|[124](events/event-124.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_SchedulingGroup|
-|[125](events/event-125.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_VideoMotionEstimator|
-|[126](events/event-126.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_VideoMotionEstimator|
-|[127](events/event-127.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_VideoMotionEstimator|
-|[128](events/event-128.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_VideoMotionVectorHeap|
-|[129](events/event-129.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_VideoMotionVectorHeap|
-|[130](events/event-130.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_VideoMotionVectorHeap|
-|[131](events/event-131_v1.md)|None|etw_level_Always, etw_keywords_DecodeInfo, etw_task_DecodePictureLists, version_1|
-|[132](events/event-132.md)|None|etw_level_Always, etw_keywords_Markers, etw_opcode_Start, etw_task_BackgroundWork|
-|[133](events/event-133.md)|None|etw_level_Always, etw_keywords_Markers, etw_opcode_Stop, etw_task_BackgroundWork|
-|[134](events/event-134.md)|None|etw_level_Always, etw_keywords_Markers, etw_task_BackgroundWork|
-|[135](events/event-135.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_VideoExtensionCommand|
-|[136](events/event-136.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_VideoExtensionCommand|
-|[137](events/event-137.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_VideoExtensionCommand|
-|[19](events/event-19.md)|None|etw_level_Always, etw_keywords_Devices, etw_task_Device|
 |[2](events/event-2.md)|None|etw_level_Always, etw_keywords_Names, etw_opcode_DC_Start, etw_task_Name|
-|[26](events/event-26.md)|None|etw_level_Always, etw_task_D3DSupplemental|
 |[3](events/event-3.md)|None|etw_level_Always, etw_keywords_Devices ObjectLifetime, etw_opcode_Start, etw_task_Device|
+|[4](events/event-4.md)|None|etw_level_Always, etw_keywords_Devices ObjectLifetime, etw_opcode_Stop, etw_task_Device|
+|[5](events/event-5.md)|None|etw_level_Always, etw_keywords_Devices ObjectLifetime, etw_opcode_DC_Start, etw_task_Device|
+|[19](events/event-19.md)|None|etw_level_Always, etw_keywords_Devices, etw_task_Device|
+|[26](events/event-26.md)|None|etw_level_Always, etw_task_D3DSupplemental|
 |[35](events/event-35.md)|None|etw_level_Always, etw_keywords_Markers, etw_task_Marker|
 |[36](events/event-36.md)|None|etw_level_Always, etw_keywords_Markers, etw_opcode_Start, etw_task_Marker|
 |[37](events/event-37.md)|None|etw_level_Always, etw_keywords_Markers, etw_opcode_Stop, etw_task_Marker|
 |[38](events/event-38.md)|None|etw_level_Always, etw_keywords_Markers, etw_task_Marker|
 |[39](events/event-39.md)|None|etw_level_Always, etw_keywords_RenderOperationMarkers, etw_task_RuntimeMarker|
-|[4](events/event-4.md)|None|etw_level_Always, etw_keywords_Devices ObjectLifetime, etw_opcode_Stop, etw_task_Device|
 |[40](events/event-40.md)|None|etw_level_Always, etw_keywords_RenderOperationMarkers, etw_task_RuntimeDroppedCall|
 |[41](events/event-41.md)|None|etw_level_Always, etw_keywords_RenderOperationMarkers, etw_task_RuntimeMarker|
 |[45](events/event-45.md)|None|etw_level_Always, etw_keywords_DriverCustomMarkers, etw_task_CustomDriverMarker|
 |[47](events/event-47.md)|None|etw_level_Always, etw_keywords_Devices ObjectLifetime, etw_opcode_Start, etw_task_CommandQueue|
 |[48](events/event-48.md)|None|etw_level_Always, etw_keywords_Devices ObjectLifetime, etw_opcode_Stop, etw_task_CommandQueue|
 |[49](events/event-49.md)|None|etw_level_Always, etw_keywords_Devices ObjectLifetime, etw_opcode_DC_Start, etw_task_CommandQueue|
-|[5](events/event-5.md)|None|etw_level_Always, etw_keywords_Devices ObjectLifetime, etw_opcode_DC_Start, etw_task_Device|
 |[50](events/event-50.md)|None|etw_level_Always, etw_keywords_Devices ObjectLifetime, etw_opcode_Start, etw_task_CommandList|
 |[51](events/event-51.md)|None|etw_level_Always, etw_keywords_Devices ObjectLifetime, etw_opcode_Stop, etw_task_CommandList|
 |[52](events/event-52.md)|None|etw_level_Always, etw_keywords_Devices, etw_task_CommandList|
@@ -112,3 +74,41 @@ This page contains the list of events for Microsoft-Windows-Direct3D12, as colle
 |[97](events/event-97.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_VideoDecoderHeap|
 |[98](events/event-98.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_VideoDecoderHeap|
 |[99](events/event-99.md)|None|etw_level_Always, etw_keywords_Devices ObjectLifetime, etw_task_ExtendedFeatureVersion|
+|[100](events/event-100.md)|None|etw_level_Always, etw_keywords_Devices JournalEntries, etw_task_JournalEntry|
+|[101](events/event-101.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_CommandPool|
+|[102](events/event-102.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_CommandPool|
+|[103](events/event-103.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_CommandPool|
+|[104](events/event-104.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_CommandRecorder|
+|[105](events/event-105.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_CommandRecorder|
+|[106](events/event-106.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_CommandRecorder|
+|[107](events/event-107.md)|None|etw_level_Always, etw_keywords_Resources, etw_opcode_Start, etw_task_CommandRecorderAcquire|
+|[108](events/event-108.md)|None|etw_level_Always, etw_keywords_Resources, etw_opcode_Stop, etw_task_CommandRecorderUnacquire|
+|[109](events/event-109.md)|None|etw_level_Always, etw_keywords_Resources, etw_task_CreateHeapSharedHandle|
+|[110](events/event-110.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_StateObject|
+|[111](events/event-111.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_StateObject|
+|[112](events/event-112.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_StateObject|
+|[113](events/event-113.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_MetaCommand|
+|[114](events/event-114.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_MetaCommand|
+|[115](events/event-115.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_MetaCommand|
+|[116](events/event-116.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_ProtectedResourceSession|
+|[117](events/event-117.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_ProtectedResourceSession|
+|[118](events/event-118.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_ProtectedResourceSession|
+|[119](events/event-119.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_LifetimeTracker|
+|[120](events/event-120.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_LifetimeTracker|
+|[121](events/event-121.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_LifetimeTracker|
+|[122](events/event-122.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_SchedulingGroup|
+|[123](events/event-123.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_SchedulingGroup|
+|[124](events/event-124.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_SchedulingGroup|
+|[125](events/event-125.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_VideoMotionEstimator|
+|[126](events/event-126.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_VideoMotionEstimator|
+|[127](events/event-127.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_VideoMotionEstimator|
+|[128](events/event-128.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_VideoMotionVectorHeap|
+|[129](events/event-129.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_VideoMotionVectorHeap|
+|[130](events/event-130.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_VideoMotionVectorHeap|
+|[131](events/event-131_v1.md)|None|etw_level_Always, etw_keywords_DecodeInfo, etw_task_DecodePictureLists, version_1|
+|[132](events/event-132.md)|None|etw_level_Always, etw_keywords_Markers, etw_opcode_Start, etw_task_BackgroundWork|
+|[133](events/event-133.md)|None|etw_level_Always, etw_keywords_Markers, etw_opcode_Stop, etw_task_BackgroundWork|
+|[134](events/event-134.md)|None|etw_level_Always, etw_keywords_Markers, etw_task_BackgroundWork|
+|[135](events/event-135.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Start, etw_task_VideoExtensionCommand|
+|[136](events/event-136.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_Stop, etw_task_VideoExtensionCommand|
+|[137](events/event-137.md)|None|etw_level_Always, etw_keywords_Resources ObjectLifetime, etw_opcode_DC_Start, etw_task_VideoExtensionCommand|

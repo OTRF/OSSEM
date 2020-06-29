@@ -7,13 +7,10 @@ This page contains the list of events for Microsoft-Windows-MCCS-ActiveSyncProvi
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Error, etw_keywords_Error, etw_task_task_0|
-|[101](events/event-101.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
-|[1010](events/event-1010.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
-|[1011](events/event-1011.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
-|[102](events/event-102.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
-|[1021](events/event-1021.md)|None|etw_level_Warning, etw_keywords_CommsService, etw_task_task_0|
-|[103](events/event-103.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[2](events/event-2.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
+|[101](events/event-101.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
+|[102](events/event-102.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
+|[103](events/event-103.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[301](events/event-301.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
 |[302](events/event-302.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
 |[303](events/event-303.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
@@ -93,3 +90,6 @@ This page contains the list of events for Microsoft-Windows-MCCS-ActiveSyncProvi
 |[851](events/event-851.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
 |[852](events/event-852.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
 |[901](events/event-901.md)|None|etw_level_Error, etw_keywords_Error, etw_task_task_0|
+|[1010](events/event-1010.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
+|[1011](events/event-1011.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
+|[1021](events/event-1021.md)|None|etw_level_Warning, etw_keywords_CommsService, etw_task_task_0|

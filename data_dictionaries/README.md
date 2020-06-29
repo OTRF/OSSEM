@@ -6,6 +6,7 @@ This part of the OSSEM project contains specific information about several secur
 ## Sub Data Sets
 |Data Set|Description|
 |---|---|
+|[Amazon Web Services(AWS) Event Logs](aws/)|Data dictionaries for AWS DataSources.|
 |[FreeBSD](freebsd/)|Data dictionaries for FreeBSD based events.|
 |[Linux](linux/)|Data dictionaries for Linux based events.|
 |[macOS](macos/)|Data dictionaries for macOS based events.|

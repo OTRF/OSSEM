@@ -7,6 +7,7 @@ This page contains the list of events for Microsoft-Windows-MCCS-DavSyncProvider
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Error, etw_keywords_Error, etw_task_task_0|
+|[2](events/event-2.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[101](events/event-101.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[102](events/event-102.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[103](events/event-103.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
@@ -48,4 +49,3 @@ This page contains the list of events for Microsoft-Windows-MCCS-DavSyncProvider
 |[168](events/event-168.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
 |[171](events/event-171.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
 |[172](events/event-172.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
-|[2](events/event-2.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|

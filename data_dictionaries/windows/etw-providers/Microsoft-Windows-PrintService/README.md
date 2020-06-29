@@ -6,6 +6,7 @@ This page contains the list of events for Microsoft-Windows-PrintService, as col
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[99](events/event-99.md)|None|etw_level_Critical, etw_keywords_SPOOLER_KEYWORD, etw_opcode_Unexpectedprocesstermination, etw_task_Processterminationduetocriticalfailure|
 |[100](events/event-100.md)|None|etw_level_Verbose, etw_keywords_SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_PRINTER, etw_opcode_SpoolerOperationSucceeded, etw_task_Addingaprinter|
 |[101](events/event-101.md)|None|etw_level_Error, etw_keywords_SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_PRINTER, etw_opcode_SpoolerOperationFailed, etw_task_Addingaprinter|
 |[104](events/event-104.md)|None|etw_level_Verbose, etw_keywords_SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_PRINTER, etw_opcode_SpoolerOperationSucceeded, etw_task_Deletingaprinter|
@@ -214,4 +215,3 @@ This page contains the list of events for Microsoft-Windows-PrintService, as col
 |[868](events/event-868.md)|None|etw_level_Informational, etw_keywords_SPOOLER_KEYWORD_CSR SPOOLER_KEYWORD_BRANCH_OFFICE_PRINTING, etw_opcode_SpoolerTrace, etw_task_BOPEventOfflineArchiveFull|
 |[869](events/event-869.md)|None|etw_level_Error, etw_keywords_SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_DRIVER, etw_opcode_SpoolerOperationFailed, etw_task_Verifyingorregeneratingaprintdriverpackage|
 |[870](events/event-870.md)|None|etw_level_Error, etw_keywords_SPOOLER_KEYWORD_CLASSIC SPOOLER_KEYWORD_CSR, etw_opcode_SpoolerOperationFailed, etw_task_Client_siderendering|
-|[99](events/event-99.md)|None|etw_level_Critical, etw_keywords_SPOOLER_KEYWORD, etw_opcode_Unexpectedprocesstermination, etw_task_Processterminationduetocriticalfailure|

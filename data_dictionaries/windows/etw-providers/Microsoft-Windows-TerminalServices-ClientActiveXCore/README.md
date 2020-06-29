@@ -6,6 +6,9 @@ This page contains the list of events for Microsoft-Windows-TerminalServices-Cli
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[225](events/event-225.md)|None|etw_level_Informational, etw_opcode_Thiseventisraisedduringastatetransition., etw_task_RDPStateTransition|
+|[226](events/event-226.md)|None|etw_level_Warning, etw_opcode_Thiseventisraisedduringastatetransition., etw_task_RDPStateTransition|
+|[227](events/event-227.md)|None|etw_level_Informational, etw_opcode_Thiseventisraisedduringastatetransition., etw_task_RDPStateTransition|
 |[1000](events/event-1000.md)|None|etw_level_Verbose, etw_task_task_0|
 |[1001](events/event-1001.md)|None|etw_level_Verbose, etw_opcode_Thiseventisraisedduringtheconnectionprocess, etw_task_ConnectionSequence|
 |[1003](events/event-1003.md)|None|etw_level_Informational, etw_opcode_Thiseventisraisedduringthedisconnectionprocess, etw_task_ConnectionSequence|
@@ -64,6 +67,3 @@ This page contains the list of events for Microsoft-Windows-TerminalServices-Cli
 |[1501](events/event-1501.md)|None|etw_level_Informational, etw_task_General|
 |[1502](events/event-1502.md)|None|etw_level_Informational, etw_task_General|
 |[1503](events/event-1503.md)|None|etw_level_Informational, etw_task_General|
-|[225](events/event-225.md)|None|etw_level_Informational, etw_opcode_Thiseventisraisedduringastatetransition., etw_task_RDPStateTransition|
-|[226](events/event-226.md)|None|etw_level_Warning, etw_opcode_Thiseventisraisedduringastatetransition., etw_task_RDPStateTransition|
-|[227](events/event-227.md)|None|etw_level_Informational, etw_opcode_Thiseventisraisedduringastatetransition., etw_task_RDPStateTransition|

@@ -6,6 +6,16 @@ This page contains the list of events for Microsoft-Windows-Complus, as collecte
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[774](events/event-774.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
+|[775](events/event-775.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
+|[776](events/event-776.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
+|[777](events/event-777.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
+|[778](events/event-778.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
+|[779](events/event-779.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
+|[780](events/event-780.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
+|[781](events/event-781.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
+|[782](events/event-782.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
+|[783](events/event-783.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
 |[4433](events/event-4433.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
 |[4434](events/event-4434.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
 |[4452](events/event-4452.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
@@ -20,13 +30,3 @@ This page contains the list of events for Microsoft-Windows-Complus, as collecte
 |[5485](events/event-5485.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
 |[5486](events/event-5486.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
 |[5488](events/event-5488.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
-|[774](events/event-774.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
-|[775](events/event-775.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
-|[776](events/event-776.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
-|[777](events/event-777.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
-|[778](events/event-778.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
-|[779](events/event-779.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
-|[780](events/event-780.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
-|[781](events/event-781.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
-|[782](events/event-782.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|
-|[783](events/event-783.md)|None|etw_level_Always, etw_opcode_opcode_64, etw_task_task_0|

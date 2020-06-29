@@ -2,10 +2,10 @@
 {{entry['description']}}
 
 ## Data Fields
-|Standard Name|Field Name|Type|Description|Sample Value|
+|Standard Name|Type|Description|Sample Value|
 |---|---|---|---|---|
 {%- for row in entry['data_fields'] %}
-|{{row['standard_name']}}|{{row['field_name']}}|{{row['type']}}|{{row['description']}}|{{row['sample_value']}}|
+|{{row['standard_name']}}|{{row['type']}}|{{row['description']}}|{{row['sample_value']}}|
 {%- endfor %}
 
 {%- if entry['references'] %}

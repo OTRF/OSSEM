@@ -7,6 +7,13 @@ This page contains the list of events for Microsoft-Windows-StorDiag, as collect
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1_v1.md)|None|etw_level_Informational, etw_keywords_ClassPnPAllIO, etw_opcode_ClassPnP_IO_End, etw_task_ClassPnPIOrequestcomplete, version_1|
+|[2](events/event-2_v1.md)|None|etw_level_Informational, etw_keywords_ClassPnPIdleIO, etw_opcode_ClassPnP_Enqueue_IdleIO, etw_task_ClassPnPEnqueueIdleIOrequest, version_1|
+|[3](events/event-3_v1.md)|None|etw_level_Informational, etw_keywords_ClassPnPIdleIO, etw_opcode_ClassPnP_Boost_IdleIO, etw_task_ClassPnPBoostIdleIOrequest, version_1|
+|[4](events/event-4_v1.md)|None|etw_level_Informational, etw_keywords_CopyOffload_IO_Performance IO_Performance, etw_task_Class, version_1|
+|[5](events/event-5_v1.md)|None|etw_level_Informational, etw_keywords_CopyOffload_Read Read, etw_opcode_Dispatchingofrequest., etw_task_Class, version_1|
+|[6](events/event-6_v1.md)|None|etw_level_Informational, etw_keywords_CopyOffload_Write Write, etw_opcode_Dispatchingofrequest., etw_task_Class, version_1|
+|[7](events/event-7_v1.md)|None|etw_level_Informational, etw_keywords_CopyOffload_Read CopyOffload_Write Read Write, etw_opcode_Completionofrequest., etw_task_Class, version_1|
+|[8](events/event-8_v1.md)|None|etw_level_Informational, etw_keywords_SenseData, etw_task_Class, version_1|
 |[201](events/event-201_v1.md)|None|etw_level_Informational, etw_keywords_IO_Performance, etw_task_Class, version_1|
 |[202](events/event-202_v2.md)|None|etw_level_Informational, etw_keywords_Read, etw_opcode_Dispatchingofrequest., etw_task_Class, version_2|
 |[203](events/event-203_v2.md)|None|etw_level_Informational, etw_keywords_Write, etw_opcode_Dispatchingofrequest., etw_task_Class, version_2|
@@ -35,9 +42,6 @@ This page contains the list of events for Microsoft-Windows-StorDiag, as collect
 |[224](events/event-224_v1.md)|None|etw_level_Informational, etw_keywords_SMR IOCTL, etw_opcode_Completionofrequest., etw_task_Class, version_1|
 |[225](events/event-225_v1.md)|None|etw_level_Informational, etw_keywords_SMR IOCTL, etw_opcode_Completionofrequest., etw_task_Class, version_1|
 |[226](events/event-226_v1.md)|None|etw_level_Error, etw_keywords_IOCTL, etw_opcode_Completionofrequest., etw_task_Class, version_1|
-|[2](events/event-2_v1.md)|None|etw_level_Informational, etw_keywords_ClassPnPIdleIO, etw_opcode_ClassPnP_Enqueue_IdleIO, etw_task_ClassPnPEnqueueIdleIOrequest, version_1|
-|[3](events/event-3_v1.md)|None|etw_level_Informational, etw_keywords_ClassPnPIdleIO, etw_opcode_ClassPnP_Boost_IdleIO, etw_task_ClassPnPBoostIdleIOrequest, version_1|
-|[4](events/event-4_v1.md)|None|etw_level_Informational, etw_keywords_CopyOffload_IO_Performance IO_Performance, etw_task_Class, version_1|
 |[500](events/event-500_v1.md)|None|etw_level_Error, etw_keywords_Read, etw_opcode_Completionofrequest., etw_task_Class, version_1|
 |[501](events/event-501_v1.md)|None|etw_level_Error, etw_keywords_Write, etw_opcode_Completionofrequest., etw_task_Class, version_1|
 |[502](events/event-502_v1.md)|None|etw_level_Error, etw_keywords_Read PagingRead, etw_opcode_Completionofrequest., etw_task_Class, version_1|
@@ -53,7 +57,3 @@ This page contains the list of events for Microsoft-Windows-StorDiag, as collect
 |[512](events/event-512_v1.md)|None|etw_level_Error, etw_keywords_FirmwareUpdate, etw_opcode_Completionofrequest., etw_task_Class, version_1|
 |[513](events/event-513_v1.md)|None|etw_level_Error, etw_keywords_FirmwareUpdate, etw_opcode_Completionofrequest., etw_task_Class, version_1|
 |[514](events/event-514_v1.md)|None|etw_level_Error, etw_keywords_FirmwareUpdate, etw_opcode_Completionofrequest., etw_task_Class, version_1|
-|[5](events/event-5_v1.md)|None|etw_level_Informational, etw_keywords_CopyOffload_Read Read, etw_opcode_Dispatchingofrequest., etw_task_Class, version_1|
-|[6](events/event-6_v1.md)|None|etw_level_Informational, etw_keywords_CopyOffload_Write Write, etw_opcode_Dispatchingofrequest., etw_task_Class, version_1|
-|[7](events/event-7_v1.md)|None|etw_level_Informational, etw_keywords_CopyOffload_Read CopyOffload_Write Read Write, etw_opcode_Completionofrequest., etw_task_Class, version_1|
-|[8](events/event-8_v1.md)|None|etw_level_Informational, etw_keywords_SenseData, etw_task_Class, version_1|

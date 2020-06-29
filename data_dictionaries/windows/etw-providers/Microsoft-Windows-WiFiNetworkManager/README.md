@@ -8,7 +8,63 @@ This page contains the list of events for Microsoft-Windows-WiFiNetworkManager, 
 |---|---|---|
 |[0](events/event-0.md)|None|etw_level_Error, etw_task_task_0|
 |[1](events/event-1.md)|None|etw_level_Informational, etw_task_task_0|
+|[2](events/event-2.md)|None|etw_level_Verbose, etw_task_task_0|
 |[100](events/event-100.md)|None|etw_level_Error, etw_task_task_0|
+|[106](events/event-106.md)|None|etw_level_Informational, etw_task_task_0|
+|[107](events/event-107.md)|None|etw_level_Informational, etw_task_task_0|
+|[200](events/event-200.md)|None|etw_level_Error, etw_task_task_0|
+|[201](events/event-201.md)|None|etw_level_Informational, etw_task_task_0|
+|[202](events/event-202.md)|None|etw_level_Error, etw_task_task_0|
+|[203](events/event-203.md)|None|etw_level_Error, etw_task_task_0|
+|[204](events/event-204.md)|None|etw_level_Error, etw_task_task_0|
+|[206](events/event-206.md)|None|etw_level_Informational, etw_task_task_0|
+|[211](events/event-211.md)|None|etw_level_Informational, etw_task_task_0|
+|[212](events/event-212.md)|None|etw_level_Informational, etw_task_task_0|
+|[214](events/event-214.md)|None|etw_level_Error, etw_task_task_0|
+|[215](events/event-215.md)|None|etw_level_Informational, etw_task_task_0|
+|[216](events/event-216.md)|None|etw_level_Informational, etw_task_task_0|
+|[217](events/event-217.md)|None|etw_level_Error, etw_task_task_0|
+|[219](events/event-219.md)|None|etw_level_Error, etw_task_task_0|
+|[221](events/event-221.md)|None|etw_level_Informational, etw_task_task_0|
+|[222](events/event-222.md)|None|etw_level_Error, etw_task_task_0|
+|[224](events/event-224.md)|None|etw_level_Informational, etw_task_task_0|
+|[300](events/event-300.md)|None|etw_level_Error, etw_keywords_ScnEvt, etw_task_task_0|
+|[301](events/event-301.md)|None|etw_level_Informational, etw_keywords_ScnEvt, etw_task_task_0|
+|[305](events/event-305.md)|None|etw_level_Error, etw_keywords_ScnEvt, etw_task_task_0|
+|[306](events/event-306.md)|None|etw_level_Error, etw_keywords_ScnEvt, etw_task_task_0|
+|[307](events/event-307.md)|None|etw_level_Error, etw_task_task_0|
+|[311](events/event-311.md)|None|etw_level_Error, etw_task_task_0|
+|[314](events/event-314.md)|None|etw_level_Informational, etw_keywords_ScnEvt, etw_task_task_0|
+|[316](events/event-316.md)|None|etw_level_Error, etw_task_task_0|
+|[317](events/event-317.md)|None|etw_level_Error, etw_task_task_0|
+|[319](events/event-319.md)|None|etw_level_Informational, etw_task_task_0|
+|[320](events/event-320.md)|None|etw_level_Informational, etw_task_task_0|
+|[322](events/event-322.md)|None|etw_level_Error, etw_keywords_ScnEvt, etw_task_task_0|
+|[323](events/event-323.md)|None|etw_level_Informational, etw_task_task_0|
+|[324](events/event-324.md)|None|etw_level_Informational, etw_task_task_0|
+|[325](events/event-325.md)|None|etw_level_Informational, etw_task_task_0|
+|[326](events/event-326.md)|None|etw_level_Informational, etw_task_task_0|
+|[327](events/event-327.md)|None|etw_level_Informational, etw_task_task_0|
+|[331](events/event-331.md)|None|etw_level_Informational, etw_task_task_0|
+|[333](events/event-333.md)|None|etw_level_Informational, etw_keywords_ScnEvt, etw_task_task_0|
+|[401](events/event-401.md)|None|etw_level_Informational, etw_task_task_0|
+|[403](events/event-403.md)|None|etw_level_Informational, etw_task_task_0|
+|[404](events/event-404.md)|None|etw_level_Informational, etw_task_task_0|
+|[405](events/event-405.md)|None|etw_level_Informational, etw_task_task_0|
+|[406](events/event-406.md)|None|etw_level_Informational, etw_task_task_0|
+|[407](events/event-407.md)|None|etw_level_Error, etw_task_task_0|
+|[408](events/event-408.md)|None|etw_level_Error, etw_task_task_0|
+|[600](events/event-600.md)|None|etw_level_Error, etw_task_task_0|
+|[601](events/event-601.md)|None|etw_level_Error, etw_task_task_0|
+|[602](events/event-602.md)|None|etw_level_Error, etw_task_task_0|
+|[603](events/event-603.md)|None|etw_level_Informational, etw_task_task_0|
+|[604](events/event-604.md)|None|etw_level_Error, etw_task_task_0|
+|[605](events/event-605.md)|None|etw_level_Informational, etw_task_task_0|
+|[606](events/event-606.md)|None|etw_level_Error, etw_task_task_0|
+|[607](events/event-607.md)|None|etw_level_Error, etw_task_task_0|
+|[608](events/event-608.md)|None|etw_level_Error, etw_task_task_0|
+|[609](events/event-609.md)|None|etw_level_Error, etw_task_task_0|
+|[610](events/event-610.md)|None|etw_level_Error, etw_task_task_0|
 |[1006](events/event-1006.md)|None|etw_level_Error, etw_task_task_0|
 |[1012](events/event-1012.md)|None|etw_level_Error, etw_task_task_0|
 |[1013](events/event-1013.md)|None|etw_level_Error, etw_task_task_0|
@@ -38,8 +94,6 @@ This page contains the list of events for Microsoft-Windows-WiFiNetworkManager, 
 |[1043](events/event-1043.md)|None|etw_level_Informational, etw_task_task_0|
 |[1045](events/event-1045.md)|None|etw_level_Informational, etw_task_task_0|
 |[1047](events/event-1047.md)|None|etw_level_Informational, etw_task_task_0|
-|[106](events/event-106.md)|None|etw_level_Informational, etw_task_task_0|
-|[107](events/event-107.md)|None|etw_level_Informational, etw_task_task_0|
 |[1400](events/event-1400.md)|None|etw_level_Error, etw_task_task_0|
 |[1401](events/event-1401.md)|None|etw_level_Error, etw_task_task_0|
 |[1402](events/event-1402.md)|None|etw_level_Informational, etw_task_task_0|
@@ -139,32 +193,18 @@ This page contains the list of events for Microsoft-Windows-WiFiNetworkManager, 
 |[1714](events/event-1714.md)|None|etw_level_Informational, etw_task_task_0|
 |[1900](events/event-1900.md)|None|etw_level_Error, etw_task_task_0|
 |[1901](events/event-1901.md)|None|etw_level_Error, etw_task_task_0|
-|[2](events/event-2.md)|None|etw_level_Verbose, etw_task_task_0|
-|[200](events/event-200.md)|None|etw_level_Error, etw_task_task_0|
 |[2000](events/event-2000.md)|None|etw_level_Error, etw_task_task_0|
 |[2001](events/event-2001.md)|None|etw_level_Error, etw_task_task_0|
 |[2002](events/event-2002.md)|None|etw_level_Error, etw_task_task_0|
 |[2004](events/event-2004.md)|None|etw_level_Error, etw_task_task_0|
-|[201](events/event-201.md)|None|etw_level_Informational, etw_task_task_0|
-|[202](events/event-202.md)|None|etw_level_Error, etw_task_task_0|
-|[203](events/event-203.md)|None|etw_level_Error, etw_task_task_0|
-|[204](events/event-204.md)|None|etw_level_Error, etw_task_task_0|
-|[206](events/event-206.md)|None|etw_level_Informational, etw_task_task_0|
 |[2100](events/event-2100.md)|None|etw_level_Error, etw_task_task_0|
 |[2101](events/event-2101.md)|None|etw_level_Error, etw_task_task_0|
 |[2106](events/event-2106.md)|None|etw_level_Error, etw_task_task_0|
 |[2107](events/event-2107.md)|None|etw_level_Error, etw_task_task_0|
-|[211](events/event-211.md)|None|etw_level_Informational, etw_task_task_0|
 |[2111](events/event-2111.md)|None|etw_level_Informational, etw_task_task_0|
 |[2114](events/event-2114.md)|None|etw_level_Error, etw_task_task_0|
 |[2115](events/event-2115.md)|None|etw_level_Error, etw_task_task_0|
-|[212](events/event-212.md)|None|etw_level_Informational, etw_task_task_0|
 |[2120](events/event-2120.md)|None|etw_level_Error, etw_task_task_0|
-|[214](events/event-214.md)|None|etw_level_Error, etw_task_task_0|
-|[215](events/event-215.md)|None|etw_level_Informational, etw_task_task_0|
-|[216](events/event-216.md)|None|etw_level_Informational, etw_task_task_0|
-|[217](events/event-217.md)|None|etw_level_Error, etw_task_task_0|
-|[219](events/event-219.md)|None|etw_level_Error, etw_task_task_0|
 |[2200](events/event-2200.md)|None|etw_level_Informational, etw_task_task_0|
 |[2202](events/event-2202.md)|None|etw_level_Error, etw_task_task_0|
 |[2203](events/event-2203.md)|None|etw_level_Error, etw_task_task_0|
@@ -173,9 +213,6 @@ This page contains the list of events for Microsoft-Windows-WiFiNetworkManager, 
 |[2207](events/event-2207.md)|None|etw_level_Error, etw_task_task_0|
 |[2208](events/event-2208.md)|None|etw_level_Informational, etw_task_task_0|
 |[2209](events/event-2209.md)|None|etw_level_Error, etw_task_task_0|
-|[221](events/event-221.md)|None|etw_level_Informational, etw_task_task_0|
-|[222](events/event-222.md)|None|etw_level_Error, etw_task_task_0|
-|[224](events/event-224.md)|None|etw_level_Informational, etw_task_task_0|
 |[2301](events/event-2301.md)|None|etw_level_Informational, etw_task_task_0|
 |[2304](events/event-2304.md)|None|etw_level_Error, etw_task_task_0|
 |[2305](events/event-2305.md)|None|etw_level_Informational, etw_task_task_0|
@@ -193,40 +230,3 @@ This page contains the list of events for Microsoft-Windows-WiFiNetworkManager, 
 |[2408](events/event-2408.md)|None|etw_level_Error, etw_task_task_0|
 |[2409](events/event-2409.md)|None|etw_level_Error, etw_task_task_0|
 |[2410](events/event-2410.md)|None|etw_level_Error, etw_task_task_0|
-|[300](events/event-300.md)|None|etw_level_Error, etw_keywords_ScnEvt, etw_task_task_0|
-|[301](events/event-301.md)|None|etw_level_Informational, etw_keywords_ScnEvt, etw_task_task_0|
-|[305](events/event-305.md)|None|etw_level_Error, etw_keywords_ScnEvt, etw_task_task_0|
-|[306](events/event-306.md)|None|etw_level_Error, etw_keywords_ScnEvt, etw_task_task_0|
-|[307](events/event-307.md)|None|etw_level_Error, etw_task_task_0|
-|[311](events/event-311.md)|None|etw_level_Error, etw_task_task_0|
-|[314](events/event-314.md)|None|etw_level_Informational, etw_keywords_ScnEvt, etw_task_task_0|
-|[316](events/event-316.md)|None|etw_level_Error, etw_task_task_0|
-|[317](events/event-317.md)|None|etw_level_Error, etw_task_task_0|
-|[319](events/event-319.md)|None|etw_level_Informational, etw_task_task_0|
-|[320](events/event-320.md)|None|etw_level_Informational, etw_task_task_0|
-|[322](events/event-322.md)|None|etw_level_Error, etw_keywords_ScnEvt, etw_task_task_0|
-|[323](events/event-323.md)|None|etw_level_Informational, etw_task_task_0|
-|[324](events/event-324.md)|None|etw_level_Informational, etw_task_task_0|
-|[325](events/event-325.md)|None|etw_level_Informational, etw_task_task_0|
-|[326](events/event-326.md)|None|etw_level_Informational, etw_task_task_0|
-|[327](events/event-327.md)|None|etw_level_Informational, etw_task_task_0|
-|[331](events/event-331.md)|None|etw_level_Informational, etw_task_task_0|
-|[333](events/event-333.md)|None|etw_level_Informational, etw_keywords_ScnEvt, etw_task_task_0|
-|[401](events/event-401.md)|None|etw_level_Informational, etw_task_task_0|
-|[403](events/event-403.md)|None|etw_level_Informational, etw_task_task_0|
-|[404](events/event-404.md)|None|etw_level_Informational, etw_task_task_0|
-|[405](events/event-405.md)|None|etw_level_Informational, etw_task_task_0|
-|[406](events/event-406.md)|None|etw_level_Informational, etw_task_task_0|
-|[407](events/event-407.md)|None|etw_level_Error, etw_task_task_0|
-|[408](events/event-408.md)|None|etw_level_Error, etw_task_task_0|
-|[600](events/event-600.md)|None|etw_level_Error, etw_task_task_0|
-|[601](events/event-601.md)|None|etw_level_Error, etw_task_task_0|
-|[602](events/event-602.md)|None|etw_level_Error, etw_task_task_0|
-|[603](events/event-603.md)|None|etw_level_Informational, etw_task_task_0|
-|[604](events/event-604.md)|None|etw_level_Error, etw_task_task_0|
-|[605](events/event-605.md)|None|etw_level_Informational, etw_task_task_0|
-|[606](events/event-606.md)|None|etw_level_Error, etw_task_task_0|
-|[607](events/event-607.md)|None|etw_level_Error, etw_task_task_0|
-|[608](events/event-608.md)|None|etw_level_Error, etw_task_task_0|
-|[609](events/event-609.md)|None|etw_level_Error, etw_task_task_0|
-|[610](events/event-610.md)|None|etw_level_Error, etw_task_task_0|

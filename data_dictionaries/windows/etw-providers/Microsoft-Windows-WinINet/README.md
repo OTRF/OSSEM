@@ -6,31 +6,132 @@ This page contains the list of events for Microsoft-Windows-WinINet, as collecte
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[101](events/event-101.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HANDLES, etw_task_WININET_ROOT_HANDLE_CREATED|
+|[102](events/event-102.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HANDLES, etw_task_WININET_OPEN_URL_HANDLE_CREATED|
+|[103](events/event-103.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HANDLES, etw_task_WININET_CONNECT_HANDLE_CREATED|
+|[104](events/event-104.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HANDLES WININET_KEYWORD_HTTPDIAG, etw_task_WININET_HTTP_REQUEST_HANDLE_CREATED|
+|[105](events/event-105.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HANDLES WININET_KEYWORD_HTTPDIAG, etw_task_WININET_HANDLE_CLOSED|
+|[106](events/event-106.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_HANDLES, etw_task_WININET_HANDLE_CREATE_FAILED|
+|[107](events/event-107.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_HANDLES, etw_task_WININET_HANDLE_CLOSE_FAILED|
+|[108](events/event-108.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HANDLES WININET_KEYWORD_HTTPDIAG, etw_task_WININET_HTTP_REQUEST_HANDLE_CREATED|
+|[200](events/event-200.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP, etw_opcode_Start, etw_task_WININET_HTTP_REQUEST|
+|[200](events/event-200_v1.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG, etw_opcode_Start, etw_task_WININET_HTTP_REQUEST, version_1|
+|[201](events/event-201.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG, etw_opcode_Stop, etw_task_WININET_HTTP_REQUEST|
+|[202](events/event-202.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_HTTP_REQUEST|
+|[203](events/event-203.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG, etw_opcode_Stop, etw_task_WININET_HTTP_RESPONSE|
+|[204](events/event-204.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_HTTP_RESPONSE|
+|[205](events/event-205.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP, etw_task_WININET_HTTP_CONNECTION_CLOSED|
+|[206](events/event-206.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP, etw_task_WININET_KEEP_ALIVE_CONNECTION_REUSED|
+|[207](events/event-207.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP, etw_task_WININET_KEEP_ALIVE_CONNECTION_POOLED|
+|[208](events/event-208.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP, etw_task_WININET_KEEP_ALIVE_CONNECTION_CLOSED|
+|[209](events/event-209.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG, etw_task_WININET_HTTP_RESPONSE_BODY_RECEIVED|
+|[210](events/event-210.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG keyword_20000000000, etw_task_WININET_REQUEST_HEADER|
+|[211](events/event-211.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG keyword_20000000000, etw_task_WININET_RESPONSE_HEADER|
+|[212](events/event-212.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_HTTP keyword_20000000000, etw_task_WININET_REQUEST_HEADER_OPTIONAL|
+|[213](events/event-213.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_AOAC, etw_task_WININET_HTTP_RESPONSE_BODY_READ_ERROR|
+|[301](events/event-301.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_CONNECTION WININET_KEYWORD_HTTPDIAG, etw_opcode_Start, etw_task_WININET_TCP_CONNECTION|
+|[302](events/event-302.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_CONNECTION WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_TCP_CONNECTION|
+|[303](events/event-303.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_CONNECTION WININET_KEYWORD_HTTPDIAG, etw_opcode_Stop, etw_task_WININET_TCP_CONNECTION|
+|[304](events/event-304.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_CONNECTION, etw_opcode_Start, etw_task_WININET_DNS_QUERY|
+|[305](events/event-305.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_CONNECTION, etw_opcode_Stop, etw_task_WININET_DNS_QUERY|
+|[306](events/event-306.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_CONNECTION WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_DNS_QUERY|
+|[307](events/event-307.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_CONNECTION, etw_opcode_Stop, etw_task_WININET_DNS_QUERY|
+|[308](events/event-308.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_CONNECTION, etw_task_WININET_NETWORK_CHANGE_DETECTED|
+|[400](events/event-400.md)|None|etw_level_Informational, etw_keywords_keyword_20000000000, etw_task_Wininet_WebSocketUpgrade|
+|[401](events/event-401.md)|None|etw_level_Informational, etw_keywords_keyword_20000000000, etw_task_Wininet_WebSocketUpgrade|
+|[402](events/event-402.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Wininet_WebSocketSession|
+|[403](events/event-403.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Wininet_WebSocketSession|
+|[404](events/event-404.md)|None|etw_level_Informational, etw_keywords_keyword_20000000000, etw_task_Wininet_WebSocketSession|
+|[405](events/event-405.md)|None|etw_level_Informational, etw_keywords_keyword_20000000000, etw_task_Wininet_WebSocketSession|
+|[406](events/event-406.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
+|[407](events/event-407.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
+|[408](events/event-408.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
+|[409](events/event-409.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
+|[410](events/event-410.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
+|[411](events/event-411.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
+|[412](events/event-412.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
+|[413](events/event-413.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
+|[414](events/event-414.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_SEND keyword_20000000000 keyword_40000000000, etw_task_Wininet_WebSocketSession|
+|[415](events/event-415.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_RECEIVE keyword_20000000000 keyword_40000000000, etw_task_Wininet_WebSocketSession|
+|[416](events/event-416.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_SEND keyword_20000000000 keyword_40000000000, etw_task_Wininet_WebSocketSession|
+|[417](events/event-417.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_RECEIVE keyword_20000000000 keyword_40000000000, etw_task_Wininet_WebSocketSession|
+|[501](events/event-501.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_COOKIES, etw_task_WININET_COOKIE_HEADER_RECEIVED|
+|[502](events/event-502.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_COOKIES, etw_task_WININET_COOKIE_STORED|
+|[503](events/event-503.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_COOKIES, etw_task_WININET_COOKIE_DELETED|
+|[504](events/event-504.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_COOKIES, etw_task_WININET_COOKIE_BLOCKED|
+|[505](events/event-505.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_COOKIES, etw_task_WININET_COOKIE_P3P_REJECTED|
+|[506](events/event-506.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_COOKIES, etw_task_WININET_COOKIE_REQUEST_HEADER_CREATED|
+|[507](events/event-507.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_COOKIES, etw_task_WININET_COOKIE_ADDED_TO_HEADER|
+|[601](events/event-601.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTH, etw_task_WININET_AUTH_RESPONSE_RECEIVED|
+|[602](events/event-602.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTH, etw_task_WININET_AUTH_CLIENT_SETS_USERNAME|
+|[603](events/event-603.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTH, etw_task_WININET_AUTH_CLIENT_SETS_PASSWORD|
+|[604](events/event-604.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTH, etw_task_WININET_AUTH_USING_CACHED_CREDS|
+|[605](events/event-605.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTH, etw_task_WININET_AUTH_USING_DEFAULT_CREDS|
+|[606](events/event-606.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTH, etw_task_WININET_AUTH_CLIENT_ADD_HEADERS|
+|[701](events/event-701.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTPS WININET_KEYWORD_HTTPDIAG, etw_opcode_Start, etw_task_WININET_HTTPS_NEGOTIATION|
+|[702](events/event-702.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTPS WININET_KEYWORD_HTTPDIAG, etw_opcode_Stop, etw_task_WININET_HTTPS_NEGOTIATION|
+|[703](events/event-703.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_HTTPS WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_HTTPS_NEGOTIATION|
+|[704](events/event-704.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_HTTPS WININET_KEYWORD_AOAC, etw_task_WININET_HTTPS_SERVER_CERT_ERROR|
+|[705](events/event-705.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTPS, etw_task_WININET_HTTPS_SERVER_CERT_VALIDATED|
+|[706](events/event-706.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTPS, etw_task_WININET_HTTPS_CLIENT_CERT_REQUIRED|
+|[707](events/event-707.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_HTTPS WININET_KEYWORD_AOAC, etw_task_WININET_HTTPS_CLIENT_CERT_UNAVAILABLE|
+|[708](events/event-708.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTPS, etw_task_WININET_HTTPS_CLIENT_CERT_SELECTED|
+|[711](events/event-711.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTPS, etw_opcode_Start, etw_task_WININET_HTTPS_RENEGOTIATION|
+|[712](events/event-712.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTPS, etw_opcode_Stop, etw_task_WININET_HTTPS_RENEGOTIATION|
+|[713](events/event-713.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_HTTPS WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_HTTPS_RENEGOTIATION|
+|[801](events/event-801.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_SEARCH|
+|[801](events/event-801_v1.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_SEARCH, version_1|
+|[802](events/event-802.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_DHCP|
+|[802](events/event-802_v1.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_DHCP, version_1|
+|[803](events/event-803.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_DHCP|
+|[803](events/event-803_v1.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_DHCP, version_1|
+|[804](events/event-804.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_DHCP|
+|[804](events/event-804_v1.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_DHCP, version_1|
+|[805](events/event-805.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_DNS|
+|[806](events/event-806.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_DNS|
+|[806](events/event-806_v1.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_DNS, version_1|
+|[807](events/event-807.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_DNS|
+|[808](events/event-808.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_SEARCH|
+|[809](events/event-809.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_DOWNLOAD|
+|[809](events/event-809_v1.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_DOWNLOAD, version_1|
+|[810](events/event-810.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_DOWNLOAD|
+|[810](events/event-810_v1.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_DOWNLOAD, version_1|
+|[811](events/event-811.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_DOWNLOAD|
+|[811](events/event-811_v1.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_DOWNLOAD, version_1|
+|[812](events/event-812.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_DOWNLOAD|
+|[812](events/event-812_v1.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_DOWNLOAD, version_1|
+|[813](events/event-813.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_FIND_INFO_FOR_URL|
+|[813](events/event-813_v1.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_FIND_INFO_FOR_URL, version_1|
+|[814](events/event-814.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_FIND_INFO_FOR_URL|
+|[814](events/event-814_v1.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_FIND_INFO_FOR_URL, version_1|
+|[815](events/event-815.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_FIND_INFO_FOR_URL|
+|[815](events/event-815_v1.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_FIND_INFO_FOR_URL, version_1|
+|[819](events/event-819.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_task_WININET_AUTOPROXY_SWPAD|
+|[834](events/event-834.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_PERFTRACK_ALL|
+|[835](events/event-835.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_PERFTRACK_ALL|
+|[901](events/event-901.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_MOBILE, etw_opcode_Start, etw_task_WININET_APPLICATION_OFFLINE_CHECK|
+|[902](events/event-902.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_MOBILE, etw_opcode_Stop, etw_task_WININET_APPLICATION_OFFLINE_CHECK|
 |[1000](events/event-1000.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_CONNECTION, etw_task_WININET_TEST_EVENT|
 |[1007](events/event-1007.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Start, etw_task_Wininet_SendRequest|
 |[1008](events/event-1008.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Stop, etw_task_Wininet_SendRequest|
 |[1009](events/event-1009.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_task_Wininet_OfflineCacheLookup|
-|[101](events/event-101.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HANDLES, etw_task_WININET_ROOT_HANDLE_CREATED|
 |[1011](events/event-1011.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_task_Wininet_OfflineCacheHit|
 |[1013](events/event-1013.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_task_Wininet_OfflineCacheMiss|
 |[1015](events/event-1015.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG, etw_task_Wininet_PreNet_CacheLookup|
 |[1017](events/event-1017.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG, etw_task_Wininet_PreNet_CacheHit|
 |[1019](events/event-1019.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG, etw_task_Wininet_PreNet_CacheMiss|
-|[102](events/event-102.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HANDLES, etw_task_WININET_OPEN_URL_HANDLE_CREATED|
 |[1021](events/event-1021.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_task_Wininet_PostNet_CacheLookup|
 |[1023](events/event-1023.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG, etw_task_Wininet_PostNet_CacheHit|
 |[1025](events/event-1025.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_task_Wininet_PostNet_CacheMiss|
 |[1027](events/event-1027.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Start, etw_task_Wininet_AutodialIfNotLocalHost|
 |[1028](events/event-1028.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Stop, etw_task_Wininet_AutodialIfNotLocalHost|
 |[1029](events/event-1029.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG, etw_opcode_Start, etw_task_Wininet_ResolveHost|
-|[103](events/event-103.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HANDLES, etw_task_WININET_CONNECT_HANDLE_CREATED|
 |[1030](events/event-1030.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG, etw_opcode_Stop, etw_task_Wininet_ResolveHost|
 |[1031](events/event-1031.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG, etw_task_Wininet_SendRequest_Main|
 |[1033](events/event-1033.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_task_Wininet_SendRequest_Extra|
 |[1035](events/event-1035.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_task_Wininet_SendRequest_CRLF|
 |[1037](events/event-1037.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG, etw_task_Wininet_ReadData|
 |[1039](events/event-1039.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_task_Wininet_ReadDataPostReceiveBuf|
-|[104](events/event-104.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HANDLES WININET_KEYWORD_HTTPDIAG, etw_task_WININET_HTTP_REQUEST_HANDLE_CREATED|
 |[1041](events/event-1041.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG, etw_task_Wininet_SendRequest_PostReceiveBuf|
 |[1043](events/event-1043.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_task_Wininet_DrainResponsePostReceiveBuf|
 |[1045](events/event-1045.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG, etw_opcode_Start, etw_task_Wininet_Connect|
@@ -39,7 +140,6 @@ This page contains the list of events for Microsoft-Windows-WinINet, as collecte
 |[1047](events/event-1047.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Start, etw_task_Wininet_LookupConnection|
 |[1048](events/event-1048.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Stop, etw_task_Wininet_LookupConnection|
 |[1049](events/event-1049.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG, etw_task_Wininet_Redirect|
-|[105](events/event-105.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HANDLES WININET_KEYWORD_HTTPDIAG, etw_task_WININET_HANDLE_CLOSED|
 |[1051](events/event-1051.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Start, etw_task_Wininet_Getaddrinfo|
 |[1052](events/event-1052.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Stop, etw_task_Wininet_Getaddrinfo|
 |[1053](events/event-1053.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Start, etw_task_Wininet_DHCP_I252WPAD|
@@ -49,7 +149,6 @@ This page contains the list of events for Microsoft-Windows-WinINet, as collecte
 |[1057](events/event-1057.md)|None|etw_level_Informational, etw_keywords_keyword_20000000000, etw_task_Wininet_UsageLogRequest|
 |[1058](events/event-1058.md)|None|etw_level_Informational, etw_keywords_keyword_20000000000, etw_task_Wininet_UsageLogScavenge|
 |[1059](events/event-1059.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG, etw_opcode_Start, etw_task_Wininet_SocketConnect|
-|[106](events/event-106.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_HANDLES, etw_task_WININET_HANDLE_CREATE_FAILED|
 |[1060](events/event-1060.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG, etw_opcode_Stop, etw_task_Wininet_SocketConnect|
 |[1061](events/event-1061.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Start, etw_task_Wininet_AppCacheLookup|
 |[1062](events/event-1062.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Stop, etw_task_Wininet_AppCacheLookup|
@@ -60,7 +159,6 @@ This page contains the list of events for Microsoft-Windows-WinINet, as collecte
 |[1067](events/event-1067.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Start, etw_task_Wininet_SocketReceiveDelay|
 |[1068](events/event-1068.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Stop, etw_task_Wininet_SocketReceiveDelay|
 |[1069](events/event-1069.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Start, etw_task_Wininet_FileIO|
-|[107](events/event-107.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_HANDLES, etw_task_WININET_HANDLE_CLOSE_FAILED|
 |[1070](events/event-1070.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Stop, etw_task_Wininet_FileIO|
 |[1071](events/event-1071.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Start, etw_task_Wininet_FileIO|
 |[1072](events/event-1072.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Stop, etw_task_Wininet_FileIO|
@@ -71,7 +169,6 @@ This page contains the list of events for Microsoft-Windows-WinINet, as collecte
 |[1077](events/event-1077.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Start, etw_task_Wininet_AppCacheHandle|
 |[1078](events/event-1078.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Stop, etw_task_Wininet_AppCacheHandle|
 |[1079](events/event-1079.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Start, etw_task_Wininet_AppCacheHandle|
-|[108](events/event-108.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HANDLES WININET_KEYWORD_HTTPDIAG, etw_task_WININET_HTTP_REQUEST_HANDLE_CREATED|
 |[1080](events/event-1080.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Stop, etw_task_Wininet_AppCacheHandle|
 |[1081](events/event-1081.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Start, etw_task_Wininet_AppCacheHandle|
 |[1082](events/event-1082.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Stop, etw_task_Wininet_AppCacheHandle|
@@ -223,100 +320,3 @@ This page contains the list of events for Microsoft-Windows-WinINet, as collecte
 |[1234](events/event-1234.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Stop, etw_task_Wininet_UrlCacheContainer|
 |[1235](events/event-1235.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Start, etw_task_Wininet_UrlCacheContainer|
 |[1236](events/event-1236.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_IE, etw_opcode_Stop, etw_task_Wininet_UrlCacheContainer|
-|[200](events/event-200.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP, etw_opcode_Start, etw_task_WININET_HTTP_REQUEST|
-|[200](events/event-200_v1.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG, etw_opcode_Start, etw_task_WININET_HTTP_REQUEST, version_1|
-|[201](events/event-201.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG, etw_opcode_Stop, etw_task_WININET_HTTP_REQUEST|
-|[202](events/event-202.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_HTTP_REQUEST|
-|[203](events/event-203.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG, etw_opcode_Stop, etw_task_WININET_HTTP_RESPONSE|
-|[204](events/event-204.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_HTTP_RESPONSE|
-|[205](events/event-205.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP, etw_task_WININET_HTTP_CONNECTION_CLOSED|
-|[206](events/event-206.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP, etw_task_WININET_KEEP_ALIVE_CONNECTION_REUSED|
-|[207](events/event-207.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP, etw_task_WININET_KEEP_ALIVE_CONNECTION_POOLED|
-|[208](events/event-208.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP, etw_task_WININET_KEEP_ALIVE_CONNECTION_CLOSED|
-|[209](events/event-209.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG, etw_task_WININET_HTTP_RESPONSE_BODY_RECEIVED|
-|[210](events/event-210.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG keyword_20000000000, etw_task_WININET_REQUEST_HEADER|
-|[211](events/event-211.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG keyword_20000000000, etw_task_WININET_RESPONSE_HEADER|
-|[212](events/event-212.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_HTTP keyword_20000000000, etw_task_WININET_REQUEST_HEADER_OPTIONAL|
-|[213](events/event-213.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_AOAC, etw_task_WININET_HTTP_RESPONSE_BODY_READ_ERROR|
-|[301](events/event-301.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_CONNECTION WININET_KEYWORD_HTTPDIAG, etw_opcode_Start, etw_task_WININET_TCP_CONNECTION|
-|[302](events/event-302.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_CONNECTION WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_TCP_CONNECTION|
-|[303](events/event-303.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_CONNECTION WININET_KEYWORD_HTTPDIAG, etw_opcode_Stop, etw_task_WININET_TCP_CONNECTION|
-|[304](events/event-304.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_CONNECTION, etw_opcode_Start, etw_task_WININET_DNS_QUERY|
-|[305](events/event-305.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_CONNECTION, etw_opcode_Stop, etw_task_WININET_DNS_QUERY|
-|[306](events/event-306.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_CONNECTION WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_DNS_QUERY|
-|[307](events/event-307.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_CONNECTION, etw_opcode_Stop, etw_task_WININET_DNS_QUERY|
-|[308](events/event-308.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_CONNECTION, etw_task_WININET_NETWORK_CHANGE_DETECTED|
-|[400](events/event-400.md)|None|etw_level_Informational, etw_keywords_keyword_20000000000, etw_task_Wininet_WebSocketUpgrade|
-|[401](events/event-401.md)|None|etw_level_Informational, etw_keywords_keyword_20000000000, etw_task_Wininet_WebSocketUpgrade|
-|[402](events/event-402.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_Wininet_WebSocketSession|
-|[403](events/event-403.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_Wininet_WebSocketSession|
-|[404](events/event-404.md)|None|etw_level_Informational, etw_keywords_keyword_20000000000, etw_task_Wininet_WebSocketSession|
-|[405](events/event-405.md)|None|etw_level_Informational, etw_keywords_keyword_20000000000, etw_task_Wininet_WebSocketSession|
-|[406](events/event-406.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
-|[407](events/event-407.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
-|[408](events/event-408.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
-|[409](events/event-409.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
-|[410](events/event-410.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
-|[411](events/event-411.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
-|[412](events/event-412.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
-|[413](events/event-413.md)|None|etw_level_Informational, etw_task_Wininet_WebSocketSession|
-|[414](events/event-414.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_SEND keyword_20000000000 keyword_40000000000, etw_task_Wininet_WebSocketSession|
-|[415](events/event-415.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_RECEIVE keyword_20000000000 keyword_40000000000, etw_task_Wininet_WebSocketSession|
-|[416](events/event-416.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_SEND keyword_20000000000 keyword_40000000000, etw_task_Wininet_WebSocketSession|
-|[417](events/event-417.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_RECEIVE keyword_20000000000 keyword_40000000000, etw_task_Wininet_WebSocketSession|
-|[501](events/event-501.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_COOKIES, etw_task_WININET_COOKIE_HEADER_RECEIVED|
-|[502](events/event-502.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_COOKIES, etw_task_WININET_COOKIE_STORED|
-|[503](events/event-503.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_COOKIES, etw_task_WININET_COOKIE_DELETED|
-|[504](events/event-504.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_COOKIES, etw_task_WININET_COOKIE_BLOCKED|
-|[505](events/event-505.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_COOKIES, etw_task_WININET_COOKIE_P3P_REJECTED|
-|[506](events/event-506.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_COOKIES, etw_task_WININET_COOKIE_REQUEST_HEADER_CREATED|
-|[507](events/event-507.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_COOKIES, etw_task_WININET_COOKIE_ADDED_TO_HEADER|
-|[601](events/event-601.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTH, etw_task_WININET_AUTH_RESPONSE_RECEIVED|
-|[602](events/event-602.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTH, etw_task_WININET_AUTH_CLIENT_SETS_USERNAME|
-|[603](events/event-603.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTH, etw_task_WININET_AUTH_CLIENT_SETS_PASSWORD|
-|[604](events/event-604.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTH, etw_task_WININET_AUTH_USING_CACHED_CREDS|
-|[605](events/event-605.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTH, etw_task_WININET_AUTH_USING_DEFAULT_CREDS|
-|[606](events/event-606.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTH, etw_task_WININET_AUTH_CLIENT_ADD_HEADERS|
-|[701](events/event-701.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTPS WININET_KEYWORD_HTTPDIAG, etw_opcode_Start, etw_task_WININET_HTTPS_NEGOTIATION|
-|[702](events/event-702.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTPS WININET_KEYWORD_HTTPDIAG, etw_opcode_Stop, etw_task_WININET_HTTPS_NEGOTIATION|
-|[703](events/event-703.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_HTTPS WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_HTTPS_NEGOTIATION|
-|[704](events/event-704.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_HTTPS WININET_KEYWORD_AOAC, etw_task_WININET_HTTPS_SERVER_CERT_ERROR|
-|[705](events/event-705.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTPS, etw_task_WININET_HTTPS_SERVER_CERT_VALIDATED|
-|[706](events/event-706.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTPS, etw_task_WININET_HTTPS_CLIENT_CERT_REQUIRED|
-|[707](events/event-707.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_HTTPS WININET_KEYWORD_AOAC, etw_task_WININET_HTTPS_CLIENT_CERT_UNAVAILABLE|
-|[708](events/event-708.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTPS, etw_task_WININET_HTTPS_CLIENT_CERT_SELECTED|
-|[711](events/event-711.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTPS, etw_opcode_Start, etw_task_WININET_HTTPS_RENEGOTIATION|
-|[712](events/event-712.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_HTTPS, etw_opcode_Stop, etw_task_WININET_HTTPS_RENEGOTIATION|
-|[713](events/event-713.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_HTTPS WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_HTTPS_RENEGOTIATION|
-|[801](events/event-801.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_SEARCH|
-|[801](events/event-801_v1.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_SEARCH, version_1|
-|[802](events/event-802.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_DHCP|
-|[802](events/event-802_v1.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_DHCP, version_1|
-|[803](events/event-803.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_DHCP|
-|[803](events/event-803_v1.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_DHCP, version_1|
-|[804](events/event-804.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_DHCP|
-|[804](events/event-804_v1.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_DHCP, version_1|
-|[805](events/event-805.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_DNS|
-|[806](events/event-806.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_DNS|
-|[806](events/event-806_v1.md)|None|etw_level_Verbose, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_DNS, version_1|
-|[807](events/event-807.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_DNS|
-|[808](events/event-808.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_SEARCH|
-|[809](events/event-809.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_DOWNLOAD|
-|[809](events/event-809_v1.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_DOWNLOAD, version_1|
-|[810](events/event-810.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_DOWNLOAD|
-|[810](events/event-810_v1.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_DOWNLOAD, version_1|
-|[811](events/event-811.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_DOWNLOAD|
-|[811](events/event-811_v1.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_DOWNLOAD, version_1|
-|[812](events/event-812.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_DOWNLOAD|
-|[812](events/event-812_v1.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_DOWNLOAD, version_1|
-|[813](events/event-813.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_FIND_INFO_FOR_URL|
-|[813](events/event-813_v1.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_FIND_INFO_FOR_URL, version_1|
-|[814](events/event-814.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_FIND_INFO_FOR_URL|
-|[814](events/event-814_v1.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_FIND_INFO_FOR_URL, version_1|
-|[815](events/event-815.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_FIND_INFO_FOR_URL|
-|[815](events/event-815_v1.md)|None|etw_level_Error, etw_keywords_WININET_KEYWORD_AUTOPROXY WININET_KEYWORD_AOAC, etw_opcode_Fail, etw_task_WININET_AUTOPROXY_FIND_INFO_FOR_URL, version_1|
-|[819](events/event-819.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_task_WININET_AUTOPROXY_SWPAD|
-|[834](events/event-834.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WININET_AUTOPROXY_PERFTRACK_ALL|
-|[835](events/event-835.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WININET_AUTOPROXY_PERFTRACK_ALL|
-|[901](events/event-901.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_MOBILE, etw_opcode_Start, etw_task_WININET_APPLICATION_OFFLINE_CHECK|
-|[902](events/event-902.md)|None|etw_level_Informational, etw_keywords_WININET_KEYWORD_MOBILE, etw_opcode_Stop, etw_task_WININET_APPLICATION_OFFLINE_CHECK|

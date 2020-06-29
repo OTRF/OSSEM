@@ -6,6 +6,23 @@ This page contains the list of events for Microsoft-Windows-PowerShell, as colle
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[4100](events/event-4100_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenanexceptionisraised, etw_task_None, version_1|
+|[4101](events/event-4101_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenanexceptionisraised, etw_task_None, version_1|
+|[4102](events/event-4102_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenanexceptionisraised, etw_task_None, version_1|
+|[4103](events/event-4103_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenanexceptionisraised, etw_task_None, version_1|
+|[4104](events/event-4104_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_Oncreatecalls, etw_task_StartingCommand, version_1|
+|[4105](events/event-4105_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_Open(async), etw_task_StartingCommand, version_1|
+|[4106](events/event-4106_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_Close(Async), etw_task_StoppingCommand, version_1|
+|[7937](events/event-7937_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_None, version_1|
+|[7938](events/event-7938_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_None, version_1|
+|[7939](events/event-7939_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_None, version_1|
+|[7940](events/event-7940_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_None, version_1|
+|[7941](events/event-7941_v1.md)|None|etw_level_Verbose, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_task_0, version_1|
+|[7942](events/event-7942_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_None, version_1|
+|[8193](events/event-8193_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_tobeusedwhenanobjectisconstructed, etw_task_Connect, version_1|
+|[8194](events/event-8194_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_tobeusedwhenanobjectisconstructed, etw_task_Connect, version_1|
+|[8197](events/event-8197_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_Open(async), etw_task_Connect, version_1|
+|[8198](events/event-8198_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_Open(async), etw_task_Connect, version_1|
 |[12033](events/event-12033_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_Connect, version_1|
 |[12034](events/event-12034_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_Connect, version_1|
 |[12035](events/event-12035_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_Connect, version_1|
@@ -62,13 +79,6 @@ This page contains the list of events for Microsoft-Windows-PowerShell, as colle
 |[32866](events/event-32866_v1.md)|None|etw_level_Informational, etw_keywords_Transport, etw_opcode_connect, etw_task_task_0, version_1|
 |[32867](events/event-32867_v1.md)|None|etw_level_Verbose, etw_keywords_Transport, etw_opcode_Receive(Async), etw_task_task_0, version_1|
 |[32868](events/event-32868_v1.md)|None|etw_level_Verbose, etw_keywords_Transport, etw_opcode_Send(Async), etw_task_task_0, version_1|
-|[4100](events/event-4100_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenanexceptionisraised, etw_task_None, version_1|
-|[4101](events/event-4101_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenanexceptionisraised, etw_task_None, version_1|
-|[4102](events/event-4102_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenanexceptionisraised, etw_task_None, version_1|
-|[4103](events/event-4103_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenanexceptionisraised, etw_task_None, version_1|
-|[4104](events/event-4104_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_Oncreatecalls, etw_task_StartingCommand, version_1|
-|[4105](events/event-4105_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_Open(async), etw_task_StartingCommand, version_1|
-|[4106](events/event-4106_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_Close(Async), etw_task_StoppingCommand, version_1|
 |[45057](events/event-45057_v1.md)|None|etw_level_Error, etw_opcode_Tobeusedwhenanexceptionisraised, etw_task_None, version_1|
 |[45058](events/event-45058_v1.md)|None|etw_level_Error, etw_opcode_Tobeusedwhenanexceptionisraised, etw_task_None, version_1|
 |[45060](events/event-45060_v1.md)|None|etw_level_Informational, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_None, version_1|
@@ -161,13 +171,3 @@ This page contains the list of events for Microsoft-Windows-PowerShell, as colle
 |[53506](events/event-53506_v1.md)|None|etw_level_Verbose, etw_keywords_Transport, etw_opcode_Tobeusedwhenanexceptionisraised, etw_task_PowerShellNamedPipeIPC, version_1|
 |[53507](events/event-53507_v1.md)|None|etw_level_Verbose, etw_keywords_Transport, etw_opcode_connect, etw_task_PowerShellNamedPipeIPC, version_1|
 |[53508](events/event-53508_v1.md)|None|etw_level_Verbose, etw_keywords_Transport, etw_opcode_Close(Async), etw_task_PowerShellNamedPipeIPC, version_1|
-|[7937](events/event-7937_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_None, version_1|
-|[7938](events/event-7938_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_None, version_1|
-|[7939](events/event-7939_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_None, version_1|
-|[7940](events/event-7940_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_None, version_1|
-|[7941](events/event-7941_v1.md)|None|etw_level_Verbose, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_task_0, version_1|
-|[7942](events/event-7942_v1.md)|None|etw_level_Informational, etw_keywords_Cmdlets, etw_opcode_Tobeusedwhenoperationisjustexecutingamethod, etw_task_None, version_1|
-|[8193](events/event-8193_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_tobeusedwhenanobjectisconstructed, etw_task_Connect, version_1|
-|[8194](events/event-8194_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_tobeusedwhenanobjectisconstructed, etw_task_Connect, version_1|
-|[8197](events/event-8197_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_Open(async), etw_task_Connect, version_1|
-|[8198](events/event-8198_v1.md)|None|etw_level_Verbose, etw_keywords_Runspace, etw_opcode_Open(async), etw_task_Connect, version_1|

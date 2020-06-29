@@ -7,6 +7,12 @@ This page contains the list of events for Microsoft-Windows-FileHistory-Catalog,
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Always, etw_opcode_Start, etw_task_Attach|
+|[2](events/event-2.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_Attach|
+|[5](events/event-5.md)|None|etw_level_Always, etw_opcode_Start, etw_task_Create|
+|[6](events/event-6.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_Create|
+|[7](events/event-7.md)|None|etw_level_Always, etw_opcode_Start, etw_task_AddNamespaceRecord|
+|[8](events/event-8.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_AddNamespaceRecord|
+|[9](events/event-9.md)|None|etw_level_Always, etw_opcode_Start, etw_task_UpdateNamespaceRecord|
 |[10](events/event-10.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_UpdateNamespaceRecord|
 |[11](events/event-11.md)|None|etw_level_Always, etw_opcode_Start, etw_task_GetNamespaceRecord|
 |[12](events/event-12.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_GetNamespaceRecord|
@@ -17,7 +23,6 @@ This page contains the list of events for Microsoft-Windows-FileHistory-Catalog,
 |[17](events/event-17.md)|None|etw_level_Always, etw_opcode_Start, etw_task_GetFileRecord|
 |[18](events/event-18.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_GetFileRecord|
 |[19](events/event-19.md)|None|etw_level_Always, etw_opcode_Start, etw_task_FindNsRecordsByFullPath|
-|[2](events/event-2.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_Attach|
 |[20](events/event-20.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_FindNsRecordsByFullPath|
 |[21](events/event-21.md)|None|etw_level_Always, etw_opcode_Start, etw_task_FindPointInTimeFolder|
 |[22](events/event-22.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_FindPointInTimeFolder|
@@ -37,8 +42,3 @@ This page contains the list of events for Microsoft-Windows-FileHistory-Catalog,
 |[42](events/event-42.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_MovePrevious|
 |[43](events/event-43.md)|None|etw_level_Always, etw_opcode_Start, etw_task_FindNsRecordsByTVisible|
 |[44](events/event-44.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_FindNsRecordsByTVisible|
-|[5](events/event-5.md)|None|etw_level_Always, etw_opcode_Start, etw_task_Create|
-|[6](events/event-6.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_Create|
-|[7](events/event-7.md)|None|etw_level_Always, etw_opcode_Start, etw_task_AddNamespaceRecord|
-|[8](events/event-8.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_AddNamespaceRecord|
-|[9](events/event-9.md)|None|etw_level_Always, etw_opcode_Start, etw_task_UpdateNamespaceRecord|

@@ -6,27 +6,7 @@ This page contains the list of events for Microsoft-Windows-TabletPC-InputPanel,
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
-|[1000](events/event-1000.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_SoftKeyboard_PointerDevice_Size|
-|[1001](events/event-1001.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_SoftKeyboard_AudioFeedback_Type|
-|[1200](events/event-1200.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_SoftKeyboard_ThirdPartyIME_SetIMEMode|
-|[1201](events/event-1201.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_SoftKeyboard_ThirdPartyIME_FireCandidatePageKeyPress|
 |[189](events/event-189.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_TabTip_Log|
-|[2000](events/event-2000.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
-|[2001](events/event-2001.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
-|[2002](events/event-2002.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
-|[2004](events/event-2004.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
-|[2005](events/event-2005.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
-|[2006](events/event-2006.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
-|[2007](events/event-2007.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
-|[2008](events/event-2008.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
-|[2010](events/event-2010.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
-|[2011](events/event-2011.md)|None|etw_level_Informational, etw_task_PKMKeyboardArrived|
-|[2012](events/event-2012.md)|None|etw_level_Informational, etw_task_PKMKeyboardDeparted|
-|[2020](events/event-2020.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_PKMWin32kCallout|
-|[2021](events/event-2021.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_PKMUIAction|
-|[2022](events/event-2022.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_PKMUIAction|
-|[2023](events/event-2023.md)|None|etw_level_Informational, etw_task_PKMInputSubscription|
-|[2024](events/event-2024.md)|None|etw_level_Informational, etw_task_PKMProcessDelayedInsertion|
 |[215](events/event-215.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_TabTip_KeyboardInitiatedTextInsertionCompleted|
 |[300](events/event-300.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_opcode_Start, etw_task_IHM_Invoke|
 |[301](events/event-301.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_opcode_Stop, etw_task_IHM_Invoke|
@@ -79,3 +59,23 @@ This page contains the list of events for Microsoft-Windows-TabletPC-InputPanel,
 |[931](events/event-931.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_SoftKeyboard_CandidatePane_PerfTrack_NextWordOpen_JPN|
 |[932](events/event-932.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_SoftKeyboard_CandidatePane_PerfTrack_NextWordOpen_CHT|
 |[933](events/event-933.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_SoftKeyboard_CandidatePane_PerfTrack_NextWordOpen_CHS|
+|[1000](events/event-1000.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_SoftKeyboard_PointerDevice_Size|
+|[1001](events/event-1001.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_SoftKeyboard_AudioFeedback_Type|
+|[1200](events/event-1200.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_SoftKeyboard_ThirdPartyIME_SetIMEMode|
+|[1201](events/event-1201.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_SoftKeyboard_ThirdPartyIME_FireCandidatePageKeyPress|
+|[2000](events/event-2000.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
+|[2001](events/event-2001.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
+|[2002](events/event-2002.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
+|[2004](events/event-2004.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
+|[2005](events/event-2005.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
+|[2006](events/event-2006.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
+|[2007](events/event-2007.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
+|[2008](events/event-2008.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
+|[2010](events/event-2010.md)|None|etw_level_Informational, etw_keywords_TabletPC_InputPanel_Keyword, etw_task_VisibilityInputType|
+|[2011](events/event-2011.md)|None|etw_level_Informational, etw_task_PKMKeyboardArrived|
+|[2012](events/event-2012.md)|None|etw_level_Informational, etw_task_PKMKeyboardDeparted|
+|[2020](events/event-2020.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_PKMWin32kCallout|
+|[2021](events/event-2021.md)|None|etw_level_Informational, etw_opcode_Start, etw_task_PKMUIAction|
+|[2022](events/event-2022.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_PKMUIAction|
+|[2023](events/event-2023.md)|None|etw_level_Informational, etw_task_PKMInputSubscription|
+|[2024](events/event-2024.md)|None|etw_level_Informational, etw_task_PKMProcessDelayedInsertion|

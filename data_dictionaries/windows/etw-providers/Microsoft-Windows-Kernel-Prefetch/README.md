@@ -7,10 +7,6 @@ This page contains the list of events for Microsoft-Windows-Kernel-Prefetch, as 
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_opcode_Start, etw_task_PrefetchSections|
-|[10](events/event-10_v1.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_opcode_Stop, etw_task_GetReadLists, version_1|
-|[11](events/event-11.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_opcode_Start, etw_task_AsyncWorker|
-|[12](events/event-12.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_opcode_Stop, etw_task_AsyncWorker|
-|[13](events/event-13.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_task_AsyncWorker|
 |[1](events/event-1_v1.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_opcode_Start, etw_task_PrefetchSections, version_1|
 |[2](events/event-2.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_opcode_Stop, etw_task_PrefetchSections|
 |[2](events/event-2_v1.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_opcode_Stop, etw_task_PrefetchSections, version_1|
@@ -24,3 +20,7 @@ This page contains the list of events for Microsoft-Windows-Kernel-Prefetch, as 
 |[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_task_ScenarioDecision|
 |[8](events/event-8_v1.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_task_ScenarioDecision, version_1|
 |[9](events/event-9_v1.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_opcode_Start, etw_task_GetReadLists, version_1|
+|[10](events/event-10_v1.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_opcode_Stop, etw_task_GetReadLists, version_1|
+|[11](events/event-11.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_opcode_Start, etw_task_AsyncWorker|
+|[12](events/event-12.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_opcode_Stop, etw_task_AsyncWorker|
+|[13](events/event-13.md)|None|etw_level_Informational, etw_keywords_BasicInformation, etw_task_AsyncWorker|

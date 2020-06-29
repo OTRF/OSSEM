@@ -7,6 +7,32 @@ This page contains the list of events for Microsoft-Windows-PDFReader, as collec
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
+|[2](events/event-2.md)|None|etw_level_Error, etw_keywords_Reader, etw_task_task_0|
+|[35](events/event-35.md)|None|etw_level_Error, etw_keywords_Reader, etw_task_task_0|
+|[44](events/event-44.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_PageBuild|
+|[45](events/event-45.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Stop, etw_task_PageBuild|
+|[58](events/event-58.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_TriggerChangeLayout|
+|[60](events/event-60.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_ChangeLayout|
+|[62](events/event-62.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_StepZoom|
+|[64](events/event-64.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_SmoothZoom|
+|[68](events/event-68.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_TileRender|
+|[70](events/event-70.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_CommandBarShow|
+|[71](events/event-71.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Stop, etw_task_CommandBarShow|
+|[72](events/event-72.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_CommandBarHide|
+|[73](events/event-73.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Stop, etw_task_CommandBarHide|
+|[74](events/event-74.md)|None|etw_level_Verbose, etw_keywords_Reader, etw_task_RotatePages|
+|[75](events/event-75.md)|None|etw_level_Verbose, etw_keywords_Reader, etw_task_RotatePages|
+|[87](events/event-87.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
+|[88](events/event-88.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
+|[91](events/event-91.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
+|[92](events/event-92.md)|None|etw_level_Error, etw_keywords_Reader, etw_task_task_0|
+|[93](events/event-93.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
+|[94](events/event-94.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
+|[95](events/event-95.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
+|[96](events/event-96.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
+|[97](events/event-97.md)|None|etw_level_Verbose, etw_keywords_Reader, etw_task_task_0|
+|[98](events/event-98.md)|None|etw_level_Verbose, etw_keywords_Reader, etw_task_task_0|
+|[99](events/event-99.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_PageRender|
 |[100](events/event-100.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Stop, etw_task_PageRender|
 |[101](events/event-101.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_LaunchURI|
 |[102](events/event-102.md)|None|etw_level_Verbose, etw_keywords_Reader, etw_task_task_0|
@@ -46,7 +72,6 @@ This page contains the list of events for Microsoft-Windows-PDFReader, as collec
 |[182](events/event-182.md)|None|etw_level_Verbose, etw_keywords_Reader, etw_task_task_0|
 |[183](events/event-183.md)|None|etw_level_Verbose, etw_keywords_Reader, etw_task_task_0|
 |[199](events/event-199.md)|None|etw_level_Error, etw_keywords_Reader, etw_task_task_0|
-|[2](events/event-2.md)|None|etw_level_Error, etw_keywords_Reader, etw_task_task_0|
 |[200](events/event-200.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_PageView|
 |[201](events/event-201.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_SemanticZoomViewChanging|
 |[202](events/event-202.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Stop, etw_task_SemanticZoomViewChanging|
@@ -95,28 +120,3 @@ This page contains the list of events for Microsoft-Windows-PDFReader, as collec
 |[281](events/event-281.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Stop, etw_task_ContextMenuHide|
 |[282](events/event-282.md)|None|etw_level_Verbose, etw_keywords_Reader, etw_task_MRU|
 |[283](events/event-283.md)|None|etw_level_Verbose, etw_keywords_Reader, etw_task_MRU|
-|[35](events/event-35.md)|None|etw_level_Error, etw_keywords_Reader, etw_task_task_0|
-|[44](events/event-44.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_PageBuild|
-|[45](events/event-45.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Stop, etw_task_PageBuild|
-|[58](events/event-58.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_TriggerChangeLayout|
-|[60](events/event-60.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_ChangeLayout|
-|[62](events/event-62.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_StepZoom|
-|[64](events/event-64.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_SmoothZoom|
-|[68](events/event-68.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_TileRender|
-|[70](events/event-70.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_CommandBarShow|
-|[71](events/event-71.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Stop, etw_task_CommandBarShow|
-|[72](events/event-72.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_CommandBarHide|
-|[73](events/event-73.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Stop, etw_task_CommandBarHide|
-|[74](events/event-74.md)|None|etw_level_Verbose, etw_keywords_Reader, etw_task_RotatePages|
-|[75](events/event-75.md)|None|etw_level_Verbose, etw_keywords_Reader, etw_task_RotatePages|
-|[87](events/event-87.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
-|[88](events/event-88.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
-|[91](events/event-91.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
-|[92](events/event-92.md)|None|etw_level_Error, etw_keywords_Reader, etw_task_task_0|
-|[93](events/event-93.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
-|[94](events/event-94.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
-|[95](events/event-95.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
-|[96](events/event-96.md)|None|etw_level_Informational, etw_keywords_Reader, etw_task_task_0|
-|[97](events/event-97.md)|None|etw_level_Verbose, etw_keywords_Reader, etw_task_task_0|
-|[98](events/event-98.md)|None|etw_level_Verbose, etw_keywords_Reader, etw_task_task_0|
-|[99](events/event-99.md)|None|etw_level_Informational, etw_keywords_Reader, etw_opcode_Start, etw_task_PageRender|

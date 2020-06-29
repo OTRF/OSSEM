@@ -7,14 +7,60 @@ This page contains the list of events for Microsoft-Windows-DXGI, as collected b
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_Start, etw_task_Factory|
+|[2](events/event-2.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_Stop, etw_task_Factory|
+|[3](events/event-3.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_DC_Start, etw_task_Factory|
+|[4](events/event-4.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_Start, etw_task_Adapter|
+|[5](events/event-5.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_Stop, etw_task_Adapter|
+|[6](events/event-6.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_DC_Start, etw_task_Adapter|
+|[7](events/event-7.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_Start, etw_task_Output|
+|[8](events/event-8.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_Stop, etw_task_Output|
+|[9](events/event-9.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_DC_Start, etw_task_Output|
 |[10](events/event-10.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_Start, etw_task_SwapChain|
+|[11](events/event-11.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_Stop, etw_task_SwapChain|
+|[12](events/event-12.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_DC_Start, etw_task_SwapChain|
+|[40](events/event-40.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_Profile|
+|[41](events/event-41.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_Profile|
+|[42](events/event-42.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_Present|
+|[43](events/event-43.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_Present|
+|[44](events/event-44.md)|None|etw_level_Always, etw_keywords_Events, etw_task_GetFrameStatistics|
+|[45](events/event-45.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_ResizeBuffers|
+|[46](events/event-46.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_ResizeBuffers|
+|[47](events/event-47.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_ResizeTarget|
+|[48](events/event-48.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_ResizeTarget|
+|[49](events/event-49.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_SetFullscreenState|
+|[50](events/event-50.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_SetFullscreenState|
+|[51](events/event-51.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_FindClosestMatchingMode|
+|[52](events/event-52.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_FindClosestMatchingMode|
+|[53](events/event-53.md)|None|etw_level_Always, etw_keywords_Events, etw_task_DWMRedirection|
+|[54](events/event-54.md)|None|etw_level_Always, etw_keywords_Events, etw_task_FlipCPUSyncTimeout|
+|[55](events/event-55.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_PresentMultiplaneOverlay|
+|[56](events/event-56.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_PresentMultiplaneOverlay|
+|[57](events/event-57.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_CheckMultiplaneOverlaySupport|
+|[58](events/event-58.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_CheckMultiplaneOverlaySupport|
+|[59](events/event-59.md)|None|etw_level_Always, etw_keywords_Events, etw_task_GetMultiplaneOverlayCaps|
+|[60](events/event-60.md)|None|etw_level_Always, etw_keywords_Events, etw_task_PresentMultiplaneOverlayChange|
+|[61](events/event-61.md)|None|etw_level_Always, etw_keywords_Events, etw_task_CheckMultiplaneOverlaySupportFail|
+|[62](events/event-62.md)|None|etw_level_Always, etw_keywords_Events, etw_task_CheckMultiplaneOverlaySupportFail|
+|[63](events/event-63.md)|None|etw_level_Always, etw_keywords_Events, etw_task_CreateDirectFlipResource|
+|[64](events/event-64.md)|None|etw_level_Always, etw_keywords_Events, etw_task_SetHardwareProtection|
+|[65](events/event-65.md)|None|etw_level_Always, etw_keywords_Events, etw_task_SetHardwareProtectionOnSwapChainBuffer|
+|[66](events/event-66.md)|None|etw_level_Always, etw_keywords_Events, etw_task_ReCreateSwapChainBufferForHardwareProtection|
+|[67](events/event-67.md)|None|etw_level_Always, etw_keywords_Events, etw_task_SetHardwareProtectionFailure|
+|[68](events/event-68.md)|None|etw_level_Always, etw_keywords_Events, etw_task_CheckOverlayColorSpaceSupport|
+|[69](events/event-69.md)|None|etw_level_Always, etw_keywords_Events, etw_task_SetColorSpace1|
+|[70](events/event-70.md)|None|etw_level_Always, etw_keywords_Events JournalEntries, etw_task_JournalEntry|
+|[71](events/event-71.md)|None|etw_level_Always, etw_keywords_Events, etw_task_BindBackBuffersToDwm|
+|[72](events/event-72.md)|None|etw_level_Always, etw_keywords_Events, etw_task_UnBindBackBuffersFromDwm|
+|[73](events/event-73.md)|None|etw_level_Always, etw_keywords_Events, etw_task_Factory|
+|[74](events/event-74.md)|None|etw_level_Always, etw_keywords_Events, etw_task_SwapChain|
+|[80](events/event-80.md)|None|etw_level_Always, etw_opcode_Start, etw_task_CreateDXGIFactory|
+|[81](events/event-81.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_CreateDXGIFactory|
 |[104](events/event-104.md)|None|etw_level_Always, etw_opcode_Start, etw_task_IDXGIAdapter_QueryInterface|
 |[105](events/event-105.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_IDXGIAdapter_QueryInterface|
 |[106](events/event-106.md)|None|etw_level_Always, etw_opcode_Start, etw_task_IDXGIAdapter_AddRef|
 |[107](events/event-107.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_IDXGIAdapter_AddRef|
 |[108](events/event-108.md)|None|etw_level_Always, etw_opcode_Start, etw_task_IDXGIAdapter_Release|
 |[109](events/event-109.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_IDXGIAdapter_Release|
-|[11](events/event-11.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_Stop, etw_task_SwapChain|
 |[110](events/event-110.md)|None|etw_level_Always, etw_opcode_Start, etw_task_IDXGIAdapter_SetPrivateData|
 |[111](events/event-111.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_IDXGIAdapter_SetPrivateData|
 |[112](events/event-112.md)|None|etw_level_Always, etw_opcode_Start, etw_task_IDXGIAdapter_SetPrivateDataInterface|
@@ -25,7 +71,6 @@ This page contains the list of events for Microsoft-Windows-DXGI, as collected b
 |[117](events/event-117.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_IDXGIAdapter_GetParent|
 |[118](events/event-118.md)|None|etw_level_Always, etw_opcode_Start, etw_task_IDXGIAdapter_EnumOutputs|
 |[119](events/event-119.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_IDXGIAdapter_EnumOutputs|
-|[12](events/event-12.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_DC_Start, etw_task_SwapChain|
 |[120](events/event-120.md)|None|etw_level_Always, etw_opcode_Start, etw_task_IDXGIAdapter_GetDesc|
 |[121](events/event-121.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_IDXGIAdapter_GetDesc|
 |[122](events/event-122.md)|None|etw_level_Always, etw_opcode_Start, etw_task_IDXGIAdapter_CheckInterfaceSupport|
@@ -105,7 +150,6 @@ This page contains the list of events for Microsoft-Windows-DXGI, as collected b
 |[197](events/event-197.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_IDXGISwapChain_GetLastPresentCount|
 |[198](events/event-198.md)|None|etw_level_Always, etw_opcode_Start, etw_task_IDXGIFactory_QueryInterface|
 |[199](events/event-199.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_IDXGIFactory_QueryInterface|
-|[2](events/event-2.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_Stop, etw_task_Factory|
 |[200](events/event-200.md)|None|etw_level_Always, etw_opcode_Start, etw_task_IDXGIFactory_AddRef|
 |[201](events/event-201.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_IDXGIFactory_AddRef|
 |[202](events/event-202.md)|None|etw_level_Always, etw_opcode_Start, etw_task_IDXGIFactory_Release|
@@ -128,49 +172,6 @@ This page contains the list of events for Microsoft-Windows-DXGI, as collected b
 |[219](events/event-219.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_IDXGIFactory_CreateSwapChain|
 |[220](events/event-220.md)|None|etw_level_Always, etw_opcode_Start, etw_task_IDXGIFactory_CreateSoftwareAdapter|
 |[221](events/event-221.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_IDXGIFactory_CreateSoftwareAdapter|
-|[3](events/event-3.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_DC_Start, etw_task_Factory|
-|[4](events/event-4.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_Start, etw_task_Adapter|
-|[40](events/event-40.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_Profile|
-|[41](events/event-41.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_Profile|
-|[42](events/event-42.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_Present|
-|[43](events/event-43.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_Present|
-|[44](events/event-44.md)|None|etw_level_Always, etw_keywords_Events, etw_task_GetFrameStatistics|
-|[45](events/event-45.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_ResizeBuffers|
-|[46](events/event-46.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_ResizeBuffers|
-|[47](events/event-47.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_ResizeTarget|
-|[48](events/event-48.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_ResizeTarget|
-|[49](events/event-49.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_SetFullscreenState|
-|[5](events/event-5.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_Stop, etw_task_Adapter|
-|[50](events/event-50.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_SetFullscreenState|
-|[51](events/event-51.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_FindClosestMatchingMode|
-|[52](events/event-52.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_FindClosestMatchingMode|
-|[53](events/event-53.md)|None|etw_level_Always, etw_keywords_Events, etw_task_DWMRedirection|
-|[54](events/event-54.md)|None|etw_level_Always, etw_keywords_Events, etw_task_FlipCPUSyncTimeout|
-|[55](events/event-55.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_PresentMultiplaneOverlay|
-|[56](events/event-56.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_PresentMultiplaneOverlay|
-|[57](events/event-57.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Start, etw_task_CheckMultiplaneOverlaySupport|
-|[58](events/event-58.md)|None|etw_level_Always, etw_keywords_Events, etw_opcode_Stop, etw_task_CheckMultiplaneOverlaySupport|
-|[59](events/event-59.md)|None|etw_level_Always, etw_keywords_Events, etw_task_GetMultiplaneOverlayCaps|
-|[6](events/event-6.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_DC_Start, etw_task_Adapter|
-|[60](events/event-60.md)|None|etw_level_Always, etw_keywords_Events, etw_task_PresentMultiplaneOverlayChange|
-|[61](events/event-61.md)|None|etw_level_Always, etw_keywords_Events, etw_task_CheckMultiplaneOverlaySupportFail|
-|[62](events/event-62.md)|None|etw_level_Always, etw_keywords_Events, etw_task_CheckMultiplaneOverlaySupportFail|
-|[63](events/event-63.md)|None|etw_level_Always, etw_keywords_Events, etw_task_CreateDirectFlipResource|
-|[64](events/event-64.md)|None|etw_level_Always, etw_keywords_Events, etw_task_SetHardwareProtection|
-|[65](events/event-65.md)|None|etw_level_Always, etw_keywords_Events, etw_task_SetHardwareProtectionOnSwapChainBuffer|
-|[66](events/event-66.md)|None|etw_level_Always, etw_keywords_Events, etw_task_ReCreateSwapChainBufferForHardwareProtection|
-|[67](events/event-67.md)|None|etw_level_Always, etw_keywords_Events, etw_task_SetHardwareProtectionFailure|
-|[68](events/event-68.md)|None|etw_level_Always, etw_keywords_Events, etw_task_CheckOverlayColorSpaceSupport|
-|[69](events/event-69.md)|None|etw_level_Always, etw_keywords_Events, etw_task_SetColorSpace1|
-|[7](events/event-7.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_Start, etw_task_Output|
-|[70](events/event-70.md)|None|etw_level_Always, etw_keywords_Events JournalEntries, etw_task_JournalEntry|
-|[71](events/event-71.md)|None|etw_level_Always, etw_keywords_Events, etw_task_BindBackBuffersToDwm|
-|[72](events/event-72.md)|None|etw_level_Always, etw_keywords_Events, etw_task_UnBindBackBuffersFromDwm|
-|[73](events/event-73.md)|None|etw_level_Always, etw_keywords_Events, etw_task_Factory|
-|[74](events/event-74.md)|None|etw_level_Always, etw_keywords_Events, etw_task_SwapChain|
-|[8](events/event-8.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_Stop, etw_task_Output|
-|[80](events/event-80.md)|None|etw_level_Always, etw_opcode_Start, etw_task_CreateDXGIFactory|
-|[81](events/event-81.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_CreateDXGIFactory|
 |[848](events/event-848.md)|None|etw_level_Always, etw_opcode_Start, etw_task_CreateDXGIFactory1|
 |[849](events/event-849.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_CreateDXGIFactory1|
 |[850](events/event-850.md)|None|etw_level_Always, etw_opcode_Start, etw_task_IDXGISwapChain_SetSourceSize|
@@ -213,4 +214,3 @@ This page contains the list of events for Microsoft-Windows-DXGI, as collected b
 |[887](events/event-887.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_IDXGISwapChainPartner_CheckPresentDurationSupport|
 |[888](events/event-888.md)|None|etw_level_Always, etw_opcode_Start, etw_task_IDXGIAdapter_EnumOutputs2|
 |[889](events/event-889.md)|None|etw_level_Always, etw_opcode_Stop, etw_task_IDXGIAdapter_EnumOutputs2|
-|[9](events/event-9.md)|None|etw_level_Always, etw_keywords_Objects, etw_opcode_DC_Start, etw_task_Output|

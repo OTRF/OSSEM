@@ -6,6 +6,7 @@ This page contains the list of events for Microsoft-Windows-DUSER, as collected 
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[4](events/event-4.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Stop, etw_task_DUser_SyncAdaptors|
 |[12](events/event-12.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Start, etw_task_DUser_LayeredCreateVisuals|
 |[13](events/event-13.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Start, etw_task_DUser_LayeredRemoveVisuals|
 |[14](events/event-14.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Start, etw_task_DUser_LayeredDestructVisuals|
@@ -33,7 +34,6 @@ This page contains the list of events for Microsoft-Windows-DUSER, as collected 
 |[37](events/event-37.md)|None|etw_level_Informational, etw_keywords_Default, etw_task_DUser_Reparent|
 |[38](events/event-38.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Start, etw_task_DUser_Reparent|
 |[39](events/event-39.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Stop, etw_task_DUser_Reparent|
-|[4](events/event-4.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Stop, etw_task_DUser_SyncAdaptors|
 |[40](events/event-40.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Start, etw_task_DUser_AddWAMTransitions|
 |[41](events/event-41.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Stop, etw_task_DUser_AddWAMTransitions|
 |[42](events/event-42.md)|None|etw_level_Informational, etw_keywords_Default, etw_task_DUser_CreateCubicBezierLinearVectorTransition|

@@ -7,6 +7,24 @@ This page contains the list of events for Microsoft-Windows-RemoteDesktopService
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Warning, etw_opcode_Initialize, etw_task_RDPStack|
+|[3](events/event-3.md)|None|etw_level_Warning, etw_opcode_Initialize, etw_task_RemoteFXmodule|
+|[4](events/event-4.md)|None|etw_level_Critical, etw_opcode_Initialize, etw_task_RemoteFXmodule|
+|[5](events/event-5.md)|None|etw_level_Warning, etw_opcode_Initialize, etw_task_RemoteFXmodule|
+|[6](events/event-6.md)|None|etw_level_Warning, etw_opcode_Initialize, etw_task_RemoteFXmodule|
+|[35](events/event-35.md)|None|etw_level_Critical, etw_opcode_Initialize, etw_task_RemoteFXmodule_4|
+|[36](events/event-36.md)|None|etw_level_Critical, etw_opcode_Initialize, etw_task_RemoteFXmodule_4|
+|[37](events/event-37.md)|None|etw_level_Warning, etw_opcode_Initialize, etw_task_RemoteFXmodule_4|
+|[65](events/event-65.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
+|[66](events/event-66.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
+|[67](events/event-67.md)|None|etw_level_Error, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
+|[68](events/event-68.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
+|[69](events/event-69.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
+|[70](events/event-70.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
+|[71](events/event-71.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
+|[72](events/event-72.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
+|[73](events/event-73.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
+|[97](events/event-97.md)|None|etw_level_Warning, etw_opcode_ProtocolExchange, etw_task_RemoteFXmodule_4|
+|[99](events/event-99.md)|None|etw_level_Warning, etw_opcode_EstablishConnection, etw_task_RemoteFXmodule_4|
 |[101](events/event-101.md)|None|etw_level_Warning, etw_opcode_NetworkDetect, etw_task_RemoteFXmodule_4|
 |[103](events/event-103.md)|None|etw_level_Informational, etw_opcode_CloseConnection, etw_task_RemoteFXmodule_4|
 |[104](events/event-104.md)|None|etw_level_Informational, etw_opcode_EstablishConnection, etw_task_RemoteFXmodule_4|
@@ -52,21 +70,3 @@ This page contains the list of events for Microsoft-Windows-RemoteDesktopService
 |[229](events/event-229.md)|None|etw_level_Informational, etw_opcode_Runtime, etw_task_RemoteFXmodule_4|
 |[289](events/event-289.md)|None|etw_level_Informational, etw_opcode_UDPReverseConnect, etw_task_RemoteFXmodule_4|
 |[291](events/event-291.md)|None|etw_level_Informational, etw_opcode_UDPReverseConnect, etw_task_RemoteFXmodule_4|
-|[3](events/event-3.md)|None|etw_level_Warning, etw_opcode_Initialize, etw_task_RemoteFXmodule|
-|[35](events/event-35.md)|None|etw_level_Critical, etw_opcode_Initialize, etw_task_RemoteFXmodule_4|
-|[36](events/event-36.md)|None|etw_level_Critical, etw_opcode_Initialize, etw_task_RemoteFXmodule_4|
-|[37](events/event-37.md)|None|etw_level_Warning, etw_opcode_Initialize, etw_task_RemoteFXmodule_4|
-|[4](events/event-4.md)|None|etw_level_Critical, etw_opcode_Initialize, etw_task_RemoteFXmodule|
-|[5](events/event-5.md)|None|etw_level_Warning, etw_opcode_Initialize, etw_task_RemoteFXmodule|
-|[6](events/event-6.md)|None|etw_level_Warning, etw_opcode_Initialize, etw_task_RemoteFXmodule|
-|[65](events/event-65.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
-|[66](events/event-66.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
-|[67](events/event-67.md)|None|etw_level_Error, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
-|[68](events/event-68.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
-|[69](events/event-69.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
-|[70](events/event-70.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
-|[71](events/event-71.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
-|[72](events/event-72.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
-|[73](events/event-73.md)|None|etw_level_Informational, etw_opcode_RCMProtocolImpl, etw_task_RemoteFXmodule_4|
-|[97](events/event-97.md)|None|etw_level_Warning, etw_opcode_ProtocolExchange, etw_task_RemoteFXmodule_4|
-|[99](events/event-99.md)|None|etw_level_Warning, etw_opcode_EstablishConnection, etw_task_RemoteFXmodule_4|

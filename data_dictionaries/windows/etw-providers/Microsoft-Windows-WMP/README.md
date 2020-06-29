@@ -6,6 +6,20 @@ This page contains the list of events for Microsoft-Windows-WMP, as collected by
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[62](events/event-62.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_Start, etw_task_PARSE_CMD_LINE|
+|[63](events/event-63.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_Stop, etw_task_PARSE_CMD_LINE|
+|[66](events/event-66.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_Start, etw_task_APPLY_SKIN|
+|[67](events/event-67.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_Stop, etw_task_APPLY_SKIN|
+|[74](events/event-74.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_MODE_SWITCHER|
+|[82](events/event-82.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_StateChange, etw_task_PLAYBACK|
+|[84](events/event-84.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_DDPRESET_NORMAL|
+|[85](events/event-85.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_DDPRESET_LAPTOP|
+|[86](events/event-86.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_DDPRESET_THEATER|
+|[87](events/event-87.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_Added, etw_task_DISCMEDIACHANGE|
+|[88](events/event-88.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_Removed, etw_task_DISCMEDIACHANGE|
+|[89](events/event-89.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_DISCMEDIACHANGE|
+|[97](events/event-97.md)|None|etw_level_Informational, etw_task_DVDGRAPH|
+|[99](events/event-99.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_GROVELER|
 |[100](events/event-100.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_GROVELER|
 |[101](events/event-101.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_GROVELER|
 |[102](events/event-102.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_GROVELER|
@@ -26,7 +40,6 @@ This page contains the list of events for Microsoft-Windows-WMP, as collected by
 |[156](events/event-156.md)|None|etw_level_Informational, etw_keywords_ramcache, etw_task_RAMCACHE|
 |[157](events/event-157.md)|None|etw_level_Informational, etw_keywords_ramcache, etw_opcode_Start, etw_task_RAMCACHE|
 |[158](events/event-158.md)|None|etw_level_Informational, etw_keywords_ramcache, etw_opcode_Stop, etw_task_RAMCACHE|
-|[1615](events/event-1615.md)|None|etw_level_Informational, etw_task_CDGRAPH|
 |[200](events/event-200.md)|None|etw_level_Informational, etw_keywords_metadatalifecycle, etw_task_METADATALIFECYCLE|
 |[201](events/event-201.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_Start, etw_task_METADATADOWNLOAD|
 |[202](events/event-202.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_Stop, etw_task_METADATADOWNLOAD|
@@ -157,17 +170,4 @@ This page contains the list of events for Microsoft-Windows-WMP, as collected by
 |[491](events/event-491.md)|None|etw_level_Informational, etw_opcode_LOCAL_PLAY_BEGIN, etw_task_CDDVD_LAUNCH|
 |[492](events/event-492.md)|None|etw_level_Informational, etw_opcode_LOCAL_PLAY_BEGIN, etw_task_CDDVD_LAUNCH|
 |[493](events/event-493.md)|None|etw_level_Informational, etw_opcode_Stop, etw_task_CDDVD_LAUNCH|
-|[62](events/event-62.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_Start, etw_task_PARSE_CMD_LINE|
-|[63](events/event-63.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_Stop, etw_task_PARSE_CMD_LINE|
-|[66](events/event-66.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_Start, etw_task_APPLY_SKIN|
-|[67](events/event-67.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_Stop, etw_task_APPLY_SKIN|
-|[74](events/event-74.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_MODE_SWITCHER|
-|[82](events/event-82.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_StateChange, etw_task_PLAYBACK|
-|[84](events/event-84.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_DDPRESET_NORMAL|
-|[85](events/event-85.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_DDPRESET_LAPTOP|
-|[86](events/event-86.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_DDPRESET_THEATER|
-|[87](events/event-87.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_Added, etw_task_DISCMEDIACHANGE|
-|[88](events/event-88.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_opcode_Removed, etw_task_DISCMEDIACHANGE|
-|[89](events/event-89.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_DISCMEDIACHANGE|
-|[97](events/event-97.md)|None|etw_level_Informational, etw_task_DVDGRAPH|
-|[99](events/event-99.md)|None|etw_level_Informational, etw_keywords_mediaplayer, etw_task_GROVELER|
+|[1615](events/event-1615.md)|None|etw_level_Informational, etw_task_CDGRAPH|

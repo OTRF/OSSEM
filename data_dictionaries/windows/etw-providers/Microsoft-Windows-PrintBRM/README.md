@@ -6,6 +6,12 @@ This page contains the list of events for Microsoft-Windows-PrintBRM, as collect
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[3](events/event-3.md)|None|etw_level_Informational, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Restore|
+|[4](events/event-4.md)|None|etw_level_Error, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
+|[6](events/event-6.md)|None|etw_level_Informational, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Restore|
+|[7](events/event-7.md)|None|etw_level_Error, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
+|[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Restore|
+|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Restore|
 |[10](events/event-10.md)|None|etw_level_Informational, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Restore|
 |[11](events/event-11.md)|None|etw_level_Error, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
 |[12](events/event-12.md)|None|etw_level_Informational, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Restore|
@@ -26,14 +32,12 @@ This page contains the list of events for Microsoft-Windows-PrintBRM, as collect
 |[27](events/event-27.md)|None|etw_level_Error, etw_keywords_PRINT_DRIVER_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Generaloperation|
 |[28](events/event-28.md)|None|etw_level_Error, etw_keywords_PRINT_DRIVER_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
 |[29](events/event-29.md)|None|etw_level_Error, etw_keywords_PRINT_PORT_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
-|[3](events/event-3.md)|None|etw_level_Informational, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Restore|
 |[30](events/event-30.md)|None|etw_level_Error, etw_keywords_PRINT_PORT_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
 |[31](events/event-31.md)|None|etw_level_Informational, etw_keywords_PRINT_PORT_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Restore|
 |[32](events/event-32.md)|None|etw_level_Informational, etw_keywords_PRINT_PORT_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Restore|
 |[35](events/event-35.md)|None|etw_level_Informational, etw_keywords_PRINT_FORM_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Backup|
 |[38](events/event-38.md)|None|etw_level_Error, etw_keywords_PRINT_BRM_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
 |[39](events/event-39.md)|None|etw_level_Error, etw_keywords_PRINT_PROC_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Backup|
-|[4](events/event-4.md)|None|etw_level_Error, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
 |[40](events/event-40.md)|None|etw_level_Informational, etw_keywords_PRINT_BRM_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Restore|
 |[41](events/event-41.md)|None|etw_level_Error, etw_keywords_PRINT_BRM_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
 |[42](events/event-42.md)|None|etw_level_Error, etw_keywords_PRINT_BRM_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
@@ -54,7 +58,6 @@ This page contains the list of events for Microsoft-Windows-PrintBRM, as collect
 |[57](events/event-57.md)|None|etw_level_Error, etw_keywords_PRINT_BRM_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Generaloperation|
 |[58](events/event-58.md)|None|etw_level_Informational, etw_keywords_PRINT_PROC_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Restore|
 |[59](events/event-59.md)|None|etw_level_Informational, etw_keywords_PRINT_PROC_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Generaloperation|
-|[6](events/event-6.md)|None|etw_level_Informational, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Restore|
 |[60](events/event-60.md)|None|etw_level_Error, etw_keywords_PRINT_PROC_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Generaloperation|
 |[61](events/event-61.md)|None|etw_level_Informational, etw_keywords_PRINT_PORT_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Generaloperation|
 |[62](events/event-62.md)|None|etw_level_Error, etw_keywords_PRINT_PORT_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
@@ -65,7 +68,6 @@ This page contains the list of events for Microsoft-Windows-PrintBRM, as collect
 |[67](events/event-67.md)|None|etw_level_Error, etw_keywords_PRINT_BRM_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Generaloperation|
 |[68](events/event-68.md)|None|etw_level_Error, etw_keywords_PRINT_BRM_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Generaloperation|
 |[69](events/event-69.md)|None|etw_level_Error, etw_keywords_PRINT_PORT_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
-|[7](events/event-7.md)|None|etw_level_Error, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
 |[70](events/event-70.md)|None|etw_level_Error, etw_keywords_PRINT_BRM_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Backup|
 |[71](events/event-71.md)|None|etw_level_Error, etw_keywords_PRINT_BRM_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Generaloperation|
 |[72](events/event-72.md)|None|etw_level_Error, etw_keywords_PRINT_BRM_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Generaloperation|
@@ -76,9 +78,7 @@ This page contains the list of events for Microsoft-Windows-PrintBRM, as collect
 |[77](events/event-77.md)|None|etw_level_Error, etw_keywords_PRINT_DRIVER_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Backup|
 |[78](events/event-78.md)|None|etw_level_Error, etw_keywords_PRINT_PROC_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Backup|
 |[79](events/event-79.md)|None|etw_level_Error, etw_keywords_PRINT_PROC_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Backup|
-|[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Restore|
 |[80](events/event-80.md)|None|etw_level_Error, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Backup|
 |[81](events/event-81.md)|None|etw_level_Error, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
 |[82](events/event-82.md)|None|etw_level_Error, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
 |[83](events/event-83.md)|None|etw_level_Error, etw_keywords_PRINT_PORT_KEYWORD, etw_opcode_PrintBRMoperationfailure, etw_task_Restore|
-|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_PRINT_QUEUE_KEYWORD, etw_opcode_PrintBRMoperationsuccess, etw_task_Restore|

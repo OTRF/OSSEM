@@ -7,42 +7,16 @@ This page contains the list of events for Microsoft-Windows-AppReadiness, as col
 |events|Description|Tags|
 |---|---|---|
 |[10](events/event-10.md)|None|etw_level_Error, etw_keywords_Error, etw_task_AppReadiness_Error|
-|[1001](events/event-1001.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_Install|
-|[1002](events/event-1002.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_Install|
-|[1003](events/event-1003.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_Remove|
-|[1004](events/event-1004.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_Remove|
-|[1005](events/event-1005.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_GetTask|
-|[1006](events/event-1006.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_GetTask|
-|[1009](events/event-1009.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_ProcessTasks|
-|[1010](events/event-1010.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_ProcessTasks|
-|[1013](events/event-1013.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_HandlePackageChange|
-|[1014](events/event-1014.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_HandlePackageChange|
-|[1015](events/event-1015.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_CreateTask|
-|[1016](events/event-1016.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_CreateTask|
-|[1017](events/event-1017.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_EnterLogonPhase|
-|[1018](events/event-1018.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_EnterLogonPhase|
-|[1019](events/event-1019.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_ResolveStoreCategories|
-|[1020](events/event-1020.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_ResolveStoreCategories|
-|[1021](events/event-1021.md)|None|etw_level_Informational, etw_keywords_Api, etw_task_AppReadiness_Api_DisableInAuditMode|
+|[11](events/event-11.md)|None|etw_level_Warning, etw_keywords_Error, etw_task_AppReadiness_Error|
+|[12](events/event-12.md)|None|etw_level_Error, etw_keywords_Error, etw_task_AppReadiness_Error|
 |[104](events/event-104.md)|None|etw_level_Informational, etw_keywords_Service, etw_task_AppReadiness_Service|
 |[105](events/event-105.md)|None|etw_level_Informational, etw_keywords_Service, etw_task_AppReadiness_Service|
 |[106](events/event-106.md)|None|etw_level_Informational, etw_keywords_Service, etw_task_AppReadiness_Service|
 |[107](events/event-107.md)|None|etw_level_Informational, etw_keywords_Service, etw_task_AppReadiness_Service|
 |[108](events/event-108.md)|None|etw_level_Informational, etw_keywords_Service, etw_opcode_Start, etw_task_AppReadiness_PackageChange|
 |[109](events/event-109.md)|None|etw_level_Informational, etw_keywords_Service, etw_opcode_Stop, etw_task_AppReadiness_PackageChange|
-|[11](events/event-11.md)|None|etw_level_Warning, etw_keywords_Error, etw_task_AppReadiness_Error|
 |[110](events/event-110.md)|None|etw_level_Warning, etw_keywords_Service, etw_task_AppReadiness_Service|
-|[12](events/event-12.md)|None|etw_level_Error, etw_keywords_Error, etw_task_AppReadiness_Error|
 |[200](events/event-200.md)|None|etw_level_Informational, etw_keywords_User, etw_opcode_Start, etw_task_AppReadiness_User_ProcessTasks|
-|[2000](events/event-2000.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_opcode_Start, etw_task_AppReadiness_ScorePackage|
-|[2001](events/event-2001.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_opcode_Stop, etw_task_AppReadiness_ScorePackage|
-|[2002](events/event-2002.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_task_AppReadiness_ScorePackage|
-|[2003](events/event-2003.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_task_AppReadiness_ScorePackage|
-|[2005](events/event-2005.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_task_AppReadiness_ScorePackage|
-|[2006](events/event-2006.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_task_AppReadiness_ScorePackage|
-|[2007](events/event-2007.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_task_AppReadiness_ScorePackage|
-|[2008](events/event-2008.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_task_AppReadiness_ScorePackage|
-|[2009](events/event-2009.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_task_AppReadiness_ScorePackage|
 |[201](events/event-201.md)|None|etw_level_Informational, etw_keywords_User, etw_opcode_Stop, etw_task_AppReadiness_User_ProcessTasks|
 |[205](events/event-205.md)|None|etw_level_Informational, etw_keywords_User, etw_task_AppReadiness_User_ProcessTasks|
 |[206](events/event-206.md)|None|etw_level_Informational, etw_keywords_User, etw_opcode_Start, etw_task_AppReadiness_User_ProcessTasks|
@@ -75,14 +49,7 @@ This page contains the list of events for Microsoft-Windows-AppReadiness, as col
 |[239](events/event-239.md)|None|etw_level_Error, etw_keywords_Tasks keyword_400000000000, etw_opcode_Stop, etw_task_AppReadiness_User_ProcessTasks|
 |[240](events/event-240.md)|None|etw_level_Informational, etw_keywords_Tasks, etw_task_AppReadiness_User_ProcessTasks|
 |[241](events/event-241.md)|None|etw_level_Informational, etw_keywords_Tasks, etw_task_AppReadiness_User_ProcessTasks|
-|[2500](events/event-2500.md)|None|etw_level_Informational, etw_keywords_BrokerSession, etw_opcode_Start, etw_task_AppReadiness_BrokerSession|
-|[2501](events/event-2501.md)|None|etw_level_Informational, etw_keywords_BrokerSession, etw_opcode_Stop, etw_task_AppReadiness_BrokerSession|
-|[2502](events/event-2502.md)|None|etw_level_Informational, etw_keywords_BrokerSession, etw_task_AppReadiness_BrokerSession|
-|[2503](events/event-2503.md)|None|etw_level_Informational, etw_keywords_BrokerSession, etw_task_AppReadiness_BrokerSession|
-|[2504](events/event-2504.md)|None|etw_level_Informational, etw_keywords_BrokerSession, etw_task_AppReadiness_BrokerSession|
 |[300](events/event-300.md)|None|etw_level_Informational, etw_keywords_Tasks, etw_opcode_Start, etw_task_AppReadiness_ExecuteTask|
-|[3000](events/event-3000.md)|None|etw_level_Informational, etw_keywords_Tasks, etw_opcode_Start, etw_task_AppReadiness_PerfTrack|
-|[3001](events/event-3001.md)|None|etw_level_Informational, etw_keywords_Tasks, etw_opcode_Stop, etw_task_AppReadiness_PerfTrack|
 |[301](events/event-301.md)|None|etw_level_Informational, etw_keywords_Tasks, etw_opcode_Stop, etw_task_AppReadiness_ExecuteTask|
 |[302](events/event-302.md)|None|etw_level_Informational, etw_keywords_Tasks, etw_opcode_Start, etw_task_AppReadiness_ExecuteTask|
 |[303](events/event-303.md)|None|etw_level_Informational, etw_keywords_Tasks, etw_opcode_Stop, etw_task_AppReadiness_ExecuteTask|
@@ -109,6 +76,39 @@ This page contains the list of events for Microsoft-Windows-AppReadiness, as col
 |[327](events/event-327.md)|None|etw_level_Informational, etw_keywords_Tasks, etw_opcode_Stop, etw_task_AppReadiness_ExecuteTask|
 |[329](events/event-329.md)|None|etw_level_Informational, etw_keywords_Tasks, etw_opcode_Stop, etw_task_AppReadiness_ExecuteTask|
 |[330](events/event-330.md)|None|etw_level_Error, etw_keywords_Tasks keyword_400000000000, etw_opcode_Stop, etw_task_AppReadiness_ExecuteTask|
+|[1001](events/event-1001.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_Install|
+|[1002](events/event-1002.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_Install|
+|[1003](events/event-1003.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_Remove|
+|[1004](events/event-1004.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_Remove|
+|[1005](events/event-1005.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_GetTask|
+|[1006](events/event-1006.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_GetTask|
+|[1009](events/event-1009.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_ProcessTasks|
+|[1010](events/event-1010.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_ProcessTasks|
+|[1013](events/event-1013.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_HandlePackageChange|
+|[1014](events/event-1014.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_HandlePackageChange|
+|[1015](events/event-1015.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_CreateTask|
+|[1016](events/event-1016.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_CreateTask|
+|[1017](events/event-1017.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_EnterLogonPhase|
+|[1018](events/event-1018.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_EnterLogonPhase|
+|[1019](events/event-1019.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Start, etw_task_AppReadiness_Api_ResolveStoreCategories|
+|[1020](events/event-1020.md)|None|etw_level_Informational, etw_keywords_Api, etw_opcode_Stop, etw_task_AppReadiness_Api_ResolveStoreCategories|
+|[1021](events/event-1021.md)|None|etw_level_Informational, etw_keywords_Api, etw_task_AppReadiness_Api_DisableInAuditMode|
+|[2000](events/event-2000.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_opcode_Start, etw_task_AppReadiness_ScorePackage|
+|[2001](events/event-2001.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_opcode_Stop, etw_task_AppReadiness_ScorePackage|
+|[2002](events/event-2002.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_task_AppReadiness_ScorePackage|
+|[2003](events/event-2003.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_task_AppReadiness_ScorePackage|
+|[2005](events/event-2005.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_task_AppReadiness_ScorePackage|
+|[2006](events/event-2006.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_task_AppReadiness_ScorePackage|
+|[2007](events/event-2007.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_task_AppReadiness_ScorePackage|
+|[2008](events/event-2008.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_task_AppReadiness_ScorePackage|
+|[2009](events/event-2009.md)|None|etw_level_Informational, etw_keywords_Scoring, etw_task_AppReadiness_ScorePackage|
+|[2500](events/event-2500.md)|None|etw_level_Informational, etw_keywords_BrokerSession, etw_opcode_Start, etw_task_AppReadiness_BrokerSession|
+|[2501](events/event-2501.md)|None|etw_level_Informational, etw_keywords_BrokerSession, etw_opcode_Stop, etw_task_AppReadiness_BrokerSession|
+|[2502](events/event-2502.md)|None|etw_level_Informational, etw_keywords_BrokerSession, etw_task_AppReadiness_BrokerSession|
+|[2503](events/event-2503.md)|None|etw_level_Informational, etw_keywords_BrokerSession, etw_task_AppReadiness_BrokerSession|
+|[2504](events/event-2504.md)|None|etw_level_Informational, etw_keywords_BrokerSession, etw_task_AppReadiness_BrokerSession|
+|[3000](events/event-3000.md)|None|etw_level_Informational, etw_keywords_Tasks, etw_opcode_Start, etw_task_AppReadiness_PerfTrack|
+|[3001](events/event-3001.md)|None|etw_level_Informational, etw_keywords_Tasks, etw_opcode_Stop, etw_task_AppReadiness_PerfTrack|
 |[4000](events/event-4000.md)|None|etw_level_Informational, etw_keywords_Triggers, etw_task_AppReadiness_TriggerTask_Run|
 |[4001](events/event-4001.md)|None|etw_level_Informational, etw_keywords_Triggers, etw_task_AppReadiness_MaintenanceTask_Run|
 |[5000](events/event-5000.md)|None|etw_level_Informational, etw_keywords_Timeline, etw_opcode_Start, etw_task_AppReadiness_Timeline|

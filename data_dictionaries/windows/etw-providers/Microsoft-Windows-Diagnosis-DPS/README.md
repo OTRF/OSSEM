@@ -6,6 +6,7 @@ This page contains the list of events for Microsoft-Windows-Diagnosis-DPS, as co
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[5](events/event-5.md)|None|etw_level_Warning, etw_keywords_lifecycle, etw_opcode_Adiagnosticscenariowasmisconfigured, etw_task_DPSInitialization|
 |[100](events/event-100.md)|None|etw_level_Informational, etw_keywords_lifecycle, etw_opcode_Adiagnosticmoduledetectedaproblem, etw_task_ScenarioLifecycle|
 |[105](events/event-105.md)|None|etw_level_Informational, etw_keywords_lifecycle, etw_opcode_Ascenarioinstancewasdispatchedfortroubleshooting, etw_task_ScenarioLifecycle|
 |[110](events/event-110.md)|None|etw_level_Informational, etw_keywords_lifecycle, etw_opcode_Adiagnosticmodulecompletedtroubleshootingwithoutsettingaresolution, etw_task_ScenarioLifecycle|
@@ -20,6 +21,5 @@ This page contains the list of events for Microsoft-Windows-Diagnosis-DPS, as co
 |[170](events/event-170.md)|None|etw_level_Warning, etw_keywords_lifecycle, etw_opcode_Thiseventisraisedwhenascenariofails, etw_task_ScenarioLifecycle|
 |[175](events/event-175.md)|None|etw_level_Warning, etw_keywords_lifecycle, etw_opcode_Thiseventisraisedwhenascenariofails, etw_task_ScenarioLifecycle|
 |[185](events/event-185.md)|None|etw_level_Warning, etw_keywords_lifecycle, etw_opcode_Adiagnosticmodulewasmovedtoabrokenstate, etw_task_ScenarioLifecycle|
-|[5](events/event-5.md)|None|etw_level_Warning, etw_keywords_lifecycle, etw_opcode_Adiagnosticscenariowasmisconfigured, etw_task_DPSInitialization|
 |[5016](events/event-5016.md)|None|etw_level_Always, etw_keywords_memory, etw_task_task_0|
 |[5017](events/event-5017.md)|None|etw_level_Always, etw_keywords_memory, etw_task_task_0|

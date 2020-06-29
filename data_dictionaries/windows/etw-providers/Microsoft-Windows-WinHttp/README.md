@@ -7,27 +7,15 @@ This page contains the list of events for Microsoft-Windows-WinHttp, as collecte
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Always, etw_task_task_0|
-|[10](events/event-10.md)|None|etw_level_Verbose, etw_keywords_Keyword.API, etw_opcode_Stop, etw_task_API|
-|[100](events/event-100.md)|None|etw_level_Verbose, etw_keywords_Keyword.API keyword_20000000000, etw_task_API|
-|[1051](events/event-1051.md)|None|etw_level_Informational, etw_keywords_WINHTTP_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WinHTTP_Getaddrinfo|
-|[1052](events/event-1052.md)|None|etw_level_Informational, etw_keywords_WINHTTP_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WinHTTP_Getaddrinfo|
-|[11](events/event-11.md)|None|etw_level_Verbose, etw_keywords_Keyword.API, etw_opcode_Stop, etw_task_API|
-|[12](events/event-12.md)|None|etw_level_Verbose, etw_keywords_Keyword.API, etw_task_API|
-|[12503](events/event-12503.md)|None|etw_level_Always, etw_task_task_0|
-|[12506](events/event-12506.md)|None|etw_level_Always, etw_task_task_0|
-|[12509](events/event-12509.md)|None|etw_level_Always, etw_task_task_0|
-|[12511](events/event-12511.md)|None|etw_level_Always, etw_task_task_0|
-|[12514](events/event-12514.md)|None|etw_level_Always, etw_task_task_0|
-|[13](events/event-13.md)|None|etw_level_Verbose, etw_keywords_Keyword.API, etw_opcode_Stop, etw_task_API|
-|[14](events/event-14.md)|None|etw_level_Verbose, etw_keywords_Keyword.API, etw_opcode_Stop, etw_task_API|
 |[2](events/event-2.md)|None|etw_level_Always, etw_task_task_0|
 |[4](events/event-4.md)|None|etw_level_Always, etw_task_task_0|
-|[58999](events/event-58999.md)|None|etw_level_Verbose, etw_task_Debug|
-|[59995](events/event-59995.md)|None|etw_level_Verbose, etw_opcode_Stop, etw_task_Debug|
-|[59996](events/event-59996.md)|None|etw_level_Verbose, etw_opcode_Start, etw_task_Debug|
-|[59997](events/event-59997.md)|None|etw_level_Verbose, etw_opcode_Stop, etw_task_Debug|
-|[59998](events/event-59998.md)|None|etw_level_Verbose, etw_opcode_Start, etw_task_Debug|
-|[59999](events/event-59999.md)|None|etw_level_Verbose, etw_task_Debug|
+|[9](events/event-9.md)|None|etw_level_Verbose, etw_keywords_Keyword.API, etw_opcode_Start, etw_task_API|
+|[10](events/event-10.md)|None|etw_level_Verbose, etw_keywords_Keyword.API, etw_opcode_Stop, etw_task_API|
+|[11](events/event-11.md)|None|etw_level_Verbose, etw_keywords_Keyword.API, etw_opcode_Stop, etw_task_API|
+|[12](events/event-12.md)|None|etw_level_Verbose, etw_keywords_Keyword.API, etw_task_API|
+|[13](events/event-13.md)|None|etw_level_Verbose, etw_keywords_Keyword.API, etw_opcode_Stop, etw_task_API|
+|[14](events/event-14.md)|None|etw_level_Verbose, etw_keywords_Keyword.API, etw_opcode_Stop, etw_task_API|
+|[100](events/event-100.md)|None|etw_level_Verbose, etw_keywords_Keyword.API keyword_20000000000, etw_task_API|
 |[801](events/event-801.md)|None|etw_level_Informational, etw_keywords_WINHTTP_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WINHTTP_AUTOPROXY_SEARCH|
 |[801](events/event-801_v1.md)|None|etw_level_Informational, etw_keywords_WINHTTP_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WINHTTP_AUTOPROXY_SEARCH, version_1|
 |[802](events/event-802.md)|None|etw_level_Verbose, etw_keywords_WINHTTP_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WINHTTP_AUTOPROXY_DHCP|
@@ -58,4 +46,16 @@ This page contains the list of events for Microsoft-Windows-WinHttp, as collecte
 |[819](events/event-819.md)|None|etw_level_Informational, etw_keywords_WINHTTP_KEYWORD_AUTOPROXY, etw_task_WINHTTP_AUTOPROXY_SWPAD|
 |[834](events/event-834.md)|None|etw_level_Informational, etw_keywords_WINHTTP_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WINHTTP_AUTOPROXY_PERFTRACK_ALL|
 |[835](events/event-835.md)|None|etw_level_Informational, etw_keywords_WINHTTP_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WINHTTP_AUTOPROXY_PERFTRACK_ALL|
-|[9](events/event-9.md)|None|etw_level_Verbose, etw_keywords_Keyword.API, etw_opcode_Start, etw_task_API|
+|[1051](events/event-1051.md)|None|etw_level_Informational, etw_keywords_WINHTTP_KEYWORD_AUTOPROXY, etw_opcode_Start, etw_task_WinHTTP_Getaddrinfo|
+|[1052](events/event-1052.md)|None|etw_level_Informational, etw_keywords_WINHTTP_KEYWORD_AUTOPROXY, etw_opcode_Stop, etw_task_WinHTTP_Getaddrinfo|
+|[12503](events/event-12503.md)|None|etw_level_Always, etw_task_task_0|
+|[12506](events/event-12506.md)|None|etw_level_Always, etw_task_task_0|
+|[12509](events/event-12509.md)|None|etw_level_Always, etw_task_task_0|
+|[12511](events/event-12511.md)|None|etw_level_Always, etw_task_task_0|
+|[12514](events/event-12514.md)|None|etw_level_Always, etw_task_task_0|
+|[58999](events/event-58999.md)|None|etw_level_Verbose, etw_task_Debug|
+|[59995](events/event-59995.md)|None|etw_level_Verbose, etw_opcode_Stop, etw_task_Debug|
+|[59996](events/event-59996.md)|None|etw_level_Verbose, etw_opcode_Start, etw_task_Debug|
+|[59997](events/event-59997.md)|None|etw_level_Verbose, etw_opcode_Stop, etw_task_Debug|
+|[59998](events/event-59998.md)|None|etw_level_Verbose, etw_opcode_Start, etw_task_Debug|
+|[59999](events/event-59999.md)|None|etw_level_Verbose, etw_task_Debug|

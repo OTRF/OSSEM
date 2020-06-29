@@ -6,6 +6,21 @@ This page contains the list of events for Microsoft-Windows-WLAN-AutoConfig, as 
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[4002](events/event-4002.md)|None|etw_level_Error, etw_keywords_Telemetry, etw_task_task_0|
+|[4003](events/event-4003.md)|None|etw_level_Warning, etw_keywords_Telemetry, etw_task_task_0|
+|[8000](events/event-8000.md)|None|etw_level_Informational, etw_keywords_WlanConnect LwtDiagnostic, etw_opcode_Start_24010_189, etw_task_AcmConnection|
+|[8001](events/event-8001.md)|None|etw_level_Informational, etw_keywords_WlanConnect LwtDiagnostic Telemetry, etw_opcode_Success, etw_task_AcmConnection|
+|[8002](events/event-8002.md)|None|etw_level_Error, etw_keywords_WlanConnect LwtDiagnostic Telemetry, etw_opcode_Failure, etw_task_AcmConnection|
+|[8003](events/event-8003.md)|None|etw_level_Informational, etw_keywords_WlanConnect LwtDiagnostic Measures, etw_opcode_Disconnect, etw_task_AcmConnection|
+|[8004](events/event-8004.md)|None|etw_level_Error, etw_keywords_LwtDiagnostic Telemetry, etw_task_task_0|
+|[8005](events/event-8005.md)|None|etw_level_Informational, etw_keywords_SOFTAP, etw_opcode_Start, etw_task_Startthedevicenetwork|
+|[8006](events/event-8006.md)|None|etw_level_Informational, etw_keywords_SOFTAP, etw_opcode_Stop, etw_task_Startthedevicenetwork|
+|[8007](events/event-8007.md)|None|etw_level_Error, etw_keywords_SOFTAP, etw_opcode_Stop, etw_task_Startthedevicenetwork|
+|[8008](events/event-8008.md)|None|etw_level_Informational, etw_keywords_SOFTAP, etw_opcode_Start, etw_task_Stopthedevicenetwork|
+|[8009](events/event-8009.md)|None|etw_level_Informational, etw_keywords_SOFTAP, etw_opcode_Stop, etw_task_Stopthedevicenetwork|
+|[8010](events/event-8010.md)|None|etw_level_Error, etw_keywords_SOFTAP, etw_opcode_Stop, etw_task_Stopthedevicenetwork|
+|[8011](events/event-8011.md)|None|etw_level_Informational, etw_keywords_WlanConnect Telemetry, etw_task_AcmConnection|
+|[8012](events/event-8012.md)|None|etw_level_Informational, etw_keywords_WlanConnect Telemetry, etw_task_AcmConnection|
 |[10000](events/event-10000.md)|None|etw_level_Error, etw_keywords_Telemetry, etw_task_task_0|
 |[10001](events/event-10001.md)|None|etw_level_Informational, etw_task_task_0|
 |[10002](events/event-10002.md)|None|etw_level_Warning, etw_task_task_0|
@@ -234,8 +249,6 @@ This page contains the list of events for Microsoft-Windows-WLAN-AutoConfig, as 
 |[40001](events/event-40001.md)|None|etw_level_Informational, etw_keywords_LwtDiagnostic Measures, etw_task_AcmConnection|
 |[40002](events/event-40002.md)|None|etw_level_Informational, etw_keywords_LwtDiagnostic, etw_task_AcmConnection|
 |[40003](events/event-40003.md)|None|etw_level_Informational, etw_keywords_LwtDiagnostic, etw_task_AcmConnection|
-|[4002](events/event-4002.md)|None|etw_level_Error, etw_keywords_Telemetry, etw_task_task_0|
-|[4003](events/event-4003.md)|None|etw_level_Warning, etw_keywords_Telemetry, etw_task_task_0|
 |[60001](events/event-60001.md)|None|etw_level_Error, etw_task_task_0|
 |[60002](events/event-60002.md)|None|etw_level_Warning, etw_task_task_0|
 |[60003](events/event-60003.md)|None|etw_level_Informational, etw_keywords_keyword_200000000000, etw_task_task_0|
@@ -243,16 +256,3 @@ This page contains the list of events for Microsoft-Windows-WLAN-AutoConfig, as 
 |[60101](events/event-60101.md)|None|etw_level_Informational, etw_task_task_0|
 |[60102](events/event-60102.md)|None|etw_level_Informational, etw_task_task_0|
 |[60103](events/event-60103.md)|None|etw_level_Informational, etw_task_task_0|
-|[8000](events/event-8000.md)|None|etw_level_Informational, etw_keywords_WlanConnect LwtDiagnostic, etw_opcode_Start_24010_189, etw_task_AcmConnection|
-|[8001](events/event-8001.md)|None|etw_level_Informational, etw_keywords_WlanConnect LwtDiagnostic Telemetry, etw_opcode_Success, etw_task_AcmConnection|
-|[8002](events/event-8002.md)|None|etw_level_Error, etw_keywords_WlanConnect LwtDiagnostic Telemetry, etw_opcode_Failure, etw_task_AcmConnection|
-|[8003](events/event-8003.md)|None|etw_level_Informational, etw_keywords_WlanConnect LwtDiagnostic Measures, etw_opcode_Disconnect, etw_task_AcmConnection|
-|[8004](events/event-8004.md)|None|etw_level_Error, etw_keywords_LwtDiagnostic Telemetry, etw_task_task_0|
-|[8005](events/event-8005.md)|None|etw_level_Informational, etw_keywords_SOFTAP, etw_opcode_Start, etw_task_Startthedevicenetwork|
-|[8006](events/event-8006.md)|None|etw_level_Informational, etw_keywords_SOFTAP, etw_opcode_Stop, etw_task_Startthedevicenetwork|
-|[8007](events/event-8007.md)|None|etw_level_Error, etw_keywords_SOFTAP, etw_opcode_Stop, etw_task_Startthedevicenetwork|
-|[8008](events/event-8008.md)|None|etw_level_Informational, etw_keywords_SOFTAP, etw_opcode_Start, etw_task_Stopthedevicenetwork|
-|[8009](events/event-8009.md)|None|etw_level_Informational, etw_keywords_SOFTAP, etw_opcode_Stop, etw_task_Stopthedevicenetwork|
-|[8010](events/event-8010.md)|None|etw_level_Error, etw_keywords_SOFTAP, etw_opcode_Stop, etw_task_Stopthedevicenetwork|
-|[8011](events/event-8011.md)|None|etw_level_Informational, etw_keywords_WlanConnect Telemetry, etw_task_AcmConnection|
-|[8012](events/event-8012.md)|None|etw_level_Informational, etw_keywords_WlanConnect Telemetry, etw_task_AcmConnection|

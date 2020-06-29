@@ -6,25 +6,7 @@ This page contains the list of events for Microsoft-Windows-AppHost, as collecte
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
-|[10000](events/event-10000.md)|None|etw_level_Error, etw_keywords_WWAHOST_APPLICATION_KEYWORD, etw_opcode_AppHostApplicationError, etw_task_ApplicationTracing.Error|
-|[10001](events/event-10001.md)|None|etw_level_Warning, etw_keywords_WWAHOST_APPLICATION_KEYWORD, etw_opcode_AppHostApplicationWarning, etw_task_ApplicationTracing.Warning|
-|[10002](events/event-10002.md)|None|etw_level_Informational, etw_keywords_WWAHOST_APPLICATION_KEYWORD, etw_opcode_AppHostApplicationInformation, etw_task_ApplicationTracing.Informational|
-|[10003](events/event-10003.md)|None|etw_level_Informational, etw_keywords_WWAHOST_DIAGNOSTIC_KEYWORD, etw_opcode_AppHostApplicationInformation, etw_task_ApplicationTracing.Informational|
-|[10004](events/event-10004.md)|None|etw_level_Informational, etw_keywords_WWAHOST_DIAGNOSTIC_KEYWORD, etw_opcode_AppHostApplicationInformation, etw_task_ApplicationTracing.Informational|
-|[10007](events/event-10007.md)|None|etw_level_Informational, etw_keywords_WWAHOST_KEYWORD, etw_opcode_AppHostInformation, etw_task_Drawing|
-|[1011](events/event-1011.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Start, etw_task_Navigation|
-|[1012](events/event-1012.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Stop, etw_task_Navigation|
-|[1019](events/event-1019.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Start, etw_task_ApplicationActivateEvent|
 |[102](events/event-102.md)|None|etw_level_Error, etw_keywords_WWAHOST_KEYWORD, etw_opcode_AppHostOperationFailed, etw_task_Initialize|
-|[1020](events/event-1020.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Stop, etw_task_ApplicationActivateEvent|
-|[1021](events/event-1021.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Start, etw_task_ApplicationTermination|
-|[1022](events/event-1022.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Stop, etw_task_ApplicationTermination|
-|[1061](events/event-1061.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Start, etw_task_WinRTAsyncCall|
-|[1062](events/event-1062.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Stop, etw_task_WinRTAsyncCall|
-|[1063](events/event-1063.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_task_MemoryStatsOnSuspend|
-|[1066](events/event-1066.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_task_ApplicationActivateEvent|
-|[1067](events/event-1067.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_task_ByteCodeSourceMapping|
-|[1068](events/event-1068.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_task_ByteCodeSourceMapping|
 |[112](events/event-112.md)|None|etw_level_Informational, etw_keywords_WWAHOST_KEYWORD, etw_opcode_AppHostInformation, etw_task_Telemetry.WERReporting|
 |[121](events/event-121.md)|None|etw_level_Error, etw_keywords_WWAHOST_KEYWORD, etw_opcode_AppHostOperationFailed, etw_task_WinRTIntegration|
 |[122](events/event-122.md)|None|etw_level_Error, etw_keywords_WWAHOST_KEYWORD, etw_opcode_AppHostOperationFailed, etw_task_WinRTIntegration|
@@ -54,3 +36,21 @@ This page contains the list of events for Microsoft-Windows-AppHost, as collecte
 |[516](events/event-516.md)|None|etw_level_Informational, etw_keywords_WWAHOST_KEYWORD, etw_opcode_AppHostInformation, etw_task_SuspendingInternalPlmTimeoutExpration|
 |[517](events/event-517.md)|None|etw_level_Informational, etw_keywords_WWAHOST_KEYWORD, etw_opcode_AppHostInformation, etw_task_SuspendingSubDownloads|
 |[518](events/event-518.md)|None|etw_level_Informational, etw_keywords_WWAHOST_KEYWORD, etw_opcode_AppHostInformation, etw_task_SuspendingGarbageCollection|
+|[1011](events/event-1011.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Start, etw_task_Navigation|
+|[1012](events/event-1012.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Stop, etw_task_Navigation|
+|[1019](events/event-1019.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Start, etw_task_ApplicationActivateEvent|
+|[1020](events/event-1020.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Stop, etw_task_ApplicationActivateEvent|
+|[1021](events/event-1021.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Start, etw_task_ApplicationTermination|
+|[1022](events/event-1022.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Stop, etw_task_ApplicationTermination|
+|[1061](events/event-1061.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Start, etw_task_WinRTAsyncCall|
+|[1062](events/event-1062.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_opcode_Stop, etw_task_WinRTAsyncCall|
+|[1063](events/event-1063.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_task_MemoryStatsOnSuspend|
+|[1066](events/event-1066.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_task_ApplicationActivateEvent|
+|[1067](events/event-1067.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_task_ByteCodeSourceMapping|
+|[1068](events/event-1068.md)|None|etw_level_Informational, etw_keywords_WwaHost, etw_task_ByteCodeSourceMapping|
+|[10000](events/event-10000.md)|None|etw_level_Error, etw_keywords_WWAHOST_APPLICATION_KEYWORD, etw_opcode_AppHostApplicationError, etw_task_ApplicationTracing.Error|
+|[10001](events/event-10001.md)|None|etw_level_Warning, etw_keywords_WWAHOST_APPLICATION_KEYWORD, etw_opcode_AppHostApplicationWarning, etw_task_ApplicationTracing.Warning|
+|[10002](events/event-10002.md)|None|etw_level_Informational, etw_keywords_WWAHOST_APPLICATION_KEYWORD, etw_opcode_AppHostApplicationInformation, etw_task_ApplicationTracing.Informational|
+|[10003](events/event-10003.md)|None|etw_level_Informational, etw_keywords_WWAHOST_DIAGNOSTIC_KEYWORD, etw_opcode_AppHostApplicationInformation, etw_task_ApplicationTracing.Informational|
+|[10004](events/event-10004.md)|None|etw_level_Informational, etw_keywords_WWAHOST_DIAGNOSTIC_KEYWORD, etw_opcode_AppHostApplicationInformation, etw_task_ApplicationTracing.Informational|
+|[10007](events/event-10007.md)|None|etw_level_Informational, etw_keywords_WWAHOST_KEYWORD, etw_opcode_AppHostInformation, etw_task_Drawing|

@@ -7,13 +7,14 @@ This page contains the list of events for Microsoft-Windows-WHEA-Logger, as coll
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Error, etw_keywords_Errlog, etw_task_task_0|
+|[2](events/event-2.md)|None|etw_level_Warning, etw_keywords_Errlog, etw_task_task_0|
+|[3](events/event-3.md)|None|etw_level_Informational, etw_keywords_Errlog, etw_task_task_0|
 |[16](events/event-16.md)|None|etw_level_Error, etw_task_task_0|
 |[16](events/event-16_v1.md)|None|etw_level_Error, etw_task_task_0, version_1|
 |[17](events/event-17.md)|None|etw_level_Warning, etw_task_task_0|
 |[17](events/event-17_v1.md)|None|etw_level_Warning, etw_task_task_0, version_1|
 |[18](events/event-18.md)|None|etw_level_Error, etw_task_task_0|
 |[19](events/event-19.md)|None|etw_level_Warning, etw_task_task_0|
-|[2](events/event-2.md)|None|etw_level_Warning, etw_keywords_Errlog, etw_task_task_0|
 |[20](events/event-20.md)|None|etw_level_Error, etw_task_task_0|
 |[21](events/event-21.md)|None|etw_level_Warning, etw_task_task_0|
 |[22](events/event-22.md)|None|etw_level_Error, etw_task_task_0|
@@ -24,7 +25,6 @@ This page contains the list of events for Microsoft-Windows-WHEA-Logger, as coll
 |[27](events/event-27.md)|None|etw_level_Warning, etw_task_task_0|
 |[28](events/event-28.md)|None|etw_level_Warning, etw_task_task_0|
 |[29](events/event-29.md)|None|etw_level_Warning, etw_task_task_0|
-|[3](events/event-3.md)|None|etw_level_Informational, etw_keywords_Errlog, etw_task_task_0|
 |[40](events/event-40.md)|None|etw_level_Error, etw_task_task_0|
 |[40](events/event-40_v1.md)|None|etw_level_Error, etw_task_task_0, version_1|
 |[41](events/event-41.md)|None|etw_level_Warning, etw_task_task_0|

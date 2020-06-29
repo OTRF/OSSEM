@@ -6,6 +6,7 @@ This page contains the list of events for Microsoft-Windows-EventSystem, as coll
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[512](events/event-512.md)|None|etw_level_Always, etw_task_task_0|
 |[4354](events/event-4354.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
 |[4355](events/event-4355.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
 |[4356](events/event-4356.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
@@ -33,4 +34,3 @@ This page contains the list of events for Microsoft-Windows-EventSystem, as coll
 |[4627](events/event-4627.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
 |[4628](events/event-4628.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
 |[4629](events/event-4629.md)|None|etw_level_Always, etw_opcode_opcode_128, etw_task_task_0|
-|[512](events/event-512.md)|None|etw_level_Always, etw_task_task_0|

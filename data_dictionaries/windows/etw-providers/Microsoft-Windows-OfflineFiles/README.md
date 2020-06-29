@@ -6,6 +6,9 @@ This page contains the list of events for Microsoft-Windows-OfflineFiles, as col
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_CscEvtKeywd_UserSessionChange, etw_task_task_0|
+|[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_CscEvtKeywd_UserSessionChange, etw_task_task_0|
+|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_CscEvtKeywd_Transition, etw_task_task_0|
 |[10](events/event-10.md)|None|etw_level_Informational, etw_keywords_CscEvtKeywd_Transition, etw_task_task_0|
 |[1000](events/event-1000.md)|None|etw_level_Error, etw_keywords_CscEvtKeywd_Agent, etw_task_task_0|
 |[1001](events/event-1001.md)|None|etw_level_Error, etw_keywords_CscEvtKeywd_BGSync, etw_task_task_0|
@@ -25,6 +28,3 @@ This page contains the list of events for Microsoft-Windows-OfflineFiles, as col
 |[2006](events/event-2006.md)|None|etw_level_Warning, etw_task_task_0|
 |[2010](events/event-2010.md)|None|etw_level_Informational, etw_keywords_CscEvtKeywd_ExcludedFileType, etw_task_task_0|
 |[2011](events/event-2011.md)|None|etw_level_Informational, etw_keywords_CscEvtKeywd_ExcludedFileType, etw_task_task_0|
-|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_CscEvtKeywd_UserSessionChange, etw_task_task_0|
-|[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_CscEvtKeywd_UserSessionChange, etw_task_task_0|
-|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_CscEvtKeywd_Transition, etw_task_task_0|

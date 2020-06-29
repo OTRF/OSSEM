@@ -7,7 +7,6 @@ This page contains the list of events for Microsoft-Windows-DeviceUpdateAgent, a
 |events|Description|Tags|
 |---|---|---|
 |[100](events/event-100.md)|None|etw_level_Informational, etw_task_task_0|
-|[1000](events/event-1000.md)|None|etw_level_Error, etw_task_task_0|
 |[100](events/event-100_v1.md)|None|etw_level_Informational, etw_task_task_0, version_1|
 |[101](events/event-101.md)|None|etw_level_Error, etw_task_task_0|
 |[101](events/event-101_v1.md)|None|etw_level_Error, etw_task_task_0, version_1|
@@ -32,3 +31,4 @@ This page contains the list of events for Microsoft-Windows-DeviceUpdateAgent, a
 |[801](events/event-801.md)|None|etw_level_Informational, etw_task_task_0|
 |[802](events/event-802.md)|None|etw_level_Error, etw_task_task_0|
 |[900](events/event-900.md)|None|etw_level_Error, etw_task_task_0|
+|[1000](events/event-1000.md)|None|etw_level_Error, etw_task_task_0|

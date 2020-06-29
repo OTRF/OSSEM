@@ -6,9 +6,6 @@ This page contains the list of events for Microsoft-Windows-Sensors, as collecte
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
-|[10001](events/event-10001.md)|None|etw_level_Informational, etw_keywords_SensPerf, etw_opcode_Start, etw_task_PerfTrackmeasurementofauto_rotation|
-|[10002](events/event-10002.md)|None|etw_level_Informational, etw_keywords_SensPerf, etw_opcode_Stop, etw_task_PerfTrackmeasurementofauto_rotation|
-|[10003](events/event-10003.md)|None|etw_level_Informational, etw_keywords_SensPerf, etw_task_PerfTrackmeasurementofauto_rotation_10002|
 |[1001](events/event-1001.md)|None|etw_level_Informational, etw_keywords_SensPerf, etw_opcode_Start, etw_task_SensPerf_Task_DeviceStartup|
 |[1002](events/event-1002.md)|None|etw_level_Informational, etw_keywords_SensPerf, etw_opcode_Stop, etw_task_SensPerf_Task_DeviceStartup|
 |[1003](events/event-1003.md)|None|etw_level_Informational, etw_keywords_SensPerf, etw_opcode_Start, etw_task_SensPerf_Task_EventLatency|
@@ -76,3 +73,6 @@ This page contains the list of events for Microsoft-Windows-Sensors, as collecte
 |[1512](events/event-1512.md)|None|etw_level_Error, etw_keywords_SensPerf, etw_task_SensPerf_Task_SensorsHIDClassDriver_DeviceReconnect|
 |[3001](events/event-3001.md)|None|etw_level_Informational, etw_keywords_SensPerf, etw_task_InformationalPerfMarkerforuseinoutputtingagenericmessage|
 |[3002](events/event-3002.md)|None|etw_level_Informational, etw_keywords_SensPerf, etw_task_SensorPlatformDataEvent|
+|[10001](events/event-10001.md)|None|etw_level_Informational, etw_keywords_SensPerf, etw_opcode_Start, etw_task_PerfTrackmeasurementofauto_rotation|
+|[10002](events/event-10002.md)|None|etw_level_Informational, etw_keywords_SensPerf, etw_opcode_Stop, etw_task_PerfTrackmeasurementofauto_rotation|
+|[10003](events/event-10003.md)|None|etw_level_Informational, etw_keywords_SensPerf, etw_task_PerfTrackmeasurementofauto_rotation_10002|

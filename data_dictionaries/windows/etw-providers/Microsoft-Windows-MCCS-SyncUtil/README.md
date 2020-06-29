@@ -7,11 +7,11 @@ This page contains the list of events for Microsoft-Windows-MCCS-SyncUtil, as co
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Error, etw_keywords_Error, etw_task_task_0|
+|[2](events/event-2.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[101](events/event-101.md)|None|etw_level_Informational, etw_keywords_CommsService, etw_task_task_0|
 |[104](events/event-104.md)|None|etw_level_Verbose, etw_task_task_0|
 |[121](events/event-121.md)|None|etw_level_Informational, etw_keywords_Performance, etw_opcode_Start, etw_task_SPERF_TAG_LOAD_XMLDOM|
 |[122](events/event-122.md)|None|etw_level_Informational, etw_keywords_Performance, etw_opcode_Stop, etw_task_SPERF_TAG_LOAD_XMLDOM|
-|[2](events/event-2.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[202](events/event-202.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[203](events/event-203.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|
 |[204](events/event-204.md)|None|etw_level_Warning, etw_keywords_Warning, etw_task_task_0|

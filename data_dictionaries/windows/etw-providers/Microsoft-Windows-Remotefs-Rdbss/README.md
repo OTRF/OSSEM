@@ -7,6 +7,7 @@ This page contains the list of events for Microsoft-Windows-Remotefs-Rdbss, as c
 |events|Description|Tags|
 |---|---|---|
 |[100](events/event-100.md)|None|etw_level_Error, etw_keywords_keyword_400000000000, etw_task_task_0|
+|[401](events/event-401.md)|None|etw_level_Error, etw_keywords_keyword_400000000000, etw_task_task_0|
 |[30001](events/event-30001.md)|None|etw_level_Informational, etw_keywords_Rdbss_Perf Rdbss_Info, etw_task_task_0|
 |[30002](events/event-30002.md)|None|etw_level_Informational, etw_keywords_Rdbss_Perf Rdbss_Info, etw_task_task_0|
 |[30003](events/event-30003.md)|None|etw_level_Informational, etw_keywords_Rdbss_Perf, etw_task_task_0|
@@ -29,4 +30,3 @@ This page contains the list of events for Microsoft-Windows-Remotefs-Rdbss, as c
 |[30020](events/event-30020.md)|None|etw_level_Informational, etw_keywords_Rdbss_Perf Rdbss_Info, etw_task_task_0|
 |[30301](events/event-30301.md)|None|etw_level_Informational, etw_keywords_Rdbss_Info, etw_task_task_0|
 |[30302](events/event-30302.md)|None|etw_level_Informational, etw_keywords_Rdbss_Info, etw_task_task_0|
-|[401](events/event-401.md)|None|etw_level_Error, etw_keywords_keyword_400000000000, etw_task_task_0|

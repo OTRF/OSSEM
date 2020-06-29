@@ -6,6 +6,13 @@ This page contains the list of events for Microsoft-Windows-USB-UCX, as collecte
 ## Sub Data Sets
 |events|Description|Tags|
 |---|---|---|
+|[3](events/event-3.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_UCXControlerRundown|
+|[4](events/event-4.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_UCXRootHubRundown|
+|[5](events/event-5.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_UCXDeviceRundown|
+|[6](events/event-6.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_UCXEndpointRundown|
+|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_UCXStaticStreamRundown|
+|[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_UCXControllerCreate|
+|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_UCXControllerDelete|
 |[10](events/event-10.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_UCXRootHubCreate|
 |[11](events/event-11.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_UCXRootHubDelete|
 |[12](events/event-12.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_UCXRootHubPrepareHardware|
@@ -29,7 +36,6 @@ This page contains the list of events for Microsoft-Windows-USB-UCX, as collecte
 |[27](events/event-27_v1.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Stop, etw_task_URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER, version_1|
 |[28](events/event-28.md)|None|etw_level_Informational, etw_keywords_PartialDataBusTrace, etw_opcode_Stop, etw_task_URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER|
 |[29](events/event-29.md)|None|etw_level_Informational, etw_keywords_FullDataBusTrace, etw_opcode_Stop, etw_task_URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER|
-|[3](events/event-3.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_UCXControlerRundown|
 |[30](events/event-30.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_ISOCH_TRANSFER|
 |[31](events/event-31.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Stop, etw_task_URB_FUNCTION_ISOCH_TRANSFER|
 |[32](events/event-32.md)|None|etw_level_Informational, etw_keywords_PartialDataBusTrace, etw_opcode_Stop, etw_task_URB_FUNCTION_ISOCH_TRANSFER|
@@ -40,7 +46,6 @@ This page contains the list of events for Microsoft-Windows-USB-UCX, as collecte
 |[37](events/event-37.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_SET_DESCRIPTOR_TO_DEVICE|
 |[38](events/event-38.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_SET_DESCRIPTOR_TO_INTERFACE|
 |[39](events/event-39.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_SET_DESCRIPTOR_TO_ENDPOINT|
-|[4](events/event-4.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_UCXRootHubRundown|
 |[40](events/event-40.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_SET_FEATURE_TO_DEVICE|
 |[41](events/event-41.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_SET_FEATURE_TO_INTERFACE|
 |[42](events/event-42.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_SET_FEATURE_TO_ENDPOINT|
@@ -51,7 +56,6 @@ This page contains the list of events for Microsoft-Windows-USB-UCX, as collecte
 |[47](events/event-47.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_CLEAR_FEATURE_TO_OTHER|
 |[48](events/event-48.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_GET_STATUS_FROM_DEVICE|
 |[49](events/event-49.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_GET_STATUS_FROM_INTERFACE|
-|[5](events/event-5.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_UCXDeviceRundown|
 |[50](events/event-50.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_GET_STATUS_FROM_ENDPOINT|
 |[51](events/event-51.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_GET_STATUS_FROM_OTHER|
 |[52](events/event-52.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_CLASS_DEVICE|
@@ -62,7 +66,6 @@ This page contains the list of events for Microsoft-Windows-USB-UCX, as collecte
 |[57](events/event-57.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_VENDOR_INTERFACE|
 |[58](events/event-58.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_VENDOR_ENDPOINT|
 |[59](events/event-59.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_VENDOR_OTHER|
-|[6](events/event-6.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_UCXEndpointRundown|
 |[60](events/event-60.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_GET_CONFIGURATION|
 |[61](events/event-61.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_GET_INTERFACE|
 |[62](events/event-62.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_GET_MS_FEATURE_DESCRIPTOR|
@@ -73,7 +76,6 @@ This page contains the list of events for Microsoft-Windows-USB-UCX, as collecte
 |[67](events/event-67.md)|None|etw_level_Informational, etw_keywords_StateMachine, etw_opcode_Information, etw_task_CONTROLLER_STATE_MACHINE_TRANSITION|
 |[68](events/event-68.md)|None|etw_level_Informational, etw_keywords_StateMachine, etw_opcode_Information, etw_task_CONTROLLER_STATE_MACHINE_EVENT|
 |[69](events/event-69.md)|None|etw_level_Informational, etw_keywords_StateMachine Rundown, etw_opcode_Information, etw_task_UCXControlerRundown|
-|[7](events/event-7.md)|None|etw_level_Informational, etw_keywords_Default Rundown, etw_opcode_Information, etw_task_UCXStaticStreamRundown|
 |[70](events/event-70.md)|None|etw_level_Informational, etw_keywords_StateMachine Rundown, etw_opcode_Information, etw_task_UCXControlerRundown|
 |[71](events/event-71.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_UCXRootHubInitiatingWake|
 |[72](events/event-72.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_SECURE_BULK_OR_INTERRUPT_TRANSFER|
@@ -81,5 +83,3 @@ This page contains the list of events for Microsoft-Windows-USB-UCX, as collecte
 |[73](events/event-73_v1.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Stop, etw_task_URB_FUNCTION_SECURE_BULK_OR_INTERRUPT_TRANSFER, version_1|
 |[74](events/event-74.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Start, etw_task_URB_FUNCTION_SECURE_ISOCH_TRANSFER|
 |[75](events/event-75.md)|None|etw_level_Informational, etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace, etw_opcode_Stop, etw_task_URB_FUNCTION_SECURE_ISOCH_TRANSFER|
-|[8](events/event-8.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_UCXControllerCreate|
-|[9](events/event-9.md)|None|etw_level_Informational, etw_keywords_Default, etw_opcode_Information, etw_task_UCXControllerDelete|

@@ -7,8 +7,8 @@ This page contains the list of events for Microsoft-Windows-UserDataAccess-Poom,
 |events|Description|Tags|
 |---|---|---|
 |[1](events/event-1.md)|None|etw_level_Error, etw_keywords_Error, etw_task_task_0|
-|[1000](events/event-1000.md)|None|etw_level_Verbose, etw_keywords_debug, etw_task_Trace|
 |[2](events/event-2.md)|None|etw_level_Warning, etw_keywords_Warning keyword_200000000000, etw_task_task_0|
+|[1000](events/event-1000.md)|None|etw_level_Verbose, etw_keywords_debug, etw_task_Trace|
 |[2000](events/event-2000.md)|None|etw_level_Informational, etw_keywords_POOM_Appointment, etw_task_task_0|
 |[2002](events/event-2002.md)|None|etw_level_Error, etw_keywords_POOM, etw_task_task_0|
 |[2003](events/event-2003.md)|None|etw_level_Error, etw_keywords_POOM, etw_task_task_0|
