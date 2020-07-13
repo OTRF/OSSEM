@@ -38,7 +38,7 @@ description: Event fields used to define network sessions in an endpoint.
 * **id:** Unique identifier for the current entity (i.e `035E058E-5405-4B3B-9288-E78A63B40DAA`)
     * You can generate an ID value by running the following command `uuidgen` in macOS.
 
-* **description:** Description of the current entity.
+* **description:** Description of the current table.
 
 ## Entities
 

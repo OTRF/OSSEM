@@ -29,7 +29,7 @@ with open(r'../../attack_data_sources/event-mappings/all_data_sources.yml', 'w')
     yaml.dump(all_data_sources, file, sort_keys=False)
 
 # ***** Creating Mappings Table *****
-table_template = Template(open('templates/attack_ds_mappings_template.md').read())
+table_template = Template(open('templates/attack/ds_mapping_template.md').read())
 print("[+] Creating data soures mappings table.")
 yaml_for_render = copy.deepcopy(all_data_sources)
 markdown = table_template.render(datasources=yaml_for_render)
