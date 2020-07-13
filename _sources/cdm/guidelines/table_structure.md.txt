@@ -1,0 +1,91 @@
+# Table Structure
+
+Tables are documented in `YAML` format, and are the source files for every table documentationin the common data model. These source files can be used to define the logic behind each table and automate the creation of field names and documentation. Tables are objects that group several entities together creating relationships among them to standardize diverse datasets that share a common definition. For example, the `NetworkSession` table leverages entities such as `http`, `url`, `network`, etc.
+
+**Example:**
+
+```yaml
+name: NetworkSession
+id: 189BC2EE-44BF-4A8A-A257-5521C67D457B
+description: Event fields used to define network sessions in an endpoint.
+entities:
+- hash
+- user
+- name: file
+  attributes:
+  - name
+  - path
+- name: custom
+  entities:
+  - name: threat
+    attributes:
+    - name: name
+      type: string
+      description: The name of the threat or malware identified
+      sample_value: 'Win32.Small.ahif(90603579)'
+```
+## Table Definitions
+
+```yaml
+name: network_session
+id: 189BC2EE-44BF-4A8A-A257-5521C67D457B
+description: Event fields used to define network sessions in an endpoint.
+```
+* **name:** Name of the current table.
+  * Name must be lower case
+  * Multiple words in an entity name must be separated by an underscore (i.e `user_agent`)
+
+* **id:** Unique identifier for the current entity (i.e `035E058E-5405-4B3B-9288-E78A63B40DAA`)
+    * You can generate an ID value by running the following command `uuidgen` in macOS.
+
+* **description:** Description of the current entity.
+
+## Entities
+
+```yaml
+entities:
+- hash
+- user
+- name: file
+  attributes:
+  - name
+  - path
+- name: custom
+  entities:
+  - name: threat
+    prefix:
+    - threat
+    attributes:
+    - name: name
+      type: string
+      description: The name of the threat or malware identified
+      sample_value: 'Win32.Small.ahif(90603579)'
+```
+
+* As mentioned before, entities form tables, and they are added under the `entities` property.
+* The `entities` property expects a list of `strings` or `dictionaries`
+  * `Strings` are used to directly call an entity and all its attributes.
+    * They must be lower case (Following the same guidelines defined in the `Entity Structure` documentation)
+  * `Dictionaries` can be used for two things:
+
+* You can use a dictionary to define what specific attributes you want from existing entities.
+
+```yaml
+- name: file
+  attributes:
+  - name
+  - path
+```
+* The table would end up with the followin attributes from the `file` entity
+  * `file_name`
+  * `file_path`
+
+* You can also use a dictionary to introduce custom entities with custom attributes that do not exist currently in the common data model.
+
+* `Custom` dictionaries contain a list of dictionaries.
+  * Each dictionary is a custom/new entity
+    * Each entity name follows the same guidelines defined in the `Entity Structure` documentation.
+    * Each entity has a `prefix` property (same to the entity concepts in this common data model)
+  * Each dictionary/entity has an `attributes` property that allows users to introduce new attributes to the common data model
+    * Each attribute contains the usual properties (`name`, `type`, `description`, `sample_value`)
+    * Each attribute name follows the same guidelines defined in the `Entity Structure` documentation.

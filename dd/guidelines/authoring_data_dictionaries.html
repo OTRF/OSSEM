@@ -1,0 +1,457 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Data Dictionary Authoring Guide &#8212; The OSSEM Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="../../_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/jupyter-sphinx.css" />
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/sphinx-book-theme.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/mystnb.js"></script>
+    <script src="../../_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .secondtoggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script async="async" src="../../_static/thebelab.js"></script>
+    <link rel="canonical" href="https://ossemproject.com/dd/guidelines/authoring_data_dictionaries.html" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Introduction" href="../../cdm/intro.html" />
+    <link rel="prev" title="Guidelines" href="intro.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+<!-- Put requirejs at the end so it's always after bootstrap -->
+<!-- TODO: remove this once https://github.com/pandas-dev/pydata-sphinx-theme/pull/149 is merged -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+
+<!-- Opengraph tags -->
+<meta property="og:url"         content="https://ossemproject.com/dd/guidelines/authoring_data_dictionaries.html" />
+<meta property="og:type"        content="article" />
+<meta property="og:title"       content="Data Dictionary Authoring Guide" />
+<meta property="og:description" content="Data Dictionary Authoring Guide  This guide details the process of data dictionary authoring, by describing the structure and organization of events.  Lets reca" />
+<meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
+
+<meta name="twitter:card" content="summary">
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../../index.html">
+  
+  <img src="../../_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">The OSSEM Project</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  
+  <ul class="nav sidenav_l1">
+<li class="navbar-special">
+<p class="margin-caption">Data Dictionaries</p>
+</li>
+  <li class="">
+    <a href="../intro.html">Introduction</a>
+  </li>
+  <li class="active">
+    <a href="intro.html">Guidelines</a>
+  <ul class="nav sidenav_l2">
+    <li class="active">
+      <a href="">Data Dictionary Authoring Guide</a>
+    </li>
+  </ul>
+  </li>
+<li class="navbar-special">
+<p class="margin-caption">Common Data Model</p>
+</li>
+  <li class="">
+    <a href="../../cdm/intro.html">Introduction</a>
+  </li>
+  <li class="">
+    <a href="../../cdm/guidelines/intro.html">Guidelines</a>
+  </li>
+  <li class="">
+    <a href="../../cdm/entities/intro.html">Entities</a>
+  </li>
+<li class="navbar-special">
+<p class="margin-caption">ATT&CK Data Sources</p>
+</li>
+  <li class="">
+    <a href="../../attack/windows/intro.html">Windows</a>
+  </li>
+</ul>
+</nav>
+<p class="navbar_footer">Powered by <a href="https://jupyterbook.org">Jupyter Book</a></p>
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation" title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i class="fas fa-download"></i></button>
+
+            
+            <div class="dropdown-buttons">
+                <!-- ipynb file if we had a myst markdown file -->
+                
+                <!-- Download raw file -->
+                <a class="dropdown-buttons" href="../../_sources/dd/guidelines/authoring_data_dictionaries.md.txt"><button type="button" class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip" data-placement="left">.md</button></a>
+                <!-- Download PDF via print -->
+                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF" onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+            </div>
+            
+        </div>
+
+        <!-- Edit this page -->
+        <a class="edit-button" href="https://github.com/hunters-forge/OSSEM/edit/master/docs/dd/guidelines/authoring_data_dictionaries.md"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" title="Edit this page"><i class="fas fa-pencil-alt"></i></button></a>
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+        
+
+        
+    </div>
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#table-of-contents" class="nav-link">Table of contents</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#definition" class="nav-link">Definition</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#structure" class="nav-link">Structure</a><ul class="nav section-nav flex-column">
+                
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#standardization" class="nav-link">Standardization</a>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#organization" class="nav-link">Organization</a><ul class="nav section-nav flex-column">
+                
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#readme-files" class="nav-link">README Files</a>
+        </li>
+    
+            </ul>
+        </li>
+    
+    </ul>
+</nav>
+
+
+
+<div class="tocsection editthispage">
+    <a href="https://github.com/hunters-forge/OSSEM/edit/master/docs/dd/guidelines/authoring_data_dictionaries.md">
+        <i class="fas fa-pencil-alt"></i> Edit this page
+    </a>
+</div>
+
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 col-xxl-7 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="data-dictionary-authoring-guide">
+<h1>Data Dictionary Authoring Guide<a class="headerlink" href="#data-dictionary-authoring-guide" title="Permalink to this headline">¶</a></h1>
+<p>This guide details the process of data dictionary authoring, by describing the structure and organization of events.</p>
+<p>Lets recap what a data dictionary event is, before going into the nitty-gritty details.</p>
+<div class="section" id="table-of-contents">
+<h2>Table of contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="#definition">Definition</a></p></li>
+<li><p><a class="reference external" href="#structure">Structure</a></p>
+<ul>
+<li><p><a class="reference external" href="#standardization">Standardization</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#organization">Organization</a></p>
+<ul>
+<li><p><a class="reference external" href="#readme-files">README Files</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="definition">
+<h2>Definition<a class="headerlink" href="#definition" title="Permalink to this headline">¶</a></h2>
+<p>Data dictionaries are atomic structures of base events emitted by log sources on a platform. These structures contain the <strong>definition</strong> of a base event and its <strong>fields</strong>.</p>
+<p>The event <strong>definition</strong> enables the entity to be fully functional by itself. It describes the title, code, platform, log source, and other meta-data that provides context. The event <strong>definition</strong> plays a major role on how the event is consumed.</p>
+<p>The event <strong>fields</strong> contain the list of fields available. Each field have properties that provide context about the field, and ultimately enable it to be correlated with other OSSEM data like the <code class="xref any docutils literal notranslate"><span class="pre">Common</span> <span class="pre">Information</span> <span class="pre">Model</span></code> and <code class="xref any docutils literal notranslate"><span class="pre">Detection</span> <span class="pre">Data</span> <span class="pre">Model</span></code>.</p>
+<p>OSSEM data dictionaries are structured to be as lean as possible, the reason is twofold: not only to avoid redundant information between events, but also to promote the adoption of external references (pointers).</p>
+<p>OSSEM data dictionaries are represented in YAML. Again, the goal is to find the best balance between human readability, and ease of automation, hence YAML was a relatively easy pick when choosing an OSSEM data language.</p>
+</div>
+<div class="section" id="structure">
+<h2>Structure<a class="headerlink" href="#structure" title="Permalink to this headline">¶</a></h2>
+<p>The event <strong>definion</strong> fields are:</p>
+<ul class="simple">
+<li><p>Title: the event title if any, otherwise use the event code</p></li>
+<li><p>Description: the description of the event</p></li>
+<li><p>Platform: the platform where the log source is hosted</p></li>
+<li><p>Log source: the log source that generates the event</p></li>
+<li><p>Event code: the code or ID of the event</p></li>
+<li><p>Reference list: text and link for external references relevant to the event</p></li>
+<li><p>Tag list: tags applicable to the event</p></li>
+</ul>
+<p>For every <strong>field</strong> in the event, the properties are:</p>
+<ul class="simple">
+<li><p>Standard name: the standard name assigned to the field name, if applicable</p></li>
+<li><p>Standard type: the standard type assigned to the field type, if applicable</p></li>
+<li><p>Name: the field name as per vendor documentation</p></li>
+<li><p>Type: the field type as per vendor documentation</p></li>
+<li><p>Description: the field description</p></li>
+<li><p>Sample value: the field sample value, if applicable</p></li>
+</ul>
+<p>An example of an Windows Security Auditing Event 4616 follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">title</span><span class="p">:</span> <span class="s1">&#39;Event ID 4616: The system time was changed.&#39;</span>
+<span class="n">description</span><span class="p">:</span> <span class="n">This</span> <span class="n">event</span> <span class="n">generates</span> <span class="n">every</span> <span class="n">time</span> <span class="n">system</span> <span class="n">time</span> <span class="n">was</span> <span class="n">changed</span><span class="o">.</span>
+<span class="n">platform</span><span class="p">:</span> <span class="n">windows</span>
+<span class="n">log_source</span><span class="p">:</span> <span class="n">Microsoft</span><span class="o">-</span><span class="n">Windows</span><span class="o">-</span><span class="n">Security</span><span class="o">-</span><span class="n">Auditing</span>
+<span class="n">event_code</span><span class="p">:</span> <span class="s1">&#39;4616&#39;</span>
+<span class="n">event_fields</span><span class="p">:</span>
+<span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">user_sid</span>
+  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
+  <span class="n">name</span><span class="p">:</span> <span class="n">SubjectUserSid</span>
+  <span class="nb">type</span><span class="p">:</span> <span class="n">SID</span>
+  <span class="n">description</span><span class="p">:</span> <span class="n">SID</span> <span class="n">of</span> <span class="n">account</span> <span class="n">that</span> <span class="n">requested</span> <span class="n">the</span> <span class="s2">&quot;change system time&quot;</span> <span class="n">operation</span><span class="o">.</span>
+  <span class="n">sample_value</span><span class="p">:</span> <span class="n">S</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="mi">5</span><span class="o">-</span><span class="mi">21</span><span class="o">-</span><span class="mi">3457937927</span><span class="o">-</span><span class="mi">2839227994</span><span class="o">-</span><span class="mi">823803824</span><span class="o">-</span><span class="mi">1104</span>
+<span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">user_name</span>
+  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
+  <span class="n">name</span><span class="p">:</span> <span class="n">SubjectUserName</span>
+  <span class="nb">type</span><span class="p">:</span> <span class="n">UnicodeString</span>
+  <span class="n">description</span><span class="p">:</span> <span class="n">the</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">account</span> <span class="n">that</span> <span class="n">requested</span> <span class="n">the</span> <span class="s2">&quot;change system time&quot;</span> <span class="n">operation</span><span class="o">.</span>
+  <span class="n">sample_value</span><span class="p">:</span> <span class="n">dadmin</span>
+<span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">user_domain</span>
+  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
+  <span class="n">name</span><span class="p">:</span> <span class="n">SubjectDomainName</span>
+  <span class="nb">type</span><span class="p">:</span> <span class="n">UnicodeString</span>
+  <span class="n">description</span><span class="p">:</span> <span class="n">subject</span><span class="s1">&#39;s domain or computer name.</span>
+  <span class="n">sample_value</span><span class="p">:</span> <span class="n">CONTOSO</span>
+<span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">user_logon_id</span>
+  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
+  <span class="n">name</span><span class="p">:</span> <span class="n">SubjectLogonId</span>
+  <span class="nb">type</span><span class="p">:</span> <span class="n">HexInt64</span>
+  <span class="n">description</span><span class="p">:</span> <span class="s1">&#39;hexadecimal value that can help you correlate this event with recent</span>
+    <span class="n">events</span> <span class="n">that</span> <span class="n">might</span> <span class="n">contain</span> <span class="n">the</span> <span class="n">same</span> <span class="n">Logon</span> <span class="n">ID</span><span class="p">,</span> <span class="k">for</span> <span class="n">example</span><span class="p">,</span> <span class="s2">&quot;4624: An account was</span>
+    <span class="n">successfully</span> <span class="n">logged</span> <span class="n">on</span><span class="s2">&quot;.&#39;</span>
+  <span class="n">sample_value</span><span class="p">:</span> <span class="s1">&#39;0x48f29&#39;</span>
+<span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">TBD</span>
+  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
+  <span class="n">name</span><span class="p">:</span> <span class="n">PreviousTime</span>
+  <span class="nb">type</span><span class="p">:</span> <span class="n">FILETIME</span>
+  <span class="n">description</span><span class="p">:</span> <span class="n">previous</span> <span class="n">time</span> <span class="ow">in</span> <span class="n">UTC</span> <span class="n">time</span> <span class="n">zone</span><span class="o">.</span>
+  <span class="n">sample_value</span><span class="p">:</span> <span class="s1">&#39;2015-10-09T05:04:30.000941900Z&#39;</span>
+<span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">TBD</span>
+  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
+  <span class="n">name</span><span class="p">:</span> <span class="n">NewTime</span>
+  <span class="nb">type</span><span class="p">:</span> <span class="n">FILETIME</span>
+  <span class="n">description</span><span class="p">:</span> <span class="n">new</span> <span class="n">time</span> <span class="n">that</span> <span class="n">was</span> <span class="nb">set</span> <span class="ow">in</span> <span class="n">UTC</span> <span class="n">time</span> <span class="n">zone</span><span class="o">.</span>
+  <span class="n">sample_value</span><span class="p">:</span> <span class="s1">&#39;2015-10-09T05:04:30.000000000Z&#39;</span>
+<span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">process_id</span>
+  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
+  <span class="n">name</span><span class="p">:</span> <span class="n">ProcessId</span>
+  <span class="nb">type</span><span class="p">:</span> <span class="n">Pointer</span>
+  <span class="n">description</span><span class="p">:</span> <span class="n">hexadecimal</span> <span class="n">Process</span> <span class="n">ID</span> <span class="n">of</span> <span class="n">the</span> <span class="n">process</span> <span class="n">that</span> <span class="n">changed</span> <span class="n">the</span> <span class="n">system</span> <span class="n">time</span><span class="o">.</span>
+    <span class="n">Process</span> <span class="n">ID</span> <span class="p">(</span><span class="n">PID</span><span class="p">)</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">number</span> <span class="n">used</span> <span class="n">by</span> <span class="n">the</span> <span class="n">operating</span> <span class="n">system</span> <span class="n">to</span> <span class="n">uniquely</span> <span class="n">identify</span>
+    <span class="n">an</span> <span class="n">active</span> <span class="n">process</span><span class="o">.</span>
+  <span class="n">sample_value</span><span class="p">:</span> <span class="s1">&#39;0x1074&#39;</span>
+<span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">process_path</span>
+  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
+  <span class="n">name</span><span class="p">:</span> <span class="n">ProcessName</span>
+  <span class="nb">type</span><span class="p">:</span> <span class="n">UnicodeString</span>
+  <span class="n">description</span><span class="p">:</span> <span class="n">full</span> <span class="n">path</span> <span class="ow">and</span> <span class="n">the</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">executable</span> <span class="k">for</span> <span class="n">the</span> <span class="n">process</span><span class="o">.</span>
+  <span class="n">sample_value</span><span class="p">:</span> <span class="n">C</span><span class="p">:</span>\<span class="n">Windows</span>\<span class="n">WinSxS</span>\<span class="n">amd64_microsoft</span><span class="o">-</span><span class="n">windows</span><span class="o">-</span><span class="n">com</span><span class="o">-</span><span class="n">surrogate</span><span class="o">-</span><span class="n">core_31bf3856ad364e35_6</span><span class="o">.</span><span class="mf">3.9600</span><span class="o">.</span><span class="mi">16384</span><span class="n">_none_25a8f00faa8f185c</span>\<span class="n">dllhost</span><span class="o">.</span><span class="n">exe</span>
+<span class="n">references</span><span class="p">:</span>
+<span class="o">-</span> <span class="n">text</span><span class="p">:</span> <span class="n">MS</span> <span class="n">SOURCE</span>
+  <span class="n">link</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">MicrosoftDocs</span><span class="o">/</span><span class="n">windows</span><span class="o">-</span><span class="n">itpro</span><span class="o">-</span><span class="n">docs</span><span class="o">/</span><span class="n">blob</span><span class="o">/</span><span class="n">public</span><span class="o">/</span><span class="n">windows</span><span class="o">/</span><span class="n">security</span><span class="o">/</span><span class="n">threat</span><span class="o">-</span><span class="n">protection</span><span class="o">/</span><span class="n">auditing</span><span class="o">/</span><span class="n">event</span><span class="o">-</span><span class="mf">4616.</span><span class="n">md</span>
+<span class="o">-</span> <span class="n">text</span><span class="p">:</span> <span class="n">MS</span> <span class="n">Security</span> <span class="n">Auditing</span> <span class="n">Category</span> <span class="o">-</span> <span class="n">System</span>
+  <span class="n">link</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">docs</span><span class="o">.</span><span class="n">microsoft</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">en</span><span class="o">-</span><span class="n">us</span><span class="o">/</span><span class="n">windows</span><span class="o">/</span><span class="n">security</span><span class="o">/</span><span class="n">threat</span><span class="o">-</span><span class="n">protection</span><span class="o">/</span><span class="n">auditing</span><span class="o">/</span><span class="n">advanced</span><span class="o">-</span><span class="n">security</span><span class="o">-</span><span class="n">audit</span><span class="o">-</span><span class="n">policy</span><span class="o">-</span><span class="n">settings</span><span class="c1">#system</span>
+<span class="o">-</span> <span class="n">text</span><span class="p">:</span> <span class="n">MS</span> <span class="n">Security</span> <span class="n">Auditing</span> <span class="n">Sub</span><span class="o">-</span><span class="n">category</span> <span class="o">-</span> <span class="n">Audit</span> <span class="n">Security</span> <span class="n">State</span> <span class="n">Change</span>
+  <span class="n">link</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">MicrosoftDocs</span><span class="o">/</span><span class="n">windows</span><span class="o">-</span><span class="n">itpro</span><span class="o">-</span><span class="n">docs</span><span class="o">/</span><span class="n">tree</span><span class="o">/</span><span class="n">master</span><span class="o">/</span><span class="n">windows</span><span class="o">/</span><span class="n">security</span><span class="o">/</span><span class="n">threat</span><span class="o">-</span><span class="n">protection</span><span class="o">/</span><span class="n">auditing</span><span class="o">/</span><span class="n">audit</span><span class="o">-</span><span class="n">security</span><span class="o">-</span><span class="n">state</span><span class="o">-</span><span class="n">change</span><span class="o">.</span><span class="n">md</span>
+<span class="n">tags</span><span class="p">:</span>
+<span class="o">-</span> <span class="n">etw_level_Informational</span>
+<span class="o">-</span> <span class="n">etw_task_task_0</span>
+<span class="o">-</span> <span class="n">version_1</span>
+<span class="o">-</span> <span class="n">System</span>
+<span class="o">-</span> <span class="n">Audit</span> <span class="n">Security</span> <span class="n">State</span> <span class="n">Change</span>
+</pre></div>
+</div>
+<div class="section" id="standardization">
+<h3>Standardization<a class="headerlink" href="#standardization" title="Permalink to this headline">¶</a></h3>
+<p>The <strong>standard_name</strong> and <strong>standard_type</strong> are special properties of event fields, as they represent the first layer of data standardization on the event.</p>
+<p>In the example above (event 4616), the <code class="docutils literal notranslate"><span class="pre">SubjectUserSid</span></code> name was <em>translated</em> to <code class="docutils literal notranslate"><span class="pre">user_logon_id</span></code> standard name. This <em>translation</em> ensures the data dictionary is aligned with the <code class="xref any docutils literal notranslate"><span class="pre">Common</span> <span class="pre">Information</span> <span class="pre">Model</span></code> (CIM) <strong>User schema</strong>, reduces complexity, and enhances the development of detection analytics.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">standard</span> <span class="pre">type</span></code> is still work in progress, thus the <em>to-be-defined</em> default, but it aims at defining standard field types like ‘boolean’, ‘list’, ‘json’, etc. The goal is to provide guidance to anyone post-processing/enriching base events.</p>
+<p>Note that its not mandatory that you define a standard name for every field on your event. Some good practices when defining standard names include:</p>
+<ul class="simple">
+<li><p>Search for the field name in other OSSEM events. Its not uncommon that you can apply the same standard name to identical field names, specially if the log source is the same.</p></li>
+<li><p>Check if the standard name already exists in one of the <code class="xref any docutils literal notranslate"><span class="pre">Common</span> <span class="pre">Information</span> <span class="pre">Model</span></code> entities schema.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="organization">
+<h2>Organization<a class="headerlink" href="#organization" title="Permalink to this headline">¶</a></h2>
+<p>OSSEM built-in data dictionaries are primarily organized in a file system folder structure, that ensures the grouping according to data dictionaries characteristics. While there is no limit to the folder depth, the <strong>root folder</strong> and <strong>log sources</strong> must follow a predefined structure.</p>
+<p>Data dictionaries are located in <code class="docutils literal notranslate"><span class="pre">/source/data_dictionaries</span></code>, the <strong>root folder</strong>. The first level of organization is by <strong>platform</strong>.</p>
+<p>An example of a build-in <strong>Sysmon</strong> data dictionary follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.
+├── data_dictionaries   &lt;--------- root folder
+│   ├── README.yml
+│   ├── windows         &lt;--------- platform (operating system/sensor folder)
+│   │   ├── README.yml
+│   │   ├── sysmon      &lt;--------- log source folder
+│   │   │   ├── README.yml
+│   │   │   └── events  &lt;--------- events folder
+│   │   │       ├── event-1.yml
+│   │   │       ├── event-7.yml
+│   │   │       ├── event-8.yml &lt;- data dictionary entry
+...
+</pre></div>
+</div>
+<p>Each <strong>platform</strong> folder contain sub-folder for the <strong>log source</strong>, which in turn <em>always</em> contain an <code class="docutils literal notranslate"><span class="pre">events/</span></code>folder where the events are stored.</p>
+<p>Since the <strong>platform</strong> and <strong>log source</strong> properties are already defined in the event, is fairly straightforward to figure out where to store your events.</p>
+<p>Because ensuring the consistency of this folder structure can be tricky, specially when dealing with dozens of log sources, OSSEM provides README files that provide additional information about the current folder. These files are particularly helpful when converting OSSEM to markdown, where they are used as indexes.</p>
+<div class="section" id="readme-files">
+<h3>README Files<a class="headerlink" href="#readme-files" title="Permalink to this headline">¶</a></h3>
+<p>Similarly to data dictionaries, README files are also defined in YAML, contain the following properties:</p>
+<ul class="simple">
+<li><p>title: for example the log source title</p></li>
+<li><p>description: for example the log source description</p></li>
+<li><p>images: text and path to images relevant to the readme</p></li>
+<li><p>references: text and link for external references relevant to the readme</p></li>
+</ul>
+<p>An example of a README follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">title</span><span class="p">:</span> <span class="n">Sysmon</span> <span class="n">Event</span> <span class="n">Logs</span>
+<span class="n">description</span><span class="p">:</span> <span class="n">System</span> <span class="n">Monitor</span> <span class="p">(</span><span class="n">Sysmon</span><span class="p">)</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">Windows</span> <span class="n">system</span> <span class="n">service</span> <span class="ow">and</span> <span class="n">device</span> 
+  <span class="n">driver</span> <span class="n">that</span><span class="p">,</span> <span class="n">once</span> <span class="n">installed</span> <span class="n">on</span> <span class="n">a</span> <span class="n">system</span><span class="p">,</span> <span class="n">remains</span> <span class="n">resident</span> <span class="n">across</span> <span class="n">system</span> 
+  <span class="n">reboots</span> <span class="n">to</span> <span class="n">monitor</span> <span class="ow">and</span> <span class="n">log</span> <span class="n">system</span> <span class="n">activity</span> <span class="n">to</span> <span class="n">the</span> <span class="n">Windows</span> <span class="n">event</span> <span class="n">log</span><span class="o">.</span> <span class="n">It</span> 
+  <span class="n">provides</span> <span class="n">detailed</span> <span class="n">information</span> <span class="n">about</span> <span class="n">process</span> <span class="n">creations</span><span class="p">,</span> <span class="n">network</span> <span class="n">connections</span><span class="p">,</span> 
+  <span class="ow">and</span> <span class="n">changes</span> <span class="n">to</span> <span class="n">file</span> <span class="n">creation</span> <span class="n">time</span><span class="o">.</span> <span class="n">By</span> <span class="n">collecting</span> <span class="n">the</span> <span class="n">events</span> <span class="n">it</span> <span class="n">generates</span> 
+  <span class="n">using</span> <span class="n">Windows</span> <span class="n">Event</span> <span class="n">Collection</span> <span class="ow">or</span> <span class="n">SIEM</span> <span class="n">agents</span> <span class="ow">and</span> <span class="n">subsequently</span> <span class="n">analyzing</span> 
+  <span class="n">them</span><span class="p">,</span> <span class="n">you</span> <span class="n">can</span> <span class="n">identify</span> <span class="n">malicious</span> <span class="ow">or</span> <span class="n">anomalous</span> <span class="n">activity</span> <span class="ow">and</span> <span class="n">understand</span> <span class="n">how</span> 
+  <span class="n">intruders</span> <span class="ow">and</span> <span class="n">malware</span> <span class="n">operate</span> <span class="n">on</span> <span class="n">your</span> <span class="n">network</span><span class="o">.</span>
+<span class="n">images</span><span class="p">:</span>
+<span class="o">-</span> <span class="n">title</span><span class="p">:</span> <span class="n">Data</span> <span class="n">model</span>
+  <span class="n">source</span><span class="p">:</span> <span class="o">/</span><span class="n">resources</span><span class="o">/</span><span class="n">images</span><span class="o">/</span><span class="n">SysmonDataModel</span><span class="o">.</span><span class="n">png</span>
+<span class="n">references</span><span class="p">:</span>
+<span class="o">-</span> <span class="n">text</span><span class="p">:</span> <span class="n">Sysmon</span> <span class="n">Source</span>
+  <span class="n">link</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">docs</span><span class="o">.</span><span class="n">microsoft</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">en</span><span class="o">-</span><span class="n">us</span><span class="o">/</span><span class="n">sysinternals</span><span class="o">/</span><span class="n">downloads</span><span class="o">/</span><span class="n">sysmon</span>
+<span class="o">-</span> <span class="n">text</span><span class="p">:</span> <span class="n">TrustedSec</span> <span class="n">Sysinternals</span> <span class="n">Sysmon</span> <span class="n">Community</span> <span class="n">Guide</span>
+  <span class="n">link</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">trustedsec</span><span class="o">/</span><span class="n">SysmonCommunityGuide</span>
+</pre></div>
+</div>
+<p><a class="reference external" href="#table-of-contents">Go to top</a></p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "hunters-forge/OSSEM",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "dd/guidelines"
+        }
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">Guidelines</a>
+    <a class='right-next' id="next-link" href="../../cdm/intro.html" title="next page">Introduction</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    <p>
+          &copy; Copyright 2020.<br/>
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.1.<br/>
+    </p>
+  </div>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="../../_static/js/index.js"></script>
+    
+  </body>
+</html>
