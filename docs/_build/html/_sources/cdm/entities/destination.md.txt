@@ -59,7 +59,7 @@ Event fields used to define the destination (server) in a network connection eve
  | dst_host_type | string | The type of the source device | ```mobile``` |
  | dst_interface_guid | string | GUID of the network interface which was used for authentication request. | ```7C202E90-2FBE-4275-AB0E-9BF67E04BEDF``` |
  | dst_interface_name | string | The network interface used for the connection or session by the destination device. | ```eth02``` |
- | dst_ip_addr | ip | IP address captures in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall. | ```192.168.1.2``` |
+ | dst_ip_addr | ip | IP address captured in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall. | ```192.168.1.2``` |
  | dst_ip_bytes | integer | network IP (header) bytes sent by the either the source or destination ip address | ```100``` |
  | dst_ip_dhcp_assigned_ip_addr | ip | IP address assigned by the DHCP server. | ```192.168.1.2``` |
  | dst_ip_is_ipv6 | boolean | If source or destination IP address is IP version 6 | ```false``` |
@@ -69,7 +69,7 @@ Event fields used to define the destination (server) in a network connection eve
  | dst_mime_type | string | Destination MIME type as seen in (layer 7) application layer details or as defined by an application scanner such as an anti-virus/EDR. For HTTP this is usually from the server's "Content-Type" header. https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types | ```application/pdf``` |
  | dst_packets | integer | Network packets sent by the destination (Reply) | ```5``` |
  | dst_port_name | string | Name of the port used in a network connection. This is usually determined by IANA common port assignment. Therefore, this means its a guess and NOT actually what the application/ is what the actually. | ```netbios-dgm``` |
- | dst_port_number | integer | Source port number used in a network connection. | ```138``` |
+ | dst_port_number | integer | Port number used in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall. | ```138``` |
  | dst_region | string | The region within a country associated with the destination IP address | ```Vermont``` |
  | dst_resource_group | string | The ID of the group to which the destination device belongs in a network connection. This might be an AWS account, or an Azure subscription or Resource Group | ```DatabaseVMs``` |
  | dst_resource_id | string | The resource Id of the destination device in a network connection | ```/subscriptions/33333333-8888-4444-a115-aaaaaaaaaaaa/resourcegroups/shokobo/providers/microsoft.compute/virtualmachines/sysmachine2``` |

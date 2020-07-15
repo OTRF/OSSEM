@@ -23,9 +23,9 @@ Event fields used to define network sessions.
  | destination | dst_longitude | real | The longitude of the geographical coordinate associated with the destination IP address | -73.211944 |
  | destination | dst_mac_address | mac | MAC address of an endpoint or network interface where a connection starts or ends. | 00:11:22:33:44:55 |
  | destination_nat | dst_nat_ip_addr | ip | IP address captured in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall. | 192.168.1.2 |
- | destination_nat | dst_nat_port_number | integer | Source port number used in a network connection. | 138 |
+ | destination_nat | dst_nat_port_number | integer | Port number used in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall. | 138 |
  | destination | dst_packets | integer | Network packets sent by the destination (Reply) | 5 |
- | destination | dst_port_number | integer | Source port number used in a network connection. | 138 |
+ | destination | dst_port_number | integer | Port number used in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall. | 138 |
  | destination | dst_region | string | The region within a country associated with the destination IP address | Vermont |
  | destination | dst_resource_group | string | The ID of the group to which the destination device belongs in a network connection. This might be an AWS account, or an Azure subscription or Resource Group | DatabaseVMs |
  | destination | dst_resource_id | string | The resource Id of the destination device in a network connection | /subscriptions/33333333-8888-4444-a115-aaaaaaaaaaaa/resourcegroups/shokobo/providers/microsoft.compute/virtualmachines/sysmachine2 |
@@ -96,9 +96,9 @@ Event fields used to define network sessions.
  | source | src_longitude | real | The longitude of the geographical coordinate associated with the source IP address | -73.211944 |
  | source | src_mac_address | mac | MAC address of an endpoint or network interface where a connection starts or ends. | 00:11:22:33:44:55 |
  | source_nat | src_nat_ip_addr | ip | IP address captured in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall. | 192.168.1.2 |
- | source_nat | src_nat_port_number | integer | Source port number used in a network connection. | 138 |
+ | source_nat | src_nat_port_number | integer | Port number used in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall. | 138 |
  | source | src_packets | integer | Network packets sent by the source | 5 |
- | source | src_port_number | integer | Source port number used in a network connection. | 138 |
+ | source | src_port_number | integer | Port number used in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall. | 138 |
  | source | src_region | string | The region within a country associated with the source IP address | Vermont |
  | source | src_resource_group | string | The ID of the group to which the source device belongs in a network connection. This might be an AWS account, or an Azure subscription or Resource Group | DatabaseVMs |
  | source | src_resource_id | string | The resource Id of the source device in a network connection | /subscriptions/33333333-8888-4444-a115-aaaaaaaaaaaa/resourcegroups/shokobo/providers/microsoft.compute/virtualmachines/sysmachine2 |
