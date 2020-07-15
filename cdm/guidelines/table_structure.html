@@ -116,6 +116,9 @@
   <li class="">
     <a href="../entities/intro.html">Entities</a>
   </li>
+  <li class="">
+    <a href="../tables/intro.html">Tables</a>
+  </li>
 <li class="navbar-special">
 <p class="margin-caption">ATT&CK Data Sources</p>
 </li>
@@ -215,6 +218,8 @@
 <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">hash</span>
 <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">user</span>
 <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">file</span>
+  <span class="nt">prefix</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">file</span>
   <span class="nt">attributes</span><span class="p">:</span>
   <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">name</span>
   <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">path</span>
@@ -247,7 +252,7 @@
 <li><p>You can generate an ID value by running the following command <code class="docutils literal notranslate"><span class="pre">uuidgen</span></code> in macOS.</p></li>
 </ul>
 </li>
-<li><p><strong>description:</strong> Description of the current entity.</p></li>
+<li><p><strong>description:</strong> Description of the current table.</p></li>
 </ul>
 </div>
 <div class="section" id="entities">
@@ -256,6 +261,8 @@
 <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">hash</span>
 <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">user</span>
 <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">file</span>
+  <span class="nt">prefix</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">file</span>
   <span class="nt">attributes</span><span class="p">:</span>
   <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">name</span>
   <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">path</span>
@@ -272,7 +279,8 @@
 </pre></div>
 </div>
 <ul class="simple">
-<li><p>As mentioned before, entities form tables, and they are added under the <code class="docutils literal notranslate"><span class="pre">entities</span></code> property.</p></li>
+<li><p>As mentioned before, we can define tables by grouping more than one pre-defined entity.</p></li>
+<li><p>Entities that form a table are added under the <code class="docutils literal notranslate"><span class="pre">entities</span></code> property.</p></li>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">entities</span></code> property expects a list of <code class="docutils literal notranslate"><span class="pre">strings</span></code> or <code class="docutils literal notranslate"><span class="pre">dictionaries</span></code></p>
 <ul>
 <li><p><code class="docutils literal notranslate"><span class="pre">Strings</span></code> are used to directly call an entity and all its attributes.</p>
@@ -286,19 +294,27 @@
 <li><p>You can use a dictionary to define what specific attributes you want from existing entities.</p></li>
 </ul>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">file</span>
+  <span class="nt">prefix</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">file</span>
   <span class="nt">attributes</span><span class="p">:</span>
   <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">name</span>
   <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">path</span>
 </pre></div>
 </div>
 <ul class="simple">
-<li><p>The table would end up with the followin attributes from the <code class="docutils literal notranslate"><span class="pre">file</span></code> entity</p>
+<li><p>We define the name of the entity and the valid prefix for the entity.</p>
+<ul>
+<li><p>We define the entity to be flexible and be able to be very specific when pulling field names (prefix + attribute) from our already defined entities.</p></li>
+<li><p>All we do next is just take the <code class="docutils literal notranslate"><span class="pre">prefix</span></code>, append it to the <code class="docutils literal notranslate"><span class="pre">attribute</span></code> and compare it with attributes in our official entities list. If we find a match then we add it to the table.</p></li>
+</ul>
+</li>
+<li><p>A table would end up with the following attributes from the <code class="docutils literal notranslate"><span class="pre">file</span></code> entity</p>
 <ul>
 <li><p><code class="docutils literal notranslate"><span class="pre">file_name</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">file_path</span></code></p></li>
 </ul>
 </li>
-<li><p>You can also use a dictionary to introduce custom entities with custom attributes that do not exist currently in the common data model.</p></li>
+<li><p>You can also use a dictionary to introduce custom entities with custom attributes that do not exist currently in the common data model. This is good for collaboration purposes.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">Custom</span></code> dictionaries contain a list of dictionaries.</p>
 <ul>
 <li><p>Each dictionary is a custom/new entity</p>
