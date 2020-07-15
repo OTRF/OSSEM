@@ -12,6 +12,8 @@ entities:
 - hash
 - user
 - name: file
+  prefix:
+  - file
   attributes:
   - name
   - path
@@ -38,7 +40,7 @@ description: Event fields used to define network sessions in an endpoint.
 * **id:** Unique identifier for the current entity (i.e `035E058E-5405-4B3B-9288-E78A63B40DAA`)
     * You can generate an ID value by running the following command `uuidgen` in macOS.
 
-* **description:** Description of the current entity.
+* **description:** Description of the current table.
 
 ## Entities
 
@@ -47,6 +49,8 @@ entities:
 - hash
 - user
 - name: file
+  prefix:
+  - file
   attributes:
   - name
   - path
@@ -62,7 +66,8 @@ entities:
       sample_value: 'Win32.Small.ahif(90603579)'
 ```
 
-* As mentioned before, entities form tables, and they are added under the `entities` property.
+* As mentioned before, we can define tables by grouping more than one pre-defined entity.
+* Entities that form a table are added under the `entities` property.
 * The `entities` property expects a list of `strings` or `dictionaries`
   * `Strings` are used to directly call an entity and all its attributes.
     * They must be lower case (Following the same guidelines defined in the `Entity Structure` documentation)
@@ -72,15 +77,20 @@ entities:
 
 ```yaml
 - name: file
+  prefix:
+  - file
   attributes:
   - name
   - path
 ```
-* The table would end up with the followin attributes from the `file` entity
+* We define the name of the entity and the valid prefix for the entity.
+  * We define the entity to be flexible and be able to be very specific when pulling field names (prefix + attribute) from our already defined entities.
+  * All we do next is just take the `prefix`, append it to the `attribute` and compare it with attributes in our official entities list. If we find a match then we add it to the table.
+* A table would end up with the following attributes from the `file` entity
   * `file_name`
   * `file_path`
 
-* You can also use a dictionary to introduce custom entities with custom attributes that do not exist currently in the common data model.
+* You can also use a dictionary to introduce custom entities with custom attributes that do not exist currently in the common data model. This is good for collaboration purposes.
 
 * `Custom` dictionaries contain a list of dictionaries.
   * Each dictionary is a custom/new entity
