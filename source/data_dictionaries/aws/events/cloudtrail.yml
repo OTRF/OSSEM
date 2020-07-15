@@ -2,6 +2,7 @@ title: Cloudtrail
 description: AWS CloudTrail Log format common schema
 platform: aws
 log_source: cloudtrail
+event_code: cloudtrail
 event_fields:
 - standard_name: TBD 
   standard_type: TBD 
@@ -81,9 +82,8 @@ event_fields:
   standard_type: TBD 
   name: errorMessage 
   type: string 
-  description: if the request returns an error, the 
-  description: of the error.This message includes the message for authorization failures.
-  sample_value: "Unknown trail: myTrail2 for the user: 123456789012"
+  description: if the request returns an error, the of the error. This message includes the message for authorization failures.
+  sample_value: 'Unknown trail: myTrail2 for the user: 123456789012'
 - standard_name: TBD 
   standard_type: TBD 
   name: requestParameters 
