@@ -3,6 +3,7 @@ description: VPC Flow Log format common schema.
 platform: aws
 log_source: vpc_flow_log
 event_code: vpc_flow
+event_version: '2'
 event_fields:
 - standard_name: TBD
   standard_type:  TBD
@@ -155,5 +156,4 @@ references:
     link: https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html#flow-logs-fields
   - text: VPC Flow Log Record Examples
     link: https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs-records-examples.html
-tags:
-  - version_2
+tags: []

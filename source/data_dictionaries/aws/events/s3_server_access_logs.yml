@@ -3,6 +3,7 @@ description: S3 Server Access Log format common schema.
 platform: aws
 log_source: s3_server_access_log
 event_code: s3_server_access
+event_version: '0'
 event_fields:
 - standard_name: TBD 
   standard_type: TBD
@@ -178,4 +179,4 @@ references:
   - text: Amazon S3 Server Access Log Format
     link: https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html
 tags:
-  - version_API-2006-03-01
+  - '2006-03-01'

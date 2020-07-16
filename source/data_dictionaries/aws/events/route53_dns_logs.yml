@@ -3,6 +3,7 @@ description: AWS Route 53 DNS Log format common schema
 platform: aws
 log_source: route53_dns_log
 event_code: route53_dns
+event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
@@ -88,5 +89,4 @@ references:
     link: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/query-logs.html
   - text: Values that appear in DNS query logs
     link: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/query-logs.html#query-logs-format
-tags:
-  - version_1.0
+tags: []
