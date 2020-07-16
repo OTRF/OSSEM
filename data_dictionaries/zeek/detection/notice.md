@@ -1,11 +1,7 @@
 # Notice Log
 
 ## Description
-
-## Event JSON
-
-```json
-```
+This is the notice framework which enables Zeek to “notice” things which are odd or potentially bad. Decisions of the meaning of various notices need to be done per site because Zeek does not ship with assumptions about what is bad activity for sites.
 
 ## Data Dictionary
 
@@ -34,3 +30,9 @@
 |     TBD     |     remote_location.city     |     string     |     The city     |     ``     |
 |     TBD     |     remote_location.latitude|double|Latitude     |     ``     |
 |     TBD     |     remote_location.longitude|double|Longitude     |     ``     |
+
+
+## Event JSON
+
+```json
+```
