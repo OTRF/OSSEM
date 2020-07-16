@@ -1,9 +1,10 @@
 title: 'Event ID 4694: Protection of auditable protected data was attempted.'
-description: This event generates if DPAPI's CryptProtectData() function was
-  used with CRYPTPROTECT_AUDIT flag (dwFlags) enabled."
+description: This event generates if DPAPI's CryptProtectData() function was used
+  with CRYPTPROTECT_AUDIT flag (dwFlags) enabled."
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4694'
+event_version: '0'
 event_fields:
 - standard_name: user_sid
   standard_type: TBD

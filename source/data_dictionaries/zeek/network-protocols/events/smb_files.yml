@@ -3,6 +3,7 @@ description: null
 platform: zeek
 log_source: network-protocols
 event_code: smb_files
+event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
   standard_type: TBD
@@ -39,7 +40,7 @@ event_fields:
   name: uid
   type: string
   description: Unique ID of the connection the file was sent over
-  sample_value: 'CVCEfC2Vej9sjr5ARe'
+  sample_value: CVCEfC2Vej9sjr5ARe
 - standard_name: TBD
   standard_type: TBD
   name: fuid
@@ -68,15 +69,14 @@ event_fields:
   standard_type: TBD
   name: times_modified
   type: date_time
-  description:  The time attribute for when data was last written to the file
+  description: The time attribute for when data was last written to the file
   sample_value: '1505416680.062500'
 - standard_name: share_relative_target_name
   standard_type: TBD
   name: name
   type: string
   description: The path/name relative to tree's path that was accessed
-  sample_value: adtest.local\\Policies\\{4132D0FE-8293-4D5A-BB3D-2164535CA3B2}\\
-    Machine\\Preferences\\ScheduledTasks\\ScheduledTasks.xml
+  sample_value: adtest.local\\Policies\\{4132D0FE-8293-4D5A-BB3D-2164535CA3B2}\\ Machine\\Preferences\\ScheduledTasks\\ScheduledTasks.xml
 - standard_name: share_name
   standard_type: TBD
   name: path

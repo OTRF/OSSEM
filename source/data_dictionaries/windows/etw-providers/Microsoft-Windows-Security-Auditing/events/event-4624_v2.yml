@@ -5,6 +5,7 @@ description: This event generates when a logon session is created (on destinatio
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4624'
+event_version: '2'
 event_fields:
 - standard_name: user_reporter_sid
   standard_type: TBD
@@ -221,6 +222,5 @@ references:
 tags:
 - etw_level_Informational
 - etw_task_task_0
-- version_2
 - Logon/Logoff
 - Audit Logon
