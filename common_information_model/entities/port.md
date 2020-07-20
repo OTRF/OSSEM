@@ -1,4 +1,4 @@
-# Port Schema
+# Port Entity
 Event fields used to define metadata about ports in a network connection.
 
 ## Data Fields

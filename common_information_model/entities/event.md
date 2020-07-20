@@ -1,4 +1,4 @@
-# Event Schema
+# Event Entity
 Event fields used to define specific metadata of the event itself. For example event_uid or event_creation_timestamp
 
 ## Data Fields

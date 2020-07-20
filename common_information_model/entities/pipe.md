@@ -1,4 +1,4 @@
-# Pipe Object
+# Pipe Object Entity
 Event fields used to define metadata about pipes being created or connected in an endpoint.
 
 ## Data Fields

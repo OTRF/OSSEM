@@ -1,6 +1,5 @@
-# TLS Schema
-Event fields used to define metadata about a TLS(SSL) record.<br>
-This document is a work in progress, but is a foundational start there is included. Specifically the main foundations of TLS info is already in here
+# TLS Entity
+TLS(SSL) attributes. Most commonly associated with an HTTPS connection
 
 ## Data Fields
 |Standard Name|Type|Description|Sample Value|

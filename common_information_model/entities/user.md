@@ -1,4 +1,4 @@
-# User Shema
+# User Entity
 Event fields used to define metadata about users in an network environment.
 
 ## Data Fields

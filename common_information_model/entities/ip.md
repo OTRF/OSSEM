@@ -1,4 +1,4 @@
-# IP Schema
+# IP Entity
 Event fields used to define metadata about IP addresses in a network. It follows the standard from the Destination and Source categories.
 
 ## Data Fields

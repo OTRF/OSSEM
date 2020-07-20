@@ -1,4 +1,4 @@
-# Logon Schema
+# Logon Entity
 Event fields used to define metadata about logon events.
 
 ## Data Fields

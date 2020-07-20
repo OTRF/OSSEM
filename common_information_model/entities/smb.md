@@ -1,4 +1,4 @@
-# SMB Schema
+# SMB Entity
 Use for SMB specific fields/values.
 
 ## Data Fields

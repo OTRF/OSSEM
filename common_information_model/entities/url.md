@@ -1,4 +1,4 @@
-# URL Schema
+# URL Entity
 Event fields used to define metadata about a URL/URI. There is a lot of ambiguity from the community on the difference URL vs URI. Granted, URL would normally include the domain, port (if applicable), user, password, query, fragment, and URI.
 However, there are many scenarios from log sources where one could not distinguish whether it was the full URL or just the URI.  
 URL data can be seen in various log sources as defined in [HTTP](http.md) as well as other applications such as SIP. URLs, especially in HTTP, have a best practice implementation however it is not necessary to adhere for connections/data to be established.

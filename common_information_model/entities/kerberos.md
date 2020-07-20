@@ -1,4 +1,4 @@
-# Kerberos Schema
+# Kerberos Entity
 Event fields used to define Kerberos Ticket Granting Service and Kerberos Ticket Granting Tickets.<br>
 For certificate information within Kerberos see the ./x509_and_certificates.md
 

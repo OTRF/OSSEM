@@ -1,4 +1,4 @@
-# Process Schema
+# Process Entity
 Event fields used to define metadata about processes in an system.
 
 ## Data Fields

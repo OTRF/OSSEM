@@ -1,4 +1,4 @@
-# Hash Schema
+# Hash Entity
 Event fields used to define metadata about hashes.
 
 ## Data Fields

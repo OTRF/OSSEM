@@ -1,4 +1,4 @@
-# DNS Schema
+# DNS Entity
 Event fields used to define metadata in DNS events. This commonly includes data in logs that contain DNS queries.
 Including, but not limited to, Zeek dns.log, Suricata DNS, Sysmon EventID 22, Windows DNS debug/trace logs.
 In the verbiage below, request is used to denote the client (or forwarded address if applicable) that is making the DNS request. This would commonly be the client/source that is looking up a domain.

@@ -1,4 +1,4 @@
-# Alert Schema
+# Alert Entity
 Alert fields that describe an indicator from a tool of a possible issue.
 
 ## Data Fields

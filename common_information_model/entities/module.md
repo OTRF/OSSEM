@@ -1,4 +1,4 @@
-# Module Schema
+# Module Entity
 Event fields used to define metadata about modules in an endpoint.
 
 ## Data Fields

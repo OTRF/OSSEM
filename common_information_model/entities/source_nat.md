@@ -1,4 +1,4 @@
-# Source NAT Schema
+# Source NAT Entity
 Event fields used to define the source NAT (network address translation) in a network connection event.
 
 ## Data Fields

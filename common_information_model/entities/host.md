@@ -1,4 +1,4 @@
-# Host Schema
+# Host Entity
 Event fields used to define metadata about hosts where events are originally created.
 
 ## Data Fields

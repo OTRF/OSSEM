@@ -1,15 +1,15 @@
-# Destination Schema
+# Destination Entity
 Event fields used to define the destination (server) in a network connection event.
 
 ## Data Fields
 |Standard Name|Type|Description|Sample Value|
 |---|---|---|---|
 | dst_bytes|integer|network bytes sent by the `dst_ip_addr`|100|
-| dst_domain|string|If there is a clear distinction of the domain VS hostname VS FQDN this is the domain field. More often than not this should NOT be used and should be defined in the [Target Schema](target.md), [Host Schema](host.md), or [User Schema](user.md). However, you may follow the recommendations [here](../../guidelines/domain_or_hostname_or_fqdn.md) if there is a clear example for this|bigwheel.corporation.local|
+| dst_domain|string|If there is a clear distinction of the domain VS hostname VS FQDN this is the domain field. More often than not this should NOT be used and should be defined in the [Target](target.md), [Host](host.md), or [User](user.md). However, you may follow the recommendations [here](../../guidelines/domain_or_hostname_or_fqdn.md) if there is a clear example for this|bigwheel.corporation.local|
 |dst_file_extension|string|The file extension of a file (.txt, .exe, etc)|exe|
 |dst_file_name|string|name of a file without its full path|a.exe|
 |dst_file_path|string|full path of a file including the name of the file|C:\users\wardog\z.exe|
-| dst_fqdn|string|If there is a clear distinction of the domain VS hostname VS FQDN this is the FQDN field. More often than not this should NOT be used and should be defined in the [Target Schema](target.md), [Host Schema](host.md), or [User Schema](user.md). However, you may follow the recommendations [here](../../guidelines/domain_or_hostname_or_fqdn.md) if there is a clear example for this|bob-berto-pc.bigwheel.corporation.local|
+| dst_fqdn|string|If there is a clear distinction of the domain VS hostname VS FQDN this is the FQDN field. More often than not this should NOT be used and should be defined in the [Target](target.md), [Host](host.md), or [User](user.md). However, you may follow the recommendations [here](../../guidelines/domain_or_hostname_or_fqdn.md) if there is a clear example for this|bob-berto-pc.bigwheel.corporation.local|
 | dst_host_name|string|The destination server, host, hostname, domain, or domain name. Some examples, would include the TLS server name, HTTP Host, DNS Query Name, etc. For information on how to define and use this field refer to the documentation [here](../../guidelines/domain_or_hostname_or_fqdn.md)|www.google.com|
 |dst_ip_addr|ip|Destination IP address|8.8.8.8|
 | dst_ip_bytes|integer|network IP (header) bytes sent by the `dst_ip_addr`|104|

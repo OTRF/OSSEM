@@ -1,4 +1,4 @@
-# Target
+# Target Entity
 Event fields used to define entities being targeted by other entities locally in a system. This is different from a network connection event. It is more related to events that involve relationships defined locally by entities such as files, processes,users, etc.
 
 ## Data Fields

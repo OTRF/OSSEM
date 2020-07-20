@@ -1,5 +1,5 @@
-# Software and Device Schema
-Information about software or a (build) device and operating system. There are many similar information between and device and operating system and software that these will be kept in one general schema.
+# Software and Device Entity
+Information about software or a (build) device and operating system. There are many similar information between and device and operating system and software that these will be kept in one general entity.
 
 ## Data Fields
 |Standard Name|Type|Description|Sample Value|

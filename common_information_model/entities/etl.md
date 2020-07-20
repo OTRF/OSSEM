@@ -1,4 +1,4 @@
-# ETL Schema
+# ETL Entity
 Event fields used to define specific metadata about the event during the processing of an ETL pipeline.
 
 ## Data Fields
@@ -25,4 +25,4 @@ Event fields used to define specific metadata about the event during the process
 | etl_kafka_topic|string|Kafka topic name|winevent|
 |etl_pipeline|string|Used to keep track of tags related to transforms, enrichment, or modifications made in an ETL pipeline|all-add_processed_timestamp|
 | etl_processed_time|date|The first time the event gets processed by the ETL in UTC format (processing pipeline)|4/11/2018 5:49:25|
-| etl_version|string|The schema or transform versioning that is being applied|2020.04.19.01|
+| etl_version|string|The entity or transform versioning that is being applied|2020.04.19.01|
