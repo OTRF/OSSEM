@@ -1,4 +1,4 @@
-title: MachineInfo
+title: DeviceInfo
 description: Machine information, including OS information
 platform: windows
 log_source: windowsdefenderatp
@@ -6,19 +6,19 @@ event_code: MachineInfo
 event_fields:
 - standard_name: event_date_creation
   standard_type: TBD
-  name: EventTime
+  name: Timestamp
   type: date
   description: Date and time when the event was recorded
   sample_value: ''
 - standard_name: machine_id
   standard_type: TBD
-  name: MachineId
+  name: DeviceId
   type: string
   description: Unique identifier for the machine in the service
   sample_value: ''
 - standard_name: computer_name
   standard_type: TBD
-  name: ComputerName
+  name: DeviceName
   type: string
   description: Fully qualified domain name (FQDN) of the machine
   sample_value: ''
@@ -26,15 +26,13 @@ event_fields:
   standard_type: TBD
   name: ClientVersion
   type: ''
-  description: ''
+  description: Version of the endpoint agent or sensor running on the device
   sample_value: ''
 - standard_name: public_ip
   standard_type: TBD
   name: PublicIP
   type: string
-  description: Public IP address used by the onboarded machine to connect to the Windows
-    Defender ATP service. This could be the IP address of the machine itself, a NAT
-    device, or a proxy.
+  description: Public IP address used by the onboarded device to connect to the Microsoft Defender ATP service. This could be the IP address of the device itself, a NAT device, or a proxy
   sample_value: ''
 - standard_name: os_architecture
   standard_type: TBD
@@ -46,9 +44,7 @@ event_fields:
   standard_type: TBD
   name: OSPlatform
   type: string
-  description: Platform of the operating system running on the machine. This indicates
-    specific operating systems, including variations within the same family, such
-    as Windows 10 and Windows 7.
+  description: Platform of the operating system running on the machine. This indicates specific operating systems, including variations within the same family, such as Windows 10 and Windows 7.
   sample_value: ''
 - standard_name: os_build
   standard_type: TBD
@@ -70,12 +66,11 @@ event_fields:
   description: List of all users that are logged on the machine at the time of the
     event in JSON array format
   sample_value: ''
-- standard_name: machine_group
+- standard_name: registry_device_tag
   standard_type: TBD
-  name: MachineGroup
+  name: RegistryDeviceTag
   type: string
-  description: Machine group of the machine. This group is used by role-based access
-    control to determine access to the machine.
+  description: Device tag added through the registry
   sample_value: ''
 - standard_name: report_id
   standard_type: TBD
@@ -88,7 +83,13 @@ event_fields:
   standard_type: TBD
   name: OSVersion
   type: ''
-  description: ''
+  description: Version of the operating system running on the device
+  sample_value: ''
+- standard_name: machine_group
+  standard_type: TBD
+  name: MachineGroup
+  type: string
+  description: Machine group of the machine. This group is used by role-based access control to determine access to the machine
   sample_value: ''
 references: []
 tags: []
