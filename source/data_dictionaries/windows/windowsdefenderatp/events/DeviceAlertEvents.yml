@@ -1,8 +1,8 @@
-title: AlertEvents
+title: DeviceAlertEvents
 description: Alerts on Windows Defender Security Center
 platform: windows
 log_source: windowsdefenderatp
-event_code: AlertEvents
+event_code: DeviceAlertEvents
 event_fields:
 - standard_name: alert_id
   standard_type: TBD
@@ -12,19 +12,19 @@ event_fields:
   sample_value: ''
 - standard_name: event_date_creation
   standard_type: TBD
-  name: EventTime
+  name: Timestamp
   type: date
   description: Date and time when the event was recorded
   sample_value: ''
-- standard_name: machine_id
+- standard_name: device_id
   standard_type: TBD
-  name: MachineId
+  name: DeviceId
   type: string
   description: Unique identifier for the machine in the service
   sample_value: ''
 - standard_name: computer_name
   standard_type: TBD
-  name: ComputerName
+  name: DeviceName
   type: string
   description: Fully qualified domain name (FQDN) of the machine
   sample_value: ''
@@ -32,19 +32,19 @@ event_fields:
   standard_type: TBD
   name: Severity
   type: ''
-  description: ''
+  description: Indicates the potential impact (high, medium, or low) of the threat indicator or breach activity identified by the alert
   sample_value: ''
 - standard_name: category
   standard_type: TBD
   name: Category
   type: ''
-  description: ''
+  description: Type of threat indicator or breach activity identified by the alert.
   sample_value: ''
 - standard_name: title
   standard_type: TBD
   name: Title
   type: ''
-  description: ''
+  description: Title of the alert
   sample_value: ''
 - standard_name: file_name
   standard_type: TBD
@@ -56,14 +56,13 @@ event_fields:
   standard_type: TBD
   name: SHA1
   type: string
-  description: "\xDF  SHA-1 of the file that the recorded action was applied to"
+  description: SHA-1 of the file that the recorded action was applied to
   sample_value: ''
 - standard_name: remote_url
   standard_type: TBD
   name: RemoteUrl
   type: string
-  description: URL or fully qualified domain name (FQDN) that was being connected
-    to
+  description: URL or fully qualified domain name (FQDN) that was being connected to
   sample_value: ''
 - standard_name: remote_ip
   standard_type: TBD
@@ -75,8 +74,7 @@ event_fields:
   standard_type: TBD
   name: ReportId
   type: long
-  description: Event identifier based on a repeating counter. To identify unique events,
-    this column must be used in conjunction with the ComputerName and EventTime columns.
+  description: Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns
   sample_value: ''
 - standard_name: table
   standard_type: TBD

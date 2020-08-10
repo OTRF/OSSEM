@@ -1,24 +1,24 @@
-title: RegistryEvents
+title: DeviceRegistryEvents
 description: Creation and modification of registry entries
 platform: windows
 log_source: windowsdefenderatp
-event_code: RegistryEvents
+event_code: DeviceRegistryEvents
 event_fields:
 - standard_name: event_date_creation
   standard_type: TBD
-  name: EventTime
+  name: Timestamp
   type: date
   description: Date and time when the event was recorded
   sample_value: ''
-- standard_name: machine_id
+- standard_name: device_id
   standard_type: TBD
-  name: MachineId
+  name: DeviceId
   type: string
   description: Unique identifier for the machine in the service
   sample_value: ''
 - standard_name: computer_name
   standard_type: TBD
-  name: ComputerName
+  name: DeviceName
   type: string
   description: Fully qualified domain name (FQDN) of the machine
   sample_value: ''

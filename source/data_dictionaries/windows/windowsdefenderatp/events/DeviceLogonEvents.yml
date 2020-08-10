@@ -1,24 +1,24 @@
-title: LogonEvents
+title: DeviceLogonEvents
 description: Login and other authentication events
 platform: windows
 log_source: windowsdefenderatp
-event_code: LogonEvents
+event_code: DeviceLogonEvents
 event_fields:
 - standard_name: event_date_creation
   standard_type: TBD
-  name: EventTime
+  name: Timestamp
   type: date
   description: Date and time when the event was recorded
   sample_value: ''
-- standard_name: machine_id
+- standard_name: device_id
   standard_type: TBD
-  name: MachineId
+  name: DeviceId
   type: string
   description: Unique identifier for the machine in the service
   sample_value: ''
 - standard_name: computer_name
   standard_type: TBD
-  name: ComputerName
+  name: DeviceName
   type: string
   description: Fully qualified domain name (FQDN) of the machine
   sample_value: ''
@@ -61,7 +61,7 @@ event_fields:
   sample_value: ''
 - standard_name: dst_host_name
   standard_type: TBD
-  name: RemoteComputerName
+  name: RemoteDeviceName
   type: string
   description: Name of the machine that performed a remote operation on the affected
     machine. Depending on the event being reported, this name could be a fully-qualified
@@ -203,6 +203,12 @@ event_fields:
   type: string
   description: Identifier for the virtualized container used by Application Guard
     to isolate browser activity
+  sample_value: ''
+- standard_name: user_local_admin
+  standard_type: TBD
+  name: IsLocalAdmin
+  type: boolean
+  description: Boolean indicator of whether the user is a local administrator on the device
   sample_value: ''
 references: []
 tags: []
