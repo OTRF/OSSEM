@@ -250,7 +250,7 @@ class ossemParser():
         dds_template = env.get_template('data_dictionary_template.md')
         cim_template = env.get_template('cim_entity_template.md')
         ddm_template = env.get_template('ddm_relationships_template.md')
-        ds_template = env.get_template('attack_ds_template.md')
+        ds_template = env.get_template('attack/ds_template.md')
 
         #generate data dictionary event markdown
         for entry in self.data_dictionaries:
