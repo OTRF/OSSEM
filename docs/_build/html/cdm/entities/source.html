@@ -1,0 +1,1095 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>source &#8212; The OSSEM Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="../../_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/jupyter-sphinx.css" />
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/sphinx-book-theme.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/mystnb.js"></script>
+    <script src="../../_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .secondtoggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script async="async" src="../../_static/thebelab.js"></script>
+    <link rel="canonical" href="https://ossemproject.com/cdm/entities/source.html" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="pipe" href="pipe.html" />
+    <link rel="prev" title="Entities" href="intro.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+<!-- Put requirejs at the end so it's always after bootstrap -->
+<!-- TODO: remove this once https://github.com/pandas-dev/pydata-sphinx-theme/pull/149 is merged -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+
+<!-- Opengraph tags -->
+<meta property="og:url"         content="https://ossemproject.com/cdm/entities/source.html" />
+<meta property="og:type"        content="article" />
+<meta property="og:title"       content="source" />
+<meta property="og:description" content="source  Event fields used to define the source (client) in a network connection event.  Attributes          Name  Type  Description  Sample Value  src_bytes  in" />
+<meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
+
+<meta name="twitter:card" content="summary">
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../../index.html">
+  
+  <img src="../../_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">The OSSEM Project</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  
+  <ul class="nav sidenav_l1">
+<li class="navbar-special">
+<p class="margin-caption">Data Dictionaries</p>
+</li>
+  <li class="">
+    <a href="../../dd/intro.html">Introduction</a>
+  </li>
+  <li class="">
+    <a href="../../dd/guidelines/intro.html">Guidelines</a>
+  </li>
+<li class="navbar-special">
+<p class="margin-caption">Common Data Model</p>
+</li>
+  <li class="">
+    <a href="../intro.html">Introduction</a>
+  </li>
+  <li class="">
+    <a href="../guidelines/intro.html">Guidelines</a>
+  </li>
+  <li class="active">
+    <a href="intro.html">Entities</a>
+  <ul class="nav sidenav_l2">
+    <li class="active">
+      <a href="">source</a>
+    </li>
+    <li class="">
+      <a href="pipe.html">pipe</a>
+    </li>
+    <li class="">
+      <a href="network.html">network</a>
+    </li>
+    <li class="">
+      <a href="process.html">process</a>
+    </li>
+    <li class="">
+      <a href="url.html">url</a>
+    </li>
+    <li class="">
+      <a href="ip.html">ip</a>
+    </li>
+    <li class="">
+      <a href="user_agent.html">user_agent</a>
+    </li>
+    <li class="">
+      <a href="any.html">any</a>
+    </li>
+    <li class="">
+      <a href="module.html">module</a>
+    </li>
+    <li class="">
+      <a href="cloud.html">cloud</a>
+    </li>
+    <li class="">
+      <a href="device.html">device</a>
+    </li>
+    <li class="">
+      <a href="logon.html">logon</a>
+    </li>
+    <li class="">
+      <a href="file.html">file</a>
+    </li>
+    <li class="">
+      <a href="registry.html">registry</a>
+    </li>
+    <li class="">
+      <a href="alert.html">alert</a>
+    </li>
+    <li class="">
+      <a href="destination.html">destination</a>
+    </li>
+    <li class="">
+      <a href="etl.html">etl</a>
+    </li>
+    <li class="">
+      <a href="user.html">user</a>
+    </li>
+    <li class="">
+      <a href="http.html">http<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    <li class="">
+      <a href="meta.html">meta</a>
+    </li>
+    <li class="">
+      <a href="tls.html">tls</a>
+    </li>
+    <li class="">
+      <a href="target.html">target</a>
+    </li>
+    <li class="">
+      <a href="mac.html">mac</a>
+    </li>
+    <li class="">
+      <a href="destination_nat.html">destination_nat</a>
+    </li>
+    <li class="">
+      <a href="port.html">port</a>
+    </li>
+    <li class="">
+      <a href="hash.html">hash</a>
+    </li>
+    <li class="">
+      <a href="event.html">event</a>
+    </li>
+    <li class="">
+      <a href="dns.html">dns</a>
+    </li>
+    <li class="">
+      <a href="group.html">group</a>
+    </li>
+    <li class="">
+      <a href="certificate.html">certificate</a>
+    </li>
+    <li class="">
+      <a href="source_nat.html">source_nat</a>
+    </li>
+    <li class="">
+      <a href="kerberos.html">kerberos</a>
+    </li>
+    <li class="">
+      <a href="host.html">host</a>
+    </li>
+  </ul>
+  </li>
+  <li class="">
+    <a href="../tables/intro.html">Tables</a>
+  </li>
+<li class="navbar-special">
+<p class="margin-caption">ATT&CK Data Sources</p>
+</li>
+  <li class="">
+    <a href="../../attack/windows/intro.html">Windows</a>
+  </li>
+</ul>
+</nav>
+<p class="navbar_footer">Powered by <a href="https://jupyterbook.org">Jupyter Book</a></p>
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation" title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i class="fas fa-download"></i></button>
+
+            
+            <div class="dropdown-buttons">
+                <!-- ipynb file if we had a myst markdown file -->
+                
+                <!-- Download raw file -->
+                <a class="dropdown-buttons" href="../../_sources/cdm/entities/source.md.txt"><button type="button" class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip" data-placement="left">.md</button></a>
+                <!-- Download PDF via print -->
+                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF" onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+            </div>
+            
+        </div>
+
+        <!-- Edit this page -->
+        <a class="edit-button" href="https://github.com/hunters-forge/OSSEM/edit/master/docs/cdm/entities/source.md"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" title="Edit this page"><i class="fas fa-pencil-alt"></i></button></a>
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+        
+
+        
+    </div>
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#attributes" class="nav-link">Attributes</a>
+        </li>
+    
+    </ul>
+</nav>
+
+
+
+<div class="tocsection editthispage">
+    <a href="https://github.com/hunters-forge/OSSEM/edit/master/docs/cdm/entities/source.md">
+        <i class="fas fa-pencil-alt"></i> Edit this page
+    </a>
+</div>
+
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 col-xxl-7 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="source">
+<h1>source<a class="headerlink" href="#source" title="Permalink to this headline">¶</a></h1>
+<p>Event fields used to define the source (client) in a network connection event.</p>
+<div class="section" id="attributes">
+<h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:left head"><p>Name</p></th>
+<th class="text-align:left head"><p>Type</p></th>
+<th class="text-align:left head"><p>Description</p></th>
+<th class="text-align:left head"><p>Sample Value</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:left"><p>src_bytes</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>network bytes sent by the src_ip_addr</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">100</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_city</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The city associated with the source IP address</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Burlington</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_country</p></td>
+<td class="text-align:left"><p>country</p></td>
+<td class="text-align:left"><p>The country associated with the source IP address</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">USA</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_domain</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The (DNS) hierarchy that encompasses multiple hosts (i.e a Windows Active Directory environment).</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">bigwheel.corporation.local</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_file_accessed_time</p></td>
+<td class="text-align:left"><p>date</p></td>
+<td class="text-align:left"><p>When the file was last accessed . Also known as <code class="docutils literal notranslate"><span class="pre">atime</span></code></p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2016-11-25</span> <span class="pre">18:21:47</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_file_changed_time</p></td>
+<td class="text-align:left"><p>date</p></td>
+<td class="text-align:left"><p>When the file was last changed. Also known as <code class="docutils literal notranslate"><span class="pre">ctime</span></code></p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2016-11-25</span> <span class="pre">18:21:47</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_file_creation_time</p></td>
+<td class="text-align:left"><p>date</p></td>
+<td class="text-align:left"><p>When the file was created. Also known as <code class="docutils literal notranslate"><span class="pre">crtime</span></code></p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2016-11-25</span> <span class="pre">18:21:47</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_file_directory</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Directory of file(s). It does not include the file name</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\users\wardog\</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_file_extension</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The file extension of a file (.txt, .exe, etc)</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">exe</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_file_hard_links</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>Number of hard links</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">3</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_file_hash_imphash</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>IMPHASH hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2505BD03D7BD285E50CE89CEC02B333B</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_file_hash_md5</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>MD5 hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">6A255BEBF3DBCD13585538ED47DBAFD7</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_file_hash_sha1</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>SHA1 hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_file_hash_sha256</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>SHA256 hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_file_hash_sha512</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>SHA512 hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">1AD1D79F85D8F6A50EA282F63898D652661DAA0C1FD361C22647CABC98A70E8CBCE83200D579D10DD0A3D46BE9496DCDFDDF28B0C5E9709343B032A8796FBECB</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_file_inode</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>Filesystem inode number</p></td>
+<td class="text-align:left"><p>``````</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_file_link_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>path of the hard link</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\Docs\My.exe</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_file_mime_type</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Specifies the MIME type name specified for a file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">application/msword</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_file_modified_time</p></td>
+<td class="text-align:left"><p>date</p></td>
+<td class="text-align:left"><p>When the file was last modified. Also known as <code class="docutils literal notranslate"><span class="pre">mtime</span></code></p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2016-11-25</span> <span class="pre">18:21:47</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_file_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>name of a file without its full path. This could be a local file or transmitted over the network.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">a.exe</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_file_path</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>full path of a file including the name of the file.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\users\wardog\z.exe</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_file_previous_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The file’s previous name</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\\Windows\system32\cmd.exe</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_file_size</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Specifies the size of a file, in bytes</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">45</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_file_symlink</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>1 if the path is a symlink, otherwise 0</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_file_symlink_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>path of the symlink</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\Docs\My.exe</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_file_system_block_size</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>Block size of filesystem</p></td>
+<td class="text-align:left"><p>``````</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_file_system_type</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The file system type, ex:  fat32, ntfs, vmfs, ext3, ext4, xfs</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">ntfs</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_fqdn</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The absolute (entire) value of the DNS hierarchy from the lowest level to the top level domain (TLD). Consists of the Hostname and Domain. This is best defined in <a class="reference external" href="https://en.wikipedia.org/w/index.php?title=Fully_qualified_domain_name&amp;oldid=911195384#Syntax">this Wikipedia</a> article on FQDN.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">bob-berto-pc.bigwheel.corporation.local</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_host_domain</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Name of the domain the host is part of or joined.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">hunt.wardog.com</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_host_fqdn</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The fully qualified domain name of the host</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">WKHR001.hunt.wardog.com</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_host_interface_guid</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>GUID of the network interface which was used for authentication request</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">{2BB33827-6BB6-48DB-8DE6-DB9E0B9F9C9B}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_host_interface_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>the name (description) of the network interface that was used for authentication request. You can get the list of all available network adapters using “ipconfig /all” command</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Microsoft</span> <span class="pre">Hyper-V</span> <span class="pre">Network</span> <span class="pre">Adapter</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_host_local_mac</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>local interface’s MAC-address</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">18:64:72:F3:33:91</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_host_model</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The model of the source device</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Samsung</span> <span class="pre">Galaxy</span> <span class="pre">Note</span> <span class="pre">10</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_host_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The name of a host, device, node, or entity that is separate from the FQDN and Domain.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">WKHR001</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_host_os</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The OS of the source device</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">iOS</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_host_peer_mac</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>peer’s (typically - access point) MAC-address</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">02:1A:C5:14:59:C9</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_host_type</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The type of the source device</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">mobile</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_interface_guid</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>GUID of the network interface which was used for authentication request.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">7C202E90-2FBE-4275-AB0E-9BF67E04BEDF</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_interface_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The network interface used for the connection or session by the source device.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">eth02</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_ip_addr</p></td>
+<td class="text-align:left"><p>ip</p></td>
+<td class="text-align:left"><p>IP address captured in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">192.168.1.2</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_ip_bytes</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>network IP (header) bytes sent by the either the source or destination ip address</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">100</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_ip_dhcp_assigned_ip_addr</p></td>
+<td class="text-align:left"><p>ip</p></td>
+<td class="text-align:left"><p>IP address assigned by the DHCP server.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">192.168.1.2</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_ip_is_ipv6</p></td>
+<td class="text-align:left"><p>boolean</p></td>
+<td class="text-align:left"><p>If source or destination IP address is IP version 6</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">false</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_latitude</p></td>
+<td class="text-align:left"><p>real</p></td>
+<td class="text-align:left"><p>The latitude of the geographical coordinate associated with the source IP address</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">44.475833</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_longitude</p></td>
+<td class="text-align:left"><p>real</p></td>
+<td class="text-align:left"><p>The longitude of the geographical coordinate associated with the source IP address</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-73.211944</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_mac_address</p></td>
+<td class="text-align:left"><p>mac</p></td>
+<td class="text-align:left"><p>MAC address of an endpoint or network interface where a connection starts or ends.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">00:11:22:33:44:55</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_mime_type</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Source MIME type as seen in (layer 7) application layer details or as defined by an application scanner such as an anti-virus/EDR. For HTTP this is usually from the server’s “Content-Type” header. https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">application/pdf</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_packets</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>Network packets sent by the source</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">5</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_port_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Name of the port used in a network connection. This is usually determined by IANA common port assignment. Therefore, this means its a guess and NOT actually what the application/ is what the actually.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">netbios-dgm</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_port_number</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>Port number used in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">138</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_call_trace</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Stack trace of where open process is called</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\WINDOWS\SYSTEM32\ntdll.dll+a0344</span> <span class="pre">|</span> <span class="pre">C:\WINDOWS\System32\KERNELBASE.dll+64794|</span> <span class="pre">c:\windows\system32\lsm.dll+10e93|</span> <span class="pre">c:\windows\system32\lsm.dll+f9ea|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+76d23|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+d9390|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+a81c|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+273b4|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+2654e|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+26cfb|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+3083f|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+313a6|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+2d12e|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+2e853|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+5cc68|</span> <span class="pre">C:\WINDOWS\SYSTEM32\ntdll.dll+365ce|</span> <span class="pre">C:\WINDOWS\SYSTEM32\ntdll.dll+34b46|</span> <span class="pre">C:\WINDOWS\System32\KERNEL32.DLL+11fe4|</span> <span class="pre">C:\WINDOWS\SYSTEM32\ntdll.dll+6efc1</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_command_line</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Command arguments that were were executed by the process in the endpoint.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\WINDOWS\system32\conhost.exe</span> <span class="pre">0xffffffff</span> <span class="pre">-ForceV1</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_company</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Company name metadata of the Image file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Microsoft</span> <span class="pre">Corporation</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_file_description</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Description of the Image file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Console</span> <span class="pre">Window</span> <span class="pre">Host</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_file_directory</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Current working directory for the Image file related to the process. It does not include the Image file name. Only the Path.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\WINDOWS\system32\</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_file_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Name of the Image file or executable file used to define the initial code and data mapped into the process’ virtual address space. This does not contain the full patth of the Image file.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">conhost.exe</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_file_path</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The complete path and name of the Image file or executable file used to define the initial code and data mapped into the process’ virtual address space.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\Windows\System32\conhost.exe</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_file_product</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The Image’s file product name</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Microsoft®</span> <span class="pre">Windows®</span> <span class="pre">Operating</span> <span class="pre">System</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_file_version</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Version of the Image file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">10.0.16299.15</span> <span class="pre">(WinBuild.160101.0800)</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_granted_access</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>granted access code requested/used to open a target process</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0x1000</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_guid</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Process global unique identifer used to identify a process across other operating systems. This can be created by group hashing values such as Process Name, Process Id, Process Start Time, Process Path and even Computer Name. Datasets such as Sysmon call this the ProcessGuid. This is similar to the output from the UUIDGEN command.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">A98268C1-9C2E-5ACD-0000-0010396CAB00</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_hash_imphash</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>IMPHASH hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2505BD03D7BD285E50CE89CEC02B333B</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_hash_md5</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>MD5 hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">6A255BEBF3DBCD13585538ED47DBAFD7</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_hash_sha1</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>SHA1 hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_hash_sha256</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>SHA256 hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_hash_sha512</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>SHA512 hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">1AD1D79F85D8F6A50EA282F63898D652661DAA0C1FD361C22647CABC98A70E8CBCE83200D579D10DD0A3D46BE9496DCDFDDF28B0C5E9709343B032A8796FBECB</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_id</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>Process unique identifier used by the current operating system to identify a process.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">4756</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_injected_address</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The memory address where the subprocess is injected</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0xFFFFBC6422DD9C20</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_integrity_level</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Integrity label assigned to a process</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Medium</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_is_hidden</p></td>
+<td class="text-align:left"><p>boolean</p></td>
+<td class="text-align:left"><p>Describes if the process is hidden.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">True</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Name of the process derived from the Image file or executable file used to define the initial code and data mapped into the process’ virtual address space. This does not contain the full patth of the Image file.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">conhost.exe</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_parent_call_trace</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Stack trace of where open process is called</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\WINDOWS\SYSTEM32\ntdll.dll+a0344</span> <span class="pre">|</span> <span class="pre">C:\WINDOWS\System32\KERNELBASE.dll+64794|</span> <span class="pre">c:\windows\system32\lsm.dll+10e93|</span> <span class="pre">c:\windows\system32\lsm.dll+f9ea|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+76d23|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+d9390|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+a81c|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+273b4|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+2654e|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+26cfb|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+3083f|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+313a6|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+2d12e|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+2e853|</span> <span class="pre">C:\WINDOWS\System32\RPCRT4.dll+5cc68|</span> <span class="pre">C:\WINDOWS\SYSTEM32\ntdll.dll+365ce|</span> <span class="pre">C:\WINDOWS\SYSTEM32\ntdll.dll+34b46|</span> <span class="pre">C:\WINDOWS\System32\KERNEL32.DLL+11fe4|</span> <span class="pre">C:\WINDOWS\SYSTEM32\ntdll.dll+6efc1</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_parent_command_line</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Command arguments that were were executed by the process in the endpoint.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\WINDOWS\system32\conhost.exe</span> <span class="pre">0xffffffff</span> <span class="pre">-ForceV1</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_parent_company</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Company name metadata of the Image file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Microsoft</span> <span class="pre">Corporation</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_parent_file_description</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Description of the Image file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Console</span> <span class="pre">Window</span> <span class="pre">Host</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_parent_file_directory</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Current working directory for the Image file related to the process. It does not include the Image file name. Only the Path.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\WINDOWS\system32\</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_parent_file_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Name of the Image file or executable file used to define the initial code and data mapped into the process’ virtual address space. This does not contain the full patth of the Image file.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">conhost.exe</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_parent_file_path</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The complete path and name of the Image file or executable file used to define the initial code and data mapped into the process’ virtual address space.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\Windows\System32\conhost.exe</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_parent_file_product</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The Image’s file product name</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Microsoft®</span> <span class="pre">Windows®</span> <span class="pre">Operating</span> <span class="pre">System</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_parent_file_version</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Version of the Image file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">10.0.16299.15</span> <span class="pre">(WinBuild.160101.0800)</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_parent_granted_access</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>granted access code requested/used to open a target process</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0x1000</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_parent_guid</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Process global unique identifer used to identify a process across other operating systems. This can be created by group hashing values such as Process Name, Process Id, Process Start Time, Process Path and even Computer Name. Datasets such as Sysmon call this the ProcessGuid. This is similar to the output from the UUIDGEN command.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">A98268C1-9C2E-5ACD-0000-0010396CAB00</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_parent_hash_imphash</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>IMPHASH hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2505BD03D7BD285E50CE89CEC02B333B</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_parent_hash_md5</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>MD5 hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">6A255BEBF3DBCD13585538ED47DBAFD7</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_parent_hash_sha1</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>SHA1 hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_parent_hash_sha256</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>SHA256 hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_parent_hash_sha512</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>SHA512 hash of the image/binary/file</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">1AD1D79F85D8F6A50EA282F63898D652661DAA0C1FD361C22647CABC98A70E8CBCE83200D579D10DD0A3D46BE9496DCDFDDF28B0C5E9709343B032A8796FBECB</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_parent_id</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>Process unique identifier used by the current operating system to identify a process.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">4756</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_parent_injected_address</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The memory address where the subprocess is injected</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0xFFFFBC6422DD9C20</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_parent_integrity_level</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Integrity label assigned to a process</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Medium</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_process_parent_is_hidden</p></td>
+<td class="text-align:left"><p>boolean</p></td>
+<td class="text-align:left"><p>Describes if the process is hidden.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">True</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_process_parent_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Name of the process derived from the Image file or executable file used to define the initial code and data mapped into the process’ virtual address space. This does not contain the full patth of the Image file.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">conhost.exe</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_region</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The region within a country associated with the source IP address</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Vermont</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_resource_group</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The ID of the group to which the source device belongs in a network connection. This might be an AWS account, or an Azure subscription or Resource Group</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">DatabaseVMs</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_resource_id</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The resource Id of the source device in a network connection</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">/subscriptions/33333333-8888-4444-a115-aaaaaaaaaaaa/resourcegroups/shokobo/providers/microsoft.compute/virtualmachines/sysmachine2</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_cred_type</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>types of credentials which were presented for delegation</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">%%8098</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_dentity</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>User Principal Name (UPN) or another type of account identifier for which 802.1x authentication request was made.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">host/XXXXXXXX.redmond.corp.microsoft.com</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_domain</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>subject’s domain or computer name of the account that performed the main action in the event</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">WIN-GG82ULGC9GO</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_linked_logon_id</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>A hexadecimal value of the paired logon session. If there is no other logon session associated with this logon session, then the value is “0x0”.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0x0</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_authentication_lan_package_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The name of the LAN Manager sub-package (NTLM-family protocol name) that was used during logon. Possible values are: NTLM V1, NTLM V2, LM. Only populated if Authentication Package = NTLM.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_authentication_lan_package_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The name of the LAN Manager sub-package (NTLM-family protocol name) that was used during logon. Possible values are: NTLM V1, NTLM V2, LM. Only populated if Authentication Package = NTLM.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_authentication_package_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The name of the authentication package which was used for the logon authentication process. Default packages loaded on LSA startup are located in “HKLM\SYSTEM\CurrentControlSet\Control\Lsa\OSConfig” registry key. Other packages can be loaded at runtime. When a new package is loaded a “4610: An authentication package has been loaded by the Local Security Authority” (typically for NTLM) or “4622: A security package has been loaded by the Local Security Authority” (typically for Kerberos) event is logged to indicate that a new package has been loaded along with the package name.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Negotiate</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_authentication_package_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The name of the authentication package which was used for the logon authentication process. Default packages loaded on LSA startup are located in “HKLM\SYSTEM\CurrentControlSet\Control\Lsa\OSConfig” registry key. Other packages can be loaded at runtime. When a new package is loaded a “4610: An authentication package has been loaded by the Local Security Authority” (typically for NTLM) or “4622: A security package has been loaded by the Local Security Authority” (typically for Kerberos) event is logged to indicate that a new package has been loaded along with the package name.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Negotiate</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_device_claims</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>list of device claims for new logon session</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_device_claims</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>list of device claims for new logon session</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_elevated_token</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>a “Yes” or “No” flag. If “Yes” then the session this event represents is elevated and has administrator privileges.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">%%1842</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_elevated_token</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>a “Yes” or “No” flag. If “Yes” then the session this event represents is elevated and has administrator privileges.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">%%1842</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_guid</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>a GUID that can help you correlate this event with another event that can contain the same Logon GUID, “4769(S, F): A Kerberos service ticket was requested event on a domain controller. It also can be used for correlation between a 4624 event and several other events (on the same computer) that can contain the same Logon GUID, “4648(S): A logon was attempted using explicit credentials” and “4964(S): Special groups have been assigned to a new logon.”</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">{00000000-0000-0000-0000-000000000000}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_guid</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>a GUID that can help you correlate this event with another event that can contain the same Logon GUID, “4769(S, F): A Kerberos service ticket was requested event on a domain controller. It also can be used for correlation between a 4624 event and several other events (on the same computer) that can contain the same Logon GUID, “4648(S): A logon was attempted using explicit credentials” and “4964(S): Special groups have been assigned to a new logon.”</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">{00000000-0000-0000-0000-000000000000}</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_id</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0x8dcdc</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_id</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0x8dcdc</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_impersonation_level</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Impersonation level</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">%%1833</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_impersonation_level</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Impersonation level</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">%%1833</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_key_length</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>the length of NTLM Session Security key. Typically it has 128 bit or 56 bit length. This parameter is always 0 if “Authentication Package” = “Kerberos”, because it is not applicable for Kerberos protocol. This field will also have “0” value if Kerberos was negotiated using Negotiate authentication package.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_key_length</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>the length of NTLM Session Security key. Typically it has 128 bit or 56 bit length. This parameter is always 0 if “Authentication Package” = “Kerberos”, because it is not applicable for Kerberos protocol. This field will also have “0” value if Kerberos was negotiated using Negotiate authentication package.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_process_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The name of the trusted logon process that was used for the logon. See event “4611: A trusted logon process has been registered with the Local Security Authority” description for more information.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">User32</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_process_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The name of the trusted logon process that was used for the logon. See event “4611: A trusted logon process has been registered with the Local Security Authority” description for more information.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">User32</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_restricted_admin_mode</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Only populated for RemoteInteractive logon type sessions. This is a Yes/No flag indicating if the credentials provided were passed using Restricted Admin mode. Restricted Admin mode was added in Win8.1/2012R2 but this flag was added to the event in Win10. If not a RemoteInteractive logon, then this will be “-” string.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_restricted_admin_mode</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Only populated for RemoteInteractive logon type sessions. This is a Yes/No flag indicating if the credentials provided were passed using Restricted Admin mode. Restricted Admin mode was added in Win8.1/2012R2 but this flag was added to the event in Win10. If not a RemoteInteractive logon, then this will be “-” string.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_transmitted_services</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>the list of transmitted services. Transmitted services are populated if the logon was a result of a S4U (Service For User) logon process. S4U is a Microsoft extension to the Kerberos Protocol to allow an application service to obtain a Kerberos service ticket on behalf of a user - most commonly done by a front-end website to access an internal resource on behalf of a user.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_transmitted_services</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>the list of transmitted services. Transmitted services are populated if the logon was a result of a S4U (Service For User) logon process. S4U is a Microsoft extension to the Kerberos Protocol to allow an application service to obtain a Kerberos service ticket on behalf of a user - most commonly done by a front-end website to access an internal resource on behalf of a user.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_type</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>the type of logon which was performed</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_type</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>the type of logon which was performed</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_user_claims</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>list of user claims for new logon session. This field contains user claims if user account was logged in and device claims if computer account was logged in</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">ad://ext/cn:88d2b96fdb2b4c49</span> <span class="pre">&lt;%%1818&gt;</span> <span class="pre">:</span> <span class="pre">&quot;dadmin&quot;</span> <span class="pre">ad://ext/Department:88d16a8edaa8c66b</span> <span class="pre">&lt;%%1818&gt;</span> <span class="pre">:</span> <span class="pre">&quot;IT&quot;</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_user_claims</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>list of user claims for new logon session. This field contains user claims if user account was logged in and device claims if computer account was logged in</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">ad://ext/cn:88d2b96fdb2b4c49</span> <span class="pre">&lt;%%1818&gt;</span> <span class="pre">:</span> <span class="pre">&quot;dadmin&quot;</span> <span class="pre">ad://ext/Department:88d16a8edaa8c66b</span> <span class="pre">&lt;%%1818&gt;</span> <span class="pre">:</span> <span class="pre">&quot;IT&quot;</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_user_linked_id</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>A hexadecimal value of the paired logon session. If there is no other logon session associated with this logon session, then the value is “0x0”.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0x0</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_user_linked_id</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>A hexadecimal value of the paired logon session. If there is no other logon session associated with this logon session, then the value is “0x0”.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0x0</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_logon_virtual_account</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>a “Yes” or “No” flag, which indicates if the account is a virtual account (e.g., “Managed Service Account”), which was introduced in Windows 7 and Windows Server 2008 R2 to provide the ability to identify the account that a given Service uses, instead of just using “NetworkService”.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">%%1843</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_logon_virtual_account</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>a “Yes” or “No” flag, which indicates if the account is a virtual account (e.g., “Managed Service Account”), which was introduced in Windows 7 and Windows Server 2008 R2 to provide the ability to identify the account that a given Service uses, instead of just using “NetworkService”.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">%%1843</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Name of the account that performed the main action in the event. (i.e. user_name authenticated to the box x or user_name spawned a process)</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">DESKTOP-WARDOG\wardog</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_network_account_domain</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Domain for the user that will be used for outbound (network) connections. Valid only for NewCredentials logon type. If not NewCredentials logon, then this will be a “-” string.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_network_account_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>User name that will be used for outbound (network) connections. Valid only for NewCredentials logon type. If not NewCredentials logon, then this will be a “-” string.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_password</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>User password if seen in the request. Commonly seen in network logs and authentication proxy/logs.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">bobspassword</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_reporter_domain</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>subject’s domain or computer name of the account that reported information about the main event</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">WORKGROUP</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_reporter_id</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>hexadecimal value that can help you correlate an event with recent events that might contain the same Logon ID for the account that reported information about the main event</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0x3e7</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_reporter_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>the name of the account that reported information about the main event</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">WIN-GG82ULGC9GO$</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_reporter_sid</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>SID of account that reported information about the main event</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">S-1-5-18</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_security_package</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>the name of Security Package which was used by the account that performed the main action in the event. Always CREDSSP for this event.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">CREDSSP</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_session_id</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>ID of the session the account tha performed the main action in the event belongs to</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">1</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_sid</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Security identifier of the account that performed the main action in the event</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">S-1-5-21-1377283216-344919071-3415362939-500</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_sid_list</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>the list of special group SIDs, which New Logon\Security ID is a member of.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">{S-1-5-21-3457937927-2839227994-823803824-512}</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_user_upn</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>UPN of the account for which delegation was requested.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">dadmin&#64;contoso</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_user_user_aadid</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The User Azure AD ID of the identity associated with a cloud network session. It applies to source and destination entities.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">5e8b0f4d-2cd4-4e17-9467-b0f6a5c0c4d0</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_vlan_id</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>The Source VLAN ID if it can be determined. Most commonly if from a firewall/switch/router then it can be determined</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">100</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>src_vlan_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The Source VLAN Name. Most commonly if from a firewall/switch/router then it can be determined</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">management</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>src_zone</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The network zone of the source, as defined by the reporting device.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">dmz</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "hunters-forge/OSSEM",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "cdm/entities"
+        }
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">Entities</a>
+    <a class='right-next' id="next-link" href="pipe.html" title="next page">pipe</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    <p>
+          &copy; Copyright 2020.<br/>
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.1.<br/>
+    </p>
+  </div>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="../../_static/js/index.js"></script>
+    
+  </body>
+</html>

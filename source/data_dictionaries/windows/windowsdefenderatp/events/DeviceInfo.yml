@@ -1,0 +1,96 @@
+title: DeviceInfo
+description: Machine information, including OS information
+platform: windows
+log_source: windowsdefenderatp
+event_code: MachineInfo
+event_version: '0'
+event_fields:
+- standard_name: event_date_creation
+  standard_type: TBD
+  name: Timestamp
+  type: date
+  description: Date and time when the event was recorded
+  sample_value: ''
+- standard_name: machine_id
+  standard_type: TBD
+  name: DeviceId
+  type: string
+  description: Unique identifier for the machine in the service
+  sample_value: ''
+- standard_name: computer_name
+  standard_type: TBD
+  name: DeviceName
+  type: string
+  description: Fully qualified domain name (FQDN) of the machine
+  sample_value: ''
+- standard_name: client_version
+  standard_type: TBD
+  name: ClientVersion
+  type: ''
+  description: Version of the endpoint agent or sensor running on the device
+  sample_value: ''
+- standard_name: public_ip
+  standard_type: TBD
+  name: PublicIP
+  type: string
+  description: Public IP address used by the onboarded device to connect to the Microsoft Defender ATP service. This could be the IP address of the device itself, a NAT device, or a proxy
+  sample_value: ''
+- standard_name: os_architecture
+  standard_type: TBD
+  name: OSArchitecture
+  type: string
+  description: Architecture of the operating system running on the machine
+  sample_value: ''
+- standard_name: os_platform
+  standard_type: TBD
+  name: OSPlatform
+  type: string
+  description: Platform of the operating system running on the machine. This indicates specific operating systems, including variations within the same family, such as Windows 10 and Windows 7.
+  sample_value: ''
+- standard_name: os_build
+  standard_type: TBD
+  name: OSBuild
+  type: string
+  description: Build version of the operating system running on the machine
+  sample_value: ''
+- standard_name: is_azure_ad_joined
+  standard_type: TBD
+  name: ISAzureADJoined
+  type: boolean
+  description: Boolean indicator of whether machine is joined to the Azure Active
+    Directory
+  sample_value: ''
+- standard_name: logged_on_users
+  standard_type: TBD
+  name: LoggedOnUsers
+  type: string
+  description: List of all users that are logged on the machine at the time of the
+    event in JSON array format
+  sample_value: ''
+- standard_name: registry_device_tag
+  standard_type: TBD
+  name: RegistryDeviceTag
+  type: string
+  description: Device tag added through the registry
+  sample_value: ''
+- standard_name: report_id
+  standard_type: TBD
+  name: ReportId
+  type: long
+  description: Event identifier based on a repeating counter. To identify unique events,
+    this column must be used in conjunction with the ComputerName and EventTime columns.
+  sample_value: ''
+- standard_name: os_version
+  standard_type: TBD
+  name: OSVersion
+  type: ''
+  description: Version of the operating system running on the device
+  sample_value: ''
+- standard_name: machine_group
+  standard_type: TBD
+  name: MachineGroup
+  type: string
+  description: Machine group of the machine. This group is used by role-based access control to determine access to the machine
+  sample_value: ''
+references: []
+tags: []
