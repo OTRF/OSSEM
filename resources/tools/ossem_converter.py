@@ -215,7 +215,8 @@ class ossemParser():
                                             'title': readme['event_code'] if 'event_code' in readme else readme['title'],
                                             'link': '{}/{}.md'.format(item, event.split('.')[0]),
                                             'description': self.remove_new_lines(readme['description']),
-                                            'tags': readme['tags']})
+                                            'tags': readme['tags'],
+                                            'version': readme['event_version']})
                                 except Exception as e:
                                     print('[!] Failed parsing', event_file_path)
 
