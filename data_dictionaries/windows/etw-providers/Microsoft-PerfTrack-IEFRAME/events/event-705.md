@@ -1,4 +1,5 @@
 # Event 705 - Browseui_Tabs_Tearoff_BetweenWindows
+###### Version: 0
 
 ## Description
 None

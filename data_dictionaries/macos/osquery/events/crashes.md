@@ -1,4 +1,5 @@
 # Crashes Table
+###### Version: 4.4.2
 
 ## Description
 Application, System, and Mobile App crash logs.
@@ -25,6 +26,3 @@ Application, System, and Mobile App crash logs.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#crashes)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 1032 - EnableSharing
+###### Version: 0
 
 ## Description
 None

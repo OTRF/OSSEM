@@ -1,4 +1,5 @@
 # Event 224 - CSearchCrawlScopeManager_IncludedInCrawlScopeEx
+###### Version: 0
 
 ## Description
 None

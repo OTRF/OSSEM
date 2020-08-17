@@ -1,4 +1,5 @@
 # Event 122 - USBDeviceSetPower
+###### Version: 0
 
 ## Description
 None

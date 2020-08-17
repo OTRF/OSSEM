@@ -1,4 +1,5 @@
 # Event 7199 - ConnectedSearch_LogParsingErrorEvent
+###### Version: 0
 
 ## Description
 None

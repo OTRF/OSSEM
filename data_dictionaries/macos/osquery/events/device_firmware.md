@@ -1,4 +1,5 @@
 # Device_firmware Table
+###### Version: 4.4.2
 
 ## Description
 A best-effort list of discovered firmware versions.
@@ -12,6 +13,3 @@ A best-effort list of discovered firmware versions.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#device_firmware)
-
-## Tags
-* version_4.4.2

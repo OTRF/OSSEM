@@ -1,4 +1,5 @@
 # Event 32 - fve:BCryptEncryptRequest
+###### Version: 0
 
 ## Description
 None

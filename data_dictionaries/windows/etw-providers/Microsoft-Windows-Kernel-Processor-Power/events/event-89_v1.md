@@ -1,4 +1,5 @@
 # Event 89 - StaticPolicyRundown
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_level_Informational
 * etw_keywords_Diag
 * etw_task_StaticPolicyRundown
-* version_1

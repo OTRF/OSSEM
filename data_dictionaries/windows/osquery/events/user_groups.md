@@ -1,4 +1,5 @@
 # User_groups Table
+###### Version: 4.4.2
 
 ## Description
 Local system user group relationships.
@@ -11,6 +12,3 @@ Local system user group relationships.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#user_groups)
-
-## Tags
-* version_4.4.2

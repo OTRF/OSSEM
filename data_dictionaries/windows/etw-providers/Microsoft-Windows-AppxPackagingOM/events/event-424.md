@@ -1,4 +1,5 @@
 # Event 424 - AppXPackaging.Task.PackageWriter.AddPayloadFiles
+###### Version: 0
 
 ## Description
 None

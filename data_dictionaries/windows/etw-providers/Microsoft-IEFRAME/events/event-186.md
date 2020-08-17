@@ -1,4 +1,5 @@
 # Event 186 - Shdocvw_BaseBrowser_FireEvent_DocumentComplete
+###### Version: 0
 
 ## Description
 None

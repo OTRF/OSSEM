@@ -1,4 +1,5 @@
 # Event 1020 - SrvSlowFsOperation
+###### Version: 1
 
 ## Description
 None
@@ -30,4 +31,3 @@ None
 * etw_level_Warning
 * etw_keywords_Operational
 * etw_task_SrvSlowFsOperation
-* version_1

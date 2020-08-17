@@ -1,4 +1,5 @@
 # Event ID 4611: A trusted logon process has been registered with the Local Security Authority.
+###### Version: 0
 
 ## Description
 This event indicates that a logon process has registered with the Local Security Authority (LSA). Also, logon requests will now be accepted from this source.

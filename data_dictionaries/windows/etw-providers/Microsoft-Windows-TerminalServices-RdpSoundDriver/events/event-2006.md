@@ -1,4 +1,5 @@
 # Event 2006 - SettingsCheck
+###### Version: 0
 
 ## Description
 None

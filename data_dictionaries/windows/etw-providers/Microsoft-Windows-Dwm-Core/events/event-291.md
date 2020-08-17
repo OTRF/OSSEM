@@ -1,4 +1,5 @@
 # Event 291 - DISPLAYSURFACE_CANDIDATEATTRIBUTES
+###### Version: 0
 
 ## Description
 None

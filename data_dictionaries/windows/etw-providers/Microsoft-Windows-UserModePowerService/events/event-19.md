@@ -1,4 +1,5 @@
 # Event 19 - EnergyMeterMetaData
+###### Version: 0
 
 ## Description
 None

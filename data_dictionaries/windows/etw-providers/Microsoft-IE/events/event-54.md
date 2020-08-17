@@ -1,4 +1,5 @@
 # Event 54 - Mshtml_CScriptElement_CommitCode
+###### Version: 0
 
 ## Description
 None

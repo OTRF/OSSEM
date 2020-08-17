@@ -1,4 +1,5 @@
 # Event 3103 - RefreshPolicyTask
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Informational
 * etw_opcode_RefreshPolicyOp
 * etw_task_RefreshPolicyTask
-* version_1

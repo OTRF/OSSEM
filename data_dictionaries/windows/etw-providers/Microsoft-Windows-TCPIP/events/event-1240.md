@@ -1,4 +1,5 @@
 # Event 1240 - RssFailure
+###### Version: 0
 
 ## Description
 None

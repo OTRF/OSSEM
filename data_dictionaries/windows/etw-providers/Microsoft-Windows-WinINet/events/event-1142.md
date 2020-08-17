@@ -1,4 +1,5 @@
 # Event 1142 - Wininet_CacheClientCounters
+###### Version: 0
 
 ## Description
 None

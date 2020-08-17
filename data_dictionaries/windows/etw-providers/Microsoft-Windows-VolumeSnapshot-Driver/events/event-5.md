@@ -1,4 +1,5 @@
 # Event 5 - vs:AdjustBitmap
+###### Version: 0
 
 ## Description
 None

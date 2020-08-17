@@ -1,4 +1,5 @@
 # Event 1006 - HotspotAuthentication
+###### Version: 0
 
 ## Description
 None

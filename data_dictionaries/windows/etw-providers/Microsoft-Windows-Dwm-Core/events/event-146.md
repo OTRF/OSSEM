@@ -1,4 +1,5 @@
 # Event 146 - ETWGUID_DIRECTFLIP_SUPPORTEVENT
+###### Version: 0
 
 ## Description
 None

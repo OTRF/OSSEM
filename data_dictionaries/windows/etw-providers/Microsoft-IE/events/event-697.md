@@ -1,4 +1,5 @@
 # Event 697 - Mshtml_CTouchHelper_IsDoubleClick
+###### Version: 0
 
 ## Description
 None

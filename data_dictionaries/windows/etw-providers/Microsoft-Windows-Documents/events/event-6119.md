@@ -1,4 +1,5 @@
 # Event 6119 - DocPerf_Task_Setup_InstallPrinterDriverFromTheWeb
+###### Version: 0
 
 ## Description
 None

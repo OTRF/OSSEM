@@ -1,4 +1,5 @@
 # Event 1442 - FM_NotifyWindowRemoved
+###### Version: 0
 
 ## Description
 None

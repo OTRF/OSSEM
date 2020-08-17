@@ -1,4 +1,5 @@
 # Event 5012 - VID_releasepages
+###### Version: 0
 
 ## Description
 None

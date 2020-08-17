@@ -1,4 +1,5 @@
 # Event 4223 - SourceResolutionSchemeHandlerEndCreateObject
+###### Version: 0
 
 ## Description
 None

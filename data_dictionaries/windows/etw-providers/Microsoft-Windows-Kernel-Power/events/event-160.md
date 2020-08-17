@@ -1,4 +1,5 @@
 # Event 160 - ThermalRequestActiveUpdate
+###### Version: 0
 
 ## Description
 None

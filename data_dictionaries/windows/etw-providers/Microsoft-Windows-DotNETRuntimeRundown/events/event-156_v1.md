@@ -1,4 +1,5 @@
 # Event 156 - Loader
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_keywords_LoaderRundownKeyword
 * etw_opcode_AssemblyDCStop
 * etw_task_Loader
-* version_1

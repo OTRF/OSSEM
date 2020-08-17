@@ -1,4 +1,5 @@
 # Event 18 - KERNEL_THREATINT_TASK_SUSPENDRESUME_PROCESS
+###### Version: 0
 
 ## Description
 None

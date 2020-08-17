@@ -1,4 +1,5 @@
 # Iokit_registry Table
+###### Version: 4.4.2
 
 ## Description
 The full IOKit registry without selecting a plane.
@@ -16,6 +17,3 @@ The full IOKit registry without selecting a plane.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#iokit_registry)
-
-## Tags
-* version_4.4.2

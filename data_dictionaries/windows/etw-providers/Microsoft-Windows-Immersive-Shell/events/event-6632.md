@@ -1,4 +1,5 @@
 # Event 6632 - ConnectCharm_ProximitySendDisplayUi
+###### Version: 0
 
 ## Description
 None

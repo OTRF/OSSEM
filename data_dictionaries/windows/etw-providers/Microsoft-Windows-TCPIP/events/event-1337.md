@@ -1,4 +1,5 @@
 # Event 1337 - UdpSignalNotificationChannelEvent
+###### Version: 0
 
 ## Description
 None

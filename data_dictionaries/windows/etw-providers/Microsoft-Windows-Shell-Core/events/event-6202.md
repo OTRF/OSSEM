@@ -1,4 +1,5 @@
 # Event 6202 - Thumbnails_Extract
+###### Version: 0
 
 ## Description
 None

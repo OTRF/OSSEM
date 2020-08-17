@@ -1,4 +1,5 @@
 # Event 803 - WININET_AUTOPROXY_DHCP
+###### Version: 0
 
 ## Description
 None

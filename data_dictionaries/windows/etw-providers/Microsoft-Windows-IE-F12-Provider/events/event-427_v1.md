@@ -1,4 +1,5 @@
 # Event 427 - Console_Intellisense_Menu_Layout
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Informational
 * etw_opcode_Start
 * etw_task_Console_Intellisense_Menu_Layout
-* version_1

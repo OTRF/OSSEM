@@ -1,4 +1,5 @@
 # Event 18 - vs:DeleteProcess
+###### Version: 0
 
 ## Description
 None

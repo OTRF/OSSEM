@@ -1,4 +1,5 @@
 # Event 142 - ESE_CacheLimitResize_Trace
+###### Version: 0
 
 ## Description
 None

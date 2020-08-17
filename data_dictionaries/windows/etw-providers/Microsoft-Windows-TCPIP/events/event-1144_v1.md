@@ -1,4 +1,5 @@
 # Event 1144 - IpInterfacePropertyChange
+###### Version: 1
 
 ## Description
 None
@@ -22,4 +23,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:TcpipInterface ut:Configuration
 * etw_task_IpInterfacePropertyChange
-* version_1

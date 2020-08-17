@@ -1,4 +1,5 @@
 # Event 3002 - LaunchMediaSharing_LaunchSharingCPL
+###### Version: 0
 
 ## Description
 None

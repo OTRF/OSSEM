@@ -1,4 +1,5 @@
 # Event 7219 - ConnectedSearch_AuthenticationFailure
+###### Version: 0
 
 ## Description
 None

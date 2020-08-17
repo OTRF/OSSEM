@@ -1,4 +1,5 @@
 # Event 240 - MediaCaptureLowLagRecordStopoperation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 2267 - SharingManager_RetrieveLogoBackgroundColor
+###### Version: 0
 
 ## Description
 None

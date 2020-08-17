@@ -1,4 +1,5 @@
 # Event 348 - DeleteCatalog
+###### Version: 0
 
 ## Description
 None

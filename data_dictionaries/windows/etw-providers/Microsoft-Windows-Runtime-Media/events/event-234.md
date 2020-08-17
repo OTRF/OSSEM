@@ -1,4 +1,5 @@
 # Event 234 - MediaCaptureClearRegionsAsyncoperation
+###### Version: 0
 
 ## Description
 None

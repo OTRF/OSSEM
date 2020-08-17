@@ -1,4 +1,5 @@
 # Event 9 - Smb2RequestClose
+###### Version: 2
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 * etw_level_Informational
 * etw_keywords_Request
 * etw_task_Smb2RequestClose
-* version_2

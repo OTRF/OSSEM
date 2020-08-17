@@ -1,4 +1,5 @@
 # Event ID 5890: An object was added to the COM+ Catalog.
+###### Version: 0
 
 ## Description
 This event generates when new object was added to the COM+ Catalog.

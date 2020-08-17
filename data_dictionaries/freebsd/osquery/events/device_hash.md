@@ -1,4 +1,5 @@
 # Device_hash Table
+###### Version: 4.4.2
 
 ## Description
 Similar to the hash table, but use TSK and allow block address access.
@@ -15,6 +16,3 @@ Similar to the hash table, but use TSK and allow block address access.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#device_hash)
-
-## Tags
-* version_4.4.2

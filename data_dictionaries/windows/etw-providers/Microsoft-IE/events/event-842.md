@@ -1,4 +1,5 @@
 # Event 842 - Mshtml_WebRTC_Signaling_State
+###### Version: 0
 
 ## Description
 None

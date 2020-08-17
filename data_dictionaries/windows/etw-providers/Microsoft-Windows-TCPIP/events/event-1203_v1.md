@@ -1,4 +1,5 @@
 # Event 1203 - IpInterfaceSpeedChange
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:TcpipInterface ut:TcpipDiagnosis ut:Global
 * etw_task_IpInterfaceSpeedChange
-* version_1

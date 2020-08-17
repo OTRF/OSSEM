@@ -1,4 +1,5 @@
 # Event 101 - WININET_ROOT_HANDLE_CREATED
+###### Version: 0
 
 ## Description
 None

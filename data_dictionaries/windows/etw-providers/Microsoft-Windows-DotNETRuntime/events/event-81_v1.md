@@ -1,4 +1,5 @@
 # Event 81 - Contention
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_ContentionKeyword
 * etw_opcode_Start
 * etw_task_Contention
-* version_1

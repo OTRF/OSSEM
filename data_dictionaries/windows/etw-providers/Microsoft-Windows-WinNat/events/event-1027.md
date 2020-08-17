@@ -1,4 +1,5 @@
 # Event 1027 - WinNatMStaticMappingAddition
+###### Version: 0
 
 ## Description
 None

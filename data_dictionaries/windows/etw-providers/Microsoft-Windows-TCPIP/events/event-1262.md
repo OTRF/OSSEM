@@ -1,4 +1,5 @@
 # Event 1262 - Ndkpi_Initialize_Fast_Register_Mr
+###### Version: 0
 
 ## Description
 None

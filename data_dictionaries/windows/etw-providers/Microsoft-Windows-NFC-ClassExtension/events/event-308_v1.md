@@ -1,4 +1,5 @@
 # Event 308 - RFNDEFtagread.
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_RF
 * etw_opcode_Stop
 * etw_task_RFNDEFtagread.
-* version_1

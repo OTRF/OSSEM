@@ -1,4 +1,5 @@
 # Event 3006 - Generate_Res_Element
+###### Version: 0
 
 ## Description
 None

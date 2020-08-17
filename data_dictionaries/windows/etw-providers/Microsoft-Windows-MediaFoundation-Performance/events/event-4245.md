@@ -1,4 +1,5 @@
 # Event 4245 - SessionStop
+###### Version: 0
 
 ## Description
 None

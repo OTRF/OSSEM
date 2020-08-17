@@ -1,4 +1,5 @@
 # Event 389 - VGPUEtwSession
+###### Version: 0
 
 ## Description
 None

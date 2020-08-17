@@ -1,4 +1,5 @@
 # Event 8197 - DataProtectionOperation
+###### Version: 0
 
 ## Description
 None

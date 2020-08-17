@@ -1,4 +1,5 @@
 # Event 4389 - WMPPlaybackErrorOpen
+###### Version: 0
 
 ## Description
 None

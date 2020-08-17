@@ -1,4 +1,5 @@
 # Event 53 - ETWGUID_DESKTOPRTCREATE
+###### Version: 0
 
 ## Description
 None

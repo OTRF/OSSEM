@@ -1,4 +1,5 @@
 # Event 673 - Mshtml_CDMCrossSlideDraggableTouchTarget_AssignDispLayerWithDragState
+###### Version: 0
 
 ## Description
 None

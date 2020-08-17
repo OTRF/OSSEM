@@ -1,4 +1,5 @@
 # Event 670 - Mshtml_CDMTouchTargetHandler_ApplyViewportStatusChange
+###### Version: 0
 
 ## Description
 None

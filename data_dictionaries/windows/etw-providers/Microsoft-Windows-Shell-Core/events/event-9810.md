@@ -1,4 +1,5 @@
 # Event 9810 - EXPLORER_DRAG_DROP
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 5384 - Dashboard_Network_Adapter_RefreshAdapters
+###### Version: 0
 
 ## Description
 None

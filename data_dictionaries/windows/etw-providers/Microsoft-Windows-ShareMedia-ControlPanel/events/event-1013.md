@@ -1,4 +1,5 @@
 # Event 1013 - RemoveAllDevices
+###### Version: 0
 
 ## Description
 None

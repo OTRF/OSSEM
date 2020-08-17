@@ -1,4 +1,5 @@
 # Event ID 5155: The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections
+###### Version: 0
 
 ## Description
 This event generates every time the Windows Filtering Platform blocks an application or service from listening on a port for incoming connections.

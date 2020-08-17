@@ -1,4 +1,5 @@
 # Event 106 - ProtocolHostStoppedInDestructor
+###### Version: 0
 
 ## Description
 None

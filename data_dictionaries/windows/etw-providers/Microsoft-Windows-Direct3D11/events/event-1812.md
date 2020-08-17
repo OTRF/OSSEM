@@ -1,4 +1,5 @@
 # Event 1812 - CryptoSessionTeardownCount
+###### Version: 0
 
 ## Description
 None

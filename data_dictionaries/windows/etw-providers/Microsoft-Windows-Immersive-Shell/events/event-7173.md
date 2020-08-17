@@ -1,4 +1,5 @@
 # Event 7173 - ConnectedSearch_DetailArrowClick
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 308 - WININET_NETWORK_CHANGE_DETECTED
+###### Version: 0
 
 ## Description
 None

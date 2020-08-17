@@ -1,4 +1,5 @@
 # Event 4336 - MFGraphGetCookie
+###### Version: 0
 
 ## Description
 None

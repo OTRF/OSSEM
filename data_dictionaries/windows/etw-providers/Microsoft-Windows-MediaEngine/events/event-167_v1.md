@@ -1,4 +1,5 @@
 # Event 167 - MediaFoundationPresent_InitVSyncRefreshRate
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 ## Tags
 * etw_level_Verbose
 * etw_task_MediaFoundationPresent_InitVSyncRefreshRate
-* version_1

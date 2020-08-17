@@ -1,4 +1,5 @@
 # Event 4 - BackgroundTask
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_BackgroundTask LowOverheadDiag
 * etw_opcode_TaskThrottledCpu
 * etw_task_BackgroundTask
-* version_1

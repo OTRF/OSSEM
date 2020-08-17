@@ -1,4 +1,5 @@
 # Event 498 - Mshtml_HoverDeferral_Undeferred
+###### Version: 0
 
 ## Description
 None

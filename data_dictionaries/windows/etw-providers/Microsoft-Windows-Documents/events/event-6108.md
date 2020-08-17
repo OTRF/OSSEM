@@ -1,4 +1,5 @@
 # Event 6108 - DocPerf_Task_Setup_PnPPrinterInstall
+###### Version: 0
 
 ## Description
 None

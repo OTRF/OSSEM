@@ -1,4 +1,5 @@
 # Event 32 - HTTPConfigurationPropertyTraceTask
+###### Version: 0
 
 ## Description
 None

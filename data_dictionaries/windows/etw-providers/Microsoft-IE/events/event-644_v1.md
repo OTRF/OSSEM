@@ -1,4 +1,5 @@
 # Event 644 - Mshtml_EventDebug_MutationObserverCallback
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_eventsandtimers
 * etw_opcode_Stop
 * etw_task_Mshtml_EventDebug_MutationObserverCallback
-* version_1

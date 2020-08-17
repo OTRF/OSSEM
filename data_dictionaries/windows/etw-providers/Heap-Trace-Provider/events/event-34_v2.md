@@ -1,4 +1,5 @@
 # Event 34
+###### Version: 2
 
 ## Description
 None
@@ -12,6 +13,3 @@ None
 |TBD|NewAllocSize|Object|None|`None`|
 |TBD|OldAllocSize|Object|None|`None`|
 |TBD|SourceId|UInt32|None|`None`|
-
-## Tags
-* version_2

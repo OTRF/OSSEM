@@ -1,4 +1,5 @@
 # Event 1602 - AppsFolder_ParseDisplayName
+###### Version: 0
 
 ## Description
 None

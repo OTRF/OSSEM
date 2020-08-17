@@ -1,4 +1,5 @@
 # Event 1052 - WinHTTP_Getaddrinfo
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 864 - Edgehtml_Extensions_WrxMessage
+###### Version: 0
 
 ## Description
 None

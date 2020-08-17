@@ -1,4 +1,5 @@
 # Event 6220 - Thumbnails_SetThumbnail
+###### Version: 0
 
 ## Description
 None

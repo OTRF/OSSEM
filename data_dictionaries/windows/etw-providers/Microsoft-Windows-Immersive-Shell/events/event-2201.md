@@ -1,4 +1,5 @@
 # Event 2201 - SharingManager_InitSharing
+###### Version: 0
 
 ## Description
 None

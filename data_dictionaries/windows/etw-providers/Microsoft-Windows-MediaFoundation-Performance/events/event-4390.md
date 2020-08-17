@@ -1,4 +1,5 @@
 # Event 4390 - WMPPlaybackErrorQueue
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 353 - VidMmResumeDevice
+###### Version: 0
 
 ## Description
 None

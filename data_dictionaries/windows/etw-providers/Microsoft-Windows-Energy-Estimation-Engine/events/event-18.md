@@ -1,4 +1,5 @@
 # Event 18 - QueryStats
+###### Version: 0
 
 ## Description
 None

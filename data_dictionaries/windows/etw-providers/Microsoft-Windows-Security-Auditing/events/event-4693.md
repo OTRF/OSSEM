@@ -1,4 +1,5 @@
 # Event ID 4693: Recovery of data protection master key was attempted.
+###### Version: 0
 
 ## Description
 This event generates every time that recovery is attempted for a DPAPI Master Key.

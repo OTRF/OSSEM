@@ -1,4 +1,5 @@
 # Event 7193 - ConnectedSearch_DirectQueryInst
+###### Version: 0
 
 ## Description
 None

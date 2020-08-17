@@ -1,4 +1,5 @@
 # Kernel_panics Table
+###### Version: 4.4.2
 
 ## Description
 System kernel panic logs.
@@ -22,6 +23,3 @@ System kernel panic logs.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#kernel_panics)
-
-## Tags
-* version_4.4.2

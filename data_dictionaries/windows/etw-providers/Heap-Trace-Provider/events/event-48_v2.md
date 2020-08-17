@@ -1,4 +1,5 @@
 # Event 48
+###### Version: 2
 
 ## Description
 None
@@ -10,6 +11,3 @@ None
 |TBD|SubSegment|UInt32|None|`None`|
 |TBD|SubSegmentSize|Object|None|`None`|
 |TBD|BlockSize|Object|None|`None`|
-
-## Tags
-* version_2

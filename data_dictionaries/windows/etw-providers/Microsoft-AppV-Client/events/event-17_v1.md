@@ -1,4 +1,5 @@
 # Event 17 - ClientStartup
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_Startup
 * etw_opcode_Start
 * etw_task_ClientStartup
-* version_1

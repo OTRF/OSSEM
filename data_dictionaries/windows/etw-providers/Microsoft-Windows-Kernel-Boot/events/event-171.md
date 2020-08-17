@@ -1,4 +1,5 @@
 # Event 171 - TpmMeasurement
+###### Version: 0
 
 ## Description
 None

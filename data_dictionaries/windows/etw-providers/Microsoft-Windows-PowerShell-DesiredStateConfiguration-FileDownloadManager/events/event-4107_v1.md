@@ -1,4 +1,5 @@
 # Event 4107 - ValidaterequestinFileDownloadManager
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 ## Tags
 * etw_level_Error
 * etw_task_ValidaterequestinFileDownloadManager
-* version_1

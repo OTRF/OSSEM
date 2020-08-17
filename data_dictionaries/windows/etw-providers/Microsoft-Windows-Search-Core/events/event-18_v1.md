@@ -1,4 +1,5 @@
 # Event 18 - Index_File
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_Performance IndexingItem ProtocolHost
 * etw_opcode_Stop
 * etw_task_Index_File
-* version_1

@@ -1,4 +1,5 @@
 # Event ID 5633: A request was made to authenticate to a wired network
+###### Version: 0
 
 ## Description
 This event generates when 802.1x authentication attempt was made for wired network.

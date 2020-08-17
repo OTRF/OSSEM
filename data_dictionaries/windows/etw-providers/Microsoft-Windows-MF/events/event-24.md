@@ -1,4 +1,5 @@
 # Event 24 - MediaFoundationDevproxyMFTDynamicFormatChange
+###### Version: 0
 
 ## Description
 None

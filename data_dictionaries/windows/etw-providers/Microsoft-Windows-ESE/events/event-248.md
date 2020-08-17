@@ -1,4 +1,5 @@
 # Event 248 - ESE_tagOLDRegistration_Trace
+###### Version: 0
 
 ## Description
 None

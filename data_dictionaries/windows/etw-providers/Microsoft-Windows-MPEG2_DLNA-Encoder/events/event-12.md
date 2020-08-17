@@ -1,4 +1,5 @@
 # Event 12 - VideoEncodeSessionConfig
+###### Version: 0
 
 ## Description
 None

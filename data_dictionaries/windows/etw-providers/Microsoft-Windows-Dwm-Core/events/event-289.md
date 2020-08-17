@@ -1,4 +1,5 @@
 # Event 289 - DISPLAYSURFACE_SWAPCHAINCANDIDATE
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 42 - ETWGUID_DIRTYREGIONEVENT
+###### Version: 0
 
 ## Description
 None

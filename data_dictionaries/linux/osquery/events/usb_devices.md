@@ -1,4 +1,5 @@
 # Usb_devices Table
+###### Version: 4.4.2
 
 ## Description
 USB devices that are actively plugged into the host system.
@@ -21,6 +22,3 @@ USB devices that are actively plugged into the host system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#usb_devices)
-
-## Tags
-* version_4.4.2

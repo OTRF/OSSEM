@@ -1,4 +1,5 @@
 # Event 7001 - SettingChanges
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Error
 * etw_keywords_Settings
 * etw_task_SettingChanges
-* version_1

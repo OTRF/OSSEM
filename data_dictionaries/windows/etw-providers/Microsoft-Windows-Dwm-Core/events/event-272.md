@@ -1,4 +1,5 @@
 # Event 272 - INTERACTION_VISUAL_UPDATE
+###### Version: 0
 
 ## Description
 None

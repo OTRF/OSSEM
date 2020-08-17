@@ -1,4 +1,5 @@
 # Event 28 - HTTPConfigurationPropertyTraceTask
+###### Version: 0
 
 ## Description
 None

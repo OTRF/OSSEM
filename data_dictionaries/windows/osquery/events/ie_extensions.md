@@ -1,4 +1,5 @@
 # Ie_extensions Table
+###### Version: 4.4.2
 
 ## Description
 Internet Explorer browser extensions.
@@ -13,6 +14,3 @@ Internet Explorer browser extensions.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#ie_extensions)
-
-## Tags
-* version_4.4.2

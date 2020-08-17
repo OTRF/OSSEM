@@ -1,4 +1,5 @@
 # Event 214 - Class
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_IOCTL WMI
 * etw_opcode_Completionofrequest.
 * etw_task_Class
-* version_1

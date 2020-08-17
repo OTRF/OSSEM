@@ -1,4 +1,5 @@
 # Event 11 - LockScreenContent_Repository_Initialize
+###### Version: 0
 
 ## Description
 None

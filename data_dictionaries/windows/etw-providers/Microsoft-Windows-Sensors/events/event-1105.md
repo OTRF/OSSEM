@@ -1,4 +1,5 @@
 # Event 1105 - SensorServicetimerqueuecallbackfororientation,abouttowritequadrantangletoaggregatedsensor
+###### Version: 0
 
 ## Description
 None

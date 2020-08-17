@@ -1,4 +1,5 @@
 # Event 60 - Jscript_Projection_GetNonArrayBasicTypeAsPropertyValue
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 9573 - Explorer_StartMenu_MFU_Count
+###### Version: 0
 
 ## Description
 None

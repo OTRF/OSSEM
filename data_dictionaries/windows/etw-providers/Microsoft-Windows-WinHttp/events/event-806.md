@@ -1,4 +1,5 @@
 # Event 806 - WINHTTP_AUTOPROXY_DNS
+###### Version: 0
 
 ## Description
 None

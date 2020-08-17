@@ -1,4 +1,5 @@
 # Event 234 - ESE_tagEventlog_Trace
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 440 - Mshtml_TouchSelection_GripperShown
+###### Version: 0
 
 ## Description
 None

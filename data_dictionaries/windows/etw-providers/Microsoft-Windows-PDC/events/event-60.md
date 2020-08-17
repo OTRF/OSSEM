@@ -1,4 +1,5 @@
 # Event 60 - SuspendeResumeAllClientsResponded
+###### Version: 0
 
 ## Description
 None

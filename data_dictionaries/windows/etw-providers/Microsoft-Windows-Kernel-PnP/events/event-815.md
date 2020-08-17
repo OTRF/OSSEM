@@ -1,4 +1,5 @@
 # Event 815 - ReenumerateDeviceOnly
+###### Version: 0
 
 ## Description
 None

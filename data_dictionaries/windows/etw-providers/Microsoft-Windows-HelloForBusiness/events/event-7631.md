@@ -1,4 +1,5 @@
 # Event 7631 - BiometricEnrollment
+###### Version: 0
 
 ## Description
 None

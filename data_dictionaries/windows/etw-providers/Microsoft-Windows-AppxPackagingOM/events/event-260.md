@@ -1,4 +1,5 @@
 # Event 260 - Bundlemanifest
+###### Version: 0
 
 ## Description
 None

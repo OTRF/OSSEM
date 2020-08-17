@@ -1,4 +1,5 @@
 # Alf_exceptions Table
+###### Version: 4.4.2
 
 ## Description
 OS X application layer firewall (ALF) service exceptions.
@@ -11,6 +12,3 @@ OS X application layer firewall (ALF) service exceptions.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#alf_exceptions)
-
-## Tags
-* version_4.4.2

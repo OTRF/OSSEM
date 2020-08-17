@@ -1,4 +1,5 @@
 # Event 28 - Device
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_Resource LongHaul
 * etw_opcode_Stop
 * etw_task_Device
-* version_1

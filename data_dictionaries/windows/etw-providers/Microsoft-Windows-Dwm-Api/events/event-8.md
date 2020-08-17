@@ -1,4 +1,5 @@
 # Event 8 - ApiGetCompositionTimingInfo
+###### Version: 0
 
 ## Description
 None

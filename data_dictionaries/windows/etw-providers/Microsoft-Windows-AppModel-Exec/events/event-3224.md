@@ -1,4 +1,5 @@
 # Event 3224 - LogTrace
+###### Version: 0
 
 ## Description
 None

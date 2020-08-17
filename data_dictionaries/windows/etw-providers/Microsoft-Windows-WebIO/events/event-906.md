@@ -1,4 +1,5 @@
 # Event 906 - ProtocolConfiguration
+###### Version: 0
 
 ## Description
 None

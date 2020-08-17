@@ -1,4 +1,5 @@
 # Process_file_events Table
+###### Version: 4.4.2
 
 ## Description
 A File Integrity Monitor implementation using the audit service.
@@ -24,6 +25,3 @@ A File Integrity Monitor implementation using the audit service.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#process_file_events)
-
-## Tags
-* version_4.4.2

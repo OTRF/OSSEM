@@ -1,4 +1,5 @@
 # Event 46 - RemoteDesktopUSBHubFilter
+###### Version: 0
 
 ## Description
 None

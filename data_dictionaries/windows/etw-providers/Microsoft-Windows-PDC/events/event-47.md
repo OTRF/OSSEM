@@ -1,4 +1,5 @@
 # Event 47 - SuspendResumeMessage
+###### Version: 0
 
 ## Description
 None

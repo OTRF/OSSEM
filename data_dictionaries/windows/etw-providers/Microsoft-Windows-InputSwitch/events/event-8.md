@@ -1,4 +1,5 @@
 # Event 8 - HideInputSwitch
+###### Version: 0
 
 ## Description
 None

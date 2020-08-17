@@ -1,4 +1,5 @@
 # Event 1037 - WinNatMInstanceCreationWithNoMatchingPrefix
+###### Version: 1
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 * etw_level_Warning
 * etw_keywords_ut:Configuration
 * etw_task_WinNatMInstanceCreationWithNoMatchingPrefix
-* version_1

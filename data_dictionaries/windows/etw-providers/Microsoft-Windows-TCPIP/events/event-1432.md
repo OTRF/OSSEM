@@ -1,4 +1,5 @@
 # Event 1432 - IpUpdateInterfaceNetworkCategoryState
+###### Version: 0
 
 ## Description
 None

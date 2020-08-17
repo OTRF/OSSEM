@@ -1,4 +1,5 @@
 # Event 4474 - Attributes_CopyAllItems
+###### Version: 0
 
 ## Description
 None

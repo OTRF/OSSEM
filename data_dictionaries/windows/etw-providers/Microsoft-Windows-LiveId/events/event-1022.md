@@ -1,4 +1,5 @@
 # Event 1022 - LiveIdModernAPIOperation
+###### Version: 0
 
 ## Description
 None

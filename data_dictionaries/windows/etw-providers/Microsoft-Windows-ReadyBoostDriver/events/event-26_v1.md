@@ -1,4 +1,5 @@
 # Event 26 - WriteEvict
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Informational
 * etw_keywords_StoreContentsRundown
 * etw_task_WriteEvict
-* version_1

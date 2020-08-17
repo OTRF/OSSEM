@@ -1,4 +1,5 @@
 # Event 1001 - ClientShutdown
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_Shutdown
 * etw_opcode_Stop
 * etw_task_ClientShutdown
-* version_1

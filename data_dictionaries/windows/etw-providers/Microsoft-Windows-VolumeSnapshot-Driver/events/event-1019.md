@@ -1,4 +1,5 @@
 # Event 1019 - vs:DeleteProcess
+###### Version: 0
 
 ## Description
 None

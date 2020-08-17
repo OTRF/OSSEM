@@ -1,4 +1,5 @@
 # Event 78 - PALManagementChannel
+###### Version: 0
 
 ## Description
 None

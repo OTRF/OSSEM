@@ -1,4 +1,5 @@
 # Event 124 - InitializeTextPatternState
+###### Version: 0
 
 ## Description
 None

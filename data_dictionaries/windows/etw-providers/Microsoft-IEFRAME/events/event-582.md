@@ -1,4 +1,5 @@
 # Event 582 - Browseui_Tabs_Activity_Show
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 474 - Mshtml_CScriptCollection_DevToolbar_FirstScriptExecutionEvent
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 7011 - Perf_LocalSyncSession
+###### Version: 0
 
 ## Description
 None

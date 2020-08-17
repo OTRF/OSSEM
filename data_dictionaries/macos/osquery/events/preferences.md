@@ -1,4 +1,5 @@
 # Preferences Table
+###### Version: 4.4.2
 
 ## Description
 OS X defaults and managed preferences.
@@ -15,6 +16,3 @@ OS X defaults and managed preferences.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#preferences)
-
-## Tags
-* version_4.4.2

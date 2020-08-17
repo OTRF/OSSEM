@@ -1,4 +1,5 @@
 # Event 7168 - ConnectedSearch_LogDetailArrowClickPayload
+###### Version: 0
 
 ## Description
 None

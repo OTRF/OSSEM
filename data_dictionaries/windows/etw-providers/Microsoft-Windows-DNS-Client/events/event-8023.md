@@ -1,4 +1,5 @@
 # Event 8023 - DnsRegistration
+###### Version: 0
 
 ## Description
 None

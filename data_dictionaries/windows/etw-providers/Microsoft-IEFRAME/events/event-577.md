@@ -1,4 +1,5 @@
 # Event 577 - Terminate_Browser_Tab_Process
+###### Version: 0
 
 ## Description
 None

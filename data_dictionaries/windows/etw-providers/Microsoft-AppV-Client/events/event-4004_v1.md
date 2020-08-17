@@ -1,4 +1,5 @@
 # Event 4004 - ExecuteEmbeddedScripts
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Informational
 * etw_keywords_EmbeddedScripting
 * etw_task_ExecuteEmbeddedScripts
-* version_1

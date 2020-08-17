@@ -1,4 +1,5 @@
 # Event 703 - CfgMgr_DeviceInterfaceList
+###### Version: 0
 
 ## Description
 None

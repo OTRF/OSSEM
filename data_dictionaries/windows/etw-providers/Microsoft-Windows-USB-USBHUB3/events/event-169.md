@@ -1,4 +1,5 @@
 # Event 169 - USBDeviceEnumeration
+###### Version: 0
 
 ## Description
 None

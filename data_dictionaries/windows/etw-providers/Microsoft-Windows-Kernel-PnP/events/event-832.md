@@ -1,4 +1,5 @@
 # Event 832 - DeviceRemoval
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 8013 - DnsRegistration
+###### Version: 0
 
 ## Description
 None

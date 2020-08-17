@@ -1,4 +1,5 @@
 # Event 187 - NtInitiatePowerActionApiCall
+###### Version: 0
 
 ## Description
 None

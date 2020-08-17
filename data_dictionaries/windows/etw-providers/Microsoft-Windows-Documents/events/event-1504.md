@@ -1,4 +1,5 @@
 # Event 1504 - DocPerf_Task_Wia_ProcessDeviceArrival
+###### Version: 0
 
 ## Description
 None

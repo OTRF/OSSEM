@@ -1,4 +1,5 @@
 # Event 6015 - ConfigureVirtualServices
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Warning
 * etw_keywords_VirtualServices
 * etw_task_ConfigureVirtualServices
-* version_1

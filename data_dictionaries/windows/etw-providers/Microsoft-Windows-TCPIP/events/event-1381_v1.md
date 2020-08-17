@@ -1,4 +1,5 @@
 # Event 1381 - TcpAssociateNameResContext
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:TcpipDiagnosis ut:Nrt
 * etw_task_TcpAssociateNameResContext
-* version_1

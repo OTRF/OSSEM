@@ -1,4 +1,5 @@
 # Event 9633 - Explorer_PowerMessage
+###### Version: 0
 
 ## Description
 None

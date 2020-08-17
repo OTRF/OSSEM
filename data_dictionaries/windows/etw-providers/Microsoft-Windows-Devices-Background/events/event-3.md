@@ -1,4 +1,5 @@
 # Event 3 - Applicationinitiateddeviceservicing/updatetask
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 137 - DdiAddDevice
+###### Version: 0
 
 ## Description
 None

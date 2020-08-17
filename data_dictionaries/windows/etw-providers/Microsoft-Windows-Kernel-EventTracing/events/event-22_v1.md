@@ -1,4 +1,5 @@
 # Event 22 - SavePersistedLogger
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_keywords_ETW_KEYWORD_SOFT_RESTART
 * etw_opcode_Stop_8_2
 * etw_task_SavePersistedLogger
-* version_1

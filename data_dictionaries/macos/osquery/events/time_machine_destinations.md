@@ -1,4 +1,5 @@
 # Time_machine_destinations Table
+###### Version: 4.4.2
 
 ## Description
 Locations backed up to using Time Machine.
@@ -16,6 +17,3 @@ Locations backed up to using Time Machine.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#time_machine_destinations)
-
-## Tags
-* version_4.4.2

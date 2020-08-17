@@ -1,4 +1,5 @@
 # Event 52 - ApipQueryThumbnailSourceSize
+###### Version: 0
 
 ## Description
 None

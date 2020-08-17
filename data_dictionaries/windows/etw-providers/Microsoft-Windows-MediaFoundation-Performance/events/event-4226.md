@@ -1,4 +1,5 @@
 # Event 4226 - SourceResolutionByteStreamHandlerBeginCreateObject
+###### Version: 0
 
 ## Description
 None

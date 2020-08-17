@@ -1,4 +1,5 @@
 # Event 7 - KERNEL_MITIGATION_TASK_PROHIBIT_REMOTE_IMAGE_MAP
+###### Version: 0
 
 ## Description
 None

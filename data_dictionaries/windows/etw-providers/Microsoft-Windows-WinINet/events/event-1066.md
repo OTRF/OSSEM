@@ -1,4 +1,5 @@
 # Event 1066 - Wininet_SecurityContext
+###### Version: 0
 
 ## Description
 None

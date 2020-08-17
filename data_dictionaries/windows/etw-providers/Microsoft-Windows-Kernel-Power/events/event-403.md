@@ -1,4 +1,5 @@
 # Event 403 - SessionDisconnected
+###### Version: 0
 
 ## Description
 None

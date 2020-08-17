@@ -1,4 +1,5 @@
 # Event 900 - AppXDeployment.Task.Server.Deployment.MutablePackageDirectoryStateHandler
+###### Version: 0
 
 ## Description
 None

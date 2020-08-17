@@ -1,4 +1,5 @@
 # Event 23 - ForwardProgress
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Informational
 * etw_opcode_Logtailadvance
 * etw_task_ForwardProgress
-* version_1

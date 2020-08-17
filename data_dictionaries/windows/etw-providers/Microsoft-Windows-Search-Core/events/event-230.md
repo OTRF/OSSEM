@@ -1,4 +1,5 @@
 # Event 230 - CSearchCrawlScopeManager_RemoveScopeRule
+###### Version: 0
 
 ## Description
 None

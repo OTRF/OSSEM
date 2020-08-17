@@ -1,4 +1,5 @@
 # Event 534 - Mshtml_DynamicDependencyTracker
+###### Version: 0
 
 ## Description
 None

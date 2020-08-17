@@ -1,4 +1,5 @@
 # Event 6022 - DocPerf_Task_Scan_Service_Startup
+###### Version: 0
 
 ## Description
 None

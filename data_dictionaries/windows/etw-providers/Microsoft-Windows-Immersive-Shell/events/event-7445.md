@@ -1,4 +1,5 @@
 # Event 7445 - ConnectedSearch_LoadTemplate
+###### Version: 0
 
 ## Description
 None

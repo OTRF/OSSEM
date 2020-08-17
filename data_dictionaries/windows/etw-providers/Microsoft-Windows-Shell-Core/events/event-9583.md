@@ -1,4 +1,5 @@
 # Event 9583 - Explorer_Is_Mobile_PC
+###### Version: 0
 
 ## Description
 None

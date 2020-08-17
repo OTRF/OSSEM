@@ -1,4 +1,5 @@
 # Event 552 - PinnedSites_OfferedImage
+###### Version: 0
 
 ## Description
 None

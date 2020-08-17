@@ -1,4 +1,5 @@
 # Event 7316 - Perf_AppSyncGetStoreMetadata
+###### Version: 0
 
 ## Description
 None

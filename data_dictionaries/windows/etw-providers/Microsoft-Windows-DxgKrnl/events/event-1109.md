@@ -1,4 +1,5 @@
 # Event 1109 - VidMmSaveRestoreResource
+###### Version: 0
 
 ## Description
 None

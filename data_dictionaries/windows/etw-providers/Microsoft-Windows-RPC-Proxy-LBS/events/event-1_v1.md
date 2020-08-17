@@ -1,4 +1,5 @@
 # Event 1 - Arbitration
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Informational
 * etw_opcode_Start
 * etw_task_Arbitration
-* version_1

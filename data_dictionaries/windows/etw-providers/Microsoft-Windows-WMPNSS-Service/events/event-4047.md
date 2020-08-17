@@ -1,4 +1,5 @@
 # Event 4047 - Obj_Get_Artist_Author_Element_Data
+###### Version: 0
 
 ## Description
 None

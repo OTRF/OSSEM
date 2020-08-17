@@ -1,4 +1,5 @@
 # Event 105 - MediaFoundationGetConfigurationValueString
+###### Version: 0
 
 ## Description
 None

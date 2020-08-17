@@ -1,4 +1,5 @@
 # Event 254 - MFCaptureEngineStartCapturePhotoSequenceTask
+###### Version: 0
 
 ## Description
 None

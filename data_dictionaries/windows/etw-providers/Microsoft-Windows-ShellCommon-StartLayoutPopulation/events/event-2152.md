@@ -1,4 +1,5 @@
 # Event 2152 - PlaceholderTileOnAppInstall
+###### Version: 0
 
 ## Description
 None

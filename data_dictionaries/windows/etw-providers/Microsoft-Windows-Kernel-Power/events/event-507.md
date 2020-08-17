@@ -1,4 +1,5 @@
 # Event 507 - CsExitReason
+###### Version: 0
 
 ## Description
 None

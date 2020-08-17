@@ -1,4 +1,5 @@
 # Event 35 - ETWGUID_COPYFRONTTOBACKBUFFEREVENT
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1035 - InfoBar_Display_Count_Indexer_Disabled
+###### Version: 0
 
 ## Description
 None

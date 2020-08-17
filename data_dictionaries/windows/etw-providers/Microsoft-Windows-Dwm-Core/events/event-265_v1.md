@@ -1,4 +1,5 @@
 # Event 265 - DCOMPEVENT_PRIMITIVEGROUP_UPDATE
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Verbose
 * etw_keywords_FrameVisualization
 * etw_task_DCOMPEVENT_PRIMITIVEGROUP_UPDATE
-* version_1

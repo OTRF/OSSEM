@@ -1,4 +1,5 @@
 # Event 1402 - FM_BeginActivationPrerequisitePhase
+###### Version: 0
 
 ## Description
 None

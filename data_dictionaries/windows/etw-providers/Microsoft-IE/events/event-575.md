@@ -1,4 +1,5 @@
 # Event 575 - Mshtml_EventDebug_XmlHttpRequest_Open
+###### Version: 0
 
 ## Description
 None

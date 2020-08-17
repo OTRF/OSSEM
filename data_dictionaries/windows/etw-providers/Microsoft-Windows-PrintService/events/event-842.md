@@ -1,4 +1,5 @@
 # Event 842 - Isolatingprinterdriversandotherplug_ins
+###### Version: 0
 
 ## Description
 None

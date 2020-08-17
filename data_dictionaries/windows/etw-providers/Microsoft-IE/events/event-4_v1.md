@@ -1,4 +1,5 @@
 # Event 4 - Mshtml_CMarkup_Layout
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_primarynav pageloadbreakdown
 * etw_opcode_Stop
 * etw_task_Mshtml_CMarkup_Layout
-* version_1

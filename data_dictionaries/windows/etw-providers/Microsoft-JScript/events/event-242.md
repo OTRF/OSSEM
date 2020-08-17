@@ -1,4 +1,5 @@
 # Event 242 - Jscript_Internal_Generic_Event
+###### Version: 0
 
 ## Description
 None

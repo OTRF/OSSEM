@@ -1,4 +1,5 @@
 # Event 364 - HME_SERVER_ONLINE_OFFLINE
+###### Version: 0
 
 ## Description
 None

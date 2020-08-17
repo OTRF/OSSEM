@@ -1,4 +1,5 @@
 # Event 701 - Browseui_Tabs_Tearoff_ShowVisual
+###### Version: 0
 
 ## Description
 None

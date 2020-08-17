@@ -1,4 +1,5 @@
 # Event 138 - SCHEDULE_NEW_EFFECTIVE_REFRESH_PERIOD
+###### Version: 0
 
 ## Description
 None

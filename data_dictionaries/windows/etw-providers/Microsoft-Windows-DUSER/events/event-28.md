@@ -1,4 +1,5 @@
 # Event 28 - DUser_CreateCompatibleBitmap
+###### Version: 0
 
 ## Description
 None

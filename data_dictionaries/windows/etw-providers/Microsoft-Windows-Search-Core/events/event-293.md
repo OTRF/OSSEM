@@ -1,4 +1,5 @@
 # Event 293 - RobotThread_LangAutoDetection_Start
+###### Version: 0
 
 ## Description
 None

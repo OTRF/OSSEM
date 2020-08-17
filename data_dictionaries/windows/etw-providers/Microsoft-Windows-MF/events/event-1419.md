@@ -1,4 +1,5 @@
 # Event 1419 - MediaFoundationDeviceMFTSetOutputTypeInitialization
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 501 - Smb2ConnectionDisconnectEvent
+###### Version: 0
 
 ## Description
 None

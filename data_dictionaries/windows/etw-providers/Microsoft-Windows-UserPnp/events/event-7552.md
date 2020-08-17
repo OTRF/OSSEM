@@ -1,4 +1,5 @@
 # Event 7552 - PnP_PlugPlay_ProcessDeviceInstallBatch
+###### Version: 0
 
 ## Description
 None

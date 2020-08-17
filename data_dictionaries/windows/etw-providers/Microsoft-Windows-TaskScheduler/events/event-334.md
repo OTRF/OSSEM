@@ -1,4 +1,5 @@
 # Event 334 - Launchconditionnotmet,sessionisaWorkerSession
+###### Version: 0
 
 ## Description
 None

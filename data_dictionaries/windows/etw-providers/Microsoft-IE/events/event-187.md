@@ -1,4 +1,5 @@
 # Event 187 - Mshtml_CImgInfo_Destroy
+###### Version: 0
 
 ## Description
 None

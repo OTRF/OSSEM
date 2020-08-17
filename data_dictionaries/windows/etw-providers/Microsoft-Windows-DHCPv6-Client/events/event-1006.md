@@ -1,4 +1,5 @@
 # Event 1006 - MediaStateEvent
+###### Version: 0
 
 ## Description
 None

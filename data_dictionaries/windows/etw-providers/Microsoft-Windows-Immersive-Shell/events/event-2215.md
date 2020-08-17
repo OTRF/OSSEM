@@ -1,4 +1,5 @@
 # Event 2215 - SharingManager_GetQuickShareTargetCount
+###### Version: 0
 
 ## Description
 None

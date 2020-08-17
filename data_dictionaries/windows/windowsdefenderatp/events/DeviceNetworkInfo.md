@@ -1,4 +1,5 @@
-# MachineNetworkInfo
+# DeviceNetworkInfo
+###### Version: 0
 
 ## Description
 Network properties of machines, including adapters, IP and MAC addresses, as well as connected networks and domains
@@ -6,9 +7,9 @@ Network properties of machines, including adapters, IP and MAC addresses, as wel
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|event_date_creation|EventTime|date|Date and time when the event was recorded|``|
-|machine_id|MachineId|string|Unique identifier for the machine in the service|``|
-|computer_name|ComputerName|string|Fully qualified domain name (FQDN) of the machine|``|
+|event_date_creation|Timestamp|date|Date and time when the event was recorded|``|
+|device_id|DeviceId|string|Unique identifier for the machine in the service|``|
+|computer_name|DeviceName|string|Fully qualified domain name (FQDN) of the machine|``|
 |report_id|ReportId|long|Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the ComputerName and EventTime columns.|``|
 |network_adapter_name|NetworkAdapterName|string|Name of the network adapter|``|
 |mac_address|MacAddress||string|`MAC address of the network adapter`|

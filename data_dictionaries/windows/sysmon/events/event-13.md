@@ -1,7 +1,8 @@
 # Event ID 13: RegistryEvent (Value Set)
+###### Version: 0
 
 ## Description
-This Registry event type identifies Registry value modifications. The event records the value written for Registry values of type DWORD and QWORD.
+This Registry event type identifies **Registry value modifications**. The event records the value written for Registry values of type DWORD and QWORD.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

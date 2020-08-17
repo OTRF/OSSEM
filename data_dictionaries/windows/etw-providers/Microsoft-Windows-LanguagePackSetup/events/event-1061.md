@@ -1,4 +1,5 @@
 # Event 1061 - RunningthelpksetupWizard
+###### Version: 0
 
 ## Description
 None

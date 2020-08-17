@@ -1,4 +1,5 @@
 # Event 339 - Mshtml_CTouchHelper_HandleTouchMessage
+###### Version: 0
 
 ## Description
 None

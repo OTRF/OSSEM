@@ -1,4 +1,5 @@
 # Event 97 - ETWGUID_MAGNIFIERRENDERTARGET_CAPTUREBITS
+###### Version: 0
 
 ## Description
 None

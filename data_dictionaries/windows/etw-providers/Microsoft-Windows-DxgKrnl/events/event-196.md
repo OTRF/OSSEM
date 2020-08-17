@@ -1,4 +1,5 @@
 # Event 196 - Dxgk_Diag_OutputDupl_Process_Pointer_Position
+###### Version: 0
 
 ## Description
 None

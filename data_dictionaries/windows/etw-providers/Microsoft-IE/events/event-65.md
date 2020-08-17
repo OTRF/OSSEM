@@ -1,4 +1,5 @@
 # Event 65 - Mshtml_CDoc_Running2InplaceInvalDoc
+###### Version: 0
 
 ## Description
 None

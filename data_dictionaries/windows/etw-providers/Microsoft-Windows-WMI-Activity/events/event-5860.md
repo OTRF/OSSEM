@@ -1,4 +1,5 @@
 # Event 5860 - task_0
+###### Version: 0
 
 ## Description
 WMI temporary event created

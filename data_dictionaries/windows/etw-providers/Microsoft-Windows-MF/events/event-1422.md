@@ -1,4 +1,5 @@
 # Event 1422 - MediaFoundationDeviceMFTInputStreamStateChanged
+###### Version: 0
 
 ## Description
 None

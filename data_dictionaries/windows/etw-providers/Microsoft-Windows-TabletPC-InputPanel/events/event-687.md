@@ -1,4 +1,5 @@
 # Event 687 - SoftKeyboard_Prediction_SetPredictionPosition
+###### Version: 0
 
 ## Description
 None

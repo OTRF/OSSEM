@@ -1,4 +1,5 @@
 # Event 255 - Mshtml_Image_Reclaim_Fail
+###### Version: 0
 
 ## Description
 None

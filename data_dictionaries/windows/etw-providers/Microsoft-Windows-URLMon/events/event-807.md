@@ -1,4 +1,5 @@
 # Event 807 - URLMON_CINet_Binding
+###### Version: 0
 
 ## Description
 None

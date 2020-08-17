@@ -1,4 +1,5 @@
 # Event 11 - Debug
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 ## Tags
 * etw_level_Verbose
 * etw_task_Debug
-* version_1

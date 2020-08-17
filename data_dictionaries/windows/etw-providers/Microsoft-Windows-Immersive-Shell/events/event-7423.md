@@ -1,4 +1,5 @@
 # Event 7423 - ConnectedSearch_LogRequestSent
+###### Version: 0
 
 ## Description
 None

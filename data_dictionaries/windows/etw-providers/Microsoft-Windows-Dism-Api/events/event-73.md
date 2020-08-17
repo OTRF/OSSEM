@@ -1,4 +1,5 @@
 # Event 73 - DismGetTargetEditions
+###### Version: 0
 
 ## Description
 None

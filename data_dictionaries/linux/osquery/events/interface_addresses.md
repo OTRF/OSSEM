@@ -1,4 +1,5 @@
 # Interface_addresses Table
+###### Version: 4.4.2
 
 ## Description
 Network interfaces and relevant metadata.
@@ -16,6 +17,3 @@ Network interfaces and relevant metadata.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#interface_addresses)
-
-## Tags
-* version_4.4.2

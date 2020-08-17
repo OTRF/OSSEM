@@ -1,4 +1,5 @@
 # Event 16 - IOCTLrequest.
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_IOCTL
 * etw_opcode_Stop
 * etw_task_IOCTLrequest.
-* version_1

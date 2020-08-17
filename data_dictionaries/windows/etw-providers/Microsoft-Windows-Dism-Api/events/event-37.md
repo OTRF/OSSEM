@@ -1,4 +1,5 @@
 # Event 37 - DismRemovePackage
+###### Version: 0
 
 ## Description
 None

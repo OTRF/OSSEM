@@ -1,4 +1,5 @@
 # Event 362 - Debugger_Persistence_TabOpen
+###### Version: 0
 
 ## Description
 None

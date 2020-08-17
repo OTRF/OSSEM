@@ -1,4 +1,5 @@
 # Event 39 - COM_ClientSyncCall
+###### Version: 1
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 * etw_level_Informational
 * etw_opcode_Start
 * etw_task_COM_ClientSyncCall
-* version_1

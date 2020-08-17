@@ -1,4 +1,5 @@
 # Event 406 - Wininet_WebSocketSession
+###### Version: 0
 
 ## Description
 None

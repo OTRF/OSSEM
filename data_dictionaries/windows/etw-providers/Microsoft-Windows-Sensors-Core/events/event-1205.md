@@ -1,4 +1,5 @@
 # Event 1205 - SensorsHidInitializationTask
+###### Version: 0
 
 ## Description
 None

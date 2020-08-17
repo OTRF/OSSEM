@@ -1,4 +1,5 @@
 # Event 12 - ClientShutdown
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Warning
 * etw_keywords_Shutdown
 * etw_task_ClientShutdown
-* version_1

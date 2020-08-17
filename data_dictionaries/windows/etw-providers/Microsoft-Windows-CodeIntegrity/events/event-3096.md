@@ -1,4 +1,5 @@
 # Event 3096 - RefreshPolicyTask
+###### Version: 0
 
 ## Description
 None

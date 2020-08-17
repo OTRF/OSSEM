@@ -1,4 +1,5 @@
 # Event 361 - Debugger_Persistence_TabOpen
+###### Version: 0
 
 ## Description
 None

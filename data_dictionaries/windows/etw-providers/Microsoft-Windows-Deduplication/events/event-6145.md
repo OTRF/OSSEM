@@ -1,4 +1,5 @@
 # Event 6145 - DataDeduplicationUnoptimizationTask
+###### Version: 0
 
 ## Description
 None

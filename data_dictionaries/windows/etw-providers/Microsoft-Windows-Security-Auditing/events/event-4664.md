@@ -1,4 +1,5 @@
 # Event ID 4664: An attempt was made to create a hard link
+###### Version: 0
 
 ## Description
 This event generates when an NTFS hard link was successfully created.

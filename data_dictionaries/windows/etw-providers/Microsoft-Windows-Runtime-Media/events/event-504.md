@@ -1,4 +1,5 @@
 # Event 504 - WinRTMediaStreamSourceSampleRequestTask
+###### Version: 0
 
 ## Description
 None

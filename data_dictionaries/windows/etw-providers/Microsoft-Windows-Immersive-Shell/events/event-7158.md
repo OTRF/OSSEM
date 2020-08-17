@@ -1,4 +1,5 @@
 # Event 7158 - ConnectedSearch_Settings_LocationAwareness
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 2679 - Settings_Launch_SettingsCommand
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 309 - Wordlist_BeginResourceFailed_DocInError
+###### Version: 0
 
 ## Description
 None

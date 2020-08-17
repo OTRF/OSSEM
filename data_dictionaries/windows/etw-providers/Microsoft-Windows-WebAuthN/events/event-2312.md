@@ -1,4 +1,5 @@
 # Event 2312 - CtapNfcReaderThread
+###### Version: 0
 
 ## Description
 None

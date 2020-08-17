@@ -1,4 +1,5 @@
 # Event 4042 - Obj_Get_Search_Class_Element_Value
+###### Version: 0
 
 ## Description
 None

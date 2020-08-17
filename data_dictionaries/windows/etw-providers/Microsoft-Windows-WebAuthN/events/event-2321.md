@@ -1,4 +1,5 @@
 # Event 2321 - CtapNfcSkipReader
+###### Version: 0
 
 ## Description
 None

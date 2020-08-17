@@ -1,4 +1,5 @@
 # Event 516 - BackgroundManagerTrace
+###### Version: 0
 
 ## Description
 None

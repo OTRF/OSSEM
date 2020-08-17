@@ -1,4 +1,5 @@
 # Event 7067 - DocPerf_Task_XpsViewer_ReportBadPage
+###### Version: 0
 
 ## Description
 None

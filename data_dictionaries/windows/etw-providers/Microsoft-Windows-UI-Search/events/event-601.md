@@ -1,4 +1,5 @@
 # Event 601 - XamlViewShutdown
+###### Version: 0
 
 ## Description
 None

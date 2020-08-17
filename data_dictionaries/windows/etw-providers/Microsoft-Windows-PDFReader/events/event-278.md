@@ -1,4 +1,5 @@
 # Event 278 - CloseWindow
+###### Version: 0
 
 ## Description
 None

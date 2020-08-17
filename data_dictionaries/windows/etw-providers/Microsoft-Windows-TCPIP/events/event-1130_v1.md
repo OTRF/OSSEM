@@ -1,4 +1,5 @@
 # Event 1130 - FramingIfOperStatus
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:TcpipInterface ut:Global
 * etw_task_FramingIfOperStatus
-* version_1

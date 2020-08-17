@@ -1,4 +1,5 @@
 # Event 208 - MicrosoftWindowsRuntimeCaptureEngineStartPreviewTask
+###### Version: 0
 
 ## Description
 None

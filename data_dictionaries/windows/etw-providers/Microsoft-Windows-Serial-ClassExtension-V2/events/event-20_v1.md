@@ -1,4 +1,5 @@
 # Event 20 - I/Orequest.
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_IO ReceiveIO
 * etw_opcode_Start
 * etw_task_I/Orequest.
-* version_1

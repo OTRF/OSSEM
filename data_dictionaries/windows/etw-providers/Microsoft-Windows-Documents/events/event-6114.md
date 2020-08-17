@@ -1,4 +1,5 @@
 # Event 6114 - DocPerf_Task_Setup_DetectRemotePrinterHardwareID
+###### Version: 0
 
 ## Description
 None

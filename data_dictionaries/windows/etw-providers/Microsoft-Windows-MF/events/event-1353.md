@@ -1,4 +1,5 @@
 # Event 1353 - MPCompactAudioSample
+###### Version: 0
 
 ## Description
 None

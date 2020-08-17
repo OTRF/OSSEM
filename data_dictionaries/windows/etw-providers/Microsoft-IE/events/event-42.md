@@ -1,4 +1,5 @@
 # Event 42 - Mshtml_CHtmPre_SpeculativeRejected
+###### Version: 0
 
 ## Description
 None

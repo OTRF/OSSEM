@@ -1,4 +1,5 @@
 # Event 118 - ETWGUID_DWMUPDATEBLTTRANSLATION_CLIP
+###### Version: 0
 
 ## Description
 None

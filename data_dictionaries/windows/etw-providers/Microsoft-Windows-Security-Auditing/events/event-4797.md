@@ -1,4 +1,5 @@
 # Event ID 4797: An attempt was made to query the existence of a blank password for an account.
+###### Version: 0
 
 ## Description
 This event generates when a process enumerates a blank password for an account.

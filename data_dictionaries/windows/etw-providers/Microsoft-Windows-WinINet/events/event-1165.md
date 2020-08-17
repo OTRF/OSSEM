@@ -1,4 +1,5 @@
 # Event 1165 - Wininet_CacheServerConnection
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 9639 - Explorer_IconCache_ImageListSize
+###### Version: 0
 
 ## Description
 None

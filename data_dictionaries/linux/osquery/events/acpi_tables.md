@@ -1,4 +1,5 @@
 # Acpi_tables Table
+###### Version: 4.4.2
 
 ## Description
 Firmware ACPI functional table common metadata and content.
@@ -12,6 +13,3 @@ Firmware ACPI functional table common metadata and content.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#acpi_tables)
-
-## Tags
-* version_4.4.2

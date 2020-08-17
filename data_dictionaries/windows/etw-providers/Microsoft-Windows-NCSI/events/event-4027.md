@@ -1,4 +1,5 @@
 # Event 4027 - InternetConnectivityDetection
+###### Version: 0
 
 ## Description
 None

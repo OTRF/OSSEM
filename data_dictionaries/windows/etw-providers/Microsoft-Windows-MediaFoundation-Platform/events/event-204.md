@@ -1,4 +1,5 @@
 # Event 204 - MediaFoundationSourceResolver
+###### Version: 0
 
 ## Description
 None

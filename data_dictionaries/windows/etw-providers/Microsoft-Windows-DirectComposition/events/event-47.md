@@ -1,4 +1,5 @@
 # Event 47 - DESTROY_SHARED_MEMORY_SECTION
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 247 - ESE_tagSortPerf_Trace
+###### Version: 0
 
 ## Description
 None

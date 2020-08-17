@@ -1,4 +1,5 @@
 # Event 107 - RasChapauthenticationinprogressevent
+###### Version: 0
 
 ## Description
 None

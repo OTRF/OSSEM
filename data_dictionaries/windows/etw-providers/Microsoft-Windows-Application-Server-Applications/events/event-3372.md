@@ -1,4 +1,5 @@
 # Event 3372 - MessageEncoding
+###### Version: 0
 
 ## Description
 None

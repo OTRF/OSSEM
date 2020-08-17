@@ -1,4 +1,5 @@
 # Event 7942 - None
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_keywords_Cmdlets
 * etw_opcode_Tobeusedwhenoperationisjustexecutingamethod
 * etw_task_None
-* version_1

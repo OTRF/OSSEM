@@ -1,4 +1,5 @@
 # Event 4074 - NetworkChannelOpen
+###### Version: 0
 
 ## Description
 None

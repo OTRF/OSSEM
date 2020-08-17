@@ -1,4 +1,5 @@
 # Event 9716 - Explorer_Startup_Run6432_Stats
+###### Version: 0
 
 ## Description
 None

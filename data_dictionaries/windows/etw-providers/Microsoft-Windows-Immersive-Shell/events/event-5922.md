@@ -1,4 +1,5 @@
 # Event 5922 - AppActivation_ErrorDialogDismissed
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 142 - SaveCharactersAroundTextCursor
+###### Version: 0
 
 ## Description
 None

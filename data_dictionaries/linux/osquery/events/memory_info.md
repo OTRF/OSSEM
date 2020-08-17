@@ -1,4 +1,5 @@
 # Memory_info Table
+###### Version: 4.4.2
 
 ## Description
 Main memory information in bytes.
@@ -18,6 +19,3 @@ Main memory information in bytes.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#memory_info)
-
-## Tags
-* version_4.4.2

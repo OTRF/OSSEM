@@ -1,4 +1,5 @@
 # Event 714 - Mshtml_CDragPreview_CreateSurface
+###### Version: 0
 
 ## Description
 None

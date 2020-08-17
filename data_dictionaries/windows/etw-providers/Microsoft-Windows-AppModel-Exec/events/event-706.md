@@ -1,4 +1,5 @@
 # Event 706 - BAM_GetStatus
+###### Version: 0
 
 ## Description
 None

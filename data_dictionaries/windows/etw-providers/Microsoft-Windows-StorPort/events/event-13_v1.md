@@ -1,4 +1,5 @@
 # Event 13 - MiniportIORequestServiceTime
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_keywords_IoPerfNotification
 * etw_opcode_OpCodeMiniportIORequestServiceTime
 * etw_task_MiniportIORequestServiceTime
-* version_1

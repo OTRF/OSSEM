@@ -1,4 +1,5 @@
 # Event 326 - ComponentPerformanceState
+###### Version: 0
 
 ## Description
 None

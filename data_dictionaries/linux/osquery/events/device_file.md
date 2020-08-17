@@ -1,4 +1,5 @@
 # Device_file Table
+###### Version: 4.4.2
 
 ## Description
 Similar to the file table, but use TSK and allow block address access.
@@ -24,6 +25,3 @@ Similar to the file table, but use TSK and allow block address access.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#device_file)
-
-## Tags
-* version_4.4.2

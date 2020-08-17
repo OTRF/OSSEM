@@ -1,4 +1,5 @@
 # Event 4806 - DiscoveryMessage
+###### Version: 0
 
 ## Description
 None

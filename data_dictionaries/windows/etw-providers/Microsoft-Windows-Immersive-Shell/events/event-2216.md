@@ -1,4 +1,5 @@
 # Event 2216 - SharingManager_GetQuickShareTarget
+###### Version: 0
 
 ## Description
 None

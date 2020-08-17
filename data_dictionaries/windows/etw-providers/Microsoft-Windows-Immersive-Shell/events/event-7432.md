@@ -1,4 +1,5 @@
 # Event 7432 - ConnectedSearch_DomainRedirection
+###### Version: 0
 
 ## Description
 None

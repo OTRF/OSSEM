@@ -1,4 +1,5 @@
 # Event 106 - DirectShowFilterGraphAddFilter
+###### Version: 0
 
 ## Description
 None

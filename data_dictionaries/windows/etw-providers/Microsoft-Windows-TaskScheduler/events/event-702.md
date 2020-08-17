@@ -1,4 +1,5 @@
 # Event 702 - CompatibilitymoduleRPCfailed
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 5058 - VMT_VID_PARTITION_UNPERSIST
+###### Version: 0
 
 ## Description
 None

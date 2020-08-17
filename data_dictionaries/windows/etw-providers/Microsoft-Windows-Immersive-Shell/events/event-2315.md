@@ -1,4 +1,5 @@
 # Event 2315 - Launcher_Apps_ViewChange
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 905 - CloseProtocolHandle
+###### Version: 0
 
 ## Description
 None

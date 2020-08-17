@@ -1,4 +1,5 @@
 # Event 45 - CBlackboxWithTEESecureCorePreInit
+###### Version: 0
 
 ## Description
 None

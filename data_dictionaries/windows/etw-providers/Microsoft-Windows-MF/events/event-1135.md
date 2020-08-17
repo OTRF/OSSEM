@@ -1,4 +1,5 @@
 # Event 1135 - MediaFoundationAsyncWrapper
+###### Version: 0
 
 ## Description
 None

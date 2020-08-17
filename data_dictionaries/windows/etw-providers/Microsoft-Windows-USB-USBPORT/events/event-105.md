@@ -1,4 +1,5 @@
 # Event 105 - USBUSER_OP_RAW_RESET_PORT
+###### Version: 0
 
 ## Description
 None

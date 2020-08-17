@@ -1,4 +1,5 @@
 # Event 541 - BackgroundManagerTrace
+###### Version: 0
 
 ## Description
 None

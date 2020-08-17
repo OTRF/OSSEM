@@ -1,4 +1,5 @@
 # Event 116 - Smb2ResponseLock
+###### Version: 2
 
 ## Description
 None
@@ -38,4 +39,3 @@ None
 * etw_level_Informational
 * etw_keywords_Response
 * etw_task_Smb2ResponseLock
-* version_2

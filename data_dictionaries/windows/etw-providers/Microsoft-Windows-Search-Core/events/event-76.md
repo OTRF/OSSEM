@@ -1,4 +1,5 @@
 # Event 76 - StatusChange_RemoveFromGathererQueue
+###### Version: 0
 
 ## Description
 None

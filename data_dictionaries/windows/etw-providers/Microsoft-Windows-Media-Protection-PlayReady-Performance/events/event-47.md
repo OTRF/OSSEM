@@ -1,4 +1,5 @@
 # Event 47 - CBlackboxWithTEESecureCoreInit
+###### Version: 0
 
 ## Description
 None

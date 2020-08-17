@@ -1,4 +1,5 @@
 # Event 10 - VC1ENC_ADAPTIVE_RESCHANGE
+###### Version: 0
 
 ## Description
 None

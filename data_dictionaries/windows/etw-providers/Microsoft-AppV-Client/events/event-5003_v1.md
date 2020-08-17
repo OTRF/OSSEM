@@ -1,4 +1,5 @@
 # Event 5003 - VirtualFileSystemRedirection
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Informational
 * etw_keywords_VFS
 * etw_task_VirtualFileSystemRedirection
-* version_1

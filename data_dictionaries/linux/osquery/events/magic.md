@@ -1,4 +1,5 @@
 # Magic Table
+###### Version: 4.4.2
 
 ## Description
 Magic number recognition library table.
@@ -14,6 +15,3 @@ Magic number recognition library table.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#magic)
-
-## Tags
-* version_4.4.2

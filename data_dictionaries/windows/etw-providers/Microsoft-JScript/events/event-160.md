@@ -1,4 +1,5 @@
 # Event 160 - JScript_ByteCodeDeserialize
+###### Version: 0
 
 ## Description
 None

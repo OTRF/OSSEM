@@ -1,4 +1,5 @@
 # Event 746 - Edgehtml_HtmlPopup
+###### Version: 0
 
 ## Description
 None

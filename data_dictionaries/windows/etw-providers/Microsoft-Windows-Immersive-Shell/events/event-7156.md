@@ -1,4 +1,5 @@
 # Event 7156 - ConnectedSearch_Settings_DeleteLocalHistory
+###### Version: 0
 
 ## Description
 None

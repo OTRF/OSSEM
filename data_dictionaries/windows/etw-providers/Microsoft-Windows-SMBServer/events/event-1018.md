@@ -1,4 +1,5 @@
 # Event 1018 - SrvSessionInvalidate
+###### Version: 0
 
 ## Description
 None

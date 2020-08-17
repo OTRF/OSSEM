@@ -1,4 +1,5 @@
 # Elf_dynamic Table
+###### Version: 4.4.2
 
 ## Description
 ELF dynamic section information.
@@ -13,6 +14,3 @@ ELF dynamic section information.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#elf_dynamic)
-
-## Tags
-* version_4.4.2

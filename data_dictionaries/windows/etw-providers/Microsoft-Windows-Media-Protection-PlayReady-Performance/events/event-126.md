@@ -1,4 +1,5 @@
 # Event 126 - CBlackboxPrepareDomainPrivateKeysForStorage
+###### Version: 0
 
 ## Description
 None

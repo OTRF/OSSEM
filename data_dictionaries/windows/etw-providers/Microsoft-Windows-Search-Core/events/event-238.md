@@ -1,4 +1,5 @@
 # Event 238 - CSearchRoot_get_AuthenticationType
+###### Version: 0
 
 ## Description
 None

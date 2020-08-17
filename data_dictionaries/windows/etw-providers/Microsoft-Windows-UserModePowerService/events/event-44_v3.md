@@ -1,4 +1,5 @@
 # Event 44 - AdaptiveStandby
+###### Version: 3
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_keywords_AdaptiveStandby
 * etw_opcode_BatteryReserveAction
 * etw_task_AdaptiveStandby
-* version_3

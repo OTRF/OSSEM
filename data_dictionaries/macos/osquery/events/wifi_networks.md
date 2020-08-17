@@ -1,4 +1,5 @@
 # Wifi_networks Table
+###### Version: 4.4.2
 
 ## Description
 OS X known/remembered Wi-Fi networks list.
@@ -21,6 +22,3 @@ OS X known/remembered Wi-Fi networks list.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#wifi_networks)
-
-## Tags
-* version_4.4.2

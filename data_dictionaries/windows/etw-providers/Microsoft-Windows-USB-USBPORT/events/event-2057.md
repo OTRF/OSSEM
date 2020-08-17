@@ -1,4 +1,5 @@
 # Event 2057 - MiniportSuspend
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 332 - Launchconditionnotmet,usernotlogged_on
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 7156 - Perf_WLRoamUpdateDeviceMetadataNetworkRequest
+###### Version: 0
 
 ## Description
 None

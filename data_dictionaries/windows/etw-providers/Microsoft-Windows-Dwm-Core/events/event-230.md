@@ -1,4 +1,5 @@
 # Event 230 - DETECT_REMOTEAPPMODE_SWITCH
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 534 - Miniportlogsanerror.
+###### Version: 1
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 * etw_keywords_keyword_200000000000
 * etw_opcode_Miniportlogsanerror.
 * etw_task_Miniportlogsanerror.
-* version_1

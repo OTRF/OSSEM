@@ -1,4 +1,5 @@
 # Event 5056 - VMT_VID_PARTITION_PERSIST
+###### Version: 0
 
 ## Description
 None

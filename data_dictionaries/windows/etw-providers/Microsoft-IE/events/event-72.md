@@ -1,4 +1,5 @@
 # Event 72 - Mshtml_CImgHelper_RequestLayout
+###### Version: 0
 
 ## Description
 None

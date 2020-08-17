@@ -1,4 +1,5 @@
 # Event 3318 - LogTrace
+###### Version: 0
 
 ## Description
 None

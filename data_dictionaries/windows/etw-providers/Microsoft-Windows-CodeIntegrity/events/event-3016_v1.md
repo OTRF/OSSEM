@@ -1,4 +1,5 @@
 # Event 3016 - ValidateFileHash
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Verbose
 * etw_opcode_Stop
 * etw_task_ValidateFileHash
-* version_1

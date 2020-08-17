@@ -1,4 +1,5 @@
 # Logical_drives Table
+###### Version: 4.4.2
 
 ## Description
 Details for logical drives on the system. A logical drive generally represents a single partition.
@@ -16,6 +17,3 @@ Details for logical drives on the system. A logical drive generally represents a
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#logical_drives)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 30 - DeviceAttemptAssociationAudit
+###### Version: 0
 
 ## Description
 None

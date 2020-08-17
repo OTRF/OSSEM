@@ -1,4 +1,5 @@
 # Event 12 - DuplicateGhost
+###### Version: 0
 
 ## Description
 None

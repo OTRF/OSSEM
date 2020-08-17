@@ -1,4 +1,5 @@
 # Event 828 - Mshtml_Aligned_RAF_Enabled
+###### Version: 0
 
 ## Description
 None

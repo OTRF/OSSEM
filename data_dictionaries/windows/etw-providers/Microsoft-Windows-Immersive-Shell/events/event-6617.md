@@ -1,4 +1,5 @@
 # Event 6617 - ConnectCharm_PlayTargetsEnum
+###### Version: 0
 
 ## Description
 None

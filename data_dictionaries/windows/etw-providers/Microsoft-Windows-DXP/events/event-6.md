@@ -1,4 +1,5 @@
 # Event 6 - SignatureVerification
+###### Version: 0
 
 ## Description
 None

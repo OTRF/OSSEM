@@ -1,4 +1,5 @@
 # Event 530 - Mshtml_EventDebug_Timer_Invoke_Callback
+###### Version: 2
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_keywords_eventsandtimers
 * etw_opcode_Start
 * etw_task_Mshtml_EventDebug_Timer_Invoke_Callback
-* version_2

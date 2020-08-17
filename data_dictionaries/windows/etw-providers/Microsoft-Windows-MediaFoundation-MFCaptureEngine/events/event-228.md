@@ -1,4 +1,5 @@
 # Event 228 - MFCaptureEnginePhotoXVP
+###### Version: 0
 
 ## Description
 None

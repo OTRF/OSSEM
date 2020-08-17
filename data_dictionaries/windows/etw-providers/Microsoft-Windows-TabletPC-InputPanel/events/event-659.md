@@ -1,4 +1,5 @@
 # Event 659 - SoftKeyboard_OutputManager_TypedAlternatesProcessed
+###### Version: 0
 
 ## Description
 None

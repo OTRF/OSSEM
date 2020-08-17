@@ -1,4 +1,5 @@
 # Event 7442 - ConnectedSearch_ResourceMissing
+###### Version: 0
 
 ## Description
 None

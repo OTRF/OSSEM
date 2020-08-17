@@ -1,4 +1,5 @@
 # Event 8009 - DnsRegistration
+###### Version: 0
 
 ## Description
 None

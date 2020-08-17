@@ -1,4 +1,5 @@
 # Docker_volume_labels Table
+###### Version: 4.4.2
 
 ## Description
 Docker volume labels.
@@ -12,6 +13,3 @@ Docker volume labels.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_volume_labels)
-
-## Tags
-* version_4.4.2

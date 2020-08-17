@@ -1,4 +1,5 @@
 # Event 323 - CHANNELBATCHES_PROCESSED
+###### Version: 0
 
 ## Description
 None

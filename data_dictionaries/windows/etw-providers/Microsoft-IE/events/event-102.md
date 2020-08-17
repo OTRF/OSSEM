@@ -1,4 +1,5 @@
 # Event 102 - Mshtml_CElement_HandleMouseHoverForStyle
+###### Version: 0
 
 ## Description
 None

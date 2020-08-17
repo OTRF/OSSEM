@@ -1,4 +1,5 @@
 # Cpuid Table
+###### Version: 4.4.2
 
 ## Description
 Useful CPU features from the cpuid ASM call.
@@ -14,6 +15,3 @@ Useful CPU features from the cpuid ASM call.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#cpuid)
-
-## Tags
-* version_4.4.2

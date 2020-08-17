@@ -1,4 +1,5 @@
 # Event 254 - ESE_tagCheckpointUpdate_Trace
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 5051 - VMT_VID_MEMORY_BLOCK_RESTORE
+###### Version: 0
 
 ## Description
 None

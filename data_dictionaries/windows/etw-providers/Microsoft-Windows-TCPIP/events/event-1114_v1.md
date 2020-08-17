@@ -1,4 +1,5 @@
 # Event 1114 - IpDadSuccessful
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:TcpipCsDiag ut:Global keyword_80000000000
 * etw_task_IpDadSuccessful
-* version_1

@@ -1,4 +1,5 @@
 # Os_version Table
+###### Version: 4.4.2
 
 ## Description
 A single row containing the operating system name and version.
@@ -19,6 +20,3 @@ A single row containing the operating system name and version.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#os_version)
-
-## Tags
-* version_4.4.2

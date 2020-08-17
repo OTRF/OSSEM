@@ -1,4 +1,5 @@
 # Event 1202 - IpInterfaceRundown
+###### Version: 3
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:TcpipInterface ut:TcpipDiagnosis ut:Global
 * etw_task_IpInterfaceRundown
-* version_3

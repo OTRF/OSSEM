@@ -1,4 +1,5 @@
 # Event 2 - DesktopWindowManager_DWMResponsiveness
+###### Version: 0
 
 ## Description
 None

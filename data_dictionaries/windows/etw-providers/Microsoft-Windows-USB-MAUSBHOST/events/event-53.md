@@ -1,4 +1,5 @@
 # Event 53 - PALManagementChannel
+###### Version: 0
 
 ## Description
 None

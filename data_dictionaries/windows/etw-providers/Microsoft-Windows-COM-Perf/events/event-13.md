@@ -1,4 +1,5 @@
 # Event 13 - ExtensionCatalog_RoGetExtensionRegistration
+###### Version: 0
 
 ## Description
 None

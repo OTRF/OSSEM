@@ -1,4 +1,5 @@
 # Event ID 4802: The screen saver was invoked
+###### Version: 0
 
 ## Description
 This event is generated when screen saver was invoked.

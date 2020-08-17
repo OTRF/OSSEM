@@ -1,4 +1,5 @@
 # Event 3003 - CheckSecureBootEnabled
+###### Version: 0
 
 ## Description
 None

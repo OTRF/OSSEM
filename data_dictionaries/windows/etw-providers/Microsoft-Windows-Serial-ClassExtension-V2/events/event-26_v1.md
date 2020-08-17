@@ -1,4 +1,5 @@
 # Event 26 - Powerstatetransitions.
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_PowerStateTransition
 * etw_opcode_Stop
 * etw_task_Powerstatetransitions.
-* version_1

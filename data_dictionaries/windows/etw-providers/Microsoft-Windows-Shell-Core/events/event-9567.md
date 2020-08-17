@@ -1,4 +1,5 @@
 # Event 9567 - Explorer_StartMenu_Pinned_Item_Removed
+###### Version: 0
 
 ## Description
 None

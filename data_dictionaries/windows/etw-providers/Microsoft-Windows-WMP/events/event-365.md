@@ -1,4 +1,5 @@
 # Event 365 - HME_SERVER_MAGIC_PACKET_SENT
+###### Version: 0
 
 ## Description
 None

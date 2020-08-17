@@ -1,4 +1,5 @@
 # Event 386 - MMIOFlipMultiPlaneOverlay3
+###### Version: 3
 
 ## Description
 None
@@ -28,4 +29,3 @@ None
 * etw_level_Always
 * etw_keywords_Base
 * etw_task_MMIOFlipMultiPlaneOverlay3
-* version_3

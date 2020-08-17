@@ -1,4 +1,5 @@
 # Event 1096 - AadCloudAPPluginOperation
+###### Version: 0
 
 ## Description
 None

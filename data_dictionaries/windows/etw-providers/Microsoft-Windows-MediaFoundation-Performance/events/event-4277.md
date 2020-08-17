@@ -1,4 +1,5 @@
 # Event 4277 - MetadataLoaded
+###### Version: 0
 
 ## Description
 None

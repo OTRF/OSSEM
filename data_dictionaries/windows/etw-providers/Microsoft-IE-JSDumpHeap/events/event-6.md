@@ -1,4 +1,5 @@
 # Event 6 - JSDumpHeapStringTable
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 530 - PowerAggregatorRequest
+###### Version: 0
 
 ## Description
 None

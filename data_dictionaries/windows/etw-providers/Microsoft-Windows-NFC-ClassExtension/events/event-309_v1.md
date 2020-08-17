@@ -1,4 +1,5 @@
 # Event 309 - RFNDEFtagwrite.
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_RF
 * etw_opcode_Start
 * etw_task_RFNDEFtagwrite.
-* version_1

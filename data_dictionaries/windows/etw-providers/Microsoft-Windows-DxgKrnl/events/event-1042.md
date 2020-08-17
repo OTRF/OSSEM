@@ -1,4 +1,5 @@
 # Event 1042 - MiracastUmdOpenMiracastSessionDataRate
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1001 - VirtualRebalance
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_Store
 * etw_opcode_Stop
 * etw_task_VirtualRebalance
-* version_1

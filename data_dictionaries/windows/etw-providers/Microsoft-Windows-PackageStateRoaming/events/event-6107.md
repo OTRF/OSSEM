@@ -1,4 +1,5 @@
 # Event 6107 - Debug_PackageActivityMonitor_EndQuiescentPeriod
+###### Version: 0
 
 ## Description
 None

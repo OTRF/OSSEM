@@ -1,4 +1,5 @@
 # Event 20 - PsIoRateControl
+###### Version: 2
 
 ## Description
 None
@@ -29,4 +30,3 @@ None
 * etw_keywords_WINEVENT_KEYWORD_JOB_IO
 * etw_opcode_Stop
 * etw_task_PsIoRateControl
-* version_2

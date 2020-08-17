@@ -1,4 +1,5 @@
 # Event 203 - DeviceMetadataRetrieval
+###### Version: 0
 
 ## Description
 None

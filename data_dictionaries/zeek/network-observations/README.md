@@ -5,13 +5,13 @@ Data collected about certificates, software, hosts, modbus, software, services/a
 Example, the various software seen by a host over time.
 
 ## Sub Data Sets
-|events|Description|Tags|
-|---|---|---|
-|[known_certs](events/known_certs.md)|None||
-|[known_hosts](events/known_hosts.md)|None||
-|[known_modbus](events/known_modbus.md)|None||
-|[known_services](events/known_services.md)|None||
-|[software](events/software.md)|None||
+|events|Version|Description|Tags|
+|---|---|---|---|
+|[known_certs](events/known_certs.md)|0|None||
+|[known_hosts](events/known_hosts.md)|0|None||
+|[known_modbus](events/known_modbus.md)|0|None||
+|[known_services](events/known_services.md)|0|None||
+|[software](events/software.md)|0|None||
 
 ## References
 * [Network Observation Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#network-observations)

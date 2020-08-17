@@ -1,4 +1,5 @@
 # Event 351 - VidMmDemoteDevice
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Pkg_packages Table
+###### Version: 4.4.2
 
 ## Description
 pkgng packages that are currently installed on the host system.
@@ -13,6 +14,3 @@ pkgng packages that are currently installed on the host system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#pkg_packages)
-
-## Tags
-* version_4.4.2

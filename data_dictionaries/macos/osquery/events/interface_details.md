@@ -1,4 +1,5 @@
 # Interface_details Table
+###### Version: 4.4.2
 
 ## Description
 Detailed information and stats of network interfaces.
@@ -44,6 +45,3 @@ Detailed information and stats of network interfaces.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#interface_details)
-
-## Tags
-* version_4.4.2

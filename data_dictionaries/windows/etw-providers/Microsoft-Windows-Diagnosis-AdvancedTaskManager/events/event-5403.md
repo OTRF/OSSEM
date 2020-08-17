@@ -1,4 +1,5 @@
 # Event 5403 - Dashboard_ChartScaleChanged
+###### Version: 0
 
 ## Description
 None

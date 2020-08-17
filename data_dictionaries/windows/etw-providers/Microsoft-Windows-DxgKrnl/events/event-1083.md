@@ -1,4 +1,5 @@
 # Event 1083 - OPMSetSigningKeyAndSequenceNumbers
+###### Version: 0
 
 ## Description
 None

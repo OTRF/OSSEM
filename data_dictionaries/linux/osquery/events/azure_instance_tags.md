@@ -1,4 +1,5 @@
 # Azure_instance_tags Table
+###### Version: 4.4.2
 
 ## Description
 Azure instance tags.
@@ -12,6 +13,3 @@ Azure instance tags.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#azure_instance_tags)
-
-## Tags
-* version_4.4.2

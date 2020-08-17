@@ -1,4 +1,5 @@
 # Docker_container_ports Table
+###### Version: 4.4.2
 
 ## Description
 Docker container ports.
@@ -14,6 +15,3 @@ Docker container ports.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_container_ports)
-
-## Tags
-* version_4.4.2

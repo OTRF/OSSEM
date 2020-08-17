@@ -1,4 +1,5 @@
 # Event 5009 - UdwmProcessSnapshotIconicThumbnail
+###### Version: 0
 
 ## Description
 None

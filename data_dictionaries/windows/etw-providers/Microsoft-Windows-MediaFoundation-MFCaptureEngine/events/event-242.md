@@ -1,4 +1,5 @@
 # Event 242 - MFCaptureEngineSetCurrentDeviceMediaTypeTask
+###### Version: 0
 
 ## Description
 None

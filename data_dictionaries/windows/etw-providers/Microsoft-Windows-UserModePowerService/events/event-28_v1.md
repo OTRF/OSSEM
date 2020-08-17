@@ -1,4 +1,5 @@
 # Event 28 - RundownSmartUserPresenceIntevals
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_keywords_SmartUserPresence
 * etw_task_RundownSmartUserPresenceIntevals
-* version_1

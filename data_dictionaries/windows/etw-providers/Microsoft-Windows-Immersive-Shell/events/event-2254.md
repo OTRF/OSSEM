@@ -1,4 +1,5 @@
 # Event 2254 - SharingManager_GetSharableItemDisplayInfo
+###### Version: 0
 
 ## Description
 None

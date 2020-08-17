@@ -1,4 +1,5 @@
 # Event 1008 - WinNatBindingSessionCount
+###### Version: 0
 
 ## Description
 None

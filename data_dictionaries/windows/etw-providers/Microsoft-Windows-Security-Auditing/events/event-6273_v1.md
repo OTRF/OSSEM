@@ -1,4 +1,5 @@
 # Event 6273 - task_0
+###### Version: 1
 
 ## Description
 None
@@ -37,4 +38,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_task_0
-* version_1

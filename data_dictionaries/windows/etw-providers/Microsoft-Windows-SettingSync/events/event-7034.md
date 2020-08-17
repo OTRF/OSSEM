@@ -1,4 +1,5 @@
 # Event 7034 - Perf_WLRoamLocalSyncSession
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 704 - Mshtml_DragAndDrop_Fire_DragStart
+###### Version: 0
 
 ## Description
 None

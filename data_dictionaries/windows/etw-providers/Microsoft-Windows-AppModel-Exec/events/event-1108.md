@@ -1,4 +1,5 @@
 # Event 1108 - FM_AcquireResourceSet
+###### Version: 0
 
 ## Description
 None

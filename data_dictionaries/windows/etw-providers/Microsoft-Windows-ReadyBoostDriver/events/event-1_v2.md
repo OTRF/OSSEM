@@ -1,4 +1,5 @@
 # Event 1 - StoreRead
+###### Version: 2
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_StoreOps
 * etw_opcode_Start
 * etw_task_StoreRead
-* version_2

@@ -1,4 +1,5 @@
 # Event 3043 - SetFileCache
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Verbose
 * etw_opcode_Stop
 * etw_task_SetFileCache
-* version_1

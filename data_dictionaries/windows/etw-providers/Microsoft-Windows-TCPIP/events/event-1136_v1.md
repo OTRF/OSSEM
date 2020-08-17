@@ -1,4 +1,5 @@
 # Event 1136 - FramingNdisPause
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:TcpipInterface ut:Global
 * etw_task_FramingNdisPause
-* version_1

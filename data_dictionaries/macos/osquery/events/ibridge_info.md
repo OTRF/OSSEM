@@ -1,4 +1,5 @@
 # Ibridge_info Table
+###### Version: 4.4.2
 
 ## Description
 Information about the Apple iBridge hardware controller.
@@ -13,6 +14,3 @@ Information about the Apple iBridge hardware controller.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#ibridge_info)
-
-## Tags
-* version_4.4.2

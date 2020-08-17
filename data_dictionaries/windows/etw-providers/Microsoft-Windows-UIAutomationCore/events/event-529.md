@@ -1,4 +1,5 @@
 # Event 529 - ReleaseCollection_ReleaseObjects
+###### Version: 0
 
 ## Description
 None

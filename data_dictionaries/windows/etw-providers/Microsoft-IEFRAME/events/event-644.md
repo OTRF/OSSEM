@@ -1,4 +1,5 @@
 # Event 644 - History_Journal_Write_Command
+###### Version: 0
 
 ## Description
 None

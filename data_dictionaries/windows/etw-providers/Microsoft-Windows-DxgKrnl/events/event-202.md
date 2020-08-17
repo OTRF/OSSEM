@@ -1,4 +1,5 @@
 # Event 202 - Dxgk_Diag_OutputDupl_Get_Pointer_Shape_Data
+###### Version: 0
 
 ## Description
 None

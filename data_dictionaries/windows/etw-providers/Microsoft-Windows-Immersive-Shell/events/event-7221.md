@@ -1,4 +1,5 @@
 # Event 7221 - ConnectedSearch_HTTPRequestFailure
+###### Version: 0
 
 ## Description
 None

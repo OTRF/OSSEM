@@ -1,4 +1,5 @@
 # Event 2104 - CtapDeviceInfo
+###### Version: 0
 
 ## Description
 None

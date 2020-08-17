@@ -1,4 +1,5 @@
 # Event 2327 - CtapNfcSCardTransmitRequest
+###### Version: 0
 
 ## Description
 None

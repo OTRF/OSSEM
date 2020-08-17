@@ -1,4 +1,5 @@
 # Event 1504 - SettingsTemplateCatalogProcessing
+###### Version: 0
 
 ## Description
 None

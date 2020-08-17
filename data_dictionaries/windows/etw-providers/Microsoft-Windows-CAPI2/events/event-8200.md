@@ -1,4 +1,5 @@
 # Event 8200 - SearchforSecurityCatalogsintheCatalogDatabasethatcontainthehash
+###### Version: 0
 
 ## Description
 None

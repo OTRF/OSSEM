@@ -1,4 +1,5 @@
 # Event 841 - Mshtml_WebRTC_Ice_Gathering_State
+###### Version: 0
 
 ## Description
 None

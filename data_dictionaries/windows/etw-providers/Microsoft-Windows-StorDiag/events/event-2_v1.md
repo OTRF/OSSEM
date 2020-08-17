@@ -1,4 +1,5 @@
 # Event 2 - ClassPnPEnqueueIdleIOrequest
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_ClassPnPIdleIO
 * etw_opcode_ClassPnP_Enqueue_IdleIO
 * etw_task_ClassPnPEnqueueIdleIOrequest
-* version_1

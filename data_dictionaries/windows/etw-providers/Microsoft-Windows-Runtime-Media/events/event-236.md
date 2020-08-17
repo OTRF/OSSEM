@@ -1,4 +1,5 @@
 # Event 236 - MediaCaptureLowLagRecordPrepareoperation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1024 - SensorsCxGetSupportedDatafieldsTask
+###### Version: 0
 
 ## Description
 None

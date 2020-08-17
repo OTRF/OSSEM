@@ -1,4 +1,5 @@
 # Event 59 - LockScreenContent_Bucket_GenerateAvailableItems
+###### Version: 0
 
 ## Description
 None

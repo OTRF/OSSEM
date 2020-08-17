@@ -1,4 +1,5 @@
 # Event 2002 - SysprepSpecialize
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 210 - HistorySearchSwitchView
+###### Version: 0
 
 ## Description
 None

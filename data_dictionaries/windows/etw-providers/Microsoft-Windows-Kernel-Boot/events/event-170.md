@@ -1,4 +1,5 @@
 # Event 170 - KsrMeasurement
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 5121 - SettingWizardPage_BooleanSettingOptionSelected
+###### Version: 0
 
 ## Description
 None

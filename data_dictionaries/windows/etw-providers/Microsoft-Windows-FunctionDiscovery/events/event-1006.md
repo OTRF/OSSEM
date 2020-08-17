@@ -1,4 +1,5 @@
 # Event 1006 - FunDisc_CreateInstanceQuery
+###### Version: 0
 
 ## Description
 None

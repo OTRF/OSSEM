@@ -1,4 +1,5 @@
 # Docker_container_networks Table
+###### Version: 4.4.2
 
 ## Description
 Docker container networks.
@@ -20,6 +21,3 @@ Docker container networks.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_container_networks)
-
-## Tags
-* version_4.4.2

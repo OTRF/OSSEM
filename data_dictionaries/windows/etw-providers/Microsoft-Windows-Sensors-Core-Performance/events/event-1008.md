@@ -1,4 +1,5 @@
 # Event 1008 - CollectionListDeserializationTask
+###### Version: 0
 
 ## Description
 None

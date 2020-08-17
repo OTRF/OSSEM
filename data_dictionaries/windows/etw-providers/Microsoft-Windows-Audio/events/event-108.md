@@ -1,4 +1,5 @@
 # Event 108 - MidiRT:Trytoopendeviceahandleonthedevice
+###### Version: 0
 
 ## Description
 None

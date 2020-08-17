@@ -1,4 +1,5 @@
 # Event 552 - Smb2SessionAuthenticated
+###### Version: 0
 
 ## Description
 None

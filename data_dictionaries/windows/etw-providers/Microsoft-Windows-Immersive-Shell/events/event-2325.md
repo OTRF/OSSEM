@@ -1,4 +1,5 @@
 # Event 2325 - Launcher_Apps_SwitchToAllAppsViewFromStart
+###### Version: 0
 
 ## Description
 None

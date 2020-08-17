@@ -1,4 +1,5 @@
 # Event 27 - Audio_Glitch_Detection
+###### Version: 0
 
 ## Description
 None

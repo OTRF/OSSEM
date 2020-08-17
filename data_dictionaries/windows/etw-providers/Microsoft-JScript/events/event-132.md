@@ -1,4 +1,5 @@
 # Event 132 - Jscript_GC_ProcessTrackedObject
+###### Version: 0
 
 ## Description
 None

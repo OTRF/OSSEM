@@ -1,4 +1,5 @@
 # Event 205 - ServiceUsageAudit
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Verbose
 * etw_keywords_el:Audit
 * etw_task_ServiceUsageAudit
-* version_1

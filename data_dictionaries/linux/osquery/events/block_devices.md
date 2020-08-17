@@ -1,4 +1,5 @@
 # Block_devices Table
+###### Version: 4.4.2
 
 ## Description
 Block (buffered access) device file nodes: disks, ramdisks, and DMG containers.
@@ -18,6 +19,3 @@ Block (buffered access) device file nodes: disks, ramdisks, and DMG containers.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#block_devices)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 1421 - MediaFoundationDeviceMFTInputStreamStateChanged
+###### Version: 0
 
 ## Description
 None

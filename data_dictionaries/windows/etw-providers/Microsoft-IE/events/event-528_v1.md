@@ -1,4 +1,5 @@
 # Event 528 - Mshtml_EventDebug_DOM_Event_Invoke_Callback
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_keywords_eventsandtimers
 * etw_opcode_Start
 * etw_task_Mshtml_EventDebug_DOM_Event_Invoke_Callback
-* version_1

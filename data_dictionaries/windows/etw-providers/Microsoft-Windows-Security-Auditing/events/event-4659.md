@@ -1,4 +1,5 @@
 # Event ID 4659: A handle to an object was requested with intent to delete
+###### Version: 0
 
 ## Description
 A handle to an object was requested with intent to delete.

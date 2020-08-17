@@ -1,4 +1,5 @@
 # Event 77 - ApiInvalidateIconicBitmaps
+###### Version: 0
 
 ## Description
 None

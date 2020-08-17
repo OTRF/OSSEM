@@ -1,4 +1,5 @@
 # Event 2042 - DocPerf_Task_Mxdc_Thumbnail_Generation
+###### Version: 0
 
 ## Description
 None

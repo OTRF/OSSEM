@@ -1,4 +1,5 @@
 # Event 2671 - Settings_GetAppCommands
+###### Version: 0
 
 ## Description
 None

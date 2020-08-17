@@ -1,4 +1,5 @@
 # Event 1024 - WinNatMExternalAddressAddition
+###### Version: 0
 
 ## Description
 None

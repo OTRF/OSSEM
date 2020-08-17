@@ -1,4 +1,5 @@
 # Event 5153 - UdwmWindowDPIChange
+###### Version: 0
 
 ## Description
 None

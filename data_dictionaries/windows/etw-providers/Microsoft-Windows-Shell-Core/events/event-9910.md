@@ -1,4 +1,5 @@
 # Event 9910 - SearchFolder_CreateItemCollection
+###### Version: 0
 
 ## Description
 None

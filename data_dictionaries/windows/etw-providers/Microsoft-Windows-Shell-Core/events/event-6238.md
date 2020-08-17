@@ -1,4 +1,5 @@
 # Event 6238 - RemoteThumbsDb_SQM
+###### Version: 0
 
 ## Description
 None

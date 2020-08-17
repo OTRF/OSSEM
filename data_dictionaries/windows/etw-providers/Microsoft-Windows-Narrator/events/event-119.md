@@ -1,4 +1,5 @@
 # Event 119 - CheckShouldEchoCharacter
+###### Version: 0
 
 ## Description
 None

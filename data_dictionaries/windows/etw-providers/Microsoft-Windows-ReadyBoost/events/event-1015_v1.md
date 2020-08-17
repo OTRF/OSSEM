@@ -1,4 +1,5 @@
 # Event 1015 - ReadyBoot
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_level_Informational
 * etw_keywords_ReadyBoot
 * etw_task_ReadyBoot
-* version_1

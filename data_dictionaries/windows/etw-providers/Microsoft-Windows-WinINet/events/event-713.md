@@ -1,4 +1,5 @@
 # Event 713 - WININET_HTTPS_RENEGOTIATION
+###### Version: 0
 
 ## Description
 None

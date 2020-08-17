@@ -1,4 +1,5 @@
 # Event 1418 - MediaFoundationDeviceMFTInitialization
+###### Version: 0
 
 ## Description
 None

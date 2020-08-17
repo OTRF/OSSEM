@@ -1,4 +1,5 @@
 # Event 9615 - Explorer_FolderSettings
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1077 - Authenticator
+###### Version: 0
 
 ## Description
 None

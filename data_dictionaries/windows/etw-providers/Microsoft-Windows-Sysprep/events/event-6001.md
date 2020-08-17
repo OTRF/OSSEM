@@ -1,4 +1,5 @@
 # Event 6001 - Deleteadirectory
+###### Version: 0
 
 ## Description
 None

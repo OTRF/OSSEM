@@ -1,4 +1,5 @@
 # Event 121 - get_allowSharingToAllDevices
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 9631 - Explorer_SessionChangeMessage
+###### Version: 0
 
 ## Description
 None

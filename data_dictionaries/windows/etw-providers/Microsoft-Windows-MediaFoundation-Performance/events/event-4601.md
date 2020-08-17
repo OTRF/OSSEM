@@ -1,4 +1,5 @@
 # Event 4601 - MFContentProtectionDeviceCreateStarttask
+###### Version: 0
 
 ## Description
 None

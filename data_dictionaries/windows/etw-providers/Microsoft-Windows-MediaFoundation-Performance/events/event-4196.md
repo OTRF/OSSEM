@@ -1,4 +1,5 @@
 # Event 4196 - HttpWebRequestClose
+###### Version: 0
 
 ## Description
 None

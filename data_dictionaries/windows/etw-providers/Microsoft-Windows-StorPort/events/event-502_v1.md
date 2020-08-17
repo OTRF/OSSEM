@@ -1,4 +1,5 @@
 # Event 502 - None
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Error
 * etw_keywords_DeviceState
 * etw_task_None
-* version_1

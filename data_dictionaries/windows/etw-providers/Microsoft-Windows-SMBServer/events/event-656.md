@@ -1,4 +1,5 @@
 # Event 656 - Smb2FileTerminate
+###### Version: 0
 
 ## Description
 None

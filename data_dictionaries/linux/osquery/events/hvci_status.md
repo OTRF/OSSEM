@@ -1,4 +1,5 @@
 # Hvci_status Table
+###### Version: 4.4.2
 
 ## Description
 Retrieve HVCI info of the machine.
@@ -14,6 +15,3 @@ Retrieve HVCI info of the machine.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#hvci_status)
-
-## Tags
-* version_4.4.2

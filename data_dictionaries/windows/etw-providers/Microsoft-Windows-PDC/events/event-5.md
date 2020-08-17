@@ -1,4 +1,5 @@
 # Event 5 - ResiliencyClientRegistration
+###### Version: 0
 
 ## Description
 None

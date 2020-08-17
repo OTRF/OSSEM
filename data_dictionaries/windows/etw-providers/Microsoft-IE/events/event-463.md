@@ -1,4 +1,5 @@
 # Event 463 - Mshtml_IndependentAnimation_Stop
+###### Version: 0
 
 ## Description
 None

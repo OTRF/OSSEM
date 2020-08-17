@@ -1,4 +1,5 @@
 # Event 222 - MFCaptureEnginePhotoEncode
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 5658 - DataMonitor_TrayIconInfo_Update
+###### Version: 0
 
 ## Description
 None

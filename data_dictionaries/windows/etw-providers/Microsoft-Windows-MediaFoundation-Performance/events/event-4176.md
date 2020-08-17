@@ -1,4 +1,5 @@
 # Event 4176 - UrlmonByteStreamConfigureBuffering
+###### Version: 0
 
 ## Description
 None

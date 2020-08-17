@@ -1,4 +1,5 @@
 # Event 303 - MediaFoundationMFTEnum
+###### Version: 0
 
 ## Description
 None

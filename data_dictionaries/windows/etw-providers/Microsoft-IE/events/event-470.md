@@ -1,4 +1,5 @@
 # Event 470 - Mshtml_CJScript9Holder_TypeSystem_Init
+###### Version: 0
 
 ## Description
 None

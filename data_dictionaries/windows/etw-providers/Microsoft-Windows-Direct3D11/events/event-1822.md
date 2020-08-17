@@ -1,4 +1,5 @@
 # Event 1822 - ID3D11VideoDevice_NegotiateCryptoSessionKeyExchangeMT
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 601 - WININET_AUTH_RESPONSE_RECEIVED
+###### Version: 0
 
 ## Description
 None

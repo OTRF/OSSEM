@@ -1,4 +1,5 @@
 # Event 3086 - MiniportResume
+###### Version: 0
 
 ## Description
 None

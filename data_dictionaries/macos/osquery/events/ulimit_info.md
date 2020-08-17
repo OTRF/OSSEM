@@ -1,4 +1,5 @@
 # Ulimit_info Table
+###### Version: 4.4.2
 
 ## Description
 System resource usage limits.
@@ -12,6 +13,3 @@ System resource usage limits.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#ulimit_info)
-
-## Tags
-* version_4.4.2

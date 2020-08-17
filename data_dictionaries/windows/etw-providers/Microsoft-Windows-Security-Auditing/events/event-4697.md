@@ -1,4 +1,5 @@
 # Event ID 4697: A service was installed in the system
+###### Version: 0
 
 ## Description
 This event generates when new service was installed in the system.

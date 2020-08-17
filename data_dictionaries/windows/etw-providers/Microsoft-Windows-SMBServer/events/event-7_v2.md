@@ -1,4 +1,5 @@
 # Event 7 - Smb2RequestCancel
+###### Version: 2
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_level_Informational
 * etw_keywords_Request
 * etw_task_Smb2RequestCancel
-* version_2

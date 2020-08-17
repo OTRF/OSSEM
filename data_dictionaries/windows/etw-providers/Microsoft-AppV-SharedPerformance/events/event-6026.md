@@ -1,4 +1,5 @@
 # Event 6026 - PublishingRefresh
+###### Version: 0
 
 ## Description
 None

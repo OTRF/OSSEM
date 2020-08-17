@@ -1,4 +1,5 @@
 # Process_memory_map Table
+###### Version: 4.4.2
 
 ## Description
 Process memory mapped files and pseudo device/regions.
@@ -18,6 +19,3 @@ Process memory mapped files and pseudo device/regions.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#process_memory_map)
-
-## Tags
-* version_4.4.2

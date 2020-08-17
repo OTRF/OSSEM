@@ -1,4 +1,5 @@
 # Event 7 - LongCapInfo
+###### Version: 0
 
 ## Description
 None

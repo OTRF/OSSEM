@@ -1,4 +1,5 @@
 # User_events Table
+###### Version: 4.4.2
 
 ## Description
 Track user events from the audit framework.
@@ -20,6 +21,3 @@ Track user events from the audit framework.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#user_events)
-
-## Tags
-* version_4.4.2

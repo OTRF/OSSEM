@@ -1,4 +1,5 @@
 # Event 1306 - TcpQueryNotificationChannelStatusRequest
+###### Version: 0
 
 ## Description
 None

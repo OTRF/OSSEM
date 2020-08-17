@@ -1,4 +1,5 @@
 # SO Host Data - Memory Region Table
+###### Version: 0
 
 ## Description
 Currently, Get-SOHostData collects details about memory regions that are directly related to running Threads. 

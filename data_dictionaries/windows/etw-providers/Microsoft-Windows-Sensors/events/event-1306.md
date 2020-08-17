@@ -1,4 +1,5 @@
 # Event 1306 - SensorAPIcalltogetasensorpropertyvalue
+###### Version: 0
 
 ## Description
 None

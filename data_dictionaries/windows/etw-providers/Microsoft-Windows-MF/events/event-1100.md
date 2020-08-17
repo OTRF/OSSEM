@@ -1,4 +1,5 @@
 # Event 1100 - MediaFoundationIMFInputTrustAuthority_RequestAccess
+###### Version: 0
 
 ## Description
 None

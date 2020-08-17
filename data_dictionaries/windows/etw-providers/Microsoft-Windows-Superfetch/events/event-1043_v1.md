@@ -1,4 +1,5 @@
 # Event 1043 - Prelaunch
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_PfAp
 * etw_opcode_Start
 * etw_task_Prelaunch
-* version_1

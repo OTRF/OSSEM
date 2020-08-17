@@ -1,4 +1,5 @@
 # Event 23 - QueryStats
+###### Version: 0
 
 ## Description
 None

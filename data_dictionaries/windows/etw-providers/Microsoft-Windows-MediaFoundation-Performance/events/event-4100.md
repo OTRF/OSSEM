@@ -1,4 +1,5 @@
 # Event 4100 - NetworkClientPause
+###### Version: 0
 
 ## Description
 None

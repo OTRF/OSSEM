@@ -1,4 +1,5 @@
 # Event 152 - DdiQueryDeviceDescriptor
+###### Version: 0
 
 ## Description
 None

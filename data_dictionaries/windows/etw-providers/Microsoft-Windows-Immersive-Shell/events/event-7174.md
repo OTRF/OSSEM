@@ -1,4 +1,5 @@
 # Event 7174 - ConnectedSearch_DetailsViewVisibility
+###### Version: 0
 
 ## Description
 None

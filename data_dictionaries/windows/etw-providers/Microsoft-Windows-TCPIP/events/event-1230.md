@@ -1,4 +1,5 @@
 # Event 1230 - RssBindingChange
+###### Version: 0
 
 ## Description
 None

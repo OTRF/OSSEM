@@ -1,4 +1,5 @@
 # Event 802 - AppXDeployment.Task.Server.AppxAllUserStore
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 38 - SurpriseRemoval
+###### Version: 0
 
 ## Description
 None

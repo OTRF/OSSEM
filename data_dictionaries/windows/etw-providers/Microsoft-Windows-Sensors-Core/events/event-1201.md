@@ -1,4 +1,5 @@
 # Event 1201 - SensorsHidInitializationTask
+###### Version: 0
 
 ## Description
 None

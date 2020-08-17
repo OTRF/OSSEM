@@ -1,4 +1,5 @@
 # Event 24 - ExtensionCatalog_MoveNext
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Dns_resolvers Table
+###### Version: 4.4.2
 
 ## Description
 Resolvers used by this host.
@@ -14,6 +15,3 @@ Resolvers used by this host.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#dns_resolvers)
-
-## Tags
-* version_4.4.2

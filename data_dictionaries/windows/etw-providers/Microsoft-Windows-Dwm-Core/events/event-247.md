@@ -1,4 +1,5 @@
 # Event 247 - ETWGUID_SETINDEPENDENTFLIPINFO
+###### Version: 0
 
 ## Description
 None

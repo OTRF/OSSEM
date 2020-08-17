@@ -1,4 +1,5 @@
 # Event 173 - TOUCH_FIRST_FRAME_EVENT
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_level_Verbose
 * etw_keywords_DwmCore LowOverheadSmoothnessTracking DwmInput
 * etw_task_TOUCH_FIRST_FRAME_EVENT
-* version_1

@@ -1,4 +1,5 @@
 # Event 1002 - IOControlreceivedbytheserialclassextension
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Informational
 * etw_opcode_Start
 * etw_task_IOControlreceivedbytheserialclassextension
-* version_1

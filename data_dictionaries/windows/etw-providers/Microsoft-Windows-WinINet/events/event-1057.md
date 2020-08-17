@@ -1,4 +1,5 @@
 # Event 1057 - Wininet_UsageLogRequest
+###### Version: 0
 
 ## Description
 None

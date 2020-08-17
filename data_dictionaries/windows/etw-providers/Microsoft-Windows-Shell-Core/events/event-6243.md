@@ -1,4 +1,5 @@
 # Event 6243 - Thumbnails_GetThumbnailStream
+###### Version: 0
 
 ## Description
 None

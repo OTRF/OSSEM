@@ -1,4 +1,5 @@
 # Event 1020 - D_statetransitionforSPBcontrollerdriver
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Informational
 * etw_opcode_DIrpPreprocess
 * etw_task_D_statetransitionforSPBcontrollerdriver
-* version_1

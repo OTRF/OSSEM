@@ -1,4 +1,5 @@
 # Event 12 - TreeUpdateTask
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Informational
 * etw_opcode_StartedwritingB+tree
 * etw_task_TreeUpdateTask
-* version_1

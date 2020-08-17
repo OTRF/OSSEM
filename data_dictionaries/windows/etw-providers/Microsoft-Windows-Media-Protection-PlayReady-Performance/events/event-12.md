@@ -1,4 +1,5 @@
 # Event 12 - MFTStateWaitingForLicenseWithPendingPolicy
+###### Version: 0
 
 ## Description
 None

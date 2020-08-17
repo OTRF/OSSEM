@@ -1,4 +1,5 @@
 # Event 1101 - MediaFoundationIMFInputTrustAuthority_GetDecrypter
+###### Version: 0
 
 ## Description
 None

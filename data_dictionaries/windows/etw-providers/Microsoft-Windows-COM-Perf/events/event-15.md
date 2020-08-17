@@ -1,4 +1,5 @@
 # Event 15 - ExtensionCatalog_RoGetExtensionRegistrationByExtensionId
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 523 - BM_ActivateDeferredWorkItemDiscarded
+###### Version: 0
 
 ## Description
 None

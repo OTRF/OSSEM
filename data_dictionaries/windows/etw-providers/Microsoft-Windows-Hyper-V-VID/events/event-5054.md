@@ -1,4 +1,5 @@
 # Event 5054 - VMT_VID_MEMORY_BLOCK_PHU_TEARDOWN
+###### Version: 0
 
 ## Description
 None

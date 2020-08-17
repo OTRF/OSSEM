@@ -1,4 +1,5 @@
 # Event 166 - ESE_FCBPurgeFailure_Trace
+###### Version: 0
 
 ## Description
 None

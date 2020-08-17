@@ -1,4 +1,5 @@
 # Arp_cache Table
+###### Version: 4.4.2
 
 ## Description
 Address resolution cache, both static and dynamic (from ARP, NDP).
@@ -13,6 +14,3 @@ Address resolution cache, both static and dynamic (from ARP, NDP).
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#arp_cache)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 7 - RedirDwmUpdate
+###### Version: 0
 
 ## Description
 None

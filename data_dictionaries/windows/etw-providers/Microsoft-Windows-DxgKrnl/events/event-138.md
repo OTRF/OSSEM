@@ -1,4 +1,5 @@
 # Event 138 - DdiStartDevice
+###### Version: 0
 
 ## Description
 None

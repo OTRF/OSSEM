@@ -1,4 +1,5 @@
 # Event 609 - Mshtml_CDoc_Navigation
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Always
 * etw_keywords_primarynav mshtml
 * etw_task_Mshtml_CDoc_Navigation
-* version_1

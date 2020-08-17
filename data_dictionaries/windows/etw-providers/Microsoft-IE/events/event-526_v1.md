@@ -1,4 +1,5 @@
 # Event 526 - Mshtml_EventDebug_DOM_Event_Dispatch
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_eventsandtimers
 * etw_opcode_Start
 * etw_task_Mshtml_EventDebug_DOM_Event_Dispatch
-* version_1

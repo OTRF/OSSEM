@@ -1,4 +1,5 @@
 # Event 221 - CSearchCrawlScopeManager_HasChildScopeRule
+###### Version: 0
 
 ## Description
 None

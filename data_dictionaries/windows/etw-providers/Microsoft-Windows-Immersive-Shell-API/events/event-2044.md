@@ -1,4 +1,5 @@
 # Event 2044 - CoreApplicationQuiesceWaitForAppResume
+###### Version: 0
 
 ## Description
 None

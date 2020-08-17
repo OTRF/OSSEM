@@ -1,4 +1,5 @@
 # Event 32 - ApipDetachMilContent
+###### Version: 0
 
 ## Description
 None

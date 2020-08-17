@@ -1,4 +1,5 @@
 # Event 6108 - DeviceRemoved
+###### Version: 0
 
 ## Description
 None

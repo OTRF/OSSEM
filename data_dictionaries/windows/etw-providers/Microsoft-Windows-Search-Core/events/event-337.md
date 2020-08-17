@@ -1,4 +1,5 @@
 # Event 337 - GetQueryStatusEx
+###### Version: 0
 
 ## Description
 None

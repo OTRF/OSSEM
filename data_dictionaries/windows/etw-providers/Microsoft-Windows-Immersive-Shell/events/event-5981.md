@@ -1,4 +1,5 @@
 # Event 5981 - PerfTrack_ModernApp_ResizeVisibleComplete
+###### Version: 0
 
 ## Description
 None

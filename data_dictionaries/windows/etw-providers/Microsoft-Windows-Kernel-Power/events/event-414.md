@@ -1,4 +1,5 @@
 # Event 414 - UserGlobalStatus
+###### Version: 0
 
 ## Description
 None

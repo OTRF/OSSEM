@@ -1,4 +1,5 @@
 # Event 468 - Mshtml_CActiveScriptHolder_Construct
+###### Version: 0
 
 ## Description
 None

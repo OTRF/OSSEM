@@ -1,4 +1,5 @@
 # Opera_extensions Table
+###### Version: 4.4.2
 
 ## Description
 Opera browser extensions.
@@ -18,6 +19,3 @@ Opera browser extensions.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#opera_extensions)
-
-## Tags
-* version_4.4.2

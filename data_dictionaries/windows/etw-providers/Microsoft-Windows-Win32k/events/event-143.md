@@ -1,4 +1,5 @@
 # Event 143 - PointerUpdateMessageRetrieve
+###### Version: 0
 
 ## Description
 None

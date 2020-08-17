@@ -1,4 +1,5 @@
 # Event 7233 - ConnectedSearch_LogWebLayout
+###### Version: 0
 
 ## Description
 None

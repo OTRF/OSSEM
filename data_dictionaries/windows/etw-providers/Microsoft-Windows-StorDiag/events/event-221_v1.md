@@ -1,4 +1,5 @@
 # Event 221 - Class
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_PassThrough IOCTL
 * etw_opcode_Dispatchingofrequest.
 * etw_task_Class
-* version_1

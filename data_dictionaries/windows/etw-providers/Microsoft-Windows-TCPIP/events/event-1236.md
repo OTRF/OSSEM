@@ -1,4 +1,5 @@
 # Event 1236 - RssProcessorUnassignment
+###### Version: 0
 
 ## Description
 None

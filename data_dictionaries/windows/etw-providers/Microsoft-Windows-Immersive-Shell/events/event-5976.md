@@ -1,4 +1,5 @@
 # Event 5976 - AppActivation_Log_LicenseExpired
+###### Version: 0
 
 ## Description
 None

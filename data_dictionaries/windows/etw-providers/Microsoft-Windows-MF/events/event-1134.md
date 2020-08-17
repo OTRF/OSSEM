@@ -1,4 +1,5 @@
 # Event 1134 - MediaFoundationAsyncWrapperSetWorkQueue
+###### Version: 0
 
 ## Description
 None

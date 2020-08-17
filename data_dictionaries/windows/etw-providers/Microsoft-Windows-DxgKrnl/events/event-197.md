@@ -1,4 +1,5 @@
 # Event 197 - Dxgk_Diag_OutputDupl_High_Level_Update_Start
+###### Version: 0
 
 ## Description
 None

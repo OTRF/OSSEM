@@ -1,4 +1,5 @@
 # Event 592 - Browseui_BringBrowserTabAlternateOwnerForward
+###### Version: 0
 
 ## Description
 None

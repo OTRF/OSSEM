@@ -1,4 +1,5 @@
 # Event 852 - Mshtml_PowerStateController_NormalPowerState
+###### Version: 0
 
 ## Description
 None

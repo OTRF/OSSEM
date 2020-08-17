@@ -1,4 +1,5 @@
 # Event 16 - MFTStateWaitingForPolicyNotification
+###### Version: 0
 
 ## Description
 None

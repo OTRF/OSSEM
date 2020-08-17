@@ -1,4 +1,5 @@
 # Event 7186 - Perf_AppSyncAppInstalled
+###### Version: 0
 
 ## Description
 None

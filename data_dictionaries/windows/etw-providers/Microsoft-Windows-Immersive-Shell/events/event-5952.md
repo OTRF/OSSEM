@@ -1,4 +1,5 @@
 # Event 5952 - AppActivation_Log_MultipleExtensions
+###### Version: 0
 
 ## Description
 None

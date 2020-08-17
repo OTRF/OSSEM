@@ -1,4 +1,5 @@
 # Event 153 - DdiQueryDeviceDescriptor
+###### Version: 0
 
 ## Description
 None

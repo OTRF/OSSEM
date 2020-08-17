@@ -1,4 +1,5 @@
 # Event 7510 - KeyRegistration
+###### Version: 0
 
 ## Description
 None

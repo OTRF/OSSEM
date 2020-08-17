@@ -1,4 +1,5 @@
 # Event ID 6422: A device was enabled.
+###### Version: 0
 
 ## Description
 This event generates every time specific device was enabled.

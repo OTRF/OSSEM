@@ -1,4 +1,5 @@
 # Event 7100 - Perf_EndSyncBatch
+###### Version: 0
 
 ## Description
 None

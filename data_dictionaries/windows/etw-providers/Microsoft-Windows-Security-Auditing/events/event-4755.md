@@ -1,4 +1,5 @@
 # Event ID 4755: A security-enabled universal group was changed
+###### Version: 0
 
 ## Description
 Event 4737 is the same as 4735, but it is generated for a universal security group instead of a local security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.

@@ -1,4 +1,5 @@
 # Event 7276 - ConnectedSearch_LogHttpErrorPayload
+###### Version: 0
 
 ## Description
 None

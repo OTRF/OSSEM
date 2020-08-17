@@ -1,4 +1,5 @@
 # Event 54 - PALManagementChannel
+###### Version: 0
 
 ## Description
 None

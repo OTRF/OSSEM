@@ -1,4 +1,5 @@
 # Elf_symbols Table
+###### Version: 4.4.2
 
 ## Description
 ELF symbol list.
@@ -17,6 +18,3 @@ ELF symbol list.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#elf_symbols)
-
-## Tags
-* version_4.4.2

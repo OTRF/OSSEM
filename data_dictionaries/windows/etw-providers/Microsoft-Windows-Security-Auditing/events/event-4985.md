@@ -1,4 +1,5 @@
 # Event ID 4985: The state of a transaction has changed
+###### Version: 0
 
 ## Description
 This is an informational event from file system Transaction Manager.

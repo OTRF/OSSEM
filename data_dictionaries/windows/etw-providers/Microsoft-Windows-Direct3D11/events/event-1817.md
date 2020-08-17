@@ -1,4 +1,5 @@
 # Event 1817 - ID3D11VideoContext_GetDataForNewHardwareKey
+###### Version: 0
 
 ## Description
 None

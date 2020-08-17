@@ -1,4 +1,5 @@
 # Event 1646 - DocPerf_Task_XpsPrint_XpsDrv_ConvertResourceDictionary
+###### Version: 0
 
 ## Description
 None

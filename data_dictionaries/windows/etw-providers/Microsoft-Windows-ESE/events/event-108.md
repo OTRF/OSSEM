@@ -1,4 +1,5 @@
 # Event 108 - ESE_CacheRequestPage_Trace
+###### Version: 0
 
 ## Description
 None

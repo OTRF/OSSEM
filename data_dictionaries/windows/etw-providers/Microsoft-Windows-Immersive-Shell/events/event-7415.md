@@ -1,4 +1,5 @@
 # Event 7415 - ConnectedSearch_LogWebLayout
+###### Version: 0
 
 ## Description
 None

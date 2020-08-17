@@ -1,4 +1,5 @@
 # Event 207 - CSearchCrawlScopeManager_AddDefaultScopeRule
+###### Version: 0
 
 ## Description
 None

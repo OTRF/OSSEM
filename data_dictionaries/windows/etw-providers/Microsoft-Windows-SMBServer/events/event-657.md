@@ -1,4 +1,5 @@
 # Event 657 - Smb2FileCCFClose
+###### Version: 0
 
 ## Description
 None

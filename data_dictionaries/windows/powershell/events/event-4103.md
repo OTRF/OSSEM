@@ -1,4 +1,5 @@
 # Event ID 4103: Module Logging
+###### Version: 0
 
 ## Description
 Beginning in Windows PowerShell 3.0, you can record execution events for the cmdlets and functions in Windows PowerShell modules. This feature can provide detailed logging of all PowerShell command input and output.

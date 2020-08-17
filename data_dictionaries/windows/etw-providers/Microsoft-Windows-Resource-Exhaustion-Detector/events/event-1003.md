@@ -1,4 +1,5 @@
 # Event 1003 - ResourceExhaustionDetectionEvents
+###### Version: 0
 
 ## Description
 None

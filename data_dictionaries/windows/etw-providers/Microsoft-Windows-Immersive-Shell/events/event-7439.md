@@ -1,4 +1,5 @@
 # Event 7439 - ConnectedSearch_LogTemplateRequestInfo
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 7429 - ConnectedSearch_LogPerfAbandoned
+###### Version: 0
 
 ## Description
 None

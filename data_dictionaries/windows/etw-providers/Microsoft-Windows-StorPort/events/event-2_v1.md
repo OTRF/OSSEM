@@ -1,4 +1,5 @@
 # Event 2 - Targetreset
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_Reset
 * etw_opcode_OpCodeTargetReset
 * etw_task_Targetreset
-* version_1

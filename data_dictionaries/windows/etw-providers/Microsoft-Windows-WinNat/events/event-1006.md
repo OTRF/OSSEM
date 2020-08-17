@@ -1,4 +1,5 @@
 # Event 1006 - WinNatBindingCreate
+###### Version: 0
 
 ## Description
 None

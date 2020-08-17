@@ -1,4 +1,5 @@
 # Event 1040 - MiniportResume
+###### Version: 0
 
 ## Description
 None

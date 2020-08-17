@@ -1,4 +1,5 @@
 # Event 232 - MediaCaptureSetRegionsAsyncoperation
+###### Version: 0
 
 ## Description
 None

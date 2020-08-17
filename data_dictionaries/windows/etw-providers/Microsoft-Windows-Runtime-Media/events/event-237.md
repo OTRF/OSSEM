@@ -1,4 +1,5 @@
 # Event 237 - MediaCaptureLowLagRecordStartoperation
+###### Version: 0
 
 ## Description
 None

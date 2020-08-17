@@ -1,4 +1,5 @@
 # Event 92 - USBPORT_URB_INVALID_BULK_OR_INTERRUPT_TRANSFER_BUFFER_LENGTH
+###### Version: 0
 
 ## Description
 None

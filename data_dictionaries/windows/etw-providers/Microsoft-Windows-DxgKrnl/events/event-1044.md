@@ -1,4 +1,5 @@
 # Event 1044 - MiracastDetectedUmdDriverWatchdogTimeOut
+###### Version: 0
 
 ## Description
 None

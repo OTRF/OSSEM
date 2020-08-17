@@ -1,4 +1,5 @@
 # Event 456 - GdiHandleOperation
+###### Version: 0
 
 ## Description
 None

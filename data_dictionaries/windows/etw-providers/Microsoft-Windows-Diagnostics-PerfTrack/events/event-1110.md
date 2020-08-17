@@ -1,4 +1,5 @@
 # Event 1110 - IdleDetection_Status_Info
+###### Version: 0
 
 ## Description
 None

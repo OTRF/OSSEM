@@ -1,4 +1,5 @@
 # Event 1092 - Authenticator
+###### Version: 0
 
 ## Description
 None

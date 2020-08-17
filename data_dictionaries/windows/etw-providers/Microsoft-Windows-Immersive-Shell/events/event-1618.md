@@ -1,4 +1,5 @@
 # Event 1618 - AppsFolder_DualModeVerb
+###### Version: 0
 
 ## Description
 None

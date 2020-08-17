@@ -1,4 +1,5 @@
 # Event 806 - Maintenancetaskprocessingerror
+###### Version: 0
 
 ## Description
 None

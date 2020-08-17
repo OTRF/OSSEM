@@ -1,4 +1,5 @@
 # Event 9626 - Explorer_PlaySoundRequest
+###### Version: 0
 
 ## Description
 None

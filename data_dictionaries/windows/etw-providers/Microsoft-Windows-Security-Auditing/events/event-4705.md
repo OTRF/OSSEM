@@ -1,4 +1,5 @@
 # Event ID 4705: A user right was removed.
+###### Version: 0
 
 ## Description
 This event generates every time local user right policy is changed and user right was removed from an account.

@@ -1,4 +1,5 @@
 # Event 174 - Bundlemanifest
+###### Version: 0
 
 ## Description
 None

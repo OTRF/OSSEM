@@ -1,4 +1,5 @@
 # Event ID 4951: A rule has been ignored because its major version number was not recognized by Windows Firewall.
+###### Version: 0
 
 ## Description
 When you create or edit a Windows Firewall rule, the settings that you can include depend upon the version of Windows you use when creating the rule.

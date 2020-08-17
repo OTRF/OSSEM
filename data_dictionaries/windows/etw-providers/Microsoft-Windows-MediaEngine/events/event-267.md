@@ -1,4 +1,5 @@
 # Event 267 - SetHDRMetadataTask
+###### Version: 0
 
 ## Description
 None

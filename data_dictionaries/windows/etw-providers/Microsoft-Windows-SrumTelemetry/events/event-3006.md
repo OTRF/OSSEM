@@ -1,4 +1,5 @@
 # Event 3006 - E3HistoryTask
+###### Version: 0
 
 ## Description
 None

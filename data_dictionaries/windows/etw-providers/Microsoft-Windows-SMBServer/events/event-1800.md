@@ -1,4 +1,5 @@
 # Event 1800 - SSClusterCaFailure
+###### Version: 0
 
 ## Description
 None

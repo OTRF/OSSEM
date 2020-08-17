@@ -1,4 +1,5 @@
 # Event 9812 - Explorer_PinnedListItemRemoved
+###### Version: 0
 
 ## Description
 None

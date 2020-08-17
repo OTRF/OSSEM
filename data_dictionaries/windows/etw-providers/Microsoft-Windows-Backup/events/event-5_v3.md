@@ -1,4 +1,5 @@
 # Event 5 - task_0
+###### Version: 3
 
 ## Description
 None
@@ -53,4 +54,3 @@ None
 ## Tags
 * etw_level_Error
 * etw_task_task_0
-* version_3

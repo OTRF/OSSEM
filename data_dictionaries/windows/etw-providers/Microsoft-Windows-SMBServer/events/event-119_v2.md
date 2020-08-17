@@ -1,4 +1,5 @@
 # Event 119 - Smb2ResponseChangeNotify
+###### Version: 2
 
 ## Description
 None
@@ -38,4 +39,3 @@ None
 * etw_level_Informational
 * etw_keywords_Response
 * etw_task_Smb2ResponseChangeNotify
-* version_2

@@ -1,4 +1,5 @@
 # Event 4003 - Removinglanguagepack
+###### Version: 0
 
 ## Description
 None

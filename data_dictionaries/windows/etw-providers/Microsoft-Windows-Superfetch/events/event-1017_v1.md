@@ -1,4 +1,5 @@
 # Event 1017 - PerfTrackSessionPool
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_PerfTrackSessionPool
-* version_1

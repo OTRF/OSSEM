@@ -1,4 +1,5 @@
 # Docker_container_processes Table
+###### Version: 4.4.2
 
 ## Description
 Docker container processes.
@@ -31,6 +32,3 @@ Docker container processes.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_container_processes)
-
-## Tags
-* version_4.4.2

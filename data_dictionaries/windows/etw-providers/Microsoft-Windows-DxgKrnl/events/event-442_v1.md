@@ -1,4 +1,5 @@
 # Event 442 - RuntimePowerManagement
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Always
 * etw_keywords_DxgKrnl_Power
 * etw_task_RuntimePowerManagement
-* version_1

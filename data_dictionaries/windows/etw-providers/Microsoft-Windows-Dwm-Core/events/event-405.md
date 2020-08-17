@@ -1,4 +1,5 @@
 # Event 405 - DCOMPEVENT_RESOURCE_OPEN
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 196 - CEnumSearchScopeRules_Clone
+###### Version: 0
 
 ## Description
 None

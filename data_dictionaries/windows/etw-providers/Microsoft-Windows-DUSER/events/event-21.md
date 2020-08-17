@@ -1,4 +1,5 @@
 # Event 21 - DUser_LayeredGetBitmap
+###### Version: 0
 
 ## Description
 None

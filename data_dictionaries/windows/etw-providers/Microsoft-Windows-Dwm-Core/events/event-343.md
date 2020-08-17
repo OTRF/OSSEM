@@ -1,4 +1,5 @@
 # Event 343 - HOLOGRAPHICCLIENT_TEXTUREUPDATEWAITFAILED
+###### Version: 0
 
 ## Description
 None

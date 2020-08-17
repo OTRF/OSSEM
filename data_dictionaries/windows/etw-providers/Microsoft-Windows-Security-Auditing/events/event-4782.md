@@ -1,4 +1,5 @@
 # Event ID 4782: The password hash an account was accessed
+###### Version: 0
 
 ## Description
 This event generates on domain controllers during password migration of an account using Active Directory Migration Toolkit. Typically "Subject\Security ID" is the SYSTEM account.

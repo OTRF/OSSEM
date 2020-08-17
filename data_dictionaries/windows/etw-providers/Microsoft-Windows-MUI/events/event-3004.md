@@ -1,4 +1,5 @@
 # Event 3004 - MUIresourcecachebuilder
+###### Version: 0
 
 ## Description
 None

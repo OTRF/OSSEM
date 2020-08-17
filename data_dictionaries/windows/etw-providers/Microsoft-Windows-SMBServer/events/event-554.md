@@ -1,4 +1,5 @@
 # Event 554 - Smb2SessionTerminate
+###### Version: 0
 
 ## Description
 None

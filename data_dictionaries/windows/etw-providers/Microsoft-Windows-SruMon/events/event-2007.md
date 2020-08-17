@@ -1,4 +1,5 @@
 # Event 2007 - SruMonDebugSequenceTrace
+###### Version: 0
 
 ## Description
 None

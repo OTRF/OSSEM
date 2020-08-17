@@ -1,4 +1,5 @@
 # Event 439 - DdiSaveMemoryForHotUpdate
+###### Version: 0
 
 ## Description
 None

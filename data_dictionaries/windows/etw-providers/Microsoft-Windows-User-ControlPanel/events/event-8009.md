@@ -1,4 +1,5 @@
 # Event 8009 - UserAccount_ConnectDomainAccount_Completed
+###### Version: 0
 
 ## Description
 None

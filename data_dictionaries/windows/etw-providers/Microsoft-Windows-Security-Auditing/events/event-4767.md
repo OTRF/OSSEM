@@ -1,4 +1,5 @@
 # Event ID 4767: A user account was unlocked
+###### Version: 0
 
 ## Description
 This event generates every time a user account is unlocked. For user accounts, this event generates on domain controllers, member servers, and workstations.

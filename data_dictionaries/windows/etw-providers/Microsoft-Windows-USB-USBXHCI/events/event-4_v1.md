@@ -1,4 +1,5 @@
 # Event 4 - USBXHCIDeviceRundown
+###### Version: 1
 
 ## Description
 None
@@ -26,4 +27,3 @@ None
 * etw_keywords_Default Rundown
 * etw_opcode_Information
 * etw_task_USBXHCIDeviceRundown
-* version_1

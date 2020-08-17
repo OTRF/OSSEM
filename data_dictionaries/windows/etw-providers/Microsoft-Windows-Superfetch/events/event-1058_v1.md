@@ -1,4 +1,5 @@
 # Event 1058 - PrefetchBenefitReport
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Informational
 * etw_keywords_PfAp
 * etw_task_PrefetchBenefitReport
-* version_1

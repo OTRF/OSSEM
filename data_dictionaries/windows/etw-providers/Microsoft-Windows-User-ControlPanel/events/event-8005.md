@@ -1,4 +1,5 @@
 # Event 8005 - UserAccount_AddUserWizard_LocalUserAdded
+###### Version: 0
 
 ## Description
 None

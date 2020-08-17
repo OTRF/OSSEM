@@ -1,4 +1,5 @@
 # Event 1123 - MediaFoundationOTAApplyProtection
+###### Version: 0
 
 ## Description
 None

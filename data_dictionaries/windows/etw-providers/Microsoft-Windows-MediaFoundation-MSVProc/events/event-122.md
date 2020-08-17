@@ -1,4 +1,5 @@
 # Event 122 - MSVideoProcessoftMFT_ConfigureOutputHDRMetadata
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 938 - Shell_ShowTool_Emulation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 30 - ReadyBootCacheOp
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Informational
 * etw_keywords_ReadyBoot StoreDiag
 * etw_task_ReadyBootCacheOp
-* version_1

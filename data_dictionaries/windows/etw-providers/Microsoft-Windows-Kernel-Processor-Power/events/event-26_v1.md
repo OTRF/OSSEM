@@ -1,4 +1,5 @@
 # Event 26 - Summary
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_Summary
-* version_1

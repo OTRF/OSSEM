@@ -1,4 +1,5 @@
 # Event 728 - SSLAcquireCredentialsHandle
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_keywords_Keyword.SECURITY
 * etw_opcode_Start
 * etw_task_SSLAcquireCredentialsHandle
-* version_1

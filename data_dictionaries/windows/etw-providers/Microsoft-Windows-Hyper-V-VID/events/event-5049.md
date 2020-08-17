@@ -1,4 +1,5 @@
 # Event 5049 - VMT_VID_MEMORY_BLOCK_PERSIST
+###### Version: 0
 
 ## Description
 None

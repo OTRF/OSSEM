@@ -1,4 +1,5 @@
 # Event 7155 - ConnectedSearch_Settings_DeleteOnlineHistory
+###### Version: 0
 
 ## Description
 None

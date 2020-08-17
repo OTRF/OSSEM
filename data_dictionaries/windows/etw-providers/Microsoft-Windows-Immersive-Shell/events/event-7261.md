@@ -1,4 +1,5 @@
 # Event 7261 - ConnectedSearch_UnauthenticationFailure
+###### Version: 0
 
 ## Description
 None

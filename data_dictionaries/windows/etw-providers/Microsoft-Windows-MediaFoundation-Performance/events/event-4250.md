@@ -1,4 +1,5 @@
 # Event 4250 - SessionShutdown
+###### Version: 0
 
 ## Description
 None

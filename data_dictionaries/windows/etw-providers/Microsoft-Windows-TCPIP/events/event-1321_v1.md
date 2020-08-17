@@ -1,4 +1,5 @@
 # Event 1321 - TcpipMediaConnect
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:TcpipInterface ut:TcpipDiagnosis ut:TcpipCsDiag ut:Global
 * etw_task_TcpipMediaConnect
-* version_1

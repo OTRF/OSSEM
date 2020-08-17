@@ -1,4 +1,5 @@
 # Event 33
+###### Version: 2
 
 ## Description
 None
@@ -10,6 +11,3 @@ None
 |TBD|AllocSize|Object|None|`None`|
 |TBD|AllocAddress|UInt32|None|`None`|
 |TBD|SourceId|UInt32|None|`None`|
-
-## Tags
-* version_2

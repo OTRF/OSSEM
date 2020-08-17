@@ -1,4 +1,5 @@
 # Event 310 - ETWGUID_HW_PROTECTION_TEMPDISABLE
+###### Version: 0
 
 ## Description
 None

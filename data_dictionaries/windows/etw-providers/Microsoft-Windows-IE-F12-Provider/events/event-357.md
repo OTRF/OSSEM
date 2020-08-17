@@ -1,4 +1,5 @@
 # Event 357 - Debugger_Persistence_AddBreakpoints
+###### Version: 0
 
 ## Description
 None

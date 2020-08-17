@@ -1,4 +1,5 @@
 # Event 2065 - MiniportResume
+###### Version: 0
 
 ## Description
 None

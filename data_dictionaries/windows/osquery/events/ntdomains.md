@@ -1,4 +1,5 @@
 # Ntdomains Table
+###### Version: 4.4.2
 
 ## Description
 Display basic NT domain information of a Windows machine.
@@ -17,6 +18,3 @@ Display basic NT domain information of a Windows machine.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#ntdomains)
-
-## Tags
-* version_4.4.2

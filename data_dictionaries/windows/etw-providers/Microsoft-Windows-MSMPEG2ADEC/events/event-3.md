@@ -1,4 +1,5 @@
 # Event 3 - AUD_MEDIATYPE_CHANGE
+###### Version: 0
 
 ## Description
 None

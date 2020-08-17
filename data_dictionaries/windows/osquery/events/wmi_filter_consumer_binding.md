@@ -1,4 +1,5 @@
 # Wmi_filter_consumer_binding Table
+###### Version: 4.4.2
 
 ## Description
 Lists the relationship between event consumers and filters.
@@ -13,6 +14,3 @@ Lists the relationship between event consumers and filters.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#wmi_filter_consumer_binding)
-
-## Tags
-* version_4.4.2

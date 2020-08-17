@@ -1,4 +1,5 @@
 # Event 9565 - Explorer_StartMenu_Pinned_Item_Added
+###### Version: 0
 
 ## Description
 None

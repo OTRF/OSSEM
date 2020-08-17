@@ -1,4 +1,5 @@
 # Event 134 - Startup_CSearchServiceObj_Initialize
+###### Version: 0
 
 ## Description
 None

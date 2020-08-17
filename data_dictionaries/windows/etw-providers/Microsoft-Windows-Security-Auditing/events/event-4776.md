@@ -1,4 +1,5 @@
 # Event ID 4776: The computer attempted to validate the credentials for an account
+###### Version: 0
 
 ## Description
 This event generates every time that a credential validation occurs using NTLM authentication.This event occurs only on the computer that is authoritative for the provided credentials. For domain accounts, the domain controller is authoritative. For local accounts, the local computer is authoritative.

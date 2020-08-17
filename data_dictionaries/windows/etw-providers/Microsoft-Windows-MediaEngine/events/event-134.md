@@ -1,4 +1,5 @@
 # Event 134 - PerfTrack:MediaFoundationVideoGlitch
+###### Version: 0
 
 ## Description
 None

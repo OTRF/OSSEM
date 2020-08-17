@@ -1,4 +1,5 @@
 # Event 143 - Setup_CatalogSetupFailed
+###### Version: 0
 
 ## Description
 None

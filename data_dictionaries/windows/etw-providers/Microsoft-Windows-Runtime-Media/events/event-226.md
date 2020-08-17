@@ -1,4 +1,5 @@
 # Event 226 - MediaCaptureLowLagPhotoPrepareoperation
+###### Version: 0
 
 ## Description
 None

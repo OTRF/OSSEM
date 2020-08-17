@@ -1,4 +1,5 @@
 # Event 8502 - AppXDeployment.Task.Server.Extensions
+###### Version: 0
 
 ## Description
 None

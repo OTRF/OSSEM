@@ -1,4 +1,5 @@
 # Event 126 - setAuthorizationState
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 500 - None
+###### Version: 2
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_level_Error
 * etw_keywords_keyword_80000000000
 * etw_task_None
-* version_2

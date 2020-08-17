@@ -1,4 +1,5 @@
 # Event 2262 - CtapBleDeviceThread
+###### Version: 0
 
 ## Description
 None

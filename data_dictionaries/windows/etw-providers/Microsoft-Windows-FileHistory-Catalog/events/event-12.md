@@ -1,4 +1,5 @@
 # Event 12 - GetNamespaceRecord
+###### Version: 0
 
 ## Description
 None

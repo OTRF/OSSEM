@@ -1,4 +1,5 @@
 # Event 1004 - vs:AdjustBitmap
+###### Version: 0
 
 ## Description
 None

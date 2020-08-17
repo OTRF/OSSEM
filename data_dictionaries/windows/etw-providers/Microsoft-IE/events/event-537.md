@@ -1,4 +1,5 @@
 # Event 537 - Mshtml_DMTouchTarget_UpdateContentRectForBusyState
+###### Version: 0
 
 ## Description
 None

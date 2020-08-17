@@ -1,4 +1,5 @@
 # Event 18 - Smb2RequestQueryDirectory
+###### Version: 2
 
 ## Description
 None
@@ -30,4 +31,3 @@ None
 * etw_level_Informational
 * etw_keywords_Request
 * etw_task_Smb2RequestQueryDirectory
-* version_2

@@ -1,4 +1,5 @@
 # Event 48 - Jscript_Projection_ReferenceOrArrayGetValue
+###### Version: 0
 
 ## Description
 None

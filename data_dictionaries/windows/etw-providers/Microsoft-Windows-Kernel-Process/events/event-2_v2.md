@@ -1,4 +1,5 @@
 # Event 2 - ProcessStop
+###### Version: 2
 
 ## Description
 None
@@ -28,4 +29,3 @@ None
 * etw_keywords_WINEVENT_KEYWORD_PROCESS
 * etw_opcode_Stop
 * etw_task_ProcessStop
-* version_2

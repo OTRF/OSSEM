@@ -1,4 +1,5 @@
 # Event 509 - EmptyTab_Conversion_CleanUpBrowserTab_Failed
+###### Version: 0
 
 ## Description
 None

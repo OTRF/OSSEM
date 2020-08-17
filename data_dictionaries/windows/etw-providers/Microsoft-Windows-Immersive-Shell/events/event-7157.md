@@ -1,4 +1,5 @@
 # Event 7157 - ConnectedSearch_Settings_UseConnectedSearch
+###### Version: 0
 
 ## Description
 None

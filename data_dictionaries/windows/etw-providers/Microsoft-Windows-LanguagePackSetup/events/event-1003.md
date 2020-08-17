@@ -1,4 +1,5 @@
 # Event 1003 - LanguagePackSetupCbsClientfunctionality
+###### Version: 0
 
 ## Description
 None

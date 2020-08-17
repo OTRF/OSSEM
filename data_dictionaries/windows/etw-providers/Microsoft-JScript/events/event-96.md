@@ -1,4 +1,5 @@
 # Event 96 - Jscript_Method_Jit
+###### Version: 0
 
 ## Description
 None

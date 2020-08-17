@@ -1,4 +1,5 @@
 # Event 411 - WMPSyncLicenseAcquisition
+###### Version: 0
 
 ## Description
 None

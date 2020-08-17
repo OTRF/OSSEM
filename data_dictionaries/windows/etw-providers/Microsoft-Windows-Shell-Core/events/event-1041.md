@@ -1,4 +1,5 @@
 # Event 1041 - DataLayer_CreateSession
+###### Version: 0
 
 ## Description
 None

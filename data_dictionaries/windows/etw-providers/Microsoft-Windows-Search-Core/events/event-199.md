@@ -1,4 +1,5 @@
 # Event 199 - CEnumSearchScopeRules_Next_Fetch
+###### Version: 0
 
 ## Description
 None

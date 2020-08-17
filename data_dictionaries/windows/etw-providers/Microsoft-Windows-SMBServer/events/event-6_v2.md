@@ -1,4 +1,5 @@
 # Event 6 - Smb2RequestEcho
+###### Version: 2
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_level_Informational
 * etw_keywords_Request
 * etw_task_Smb2RequestEcho
-* version_2

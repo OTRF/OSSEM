@@ -1,4 +1,5 @@
 # Event 28 - SetLinkPath
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Informational
 * etw_keywords_KERNEL_FILE_KEYWORD_RENAME_SETLINK_PATH
 * etw_task_SetLinkPath
-* version_1

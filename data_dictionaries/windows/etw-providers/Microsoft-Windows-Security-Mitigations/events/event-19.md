@@ -1,4 +1,5 @@
 # Event 19 - USER_MITIGATION_TASK_ROP_STACKPIVOT
+###### Version: 0
 
 ## Description
 None

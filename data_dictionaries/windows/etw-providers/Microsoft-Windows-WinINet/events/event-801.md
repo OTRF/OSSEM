@@ -1,4 +1,5 @@
 # Event 801 - WININET_AUTOPROXY_SEARCH
+###### Version: 0
 
 ## Description
 None

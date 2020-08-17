@@ -1,4 +1,5 @@
 # Event 125 - ESE_EventLogError_Trace
+###### Version: 0
 
 ## Description
 None

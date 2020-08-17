@@ -1,4 +1,5 @@
 # Event 88 - SpmClientRegistration
+###### Version: 0
 
 ## Description
 None

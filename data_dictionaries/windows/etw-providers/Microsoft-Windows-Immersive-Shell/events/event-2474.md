@@ -1,4 +1,5 @@
 # Event 2474 - PLM_PSM_WakeCounterChange
+###### Version: 0
 
 ## Description
 None

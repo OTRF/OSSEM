@@ -1,4 +1,5 @@
 # Event 122 - ESE_LogWrite_Trace
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 246 - MediaCaptureFocusChanged
+###### Version: 0
 
 ## Description
 None

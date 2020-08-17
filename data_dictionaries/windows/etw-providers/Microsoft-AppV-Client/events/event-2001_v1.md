@@ -1,4 +1,5 @@
 # Event 2001 - UserLogon
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Error
 * etw_keywords_Startup Logon Catalog
 * etw_task_UserLogon
-* version_1

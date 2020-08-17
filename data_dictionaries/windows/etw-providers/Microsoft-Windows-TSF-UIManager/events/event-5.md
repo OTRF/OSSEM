@@ -1,4 +1,5 @@
 # Event 5 - IUIManager_ShowCandidateList
+###### Version: 0
 
 ## Description
 None

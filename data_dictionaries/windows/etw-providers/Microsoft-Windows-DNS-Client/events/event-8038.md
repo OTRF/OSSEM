@@ -1,4 +1,5 @@
 # Event 8038 - DnsRegistration
+###### Version: 0
 
 ## Description
 None

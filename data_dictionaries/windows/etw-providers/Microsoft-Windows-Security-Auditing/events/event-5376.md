@@ -1,4 +1,5 @@
 # Event ID 5376: Credential Manager credentials were backed up
+###### Version: 0
 
 ## Description
 This event generates every time the user (Subject) successfully backs up the credential manager database.

@@ -1,4 +1,5 @@
 # Event 1090 - OPMGetSupportedProtectionTypes
+###### Version: 0
 
 ## Description
 None

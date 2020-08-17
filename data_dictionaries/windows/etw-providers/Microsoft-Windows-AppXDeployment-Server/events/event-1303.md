@@ -1,4 +1,5 @@
 # Event 1303 - AppXDeployment.Task.Server.Deployment.FileStat
+###### Version: 0
 
 ## Description
 None

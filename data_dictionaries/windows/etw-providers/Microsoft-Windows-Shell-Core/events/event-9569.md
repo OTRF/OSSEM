@@ -1,4 +1,5 @@
 # Event 9569 - Explorer_StartPane_AllPrograms_Launched
+###### Version: 0
 
 ## Description
 None

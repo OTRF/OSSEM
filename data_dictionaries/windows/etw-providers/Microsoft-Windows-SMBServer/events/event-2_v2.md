@@ -1,4 +1,5 @@
 # Event 2 - Smb2RequestSessionSetup
+###### Version: 2
 
 ## Description
 None
@@ -26,4 +27,3 @@ None
 * etw_level_Informational
 * etw_keywords_Request
 * etw_task_Smb2RequestSessionSetup
-* version_2

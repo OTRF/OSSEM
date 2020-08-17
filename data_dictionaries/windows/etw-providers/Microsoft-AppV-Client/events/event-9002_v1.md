@@ -1,4 +1,5 @@
 # Event 9002 - PowerShellInvoke
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Warning
 * etw_keywords_ClientManagement
 * etw_task_PowerShellInvoke
-* version_1

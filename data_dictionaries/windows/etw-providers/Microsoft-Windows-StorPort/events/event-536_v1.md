@@ -1,4 +1,5 @@
 # Event 536 - Devicefailedandwillberemoved.
+###### Version: 1
 
 ## Description
 None
@@ -22,4 +23,3 @@ None
 * etw_keywords_PortNotification
 * etw_opcode_Devicefailedandwillberemoved.
 * etw_task_Devicefailedandwillberemoved.
-* version_1

@@ -1,4 +1,5 @@
 # Event 600 - AM_CreatingActivationPlugins
+###### Version: 0
 
 ## Description
 None

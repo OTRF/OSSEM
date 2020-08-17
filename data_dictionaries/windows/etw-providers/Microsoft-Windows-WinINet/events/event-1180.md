@@ -1,4 +1,5 @@
 # Event 1180 - Wininet_CacheServerContainer
+###### Version: 0
 
 ## Description
 None

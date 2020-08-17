@@ -1,4 +1,5 @@
 # Event 32 - QueryFailedApp
+###### Version: 0
 
 ## Description
 None

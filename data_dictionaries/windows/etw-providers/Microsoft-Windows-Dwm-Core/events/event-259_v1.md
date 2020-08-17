@@ -1,4 +1,5 @@
 # Event 259 - TELEMETRY_ANIMATION_TTFF_ANALYSIS_EVENT
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Informational
 * etw_keywords_DwmCore LowOverheadSmoothnessTracking
 * etw_task_TELEMETRY_ANIMATION_TTFF_ANALYSIS_EVENT
-* version_1

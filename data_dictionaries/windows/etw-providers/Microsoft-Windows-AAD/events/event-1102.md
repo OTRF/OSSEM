@@ -1,4 +1,5 @@
 # Event 1102 - AadAdalrtOperation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 23 - listenviaWS_Discoveryforserverannouncements
+###### Version: 0
 
 ## Description
 None

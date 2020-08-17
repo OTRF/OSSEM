@@ -1,4 +1,5 @@
 # Event 527 - BackgroundManagerTrace
+###### Version: 0
 
 ## Description
 None

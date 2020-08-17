@@ -1,4 +1,5 @@
 # Event 142 - DdiRemoveDevice
+###### Version: 0
 
 ## Description
 None

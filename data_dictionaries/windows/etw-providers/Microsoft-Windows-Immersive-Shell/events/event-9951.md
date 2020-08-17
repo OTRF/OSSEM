@@ -1,4 +1,5 @@
 # Event 9951 - DllGetClassObject_SxS
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1002 - Smb2RkfFailure
+###### Version: 0
 
 ## Description
 None

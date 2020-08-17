@@ -1,4 +1,5 @@
 # Event 396 - Bundlemanifest
+###### Version: 0
 
 ## Description
 None

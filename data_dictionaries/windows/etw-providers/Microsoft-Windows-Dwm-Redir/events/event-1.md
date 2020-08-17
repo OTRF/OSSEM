@@ -1,4 +1,5 @@
 # Event 1 - RedirGetSharedHandle
+###### Version: 0
 
 ## Description
 None

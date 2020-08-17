@@ -1,4 +1,5 @@
 # Event 160 - ESE_IsamDbfilehdrInfo_Trace
+###### Version: 0
 
 ## Description
 None

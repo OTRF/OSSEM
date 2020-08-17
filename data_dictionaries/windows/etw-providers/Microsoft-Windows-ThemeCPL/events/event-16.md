@@ -1,4 +1,5 @@
 # Event 16 - Personalization_ScreenSaverLinkClicked
+###### Version: 0
 
 ## Description
 None

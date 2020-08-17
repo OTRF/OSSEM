@@ -1,4 +1,5 @@
 # Event 16 - ExtensionCatalog_RoGetExtensionRegistrationByExtensionId
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 246 - Mshtml_CPaintController_CanNotPaintNow
+###### Version: 0
 
 ## Description
 None

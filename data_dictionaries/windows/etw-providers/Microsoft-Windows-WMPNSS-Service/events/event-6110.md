@@ -1,4 +1,5 @@
 # Event 6110 - RMEClientAuthentication
+###### Version: 0
 
 ## Description
 None

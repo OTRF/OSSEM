@@ -1,4 +1,5 @@
 # Event 415 - Browseui_Tabs_MarkTabAsHung
+###### Version: 0
 
 ## Description
 None

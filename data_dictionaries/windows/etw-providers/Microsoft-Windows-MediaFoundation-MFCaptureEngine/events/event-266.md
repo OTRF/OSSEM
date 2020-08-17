@@ -1,4 +1,5 @@
 # Event 266 - MFCaptureEngine_Camera_Sound_QueuePlaybackTask
+###### Version: 0
 
 ## Description
 None

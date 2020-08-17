@@ -1,4 +1,5 @@
 # Event 1338 - UdpDetachNotificationChannel
+###### Version: 0
 
 ## Description
 None

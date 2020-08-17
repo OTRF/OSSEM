@@ -1,4 +1,5 @@
 # Event 7242 - ConnectedSearch_LogAppVisibility
+###### Version: 0
 
 ## Description
 None

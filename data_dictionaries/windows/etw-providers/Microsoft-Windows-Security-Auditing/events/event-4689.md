@@ -1,4 +1,5 @@
 # Event ID 4689: A process has exited
+###### Version: 0
 
 ## Description
 This event generates every time a process has exited.

@@ -1,4 +1,5 @@
 # Event 324 - ETWLoggingItem
+###### Version: 0
 
 ## Description
 None

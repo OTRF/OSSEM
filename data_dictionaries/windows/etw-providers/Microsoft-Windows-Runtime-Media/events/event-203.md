@@ -1,4 +1,5 @@
 # Event 203 - MicrosoftWindowsRuntimeCaptureEngineTakePhotoTask
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1369 - TcpipTeredoClose
+###### Version: 0
 
 ## Description
 None

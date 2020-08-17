@@ -1,4 +1,5 @@
 # Event 64 - HighlightCursor
+###### Version: 0
 
 ## Description
 None

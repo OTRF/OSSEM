@@ -1,4 +1,5 @@
 # Event 2061 - MiniportResume
+###### Version: 0
 
 ## Description
 None

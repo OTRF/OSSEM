@@ -1,4 +1,5 @@
 # Event 334 - ETWGUID_DIRTY_ADDRECT
+###### Version: 0
 
 ## Description
 None

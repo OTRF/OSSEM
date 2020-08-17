@@ -1,4 +1,5 @@
 # Event ID 4751: A member was added to a security-disabled global group
+###### Version: 0
 
 ## Description
 This event generates every time a new member was added to a security-disabled (distribution) global group. This event generates only on domain controllers. For every added member you will get separate 4751 event. You will typically see "4750: A security-disabled global group was changed." event without any changes in it prior to 4751 event.

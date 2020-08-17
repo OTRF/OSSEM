@@ -1,4 +1,5 @@
 # Event 238 - NarratorQueueState
+###### Version: 0
 
 ## Description
 None

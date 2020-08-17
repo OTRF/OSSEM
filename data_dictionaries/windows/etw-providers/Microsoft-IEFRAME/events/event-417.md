@@ -1,4 +1,5 @@
 # Event 417 - Browseui_Tabs_MarkTabAsNotHung
+###### Version: 0
 
 ## Description
 None

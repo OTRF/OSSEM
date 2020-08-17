@@ -1,4 +1,5 @@
 # Event 57 - Jscript_Projection_GetNonArrayTypeAsPropertyValue
+###### Version: 0
 
 ## Description
 None

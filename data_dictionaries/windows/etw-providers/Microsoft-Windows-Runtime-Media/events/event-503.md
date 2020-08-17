@@ -1,4 +1,5 @@
 # Event 503 - WinRTMediaStreamSourceSampleRequestTask
+###### Version: 0
 
 ## Description
 None

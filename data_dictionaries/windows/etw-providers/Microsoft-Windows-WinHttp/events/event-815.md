@@ -1,4 +1,5 @@
 # Event 815 - WINHTTP_AUTOPROXY_FIND_INFO_FOR_URL
+###### Version: 0
 
 ## Description
 None

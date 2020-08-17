@@ -1,4 +1,5 @@
 # Event 22 - I/Orequest.
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_IOPayload ReceiveIOPayload
 * etw_opcode_I/Opayloadoperation.
 * etw_task_I/Orequest.
-* version_1

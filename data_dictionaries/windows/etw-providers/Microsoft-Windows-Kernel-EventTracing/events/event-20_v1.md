@@ -1,4 +1,5 @@
 # Event 20 - Session
+###### Version: 1
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 * etw_level_Verbose
 * etw_keywords_ETW_KEYWORD_SESSION ETW_KEYWORD_CAPTURE_STATE
 * etw_task_Session
-* version_1

@@ -1,4 +1,5 @@
 # Event 131 - MediaFoundationNotVisibleTimer
+###### Version: 0
 
 ## Description
 None

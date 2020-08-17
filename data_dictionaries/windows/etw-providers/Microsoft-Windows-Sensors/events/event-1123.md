@@ -1,4 +1,5 @@
 # Event 1123 - SensorServicesettingsensorstateinaggregatedsensor
+###### Version: 0
 
 ## Description
 None

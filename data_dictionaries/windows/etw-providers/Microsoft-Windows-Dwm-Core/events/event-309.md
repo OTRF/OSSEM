@@ -1,4 +1,5 @@
 # Event 309 - SCHEDULE_NEW_NOMINAL_REFRESH_PERIOD
+###### Version: 0
 
 ## Description
 None

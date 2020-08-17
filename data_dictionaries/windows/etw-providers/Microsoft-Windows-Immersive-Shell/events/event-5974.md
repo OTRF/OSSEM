@@ -1,4 +1,5 @@
 # Event 5974 - AppActivation_Log_TemporaryLicenseError
+###### Version: 0
 
 ## Description
 None

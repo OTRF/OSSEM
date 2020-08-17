@@ -1,4 +1,5 @@
 # Event 4387 - WMPPlaybackQueue
+###### Version: 0
 
 ## Description
 None

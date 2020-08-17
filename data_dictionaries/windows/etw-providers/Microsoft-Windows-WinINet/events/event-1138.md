@@ -1,4 +1,5 @@
 # Event 1138 - Wininet_CookieServerContainer
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1003 - MediaFoundationFallBackToDefaultD3DFmt
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 432 - CONFIGURE_RME_MENU_ACTION
+###### Version: 0
 
 ## Description
 None

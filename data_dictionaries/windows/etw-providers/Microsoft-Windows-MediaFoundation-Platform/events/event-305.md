@@ -1,4 +1,5 @@
 # Event 305 - MediaFoundationMFTEnum
+###### Version: 0
 
 ## Description
 None

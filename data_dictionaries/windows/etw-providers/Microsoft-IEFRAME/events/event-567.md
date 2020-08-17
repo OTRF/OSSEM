@@ -1,4 +1,5 @@
 # Event 567 - IdleManager_RemoveTask
+###### Version: 0
 
 ## Description
 None

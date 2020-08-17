@@ -1,4 +1,5 @@
 # Event 51 - ETWGUID_DRAWEVENT
+###### Version: 0
 
 ## Description
 None

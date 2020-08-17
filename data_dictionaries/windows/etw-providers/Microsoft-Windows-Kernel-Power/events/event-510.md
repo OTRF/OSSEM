@@ -1,4 +1,5 @@
 # Event 510 - SpmStatusUpdate
+###### Version: 0
 
 ## Description
 None

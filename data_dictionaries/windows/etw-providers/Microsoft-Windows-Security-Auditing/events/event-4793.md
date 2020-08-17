@@ -1,4 +1,5 @@
 # Event ID 4793: The Password Policy Checking API was called
+###### Version: 0
 
 ## Description
 This event generates each time the Password Policy Checking API is called.

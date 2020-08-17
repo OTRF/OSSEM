@@ -1,4 +1,5 @@
 # Event 56 - ITfThreadMgrEventSink_OnSetFocus
+###### Version: 0
 
 ## Description
 None

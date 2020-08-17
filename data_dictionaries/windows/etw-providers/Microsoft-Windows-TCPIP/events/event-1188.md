@@ -1,4 +1,5 @@
 # Event 1188 - TcpConnectionKeepAlive
+###### Version: 0
 
 ## Description
 None

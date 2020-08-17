@@ -1,4 +1,5 @@
 # Event 227 - DETECT_REMOTEAPPWINDOW_STATE
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 830 - Mshtml_Query_App_Link_Support_Task
+###### Version: 0
 
 ## Description
 None

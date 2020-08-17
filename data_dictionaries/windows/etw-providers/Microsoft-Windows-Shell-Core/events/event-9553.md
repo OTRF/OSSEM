@@ -1,4 +1,5 @@
 # Event 9553 - ExplorerFrame_OpenComputer
+###### Version: 0
 
 ## Description
 None

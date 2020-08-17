@@ -1,4 +1,5 @@
 # Xprotect_entries Table
+###### Version: 4.4.2
 
 ## Description
 Database of the machine's XProtect signatures.
@@ -16,6 +17,3 @@ Database of the machine's XProtect signatures.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#xprotect_entries)
-
-## Tags
-* version_4.4.2

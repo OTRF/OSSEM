@@ -1,4 +1,5 @@
 # Event 67 - MILEVENT_MEDIA_UCE_CHECKDEVICESTATE
+###### Version: 0
 
 ## Description
 None

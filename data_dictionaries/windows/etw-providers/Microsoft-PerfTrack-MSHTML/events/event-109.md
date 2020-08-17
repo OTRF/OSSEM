@@ -1,4 +1,5 @@
 # Event 109 - XSSFilter_Sanitize
+###### Version: 0
 
 ## Description
 None

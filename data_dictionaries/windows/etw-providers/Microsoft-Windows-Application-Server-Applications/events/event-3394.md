@@ -1,4 +1,5 @@
 # Event 3394 - MessageEncoding
+###### Version: 0
 
 ## Description
 None

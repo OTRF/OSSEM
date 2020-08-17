@@ -1,4 +1,5 @@
 # Event 4006 - Verify_UPnP_Class
+###### Version: 0
 
 ## Description
 None

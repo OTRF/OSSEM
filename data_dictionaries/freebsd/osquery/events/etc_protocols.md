@@ -1,4 +1,5 @@
 # Etc_protocols Table
+###### Version: 4.4.2
 
 ## Description
 Line-parsed /etc/protocols.
@@ -13,6 +14,3 @@ Line-parsed /etc/protocols.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#etc_protocols)
-
-## Tags
-* version_4.4.2

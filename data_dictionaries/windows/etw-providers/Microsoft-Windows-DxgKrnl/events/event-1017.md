@@ -1,4 +1,5 @@
 # Event 1017 - MiracastDeviceStateChange
+###### Version: 0
 
 ## Description
 None

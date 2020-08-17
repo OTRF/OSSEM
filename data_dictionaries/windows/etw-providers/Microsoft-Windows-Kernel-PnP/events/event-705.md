@@ -1,4 +1,5 @@
 # Event 705 - CfgMgr_QueryRemove
+###### Version: 0
 
 ## Description
 None

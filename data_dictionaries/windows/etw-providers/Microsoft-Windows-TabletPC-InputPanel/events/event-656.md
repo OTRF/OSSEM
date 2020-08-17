@@ -1,4 +1,5 @@
 # Event 656 - SoftKeyboard_OutputManager_PredictionsProcessed
+###### Version: 0
 
 ## Description
 None

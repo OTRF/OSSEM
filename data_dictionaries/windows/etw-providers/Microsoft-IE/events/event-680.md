@@ -1,4 +1,5 @@
 # Event 680 - Mshtml_CDMDraggableTouchTarget_BeginInteraction
+###### Version: 0
 
 ## Description
 None

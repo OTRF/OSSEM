@@ -1,4 +1,5 @@
 # Event 477 - Mshtml_CActiveScriptHolder_WebPlatform_NewScriptEngineEvent
+###### Version: 0
 
 ## Description
 None

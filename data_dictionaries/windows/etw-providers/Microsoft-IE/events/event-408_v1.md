@@ -1,4 +1,5 @@
 # Event 408 - Mshtml_Animations_Animating
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_keywords_animation
 * etw_opcode_Start
 * etw_task_Mshtml_Animations_Animating
-* version_1

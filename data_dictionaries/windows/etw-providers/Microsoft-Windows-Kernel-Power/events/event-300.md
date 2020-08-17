@@ -1,4 +1,5 @@
 # Event 300 - PluginRegistration
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 13 - TaskIndex_YieldCancel
+###### Version: 1
 
 ## Description
 None
@@ -11,4 +12,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_TaskIndex_YieldCancel
-* version_1

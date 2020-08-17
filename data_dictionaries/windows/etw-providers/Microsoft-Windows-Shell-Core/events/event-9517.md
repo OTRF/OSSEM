@@ -1,4 +1,5 @@
 # Event 9517 - Explorer_StartPane_OpenBox_SearchReady
+###### Version: 0
 
 ## Description
 None

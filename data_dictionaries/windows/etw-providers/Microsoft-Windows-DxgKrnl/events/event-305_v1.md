@@ -1,4 +1,5 @@
 # Event 305 - ReferenceWrittenPrimaries
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Always
 * etw_keywords_References
 * etw_task_ReferenceWrittenPrimaries
-* version_1

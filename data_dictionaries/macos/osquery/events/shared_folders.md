@@ -1,4 +1,5 @@
 # Shared_folders Table
+###### Version: 4.4.2
 
 ## Description
 Folders available to others via SMB or AFP.
@@ -11,6 +12,3 @@ Folders available to others via SMB or AFP.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#shared_folders)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 111 - DeliveredPerfChange
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_keywords_PerfDiag
 * etw_task_DeliveredPerfChange
-* version_1

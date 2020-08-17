@@ -1,4 +1,5 @@
 # Safari_extensions Table
+###### Version: 4.4.2
 
 ## Description
 Safari browser extension details for all users.
@@ -19,6 +20,3 @@ Safari browser extension details for all users.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#safari_extensions)
-
-## Tags
-* version_4.4.2

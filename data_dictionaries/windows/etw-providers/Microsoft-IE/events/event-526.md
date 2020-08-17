@@ -1,4 +1,5 @@
 # Event 526 - Mshtml_EventDebug_DOM_Event_Dispatch
+###### Version: 0
 
 ## Description
 None

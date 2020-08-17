@@ -1,4 +1,5 @@
 # Event 704 - CompatibilitymoduleLSAfailed
+###### Version: 0
 
 ## Description
 None

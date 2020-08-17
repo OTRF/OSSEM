@@ -1,4 +1,5 @@
 # Event 528 - PowerStateEvent
+###### Version: 0
 
 ## Description
 None

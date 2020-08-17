@@ -1,4 +1,5 @@
 # Event 723 - Mshtml_CTouchDragDropHelper_OnDragging
+###### Version: 0
 
 ## Description
 None

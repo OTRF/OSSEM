@@ -1,4 +1,5 @@
 # Event 510 - IdleTaskPerfTrackResourceConsumption
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Memory_arrays Table
+###### Version: 4.4.2
 
 ## Description
 Data associated with collection of memory devices that operate to form a memory address.
@@ -14,6 +15,3 @@ Data associated with collection of memory devices that operate to form a memory 
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#memory_arrays)
-
-## Tags
-* version_4.4.2

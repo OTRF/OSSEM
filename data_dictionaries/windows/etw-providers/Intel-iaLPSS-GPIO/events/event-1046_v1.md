@@ -1,4 +1,5 @@
 # Event 1046 - GpioIOoperations
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_GpioIOoperations
-* version_1

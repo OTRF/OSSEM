@@ -1,4 +1,5 @@
 # Event 8010 - DnsRegistration
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1018 - WinNatSessionDeleteOperational
+###### Version: 0
 
 ## Description
 None

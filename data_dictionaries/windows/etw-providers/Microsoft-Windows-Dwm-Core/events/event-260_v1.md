@@ -1,4 +1,5 @@
 # Event 260 - TELEMETRY_AGGREGATED_TTFF_ANALYSIS_EVENT
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Informational
 * etw_keywords_DwmCore LowOverheadSmoothnessTracking
 * etw_task_TELEMETRY_AGGREGATED_TTFF_ANALYSIS_EVENT
-* version_1

@@ -1,4 +1,5 @@
 # Event 1038 - MiniportResume
+###### Version: 0
 
 ## Description
 None

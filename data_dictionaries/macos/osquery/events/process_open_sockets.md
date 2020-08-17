@@ -1,4 +1,5 @@
 # Process_open_sockets Table
+###### Version: 4.4.2
 
 ## Description
 Processes which have open network sockets on the system.
@@ -21,6 +22,3 @@ Processes which have open network sockets on the system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#process_open_sockets)
-
-## Tags
-* version_4.4.2

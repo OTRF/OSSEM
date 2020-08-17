@@ -1,4 +1,5 @@
 # Event 786 - Mshtml_Media_Capture_Sample_Dropped
+###### Version: 0
 
 ## Description
 None

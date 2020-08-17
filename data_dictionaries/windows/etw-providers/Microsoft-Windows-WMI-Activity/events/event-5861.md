@@ -1,4 +1,5 @@
 # Event 5861 - task_0
+###### Version: 0
 
 ## Description
 WMI permanent event created

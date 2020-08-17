@@ -1,4 +1,5 @@
 # Event ID 4756: A member was added to a security-enabled universal group
+###### Version: 0
 
 ## Description
 Event 4756 is the same as 4732, but it is generated for a universal security group instead of a local security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.

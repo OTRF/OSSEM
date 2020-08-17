@@ -1,4 +1,5 @@
 # Event 9660 - Explorer_Roaming_BootstrapRestore
+###### Version: 0
 
 ## Description
 None

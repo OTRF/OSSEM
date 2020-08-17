@@ -1,4 +1,5 @@
 # Event 1119 - MediaFoundationIMFPMPHostApp_ActivateClassById
+###### Version: 0
 
 ## Description
 None

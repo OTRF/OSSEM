@@ -1,4 +1,5 @@
 # Event 48 - GpuAdapterCount
+###### Version: 0
 
 ## Description
 None

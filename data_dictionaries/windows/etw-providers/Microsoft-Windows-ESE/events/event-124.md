@@ -1,4 +1,5 @@
 # Event 124 - ESE_EventLogWarn_Trace
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Carves Table
+###### Version: 4.4.2
 
 ## Description
 Forensic Carves.
@@ -16,6 +17,3 @@ Forensic Carves.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#carves)
-
-## Tags
-* version_4.4.2

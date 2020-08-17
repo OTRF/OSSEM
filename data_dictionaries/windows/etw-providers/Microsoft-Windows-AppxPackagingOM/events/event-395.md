@@ -1,4 +1,5 @@
 # Event 395 - Bundlemanifest
+###### Version: 0
 
 ## Description
 None

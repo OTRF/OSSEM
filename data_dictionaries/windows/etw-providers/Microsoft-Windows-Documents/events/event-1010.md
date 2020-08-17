@@ -1,4 +1,5 @@
 # Event 1010 - DocPerf_Task_GetPrinter
+###### Version: 0
 
 ## Description
 None

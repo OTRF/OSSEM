@@ -1,4 +1,5 @@
 # Event 807 - Browseui_CIMTabView_CloseTab_Perftrack
+###### Version: 0
 
 ## Description
 None

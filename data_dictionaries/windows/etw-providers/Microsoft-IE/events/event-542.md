@@ -1,4 +1,5 @@
 # Event 542 - Mshtml_Prefetching
+###### Version: 0
 
 ## Description
 None

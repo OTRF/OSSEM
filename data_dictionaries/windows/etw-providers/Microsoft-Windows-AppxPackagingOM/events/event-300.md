@@ -1,4 +1,5 @@
 # Event 300 - AppXPackaging.Task.PackageWriter
+###### Version: 0
 
 ## Description
 None

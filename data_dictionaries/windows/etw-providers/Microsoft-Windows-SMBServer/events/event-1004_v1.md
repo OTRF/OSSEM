@@ -1,4 +1,5 @@
 # Event 1004 - SrvSignatureValidationFailure
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Error
 * etw_keywords_Operational
 * etw_task_SrvSignatureValidationFailure
-* version_1

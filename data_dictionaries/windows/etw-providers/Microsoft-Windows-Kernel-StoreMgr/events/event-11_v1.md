@@ -1,4 +1,5 @@
 # Event 11 - StoreIoStats
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Informational
 * etw_keywords_StoreOps
 * etw_task_StoreIoStats
-* version_1

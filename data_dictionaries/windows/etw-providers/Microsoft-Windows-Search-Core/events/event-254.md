@@ -1,4 +1,5 @@
 # Event 254 - CSearchScopeRule_get_IsDefault
+###### Version: 0
 
 ## Description
 None

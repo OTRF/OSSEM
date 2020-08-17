@@ -1,4 +1,5 @@
 # Event 151 - TaskSchedulerfailedtoinstantiatetaskatservicestartup.
+###### Version: 0
 
 ## Description
 None

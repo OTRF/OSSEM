@@ -1,4 +1,5 @@
 # Event 5917 - AppActivation_SplashScreenFactoried
+###### Version: 0
 
 ## Description
 None

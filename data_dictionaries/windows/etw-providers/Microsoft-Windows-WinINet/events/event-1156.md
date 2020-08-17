@@ -1,4 +1,5 @@
 # Event 1156 - Wininet_HstsServerContainer
+###### Version: 0
 
 ## Description
 None

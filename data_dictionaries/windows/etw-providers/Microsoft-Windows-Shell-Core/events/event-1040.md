@@ -1,4 +1,5 @@
 # Event 1040 - DataLayer_CreateSession
+###### Version: 0
 
 ## Description
 None

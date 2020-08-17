@@ -1,4 +1,5 @@
 # Event 9585 - Explorer_Is_Joined_To_Domain
+###### Version: 0
 
 ## Description
 None

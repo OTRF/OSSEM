@@ -1,4 +1,5 @@
 # Event ID 4719: System audit policy was changed.
+###### Version: 0
 
 ## Description
 This event generates when the computer's audit policy changes.

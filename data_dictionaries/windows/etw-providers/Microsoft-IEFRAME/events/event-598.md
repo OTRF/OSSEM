@@ -1,4 +1,5 @@
 # Event 598 - Browseui_DestroyDetachedBrowserTabUI
+###### Version: 0
 
 ## Description
 None

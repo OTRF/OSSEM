@@ -1,4 +1,5 @@
 # Event 8050 - ReintegratePackage
+###### Version: 1
 
 ## Description
 None
@@ -11,4 +12,3 @@ None
 ## Tags
 * etw_opcode_Start
 * etw_task_ReintegratePackage
-* version_1

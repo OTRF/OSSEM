@@ -1,4 +1,5 @@
 # Event 220 - Class
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_Queue
 * etw_opcode_Queue_relatedoperation.
 * etw_task_Class
-* version_1

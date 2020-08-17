@@ -1,4 +1,5 @@
 # Iokit_devicetree Table
+###### Version: 4.4.2
 
 ## Description
 The IOKit registry matching the DeviceTree plane.
@@ -18,6 +19,3 @@ The IOKit registry matching the DeviceTree plane.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#iokit_devicetree)
-
-## Tags
-* version_4.4.2

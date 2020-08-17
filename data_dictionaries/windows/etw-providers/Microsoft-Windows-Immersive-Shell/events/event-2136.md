@@ -1,4 +1,5 @@
 # Event 2136 - PerfTrack_Picker_Launch_Open_Thumbnail_ViewComplete
+###### Version: 0
 
 ## Description
 None

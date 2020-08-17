@@ -1,4 +1,5 @@
 # Event 705 - Mshtml_DragAndDrop_Fire_Drop
+###### Version: 0
 
 ## Description
 None

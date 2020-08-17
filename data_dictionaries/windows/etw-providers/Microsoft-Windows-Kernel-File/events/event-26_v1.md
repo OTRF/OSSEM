@@ -1,4 +1,5 @@
 # Event 26 - DeletePath
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Informational
 * etw_keywords_KERNEL_FILE_KEYWORD_DELETE_PATH
 * etw_task_DeletePath
-* version_1

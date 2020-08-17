@@ -1,4 +1,5 @@
 # Event 98 - SystemTimeResolutionKernelChange
+###### Version: 0
 
 ## Description
 None

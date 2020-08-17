@@ -1,4 +1,5 @@
 # Event 4 - KERNEL_MITIGATION_TASK_PROHIBIT_CHILD_PROCESS_CREATION
+###### Version: 0
 
 ## Description
 None

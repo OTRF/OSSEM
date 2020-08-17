@@ -1,4 +1,5 @@
 # Event ID 4695: Unprotection of auditable protected data was attempted.
+###### Version: 0
 
 ## Description
 This event generates if DPAPI CryptUnprotectData() function was used to unprotect "auditable" data that was encrypted using CryptProtectData() function with CRYPTPROTECT_AUDIT flag (dwFlags) enabled.

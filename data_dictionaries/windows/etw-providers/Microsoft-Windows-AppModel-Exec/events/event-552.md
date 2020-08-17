@@ -1,4 +1,5 @@
 # Event 552 - BM_NotifyExistingSession
+###### Version: 0
 
 ## Description
 None

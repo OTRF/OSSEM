@@ -1,4 +1,5 @@
 # Event 63 - ENDPOINT_STATE_MACHINE_TRANSITION
+###### Version: 0
 
 ## Description
 None

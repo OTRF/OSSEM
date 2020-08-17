@@ -1,4 +1,5 @@
 # Event 1020 - Boot_ArchiveCorrupt
+###### Version: 0
 
 ## Description
 None

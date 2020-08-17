@@ -1,4 +1,5 @@
 # Event 4392 - PEAuthCommAcquireSessionKey
+###### Version: 0
 
 ## Description
 None

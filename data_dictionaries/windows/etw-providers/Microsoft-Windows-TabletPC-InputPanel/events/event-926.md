@@ -1,4 +1,5 @@
 # Event 926 - SoftKeyboard_CandidatePane_PerfTrack_PredictionOpen_CHT
+###### Version: 0
 
 ## Description
 None

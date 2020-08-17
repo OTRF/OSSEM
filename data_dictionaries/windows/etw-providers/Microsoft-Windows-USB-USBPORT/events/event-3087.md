@@ -1,4 +1,5 @@
 # Event 3087 - MiniportResume
+###### Version: 0
 
 ## Description
 None

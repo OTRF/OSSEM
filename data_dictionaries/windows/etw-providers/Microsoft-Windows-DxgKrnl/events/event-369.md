@@ -1,4 +1,5 @@
 # Event 369 - GdiRenderDuringCS
+###### Version: 0
 
 ## Description
 None

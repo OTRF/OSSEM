@@ -1,4 +1,5 @@
 # Event ID 4865: A trusted forest information entry was added.
+###### Version: 0
 
 ## Description
 This event generates when new trusted forest information entry was added.

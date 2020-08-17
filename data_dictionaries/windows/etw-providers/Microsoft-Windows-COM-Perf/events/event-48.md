@@ -1,4 +1,5 @@
 # Event 48 - COM_ApartmentUninitialize
+###### Version: 0
 
 ## Description
 None

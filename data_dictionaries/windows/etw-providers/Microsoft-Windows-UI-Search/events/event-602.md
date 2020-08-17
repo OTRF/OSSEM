@@ -1,4 +1,5 @@
 # Event 602 - XamlViewShutdown
+###### Version: 0
 
 ## Description
 None

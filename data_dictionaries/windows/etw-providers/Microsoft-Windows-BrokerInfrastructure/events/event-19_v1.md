@@ -1,4 +1,5 @@
 # Event 19 - BackgroundTask
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_keywords_BackgroundTask
 * etw_opcode_TaskCanceled
 * etw_task_BackgroundTask
-* version_1

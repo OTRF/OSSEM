@@ -1,4 +1,5 @@
 # Event 860 - IDXGISwapChain_GetFrameLatencyWaitableObject
+###### Version: 0
 
 ## Description
 None

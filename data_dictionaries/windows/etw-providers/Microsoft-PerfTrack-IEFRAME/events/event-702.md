@@ -1,4 +1,5 @@
 # Event 702 - Browseui_Tabs_Tearoff_NewWindow
+###### Version: 0
 
 ## Description
 None

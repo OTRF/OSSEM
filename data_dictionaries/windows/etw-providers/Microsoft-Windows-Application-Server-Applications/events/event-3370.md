@@ -1,4 +1,5 @@
 # Event 3370 - MessageEncoding
+###### Version: 0
 
 ## Description
 None

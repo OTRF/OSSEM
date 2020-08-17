@@ -1,4 +1,5 @@
 # Event 1007 - Boot_ReceivedEvent
+###### Version: 0
 
 ## Description
 None

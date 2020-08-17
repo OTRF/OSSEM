@@ -1,4 +1,5 @@
 # Event 1100 - FM_ApplyResourceSetType
+###### Version: 0
 
 ## Description
 None

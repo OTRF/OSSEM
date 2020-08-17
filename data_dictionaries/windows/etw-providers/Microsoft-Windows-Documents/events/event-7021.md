@@ -1,4 +1,5 @@
 # Event 7021 - DocPerf_Task_XpsViewer_Thumbnails_LoadPageTexture
+###### Version: 0
 
 ## Description
 None

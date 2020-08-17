@@ -1,4 +1,5 @@
 # Event 13 - Personalization_DesktopBackgroundLinkClicked
+###### Version: 0
 
 ## Description
 None

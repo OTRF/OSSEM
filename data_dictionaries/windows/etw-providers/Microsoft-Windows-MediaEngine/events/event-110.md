@@ -1,4 +1,5 @@
 # Event 110 - MediaFoundationPause
+###### Version: 0
 
 ## Description
 None

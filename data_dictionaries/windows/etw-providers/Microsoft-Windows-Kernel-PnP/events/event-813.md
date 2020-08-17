@@ -1,4 +1,5 @@
 # Event 813 - ReenumerateDeviceOnly
+###### Version: 0
 
 ## Description
 None

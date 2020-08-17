@@ -1,4 +1,5 @@
 # Event 25 - RegionRundown
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Informational
 * etw_keywords_StoreContentsRundown
 * etw_task_RegionRundown
-* version_1

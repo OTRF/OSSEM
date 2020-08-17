@@ -1,4 +1,5 @@
 # Package_receipts Table
+###### Version: 4.4.2
 
 ## Description
 OS X package receipt details.
@@ -16,6 +17,3 @@ OS X package receipt details.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#package_receipts)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 5030 - VID_hotadd
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 187 - ETWGUID_DIRECTFLIP_CANDIDATEOVERWRITEVENT
+###### Version: 0
 
 ## Description
 None

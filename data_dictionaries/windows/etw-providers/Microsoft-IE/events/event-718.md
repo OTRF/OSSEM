@@ -1,4 +1,5 @@
 # Event 718 - Mshtml_CTouchDragDropHelper_DragInitiated
+###### Version: 0
 
 ## Description
 None

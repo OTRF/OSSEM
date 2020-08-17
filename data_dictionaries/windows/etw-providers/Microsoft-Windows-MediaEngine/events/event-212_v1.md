@@ -1,4 +1,5 @@
 # Event 212 - BatchingReason
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 ## Tags
 * etw_level_Verbose
 * etw_task_BatchingReason
-* version_1

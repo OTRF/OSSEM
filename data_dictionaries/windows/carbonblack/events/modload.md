@@ -1,4 +1,5 @@
 # ingress.event.moduleload (Module Load)
+###### Version: 0
 
 ## Description
 This event contains the information for modules loaded by processes on endpoints monitored by Carbon Black.

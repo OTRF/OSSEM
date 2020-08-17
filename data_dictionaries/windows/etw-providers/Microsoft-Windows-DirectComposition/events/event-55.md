@@ -1,4 +1,5 @@
 # Event 55 - VISUAL_SET_INTERACTION
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 27 - ApiSetIconicThumbnail
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Plist Table
+###### Version: 4.4.2
 
 ## Description
 Read and parse a plist file.
@@ -13,6 +14,3 @@ Read and parse a plist file.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#plist)
-
-## Tags
-* version_4.4.2

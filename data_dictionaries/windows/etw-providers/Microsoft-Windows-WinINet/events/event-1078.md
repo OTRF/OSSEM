@@ -1,4 +1,5 @@
 # Event 1078 - Wininet_AppCacheHandle
+###### Version: 0
 
 ## Description
 None

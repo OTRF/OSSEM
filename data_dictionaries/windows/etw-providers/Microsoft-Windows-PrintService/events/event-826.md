@@ -1,4 +1,5 @@
 # Event 826 - ClientSideRenderingrevertingtoServerSideRendering
+###### Version: 0
 
 ## Description
 None

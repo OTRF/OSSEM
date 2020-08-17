@@ -1,4 +1,5 @@
 # Event 3017 - ValidatePageHash
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Running_apps Table
+###### Version: 4.4.2
 
 ## Description
 macOS applications currently running on the host system.
@@ -12,6 +13,3 @@ macOS applications currently running on the host system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#running_apps)
-
-## Tags
-* version_4.4.2

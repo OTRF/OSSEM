@@ -1,4 +1,5 @@
 # Event 4252 - SessionPresentationSwitch
+###### Version: 0
 
 ## Description
 None

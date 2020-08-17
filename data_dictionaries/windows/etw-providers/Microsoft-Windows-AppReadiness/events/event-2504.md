@@ -1,4 +1,5 @@
 # Event 2504 - AppReadiness_BrokerSession
+###### Version: 0
 
 ## Description
 None

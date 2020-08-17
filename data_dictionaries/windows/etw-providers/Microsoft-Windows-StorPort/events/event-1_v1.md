@@ -1,4 +1,5 @@
 # Event 1 - LogicalUnitreset
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_Reset
 * etw_opcode_OpCodeLUReset
 * etw_task_LogicalUnitreset
-* version_1

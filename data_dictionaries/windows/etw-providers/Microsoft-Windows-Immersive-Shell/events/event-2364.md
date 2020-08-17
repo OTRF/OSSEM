@@ -1,4 +1,5 @@
 # Event 2364 - Launcher_Dismiss_Explicit_ToImmersiveMode
+###### Version: 0
 
 ## Description
 None

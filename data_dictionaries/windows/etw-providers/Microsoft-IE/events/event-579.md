@@ -1,4 +1,5 @@
 # Event 579 - Mshtml_EventDebug_MediaQuery_Invoke_Callback
+###### Version: 0
 
 ## Description
 None

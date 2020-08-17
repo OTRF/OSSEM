@@ -1,4 +1,5 @@
 # Event ID 4777: The domain controller failed to validate the credentials for an account.
+###### Version: 0
 
 ## Description
 Currently this event doesn't generate. It is a defined event, but it is never invoked by the operating system. 4776 failure event is generated instead.

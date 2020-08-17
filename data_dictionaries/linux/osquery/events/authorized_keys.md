@@ -1,4 +1,5 @@
 # Authorized_keys Table
+###### Version: 4.4.2
 
 ## Description
 A line-delimited authorized_keys table.
@@ -12,6 +13,3 @@ A line-delimited authorized_keys table.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#authorized_keys)
-
-## Tags
-* version_4.4.2

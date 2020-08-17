@@ -1,4 +1,5 @@
 # Event 3008 - ToastSessionClose
+###### Version: 0
 
 ## Description
 None

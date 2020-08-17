@@ -1,4 +1,5 @@
 # Event 700 - INetCfgNotifyObject
+###### Version: 0
 
 ## Description
 None

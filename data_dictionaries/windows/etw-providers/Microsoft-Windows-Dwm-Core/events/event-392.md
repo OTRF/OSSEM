@@ -1,4 +1,5 @@
 # Event 392 - COMPUTESCRIBBLE_DRAWINFO
+###### Version: 0
 
 ## Description
 None

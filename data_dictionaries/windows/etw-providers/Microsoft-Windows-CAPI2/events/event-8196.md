@@ -1,4 +1,5 @@
 # Event 8196 - SyncaSecurityCatalogwiththeCatalogDatabase
+###### Version: 0
 
 ## Description
 None

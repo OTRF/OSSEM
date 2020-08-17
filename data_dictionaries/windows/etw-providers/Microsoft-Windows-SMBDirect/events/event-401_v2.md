@@ -1,4 +1,5 @@
 # Event 401 - task_0
+###### Version: 2
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Informational
 * etw_keywords_Disconnect
 * etw_task_task_0
-* version_2

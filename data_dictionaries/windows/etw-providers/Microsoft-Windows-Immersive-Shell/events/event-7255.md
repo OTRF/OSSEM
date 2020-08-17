@@ -1,4 +1,5 @@
 # Event 7255 - ConnectedSearch_LogAppVisibilityPayload
+###### Version: 0
 
 ## Description
 None

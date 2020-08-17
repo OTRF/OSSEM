@@ -1,4 +1,5 @@
 # Event 7109 - AppHistory_AddImmersiveApplication
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1127 - IpAddressAdded
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:TcpipDiagnosis ut:TcpipCsDiag ut:Global keyword_80000000000
 * etw_task_IpAddressAdded
-* version_1

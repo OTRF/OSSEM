@@ -1,4 +1,5 @@
 # Suid_bin Table
+###### Version: 4.4.2
 
 ## Description
 suid binaries in common locations.
@@ -13,6 +14,3 @@ suid binaries in common locations.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#suid_bin)
-
-## Tags
-* version_4.4.2

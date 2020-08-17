@@ -1,4 +1,5 @@
 # Event 1009 - MediaFoundationHandleStreamEvent
+###### Version: 0
 
 ## Description
 None

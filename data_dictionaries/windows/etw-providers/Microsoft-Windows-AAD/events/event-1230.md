@@ -1,4 +1,5 @@
 # Event 1230 - AuthHelper
+###### Version: 0
 
 ## Description
 None

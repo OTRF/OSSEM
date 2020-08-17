@@ -1,4 +1,5 @@
 # Event 5386 - Dashboard_Network_Adapter_WifiSetProperties
+###### Version: 0
 
 ## Description
 None

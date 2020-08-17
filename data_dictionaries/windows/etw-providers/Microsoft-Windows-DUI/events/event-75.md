@@ -1,4 +1,5 @@
 # Event 75 - DirectUI_TouchScrollBarStateChange
+###### Version: 0
 
 ## Description
 None

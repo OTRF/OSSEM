@@ -1,4 +1,5 @@
 # Event 6 - PluginManager
+###### Version: 0
 
 ## Description
 None

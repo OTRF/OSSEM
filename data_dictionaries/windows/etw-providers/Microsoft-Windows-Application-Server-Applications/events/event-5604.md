@@ -1,4 +1,5 @@
 # Event 5604 - SessionCookieReading
+###### Version: 0
 
 ## Description
 None

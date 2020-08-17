@@ -1,4 +1,5 @@
 # Event 500 - Mshtml_Composition_Create_SBLayer
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 7188 - Perf_AppSyncAppUninstalled
+###### Version: 0
 
 ## Description
 None

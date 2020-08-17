@@ -1,4 +1,5 @@
 # Event 2001 - StatisticsTelemetry
+###### Version: 1
 
 ## Description
 None
@@ -43,4 +44,3 @@ None
 * etw_level_Informational
 * etw_keywords_Events keyword_400000000000
 * etw_task_StatisticsTelemetry
-* version_1

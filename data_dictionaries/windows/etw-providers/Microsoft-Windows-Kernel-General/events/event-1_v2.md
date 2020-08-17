@@ -1,4 +1,5 @@
 # Event 1 - SystemTimeChange
+###### Version: 2
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Informational
 * etw_keywords_KERNEL_GENERAL_KEYWORD_TIME
 * etw_task_SystemTimeChange
-* version_2

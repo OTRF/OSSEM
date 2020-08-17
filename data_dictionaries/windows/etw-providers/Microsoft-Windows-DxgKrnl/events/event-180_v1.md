@@ -1,4 +1,5 @@
 # Event 180 - QueuePacket
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_keywords_Base
 * etw_opcode_Stop
 * etw_task_QueuePacket
-* version_1

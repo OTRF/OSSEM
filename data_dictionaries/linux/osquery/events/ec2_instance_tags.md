@@ -1,4 +1,5 @@
 # Ec2_instance_tags Table
+###### Version: 4.4.2
 
 ## Description
 EC2 instance tag key value pairs.
@@ -12,6 +13,3 @@ EC2 instance tag key value pairs.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#ec2_instance_tags)
-
-## Tags
-* version_4.4.2

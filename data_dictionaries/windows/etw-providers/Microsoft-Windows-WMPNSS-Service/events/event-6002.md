@@ -1,4 +1,5 @@
 # Event 6002 - Is_Allowed
+###### Version: 0
 
 ## Description
 None

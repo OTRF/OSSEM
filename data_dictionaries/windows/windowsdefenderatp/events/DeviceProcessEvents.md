@@ -1,4 +1,5 @@
-# ProcessCreationEvents
+# DeviceProcessEvents
+###### Version: 0
 
 ## Description
 Process creation and related events
@@ -6,9 +7,9 @@ Process creation and related events
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|event_date_creation|EventTime|date|Date and time when the event was recorded|``|
-|machine_id|MachineId|string|Unique identifier for the machine in the service|``|
-|computer_name|ComputerName|string|Fully qualified domain name (FQDN) of the machine|``|
+|event_date_creation|Timestamp|date|Date and time when the event was recorded|``|
+|device_id|DeviceId|string|Unique identifier for the machine in the service|``|
+|computer_name|DeviceName|string|Fully qualified domain name (FQDN) of the machine|``|
 |action_type|ActionType|string|Type of activity that triggered the event|``|
 |process_name|FileName|string|Name of the file that the recorded action was applied to|``|
 |process_path|FolderPath|string|Folder containing the file that the recorded action was applied to|``|

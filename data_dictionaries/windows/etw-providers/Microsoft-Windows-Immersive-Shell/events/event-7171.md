@@ -1,4 +1,5 @@
 # Event 7171 - ConnectedSearch_LogAttributionVisibilityPayload
+###### Version: 0
 
 ## Description
 None

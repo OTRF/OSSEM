@@ -1,4 +1,5 @@
 # Event 9561 - Explorer_StartMenu_Visible_Menu_Items
+###### Version: 0
 
 ## Description
 None

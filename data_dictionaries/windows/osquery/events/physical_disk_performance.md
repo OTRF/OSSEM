@@ -1,4 +1,5 @@
 # Physical_disk_performance Table
+###### Version: 4.4.2
 
 ## Description
 Provides provides raw data from performance counters that monitor hard or fixed disk drives on the system.
@@ -21,6 +22,3 @@ Provides provides raw data from performance counters that monitor hard or fixed 
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#physical_disk_performance)
-
-## Tags
-* version_4.4.2

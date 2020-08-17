@@ -1,4 +1,5 @@
 # Event 304 - UpdateVPR
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Always
 * etw_keywords_Base
 * etw_task_UpdateVPR
-* version_1

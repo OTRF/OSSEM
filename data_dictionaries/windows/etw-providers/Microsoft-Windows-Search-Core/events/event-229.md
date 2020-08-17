@@ -1,4 +1,5 @@
 # Event 229 - CSearchCrawlScopeManager_RemoveRoot
+###### Version: 0
 
 ## Description
 None

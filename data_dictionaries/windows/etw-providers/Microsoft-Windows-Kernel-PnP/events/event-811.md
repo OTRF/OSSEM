@@ -1,4 +1,5 @@
 # Event 811 - ReenumerateDeviceTree
+###### Version: 0
 
 ## Description
 None

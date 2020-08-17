@@ -1,4 +1,5 @@
 # Event 1003 - CreateVirtualStore
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Informational
 * etw_keywords_Store
 * etw_task_CreateVirtualStore
-* version_1

@@ -1,4 +1,5 @@
 # Event 302 - IHM_Dismiss
+###### Version: 0
 
 ## Description
 None

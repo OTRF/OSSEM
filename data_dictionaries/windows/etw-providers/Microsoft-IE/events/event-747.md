@@ -1,4 +1,5 @@
 # Event 747 - Mshtml_CSP_AddPolicy
+###### Version: 0
 
 ## Description
 None

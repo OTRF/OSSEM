@@ -1,4 +1,5 @@
 # Docker_image_labels Table
+###### Version: 4.4.2
 
 ## Description
 Docker image labels.
@@ -12,6 +13,3 @@ Docker image labels.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_image_labels)
-
-## Tags
-* version_4.4.2

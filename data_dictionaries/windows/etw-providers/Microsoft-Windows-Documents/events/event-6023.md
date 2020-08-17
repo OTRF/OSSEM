@@ -1,4 +1,5 @@
 # Event 6023 - DocPerf_Task_Scan_Email_Filter
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 672 - Mshtml_CDMCrossSlideDraggableTouchTarget_AssignDispLayerImpl
+###### Version: 0
 
 ## Description
 None

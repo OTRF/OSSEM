@@ -1,4 +1,5 @@
 # Event ID 4688: A new process has been created
+###### Version: 2
 
 ## Description
 This event generates every time a new process starts.
@@ -30,6 +31,5 @@ This event generates every time a new process starts.
 ## Tags
 * etw_level_Informational
 * etw_task_task_0
-* version_2
 * Detailed Tracking
 * Audit Process Creation

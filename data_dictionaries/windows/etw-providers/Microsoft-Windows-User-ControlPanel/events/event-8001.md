@@ -1,4 +1,5 @@
 # Event 8001 - UserAccount_AddUserWizard_DomainUserAdded
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 7024 - DocPerf_Task_XpsViewer_Thumbnails_LoadHighDetailPageTexture
+###### Version: 0
 
 ## Description
 None

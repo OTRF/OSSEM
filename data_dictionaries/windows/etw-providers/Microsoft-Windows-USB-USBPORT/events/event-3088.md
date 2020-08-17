@@ -1,4 +1,5 @@
 # Event 3088 - MiniportResume
+###### Version: 0
 
 ## Description
 None

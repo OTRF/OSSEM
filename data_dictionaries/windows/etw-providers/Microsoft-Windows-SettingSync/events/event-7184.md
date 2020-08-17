@@ -1,4 +1,5 @@
 # Event 7184 - Perf_WLRoamCheckIfBackupIsDisabled
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 6106 - DeviceCountUpdate
+###### Version: 0
 
 ## Description
 None

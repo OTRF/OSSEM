@@ -1,4 +1,5 @@
 # Event 2003 - task_0
+###### Version: 2
 
 ## Description
 None
@@ -11,4 +12,3 @@ None
 ## Tags
 * etw_level_Warning
 * etw_task_task_0
-* version_2

@@ -1,4 +1,5 @@
 # Event 706 - Mshtml_DragAndDrop_Fire_Drag
+###### Version: 0
 
 ## Description
 None

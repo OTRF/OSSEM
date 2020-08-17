@@ -1,4 +1,5 @@
 # Event ID 4908: Special Groups Logon table modified.
+###### Version: 0
 
 ## Description
 This event generates every time Special Groups logon table was modified.

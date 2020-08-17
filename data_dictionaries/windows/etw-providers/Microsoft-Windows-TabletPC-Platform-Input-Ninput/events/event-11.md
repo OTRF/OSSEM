@@ -1,4 +1,5 @@
 # Event 11 - NinputSendWmGestureGlobal
+###### Version: 0
 
 ## Description
 None

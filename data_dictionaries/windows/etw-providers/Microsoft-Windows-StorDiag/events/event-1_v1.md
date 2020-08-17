@@ -1,4 +1,5 @@
 # Event 1 - ClassPnPIOrequestcomplete
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_ClassPnPAllIO
 * etw_opcode_ClassPnP_IO_End
 * etw_task_ClassPnPIOrequestcomplete
-* version_1

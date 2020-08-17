@@ -1,4 +1,5 @@
 # Event 67 - SetHardwareProtectionFailure
+###### Version: 0
 
 ## Description
 None

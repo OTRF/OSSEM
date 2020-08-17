@@ -1,4 +1,5 @@
 # Event 100 - BIND_GDISPRITEBITMAP_FIRST_TOKEN
+###### Version: 0
 
 ## Description
 None

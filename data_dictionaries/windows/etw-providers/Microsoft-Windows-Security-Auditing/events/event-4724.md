@@ -1,4 +1,5 @@
 # Event ID 4724: An attempt was made to reset an account's password
+###### Version: 0
 
 ## Description
 This event generates every time an account attempted to reset the password for another account.

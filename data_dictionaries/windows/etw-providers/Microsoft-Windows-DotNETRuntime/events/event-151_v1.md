@@ -1,4 +1,5 @@
 # Event 151 - Loader
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_keywords_LoaderKeyword
 * etw_opcode_DomainModuleLoad
 * etw_task_Loader
-* version_1

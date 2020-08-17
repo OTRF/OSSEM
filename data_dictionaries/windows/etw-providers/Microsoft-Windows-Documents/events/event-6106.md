@@ -1,4 +1,5 @@
 # Event 6106 - DocPerf_Task_Setup_SplInstallPrinterDriverFromPackage
+###### Version: 0
 
 ## Description
 None

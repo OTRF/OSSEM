@@ -1,4 +1,5 @@
 # Event 24 - ConsoleSessionChange
+###### Version: 0
 
 ## Description
 None

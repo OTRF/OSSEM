@@ -1,4 +1,5 @@
 # Event 3 - RemoteDesktopUSBHubFilter
+###### Version: 0
 
 ## Description
 None

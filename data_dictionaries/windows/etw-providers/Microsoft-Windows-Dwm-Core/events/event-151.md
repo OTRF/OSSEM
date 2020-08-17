@@ -1,4 +1,5 @@
 # Event 151 - ETWGUID_RENDEROPT_DISCARDRESOURCEEVENT
+###### Version: 0
 
 ## Description
 None

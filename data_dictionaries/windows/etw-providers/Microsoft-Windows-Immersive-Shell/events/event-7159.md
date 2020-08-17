@@ -1,4 +1,5 @@
 # Event 7159 - ConnectedSearch_Settings_SafeSearch
+###### Version: 0
 
 ## Description
 None

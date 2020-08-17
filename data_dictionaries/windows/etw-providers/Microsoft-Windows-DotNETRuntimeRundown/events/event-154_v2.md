@@ -1,4 +1,5 @@
 # Event 154 - Loader
+###### Version: 2
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 * etw_keywords_LoaderRundownKeyword PerfTrackRundownKeyword
 * etw_opcode_ModuleDCStop
 * etw_task_Loader
-* version_2

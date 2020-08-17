@@ -1,4 +1,5 @@
 # Event 701 - CfgMgr_DeviceList
+###### Version: 0
 
 ## Description
 None

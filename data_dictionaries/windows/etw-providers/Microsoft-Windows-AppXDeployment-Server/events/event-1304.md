@@ -1,4 +1,5 @@
 # Event 1304 - AppXDeployment.Task.Server.Deployment.FileCompressionStat
+###### Version: 0
 
 ## Description
 None

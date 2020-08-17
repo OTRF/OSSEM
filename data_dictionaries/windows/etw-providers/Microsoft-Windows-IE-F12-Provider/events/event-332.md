@@ -1,4 +1,5 @@
 # Event 332 - Debugger_Editor_RevealPosition
+###### Version: 0
 
 ## Description
 None

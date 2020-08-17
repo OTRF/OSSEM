@@ -1,4 +1,5 @@
 # Event 2206 - SharingManager_GetSharableItemData
+###### Version: 0
 
 ## Description
 None

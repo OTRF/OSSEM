@@ -1,4 +1,5 @@
 # Event 50 - ANIMATION_SCENARIO_BEGIN
+###### Version: 0
 
 ## Description
 None

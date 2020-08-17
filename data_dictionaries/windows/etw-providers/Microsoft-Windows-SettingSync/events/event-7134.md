@@ -1,4 +1,5 @@
 # Event 7134 - Perf_WLRoamDeleteBackupFolder
+###### Version: 0
 
 ## Description
 None

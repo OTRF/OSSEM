@@ -1,4 +1,5 @@
 # Event 479 - Mshtml_CView_HitTest_InActiveView
+###### Version: 0
 
 ## Description
 None

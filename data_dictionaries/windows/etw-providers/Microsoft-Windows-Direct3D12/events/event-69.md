@@ -1,4 +1,5 @@
 # Event 69 - RootSignature
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 139 - USBDeviceIdleNotification
+###### Version: 0
 
 ## Description
 None

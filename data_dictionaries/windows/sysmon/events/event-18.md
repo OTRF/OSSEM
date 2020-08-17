@@ -1,7 +1,8 @@
 # Event ID 18: PipeEvent (Pipe Connected)
+###### Version: 0
 
 ## Description
-This event logs when a named pipe connection is made between a client and a server.
+This event logs when a **named pipe connection** is made between a client and a server.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

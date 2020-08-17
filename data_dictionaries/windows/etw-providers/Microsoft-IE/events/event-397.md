@@ -1,4 +1,5 @@
 # Event 397 - Mshtml_Composition_Layer_Invalidate
+###### Version: 0
 
 ## Description
 None

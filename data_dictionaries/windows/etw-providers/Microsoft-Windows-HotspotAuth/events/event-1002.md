@@ -1,4 +1,5 @@
 # Event 1002 - HotspotAuthentication
+###### Version: 0
 
 ## Description
 None

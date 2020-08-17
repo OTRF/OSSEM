@@ -1,4 +1,5 @@
 # Event 620 - Mshtml_CDoc_OnSuspendDocument
+###### Version: 0
 
 ## Description
 None

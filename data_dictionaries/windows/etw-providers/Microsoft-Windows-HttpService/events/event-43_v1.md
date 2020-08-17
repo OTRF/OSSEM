@@ -1,4 +1,5 @@
 # Event 43 - HTTPAuthenticationTraceTask
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_HTTP_KEYWORD_AUTHENTICATION
 * etw_opcode_SspiCall
 * etw_task_HTTPAuthenticationTraceTask
-* version_1

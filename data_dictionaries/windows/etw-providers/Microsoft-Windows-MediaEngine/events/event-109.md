@@ -1,4 +1,5 @@
 # Event 109 - MediaFoundationPause
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 139 - MediaFoundationVideoFrameEarly
+###### Version: 0
 
 ## Description
 None

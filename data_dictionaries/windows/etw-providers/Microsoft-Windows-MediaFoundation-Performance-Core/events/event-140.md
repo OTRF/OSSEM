@@ -1,4 +1,5 @@
 # Event 140 - AudStreamSink_HandleDeviceRemoved_Task
+###### Version: 0
 
 ## Description
 None

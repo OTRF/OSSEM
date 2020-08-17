@@ -1,4 +1,5 @@
 # Event 121 - EndpointCharacteristicsDiscovery
+###### Version: 0
 
 ## Description
 None

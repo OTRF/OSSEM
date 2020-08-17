@@ -1,4 +1,5 @@
 # Event 3078 - MiniportStop
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 240 - TELEMETRY_AGGREGATED_VSYNC_ANALYSIS_EVENT
+###### Version: 2
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Informational
 * etw_keywords_DwmCore LowOverheadSmoothnessTracking
 * etw_task_TELEMETRY_AGGREGATED_VSYNC_ANALYSIS_EVENT
-* version_2

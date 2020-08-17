@@ -1,4 +1,5 @@
 # Event 7068 - DocPerf_Task_XpsViewer_ReportPreviewDocumentType
+###### Version: 0
 
 ## Description
 None

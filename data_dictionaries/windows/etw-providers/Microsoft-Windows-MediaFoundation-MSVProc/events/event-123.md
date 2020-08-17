@@ -1,4 +1,5 @@
 # Event 123 - MSVideoProcessorMFT_ConstrictionResizer
+###### Version: 0
 
 ## Description
 None

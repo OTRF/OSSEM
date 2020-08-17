@@ -1,4 +1,5 @@
 # Event ID 4738: A user account was changed
+###### Version: 0
 
 ## Description
 This event generates every time user object is changed.

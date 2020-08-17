@@ -1,4 +1,5 @@
 # Md_personalities Table
+###### Version: 4.4.2
 
 ## Description
 Software RAID setting supported by the kernel.
@@ -10,6 +11,3 @@ Software RAID setting supported by the kernel.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#md_personalities)
-
-## Tags
-* version_4.4.2

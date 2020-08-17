@@ -1,4 +1,5 @@
 # Event 2305 - SessionArbitration
+###### Version: 0
 
 ## Description
 None

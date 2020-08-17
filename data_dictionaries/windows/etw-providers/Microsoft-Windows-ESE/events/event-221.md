@@ -1,4 +1,5 @@
 # Event 221 - ESE_tagSessions_Trace
+###### Version: 0
 
 ## Description
 None

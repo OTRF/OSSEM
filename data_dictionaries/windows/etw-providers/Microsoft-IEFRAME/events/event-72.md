@@ -1,4 +1,5 @@
 # Event 72 - ExtensionCloseDW
+###### Version: 0
 
 ## Description
 None

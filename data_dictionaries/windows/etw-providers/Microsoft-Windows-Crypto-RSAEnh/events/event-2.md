@@ -1,4 +1,5 @@
 # Event 2 - GetUserStorageAreaFailed
+###### Version: 0
 
 ## Description
 None

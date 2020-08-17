@@ -1,4 +1,5 @@
 # Event 1167 - Wininet_CacheServerEntryEnum
+###### Version: 0
 
 ## Description
 None

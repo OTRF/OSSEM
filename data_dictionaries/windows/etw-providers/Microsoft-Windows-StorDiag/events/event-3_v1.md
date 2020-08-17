@@ -1,4 +1,5 @@
 # Event 3 - ClassPnPBoostIdleIOrequest
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_ClassPnPIdleIO
 * etw_opcode_ClassPnP_Boost_IdleIO
 * etw_task_ClassPnPBoostIdleIOrequest
-* version_1

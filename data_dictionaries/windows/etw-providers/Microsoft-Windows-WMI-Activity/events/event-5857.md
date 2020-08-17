@@ -1,4 +1,5 @@
 # Event 5857 - task_0
+###### Version: 0
 
 ## Description
 WMI provider started

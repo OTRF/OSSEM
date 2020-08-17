@@ -1,4 +1,5 @@
 # Event 847 - Mshtml_PowerStateController_Register
+###### Version: 0
 
 ## Description
 None

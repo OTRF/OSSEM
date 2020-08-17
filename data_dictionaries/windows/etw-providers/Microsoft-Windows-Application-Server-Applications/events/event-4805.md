@@ -1,4 +1,5 @@
 # Event 4805 - DiscoveryMessage
+###### Version: 0
 
 ## Description
 None

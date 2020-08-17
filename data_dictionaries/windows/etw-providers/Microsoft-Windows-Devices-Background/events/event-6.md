@@ -1,4 +1,5 @@
 # Event 6 - Applicationinitiateddeviceservicing/updatetask
+###### Version: 0
 
 ## Description
 None

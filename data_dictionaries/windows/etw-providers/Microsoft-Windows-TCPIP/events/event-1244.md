@@ -1,4 +1,5 @@
 # Event 1244 - RssInitializeIndirectionTable
+###### Version: 0
 
 ## Description
 None

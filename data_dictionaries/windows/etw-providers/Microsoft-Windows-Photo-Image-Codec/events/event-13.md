@@ -1,4 +1,5 @@
 # Event 13 - WMPHOTO_Transcoder_TranscodeParams_Info
+###### Version: 0
 
 ## Description
 None

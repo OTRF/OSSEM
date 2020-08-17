@@ -1,4 +1,5 @@
 # Event 222 - MediaCapturePhotoSequencephotoavailable
+###### Version: 0
 
 ## Description
 None

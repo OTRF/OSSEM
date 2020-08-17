@@ -1,4 +1,5 @@
 # Event 524 - BatteryTriggerMet
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 8100 - DocPerf_Task_PrintConfig_DDI_EnterExit
+###### Version: 0
 
 ## Description
 None

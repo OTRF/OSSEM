@@ -1,4 +1,5 @@
 # Event 716 - Mshtml_CDragPreview_Hookup
+###### Version: 0
 
 ## Description
 None

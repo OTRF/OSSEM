@@ -1,4 +1,5 @@
 # Event 502 - ServiceHostCompilation
+###### Version: 0
 
 ## Description
 None

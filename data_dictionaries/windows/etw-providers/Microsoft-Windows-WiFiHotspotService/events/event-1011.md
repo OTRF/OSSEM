@@ -1,4 +1,5 @@
 # Event 1011 - HotspotService
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 123 - Mshtml_CSS_Parser
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_subsystem mshtml
 * etw_opcode_Start
 * etw_task_Mshtml_CSS_Parser
-* version_1

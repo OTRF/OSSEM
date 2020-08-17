@@ -1,4 +1,5 @@
 # Docker_version Table
+###### Version: 4.4.2
 
 ## Description
 Docker version information.
@@ -18,6 +19,3 @@ Docker version information.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_version)
-
-## Tags
-* version_4.4.2

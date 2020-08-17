@@ -1,4 +1,5 @@
 # Event 132 - Startup_SetupWorkingDirectory_RemovePath
+###### Version: 0
 
 ## Description
 None

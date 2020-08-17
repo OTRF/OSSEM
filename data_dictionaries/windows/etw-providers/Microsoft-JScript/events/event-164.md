@@ -1,4 +1,5 @@
 # Event 164 - Jscript_StackTrace
+###### Version: 0
 
 ## Description
 None

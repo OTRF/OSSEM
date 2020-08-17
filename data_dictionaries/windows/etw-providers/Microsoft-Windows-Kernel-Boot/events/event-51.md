@@ -1,4 +1,5 @@
 # Event 51 - VsmLKeyProvisioningStatus
+###### Version: 0
 
 ## Description
 None

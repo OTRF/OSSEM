@@ -1,4 +1,5 @@
 # Event 239 - Port
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_Power
 * etw_opcode_Stop
 * etw_task_Port
-* version_1

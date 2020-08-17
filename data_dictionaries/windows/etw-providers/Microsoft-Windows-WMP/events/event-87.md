@@ -1,4 +1,5 @@
 # Event 87 - DISCMEDIACHANGE
+###### Version: 0
 
 ## Description
 None

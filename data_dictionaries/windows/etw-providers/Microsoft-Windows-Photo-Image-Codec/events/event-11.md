@@ -1,4 +1,5 @@
 # Event 11 - WMPHOTO_Decoder_FrameParamsTransform_Info
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 4242 - SessionStart
+###### Version: 0
 
 ## Description
 None

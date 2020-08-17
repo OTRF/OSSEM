@@ -1,4 +1,5 @@
 # Event 314 - WindowsMediaCaptureDeviceThermalstatuschangedeventtaskcompleted
+###### Version: 0
 
 ## Description
 None

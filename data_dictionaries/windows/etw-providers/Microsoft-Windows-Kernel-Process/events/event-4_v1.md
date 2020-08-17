@@ -1,4 +1,5 @@
 # Event 4 - ThreadStop
+###### Version: 1
 
 ## Description
 None
@@ -23,4 +24,3 @@ None
 * etw_keywords_WINEVENT_KEYWORD_THREAD
 * etw_opcode_Stop
 * etw_task_ThreadStop
-* version_1

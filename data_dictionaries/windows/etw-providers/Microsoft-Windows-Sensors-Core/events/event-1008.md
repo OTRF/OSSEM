@@ -1,4 +1,5 @@
 # Event 1008 - SensorsCxInitializationTask
+###### Version: 0
 
 ## Description
 None

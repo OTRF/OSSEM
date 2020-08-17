@@ -1,4 +1,5 @@
 # Event 594 - Browseui_BringBrowserTabAlternateOwnerForward_Hung
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 41 - ExplorerStateChange
+###### Version: 0
 
 ## Description
 None

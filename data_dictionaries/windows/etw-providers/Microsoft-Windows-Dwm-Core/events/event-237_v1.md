@@ -1,4 +1,5 @@
 # Event 237 - TELEMETRY_ANIMATION_PERFORMANCE_ANALYSIS_EVENT
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_level_Informational
 * etw_keywords_DwmCore LowOverheadSmoothnessTracking
 * etw_task_TELEMETRY_ANIMATION_PERFORMANCE_ANALYSIS_EVENT
-* version_1

@@ -1,4 +1,5 @@
 # Event 130 - USBDeviceIdleNotification
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 141 - ImmersiveShellAppManagerModeChanged
+###### Version: 0
 
 ## Description
 None

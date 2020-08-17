@@ -1,4 +1,5 @@
 # Event 23 - SavePersistedLogger
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Error
 * etw_keywords_ETW_KEYWORD_SOFT_RESTART
 * etw_task_SavePersistedLogger
-* version_1

@@ -1,4 +1,5 @@
 # Event 542 - PowerAggregatorInvalidRequestIndex
+###### Version: 0
 
 ## Description
 None

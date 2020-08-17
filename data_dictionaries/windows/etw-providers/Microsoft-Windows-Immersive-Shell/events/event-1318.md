@@ -1,4 +1,5 @@
 # Event 1318 - SwitchToAppByIdWithArguments
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 9529 - Explorer_StartMenu_RecentItems_Launch
+###### Version: 0
 
 ## Description
 None

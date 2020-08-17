@@ -1,4 +1,5 @@
 # Event 1022 - WinNatMInstanceDeletion
+###### Version: 0
 
 ## Description
 None

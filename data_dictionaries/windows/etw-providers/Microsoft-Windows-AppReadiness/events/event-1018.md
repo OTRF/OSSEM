@@ -1,4 +1,5 @@
 # Event 1018 - AppReadiness_Api_EnterLogonPhase
+###### Version: 0
 
 ## Description
 None

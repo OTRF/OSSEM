@@ -1,4 +1,5 @@
 # Event 14 - BatteryChargingWatchdogUpdated
+###### Version: 0
 
 ## Description
 None

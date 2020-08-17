@@ -1,4 +1,5 @@
 # Event 1036 - WinNatMGeneralError
+###### Version: 0
 
 ## Description
 None

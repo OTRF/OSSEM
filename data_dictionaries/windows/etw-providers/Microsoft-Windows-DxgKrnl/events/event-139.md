@@ -1,4 +1,5 @@
 # Event 139 - DdiStartDevice
+###### Version: 0
 
 ## Description
 None

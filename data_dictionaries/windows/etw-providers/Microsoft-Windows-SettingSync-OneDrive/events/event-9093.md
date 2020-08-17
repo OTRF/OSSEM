@@ -1,4 +1,5 @@
 # Event 9093 - Perf_WLRoamCheckIfBackupIsDisabled
+###### Version: 0
 
 ## Description
 None

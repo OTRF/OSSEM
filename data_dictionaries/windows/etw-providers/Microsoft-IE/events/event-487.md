@@ -1,4 +1,5 @@
 # Event 487 - Mshtml_CDoc_OnMouseMessage
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 494 - Mshtml_Animations_Transitioning
+###### Version: 2
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_animation
 * etw_opcode_Stop
 * etw_task_Mshtml_Animations_Transitioning
-* version_2

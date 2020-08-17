@@ -1,4 +1,5 @@
 # Event ID 5141: A directory service object was deleted
+###### Version: 0
 
 ## Description
 This event generates every time an Active Directory object is deleted.

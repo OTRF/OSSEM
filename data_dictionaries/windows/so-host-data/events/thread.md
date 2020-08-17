@@ -1,4 +1,5 @@
 # SO Host Data - Thread Table
+###### Version: 0
 
 ## Description
 Get-SOHostData enumerates active threads as reported by PowerShell's Get-Process cmdlet. Every resulting Process instance has a Threads property which contains a list of Threads contained within that Process.

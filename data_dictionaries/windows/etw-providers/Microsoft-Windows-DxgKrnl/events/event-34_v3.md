@@ -1,4 +1,5 @@
 # Event 34 - AdapterAllocation
+###### Version: 3
 
 ## Description
 None
@@ -41,4 +42,3 @@ None
 * etw_keywords_Resource
 * etw_opcode_Stop
 * etw_task_AdapterAllocation
-* version_3

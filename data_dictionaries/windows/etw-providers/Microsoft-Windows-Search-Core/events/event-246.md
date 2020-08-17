@@ -1,4 +1,5 @@
 # Event 246 - CSearchRoot_put_AuthenticationType
+###### Version: 0
 
 ## Description
 None

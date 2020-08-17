@@ -1,4 +1,5 @@
 # Event 1304 - SensorAPIcalltogetsensordatareport
+###### Version: 0
 
 ## Description
 None

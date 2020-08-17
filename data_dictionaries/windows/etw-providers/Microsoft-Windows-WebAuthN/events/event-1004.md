@@ -1,4 +1,5 @@
 # Event 1004 - WebAuthNCtapGetAssertion
+###### Version: 0
 
 ## Description
 None

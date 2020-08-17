@@ -1,4 +1,5 @@
 # Event 7256 - ConnectedSearch_LogScrollPayload
+###### Version: 0
 
 ## Description
 None

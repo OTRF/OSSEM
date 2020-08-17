@@ -1,4 +1,5 @@
 # Event 11 - Smb2RequestRead
+###### Version: 2
 
 ## Description
 None
@@ -31,4 +32,3 @@ None
 * etw_level_Informational
 * etw_keywords_Request
 * etw_task_Smb2RequestRead
-* version_2

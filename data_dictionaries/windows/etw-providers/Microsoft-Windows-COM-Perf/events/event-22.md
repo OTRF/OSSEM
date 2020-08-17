@@ -1,4 +1,5 @@
 # Event 22 - ExtensionCatalog_CustomPropertyLookup
+###### Version: 0
 
 ## Description
 None

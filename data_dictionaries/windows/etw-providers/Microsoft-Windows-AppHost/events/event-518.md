@@ -1,4 +1,5 @@
 # Event 518 - SuspendingGarbageCollection
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 16 - ApiRegisterThumbnail
+###### Version: 0
 
 ## Description
 None

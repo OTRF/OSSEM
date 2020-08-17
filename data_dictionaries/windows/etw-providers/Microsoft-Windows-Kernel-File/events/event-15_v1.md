@@ -1,4 +1,5 @@
 # Event 15 - Read
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_level_Informational
 * etw_keywords_KERNEL_FILE_KEYWORD_FILEIO KERNEL_FILE_KEYWORD_READ
 * etw_task_Read
-* version_1

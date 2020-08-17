@@ -1,4 +1,5 @@
 # Event 9568 - Explorer_StartMenu_Pinned_Items_Rearranged
+###### Version: 0
 
 ## Description
 None

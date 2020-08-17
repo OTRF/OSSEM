@@ -1,4 +1,5 @@
 # Event 253 - MFCaptureEngineStartCapturePhotoSequenceTask
+###### Version: 0
 
 ## Description
 None

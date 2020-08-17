@@ -1,4 +1,5 @@
 # Event 20 - MFPlay
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Verbose
 * etw_opcode_Start
 * etw_task_MFPlay
-* version_1

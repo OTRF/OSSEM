@@ -1,4 +1,5 @@
 # Event 1 - GC
+###### Version: 2
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_keywords_GCKeyword
 * etw_opcode_Start
 * etw_task_GC
-* version_2

@@ -1,4 +1,5 @@
 # Event 650 - Smb2FileOpen
+###### Version: 0
 
 ## Description
 None

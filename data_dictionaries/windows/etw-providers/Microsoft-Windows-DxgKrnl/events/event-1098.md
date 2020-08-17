@@ -1,4 +1,5 @@
 # Event 1098 - DdiQueryConnectionChange
+###### Version: 0
 
 ## Description
 None

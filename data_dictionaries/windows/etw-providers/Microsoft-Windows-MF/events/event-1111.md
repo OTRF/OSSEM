@@ -1,4 +1,5 @@
 # Event 1111 - MediaFoundationIMFSampleProtection_InitInputProtection
+###### Version: 0
 
 ## Description
 None

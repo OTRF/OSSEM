@@ -1,4 +1,5 @@
 # Event 65 - SetHardwareProtectionOnSwapChainBuffer
+###### Version: 0
 
 ## Description
 None

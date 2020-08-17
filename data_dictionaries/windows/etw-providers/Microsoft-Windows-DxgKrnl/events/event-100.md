@@ -1,4 +1,5 @@
 # Event 100 - WaitForSynchronizationObject
+###### Version: 0
 
 ## Description
 None

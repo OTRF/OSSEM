@@ -1,4 +1,5 @@
 # Event 6002 - PurgeTask
+###### Version: 0
 
 ## Description
 None

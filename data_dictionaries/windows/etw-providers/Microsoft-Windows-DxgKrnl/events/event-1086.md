@@ -1,4 +1,5 @@
 # Event 1086 - OPMConfigureProtectedOutput
+###### Version: 0
 
 ## Description
 None

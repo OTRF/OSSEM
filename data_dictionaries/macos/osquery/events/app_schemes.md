@@ -1,4 +1,5 @@
 # App_schemes Table
+###### Version: 4.4.2
 
 ## Description
 OS X application schemes and handlers (e.g., http, file, mailto).
@@ -12,6 +13,3 @@ OS X application schemes and handlers (e.g., http, file, mailto).
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#app_schemes)
-
-## Tags
-* version_4.4.2

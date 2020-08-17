@@ -1,4 +1,5 @@
 # Event 123 - USBDeviceSetPower
+###### Version: 0
 
 ## Description
 None

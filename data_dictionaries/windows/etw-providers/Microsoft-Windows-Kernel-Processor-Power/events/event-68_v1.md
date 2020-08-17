@@ -1,4 +1,5 @@
 # Event 68 - ProcessorIdRundown
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Informational
 * etw_keywords_Perf Diag PerfDiag
 * etw_task_ProcessorIdRundown
-* version_1

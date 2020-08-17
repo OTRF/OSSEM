@@ -1,4 +1,5 @@
 # Event 1014 - RemoveAllDevices
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 130 - get_customSettingsApplied
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 537 - BM_NotifyNewSession
+###### Version: 0
 
 ## Description
 None

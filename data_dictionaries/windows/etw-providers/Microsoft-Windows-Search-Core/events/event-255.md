@@ -1,4 +1,5 @@
 # Event 255 - CSearchScopeRule_get_IsIncluded
+###### Version: 0
 
 ## Description
 None

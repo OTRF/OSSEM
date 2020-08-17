@@ -1,4 +1,5 @@
 # Event 82 - HTTPAuthenticationTraceTask
+###### Version: 0
 
 ## Description
 None

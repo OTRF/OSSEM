@@ -1,4 +1,5 @@
 # Event 3076 - ValidateSIPolicy
+###### Version: 2
 
 ## Description
 None
@@ -30,4 +31,3 @@ None
 * etw_level_Informational
 * etw_opcode_SiPolicyFailureIgnored
 * etw_task_ValidateSIPolicy
-* version_2

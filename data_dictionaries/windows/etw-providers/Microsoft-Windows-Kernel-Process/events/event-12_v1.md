@@ -1,4 +1,5 @@
 # Event 12 - ProcessFreeze
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_WINEVENT_KEYWORD_PROCESS_FREEZE
 * etw_opcode_Stop
 * etw_task_ProcessFreeze
-* version_1

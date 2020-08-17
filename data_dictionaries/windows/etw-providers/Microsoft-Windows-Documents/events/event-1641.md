@@ -1,4 +1,5 @@
 # Event 1641 - DocPerf_Task_XpsPrint_WriteXPSOMToPrinter
+###### Version: 0
 
 ## Description
 None

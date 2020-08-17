@@ -1,4 +1,5 @@
 # Event 308 - AppXPackaging.Task.PackageReader.CacheFile
+###### Version: 0
 
 ## Description
 None

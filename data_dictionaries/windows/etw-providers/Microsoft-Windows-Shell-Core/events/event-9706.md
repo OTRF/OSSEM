@@ -1,4 +1,5 @@
 # Event 9706 - Explorer_EnumeratingRunKey
+###### Version: 0
 
 ## Description
 None

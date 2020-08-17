@@ -1,4 +1,5 @@
 # Asl Table
+###### Version: 4.4.2
 
 ## Description
 Queries the Apple System Log data structure for system events.
@@ -22,6 +23,3 @@ Queries the Apple System Log data structure for system events.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#asl)
-
-## Tags
-* version_4.4.2

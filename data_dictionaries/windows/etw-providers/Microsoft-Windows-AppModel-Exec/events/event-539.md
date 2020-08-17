@@ -1,4 +1,5 @@
 # Event 539 - BackgroundManagerTrace
+###### Version: 0
 
 ## Description
 None

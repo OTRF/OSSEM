@@ -1,4 +1,5 @@
 # Event 661 - Mshtml_CView_SetViewportMode_VisualHeightExclusion
+###### Version: 0
 
 ## Description
 None

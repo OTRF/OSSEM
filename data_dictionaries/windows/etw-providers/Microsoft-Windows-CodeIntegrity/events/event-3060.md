@@ -1,4 +1,5 @@
 # Event 3060 - GetCatalogHint
+###### Version: 0
 
 ## Description
 None

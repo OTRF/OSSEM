@@ -1,4 +1,5 @@
 # Docker_container_mounts Table
+###### Version: 4.4.2
 
 ## Description
 Docker container mounts.
@@ -18,6 +19,3 @@ Docker container mounts.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_container_mounts)
-
-## Tags
-* version_4.4.2

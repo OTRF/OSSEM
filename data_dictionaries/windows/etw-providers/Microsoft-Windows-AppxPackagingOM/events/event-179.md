@@ -1,4 +1,5 @@
 # Event 179 - Bundlemanifest
+###### Version: 0
 
 ## Description
 None

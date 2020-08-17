@@ -1,4 +1,5 @@
 # Hash Table
+###### Version: 4.4.2
 
 ## Description
 Filesystem hash data.
@@ -15,6 +16,3 @@ Filesystem hash data.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#hash)
-
-## Tags
-* version_4.4.2

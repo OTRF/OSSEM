@@ -1,4 +1,5 @@
 # Event 332 - DxpTaskSync_EnumContentTypes
+###### Version: 0
 
 ## Description
 None

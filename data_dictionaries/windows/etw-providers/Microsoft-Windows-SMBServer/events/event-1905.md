@@ -1,4 +1,5 @@
 # Event 1905 - SrvSessionInvalidate
+###### Version: 0
 
 ## Description
 None

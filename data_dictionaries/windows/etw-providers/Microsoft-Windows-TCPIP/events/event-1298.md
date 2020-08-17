@@ -1,4 +1,5 @@
 # Event 1298 - Ndkpi_Close_Adapter_Enter
+###### Version: 0
 
 ## Description
 None

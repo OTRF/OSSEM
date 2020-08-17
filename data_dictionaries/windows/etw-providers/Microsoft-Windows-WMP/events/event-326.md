@@ -1,4 +1,5 @@
 # Event 326 - RME_CLIENT_ENUMERATE_LIBRARIES_RESPONSE
+###### Version: 0
 
 ## Description
 None

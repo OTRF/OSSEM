@@ -1,4 +1,5 @@
 # Event 435 - Bing_Suggestions_ParseXmlResponse
+###### Version: 0
 
 ## Description
 None

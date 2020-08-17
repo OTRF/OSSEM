@@ -1,4 +1,5 @@
 # Event 5007 - WMC_On_Content_Prov_Removed
+###### Version: 0
 
 ## Description
 None

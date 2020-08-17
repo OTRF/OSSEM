@@ -1,4 +1,5 @@
 # Event 1628 - Launcher_Uninstall_RemovePackage
+###### Version: 0
 
 ## Description
 None

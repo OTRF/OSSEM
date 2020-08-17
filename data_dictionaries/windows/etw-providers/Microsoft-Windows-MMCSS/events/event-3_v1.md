@@ -1,4 +1,5 @@
 # Event 3 - Scheduler_Sleep
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_Scheduler_Sleep
-* version_1

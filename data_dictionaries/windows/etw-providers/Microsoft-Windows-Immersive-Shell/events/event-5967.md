@@ -1,4 +1,5 @@
 # Event 5967 - AppActivation_AppSpinupStep
+###### Version: 0
 
 ## Description
 None

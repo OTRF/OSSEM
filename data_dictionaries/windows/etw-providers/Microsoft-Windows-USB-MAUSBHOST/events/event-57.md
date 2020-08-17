@@ -1,4 +1,5 @@
 # Event 57 - PALManagementChannel
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 4019 - CorporateConnectivityDetection
+###### Version: 0
 
 ## Description
 None

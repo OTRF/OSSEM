@@ -1,4 +1,5 @@
 # Event ID 4694: Protection of auditable protected data was attempted.
+###### Version: 0
 
 ## Description
 This event generates if DPAPI's CryptProtectData() function was used with CRYPTPROTECT_AUDIT flag (dwFlags) enabled."

@@ -1,4 +1,5 @@
 # Event 465 - Mshtml_Composition_Layer_PaintRect
+###### Version: 0
 
 ## Description
 None

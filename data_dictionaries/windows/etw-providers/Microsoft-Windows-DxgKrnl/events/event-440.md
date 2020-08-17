@@ -1,4 +1,5 @@
 # Event 440 - DdiRestoreMemoryForHotUpdate
+###### Version: 0
 
 ## Description
 None

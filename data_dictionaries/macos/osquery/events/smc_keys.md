@@ -1,4 +1,5 @@
 # Smc_keys Table
+###### Version: 4.4.2
 
 ## Description
 Apple's system management controller keys.
@@ -14,6 +15,3 @@ Apple's system management controller keys.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#smc_keys)
-
-## Tags
-* version_4.4.2

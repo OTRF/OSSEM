@@ -1,4 +1,5 @@
 # Event 2227 - SharingTargetAppList_QueryTargets
+###### Version: 0
 
 ## Description
 None

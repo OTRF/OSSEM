@@ -1,4 +1,5 @@
 # Event 5603 - FederationMessageCreation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 9545 - Explorer_StartMenu_MFU_Launch
+###### Version: 0
 
 ## Description
 None

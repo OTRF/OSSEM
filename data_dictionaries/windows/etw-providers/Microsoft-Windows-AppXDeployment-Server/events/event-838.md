@@ -1,4 +1,5 @@
 # Event 838 - AppXDeployment.Task.Server.AppxAllUserStore
+###### Version: 0
 
 ## Description
 None

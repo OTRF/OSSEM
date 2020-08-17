@@ -1,4 +1,5 @@
 # Event 6026 - DocPerf_Task_Scan_FileShare_Filter
+###### Version: 0
 
 ## Description
 None

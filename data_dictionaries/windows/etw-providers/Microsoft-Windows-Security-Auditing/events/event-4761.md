@@ -1,4 +1,5 @@
 # Event ID 4761: A member was added to a security-disabled universal group
+###### Version: 0
 
 ## Description
 Event 4761 is the same as 4751, except it is generated for a universal distribution group instead of a global distribution group. All event fields, XML, and recommendations are the same. The type of group is the only difference.

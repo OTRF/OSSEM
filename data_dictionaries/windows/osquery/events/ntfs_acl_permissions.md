@@ -1,4 +1,5 @@
 # Ntfs_acl_permissions Table
+###### Version: 4.4.2
 
 ## Description
 Retrieve NTFS ACL permission information for files and directories.
@@ -14,6 +15,3 @@ Retrieve NTFS ACL permission information for files and directories.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#ntfs_acl_permissions)
-
-## Tags
-* version_4.4.2

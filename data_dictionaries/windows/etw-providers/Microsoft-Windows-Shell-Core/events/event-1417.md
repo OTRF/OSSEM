@@ -1,4 +1,5 @@
 # Event 1417 - OpenSearch_Description_Installed
+###### Version: 0
 
 ## Description
 None

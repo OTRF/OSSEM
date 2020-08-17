@@ -1,4 +1,5 @@
 # Event 1333 - TcpCtcpDataTransferSend
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_level_Verbose
 * etw_keywords_ut:SendPath
 * etw_task_TcpCtcpDataTransferSend
-* version_1

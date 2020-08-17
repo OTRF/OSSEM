@@ -1,4 +1,5 @@
 # Event 82 - Mshtml_CWindow_Script
+###### Version: 0
 
 ## Description
 None

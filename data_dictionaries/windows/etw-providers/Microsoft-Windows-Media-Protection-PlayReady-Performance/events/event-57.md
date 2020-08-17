@@ -1,4 +1,5 @@
 # Event 57 - CBlackboxWithTEEGetCertificate
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 8037 - HandleActivity
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 ## Tags
 * etw_opcode_Stop
 * etw_task_HandleActivity
-* version_1

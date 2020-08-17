@@ -1,4 +1,5 @@
 # Event ID 4672: Special privileges assigned to new logon
+###### Version: 0
 
 ## Description
 This event generates for new account logons if any of the following sensitive privileges are assigned to the new logon session:

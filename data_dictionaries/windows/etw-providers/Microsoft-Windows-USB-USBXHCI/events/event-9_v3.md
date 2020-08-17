@@ -1,4 +1,5 @@
 # Event 9 - USBXHCIDeviceUpdate
+###### Version: 3
 
 ## Description
 None
@@ -36,4 +37,3 @@ None
 * etw_keywords_Default
 * etw_opcode_Information
 * etw_task_USBXHCIDeviceUpdate
-* version_3

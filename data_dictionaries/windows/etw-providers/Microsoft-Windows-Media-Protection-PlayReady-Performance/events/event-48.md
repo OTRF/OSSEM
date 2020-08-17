@@ -1,4 +1,5 @@
 # Event 48 - CBlackboxWithTEESecureCoreReInit
+###### Version: 0
 
 ## Description
 None

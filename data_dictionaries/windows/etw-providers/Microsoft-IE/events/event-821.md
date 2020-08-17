@@ -1,4 +1,5 @@
 # Event 821 - WebPlatStorageServer_RPC_Method
+###### Version: 0
 
 ## Description
 None

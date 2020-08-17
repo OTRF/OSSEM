@@ -1,4 +1,5 @@
 # Event 550 - Dom_HideColorPicker
+###### Version: 0
 
 ## Description
 None

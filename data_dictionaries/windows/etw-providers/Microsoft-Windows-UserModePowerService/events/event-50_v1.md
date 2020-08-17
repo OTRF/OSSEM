@@ -1,4 +1,5 @@
 # Event 50 - RundownActualOverlayPowerScheme
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_RundownActualOverlayPowerScheme
-* version_1

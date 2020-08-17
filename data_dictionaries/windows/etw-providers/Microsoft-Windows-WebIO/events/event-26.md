@@ -1,4 +1,5 @@
 # Event 26 - RequestConfiguration
+###### Version: 0
 
 ## Description
 None

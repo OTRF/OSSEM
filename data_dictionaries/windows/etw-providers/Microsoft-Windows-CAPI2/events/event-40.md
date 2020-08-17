@@ -1,4 +1,5 @@
 # Event 40 - VerifyRevocation
+###### Version: 0
 
 ## Description
 None

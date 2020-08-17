@@ -1,4 +1,5 @@
 # Event 71 - DismGetCurrentEdition
+###### Version: 0
 
 ## Description
 None

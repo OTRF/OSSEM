@@ -1,4 +1,5 @@
 # ingress.event.emetmitigation (EMET Mitigation)
+###### Version: 0
 
 ## Description
 Microsoft EMET has killed a process on an endpoint monitored by Carbon Black.

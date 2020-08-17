@@ -1,4 +1,5 @@
 # Event 199 - Dxgk_Diag_OutputDupl_Get_Frame_Data
+###### Version: 0
 
 ## Description
 None

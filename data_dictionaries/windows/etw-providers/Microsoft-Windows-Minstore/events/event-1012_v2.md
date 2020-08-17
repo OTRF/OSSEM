@@ -1,4 +1,5 @@
 # Event 1012 - LogRedo
+###### Version: 2
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Informational
 * etw_opcode_LogRedo
 * etw_task_LogRedo
-* version_2

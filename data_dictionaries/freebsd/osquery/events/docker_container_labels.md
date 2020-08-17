@@ -1,4 +1,5 @@
 # Docker_container_labels Table
+###### Version: 4.4.2
 
 ## Description
 Docker container labels.
@@ -12,6 +13,3 @@ Docker container labels.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_container_labels)
-
-## Tags
-* version_4.4.2

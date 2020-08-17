@@ -1,4 +1,5 @@
 # Event 43 - Mshtml_CHtmPre_ScriptStart
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 252 - MFCaptureEnginePhotoSinkPrepareTask
+###### Version: 0
 
 ## Description
 None

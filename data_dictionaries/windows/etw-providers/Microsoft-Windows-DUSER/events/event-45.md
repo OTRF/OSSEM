@@ -1,4 +1,5 @@
 # Event 45 - DUser_GetCurve
+###### Version: 0
 
 ## Description
 None

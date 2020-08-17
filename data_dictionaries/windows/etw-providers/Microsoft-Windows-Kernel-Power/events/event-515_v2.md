@@ -1,4 +1,5 @@
 # Event 515 - SpmScenarioStart
+###### Version: 2
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:SleepStudy
 * etw_task_SpmScenarioStart
-* version_2

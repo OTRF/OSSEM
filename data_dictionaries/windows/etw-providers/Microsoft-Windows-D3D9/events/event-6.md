@@ -1,4 +1,5 @@
 # Event 6 - DWMRedirection
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 251 - DeviceConfig
+###### Version: 0
 
 ## Description
 None

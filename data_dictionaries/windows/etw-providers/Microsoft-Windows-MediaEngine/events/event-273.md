@@ -1,4 +1,5 @@
 # Event 273 - WindowResizeOptimization
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 2016 - Removinglanguagepack
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 7204 - ConnectedSearch_SetActiveImpression
+###### Version: 0
 
 ## Description
 None

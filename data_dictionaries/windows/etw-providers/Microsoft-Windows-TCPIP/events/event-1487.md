@@ -1,4 +1,5 @@
 # Event 1487 - IpSessionFailure
+###### Version: 0
 
 ## Description
 None

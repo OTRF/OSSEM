@@ -1,4 +1,5 @@
 # Event 1062 - Wininet_AppCacheLookup
+###### Version: 0
 
 ## Description
 None

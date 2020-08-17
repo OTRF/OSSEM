@@ -1,4 +1,5 @@
 # Event 28 - HrSendHttpAsyncLicenseAcqAck
+###### Version: 0
 
 ## Description
 None

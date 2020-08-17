@@ -1,4 +1,5 @@
 # Event 9009 - PowershellProcess
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Error
 * etw_keywords_ClientManagement
 * etw_task_PowershellProcess
-* version_1

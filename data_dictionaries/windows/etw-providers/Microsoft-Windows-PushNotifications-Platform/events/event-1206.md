@@ -1,4 +1,5 @@
 # Event 1206 - PlatformShutdown
+###### Version: 0
 
 ## Description
 None

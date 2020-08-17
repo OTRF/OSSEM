@@ -1,4 +1,5 @@
 # Event 78 - Mshtml_CImgTask_ReadYield
+###### Version: 0
 
 ## Description
 None

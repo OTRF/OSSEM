@@ -1,4 +1,5 @@
 # Event 16 - RegionWrite
+###### Version: 2
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Informational
 * etw_keywords_StoreOps
 * etw_task_RegionWrite
-* version_2

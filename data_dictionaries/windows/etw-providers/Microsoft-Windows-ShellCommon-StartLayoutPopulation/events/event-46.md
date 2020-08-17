@@ -1,4 +1,5 @@
 # Event 46 - DefaultLayoutManager_WriteStartLayoutToStorage
+###### Version: 0
 
 ## Description
 None

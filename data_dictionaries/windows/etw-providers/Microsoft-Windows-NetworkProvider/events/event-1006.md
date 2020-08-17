@@ -1,4 +1,5 @@
 # Event 1006 - UNCHardeningConfiguration
+###### Version: 0
 
 ## Description
 None

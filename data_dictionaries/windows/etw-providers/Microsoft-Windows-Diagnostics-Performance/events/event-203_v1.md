@@ -1,4 +1,5 @@
 # Event 203 - ShutdownPerformanceMonitoring
+###### Version: 1
 
 ## Description
 None
@@ -27,4 +28,3 @@ None
 * etw_keywords_EventLog
 * etw_opcode_ShutdownDegradation
 * etw_task_ShutdownPerformanceMonitoring
-* version_1

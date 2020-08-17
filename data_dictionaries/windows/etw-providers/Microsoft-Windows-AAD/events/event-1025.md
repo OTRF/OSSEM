@@ -1,4 +1,5 @@
 # Event 1025 - AadCloudAPPluginOperation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1028 - WinNatMStaticMappingRemoval
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 408 - Browseui_HangUI_DisparentAndDetachBrowserTab
+###### Version: 0
 
 ## Description
 None

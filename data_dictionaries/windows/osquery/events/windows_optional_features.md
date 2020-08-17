@@ -1,4 +1,5 @@
 # Windows_optional_features Table
+###### Version: 4.4.2
 
 ## Description
 Lists names and installation states of windows features. Maps to Win32_OptionalFeature WMI class.
@@ -13,6 +14,3 @@ Lists names and installation states of windows features. Maps to Win32_OptionalF
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#windows_optional_features)
-
-## Tags
-* version_4.4.2

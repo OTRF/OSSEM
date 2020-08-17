@@ -1,4 +1,5 @@
 # Event 6109 - DeviceAdded
+###### Version: 0
 
 ## Description
 None

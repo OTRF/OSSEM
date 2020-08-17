@@ -1,4 +1,5 @@
 # Event 6112 - RMEClientEnumLibQuery
+###### Version: 0
 
 ## Description
 None

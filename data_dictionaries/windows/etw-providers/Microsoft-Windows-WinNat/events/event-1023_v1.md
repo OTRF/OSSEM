@@ -1,4 +1,5 @@
 # Event 1023 - WinNatMInstanceRundown
+###### Version: 1
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:Configuration
 * etw_task_WinNatMInstanceRundown
-* version_1

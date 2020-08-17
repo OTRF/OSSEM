@@ -1,4 +1,5 @@
 # Event 4813 - DiscoveryMessage
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 2270 - CtapBleFunction
+###### Version: 0
 
 ## Description
 None

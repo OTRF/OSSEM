@@ -1,4 +1,5 @@
 # Event 96 - ETWGUID_MAGNIFIERRENDERTARGET_CAPTUREBITS
+###### Version: 0
 
 ## Description
 None

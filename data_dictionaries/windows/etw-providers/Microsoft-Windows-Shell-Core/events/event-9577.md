@@ -1,4 +1,5 @@
 # Event 9577 - Explorer_StartPane_AllPrograms_Count
+###### Version: 0
 
 ## Description
 None

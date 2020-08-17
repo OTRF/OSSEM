@@ -1,4 +1,5 @@
 # Event 9635 - Explorer_PowerBroadcastMessage
+###### Version: 0
 
 ## Description
 None

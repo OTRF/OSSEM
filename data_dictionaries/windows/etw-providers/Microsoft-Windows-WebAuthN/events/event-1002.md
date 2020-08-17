@@ -1,4 +1,5 @@
 # Event 1002 - WebAuthNCtapMakeCredential
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 3069 - PerfTrack:AudioCaptureFirstSampleReceived
+###### Version: 0
 
 ## Description
 None

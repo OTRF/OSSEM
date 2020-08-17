@@ -1,4 +1,5 @@
 # Msr Table
+###### Version: 4.4.2
 
 ## Description
 Various pieces of data stored in the model specific register per 
@@ -15,6 +16,3 @@ Various pieces of data stored in the model specific register per
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#msr)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Carbon_black_info Table
+###### Version: 4.4.2
 
 ## Description
 Returns info about a Carbon Black sensor install.
@@ -30,6 +31,3 @@ Returns info about a Carbon Black sensor install.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#carbon_black_info)
-
-## Tags
-* version_4.4.2

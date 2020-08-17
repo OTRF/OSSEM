@@ -1,4 +1,5 @@
 # Event 7701 - ImmersiveApplicationManagerForegroundBoost
+###### Version: 0
 
 ## Description
 None

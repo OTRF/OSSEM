@@ -1,4 +1,5 @@
 # Event 1044 - FunDisc_ProviderPublishingRemoveInstance
+###### Version: 0
 
 ## Description
 None

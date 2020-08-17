@@ -1,4 +1,5 @@
 # Event 290 - DISPLAYSURFACE_REJECTCANDIDATE
+###### Version: 0
 
 ## Description
 None

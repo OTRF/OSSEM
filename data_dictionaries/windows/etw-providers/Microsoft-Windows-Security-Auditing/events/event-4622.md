@@ -1,4 +1,5 @@
 # Event ID 4622: A security package has been loaded by the Local Security Authority.
+###### Version: 0
 
 ## Description
 This event generates every time Security Package has been loaded by the Local Security Authority (LSA).

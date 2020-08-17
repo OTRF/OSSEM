@@ -1,4 +1,5 @@
 # Event 711 - Browseui_Tabs_Tearoff_NewWindow_TabProc
+###### Version: 0
 
 ## Description
 None

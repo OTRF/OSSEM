@@ -1,4 +1,5 @@
 # Event 137 - SCHEDULE_NEW_EFFECTIVE_REFRESH_PERIOD_DELTAS
+###### Version: 0
 
 ## Description
 None

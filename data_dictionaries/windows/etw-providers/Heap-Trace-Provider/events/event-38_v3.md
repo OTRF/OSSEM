@@ -1,4 +1,5 @@
 # Event 38
+###### Version: 3
 
 ## Description
 None
@@ -16,6 +17,3 @@ None
 |TBD|FreeListLength|UInt32|None|`None`|
 |TBD|UCRLength|UInt32|None|`None`|
 |TBD|AllocatedSpace|Object|None|`None`|
-
-## Tags
-* version_3

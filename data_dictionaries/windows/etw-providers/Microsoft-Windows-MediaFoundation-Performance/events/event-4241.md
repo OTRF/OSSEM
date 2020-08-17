@@ -1,4 +1,5 @@
 # Event 4241 - SessionSetTopology
+###### Version: 0
 
 ## Description
 None

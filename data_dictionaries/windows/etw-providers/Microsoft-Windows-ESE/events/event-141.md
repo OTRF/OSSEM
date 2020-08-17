@@ -1,4 +1,5 @@
 # Event 141 - ESE_CacheResize_Trace
+###### Version: 0
 
 ## Description
 None

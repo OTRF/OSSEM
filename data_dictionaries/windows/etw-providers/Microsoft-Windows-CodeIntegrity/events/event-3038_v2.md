@@ -1,4 +1,5 @@
 # Event 3038 - ValidateImageHeader
+###### Version: 2
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Verbose
 * etw_opcode_Start
 * etw_task_ValidateImageHeader
-* version_2

@@ -1,4 +1,5 @@
 # Event 1821 - IDXGIResource_CreateSharedHandle
+###### Version: 0
 
 ## Description
 None

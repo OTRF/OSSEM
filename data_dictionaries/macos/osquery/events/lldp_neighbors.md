@@ -1,4 +1,5 @@
 # Lldp_neighbors Table
+###### Version: 4.4.2
 
 ## Description
 LLDP neighbors of interfaces.
@@ -78,6 +79,3 @@ LLDP neighbors of interfaces.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#lldp_neighbors)
-
-## Tags
-* version_4.4.2

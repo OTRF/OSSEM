@@ -1,4 +1,5 @@
 # Event 3 - ParentDevNode
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_keywords_SleepStudy
 * etw_task_ParentDevNode
-* version_1

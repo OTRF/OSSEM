@@ -1,4 +1,5 @@
 # Event 1172 - Wininet_CacheServerEntryEnum
+###### Version: 0
 
 ## Description
 None

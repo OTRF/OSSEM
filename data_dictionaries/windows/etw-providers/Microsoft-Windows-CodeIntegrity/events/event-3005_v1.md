@@ -1,4 +1,5 @@
 # Event 3005 - CreateSection
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Warning
 * etw_opcode_FileHashNotFound_DbgAttached
 * etw_task_CreateSection
-* version_1

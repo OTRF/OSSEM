@@ -1,4 +1,5 @@
 # Event 308 - DevicePowerState
+###### Version: 0
 
 ## Description
 None

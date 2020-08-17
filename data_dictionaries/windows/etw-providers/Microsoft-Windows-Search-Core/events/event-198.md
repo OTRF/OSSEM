@@ -1,4 +1,5 @@
 # Event 198 - CEnumSearchScopeRules_Next
+###### Version: 0
 
 ## Description
 None

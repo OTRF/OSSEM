@@ -1,4 +1,5 @@
 # Event 2006 - VisibilityInputType
+###### Version: 0
 
 ## Description
 None

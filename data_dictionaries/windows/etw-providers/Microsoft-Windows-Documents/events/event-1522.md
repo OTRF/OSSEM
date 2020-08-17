@@ -1,4 +1,5 @@
 # Event 1522 - DocPerf_Task_Wia_CmdLine_Event_Handler
+###### Version: 0
 
 ## Description
 None

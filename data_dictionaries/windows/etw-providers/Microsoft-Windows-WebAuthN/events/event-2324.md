@@ -1,4 +1,5 @@
 # Event 2324 - CtapNfcSendRequest
+###### Version: 0
 
 ## Description
 None

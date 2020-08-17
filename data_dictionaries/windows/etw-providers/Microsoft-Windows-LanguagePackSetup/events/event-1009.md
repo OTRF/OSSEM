@@ -1,4 +1,5 @@
 # Event 1009 - LanguagePackSetupWorkerClassfunctionality
+###### Version: 0
 
 ## Description
 None

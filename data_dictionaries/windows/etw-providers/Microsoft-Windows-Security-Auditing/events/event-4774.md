@@ -1,4 +1,5 @@
 # Event ID 4774: An account was mapped for logon
+###### Version: 0
 
 ## Description
 Not available

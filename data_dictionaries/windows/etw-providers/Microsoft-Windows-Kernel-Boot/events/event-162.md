@@ -1,4 +1,5 @@
 # Event 162 - GetSystemBootDevice
+###### Version: 0
 
 ## Description
 None

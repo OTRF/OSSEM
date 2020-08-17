@@ -1,4 +1,5 @@
 # Event 32 - SmartUserPresenceSuspendResume
+###### Version: 0
 
 ## Description
 None

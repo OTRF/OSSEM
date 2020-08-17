@@ -1,4 +1,5 @@
 # Event 9 - GC
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_GCKeyword
 * etw_opcode_SuspendEEStart
 * etw_task_GC
-* version_1

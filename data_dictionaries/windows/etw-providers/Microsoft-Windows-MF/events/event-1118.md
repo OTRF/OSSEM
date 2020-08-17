@@ -1,4 +1,5 @@
 # Event 1118 - MediaFoundationPolicyEvent
+###### Version: 0
 
 ## Description
 None

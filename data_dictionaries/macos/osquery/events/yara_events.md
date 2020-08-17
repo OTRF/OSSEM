@@ -1,4 +1,5 @@
 # Yara_events Table
+###### Version: 4.4.2
 
 ## Description
 Track YARA matches for files specified in configuration data.
@@ -19,6 +20,3 @@ Track YARA matches for files specified in configuration data.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#yara_events)
-
-## Tags
-* version_4.4.2

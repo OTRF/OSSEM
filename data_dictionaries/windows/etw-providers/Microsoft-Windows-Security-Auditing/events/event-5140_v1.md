@@ -1,4 +1,5 @@
 # Event ID 5140: A network share object was accessed
+###### Version: 1
 
 ## Description
 This event generates every time network share object was accessed.
@@ -26,6 +27,5 @@ This event generates every time network share object was accessed.
 ## Tags
 * etw_level_Informational
 * etw_task_task_0
-* version_1
 * Object Access
 * Audit File Share

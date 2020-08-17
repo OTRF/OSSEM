@@ -1,4 +1,5 @@
 # Event 107 - PpmProfileClientDeregistration
+###### Version: 0
 
 ## Description
 None

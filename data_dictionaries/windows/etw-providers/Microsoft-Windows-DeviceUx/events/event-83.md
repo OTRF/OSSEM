@@ -1,4 +1,5 @@
 # Event 83 - DeviceCenter_EndQuery
+###### Version: 0
 
 ## Description
 None

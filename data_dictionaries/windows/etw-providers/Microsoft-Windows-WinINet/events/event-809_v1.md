@@ -1,4 +1,5 @@
 # Event 809 - WININET_AUTOPROXY_DOWNLOAD
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_WININET_KEYWORD_AUTOPROXY
 * etw_opcode_Start
 * etw_task_WININET_AUTOPROXY_DOWNLOAD
-* version_1

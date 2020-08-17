@@ -1,4 +1,5 @@
 # Event 6106 - Debug_PackageActivityMonitor_BeginQuiescentPeriod
+###### Version: 0
 
 ## Description
 None

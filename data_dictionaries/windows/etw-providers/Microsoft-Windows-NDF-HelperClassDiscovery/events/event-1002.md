@@ -1,4 +1,5 @@
 # Event 1002 - LoadHelperClass
+###### Version: 0
 
 ## Description
 None

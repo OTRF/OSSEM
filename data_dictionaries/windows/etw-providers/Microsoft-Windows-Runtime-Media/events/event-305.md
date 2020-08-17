@@ -1,4 +1,5 @@
 # Event 305 - WinRTTranscode_Stage3_Task
+###### Version: 0
 
 ## Description
 None

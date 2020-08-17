@@ -1,4 +1,5 @@
 # Event 32
+###### Version: 3
 
 ## Description
 None
@@ -11,6 +12,3 @@ None
 |TBD|ReservedSpace|Object|None|`None`|
 |TBD|CommittedSpace|Object|None|`None`|
 |TBD|AllocatedSpace|Object|None|`None`|
-
-## Tags
-* version_3

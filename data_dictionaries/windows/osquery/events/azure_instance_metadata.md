@@ -1,4 +1,5 @@
 # Azure_instance_metadata Table
+###### Version: 4.4.2
 
 ## Description
 Azure instance metadata.
@@ -25,6 +26,3 @@ Azure instance metadata.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#azure_instance_metadata)
-
-## Tags
-* version_4.4.2

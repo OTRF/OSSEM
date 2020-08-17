@@ -1,4 +1,5 @@
 # Event 174 - RobotThread_IsIteratorByStartAddress
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Informational
 * etw_keywords_IndexingItem Gatherer
 * etw_task_RobotThread_IsIteratorByStartAddress
-* version_1

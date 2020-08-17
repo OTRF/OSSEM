@@ -1,4 +1,5 @@
 # Event ID 4964: Special groups have been assigned to a new logon
+###### Version: 0
 
 ## Description
 This event occurs when an account that is a member of any defined Special Group logs in.

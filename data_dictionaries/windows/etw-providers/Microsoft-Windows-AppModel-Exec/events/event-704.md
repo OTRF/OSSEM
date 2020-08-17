@@ -1,4 +1,5 @@
 # Event 704 - BAM_AccessStateChanged
+###### Version: 0
 
 ## Description
 None

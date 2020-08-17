@@ -1,4 +1,5 @@
 # Event 3504 - LogTrace
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 563 - Browseui_TabWindow_SetVisible
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 145 - Method
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_LoaderRundownKeyword JitRundownKeyword NGenRundownKeyword JittedMethodILToNativeMapRundownKeyword
 * etw_opcode_DCStartComplete
 * etw_task_Method
-* version_1

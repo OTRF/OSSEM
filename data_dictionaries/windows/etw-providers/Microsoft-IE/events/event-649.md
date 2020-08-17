@@ -1,4 +1,5 @@
 # Event 649 - Mshtml_Generic_Diagnosis
+###### Version: 0
 
 ## Description
 None

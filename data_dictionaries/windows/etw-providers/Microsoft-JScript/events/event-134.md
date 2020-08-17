@@ -1,4 +1,5 @@
 # Event 134 - Jscript_GC_ProcessClientTrackedObject
+###### Version: 0
 
 ## Description
 None

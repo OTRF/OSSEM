@@ -1,4 +1,5 @@
 # Event 81 - DirectUI_ModernProgressBarSize
+###### Version: 0
 
 ## Description
 None

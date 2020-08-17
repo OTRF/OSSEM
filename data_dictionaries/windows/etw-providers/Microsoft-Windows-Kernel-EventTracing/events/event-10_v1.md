@@ -1,4 +1,5 @@
 # Event 10 - Session
+###### Version: 1
 
 ## Description
 None
@@ -22,4 +23,3 @@ None
 * etw_keywords_ETW_KEYWORD_SESSION
 * etw_opcode_Start
 * etw_task_Session
-* version_1

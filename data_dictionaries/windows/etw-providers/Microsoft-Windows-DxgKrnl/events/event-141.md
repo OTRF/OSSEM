@@ -1,4 +1,5 @@
 # Event 141 - DdiStopDevice
+###### Version: 0
 
 ## Description
 None

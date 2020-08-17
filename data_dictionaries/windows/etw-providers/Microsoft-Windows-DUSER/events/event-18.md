@@ -1,4 +1,5 @@
 # Event 18 - DUser_RemoveAndDestroyDCVisual
+###### Version: 0
 
 ## Description
 None

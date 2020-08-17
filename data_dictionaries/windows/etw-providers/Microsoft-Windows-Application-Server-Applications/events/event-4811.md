@@ -1,4 +1,5 @@
 # Event 4811 - DiscoveryMessage
+###### Version: 0
 
 ## Description
 None

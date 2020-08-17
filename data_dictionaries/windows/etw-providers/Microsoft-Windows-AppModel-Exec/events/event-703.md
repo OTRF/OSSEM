@@ -1,4 +1,5 @@
 # Event 703 - BAM_RemoveApplication
+###### Version: 0
 
 ## Description
 None

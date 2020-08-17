@@ -1,4 +1,5 @@
 # Event 124 - Tasktriggeredbylockingtheworkstation
+###### Version: 0
 
 ## Description
 None

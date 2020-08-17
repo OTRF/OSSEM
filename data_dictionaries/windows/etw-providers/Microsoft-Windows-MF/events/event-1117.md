@@ -1,4 +1,5 @@
 # Event 1117 - MediaFoundationRequiredSchema
+###### Version: 0
 
 ## Description
 None

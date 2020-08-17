@@ -1,4 +1,5 @@
 # Event 374 - VidMmMakeResident
+###### Version: 0
 
 ## Description
 None

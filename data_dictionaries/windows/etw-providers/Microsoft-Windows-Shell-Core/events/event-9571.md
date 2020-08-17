@@ -1,4 +1,5 @@
 # Event 9571 - Explorer_StartMenu_Pinned_Count
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 633 - SoftKeyboard_OutputManager_CommitKeyPress_UpdatedCharacter
+###### Version: 0
 
 ## Description
 None

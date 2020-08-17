@@ -1,4 +1,5 @@
 # Event 400 - DeviceSetupTask
+###### Version: 0
 
 ## Description
 None

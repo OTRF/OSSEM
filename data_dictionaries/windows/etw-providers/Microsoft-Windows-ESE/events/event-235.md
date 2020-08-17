@@ -1,4 +1,5 @@
 # Event 235 - ESE_tagBufferManagerMaintTasks_Trace
+###### Version: 0
 
 ## Description
 None

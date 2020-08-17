@@ -1,4 +1,5 @@
 # Event 1 - MemInfo
+###### Version: 1
 
 ## Description
 None
@@ -24,4 +25,3 @@ None
 * etw_level_Informational
 * etw_keywords_KERNEL_MEM_KEYWORD_MEMINFO
 * etw_task_MemInfo
-* version_1

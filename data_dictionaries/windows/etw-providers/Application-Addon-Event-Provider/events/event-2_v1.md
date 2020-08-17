@@ -1,4 +1,5 @@
 # Event 2 - DisableAdd_on
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_opcode_Stop
 * etw_task_DisableAdd_on
-* version_1

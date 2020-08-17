@@ -1,4 +1,5 @@
 # Event 128 - GenerateTextEventTextChange
+###### Version: 0
 
 ## Description
 None

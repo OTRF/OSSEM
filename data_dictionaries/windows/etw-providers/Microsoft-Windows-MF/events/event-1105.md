@@ -1,4 +1,5 @@
 # Event 1105 - MediaFoundationIMFInputTrustAuthority_UpdateAccess
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 161 - CsDripsWatchdog
+###### Version: 3
 
 ## Description
 None
@@ -24,4 +25,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:Diagnostic po:DiagnosticLight keyword_400000000000
 * etw_task_CsDripsWatchdog
-* version_3

@@ -1,4 +1,5 @@
 # Event 9648 - Explorer_Startup_Step
+###### Version: 0
 
 ## Description
 None

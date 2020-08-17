@@ -1,4 +1,5 @@
 # Event 514 - Mshtml_Composition_Layer_Candidacy_Failure
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 4214 - SourceResolutionBeginCreateObjectFromByteStream
+###### Version: 0
 
 ## Description
 None

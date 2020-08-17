@@ -1,4 +1,5 @@
 # Event 7170 - ConnectedSearch_LogDetailArrowVisibilityPayload
+###### Version: 0
 
 ## Description
 None

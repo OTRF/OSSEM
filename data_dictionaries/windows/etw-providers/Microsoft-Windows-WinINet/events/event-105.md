@@ -1,4 +1,5 @@
 # Event 105 - WININET_HANDLE_CLOSED
+###### Version: 0
 
 ## Description
 None

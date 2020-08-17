@@ -1,4 +1,5 @@
 # Event 1010 - MediaFoundationHandleMFTEvent
+###### Version: 0
 
 ## Description
 None

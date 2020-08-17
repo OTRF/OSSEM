@@ -1,4 +1,5 @@
 # Event 47 - COM_FreeUnusedLibrary
+###### Version: 0
 
 ## Description
 None

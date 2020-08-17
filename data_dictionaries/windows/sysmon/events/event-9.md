@@ -1,7 +1,8 @@
 # Event ID 9: RawAccessRead
+###### Version: 0
 
 ## Description
-The RawAccessRead event detects when a process conducts reading operations from the drive using the .\ denotation. This technique is often used by malware for data exfiltration of files that are locked for reading, as well as to avoid file access auditing tools. The event indicates the source process and target device.
+The **RawAccessRead** event detects when a process conducts reading operations from the drive using the .\ denotation. This technique is often used by malware for data exfiltration of files that are locked for reading, as well as to avoid file access auditing tools. The event indicates the source process and target device.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

@@ -1,7 +1,8 @@
 # Event ID 2: A process changed a file creation time
+###### Version: 0
 
 ## Description
-The change file creation time event is registered when a file creation time is explicitly modified by a process. This event helps tracking the real creation time of a file. Attackers may change the file creation time of a backdoor to make it look like it was installed with the operating system. Note that many processes legitimately change the creation time of a file; it does not necessarily indicate malicious activity.
+The change **file creation time** event is registered when a file creation time is explicitly modified by a process. This event helps tracking the real creation time of a file. Attackers may change the file creation time of a backdoor to make it look like it was installed with the operating system. Note that many processes legitimately change the creation time of a file; it does not necessarily indicate malicious activity.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

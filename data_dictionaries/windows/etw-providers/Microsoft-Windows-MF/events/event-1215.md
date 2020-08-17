@@ -1,4 +1,5 @@
 # Event 1215 - MediaFoundationNodeInfoSetWorkQueue
+###### Version: 0
 
 ## Description
 None

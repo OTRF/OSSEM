@@ -1,4 +1,5 @@
 # Event 1239 - RssConfigurationChange
+###### Version: 0
 
 ## Description
 None

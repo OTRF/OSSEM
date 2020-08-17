@@ -1,4 +1,5 @@
 # Event 455 - GdiHandleOperation
+###### Version: 0
 
 ## Description
 None

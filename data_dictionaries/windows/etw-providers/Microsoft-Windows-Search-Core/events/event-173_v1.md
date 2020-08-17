@@ -1,4 +1,5 @@
 # Event 173 - RobotThread_IsWildcardTransaction
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Informational
 * etw_keywords_IndexingItem Gatherer
 * etw_task_RobotThread_IsWildcardTransaction
-* version_1

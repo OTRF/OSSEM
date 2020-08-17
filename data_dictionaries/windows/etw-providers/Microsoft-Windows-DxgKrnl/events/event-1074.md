@@ -1,4 +1,5 @@
 # Event 1074 - OutputDuplicationGetFrameInfo
+###### Version: 0
 
 ## Description
 None

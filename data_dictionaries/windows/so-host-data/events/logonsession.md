@@ -1,4 +1,5 @@
 # SO Host Data - Logon Session Table
+###### Version: 0
 
 ## Description
 Get-SOHostData uses the LsaEnumerateLogonSessions and LsaGetLogonSessionData APIs to enumerate active Logon Sessions running on the target system.

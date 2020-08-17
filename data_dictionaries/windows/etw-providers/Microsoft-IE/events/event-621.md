@@ -1,4 +1,5 @@
 # Event 621 - Mshtml_CDoc_OnSuspendDocument
+###### Version: 0
 
 ## Description
 None

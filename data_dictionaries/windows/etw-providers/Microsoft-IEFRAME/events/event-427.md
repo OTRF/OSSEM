@@ -1,4 +1,5 @@
 # Event 427 - Browseui_TabSuspension_Suspend
+###### Version: 0
 
 ## Description
 None

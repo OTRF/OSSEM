@@ -1,4 +1,5 @@
 # Listening_ports Table
+###### Version: 4.4.2
 
 ## Description
 Processes with listening (bound) network sockets/ports.
@@ -18,6 +19,3 @@ Processes with listening (bound) network sockets/ports.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#listening_ports)
-
-## Tags
-* version_4.4.2

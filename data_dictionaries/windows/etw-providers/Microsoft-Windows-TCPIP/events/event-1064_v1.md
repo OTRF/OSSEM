@@ -1,4 +1,5 @@
 # Event 1064 - TcpTcbStartTimer
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_level_Verbose
 * etw_keywords_ut:TcpipTcb ut:Endpoint
 * etw_task_TcpTcbStartTimer
-* version_1

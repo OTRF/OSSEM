@@ -1,4 +1,5 @@
 # Event 21 - Smb2RequestSetInfo
+###### Version: 2
 
 ## Description
 None
@@ -29,4 +30,3 @@ None
 * etw_level_Informational
 * etw_keywords_Request
 * etw_task_Smb2RequestSetInfo
-* version_2

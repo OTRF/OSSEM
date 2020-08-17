@@ -1,4 +1,5 @@
 # Event 2322 - CtapNfcTransitionReader
+###### Version: 0
 
 ## Description
 None

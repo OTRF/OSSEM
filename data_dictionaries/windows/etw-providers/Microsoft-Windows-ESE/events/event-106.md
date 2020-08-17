@@ -1,4 +1,5 @@
 # Event 106 - ESE_CacheWritePage_Trace
+###### Version: 0
 
 ## Description
 None

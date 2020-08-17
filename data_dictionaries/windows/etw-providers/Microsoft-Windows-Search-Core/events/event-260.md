@@ -1,4 +1,5 @@
 # Event 260 - Gatherer_DocIdTable_GetNewId
+###### Version: 0
 
 ## Description
 None

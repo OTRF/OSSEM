@@ -1,4 +1,5 @@
 # Event 803 - WININET_AUTOPROXY_DHCP
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_WININET_KEYWORD_AUTOPROXY
 * etw_opcode_Stop
 * etw_task_WININET_AUTOPROXY_DHCP
-* version_1

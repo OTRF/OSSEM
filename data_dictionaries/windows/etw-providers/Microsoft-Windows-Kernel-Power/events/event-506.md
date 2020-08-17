@@ -1,4 +1,5 @@
 # Event 506 - CsEnterReason
+###### Version: 0
 
 ## Description
 None

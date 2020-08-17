@@ -1,4 +1,5 @@
 # Event 4394 - PEAuthCommKernelStateInquiry
+###### Version: 0
 
 ## Description
 None

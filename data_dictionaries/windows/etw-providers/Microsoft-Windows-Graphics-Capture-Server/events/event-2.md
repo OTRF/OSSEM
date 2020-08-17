@@ -1,4 +1,5 @@
 # Event 2 - CAPTURE_STOPPED
+###### Version: 0
 
 ## Description
 None

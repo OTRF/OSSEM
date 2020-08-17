@@ -1,4 +1,5 @@
 # Event 1108 - VidMmSaveRestoreResource
+###### Version: 0
 
 ## Description
 None

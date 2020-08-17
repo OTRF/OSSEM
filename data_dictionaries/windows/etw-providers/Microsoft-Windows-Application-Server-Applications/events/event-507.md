@@ -1,4 +1,5 @@
 # Event 507 - HostedTransportConfigurationManagerConfigInit
+###### Version: 0
 
 ## Description
 None

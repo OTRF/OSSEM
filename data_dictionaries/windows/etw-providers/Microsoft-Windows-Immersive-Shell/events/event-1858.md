@@ -1,4 +1,5 @@
 # Event 1858 - TileNotifications_InitializeWPNFailure
+###### Version: 0
 
 ## Description
 None

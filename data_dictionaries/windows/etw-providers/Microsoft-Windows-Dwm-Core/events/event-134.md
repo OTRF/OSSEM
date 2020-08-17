@@ -1,4 +1,5 @@
 # Event 134 - DCOMPEVENT_ANIMATION_INITIAL_VALUE
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 243 - Mshtml_CTimerMan_Wait
+###### Version: 0
 
 ## Description
 None

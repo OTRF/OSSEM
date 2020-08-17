@@ -1,4 +1,5 @@
 # Shared_resources Table
+###### Version: 4.4.2
 
 ## Description
 Displays shared resources on a computer system running Windows. This may be a disk drive, printer, interprocess communication, or other sharable device.
@@ -17,6 +18,3 @@ Displays shared resources on a computer system running Windows. This may be a di
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#shared_resources)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 369 - RME_CLIENT_ON_LIVE_MACHINE_DISCOVERY
+###### Version: 0
 
 ## Description
 None

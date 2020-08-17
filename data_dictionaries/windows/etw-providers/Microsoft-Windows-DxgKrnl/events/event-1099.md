@@ -1,4 +1,5 @@
 # Event 1099 - DdiQueryConnectionChange
+###### Version: 0
 
 ## Description
 None

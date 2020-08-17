@@ -1,4 +1,5 @@
 # Event 4 - VC1ENC_SEQ_INFO
+###### Version: 0
 
 ## Description
 None

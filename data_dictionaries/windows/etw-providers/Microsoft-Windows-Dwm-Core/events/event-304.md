@@ -1,4 +1,5 @@
 # Event 304 - ETWGUID_PRESENT
+###### Version: 0
 
 ## Description
 None

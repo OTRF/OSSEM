@@ -1,4 +1,5 @@
 # Event 303 - WinRTTranscode_Stage2_Task
+###### Version: 0
 
 ## Description
 None

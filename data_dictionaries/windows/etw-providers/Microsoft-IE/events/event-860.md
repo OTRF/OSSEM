@@ -1,4 +1,5 @@
 # Event 860 - Mshtml_Canvas_CommandList
+###### Version: 0
 
 ## Description
 None

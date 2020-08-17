@@ -1,4 +1,5 @@
 # Chrome_extensions Table
+###### Version: 4.4.2
 
 ## Description
 Chrome browser extensions.
@@ -21,6 +22,3 @@ Chrome browser extensions.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#chrome_extensions)
-
-## Tags
-* version_4.4.2

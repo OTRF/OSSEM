@@ -1,4 +1,5 @@
 # Event 211 - MicrosoftWindowsRuntimeCaptureEngineStopPreviewTask
+###### Version: 0
 
 ## Description
 None

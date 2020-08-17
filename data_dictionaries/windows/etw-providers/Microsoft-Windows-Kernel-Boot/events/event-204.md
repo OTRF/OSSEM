@@ -1,4 +1,5 @@
 # Event 204 - TpmBitLockerUsage
+###### Version: 0
 
 ## Description
 None

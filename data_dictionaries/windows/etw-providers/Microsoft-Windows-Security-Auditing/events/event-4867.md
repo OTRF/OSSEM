@@ -1,4 +1,5 @@
 # Event ID 4867: A trusted forest information entry was modified.
+###### Version: 0
 
 ## Description
 This event generates the trusted forest information entry was modified.

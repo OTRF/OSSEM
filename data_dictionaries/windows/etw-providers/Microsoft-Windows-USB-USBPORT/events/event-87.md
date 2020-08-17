@@ -1,4 +1,5 @@
 # Event 87 - USBPORT_URB_INVALID_ZERO_BW_PIPE_HANDLE
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 330 - Debugger_Editor_ChangeViewZones
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 89 - SpmClientDeregistration
+###### Version: 0
 
 ## Description
 None

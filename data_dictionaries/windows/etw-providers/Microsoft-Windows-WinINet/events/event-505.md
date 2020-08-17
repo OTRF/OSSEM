@@ -1,4 +1,5 @@
 # Event 505 - WININET_COOKIE_P3P_REJECTED
+###### Version: 0
 
 ## Description
 None

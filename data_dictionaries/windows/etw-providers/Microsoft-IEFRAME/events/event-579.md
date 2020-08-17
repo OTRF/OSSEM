@@ -1,4 +1,5 @@
 # Event 579 - IE_Wer_Report_Hang
+###### Version: 0
 
 ## Description
 None

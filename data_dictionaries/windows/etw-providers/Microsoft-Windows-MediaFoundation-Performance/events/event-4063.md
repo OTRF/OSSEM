@@ -1,4 +1,5 @@
 # Event 4063 - MediaCacheTrim
+###### Version: 0
 
 ## Description
 None

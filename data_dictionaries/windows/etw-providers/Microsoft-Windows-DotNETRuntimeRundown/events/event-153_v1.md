@@ -1,4 +1,5 @@
 # Event 153 - Loader
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_LoaderRundownKeyword PerfTrackRundownKeyword
 * etw_opcode_ModuleDCStart
 * etw_task_Loader
-* version_1

@@ -1,4 +1,5 @@
 # Event 178 - Bundlemanifest
+###### Version: 0
 
 ## Description
 None

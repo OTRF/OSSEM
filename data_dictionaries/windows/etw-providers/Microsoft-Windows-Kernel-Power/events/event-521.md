@@ -1,4 +1,5 @@
 # Event 521 - BatteryCountChange
+###### Version: 0
 
 ## Description
 None

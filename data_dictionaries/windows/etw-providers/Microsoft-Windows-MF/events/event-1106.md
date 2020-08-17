@@ -1,4 +1,5 @@
 # Event 1106 - MediaFoundationIMFTrustedInput_GetInputTrustAuthority
+###### Version: 0
 
 ## Description
 None

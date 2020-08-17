@@ -1,4 +1,5 @@
 # Event 21 - StoreEmpty
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Informational
 * etw_keywords_StoreOps
 * etw_task_StoreEmpty
-* version_1

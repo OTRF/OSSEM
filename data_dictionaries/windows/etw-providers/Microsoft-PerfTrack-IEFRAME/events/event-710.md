@@ -1,4 +1,5 @@
 # Event 710 - Browseui_Tabs_Tearoff_Complete_TabProc
+###### Version: 0
 
 ## Description
 None

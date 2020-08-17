@@ -1,4 +1,5 @@
 # Osquery_events Table
+###### Version: 4.4.2
 
 ## Description
 Information about the event publishers and subscribers.
@@ -13,6 +14,3 @@ Information about the event publishers and subscribers.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#osquery_events)
-
-## Tags
-* version_4.4.2

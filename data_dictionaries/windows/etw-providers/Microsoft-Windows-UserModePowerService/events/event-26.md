@@ -1,4 +1,5 @@
 # Event 26 - SessionUserChange
+###### Version: 0
 
 ## Description
 None

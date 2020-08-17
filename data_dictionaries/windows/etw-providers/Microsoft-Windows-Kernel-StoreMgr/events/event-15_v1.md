@@ -1,4 +1,5 @@
 # Event 15 - RegionCompact
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_StoreOps
 * etw_opcode_Start
 * etw_task_RegionCompact
-* version_1

@@ -1,4 +1,5 @@
 # Event 8202 - SyncaSecurityCatalogwiththeCatalogDatabase
+###### Version: 0
 
 ## Description
 None

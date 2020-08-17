@@ -1,4 +1,5 @@
 # Event 233 - MediaCaptureClearRegionsAsyncoperation
+###### Version: 0
 
 ## Description
 None

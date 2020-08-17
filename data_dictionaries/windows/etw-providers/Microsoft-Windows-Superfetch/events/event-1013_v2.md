@@ -1,4 +1,5 @@
 # Event 1013 - PerfTrackWorkingSet
+###### Version: 2
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_PerfTrackWorkingSet
-* version_2

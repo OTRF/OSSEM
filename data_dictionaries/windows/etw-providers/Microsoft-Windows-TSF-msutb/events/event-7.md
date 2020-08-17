@@ -1,4 +1,5 @@
 # Event 7 - HandleLanguageBarStatusChange
+###### Version: 0
 
 ## Description
 None

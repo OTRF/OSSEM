@@ -1,4 +1,5 @@
 # Event 1116 - MediaFoundationIMFOutputPolicy_GenerateRequiredSchemas
+###### Version: 0
 
 ## Description
 None

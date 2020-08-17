@@ -1,4 +1,5 @@
 # Event 1008 - MediaFoundationHandleStreamEvent
+###### Version: 0
 
 ## Description
 None

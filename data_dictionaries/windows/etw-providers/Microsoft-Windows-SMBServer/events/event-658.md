@@ -1,4 +1,5 @@
 # Event 658 - Smb2FileCCFCloseAudit
+###### Version: 0
 
 ## Description
 None

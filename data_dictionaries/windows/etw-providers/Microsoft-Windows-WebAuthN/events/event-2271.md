@@ -1,4 +1,5 @@
 # Event 2271 - CtapBleSwitchToU2F
+###### Version: 0
 
 ## Description
 None

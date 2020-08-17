@@ -1,4 +1,5 @@
 # Event 9042 - Perf_WLRoamDeleteBackupFolder
+###### Version: 0
 
 ## Description
 None

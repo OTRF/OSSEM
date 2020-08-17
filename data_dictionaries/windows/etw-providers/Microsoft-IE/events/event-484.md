@@ -1,4 +1,5 @@
 # Event 484 - Mshtml_DisplayTreeOpen
+###### Version: 0
 
 ## Description
 None

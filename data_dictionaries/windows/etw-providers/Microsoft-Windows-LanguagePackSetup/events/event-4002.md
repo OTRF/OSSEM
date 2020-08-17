@@ -1,4 +1,5 @@
 # Event 4002 - Removinglanguagepack
+###### Version: 0
 
 ## Description
 None

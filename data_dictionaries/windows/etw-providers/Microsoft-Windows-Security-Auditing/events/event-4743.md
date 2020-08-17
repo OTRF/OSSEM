@@ -1,4 +1,5 @@
 # Event ID 4743: A computer account was deleted
+###### Version: 0
 
 ## Description
 This event generates every time a computer object is deleted. This event generates only on domain controllers.

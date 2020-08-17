@@ -1,4 +1,5 @@
 # Event 19 - task_0
+###### Version: 2
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 ## Tags
 * etw_level_Error
 * etw_task_task_0
-* version_2

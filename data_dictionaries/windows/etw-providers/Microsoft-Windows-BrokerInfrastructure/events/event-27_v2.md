@@ -1,4 +1,5 @@
 # Event 27 - BackgroundTask
+###### Version: 2
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_keywords_Watchdog
 * etw_opcode_TaskWatchdog
 * etw_task_BackgroundTask
-* version_2

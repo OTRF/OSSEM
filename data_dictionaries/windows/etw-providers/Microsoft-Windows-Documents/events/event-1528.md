@@ -1,4 +1,5 @@
 # Event 1528 - DocPerf_Task_ScanRT_Preview
+###### Version: 0
 
 ## Description
 None

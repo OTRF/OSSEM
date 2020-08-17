@@ -1,4 +1,5 @@
 # Event 44 - ETWGUID_OCCLUSIONEVENT
+###### Version: 0
 
 ## Description
 None

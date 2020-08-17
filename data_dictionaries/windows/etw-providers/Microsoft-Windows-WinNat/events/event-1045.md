@@ -1,4 +1,5 @@
 # Event 1045 - WinNatMInternalAddressAddition
+###### Version: 0
 
 ## Description
 None

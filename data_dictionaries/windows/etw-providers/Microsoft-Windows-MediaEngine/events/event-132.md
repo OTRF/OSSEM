@@ -1,4 +1,5 @@
 # Event 132 - MediaFoundationVisible
+###### Version: 0
 
 ## Description
 None

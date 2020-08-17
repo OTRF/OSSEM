@@ -1,4 +1,5 @@
 # Event 9547 - Explorer_StartMenu_Pinned_Launch
+###### Version: 0
 
 ## Description
 None

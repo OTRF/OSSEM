@@ -1,4 +1,5 @@
 # Event 1005 - WFApplicationStateChange
+###### Version: 0
 
 ## Description
 None

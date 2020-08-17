@@ -1,4 +1,5 @@
 # Event 1004 - LoadHelperClass
+###### Version: 0
 
 ## Description
 None

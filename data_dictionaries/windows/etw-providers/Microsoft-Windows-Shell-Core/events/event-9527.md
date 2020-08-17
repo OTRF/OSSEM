@@ -1,4 +1,5 @@
 # Event 9527 - Explorer_StartMenu_Favorites_Launch
+###### Version: 0
 
 ## Description
 None

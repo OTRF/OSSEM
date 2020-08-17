@@ -1,4 +1,5 @@
 # Event 350 - RME_CLIENT_RESOLVE_SERVER_URL_REQUEST
+###### Version: 0
 
 ## Description
 None

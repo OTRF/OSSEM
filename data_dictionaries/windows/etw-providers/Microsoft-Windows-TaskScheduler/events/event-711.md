@@ -1,4 +1,5 @@
 # Event 711 - Compatibilitymoduletasksupgradefailed
+###### Version: 0
 
 ## Description
 None

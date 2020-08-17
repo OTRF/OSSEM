@@ -1,4 +1,5 @@
 # Event 810 - WINHTTP_AUTOPROXY_DOWNLOAD
+###### Version: 0
 
 ## Description
 None

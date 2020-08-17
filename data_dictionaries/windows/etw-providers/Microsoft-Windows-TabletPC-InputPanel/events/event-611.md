@@ -1,4 +1,5 @@
 # Event 611 - SoftKeyboard_OutputManager_InputScopeChanged
+###### Version: 0
 
 ## Description
 None

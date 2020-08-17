@@ -1,4 +1,5 @@
 # Event 434 - PagingOpSignalMonitoredFence
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 703 - CompatibilitymoduleNetScheduleAPIfailed
+###### Version: 0
 
 ## Description
 None

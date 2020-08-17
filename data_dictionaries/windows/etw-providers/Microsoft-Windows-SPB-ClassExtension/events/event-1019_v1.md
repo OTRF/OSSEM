@@ -1,4 +1,5 @@
 # Event 1019 - I/OoperationflowthroughSPBCx
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Warning
 * etw_opcode_IoLockWatchdogTimeout
 * etw_task_I/OoperationflowthroughSPBCx
-* version_1

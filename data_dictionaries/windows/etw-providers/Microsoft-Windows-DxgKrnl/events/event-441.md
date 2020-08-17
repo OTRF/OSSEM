@@ -1,4 +1,5 @@
 # Event 441 - DdiRestoreMemoryForHotUpdate
+###### Version: 0
 
 ## Description
 None

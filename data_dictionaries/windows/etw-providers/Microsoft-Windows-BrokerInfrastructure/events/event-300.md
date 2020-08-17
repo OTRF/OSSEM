@@ -1,4 +1,5 @@
 # Event 300 - WorkItemBlockingDisconnectedStandby
+###### Version: 0
 
 ## Description
 None

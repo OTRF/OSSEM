@@ -1,4 +1,5 @@
 # Startup_items Table
+###### Version: 4.4.2
 
 ## Description
 Applications and binaries set as user/login startup items.
@@ -16,6 +17,3 @@ Applications and binaries set as user/login startup items.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#startup_items)
-
-## Tags
-* version_4.4.2

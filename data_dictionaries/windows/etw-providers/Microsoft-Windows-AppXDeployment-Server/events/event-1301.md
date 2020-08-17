@@ -1,4 +1,5 @@
 # Event 1301 - AppXDeployment.Task.Server.StagingManager
+###### Version: 0
 
 ## Description
 None

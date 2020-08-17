@@ -1,4 +1,5 @@
 # Event 2002 - ToggleDeviceAuthorization
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 246 - DEBUG_FRAME_COUNTER
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Informational
 * etw_keywords_DwmCore
 * etw_task_DEBUG_FRAME_COUNTER
-* version_1

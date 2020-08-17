@@ -1,4 +1,5 @@
 # Crontab Table
+###### Version: 4.4.2
 
 ## Description
 Line parsed values from system and user cron/tab.
@@ -17,6 +18,3 @@ Line parsed values from system and user cron/tab.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#crontab)
-
-## Tags
-* version_4.4.2

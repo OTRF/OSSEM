@@ -1,4 +1,5 @@
 # Event 549 - Dom_HideColorPicker
+###### Version: 0
 
 ## Description
 None

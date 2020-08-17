@@ -1,4 +1,5 @@
 # Event 6241 - Thumbnails_CacheDataFile_GetThumbnail
+###### Version: 0
 
 ## Description
 None

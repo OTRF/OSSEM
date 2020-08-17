@@ -1,4 +1,5 @@
 # Event 1008 - ResourceExhaustionDiagnosisEvents
+###### Version: 0
 
 ## Description
 None

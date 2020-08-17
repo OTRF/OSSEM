@@ -1,4 +1,5 @@
 # Event 24 - StrokeErase
+###### Version: 0
 
 ## Description
 None

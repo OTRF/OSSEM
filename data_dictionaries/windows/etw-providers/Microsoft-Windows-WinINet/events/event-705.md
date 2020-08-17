@@ -1,4 +1,5 @@
 # Event 705 - WININET_HTTPS_SERVER_CERT_VALIDATED
+###### Version: 0
 
 ## Description
 None

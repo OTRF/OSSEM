@@ -1,4 +1,5 @@
 # Event 37 - RequesttoVTL1IUMtrustlet
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_Performance
 * etw_opcode_Start
 * etw_task_RequesttoVTL1IUMtrustlet
-* version_1

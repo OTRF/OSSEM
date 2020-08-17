@@ -1,4 +1,5 @@
 # Event 4817 - DiscoveryClientChannel
+###### Version: 0
 
 ## Description
 None

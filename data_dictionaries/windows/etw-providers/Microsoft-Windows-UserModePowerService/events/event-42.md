@@ -1,4 +1,5 @@
 # Event 42 - SleepStudySleepSessionRelogging
+###### Version: 0
 
 ## Description
 None

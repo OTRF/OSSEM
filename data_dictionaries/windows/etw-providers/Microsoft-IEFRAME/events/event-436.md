@@ -1,4 +1,5 @@
 # Event 436 - Bing_Suggestions_ParseXmlResponse
+###### Version: 0
 
 ## Description
 None

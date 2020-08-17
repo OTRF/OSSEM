@@ -1,4 +1,5 @@
 # Event 684 - SoftKeyboard_Prediction_RequestTextPosition
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1004 - FeatureConfigurationEvents
+###### Version: 0
 
 ## Description
 None

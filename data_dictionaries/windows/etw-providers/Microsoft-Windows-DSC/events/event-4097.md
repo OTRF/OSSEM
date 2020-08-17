@@ -1,4 +1,5 @@
 # Event 4097 - SendconfigurationscenarioforLocalconfigurationmanager
+###### Version: 0
 
 ## Description
 None

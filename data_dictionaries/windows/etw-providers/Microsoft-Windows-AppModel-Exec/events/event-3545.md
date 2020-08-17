@@ -1,4 +1,5 @@
 # Event 3545 - LogTrace
+###### Version: 0
 
 ## Description
 None

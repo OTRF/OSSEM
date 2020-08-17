@@ -1,4 +1,5 @@
 # Event 316 - MediaCaptureAdvancedPhotoPrepareoperation
+###### Version: 0
 
 ## Description
 None

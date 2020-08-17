@@ -1,4 +1,5 @@
 # Event 7253 - ConnectedSearch_LogLocalLayout
+###### Version: 0
 
 ## Description
 None

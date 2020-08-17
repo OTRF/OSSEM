@@ -1,4 +1,5 @@
 # Event 114 - PassiveCoolingOperational
+###### Version: 1
 
 ## Description
 None
@@ -22,4 +23,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:Thermal
 * etw_task_PassiveCoolingOperational
-* version_1

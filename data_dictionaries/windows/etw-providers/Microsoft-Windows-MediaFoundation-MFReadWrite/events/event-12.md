@@ -1,4 +1,5 @@
 # Event 12 - SourceReader_CapturePluginCreated
+###### Version: 0
 
 ## Description
 None

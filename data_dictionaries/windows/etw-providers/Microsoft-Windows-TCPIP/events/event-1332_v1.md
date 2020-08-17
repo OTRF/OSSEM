@@ -1,4 +1,5 @@
 # Event 1332 - TcpDataTransferSend
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:SendPath
 * etw_task_TcpDataTransferSend
-* version_1

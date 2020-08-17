@@ -1,4 +1,5 @@
 # Event 707 - BAM_RemoveAccess
+###### Version: 0
 
 ## Description
 None

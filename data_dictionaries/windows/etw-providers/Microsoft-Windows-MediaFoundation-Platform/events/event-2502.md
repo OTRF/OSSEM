@@ -1,4 +1,5 @@
 # Event 2502 - MediaFoundationMFTEnum
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 12 - Smb2RequestWrite
+###### Version: 2
 
 ## Description
 None
@@ -31,4 +32,3 @@ None
 * etw_level_Informational
 * etw_keywords_Request
 * etw_task_Smb2RequestWrite
-* version_2

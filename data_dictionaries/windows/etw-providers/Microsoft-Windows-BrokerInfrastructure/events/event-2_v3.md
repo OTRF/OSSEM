@@ -1,4 +1,5 @@
 # Event 2 - BackgroundTask
+###### Version: 3
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 * etw_keywords_BackgroundTask LowOverheadDiag
 * etw_opcode_Stop
 * etw_task_BackgroundTask
-* version_3

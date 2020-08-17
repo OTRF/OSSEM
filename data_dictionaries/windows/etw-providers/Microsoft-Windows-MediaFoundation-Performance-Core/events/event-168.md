@@ -1,4 +1,5 @@
 # Event 168 - Notification_OnDefaultDeviceChanged_Task
+###### Version: 0
 
 ## Description
 None

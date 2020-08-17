@@ -1,4 +1,5 @@
 # Event 40 - ETWGUID_CLEAREVENT
+###### Version: 0
 
 ## Description
 None

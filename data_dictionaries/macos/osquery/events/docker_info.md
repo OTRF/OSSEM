@@ -1,4 +1,5 @@
 # Docker_info Table
+###### Version: 4.4.2
 
 ## Description
 Docker system information.
@@ -41,6 +42,3 @@ Docker system information.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_info)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 9717 - Explorer_Startup_Run6432_Failed
+###### Version: 0
 
 ## Description
 None

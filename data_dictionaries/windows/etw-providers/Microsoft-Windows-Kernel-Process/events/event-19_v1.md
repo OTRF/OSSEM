@@ -1,4 +1,5 @@
 # Event 19 - PsIoRateControl
+###### Version: 1
 
 ## Description
 None
@@ -26,4 +27,3 @@ None
 * etw_keywords_WINEVENT_KEYWORD_JOB_IO
 * etw_opcode_Start
 * etw_task_PsIoRateControl
-* version_1

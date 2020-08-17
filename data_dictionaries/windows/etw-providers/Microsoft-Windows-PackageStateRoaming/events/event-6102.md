@@ -1,4 +1,5 @@
 # Event 6102 - Debug_PackageStateConsistencyMonitor_BeginQuiescentPeriod
+###### Version: 0
 
 ## Description
 None

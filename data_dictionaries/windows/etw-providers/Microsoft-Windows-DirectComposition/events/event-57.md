@@ -1,4 +1,5 @@
 # Event 57 - VISUAL_REDIRECT_MOUSE
+###### Version: 0
 
 ## Description
 None

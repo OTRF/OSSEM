@@ -1,4 +1,5 @@
 # Event 1012 - DnsHostFileErrorSystem
+###### Version: 0
 
 ## Description
 None

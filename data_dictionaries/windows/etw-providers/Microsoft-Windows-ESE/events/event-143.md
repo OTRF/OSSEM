@@ -1,4 +1,5 @@
 # Event 143 - ESE_CacheScavengeProgress_Trace
+###### Version: 0
 
 ## Description
 None

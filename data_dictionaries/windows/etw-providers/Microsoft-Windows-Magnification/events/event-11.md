@@ -1,4 +1,5 @@
 # Event 11 - UpdateRedirectionResources
+###### Version: 0
 
 ## Description
 None

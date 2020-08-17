@@ -1,4 +1,5 @@
 # Event 694 - Mshtml_CTouchHelper_PreFilterMessageForCapture_CommitDeferredActionsForDoubleTapZoom
+###### Version: 0
 
 ## Description
 None

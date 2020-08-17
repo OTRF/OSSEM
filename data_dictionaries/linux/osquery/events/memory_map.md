@@ -1,4 +1,5 @@
 # Memory_map Table
+###### Version: 4.4.2
 
 ## Description
 OS memory region map.
@@ -12,6 +13,3 @@ OS memory region map.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#memory_map)
-
-## Tags
-* version_4.4.2

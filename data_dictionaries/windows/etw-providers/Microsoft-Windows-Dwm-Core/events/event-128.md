@@ -1,4 +1,5 @@
 # Event 128 - ETWGUID_STEREO_SWAPCHAINCREATEEVENT
+###### Version: 0
 
 ## Description
 None

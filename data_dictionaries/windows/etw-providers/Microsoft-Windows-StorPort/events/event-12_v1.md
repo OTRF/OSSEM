@@ -1,4 +1,5 @@
 # Event 12 - Buschangedetectnotification
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_PortNotification
 * etw_opcode_OpCodeBusChangeDetected
 * etw_task_Buschangedetectnotification
-* version_1

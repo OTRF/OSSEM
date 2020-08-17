@@ -1,4 +1,5 @@
 # Event 111 - PowerSettingRundown
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:PowerSetting
 * etw_task_PowerSettingRundown
-* version_1

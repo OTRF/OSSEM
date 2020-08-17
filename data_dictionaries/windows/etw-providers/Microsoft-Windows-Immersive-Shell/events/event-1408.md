@@ -1,4 +1,5 @@
 # Event 1408 - BackstackManager_RemoveApp
+###### Version: 0
 
 ## Description
 None

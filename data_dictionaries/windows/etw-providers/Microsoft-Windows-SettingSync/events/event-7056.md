@@ -1,4 +1,5 @@
 # Event 7056 - Perf_WLRoamGlobalDisable
+###### Version: 0
 
 ## Description
 None

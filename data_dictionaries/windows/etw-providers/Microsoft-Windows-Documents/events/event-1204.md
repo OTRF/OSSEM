@@ -1,4 +1,5 @@
 # Event 1204 - DocPerf_Task_DrvUpgradePrinter
+###### Version: 0
 
 ## Description
 None

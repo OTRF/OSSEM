@@ -1,4 +1,5 @@
 # Event ID 4701: A scheduled task was disabled
+###### Version: 0
 
 ## Description
 This event generates every time a scheduled task is disabled.

@@ -1,4 +1,5 @@
 # Event 843 - Mshtml_WebRTC_Gathered_Ice_Candidate
+###### Version: 0
 
 ## Description
 None

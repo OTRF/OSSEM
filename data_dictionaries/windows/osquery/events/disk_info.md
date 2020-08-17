@@ -1,4 +1,5 @@
 # Disk_info Table
+###### Version: 4.4.2
 
 ## Description
 Retrieve basic information about the physical disks of a system.
@@ -20,6 +21,3 @@ Retrieve basic information about the physical disks of a system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#disk_info)
-
-## Tags
-* version_4.4.2

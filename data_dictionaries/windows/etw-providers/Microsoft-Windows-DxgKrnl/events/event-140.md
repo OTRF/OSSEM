@@ -1,4 +1,5 @@
 # Event 140 - DdiStopDevice
+###### Version: 0
 
 ## Description
 None

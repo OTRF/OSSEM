@@ -1,4 +1,5 @@
 # Event 1011 - SrvEndpointRemoved
+###### Version: 0
 
 ## Description
 None

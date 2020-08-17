@@ -1,4 +1,5 @@
 # Event 1291 - Ndkpi_Fast_Register
+###### Version: 0
 
 ## Description
 None

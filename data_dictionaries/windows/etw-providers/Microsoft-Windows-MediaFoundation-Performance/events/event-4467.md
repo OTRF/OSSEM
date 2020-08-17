@@ -1,4 +1,5 @@
 # Event 4467 - MFCopyImage
+###### Version: 0
 
 ## Description
 None

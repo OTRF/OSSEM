@@ -1,4 +1,5 @@
 # Uptime Table
+###### Version: 4.4.2
 
 ## Description
 Track time passed since last boot.
@@ -14,6 +15,3 @@ Track time passed since last boot.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#uptime)
-
-## Tags
-* version_4.4.2

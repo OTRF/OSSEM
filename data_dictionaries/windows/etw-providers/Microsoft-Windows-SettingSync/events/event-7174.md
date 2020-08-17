@@ -1,4 +1,5 @@
 # Event 7174 - Perf_AppSyncRequestStoreApplicability
+###### Version: 0
 
 ## Description
 None

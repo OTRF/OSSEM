@@ -1,4 +1,5 @@
 # Event 4513 - Platform:Shutdown_WorkQueue
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 108 - MFTProcessingLoopStateOtherItemsInQueueAfterStateChanged
+###### Version: 0
 
 ## Description
 None

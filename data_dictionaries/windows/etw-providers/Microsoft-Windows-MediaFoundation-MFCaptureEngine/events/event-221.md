@@ -1,4 +1,5 @@
 # Event 221 - MFCaptureEnginePhotoEncode
+###### Version: 0
 
 ## Description
 None

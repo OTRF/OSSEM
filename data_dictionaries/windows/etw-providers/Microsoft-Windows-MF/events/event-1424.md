@@ -1,4 +1,5 @@
 # Event 1424 - MediaFoundationDeviceMFTMErrorThrown
+###### Version: 0
 
 ## Description
 None

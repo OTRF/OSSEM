@@ -1,4 +1,5 @@
 # Event 4332 - DsGetDcName(RootDomainGuid)
+###### Version: 0
 
 ## Description
 None

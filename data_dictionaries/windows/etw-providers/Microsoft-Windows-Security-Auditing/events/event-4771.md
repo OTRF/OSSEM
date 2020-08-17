@@ -1,4 +1,5 @@
 # Event ID 4771: Kerberos pre-authentication failed
+###### Version: 0
 
 ## Description
 This event generates every time the Key Distribution Center fails to issue a Kerberos Ticket Granting Ticket (TGT). This can occur when a domain controller doesn't have a certificate installed for smart card authentication (for example, with a "Domain Controller" or "Domain Controller Authentication" template), the user's password has expired, or the wrong password was provided. This event generates only on domain controllers. This event is not generated if "Do not require Kerberos preauthentication" option is set for the account.

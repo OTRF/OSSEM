@@ -1,4 +1,5 @@
 # Event 434 - STREAMING_MENU_RENDER_ACTION
+###### Version: 0
 
 ## Description
 None

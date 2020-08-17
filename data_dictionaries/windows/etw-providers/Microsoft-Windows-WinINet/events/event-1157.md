@@ -1,4 +1,5 @@
 # Event 1157 - Wininet_HstsServerContainer
+###### Version: 0
 
 ## Description
 None

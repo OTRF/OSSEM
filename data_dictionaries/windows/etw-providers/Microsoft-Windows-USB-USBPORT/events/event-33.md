@@ -1,4 +1,5 @@
 # Event 33 - URB_FUNCTION_SET_DESCRIPTOR_TO_INTERFACE
+###### Version: 0
 
 ## Description
 None

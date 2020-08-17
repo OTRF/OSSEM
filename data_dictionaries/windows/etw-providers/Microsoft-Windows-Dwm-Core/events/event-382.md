@@ -1,4 +1,5 @@
 # Event 382 - COMPUTESCRIBBLE_WORKERHANG
+###### Version: 0
 
 ## Description
 None

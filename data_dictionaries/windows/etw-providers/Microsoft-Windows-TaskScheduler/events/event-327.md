@@ -1,4 +1,5 @@
 # Event 327 - Taskstoppingduetoswitchingtobatteries
+###### Version: 0
 
 ## Description
 None

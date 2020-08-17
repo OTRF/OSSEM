@@ -1,4 +1,5 @@
 # Event 1336 - UdpCreateNotificationChannelRequestProcessed
+###### Version: 0
 
 ## Description
 None

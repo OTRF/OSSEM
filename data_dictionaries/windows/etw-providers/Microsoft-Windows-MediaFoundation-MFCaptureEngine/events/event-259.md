@@ -1,4 +1,5 @@
 # Event 259 - MFCaptureEngineGetAvailableDeviceMediaType
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 60 - USBDeviceEnumeration
+###### Version: 0
 
 ## Description
 None

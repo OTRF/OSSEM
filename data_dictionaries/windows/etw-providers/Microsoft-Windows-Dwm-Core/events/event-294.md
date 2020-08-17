@@ -1,4 +1,5 @@
 # Event 294 - MIDMANIPULATION_UPDATE_INTERACTION_ADDITION
+###### Version: 0
 
 ## Description
 None

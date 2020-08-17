@@ -1,4 +1,5 @@
 # Event 1016 - MiracastStopMiracastSessionStage
+###### Version: 0
 
 ## Description
 None

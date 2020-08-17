@@ -1,4 +1,5 @@
 # Event 322 - CHANNELANIMATIONS_ACTIVE
+###### Version: 0
 
 ## Description
 None

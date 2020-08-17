@@ -1,4 +1,5 @@
 # System_info Table
+###### Version: 4.4.2
 
 ## Description
 System information for identification.
@@ -24,6 +25,3 @@ System information for identification.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#system_info)
-
-## Tags
-* version_4.4.2

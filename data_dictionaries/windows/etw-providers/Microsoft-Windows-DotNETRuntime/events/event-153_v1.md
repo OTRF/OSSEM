@@ -1,4 +1,5 @@
 # Event 153 - Loader
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_LoaderKeyword PerfTrackKeyword
 * etw_opcode_ModuleUnload
 * etw_task_Loader
-* version_1

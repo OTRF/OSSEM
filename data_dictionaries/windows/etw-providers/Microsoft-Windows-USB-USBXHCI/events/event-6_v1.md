@@ -1,4 +1,5 @@
 # Event 6 - USBXHCIControllerCreate
+###### Version: 1
 
 ## Description
 None
@@ -29,4 +30,3 @@ None
 * etw_keywords_Default
 * etw_opcode_Information
 * etw_task_USBXHCIControllerCreate
-* version_1

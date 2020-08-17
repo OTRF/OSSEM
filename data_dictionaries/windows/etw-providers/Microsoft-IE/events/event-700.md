@@ -1,4 +1,5 @@
 # Event 700 - Mshtml_CTouchHelper_HandleTouchMessage_Info
+###### Version: 0
 
 ## Description
 None

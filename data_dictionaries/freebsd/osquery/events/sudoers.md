@@ -1,4 +1,5 @@
 # Sudoers Table
+###### Version: 4.4.2
 
 ## Description
 Rules for running commands as other users via sudo.
@@ -12,6 +13,3 @@ Rules for running commands as other users via sudo.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#sudoers)
-
-## Tags
-* version_4.4.2

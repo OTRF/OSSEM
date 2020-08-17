@@ -1,4 +1,5 @@
 # Event 17 - SetInformation
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Informational
 * etw_keywords_KERNEL_FILE_KEYWORD_FILEIO
 * etw_task_SetInformation
-* version_1

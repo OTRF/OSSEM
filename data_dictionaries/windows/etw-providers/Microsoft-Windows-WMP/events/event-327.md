@@ -1,4 +1,5 @@
 # Event 327 - RME_CLIENT_CURRENT_BANDWIDTH_ESTIMATE
+###### Version: 0
 
 ## Description
 None

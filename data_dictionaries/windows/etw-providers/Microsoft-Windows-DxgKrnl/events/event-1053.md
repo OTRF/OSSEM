@@ -1,4 +1,5 @@
 # Event 1053 - MiracastGlobalConfiguration
+###### Version: 0
 
 ## Description
 None

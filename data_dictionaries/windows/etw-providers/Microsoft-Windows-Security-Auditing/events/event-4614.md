@@ -1,4 +1,5 @@
 # Event ID 4614: A notification package has been loaded by the Security Account Manager.
+###### Version: 0
 
 ## Description
 This event generates every time a Notification Package has been loaded by the Security Account Manager.

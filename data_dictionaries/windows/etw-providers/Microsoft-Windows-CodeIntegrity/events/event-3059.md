@@ -1,4 +1,5 @@
 # Event 3059 - SetCatalogHint
+###### Version: 0
 
 ## Description
 None

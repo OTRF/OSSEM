@@ -1,4 +1,5 @@
 # Event 434 - Bing_Suggestions_CancelRequest
+###### Version: 0
 
 ## Description
 None

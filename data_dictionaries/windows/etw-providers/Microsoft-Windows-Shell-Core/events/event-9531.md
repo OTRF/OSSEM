@@ -1,4 +1,5 @@
 # Event 9531 - Explorer_StartMenu_Help_Launch
+###### Version: 0
 
 ## Description
 None

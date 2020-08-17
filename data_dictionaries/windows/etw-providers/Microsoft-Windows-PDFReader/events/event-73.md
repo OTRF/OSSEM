@@ -1,4 +1,5 @@
 # Event 73 - CommandBarHide
+###### Version: 0
 
 ## Description
 None

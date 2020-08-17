@@ -1,4 +1,5 @@
 # Event 389 - CHANNEL_OPENED_FOR_PROCESS
+###### Version: 0
 
 ## Description
 None

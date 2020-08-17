@@ -1,4 +1,5 @@
 # Event 1012 - vs:IgnorableProduct
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 10 - TaskID:IME_KOR_HWKBD_CandUIProcess
+###### Version: 0
 
 ## Description
 None

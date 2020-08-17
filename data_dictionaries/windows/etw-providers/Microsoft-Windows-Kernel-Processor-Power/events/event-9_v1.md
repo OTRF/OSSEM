@@ -1,4 +1,5 @@
 # Event 9 - DomainPerfStateChange
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Informational
 * etw_keywords_Perf
 * etw_task_DomainPerfStateChange
-* version_1

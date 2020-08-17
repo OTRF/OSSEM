@@ -1,4 +1,5 @@
 # Event 6002 - SODA_ActivitySnapshot_AggregateFeed
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 513 - BackgroundManagerTrace
+###### Version: 0
 
 ## Description
 None

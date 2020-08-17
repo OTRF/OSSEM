@@ -1,4 +1,5 @@
 # Event 622 - Mshtml_CDoc_OnUserVisibilityChanged
+###### Version: 0
 
 ## Description
 None

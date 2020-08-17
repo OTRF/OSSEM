@@ -1,4 +1,5 @@
 # Event 464 - Mshtml_IndependentAnimation_Candidacy_Failure
+###### Version: 0
 
 ## Description
 None

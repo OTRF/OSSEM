@@ -1,4 +1,5 @@
 # Event 102 - ProfileRegistered
+###### Version: 0
 
 ## Description
 None

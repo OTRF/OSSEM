@@ -1,4 +1,5 @@
 # Event 1019 - WinNatMInstanceCreation
+###### Version: 1
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:Configuration
 * etw_task_WinNatMInstanceCreation
-* version_1

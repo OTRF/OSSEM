@@ -1,4 +1,5 @@
 # Event ID 5156: The Windows Filtering Platform has permitted a connection
+###### Version: 1
 
 ## Description
 This event generates when Windows Filtering Platform has allowed a connection.
@@ -28,6 +29,5 @@ This event generates when Windows Filtering Platform has allowed a connection.
 ## Tags
 * etw_level_Informational
 * etw_task_task_0
-* version_1
 * Object Access
 * Audit Filtering Platform Connection

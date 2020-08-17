@@ -1,4 +1,5 @@
 # Event 1001 - BWContextHandler_UninstallError
+###### Version: 0
 
 ## Description
 None

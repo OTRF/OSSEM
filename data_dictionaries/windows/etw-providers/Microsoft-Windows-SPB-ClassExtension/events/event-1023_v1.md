@@ -1,4 +1,5 @@
 # Event 1023 - I/OoperationflowthroughSPBCx
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Verbose
 * etw_opcode_IoSpbPayloadTdBuffer
 * etw_task_I/OoperationflowthroughSPBCx
-* version_1

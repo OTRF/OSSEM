@@ -1,4 +1,5 @@
 # Event 9575 - Explorer_StartPane_AllPrograms_Folder_Opened
+###### Version: 0
 
 ## Description
 None

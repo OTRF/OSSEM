@@ -1,4 +1,5 @@
 # Event 1005 - WinNatSessionDelete
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:Session
 * etw_task_WinNatSessionDelete
-* version_1

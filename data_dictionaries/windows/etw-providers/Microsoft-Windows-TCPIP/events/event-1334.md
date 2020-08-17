@@ -1,4 +1,5 @@
 # Event 1334 - UdpCreateNotificationChannelRequest
+###### Version: 0
 
 ## Description
 None

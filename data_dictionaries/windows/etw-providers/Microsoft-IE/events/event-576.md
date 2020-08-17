@@ -1,4 +1,5 @@
 # Event 576 - Mshtml_EventDebug_XmlHttpRequest_Relate
+###### Version: 0
 
 ## Description
 None

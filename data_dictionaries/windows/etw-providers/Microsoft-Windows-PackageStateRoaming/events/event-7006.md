@@ -1,4 +1,5 @@
 # Event 7006 - Perf_PackageState_GetStorageQuota
+###### Version: 0
 
 ## Description
 None

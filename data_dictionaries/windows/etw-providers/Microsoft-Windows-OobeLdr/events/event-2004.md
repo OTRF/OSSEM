@@ -1,4 +1,5 @@
 # Event 2004 - OobeLdrProcessUnattend
+###### Version: 0
 
 ## Description
 None

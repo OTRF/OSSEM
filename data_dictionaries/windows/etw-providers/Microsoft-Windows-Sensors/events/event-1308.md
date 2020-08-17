@@ -1,4 +1,5 @@
 # Event 1308 - SensorAPIcalltogetsensorpropertyvalues
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 325 - RemovingaprinterfromtheActiveDirectory
+###### Version: 0
 
 ## Description
 None

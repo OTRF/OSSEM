@@ -1,4 +1,5 @@
 # Event 506 - CsEnterReason
+###### Version: 2
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:Diagnostic po:DiagnosticLight
 * etw_task_CsEnterReason
-* version_2

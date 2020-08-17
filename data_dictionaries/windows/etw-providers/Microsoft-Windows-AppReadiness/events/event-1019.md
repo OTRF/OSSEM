@@ -1,4 +1,5 @@
 # Event 1019 - AppReadiness_Api_ResolveStoreCategories
+###### Version: 0
 
 ## Description
 None

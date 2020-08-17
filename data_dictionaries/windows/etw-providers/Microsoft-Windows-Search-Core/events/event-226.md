@@ -1,4 +1,5 @@
 # Event 226 - CSearchCrawlScopeManager_RemoveDefaultScopeRule
+###### Version: 0
 
 ## Description
 None

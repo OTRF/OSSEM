@@ -1,4 +1,5 @@
 # Event 1108 - MediaFoundationIMFSampleProtection_GetInputProtectionVersion
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 27 - Servicestartup
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Warning
 * etw_keywords_el:Availability el:Settings
 * etw_task_Servicestartup
-* version_1

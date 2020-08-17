@@ -1,4 +1,5 @@
 # Event 123 - ETWGUID_STEREO_COPYLEFTTORIGHTBUFFEREVENT
+###### Version: 0
 
 ## Description
 None

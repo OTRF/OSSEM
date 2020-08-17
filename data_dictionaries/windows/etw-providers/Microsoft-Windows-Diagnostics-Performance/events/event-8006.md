@@ -1,4 +1,5 @@
 # Event 8006 - Shutdown_LocatedCKCL
+###### Version: 0
 
 ## Description
 None

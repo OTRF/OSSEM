@@ -1,4 +1,5 @@
 # Event 8022 - UserAccount_AddUserDialog_LocalUserAdded
+###### Version: 0
 
 ## Description
 None

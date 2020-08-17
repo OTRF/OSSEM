@@ -1,4 +1,5 @@
 # Event 1429 - TcpCubicDataTransferCumAck
+###### Version: 1
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:SendPath
 * etw_task_TcpCubicDataTransferCumAck
-* version_1

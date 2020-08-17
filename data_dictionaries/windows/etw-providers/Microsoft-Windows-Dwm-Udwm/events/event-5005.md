@@ -1,4 +1,5 @@
 # Event 5005 - UdwmManageIconicThumbnail
+###### Version: 0
 
 ## Description
 None

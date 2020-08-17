@@ -1,4 +1,5 @@
 # ingress.event.regmod (Registry Modification)
+###### Version: 0
 
 ## Description
 A registry key has been created, deleted, or modified on an endpoint monitored by Carbon Black.

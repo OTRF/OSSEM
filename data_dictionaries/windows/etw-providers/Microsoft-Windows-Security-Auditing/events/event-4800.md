@@ -1,4 +1,5 @@
 # Event ID 4800: The workstation was locked
+###### Version: 0
 
 ## Description
 This event is generated when a workstation was locked.

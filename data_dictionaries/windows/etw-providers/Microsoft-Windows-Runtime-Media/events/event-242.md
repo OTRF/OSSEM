@@ -1,4 +1,5 @@
 # Event 242 - MediaCaptureLowLagRecordFinishoperation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Launchd Table
+###### Version: 4.4.2
 
 ## Description
 LaunchAgents and LaunchDaemons from default search paths.
@@ -22,6 +23,3 @@ LaunchAgents and LaunchDaemons from default search paths.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#launchd)
-
-## Tags
-* version_4.4.2

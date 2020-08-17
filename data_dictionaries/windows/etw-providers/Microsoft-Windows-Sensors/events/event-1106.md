@@ -1,4 +1,5 @@
 # Event 1106 - SensorServiceprocessingsensordatafororientation,sensorstateusedinprocessingdata
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 6 - SamplingPeriodChange
+###### Version: 0
 
 ## Description
 None

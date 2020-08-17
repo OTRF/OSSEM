@@ -1,4 +1,5 @@
 # Event 834 - AppXDeployment.Task.Server.Deployment.StateRepositoryFixIntegrity
+###### Version: 0
 
 ## Description
 None

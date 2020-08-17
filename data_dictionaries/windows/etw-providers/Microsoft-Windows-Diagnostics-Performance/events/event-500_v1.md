@@ -1,4 +1,5 @@
 # Event 500 - DesktopWindowManagerMonitoring
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_EventLog
 * etw_opcode_VideoMemoryDegradation
 * etw_task_DesktopWindowManagerMonitoring
-* version_1

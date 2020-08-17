@@ -1,4 +1,5 @@
 # Ad_config Table
+###### Version: 4.4.2
 
 ## Description
 OS X Active Directory configuration.
@@ -13,6 +14,3 @@ OS X Active Directory configuration.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#ad_config)
-
-## Tags
-* version_4.4.2

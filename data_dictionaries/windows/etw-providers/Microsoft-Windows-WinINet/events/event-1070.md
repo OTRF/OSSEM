@@ -1,4 +1,5 @@
 # Event 1070 - Wininet_FileIO
+###### Version: 0
 
 ## Description
 None

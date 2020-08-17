@@ -1,4 +1,5 @@
 # Event 7041 - Perf_WLRoamLocalSyncDeleteSettingUnit
+###### Version: 0
 
 ## Description
 None

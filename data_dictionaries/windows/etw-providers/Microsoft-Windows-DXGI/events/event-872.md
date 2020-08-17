@@ -1,4 +1,5 @@
 # Event 872 - IDXGISwapChainPartner_GetDestSize
+###### Version: 0
 
 ## Description
 None

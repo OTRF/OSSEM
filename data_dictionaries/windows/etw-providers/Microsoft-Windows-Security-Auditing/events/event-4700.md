@@ -1,4 +1,5 @@
 # Event ID 4700: A scheduled task was enabled
+###### Version: 0
 
 ## Description
 This event generates every time a scheduled task is enabled.

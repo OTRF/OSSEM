@@ -1,4 +1,5 @@
 # Event 6102 - SearchComplete
+###### Version: 0
 
 ## Description
 None

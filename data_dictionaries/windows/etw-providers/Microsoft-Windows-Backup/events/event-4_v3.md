@@ -1,4 +1,5 @@
 # Event 4 - task_0
+###### Version: 3
 
 ## Description
 None
@@ -53,4 +54,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_task_0
-* version_3

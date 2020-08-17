@@ -1,4 +1,5 @@
 # Logon_sessions Table
+###### Version: 4.4.2
 
 ## Description
 Windows Logon Session.
@@ -24,6 +25,3 @@ Windows Logon Session.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#logon_sessions)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 358 - HME_RME_CLIENT_CONSUME_METADATA_RESPONSE_BEGIN
+###### Version: 0
 
 ## Description
 None

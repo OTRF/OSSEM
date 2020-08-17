@@ -1,4 +1,5 @@
 # Event 416 - ExclusiveUserCritTelemetry
+###### Version: 0
 
 ## Description
 None

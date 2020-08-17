@@ -1,4 +1,5 @@
 # Event ID 4703: A user right was adjusted.
+###### Version: 0
 
 ## Description
 This event generates when token privileges.

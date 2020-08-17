@@ -1,4 +1,5 @@
 # Event ID 4803: The screen saver was dismissed
+###### Version: 0
 
 ## Description
 This event is generated when screen saver was dismissed.

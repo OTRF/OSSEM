@@ -1,4 +1,5 @@
 # Event 20 - DirtyBootShutdown
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_DirtyBootShutdown
-* version_1

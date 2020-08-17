@@ -1,4 +1,5 @@
 # Event 18 - ExtensionCatalog_QueryCatalog
+###### Version: 0
 
 ## Description
 None

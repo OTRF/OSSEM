@@ -1,4 +1,5 @@
 # Event 25 - HTTPCacheTraceTask
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_HTTP_KEYWORD_CACHE
 * etw_opcode_AddedCacheEntry
 * etw_task_HTTPCacheTraceTask
-* version_1

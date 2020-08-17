@@ -1,4 +1,5 @@
 # Event 113 - ClaimPersistedMemory
+###### Version: 0
 
 ## Description
 None

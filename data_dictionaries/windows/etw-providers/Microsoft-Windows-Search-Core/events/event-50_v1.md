@@ -1,4 +1,5 @@
 # Event 50 - ClientQuery
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_Performance Querying
 * etw_opcode_Start
 * etw_task_ClientQuery
-* version_1

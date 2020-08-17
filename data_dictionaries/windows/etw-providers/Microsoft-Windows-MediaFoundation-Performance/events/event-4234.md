@@ -1,4 +1,5 @@
 # Event 4234 - SessionBitpumpError
+###### Version: 0
 
 ## Description
 None

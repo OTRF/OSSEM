@@ -1,4 +1,5 @@
 # Event 1029 - InfoBar_Click_Count_AddToIndex
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 182 - GetDeviceState
+###### Version: 0
 
 ## Description
 None

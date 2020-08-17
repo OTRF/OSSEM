@@ -1,4 +1,5 @@
 # Etc_hosts Table
+###### Version: 4.4.2
 
 ## Description
 Line-parsed /etc/hosts.
@@ -11,6 +12,3 @@ Line-parsed /etc/hosts.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#etc_hosts)
-
-## Tags
-* version_4.4.2

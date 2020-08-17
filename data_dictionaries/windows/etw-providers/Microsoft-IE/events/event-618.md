@@ -1,4 +1,5 @@
 # Event 618 - Mshtml_CDoc_PrepareForSetVisible
+###### Version: 0
 
 ## Description
 None

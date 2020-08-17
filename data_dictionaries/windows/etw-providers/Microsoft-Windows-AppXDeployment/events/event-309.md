@@ -1,4 +1,5 @@
 # Event 309 - AppXDeployment.Task.Client.Deployment
+###### Version: 0
 
 ## Description
 None

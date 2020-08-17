@@ -1,4 +1,5 @@
 # Event 3668 - LogTrace
+###### Version: 0
 
 ## Description
 None

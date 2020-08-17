@@ -1,4 +1,5 @@
 # Event 1235 - RssProcessorAssignment
+###### Version: 0
 
 ## Description
 None

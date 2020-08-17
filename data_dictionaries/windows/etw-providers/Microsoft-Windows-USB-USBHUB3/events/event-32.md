@@ -1,4 +1,5 @@
 # Event 32 - ReleaseHardware
+###### Version: 0
 
 ## Description
 None

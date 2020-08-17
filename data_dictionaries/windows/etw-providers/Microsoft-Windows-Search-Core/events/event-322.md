@@ -1,4 +1,5 @@
 # Event 322 - ETWLogging
+###### Version: 0
 
 ## Description
 None

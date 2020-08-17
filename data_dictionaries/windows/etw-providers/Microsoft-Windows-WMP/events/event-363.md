@@ -1,4 +1,5 @@
 # Event 363 - HME_CLIENT_UPDATE_METADATA
+###### Version: 0
 
 ## Description
 None

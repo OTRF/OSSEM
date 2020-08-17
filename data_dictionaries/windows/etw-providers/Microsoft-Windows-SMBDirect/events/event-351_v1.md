@@ -1,4 +1,5 @@
 # Event 351 - task_0
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Warning
 * etw_keywords_Accept
 * etw_task_task_0
-* version_1

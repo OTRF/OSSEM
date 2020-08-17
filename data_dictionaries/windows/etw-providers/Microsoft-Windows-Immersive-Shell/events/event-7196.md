@@ -1,4 +1,5 @@
 # Event 7196 - ConnectedSearch_LogParsingErrorEvent
+###### Version: 0
 
 ## Description
 None

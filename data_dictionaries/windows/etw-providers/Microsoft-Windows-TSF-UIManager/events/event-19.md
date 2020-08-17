@@ -1,4 +1,5 @@
 # Event 19 - UIManager_UpdateKeyboardRect
+###### Version: 0
 
 ## Description
 None

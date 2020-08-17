@@ -1,4 +1,5 @@
 # Appcompat_shims Table
+###### Version: 4.4.2
 
 ## Description
 Application Compatibility shims are a way to persist malware. This table presents the AppCompat Shim information from the registry in a nice format. See http://files.brucon.org/2015/Tomczak_and_Ballenthin_Shims_for_the_Win.pdf for more details.
@@ -15,6 +16,3 @@ Application Compatibility shims are a way to persist malware. This table present
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#appcompat_shims)
-
-## Tags
-* version_4.4.2

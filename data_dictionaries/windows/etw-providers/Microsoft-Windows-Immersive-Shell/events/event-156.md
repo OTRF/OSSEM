@@ -1,4 +1,5 @@
 # Event 156 - ImmersiveShellLayoutInvalidate
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 413 - Browseui_HangUI_AttachThreadInputHelper
+###### Version: 0
 
 ## Description
 None

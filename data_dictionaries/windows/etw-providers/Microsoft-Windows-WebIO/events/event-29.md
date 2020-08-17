@@ -1,4 +1,5 @@
 # Event 29 - SessionClose
+###### Version: 0
 
 ## Description
 None

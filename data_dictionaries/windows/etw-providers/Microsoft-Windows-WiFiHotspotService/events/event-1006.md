@@ -1,4 +1,5 @@
 # Event 1006 - HotspotService
+###### Version: 0
 
 ## Description
 None

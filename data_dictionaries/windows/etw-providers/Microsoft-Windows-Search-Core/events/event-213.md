@@ -1,4 +1,5 @@
 # Event 213 - CSearchCrawlScopeManager_AddUserScopeRule
+###### Version: 0
 
 ## Description
 None

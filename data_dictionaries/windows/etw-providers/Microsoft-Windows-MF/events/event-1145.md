@@ -1,4 +1,5 @@
 # Event 1145 - MediaFoundationAsyncWrapperProcessInput
+###### Version: 0
 
 ## Description
 None

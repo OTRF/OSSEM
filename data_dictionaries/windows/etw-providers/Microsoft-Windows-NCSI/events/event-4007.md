@@ -1,4 +1,5 @@
 # Event 4007 - WaitforCorporateConnectivity
+###### Version: 0
 
 ## Description
 None

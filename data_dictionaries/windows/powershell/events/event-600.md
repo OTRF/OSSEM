@@ -1,4 +1,5 @@
 # Event ID 600: Provider Lifecycle
+###### Version: 0
 
 ## Description
 Logs the start and stop of PowerShell providers. If the provider started is equal to <strong>WSMan</strong>, then it indicates the use rof PowerShell remoting

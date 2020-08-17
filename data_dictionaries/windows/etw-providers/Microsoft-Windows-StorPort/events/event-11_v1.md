@@ -1,4 +1,5 @@
 # Event 11 - Portresumedevice
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_PauseResume
 * etw_opcode_OpCodePortResumeDevice
 * etw_task_Portresumedevice
-* version_1

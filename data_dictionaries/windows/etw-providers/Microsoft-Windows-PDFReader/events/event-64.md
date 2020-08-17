@@ -1,4 +1,5 @@
 # Event 64 - SmoothZoom
+###### Version: 0
 
 ## Description
 None

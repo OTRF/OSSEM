@@ -1,4 +1,5 @@
 # Event 851 - Mshtml_PowerStateController_LowPowerState
+###### Version: 0
 
 ## Description
 None

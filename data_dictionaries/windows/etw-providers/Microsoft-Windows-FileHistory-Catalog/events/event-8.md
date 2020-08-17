@@ -1,4 +1,5 @@
 # Event 8 - AddNamespaceRecord
+###### Version: 0
 
 ## Description
 None

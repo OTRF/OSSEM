@@ -1,4 +1,5 @@
 # Event 1063 - IndirectSwapChainRelease
+###### Version: 0
 
 ## Description
 None

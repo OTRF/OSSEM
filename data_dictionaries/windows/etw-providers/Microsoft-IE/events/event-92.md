@@ -1,4 +1,5 @@
 # Event 92 - Mshtml_OffscreenBufferCreated
+###### Version: 0
 
 ## Description
 None

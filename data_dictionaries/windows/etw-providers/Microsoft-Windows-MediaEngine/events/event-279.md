@@ -1,4 +1,5 @@
 # Event 279 - MediaFoundationUpdateHistory
+###### Version: 0
 
 ## Description
 None

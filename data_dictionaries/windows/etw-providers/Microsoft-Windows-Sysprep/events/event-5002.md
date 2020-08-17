@@ -1,4 +1,5 @@
 # Event 5002 - Deletingfile(s)ofapattern
+###### Version: 0
 
 ## Description
 None

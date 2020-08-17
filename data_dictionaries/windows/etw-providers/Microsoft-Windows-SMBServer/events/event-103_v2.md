@@ -1,4 +1,5 @@
 # Event 103 - Smb2ResponseLogoff
+###### Version: 2
 
 ## Description
 None
@@ -36,4 +37,3 @@ None
 * etw_level_Informational
 * etw_keywords_Response
 * etw_task_Smb2ResponseLogoff
-* version_2

@@ -1,4 +1,5 @@
 # Event 94 - AllocationInfo
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Always
 * etw_keywords_Resources
 * etw_task_AllocationInfo
-* version_1

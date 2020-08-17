@@ -1,4 +1,5 @@
 # Event 447 - CreateVirtualGpu
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_Base
 * etw_opcode_Stop
 * etw_task_CreateVirtualGpu
-* version_1

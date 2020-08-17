@@ -1,4 +1,5 @@
 # Event 186 - MediaFoundationME_GetCurrentTime
+###### Version: 0
 
 ## Description
 None

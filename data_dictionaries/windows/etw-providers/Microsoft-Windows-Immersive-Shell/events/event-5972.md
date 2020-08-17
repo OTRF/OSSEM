@@ -1,4 +1,5 @@
 # Event 5972 - AppActivation_Log_RemediationBinaryInformation
+###### Version: 0
 
 ## Description
 None

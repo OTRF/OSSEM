@@ -1,4 +1,5 @@
 # Event 1530 - DocPerf_Task_ScanRT_ScanToFolder
+###### Version: 0
 
 ## Description
 None

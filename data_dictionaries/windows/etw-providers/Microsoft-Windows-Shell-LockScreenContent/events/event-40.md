@@ -1,4 +1,5 @@
 # Event 40 - LockScreenContent_ScheduleAnimation_Ambient
+###### Version: 0
 
 ## Description
 None

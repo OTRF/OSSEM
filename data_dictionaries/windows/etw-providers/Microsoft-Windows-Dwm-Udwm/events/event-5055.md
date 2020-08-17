@@ -1,4 +1,5 @@
 # Event 5055 - UdwmTouchDragVisual
+###### Version: 0
 
 ## Description
 None

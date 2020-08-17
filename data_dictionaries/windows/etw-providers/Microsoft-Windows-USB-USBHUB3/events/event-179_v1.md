@@ -1,4 +1,5 @@
 # Event 179 - ClientRequest
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_Default Enumeration HWVerifyHub
 * etw_opcode_Error
 * etw_task_ClientRequest
-* version_1

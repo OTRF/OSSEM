@@ -1,4 +1,5 @@
 # Event 44 - IOThreadCreation
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_ThreadingKeyword
 * etw_opcode_Start
 * etw_task_IOThreadCreation
-* version_1

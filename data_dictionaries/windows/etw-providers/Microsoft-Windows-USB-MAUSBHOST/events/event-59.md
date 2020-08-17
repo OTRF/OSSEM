@@ -1,4 +1,5 @@
 # Event 59 - PALManagementChannel
+###### Version: 0
 
 ## Description
 None

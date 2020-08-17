@@ -1,4 +1,5 @@
 # Event 1015 - DMR_GetMFSupportedPlaybackDLNAProfiles
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1 - BackgroundTask
+###### Version: 1
 
 ## Description
 None
@@ -23,4 +24,3 @@ None
 * etw_keywords_BackgroundTask LowOverheadDiag
 * etw_opcode_Start
 * etw_task_BackgroundTask
-* version_1

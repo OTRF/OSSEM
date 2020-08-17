@@ -1,4 +1,5 @@
 # Event ID 5027: The Windows Firewall Service was unable to retrieve the security policy from the local storage. The service will continue enforcing the current policy.
+###### Version: 0
 
 ## Description
 This error indicates one of two situations, low memory resources or Windows Firewall group policy registry corruption.

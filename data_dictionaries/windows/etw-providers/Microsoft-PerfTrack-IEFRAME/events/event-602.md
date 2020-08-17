@@ -1,4 +1,5 @@
 # Event 602 - Browseui_Tabs_CloseTab_Perftrack
+###### Version: 0
 
 ## Description
 None

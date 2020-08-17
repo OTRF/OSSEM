@@ -1,4 +1,5 @@
 # Event 7 - Mshtml_CMarkup_DOMContentLoadedEvent_Start
+###### Version: 0
 
 ## Description
 None

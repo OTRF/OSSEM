@@ -1,4 +1,5 @@
 # Event 6011 - GetConnectionGroups
+###### Version: 0
 
 ## Description
 None

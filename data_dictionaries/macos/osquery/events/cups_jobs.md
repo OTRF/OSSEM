@@ -1,4 +1,5 @@
 # Cups_jobs Table
+###### Version: 4.4.2
 
 ## Description
 Returns all completed print jobs from cups.
@@ -17,6 +18,3 @@ Returns all completed print jobs from cups.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#cups_jobs)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 250 - DeviceConfig
+###### Version: 0
 
 ## Description
 None

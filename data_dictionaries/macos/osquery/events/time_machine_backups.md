@@ -1,4 +1,5 @@
 # Time_machine_backups Table
+###### Version: 4.4.2
 
 ## Description
 Backups to drives using TimeMachine.
@@ -11,6 +12,3 @@ Backups to drives using TimeMachine.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#time_machine_backups)
-
-## Tags
-* version_4.4.2

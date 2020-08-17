@@ -1,4 +1,5 @@
 # Event 834 - WININET_AUTOPROXY_PERFTRACK_ALL
+###### Version: 0
 
 ## Description
 None

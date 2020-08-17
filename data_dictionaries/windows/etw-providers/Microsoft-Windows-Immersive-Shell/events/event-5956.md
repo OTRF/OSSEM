@@ -1,4 +1,5 @@
 # Event 5956 - AppActivation_Log_Elevated
+###### Version: 0
 
 ## Description
 None

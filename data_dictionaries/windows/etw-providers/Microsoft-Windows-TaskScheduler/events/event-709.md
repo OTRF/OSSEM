@@ -1,4 +1,5 @@
 # Event 709 - Compatibilitymoduletaskupdatefailed
+###### Version: 0
 
 ## Description
 None

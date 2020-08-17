@@ -1,4 +1,5 @@
 # Registry Table
+###### Version: 4.4.2
 
 ## Description
 All of the Windows registry hives.
@@ -15,6 +16,3 @@ All of the Windows registry hives.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#registry)
-
-## Tags
-* version_4.4.2

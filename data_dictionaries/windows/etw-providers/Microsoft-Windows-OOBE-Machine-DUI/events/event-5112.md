@@ -1,4 +1,5 @@
 # Event 5112 - WirelessPageVisibilityResult
+###### Version: 0
 
 ## Description
 None

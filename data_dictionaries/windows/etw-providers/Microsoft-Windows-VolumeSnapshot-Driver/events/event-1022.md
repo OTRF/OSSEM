@@ -1,4 +1,5 @@
 # Event 1022 - vs:ProtectedBitmap
+###### Version: 0
 
 ## Description
 None

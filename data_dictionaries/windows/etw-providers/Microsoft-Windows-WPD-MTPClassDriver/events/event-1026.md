@@ -1,4 +1,5 @@
 # Event 1026 - DeviceError
+###### Version: 0
 
 ## Description
 None

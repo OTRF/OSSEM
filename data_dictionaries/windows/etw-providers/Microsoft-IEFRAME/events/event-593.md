@@ -1,4 +1,5 @@
 # Event 593 - Browseui_BringBrowserTabAlternateOwnerForward
+###### Version: 0
 
 ## Description
 None

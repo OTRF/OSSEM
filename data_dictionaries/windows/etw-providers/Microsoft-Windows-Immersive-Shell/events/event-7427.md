@@ -1,4 +1,5 @@
 # Event 7427 - ConnectedSearch_LogImagesComplete
+###### Version: 0
 
 ## Description
 None

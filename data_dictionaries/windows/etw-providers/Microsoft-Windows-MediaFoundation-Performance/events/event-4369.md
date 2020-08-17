@@ -1,4 +1,5 @@
 # Event 4369 - MFGraphNotifyRateChange
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 9713 - Explorer_StartupAppName
+###### Version: 0
 
 ## Description
 None

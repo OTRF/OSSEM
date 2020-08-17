@@ -1,4 +1,5 @@
 # Event 1025 - WebAuthNNgcGetAssertion
+###### Version: 0
 
 ## Description
 None

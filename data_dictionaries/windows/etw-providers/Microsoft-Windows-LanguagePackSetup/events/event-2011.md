@@ -1,4 +1,5 @@
 # Event 2011 - Installinglanguagepack
+###### Version: 0
 
 ## Description
 None

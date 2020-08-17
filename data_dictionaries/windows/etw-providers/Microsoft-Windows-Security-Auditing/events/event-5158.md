@@ -1,4 +1,5 @@
 # Event ID 5158: The Windows Filtering Platform has permitted a bind to a local port
+###### Version: 0
 
 ## Description
 This event generates every time Windows Filtering Platform permits an application or service to bind to a local port.

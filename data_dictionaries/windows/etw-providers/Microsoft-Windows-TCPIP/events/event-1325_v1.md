@@ -1,4 +1,5 @@
 # Event 1325 - IpNeighborDiscovery
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Verbose
 * etw_keywords_ut:TcpipRoute
 * etw_task_IpNeighborDiscovery
-* version_1

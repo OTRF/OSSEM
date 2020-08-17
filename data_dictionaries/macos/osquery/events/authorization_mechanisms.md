@@ -1,4 +1,5 @@
 # Authorization_mechanisms Table
+###### Version: 4.4.2
 
 ## Description
 OS X Authorization mechanisms database.
@@ -14,6 +15,3 @@ OS X Authorization mechanisms database.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#authorization_mechanisms)
-
-## Tags
-* version_4.4.2

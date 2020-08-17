@@ -1,4 +1,5 @@
 # Event 64 - ProcessorPerformanceRundown
+###### Version: 6
 
 ## Description
 None
@@ -31,4 +32,3 @@ None
 * etw_level_Informational
 * etw_keywords_Diag PerfDiag
 * etw_task_ProcessorPerformanceRundown
-* version_6

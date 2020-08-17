@@ -1,4 +1,5 @@
 # Patches Table
+###### Version: 4.4.2
 
 ## Description
 Lists all the patches applied. Note: This does not include patches applied via MSI or downloaded from Windows Update (e.g. Service Packs).
@@ -17,6 +18,3 @@ Lists all the patches applied. Note: This does not include patches applied via M
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#patches)
-
-## Tags
-* version_4.4.2

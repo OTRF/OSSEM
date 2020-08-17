@@ -1,4 +1,5 @@
 # Event 433 - Bing_Suggestions_ServiceResponse
+###### Version: 0
 
 ## Description
 None

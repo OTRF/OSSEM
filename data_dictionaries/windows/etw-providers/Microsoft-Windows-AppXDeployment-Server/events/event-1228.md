@@ -1,4 +1,5 @@
 # Event 1228 - AppXDeployment.Task.Server.Deployment.SISOptimization
+###### Version: 0
 
 ## Description
 None

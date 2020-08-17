@@ -1,4 +1,5 @@
 # Event 7111 - Perf_RemoteDeleteCollectionBackup
+###### Version: 0
 
 ## Description
 None

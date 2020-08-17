@@ -1,4 +1,5 @@
 # Last Table
+###### Version: 4.4.2
 
 ## Description
 System logins and logouts.
@@ -15,6 +16,3 @@ System logins and logouts.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#last)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 2 - task_0
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Verbose
 * etw_keywords_Payload NCI
 * etw_task_task_0
-* version_1

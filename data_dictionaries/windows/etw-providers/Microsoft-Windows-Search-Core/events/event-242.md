@@ -1,4 +1,5 @@
 # Event 242 - CSearchRoot_get_IsHierarchical
+###### Version: 0
 
 ## Description
 None

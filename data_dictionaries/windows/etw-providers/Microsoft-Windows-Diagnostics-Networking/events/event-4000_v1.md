@@ -1,4 +1,5 @@
 # Event 4000 - DiagnosisSuccess
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_level_Informational
 * etw_keywords_ndf:NDFCoreEvents keyword_400000000000
 * etw_task_DiagnosisSuccess
-* version_1

@@ -1,4 +1,5 @@
 # Event 660 - Mshtml_CView_SetViewportMode_FixedLayoutWidth
+###### Version: 0
 
 ## Description
 None

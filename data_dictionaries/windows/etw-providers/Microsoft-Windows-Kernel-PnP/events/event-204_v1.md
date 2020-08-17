@@ -1,4 +1,5 @@
 # Event 204 - OsLoader
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_level_Informational
 * etw_keywords_Performance
 * etw_task_OsLoader
-* version_1

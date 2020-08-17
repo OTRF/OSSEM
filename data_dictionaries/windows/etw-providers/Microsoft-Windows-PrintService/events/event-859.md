@@ -1,4 +1,5 @@
 # Event 859 - Connectionreconfigured
+###### Version: 0
 
 ## Description
 None

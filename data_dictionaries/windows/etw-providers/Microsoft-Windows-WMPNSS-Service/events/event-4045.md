@@ -1,4 +1,5 @@
 # Event 4045 - Obj_Get_Search_Class_Element_Data
+###### Version: 0
 
 ## Description
 None

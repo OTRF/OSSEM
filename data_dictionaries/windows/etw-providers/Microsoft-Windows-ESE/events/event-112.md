@@ -1,4 +1,5 @@
 # Event 112 - ESE_TransactionCommit_Trace
+###### Version: 0
 
 ## Description
 None

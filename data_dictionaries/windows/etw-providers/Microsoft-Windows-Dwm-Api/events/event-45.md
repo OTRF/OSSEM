@@ -1,4 +1,5 @@
 # Event 45 - ApipDxGetWindowSharedSurface
+###### Version: 0
 
 ## Description
 None

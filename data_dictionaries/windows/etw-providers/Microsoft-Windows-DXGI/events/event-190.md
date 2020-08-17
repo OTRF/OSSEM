@@ -1,4 +1,5 @@
 # Event 190 - IDXGISwapChain_ResizeTarget
+###### Version: 0
 
 ## Description
 None

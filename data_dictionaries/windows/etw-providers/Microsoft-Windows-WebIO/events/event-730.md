@@ -1,4 +1,5 @@
 # Event 730 - SSLAcquireCredentialsHandle
+###### Version: 0
 
 ## Description
 None

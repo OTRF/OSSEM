@@ -1,4 +1,5 @@
 # Event 9555 - ExplorerFrame_OpenDocuments
+###### Version: 0
 
 ## Description
 None

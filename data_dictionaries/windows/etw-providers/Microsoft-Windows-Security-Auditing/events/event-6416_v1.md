@@ -1,4 +1,5 @@
 # Event ID 6416: A new external device was recognized by the System.
+###### Version: 1
 
 ## Description
 This event generates every time a new external device is recognized by a system.
@@ -26,6 +27,5 @@ This event generates every time a new external device is recognized by a system.
 ## Tags
 * etw_level_Informational
 * etw_task_task_0
-* version_1
 * Detailed Tracking
 * Audit PNP Activity

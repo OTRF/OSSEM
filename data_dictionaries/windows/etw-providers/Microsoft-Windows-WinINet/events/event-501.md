@@ -1,4 +1,5 @@
 # Event 501 - WININET_COOKIE_HEADER_RECEIVED
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1052 - DeviceError
+###### Version: 0
 
 ## Description
 None

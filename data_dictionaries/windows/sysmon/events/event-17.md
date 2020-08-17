@@ -1,7 +1,8 @@
 # Event ID 17: PipeEvent (Pipe Created)
+###### Version: 0
 
 ## Description
-This event generates when a named pipe is created. Malware often uses named pipes for interprocess communication.
+This event generates when a **named pipe is created**. Malware often uses named pipes for interprocess communication.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

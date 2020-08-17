@@ -1,4 +1,5 @@
 # Event 171 - RobotThread_FilterDriver_Init_Failed
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Error
 * etw_keywords_IndexingItem Gatherer
 * etw_task_RobotThread_FilterDriver_Init_Failed
-* version_1

@@ -1,4 +1,5 @@
 # Event 90 - Mshtml_CImgTask_Init
+###### Version: 0
 
 ## Description
 None

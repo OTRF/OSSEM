@@ -1,4 +1,5 @@
 # Event 1054 - Wininet_DHCP_I252WPAD
+###### Version: 0
 
 ## Description
 None

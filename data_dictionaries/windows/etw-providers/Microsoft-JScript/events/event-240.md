@@ -1,4 +1,5 @@
 # Event 240 - Jscript_GC_Init
+###### Version: 0
 
 ## Description
 None

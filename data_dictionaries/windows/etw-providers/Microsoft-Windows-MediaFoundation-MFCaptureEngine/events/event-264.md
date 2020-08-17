@@ -1,4 +1,5 @@
 # Event 264 - MFCaptureEngine_Camera_Sound_InitTask
+###### Version: 0
 
 ## Description
 None

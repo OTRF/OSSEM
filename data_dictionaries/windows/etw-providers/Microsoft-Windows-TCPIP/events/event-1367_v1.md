@@ -1,4 +1,5 @@
 # Event 1367 - TcpipNblOob
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 ## Tags
 * etw_keywords_ut:SendPath ut:ReceivePath
 * etw_task_TcpipNblOob
-* version_1

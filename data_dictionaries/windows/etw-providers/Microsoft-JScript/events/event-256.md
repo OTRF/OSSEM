@@ -1,4 +1,5 @@
 # Event 256 - Jscript_GC2
+###### Version: 0
 
 ## Description
 None

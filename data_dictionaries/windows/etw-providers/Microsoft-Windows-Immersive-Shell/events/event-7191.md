@@ -1,4 +1,5 @@
 # Event 7191 - ConnectedSearch_PerfPayload
+###### Version: 0
 
 ## Description
 None

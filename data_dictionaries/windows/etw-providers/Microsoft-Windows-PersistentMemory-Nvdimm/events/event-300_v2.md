@@ -1,4 +1,5 @@
 # Event 300 - task_0
+###### Version: 2
 
 ## Description
 None
@@ -48,4 +49,3 @@ None
 ## Tags
 * etw_level_Critical
 * etw_task_task_0
-* version_2

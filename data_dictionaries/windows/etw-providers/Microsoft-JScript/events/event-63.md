@@ -1,4 +1,5 @@
 # Event 63 - Jscript_Projection_GetBasicTypedArrayAsPropertyValue
+###### Version: 0
 
 ## Description
 None

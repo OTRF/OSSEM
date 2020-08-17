@@ -1,4 +1,5 @@
 # Event 5388 - Dashboard_Network_Adapter_WWanSetProperties
+###### Version: 0
 
 ## Description
 None

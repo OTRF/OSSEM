@@ -1,4 +1,5 @@
 # Oem_strings Table
+###### Version: 4.4.2
 
 ## Description
 OEM defined strings retrieved from SMBIOS.
@@ -12,6 +13,3 @@ OEM defined strings retrieved from SMBIOS.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#oem_strings)
-
-## Tags
-* version_4.4.2

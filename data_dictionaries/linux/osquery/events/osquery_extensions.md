@@ -1,4 +1,5 @@
 # Osquery_extensions Table
+###### Version: 4.4.2
 
 ## Description
 List of active osquery extensions.
@@ -15,6 +16,3 @@ List of active osquery extensions.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#osquery_extensions)
-
-## Tags
-* version_4.4.2

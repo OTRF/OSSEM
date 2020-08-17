@@ -1,4 +1,5 @@
 # Event 362 - VidMmWorkerThreadWake
+###### Version: 0
 
 ## Description
 None

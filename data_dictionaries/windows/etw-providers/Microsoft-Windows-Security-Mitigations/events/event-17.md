@@ -1,4 +1,5 @@
 # Event 17 - USER_MITIGATION_TASK_IMPORT_ADDRESS_FILTER
+###### Version: 0
 
 ## Description
 None

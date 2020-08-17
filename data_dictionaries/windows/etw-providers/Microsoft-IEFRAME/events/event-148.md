@@ -1,4 +1,5 @@
 # Event 148 - FavoritesBar_PopulateLinksMonitor
+###### Version: 0
 
 ## Description
 None

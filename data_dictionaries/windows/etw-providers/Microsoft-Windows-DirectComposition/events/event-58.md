@@ -1,4 +1,5 @@
 # Event 58 - INTERACTION_CONFIGURATION
+###### Version: 0
 
 ## Description
 None

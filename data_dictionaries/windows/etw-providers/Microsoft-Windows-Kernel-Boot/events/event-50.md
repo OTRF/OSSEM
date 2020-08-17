@@ -1,4 +1,5 @@
 # Event 50 - VsmLKeyProvisioningStatus
+###### Version: 0
 
 ## Description
 None

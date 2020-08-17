@@ -1,4 +1,5 @@
 # Event 325 - RME_CLIENT_ENUMERATE_LIBRARIES_REQUEST
+###### Version: 0
 
 ## Description
 None

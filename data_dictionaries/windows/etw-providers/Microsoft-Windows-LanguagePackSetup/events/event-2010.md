@@ -1,4 +1,5 @@
 # Event 2010 - Removinglanguagepack
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 6010 - GetConnectionGroups
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 390 - CHANNEL_CLOSED_FOR_PROCESS
+###### Version: 0
 
 ## Description
 None

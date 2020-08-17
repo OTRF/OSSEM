@@ -1,4 +1,5 @@
 # Event 82 - DirectUI_ModernProgressBarPercentCompleted
+###### Version: 0
 
 ## Description
 None

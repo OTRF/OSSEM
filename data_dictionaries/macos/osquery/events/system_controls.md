@@ -1,4 +1,5 @@
 # System_controls Table
+###### Version: 4.4.2
 
 ## Description
 sysctl names, values, and settings information.
@@ -16,6 +17,3 @@ sysctl names, values, and settings information.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#system_controls)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 7288 - ConnectedSearch_TemplateDownloadEvent
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1808 - ID3D11VideoContext_NegotiateCryptoSessionKeyExchange
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 328 - NotificationBar_Animate
+###### Version: 0
 
 ## Description
 None

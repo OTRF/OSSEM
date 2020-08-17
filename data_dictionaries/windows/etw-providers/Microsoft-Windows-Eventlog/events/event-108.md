@@ -1,4 +1,5 @@
 # Event 108 - SystemAbnormalShutdown
+###### Version: 0
 
 ## Description
 None

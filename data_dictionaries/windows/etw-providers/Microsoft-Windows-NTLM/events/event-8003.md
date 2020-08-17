@@ -1,4 +1,5 @@
 # Event 8003 - AuditingNTLM
+###### Version: 0
 
 ## Description
 None

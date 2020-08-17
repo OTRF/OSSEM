@@ -1,4 +1,5 @@
 # Event 7400 - ConnectedSearch_LogTemplateFallbackPayload
+###### Version: 0
 
 ## Description
 None

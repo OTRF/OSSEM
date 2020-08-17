@@ -1,4 +1,5 @@
 # Event 112 - PowerSettingChange
+###### Version: 0
 
 ## Description
 None

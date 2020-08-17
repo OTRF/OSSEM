@@ -1,4 +1,5 @@
 # Event 3500 - LogTrace
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 856 - Connectionreconfigured
+###### Version: 0
 
 ## Description
 None

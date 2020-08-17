@@ -1,4 +1,5 @@
 # Event 6021 - DocPerf_Task_Scan_Service_Startup
+###### Version: 0
 
 ## Description
 None

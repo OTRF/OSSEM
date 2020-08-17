@@ -1,4 +1,5 @@
 # Event 4235 - SessionBitpumpCriticalError
+###### Version: 0
 
 ## Description
 None

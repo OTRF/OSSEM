@@ -1,4 +1,5 @@
 # Deb_packages Table
+###### Version: 4.4.2
 
 ## Description
 The installed DEB package database.
@@ -15,6 +16,3 @@ The installed DEB package database.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#deb_packages)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 2001 - InterfaceHotspotNotification
+###### Version: 0
 
 ## Description
 None

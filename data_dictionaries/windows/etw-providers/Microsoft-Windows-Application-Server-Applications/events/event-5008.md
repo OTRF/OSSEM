@@ -1,4 +1,5 @@
 # Event 5008 - GenerateSerializer
+###### Version: 0
 
 ## Description
 None

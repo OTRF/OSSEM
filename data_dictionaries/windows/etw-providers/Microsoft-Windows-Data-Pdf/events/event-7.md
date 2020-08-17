@@ -1,4 +1,5 @@
 # Event 7 - EncodePageRendering
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 751 - EdgeHTML_Webview_AppPermissionResponse
+###### Version: 0
 
 ## Description
 None

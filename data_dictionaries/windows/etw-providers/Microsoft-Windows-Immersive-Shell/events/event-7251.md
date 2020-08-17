@@ -1,4 +1,5 @@
 # Event 7251 - ConnectedSearch_LogAppResize
+###### Version: 0
 
 ## Description
 None

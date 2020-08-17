@@ -1,4 +1,5 @@
 # Event 659 - HistoryJournal
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 153 - OPEN_SHARED_TEXTURE_EVENT
+###### Version: 0
 
 ## Description
 None

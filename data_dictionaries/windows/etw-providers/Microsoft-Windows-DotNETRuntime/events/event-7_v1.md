@@ -1,4 +1,5 @@
 # Event 7 - GC
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_GCKeyword
 * etw_opcode_RestartEEStart
 * etw_task_GC
-* version_1

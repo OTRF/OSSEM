@@ -1,4 +1,5 @@
 # Event 6 - KERNEL_MITIGATION_TASK_PROHIBIT_LOWIL_IMAGE_MAP
+###### Version: 0
 
 ## Description
 None

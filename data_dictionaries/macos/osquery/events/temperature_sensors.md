@@ -1,4 +1,5 @@
 # Temperature_sensors Table
+###### Version: 4.4.2
 
 ## Description
 Machine's temperature sensors.
@@ -13,6 +14,3 @@ Machine's temperature sensors.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#temperature_sensors)
-
-## Tags
-* version_4.4.2

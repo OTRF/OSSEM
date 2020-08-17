@@ -1,4 +1,5 @@
 # Event 7152 - Perf_WLRoamCreateOrUpdateDeviceBackupFolder
+###### Version: 0
 
 ## Description
 None

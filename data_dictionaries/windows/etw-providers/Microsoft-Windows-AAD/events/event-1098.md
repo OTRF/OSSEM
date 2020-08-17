@@ -1,4 +1,5 @@
 # Event 1098 - AadTokenBrokerPluginOperation
+###### Version: 0
 
 ## Description
 None

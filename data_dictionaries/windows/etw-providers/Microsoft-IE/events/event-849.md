@@ -1,4 +1,5 @@
 # Event 849 - Mshtml_PowerStateController_Visible
+###### Version: 0
 
 ## Description
 None

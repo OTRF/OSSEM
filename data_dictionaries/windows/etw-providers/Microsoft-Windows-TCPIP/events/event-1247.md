@@ -1,4 +1,5 @@
 # Event 1247 - RssBindingCapability
+###### Version: 0
 
 ## Description
 None

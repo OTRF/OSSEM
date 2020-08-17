@@ -1,4 +1,5 @@
 # Event 9619 - Explorer_StartMenu_Games_Launch
+###### Version: 0
 
 ## Description
 None

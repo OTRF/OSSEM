@@ -1,4 +1,5 @@
 # Disk_encryption Table
+###### Version: 4.4.2
 
 ## Description
 Disk encryption status and information.
@@ -16,6 +17,3 @@ Disk encryption status and information.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#disk_encryption)
-
-## Tags
-* version_4.4.2

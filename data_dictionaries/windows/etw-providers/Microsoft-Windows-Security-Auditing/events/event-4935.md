@@ -1,4 +1,5 @@
 # Event ID 4935: Replication failure begins.
+###### Version: 0
 
 ## Description
 This event generates when Active Directory replication failure begins.

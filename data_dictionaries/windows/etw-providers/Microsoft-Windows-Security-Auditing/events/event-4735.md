@@ -1,4 +1,5 @@
 # Event ID 4735: A security-enabled local group was changed
+###### Version: 0
 
 ## Description
 This event generates every time a security-enabled (security) local group is changed.

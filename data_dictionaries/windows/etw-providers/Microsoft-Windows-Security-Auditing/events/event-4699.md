@@ -1,4 +1,5 @@
 # Event ID 4699: A scheduled task was deleted
+###### Version: 0
 
 ## Description
 This event generates every time a scheduled task was deleted.

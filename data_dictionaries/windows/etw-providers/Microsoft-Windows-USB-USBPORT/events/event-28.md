@@ -1,4 +1,5 @@
 # Event 28 - URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE
+###### Version: 0
 
 ## Description
 None

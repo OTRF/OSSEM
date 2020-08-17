@@ -1,4 +1,5 @@
 # Event 8020 - UserAccount_AddUserDialog_NewOnlineUserAdded
+###### Version: 0
 
 ## Description
 None

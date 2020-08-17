@@ -1,4 +1,5 @@
 # Event 83 - DirectUI_ModernProgressRingSize
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 2103 - PnporPowerManagementoperationtoaparticulardevice.
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_level_Error
 * etw_opcode_Stop
 * etw_task_PnporPowerManagementoperationtoaparticulardevice.
-* version_1

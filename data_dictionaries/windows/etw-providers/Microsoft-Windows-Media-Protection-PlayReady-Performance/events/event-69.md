@@ -1,4 +1,5 @@
 # Event 69 - CBlackboxWithTEEProcessLicenseToStore
+###### Version: 0
 
 ## Description
 None

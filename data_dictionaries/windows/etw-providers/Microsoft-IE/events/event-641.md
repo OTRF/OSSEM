@@ -1,4 +1,5 @@
 # Event 641 - Mshtml_CDoc_HostPaintUpdateNotification
+###### Version: 0
 
 ## Description
 None

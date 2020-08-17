@@ -1,4 +1,5 @@
 # Event 1015 - WinNatStaticBindingEvent
+###### Version: 0
 
 ## Description
 None

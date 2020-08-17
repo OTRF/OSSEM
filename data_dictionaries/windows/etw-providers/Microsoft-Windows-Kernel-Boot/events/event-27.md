@@ -1,4 +1,5 @@
 # Event 27 - BootType
+###### Version: 0
 
 ## Description
 None

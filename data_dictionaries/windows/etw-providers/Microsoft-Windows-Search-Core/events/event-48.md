@@ -1,4 +1,5 @@
 # Event 48 - HighPriorityThreadBoost
+###### Version: 0
 
 ## Description
 None

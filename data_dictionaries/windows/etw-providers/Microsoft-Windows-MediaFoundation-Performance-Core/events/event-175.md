@@ -1,4 +1,5 @@
 # Event 175 - Notification_OnDeviceRemoved_Task
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Drivers Table
+###### Version: 4.4.2
 
 ## Description
 Details for in-use Windows device drivers. This does not display installed but unused drivers.
@@ -23,6 +24,3 @@ Details for in-use Windows device drivers. This does not display installed but u
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#drivers)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 936 - Shell_ShowTool_Debugger
+###### Version: 0
 
 ## Description
 None

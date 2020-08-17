@@ -1,4 +1,5 @@
 # Event 277 - VidMmDereferenceObjectAsync
+###### Version: 0
 
 ## Description
 None

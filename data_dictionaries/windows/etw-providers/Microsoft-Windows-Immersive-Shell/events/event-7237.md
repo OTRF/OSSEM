@@ -1,4 +1,5 @@
 # Event 7237 - ConnectedSearch_LogLocalLayout
+###### Version: 0
 
 ## Description
 None

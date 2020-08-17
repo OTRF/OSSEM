@@ -1,4 +1,5 @@
 # Event 534 - PowerAggregatorSessionEnd
+###### Version: 0
 
 ## Description
 None

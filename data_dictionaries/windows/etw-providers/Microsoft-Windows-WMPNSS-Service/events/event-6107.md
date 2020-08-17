@@ -1,4 +1,5 @@
 # Event 6107 - DeviceRemoved
+###### Version: 0
 
 ## Description
 None

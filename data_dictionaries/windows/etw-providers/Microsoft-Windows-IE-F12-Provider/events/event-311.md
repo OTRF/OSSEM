@@ -1,4 +1,5 @@
 # Event 311 - Debugger_CloseDocument
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 932 - Shell_ShowTool_Console
+###### Version: 0
 
 ## Description
 None

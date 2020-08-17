@@ -1,4 +1,5 @@
 # Event 11 - RundownInstrumentation
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_keywords_RundownInstrumentation
 * etw_task_RundownInstrumentation
-* version_1

@@ -1,4 +1,5 @@
 # Event 707 - Compatibilitymoduletaskdeletionfailed
+###### Version: 0
 
 ## Description
 None

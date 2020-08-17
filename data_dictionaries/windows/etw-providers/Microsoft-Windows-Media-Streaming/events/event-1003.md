@@ -1,4 +1,5 @@
 # Event 1003 - DMR_RegisterAsDMR
+###### Version: 0
 
 ## Description
 None

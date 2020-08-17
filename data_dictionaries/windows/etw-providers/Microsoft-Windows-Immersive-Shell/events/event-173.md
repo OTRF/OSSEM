@@ -1,4 +1,5 @@
 # Event 173 - ImmersiveShellAppManagerWindowTitleChange
+###### Version: 0
 
 ## Description
 None

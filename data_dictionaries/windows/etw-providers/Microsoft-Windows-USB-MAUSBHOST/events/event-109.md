@@ -1,4 +1,5 @@
 # Event 109 - PALManagementChannel
+###### Version: 0
 
 ## Description
 None

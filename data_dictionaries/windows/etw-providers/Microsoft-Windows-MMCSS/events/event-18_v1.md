@@ -1,4 +1,5 @@
 # Event 18 - ThreadBuffering
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Informational
 * etw_opcode_Stop
 * etw_task_ThreadBuffering
-* version_1

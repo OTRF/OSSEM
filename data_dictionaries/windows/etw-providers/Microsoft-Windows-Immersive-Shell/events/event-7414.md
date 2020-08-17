@@ -1,4 +1,5 @@
 # Event 7414 - ConnectedSearch_Settings_ShareHistory
+###### Version: 0
 
 ## Description
 None

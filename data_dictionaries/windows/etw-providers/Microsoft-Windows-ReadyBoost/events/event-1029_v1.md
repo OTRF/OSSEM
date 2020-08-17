@@ -1,4 +1,5 @@
 # Event 1029 - HybridDrive
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Informational
 * etw_keywords_ReadyBoost
 * etw_task_HybridDrive
-* version_1

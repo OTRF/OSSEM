@@ -1,4 +1,5 @@
 # Event 55 - Summary2
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_Summary2
-* version_1

@@ -1,4 +1,5 @@
 # Event 710 - Mshtml_CDragPreview_RenderPreview
+###### Version: 0
 
 ## Description
 None

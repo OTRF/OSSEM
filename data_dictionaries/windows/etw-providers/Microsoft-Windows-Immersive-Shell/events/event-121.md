@@ -1,4 +1,5 @@
 # Event 121 - ImmersiveShellAppManagerModeNotification
+###### Version: 0
 
 ## Description
 None

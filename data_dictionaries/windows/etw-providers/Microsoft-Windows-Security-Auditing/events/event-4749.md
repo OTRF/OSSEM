@@ -1,4 +1,5 @@
 # Event ID 4749: A security-disabled global group was created
+###### Version: 0
 
 ## Description
 This event generates every time a new security-disabled (distribution) global group was created. This event generates only on domain controllers.

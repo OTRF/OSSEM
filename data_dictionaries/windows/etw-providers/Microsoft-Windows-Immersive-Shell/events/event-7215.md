@@ -1,4 +1,5 @@
 # Event 7215 - ConnectedSearch_SentUploadRequest
+###### Version: 0
 
 ## Description
 None

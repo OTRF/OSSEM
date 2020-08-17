@@ -1,4 +1,5 @@
 # Event 108 - FatalError
+###### Version: 0
 
 ## Description
 None

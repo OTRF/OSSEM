@@ -1,4 +1,5 @@
 # Event 504 - Mshtml_Composition_Destination_Invalid_Region
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 708 - BAM_SanitizePackage
+###### Version: 0
 
 ## Description
 None

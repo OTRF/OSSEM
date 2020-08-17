@@ -1,4 +1,5 @@
 # Event 2325 - CtapNfcSwitchToU2F
+###### Version: 0
 
 ## Description
 None

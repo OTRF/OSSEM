@@ -1,4 +1,5 @@
 # Event 36 - DeviceAllocation
+###### Version: 1
 
 ## Description
 None
@@ -24,4 +25,3 @@ None
 * etw_keywords_Resource
 * etw_opcode_Start
 * etw_task_DeviceAllocation
-* version_1

@@ -1,4 +1,5 @@
 # Event 535 - Devicepotentiallyfailed.
+###### Version: 1
 
 ## Description
 None
@@ -22,4 +23,3 @@ None
 * etw_keywords_PortNotification
 * etw_opcode_Devicepotentiallyfailed.
 * etw_task_Devicepotentiallyfailed.
-* version_1

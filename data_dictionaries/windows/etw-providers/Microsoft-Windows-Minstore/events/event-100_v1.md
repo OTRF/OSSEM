@@ -1,4 +1,5 @@
 # Event 100 - ErrorDetected
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Informational
 * etw_opcode_B+nodeCRCmismatch
 * etw_task_ErrorDetected
-* version_1

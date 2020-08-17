@@ -1,4 +1,5 @@
 # Event 1011 - StoreLogEmpty
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Informational
 * etw_keywords_StoreLog
 * etw_task_StoreLogEmpty
-* version_1

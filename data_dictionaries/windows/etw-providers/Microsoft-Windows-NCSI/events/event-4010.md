@@ -1,4 +1,5 @@
 # Event 4010 - CheckCorporateInside/outsideLocation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 208 - Class
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_keywords_Read Write PagingRead PagingWrite LowMemoryRead LowMemoryWrite
 * etw_opcode_Completionofrequest.
 * etw_task_Class
-* version_1

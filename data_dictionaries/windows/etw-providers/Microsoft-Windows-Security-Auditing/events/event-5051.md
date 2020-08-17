@@ -1,4 +1,5 @@
 # Event ID 5051: A file was virtualized
+###### Version: 0
 
 ## Description
 This event should be generated when file was virtualized using LUAFV.

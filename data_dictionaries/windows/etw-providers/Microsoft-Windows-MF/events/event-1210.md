@@ -1,4 +1,5 @@
 # Event 1210 - MediaFoundationSyncProcessOutput(MFT)
+###### Version: 0
 
 ## Description
 None

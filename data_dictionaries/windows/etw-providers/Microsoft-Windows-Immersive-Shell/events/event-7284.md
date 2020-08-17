@@ -1,4 +1,5 @@
 # Event 7284 - ConnectedSearch_LogRequestStart
+###### Version: 0
 
 ## Description
 None

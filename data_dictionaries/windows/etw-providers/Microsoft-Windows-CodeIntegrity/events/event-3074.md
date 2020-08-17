@@ -1,4 +1,5 @@
 # Event 3074 - ValidatePageHash
+###### Version: 0
 
 ## Description
 None

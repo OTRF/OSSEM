@@ -1,4 +1,5 @@
 # Event 213 - MediaFoundationSubtitleQueued
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 812 - Mshtml_CBase_ReleasePrivateRef
+###### Version: 0
 
 ## Description
 None

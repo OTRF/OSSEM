@@ -1,4 +1,5 @@
 # Event 637 - Mshtml_CGarbageTracker_CollectGarbage
+###### Version: 0
 
 ## Description
 None

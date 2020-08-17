@@ -1,4 +1,5 @@
 # Event 76 - Mshtml_CImgTaskExec
+###### Version: 0
 
 ## Description
 None

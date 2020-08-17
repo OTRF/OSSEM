@@ -1,4 +1,5 @@
 # Nvram Table
+###### Version: 4.4.2
 
 ## Description
 Apple NVRAM variable listing.
@@ -12,6 +13,3 @@ Apple NVRAM variable listing.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#nvram)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 223 - MediaCaptureTrySetEncodingPropertiesoperation
+###### Version: 0
 
 ## Description
 None

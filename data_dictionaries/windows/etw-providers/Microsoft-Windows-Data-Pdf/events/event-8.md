@@ -1,4 +1,5 @@
 # Event 8 - EncodePageRendering
+###### Version: 0
 
 ## Description
 None

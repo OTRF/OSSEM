@@ -1,4 +1,5 @@
 # Event 599 - Browseui_HungTabHeartBeat_Timer_Invisible
+###### Version: 0
 
 ## Description
 None

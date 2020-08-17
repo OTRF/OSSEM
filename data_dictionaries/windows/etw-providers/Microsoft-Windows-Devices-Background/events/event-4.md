@@ -1,4 +1,5 @@
 # Event 4 - Applicationinitiateddeviceservicing/updatetask
+###### Version: 0
 
 ## Description
 None

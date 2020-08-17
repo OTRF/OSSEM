@@ -1,4 +1,5 @@
 # Event 2 - LoadingaBidirectionalCommunicationSchemaextensionfileintotheUSBPortMonitor
+###### Version: 0
 
 ## Description
 None

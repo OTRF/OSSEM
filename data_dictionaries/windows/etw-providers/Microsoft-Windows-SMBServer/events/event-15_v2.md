@@ -1,4 +1,5 @@
 # Event 15 - Smb2RequestAcknowledgeBreakLease
+###### Version: 2
 
 ## Description
 None
@@ -27,4 +28,3 @@ None
 * etw_level_Informational
 * etw_keywords_Request
 * etw_task_Smb2RequestAcknowledgeBreakLease
-* version_2

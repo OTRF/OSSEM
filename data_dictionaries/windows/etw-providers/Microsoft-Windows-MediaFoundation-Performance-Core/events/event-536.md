@@ -1,4 +1,5 @@
 # Event 536 - AudCaptureStream_DestroyCaptureStream
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1103 - SensorsDefaultDeviceSelectionTask
+###### Version: 0
 
 ## Description
 None

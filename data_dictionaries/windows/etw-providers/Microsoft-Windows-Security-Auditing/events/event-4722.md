@@ -1,4 +1,5 @@
 # Event ID 4722: A user account was enabled
+###### Version: 0
 
 ## Description
 This event generates every time user or computer object is enabled.

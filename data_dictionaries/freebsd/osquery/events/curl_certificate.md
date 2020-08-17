@@ -1,4 +1,5 @@
 # Curl_certificate Table
+###### Version: 4.4.2
 
 ## Description
 Inspect TLS certificates by connecting to input hostnames.
@@ -21,6 +22,3 @@ Inspect TLS certificates by connecting to input hostnames.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#curl_certificate)
-
-## Tags
-* version_4.4.2

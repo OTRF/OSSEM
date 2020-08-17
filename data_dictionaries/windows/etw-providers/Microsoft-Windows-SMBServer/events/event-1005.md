@@ -1,4 +1,5 @@
 # Event 1005 - SrvNegotiateValidationFailure
+###### Version: 0
 
 ## Description
 None

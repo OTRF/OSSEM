@@ -1,4 +1,5 @@
 # Event 171 - ImmersiveShellAppManagerApplicationStateChange
+###### Version: 0
 
 ## Description
 None

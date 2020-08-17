@@ -1,4 +1,5 @@
 # Event 809 - WINHTTP_AUTOPROXY_DOWNLOAD
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_WINHTTP_KEYWORD_AUTOPROXY
 * etw_opcode_Start
 * etw_task_WINHTTP_AUTOPROXY_DOWNLOAD
-* version_1

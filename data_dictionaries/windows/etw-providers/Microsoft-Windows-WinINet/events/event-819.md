@@ -1,4 +1,5 @@
 # Event 819 - WININET_AUTOPROXY_SWPAD
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 5 - Smb2RequestTreeDisconnect
+###### Version: 2
 
 ## Description
 None
@@ -22,4 +23,3 @@ None
 * etw_level_Informational
 * etw_keywords_Request
 * etw_task_Smb2RequestTreeDisconnect
-* version_2

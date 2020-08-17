@@ -1,4 +1,5 @@
 # Event 4249 - SessionClose
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 304 - DeviceRegistrationRundown
+###### Version: 0
 
 ## Description
 None

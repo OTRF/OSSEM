@@ -1,4 +1,5 @@
 # Event 108 - XSSFilter_RuleCheck
+###### Version: 0
 
 ## Description
 None

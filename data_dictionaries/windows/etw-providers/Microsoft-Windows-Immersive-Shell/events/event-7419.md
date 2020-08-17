@@ -1,4 +1,5 @@
 # Event 7419 - ConnectedSearch_ImageDownloaderDeferredPreFetchTask
+###### Version: 0
 
 ## Description
 None

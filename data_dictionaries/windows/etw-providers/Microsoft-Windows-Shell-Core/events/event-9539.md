@@ -1,4 +1,5 @@
 # Event 9539 - Explorer_StartMenu_SPAD_Launch
+###### Version: 0
 
 ## Description
 None

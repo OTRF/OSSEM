@@ -1,4 +1,5 @@
 # Event 1098 - DataLayer_RSMNotification
+###### Version: 0
 
 ## Description
 None

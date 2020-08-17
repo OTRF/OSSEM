@@ -1,4 +1,5 @@
 # Event 6 - CPL_DefaultPrograms_ProgramsPage_ChooseDefaultsClicks
+###### Version: 0
 
 ## Description
 None

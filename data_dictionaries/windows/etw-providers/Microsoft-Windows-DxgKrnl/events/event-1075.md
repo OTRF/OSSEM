@@ -1,4 +1,5 @@
 # Event 1075 - OutputDuplicationReleaseFrame
+###### Version: 0
 
 ## Description
 None

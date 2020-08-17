@@ -1,4 +1,5 @@
 # Event 192 - Dxgk_Diag_OutputDupl_Connect
+###### Version: 0
 
 ## Description
 None

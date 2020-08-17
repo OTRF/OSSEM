@@ -1,4 +1,5 @@
 # Event 5122 - WirelessWizardPage_SectionReady
+###### Version: 0
 
 ## Description
 None

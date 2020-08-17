@@ -1,4 +1,5 @@
 # Event 228 - CSearchCrawlScopeManager_RemoveRoot
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 3095 - RefreshPolicyTask
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_level_Warning
 * etw_opcode_RefreshPolicyOp
 * etw_task_RefreshPolicyTask
-* version_1

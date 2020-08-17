@@ -1,4 +1,5 @@
 # Apparmor_profiles Table
+###### Version: 4.4.2
 
 ## Description
 Track active AppArmor profiles.
@@ -14,6 +15,3 @@ Track active AppArmor profiles.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#apparmor_profiles)
-
-## Tags
-* version_4.4.2

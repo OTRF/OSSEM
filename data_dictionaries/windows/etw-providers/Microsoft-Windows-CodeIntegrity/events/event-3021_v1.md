@@ -1,4 +1,5 @@
 # Event 3021 - CreateSection
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Warning
 * etw_opcode_RevokedDriverLoaded
 * etw_task_CreateSection
-* version_1

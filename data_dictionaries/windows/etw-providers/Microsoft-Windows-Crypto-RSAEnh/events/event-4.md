@@ -1,4 +1,5 @@
 # Event 4 - DeleteFileInStorageArea
+###### Version: 0
 
 ## Description
 None

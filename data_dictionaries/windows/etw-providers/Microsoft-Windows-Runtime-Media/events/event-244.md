@@ -1,4 +1,5 @@
 # Event 244 - MediaCaptureLifetime
+###### Version: 0
 
 ## Description
 None

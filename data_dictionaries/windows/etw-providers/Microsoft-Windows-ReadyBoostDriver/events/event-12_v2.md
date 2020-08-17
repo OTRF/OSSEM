@@ -1,4 +1,5 @@
 # Event 12 - ReadyBootIO
+###### Version: 2
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Informational
 * etw_keywords_ReadyBoot
 * etw_task_ReadyBootIO
-* version_2

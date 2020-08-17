@@ -1,4 +1,5 @@
 # Event 7611 - ContainerDeletion
+###### Version: 0
 
 ## Description
 None

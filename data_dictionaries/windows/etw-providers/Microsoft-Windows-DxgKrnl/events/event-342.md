@@ -1,4 +1,5 @@
 # Event 342 - HardwareContentProtectionTeardown
+###### Version: 0
 
 ## Description
 None

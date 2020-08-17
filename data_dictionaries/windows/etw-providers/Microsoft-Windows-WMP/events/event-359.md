@@ -1,4 +1,5 @@
 # Event 359 - HME_RME_CLIENT_CONSUME_METADATA_RESPONSE_END
+###### Version: 0
 
 ## Description
 None

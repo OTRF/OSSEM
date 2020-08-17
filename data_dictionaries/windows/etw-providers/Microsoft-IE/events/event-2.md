@@ -1,4 +1,5 @@
 # Event 2 - Mshtml_CDoc_OnPaint
+###### Version: 0
 
 ## Description
 None

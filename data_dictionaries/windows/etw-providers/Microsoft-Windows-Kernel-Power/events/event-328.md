@@ -1,4 +1,5 @@
 # Event 328 - ComponentPerformanceState
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Memory_devices Table
+###### Version: 4.4.2
 
 ## Description
 Physical memory device (type 17) information retrieved from SMBIOS.
@@ -29,6 +30,3 @@ Physical memory device (type 17) information retrieved from SMBIOS.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#memory_devices)
-
-## Tags
-* version_4.4.2

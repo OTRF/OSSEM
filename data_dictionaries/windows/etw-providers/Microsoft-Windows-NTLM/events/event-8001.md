@@ -1,4 +1,5 @@
 # Event 8001 - AuditingNTLM
+###### Version: 0
 
 ## Description
 None

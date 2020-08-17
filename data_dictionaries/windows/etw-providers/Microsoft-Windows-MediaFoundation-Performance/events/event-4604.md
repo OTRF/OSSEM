@@ -1,4 +1,5 @@
 # Event 4604 - MFContentProtectionDeviceCalltask
+###### Version: 0
 
 ## Description
 None

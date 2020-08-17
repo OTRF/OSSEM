@@ -1,4 +1,5 @@
 # Event 6050 - GetConfiguration
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 7555 - PnP_PlugPlay_DeviceInstall
+###### Version: 0
 
 ## Description
 None

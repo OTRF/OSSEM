@@ -1,4 +1,5 @@
 # Event 477 - WMPDMR_RENDERING_CONTROL_ACTIONS
+###### Version: 0
 
 ## Description
 None

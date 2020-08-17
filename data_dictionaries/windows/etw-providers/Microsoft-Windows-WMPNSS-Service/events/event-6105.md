@@ -1,4 +1,5 @@
 # Event 6105 - DeviceAdded
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 297 - MIDMANIPULATION_UPDATE_VISUAL_REMOVAL
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1207 - SensorClassExtensionPostEventHandler
+###### Version: 0
 
 ## Description
 None

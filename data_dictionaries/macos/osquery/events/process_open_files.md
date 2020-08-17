@@ -1,4 +1,5 @@
 # Process_open_files Table
+###### Version: 4.4.2
 
 ## Description
 File descriptors for each process.
@@ -12,6 +13,3 @@ File descriptors for each process.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#process_open_files)
-
-## Tags
-* version_4.4.2

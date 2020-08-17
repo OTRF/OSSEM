@@ -1,4 +1,5 @@
 # Event 215 - ESE_tagDDLWrite_Trace
+###### Version: 0
 
 ## Description
 None

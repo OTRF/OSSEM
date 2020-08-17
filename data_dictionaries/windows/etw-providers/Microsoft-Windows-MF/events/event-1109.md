@@ -1,4 +1,5 @@
 # Event 1109 - MediaFoundationIMFSampleProtection_GetOutputProtectionVersion
+###### Version: 0
 
 ## Description
 None

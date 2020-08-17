@@ -1,4 +1,5 @@
 # Event 515 - Mshtml_Composition_Layer_Dependent_Subtree
+###### Version: 0
 
 ## Description
 None

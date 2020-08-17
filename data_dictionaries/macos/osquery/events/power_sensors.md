@@ -1,4 +1,5 @@
 # Power_sensors Table
+###### Version: 4.4.2
 
 ## Description
 Machine power (currents, voltages, wattages, etc) sensors.
@@ -13,6 +14,3 @@ Machine power (currents, voltages, wattages, etc) sensors.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#power_sensors)
-
-## Tags
-* version_4.4.2

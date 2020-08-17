@@ -1,4 +1,5 @@
 # Event ID 4727: A security-enabled global group was created.
+###### Version: 0
 
 ## Description
 Event 4727 is the same as 4731, but it is generated for a global security group instead of a local security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.

@@ -1,4 +1,5 @@
 # Event 783 - Mshtml_Media_Capture_Sample_Requested
+###### Version: 0
 
 ## Description
 None

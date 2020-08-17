@@ -1,4 +1,5 @@
 # Osquery_schedule Table
+###### Version: 4.4.2
 
 ## Description
 Information about the current queries that are scheduled in osquery.
@@ -16,6 +17,3 @@ Information about the current queries that are scheduled in osquery.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#osquery_schedule)
-
-## Tags
-* version_4.4.2

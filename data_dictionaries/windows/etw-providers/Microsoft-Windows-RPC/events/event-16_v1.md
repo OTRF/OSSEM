@@ -1,4 +1,5 @@
 # Event 16 - FunctionTrace
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Informational
 * etw_opcode_Start
 * etw_task_FunctionTrace
-* version_1

@@ -1,4 +1,5 @@
 # Event 9047 - Perf_WLRoamEnumerateAppBackups
+###### Version: 0
 
 ## Description
 None

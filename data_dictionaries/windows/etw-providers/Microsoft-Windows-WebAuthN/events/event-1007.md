@@ -1,4 +1,5 @@
 # Event 1007 - WebAuthNCtapSendCommand
+###### Version: 0
 
 ## Description
 None

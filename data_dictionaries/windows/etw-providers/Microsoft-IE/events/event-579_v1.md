@@ -1,4 +1,5 @@
 # Event 579 - Mshtml_EventDebug_MediaQuery_Invoke_Callback
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_eventsandtimers mshtml
 * etw_opcode_Start
 * etw_task_Mshtml_EventDebug_MediaQuery_Invoke_Callback
-* version_1

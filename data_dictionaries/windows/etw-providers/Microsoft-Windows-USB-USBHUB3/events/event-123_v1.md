@@ -1,4 +1,5 @@
 # Event 123 - USBPort
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_keywords_Default Power HWVerifyHub
 * etw_opcode_Stop
 * etw_task_USBPort
-* version_1

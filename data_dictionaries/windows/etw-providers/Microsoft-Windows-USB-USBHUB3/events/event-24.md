@@ -1,4 +1,5 @@
 # Event 24 - PrepareHardware
+###### Version: 0
 
 ## Description
 None

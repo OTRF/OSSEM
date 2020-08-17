@@ -1,4 +1,5 @@
 # Event 292 - MANIPULATION_POINTER_BUFFERED
+###### Version: 0
 
 ## Description
 None

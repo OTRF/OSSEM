@@ -1,4 +1,5 @@
 # Event 19 - Browseui_Tabs_TabReadyForNavigate
+###### Version: 0
 
 ## Description
 None

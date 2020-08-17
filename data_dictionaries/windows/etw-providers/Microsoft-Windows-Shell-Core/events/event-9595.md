@@ -1,4 +1,5 @@
 # Event 9595 - Explorer_WordWheel_Activated
+###### Version: 0
 
 ## Description
 None

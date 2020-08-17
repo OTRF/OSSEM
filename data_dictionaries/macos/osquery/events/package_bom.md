@@ -1,4 +1,5 @@
 # Package_bom Table
+###### Version: 4.4.2
 
 ## Description
 OS X package bill of materials (BOM) file list.
@@ -16,6 +17,3 @@ OS X package bill of materials (BOM) file list.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#package_bom)
-
-## Tags
-* version_4.4.2

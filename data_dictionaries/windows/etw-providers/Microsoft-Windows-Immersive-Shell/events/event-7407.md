@@ -1,4 +1,5 @@
 # Event 7407 - ConnectedSearch_LogTemplateError
+###### Version: 0
 
 ## Description
 None

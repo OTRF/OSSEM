@@ -1,4 +1,5 @@
 # Event 173 - Bundlemanifest
+###### Version: 0
 
 ## Description
 None

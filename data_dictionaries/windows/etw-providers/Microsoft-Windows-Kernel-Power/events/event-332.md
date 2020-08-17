@@ -1,4 +1,5 @@
 # Event 332 - DefaultPepWorkerDeviceRecovered
+###### Version: 0
 
 ## Description
 None

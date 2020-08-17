@@ -1,4 +1,5 @@
 # Event 241 - ETWGUID_COPYFRONTTOBACKBUFFERDELTAEVENT
+###### Version: 0
 
 ## Description
 None

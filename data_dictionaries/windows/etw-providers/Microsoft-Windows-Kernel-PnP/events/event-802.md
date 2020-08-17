@@ -1,4 +1,5 @@
 # Event 802 - ProcessNewDevice
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1340 - UdpCreateNotificationChannelRequestProcessing
+###### Version: 0
 
 ## Description
 None

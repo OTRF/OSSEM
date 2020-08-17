@@ -1,4 +1,5 @@
 # Event 158 - ThermalRequestRemove
+###### Version: 0
 
 ## Description
 None

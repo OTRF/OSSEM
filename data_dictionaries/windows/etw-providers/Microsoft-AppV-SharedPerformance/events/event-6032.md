@@ -1,4 +1,5 @@
 # Event 6032 - GetConnectionGroups_407
+###### Version: 0
 
 ## Description
 None

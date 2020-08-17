@@ -1,4 +1,5 @@
 # Event 23 - SavePersistedLogger
+###### Version: 0
 
 ## Description
 None

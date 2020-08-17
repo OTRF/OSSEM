@@ -1,4 +1,5 @@
 # Event 729 - SSLAcquireCredentialsHandle
+###### Version: 0
 
 ## Description
 None

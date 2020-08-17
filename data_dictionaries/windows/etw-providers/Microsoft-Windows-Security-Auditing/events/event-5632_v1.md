@@ -1,4 +1,5 @@
 # Event ID 5632: A request was made to authenticate to a wireless network
+###### Version: 1
 
 ## Description
 This event generates when 802.1x authentication attempt was made for wireless network.
@@ -30,7 +31,6 @@ This event generates when 802.1x authentication attempt was made for wireless ne
 ## Tags
 * etw_level_Informational
 * etw_task_task_0
-* version_1
 * Account Logon
 * Logon/Logoff
 * Audit Other Logon/Logoff Events

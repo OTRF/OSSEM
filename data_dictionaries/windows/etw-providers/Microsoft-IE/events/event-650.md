@@ -1,4 +1,5 @@
 # Event 650 - Mshtml_Generic_Diagnosis_Info1
+###### Version: 0
 
 ## Description
 None

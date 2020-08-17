@@ -1,4 +1,5 @@
 # Event 9513 - Explorer_StartPane_OpenBox_Char
+###### Version: 0
 
 ## Description
 None

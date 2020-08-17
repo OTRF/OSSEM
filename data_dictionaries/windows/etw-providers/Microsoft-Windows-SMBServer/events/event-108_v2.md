@@ -1,4 +1,5 @@
 # Event 108 - Smb2ResponseCreate
+###### Version: 2
 
 ## Description
 None
@@ -51,4 +52,3 @@ None
 * etw_level_Informational
 * etw_keywords_Response
 * etw_task_Smb2ResponseCreate
-* version_2

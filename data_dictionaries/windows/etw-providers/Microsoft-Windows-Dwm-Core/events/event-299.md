@@ -1,4 +1,5 @@
 # Event 299 - MIDMANIPULATION_UPDATE_CAPTURE_CONTACT
+###### Version: 0
 
 ## Description
 None

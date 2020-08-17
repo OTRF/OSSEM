@@ -1,4 +1,5 @@
 # Event 754 - LogTrace
+###### Version: 0
 
 ## Description
 None

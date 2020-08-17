@@ -1,4 +1,5 @@
 # Kernel_info Table
+###### Version: 4.4.2
 
 ## Description
 Basic active kernel information.
@@ -13,6 +14,3 @@ Basic active kernel information.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#kernel_info)
-
-## Tags
-* version_4.4.2

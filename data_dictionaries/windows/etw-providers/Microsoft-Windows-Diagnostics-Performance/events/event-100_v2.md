@@ -1,4 +1,5 @@
 # Event 100 - BootPerformanceMonitoring
+###### Version: 2
 
 ## Description
 None
@@ -56,4 +57,3 @@ None
 * etw_keywords_EventLog
 * etw_opcode_BootInformation
 * etw_task_BootPerformanceMonitoring
-* version_2

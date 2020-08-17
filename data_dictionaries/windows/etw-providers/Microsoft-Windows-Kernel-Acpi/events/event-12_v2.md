@@ -1,4 +1,5 @@
 # Event 12 - ThermalZoneRundown
+###### Version: 2
 
 ## Description
 None
@@ -59,4 +60,3 @@ None
 * etw_level_Informational
 * etw_keywords_acpi:Thermal
 * etw_task_ThermalZoneRundown
-* version_2

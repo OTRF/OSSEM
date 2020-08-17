@@ -1,4 +1,5 @@
 # Wifi_status Table
+###### Version: 4.4.2
 
 ## Description
 OS X current WiFi status.
@@ -22,6 +23,3 @@ OS X current WiFi status.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#wifi_status)
-
-## Tags
-* version_4.4.2

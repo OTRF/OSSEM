@@ -1,4 +1,5 @@
 # Event 1059 - DeviceError
+###### Version: 0
 
 ## Description
 None

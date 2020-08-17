@@ -1,4 +1,5 @@
 # Event 7457 - ConnectedSearch_SetTracingData
+###### Version: 0
 
 ## Description
 None

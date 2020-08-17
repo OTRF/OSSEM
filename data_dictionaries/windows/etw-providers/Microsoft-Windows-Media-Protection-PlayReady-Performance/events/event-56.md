@@ -1,4 +1,5 @@
 # Event 56 - CBlackboxWithTEEGetCertificate
+###### Version: 0
 
 ## Description
 None

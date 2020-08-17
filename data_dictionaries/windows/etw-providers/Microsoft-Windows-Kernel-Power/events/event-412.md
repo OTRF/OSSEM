@@ -1,4 +1,5 @@
 # Event 412 - DisplaySessionStatus
+###### Version: 0
 
 ## Description
 None

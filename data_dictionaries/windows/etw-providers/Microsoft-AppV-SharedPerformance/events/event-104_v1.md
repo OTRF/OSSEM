@@ -1,4 +1,5 @@
 # Event 104 - Transportgetrequestoperation
+###### Version: 1
 
 ## Description
 None
@@ -10,4 +11,3 @@ None
 
 ## Tags
 * etw_task_Transportgetrequestoperation
-* version_1

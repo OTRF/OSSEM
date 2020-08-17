@@ -1,4 +1,5 @@
 # Event 74 - VsmLKeyProvisioningStatus
+###### Version: 0
 
 ## Description
 None

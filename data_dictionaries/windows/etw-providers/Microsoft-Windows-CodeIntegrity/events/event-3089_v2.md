@@ -1,4 +1,5 @@
 # Event 3089 - CreateSection
+###### Version: 2
 
 ## Description
 None
@@ -32,4 +33,3 @@ None
 * etw_level_Informational
 * etw_opcode_SignatureInformation
 * etw_task_CreateSection
-* version_2

@@ -1,4 +1,5 @@
 # Event 707 - Mshtml_DragAndDrop_Fire_DragLeave
+###### Version: 0
 
 ## Description
 None

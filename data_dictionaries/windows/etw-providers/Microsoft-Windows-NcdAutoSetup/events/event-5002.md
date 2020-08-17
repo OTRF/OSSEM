@@ -1,4 +1,5 @@
 # Event 5002 - NetworkDisqualified
+###### Version: 0
 
 ## Description
 None

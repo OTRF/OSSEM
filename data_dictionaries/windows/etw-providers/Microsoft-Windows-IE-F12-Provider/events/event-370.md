@@ -1,4 +1,5 @@
 # Event 370 - Debugger_Editor_GetOrCreateMode
+###### Version: 0
 
 ## Description
 None

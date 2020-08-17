@@ -1,4 +1,5 @@
 # Event 603 - Smb2TreeConnectFailedDueToPending
+###### Version: 0
 
 ## Description
 None

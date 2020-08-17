@@ -1,4 +1,5 @@
 # Event 503 - None
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Informational
 * etw_keywords_DeviceState
 * etw_task_None
-* version_1

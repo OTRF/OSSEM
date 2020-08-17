@@ -1,4 +1,5 @@
 # Event 1218 - SensorsHidInitializationTask
+###### Version: 0
 
 ## Description
 None

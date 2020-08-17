@@ -1,4 +1,5 @@
 # Event 24 - RequestConfiguration
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 7318 - Perf_DeleteAllAppBackups
+###### Version: 0
 
 ## Description
 None

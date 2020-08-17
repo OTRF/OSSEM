@@ -1,4 +1,5 @@
 # Event 53
+###### Version: 2
 
 ## Description
 None
@@ -11,6 +12,3 @@ None
 |TBD|BlockSize|Object|None|`None`|
 |TBD|BlockCount|Object|None|`None`|
 |TBD|AffinityIndex|UInt32|None|`None`|
-
-## Tags
-* version_2

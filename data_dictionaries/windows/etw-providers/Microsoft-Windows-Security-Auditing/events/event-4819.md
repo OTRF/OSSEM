@@ -1,4 +1,5 @@
 # Event ID 4819: Central Access Policies on the machine have been changed.
+###### Version: 0
 
 ## Description
 This event generates when Central Access Policy on the machine have been changed.

@@ -1,4 +1,5 @@
 # Event 5970 - AppActivation_Log_RemediationBinaryInformation
+###### Version: 0
 
 ## Description
 None

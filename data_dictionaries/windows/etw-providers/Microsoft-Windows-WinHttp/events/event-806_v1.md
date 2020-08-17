@@ -1,4 +1,5 @@
 # Event 806 - WINHTTP_AUTOPROXY_DNS
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_WINHTTP_KEYWORD_AUTOPROXY
 * etw_opcode_Stop
 * etw_task_WINHTTP_AUTOPROXY_DNS
-* version_1

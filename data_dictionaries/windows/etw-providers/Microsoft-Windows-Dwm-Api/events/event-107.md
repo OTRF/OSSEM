@@ -1,4 +1,5 @@
 # Event 107 - ApipUpdateDesktopThumbnail
+###### Version: 0
 
 ## Description
 None

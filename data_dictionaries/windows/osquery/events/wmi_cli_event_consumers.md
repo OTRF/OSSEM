@@ -1,4 +1,5 @@
 # Wmi_cli_event_consumers Table
+###### Version: 4.4.2
 
 ## Description
 WMI CommandLineEventConsumer, which can be used for persistence on Windows. See https://www.blackhat.com/docs/us-15/materials/us-15-Graeber-Abusing-Windows-Management-Instrumentation-WMI-To-Build-A-Persistent%20Asynchronous-And-Fileless-Backdoor-wp.pdf for more details.
@@ -14,6 +15,3 @@ WMI CommandLineEventConsumer, which can be used for persistence on Windows. See 
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#wmi_cli_event_consumers)
-
-## Tags
-* version_4.4.2

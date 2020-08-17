@@ -1,4 +1,5 @@
 # Event 682 - Mshtml_CDMDraggableTouchTarget_ReturnTargetToOriginalLocation
+###### Version: 0
 
 ## Description
 None

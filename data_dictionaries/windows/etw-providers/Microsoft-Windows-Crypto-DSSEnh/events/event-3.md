@@ -1,4 +1,5 @@
 # Event 3 - OpenFileInStorageArea
+###### Version: 0
 
 ## Description
 None

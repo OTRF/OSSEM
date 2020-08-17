@@ -1,4 +1,5 @@
 # Event 175 - TOUCH_LAST_FRAME_EVENT
+###### Version: 3
 
 ## Description
 None
@@ -26,4 +27,3 @@ None
 * etw_level_Verbose
 * etw_keywords_DwmCore LowOverheadSmoothnessTracking DwmInput
 * etw_task_TOUCH_LAST_FRAME_EVENT
-* version_3

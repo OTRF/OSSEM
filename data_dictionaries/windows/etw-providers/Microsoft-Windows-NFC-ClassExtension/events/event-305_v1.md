@@ -1,4 +1,5 @@
 # Event 305 - RFfirmwaredownload.
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_RF
 * etw_opcode_Stop
 * etw_task_RFfirmwaredownload.
-* version_1

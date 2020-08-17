@@ -1,4 +1,5 @@
 # Event 1806 - ID3D11VideoDevice_CreateCryptoSession
+###### Version: 0
 
 ## Description
 None

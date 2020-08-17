@@ -1,4 +1,5 @@
 # Event 273 - VSyncDPCMultiPlane
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Always
 * etw_keywords_Base
 * etw_task_VSyncDPCMultiPlane
-* version_1

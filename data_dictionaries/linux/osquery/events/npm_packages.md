@@ -1,4 +1,5 @@
 # Npm_packages Table
+###### Version: 4.4.2
 
 ## Description
 Lists all npm packages in a directory or globally installed in a system.
@@ -16,6 +17,3 @@ Lists all npm packages in a directory or globally installed in a system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#npm_packages)
-
-## Tags
-* version_4.4.2

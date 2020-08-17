@@ -1,4 +1,5 @@
 # Event 1512 - SensPerf_Task_SensorsHIDClassDriver_DeviceReconnect
+###### Version: 0
 
 ## Description
 None

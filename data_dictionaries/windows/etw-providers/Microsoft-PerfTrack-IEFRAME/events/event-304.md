@@ -1,4 +1,5 @@
 # Event 304 - MenuShrink
+###### Version: 0
 
 ## Description
 None

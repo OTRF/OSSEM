@@ -1,4 +1,5 @@
 # Event 41 - DirtyTransition
+###### Version: 3
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_level_Critical
 * etw_keywords_po:Simple keyword_400000000000
 * etw_task_DirtyTransition
-* version_3

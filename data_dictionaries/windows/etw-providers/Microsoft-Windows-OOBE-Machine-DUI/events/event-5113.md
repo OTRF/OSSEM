@@ -1,4 +1,5 @@
 # Event 5113 - CComputerNameWizardPage_AccentColorSelection
+###### Version: 0
 
 ## Description
 None

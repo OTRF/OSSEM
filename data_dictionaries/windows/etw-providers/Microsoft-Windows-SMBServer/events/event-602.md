@@ -1,4 +1,5 @@
 # Event 602 - Smb2TreeConnectTerminate
+###### Version: 0
 
 ## Description
 None

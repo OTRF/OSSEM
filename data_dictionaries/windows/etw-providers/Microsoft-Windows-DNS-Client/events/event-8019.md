@@ -1,4 +1,5 @@
 # Event 8019 - DnsRegistration
+###### Version: 0
 
 ## Description
 None

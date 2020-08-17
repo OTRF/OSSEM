@@ -1,4 +1,5 @@
 # Event 12 - Shdocvw_BaseBrowser_DocumentComplete
+###### Version: 0
 
 ## Description
 None

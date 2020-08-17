@@ -1,4 +1,5 @@
 # Event 11 - PerfCheck
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_Diag
 * etw_opcode_Start
 * etw_task_PerfCheck
-* version_1

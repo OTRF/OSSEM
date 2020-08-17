@@ -1,4 +1,5 @@
 # Event 867 - IDXGISwapChainPartner_SetDestSize
+###### Version: 0
 
 ## Description
 None

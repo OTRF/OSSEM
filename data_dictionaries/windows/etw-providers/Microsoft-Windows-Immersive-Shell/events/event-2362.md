@@ -1,4 +1,5 @@
 # Event 2362 - Launcher_Dismiss_Explicit_ToDesktop
+###### Version: 0
 
 ## Description
 None

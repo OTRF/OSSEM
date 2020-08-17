@@ -1,4 +1,5 @@
 # Event 25 - PrepareHardware
+###### Version: 1
 
 ## Description
 None
@@ -27,4 +28,3 @@ None
 * etw_keywords_Default PnP
 * etw_opcode_Information
 * etw_task_PrepareHardware
-* version_1

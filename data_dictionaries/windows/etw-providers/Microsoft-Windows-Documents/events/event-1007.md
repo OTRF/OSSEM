@@ -1,4 +1,5 @@
 # Event 1007 - DocPerf_Task_OpenPrinter2
+###### Version: 0
 
 ## Description
 None

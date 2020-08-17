@@ -1,4 +1,5 @@
 # Event 52
+###### Version: 2
 
 ## Description
 None
@@ -10,6 +11,3 @@ None
 |TBD|Block|UInt32|None|`None`|
 |TBD|Size|Object|None|`None`|
 |TBD|Caller|UInt32|None|`None`|
-
-## Tags
-* version_2

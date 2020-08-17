@@ -1,4 +1,5 @@
 # Event 4068 - NetworkChannelSendResponse
+###### Version: 0
 
 ## Description
 None

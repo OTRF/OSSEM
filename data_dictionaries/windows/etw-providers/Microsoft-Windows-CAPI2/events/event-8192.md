@@ -1,4 +1,5 @@
 # Event 8192 - AddaSecurityCatalogtotheCatalogDatabase
+###### Version: 0
 
 ## Description
 None

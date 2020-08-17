@@ -1,4 +1,5 @@
 # Event 1060 - WebAuthNError
+###### Version: 0
 
 ## Description
 None

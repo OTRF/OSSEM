@@ -1,4 +1,5 @@
 # Event 1124 - MediaFoundationAsyncWrapperNeedInput
+###### Version: 0
 
 ## Description
 None

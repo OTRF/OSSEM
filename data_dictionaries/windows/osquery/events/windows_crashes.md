@@ -1,4 +1,5 @@
 # Windows_crashes Table
+###### Version: 4.4.2
 
 ## Description
 Extracted information from Windows crash logs (Minidumps).
@@ -30,6 +31,3 @@ Extracted information from Windows crash logs (Minidumps).
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#windows_crashes)
-
-## Tags
-* version_4.4.2

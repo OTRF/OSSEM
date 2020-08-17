@@ -1,4 +1,5 @@
 # Mdfind Table
+###### Version: 4.4.2
 
 ## Description
 Run searches against the spotlight database.
@@ -11,6 +12,3 @@ Run searches against the spotlight database.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#mdfind)
-
-## Tags
-* version_4.4.2

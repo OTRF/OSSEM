@@ -1,4 +1,5 @@
 # Event 12 - VC1ENC_ADAPTIVE_VIDEOBITRATE
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Programs Table
+###### Version: 4.4.2
 
 ## Description
 Represents products as they are installed by Windows Installer. A product generally correlates to one installation package on Windows. Some fields may be blank as Windows installation details are left to the discretion of the product author.
@@ -18,6 +19,3 @@ Represents products as they are installed by Windows Installer. A product genera
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#programs)
-
-## Tags
-* version_4.4.2

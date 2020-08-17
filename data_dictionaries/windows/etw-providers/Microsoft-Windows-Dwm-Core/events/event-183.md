@@ -1,4 +1,5 @@
 # Event 183 - ETWGUID_COMPOSITION_SURFACE_DRAW
+###### Version: 0
 
 ## Description
 None

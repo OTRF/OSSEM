@@ -1,4 +1,5 @@
 # Event 1302 - SensorServiceSdoRemoveTask
+###### Version: 0
 
 ## Description
 None

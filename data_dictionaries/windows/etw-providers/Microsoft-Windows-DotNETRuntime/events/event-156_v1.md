@@ -1,4 +1,5 @@
 # Event 156 - Loader
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_LoaderKeyword
 * etw_opcode_AppDomainLoad
 * etw_task_Loader
-* version_1

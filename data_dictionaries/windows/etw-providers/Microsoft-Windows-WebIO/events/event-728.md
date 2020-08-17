@@ -1,4 +1,5 @@
 # Event 728 - SSLAcquireCredentialsHandle
+###### Version: 0
 
 ## Description
 None

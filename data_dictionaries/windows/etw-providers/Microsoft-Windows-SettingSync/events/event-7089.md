@@ -1,4 +1,5 @@
 # Event 7089 - Perf_MicroImageCompression
+###### Version: 0
 
 ## Description
 None

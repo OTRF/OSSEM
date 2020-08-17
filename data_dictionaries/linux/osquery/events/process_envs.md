@@ -1,4 +1,5 @@
 # Process_envs Table
+###### Version: 4.4.2
 
 ## Description
 A key/value table of environment variables for each process.
@@ -12,6 +13,3 @@ A key/value table of environment variables for each process.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#process_envs)
-
-## Tags
-* version_4.4.2

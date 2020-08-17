@@ -1,4 +1,5 @@
 # Event 6112 - DocPerf_Task_Setup_InstallPackageDriver
+###### Version: 0
 
 ## Description
 None

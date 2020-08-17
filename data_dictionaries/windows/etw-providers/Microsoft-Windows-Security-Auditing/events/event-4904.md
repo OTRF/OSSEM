@@ -1,4 +1,5 @@
 # Event ID 4904: An attempt was made to register a security event source.
+###### Version: 0
 
 ## Description
 This event generates every time a new security event source.

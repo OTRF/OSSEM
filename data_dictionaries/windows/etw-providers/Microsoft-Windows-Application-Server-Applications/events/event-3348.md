@@ -1,4 +1,5 @@
 # Event 3348 - ServiceHostFault
+###### Version: 0
 
 ## Description
 None

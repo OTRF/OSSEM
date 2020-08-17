@@ -1,4 +1,5 @@
 # Event 1004 - Date/TimeControlPanelApplettimezonefunctionality
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Error
 * etw_opcode_Date/TimeControlPanelAppletoperations
 * etw_task_Date/TimeControlPanelApplettimezonefunctionality
-* version_1

@@ -1,4 +1,5 @@
 # Event 725 - Mshtml_CTouchDragDropHelper_OnDropped
+###### Version: 0
 
 ## Description
 None

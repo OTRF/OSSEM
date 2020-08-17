@@ -1,4 +1,5 @@
 # Event 1533 - DocPerf_Task_ScanRT_ScanToFolder_ProgressCallback
+###### Version: 0
 
 ## Description
 None

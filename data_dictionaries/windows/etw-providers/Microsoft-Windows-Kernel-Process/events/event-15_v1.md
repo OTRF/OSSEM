@@ -1,4 +1,5 @@
 # Event 15 - ProcessRundown
+###### Version: 1
 
 ## Description
 None
@@ -26,4 +27,3 @@ None
 * etw_level_Informational
 * etw_keywords_WINEVENT_KEYWORD_PROCESS
 * etw_task_ProcessRundown
-* version_1

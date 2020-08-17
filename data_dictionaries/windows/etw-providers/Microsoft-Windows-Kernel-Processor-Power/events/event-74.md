@@ -1,4 +1,5 @@
 # Event 74 - LowPowerScenarioChange
+###### Version: 0
 
 ## Description
 None

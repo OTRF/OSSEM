@@ -1,4 +1,5 @@
 # Event 1631 - AppsFolder_ImmersiveApp_InstallRequest
+###### Version: 0
 
 ## Description
 None

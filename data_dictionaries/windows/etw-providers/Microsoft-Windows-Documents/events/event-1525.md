@@ -1,4 +1,5 @@
 # Event 1525 - DocPerf_Task_Wia_Com_Event_Handler
+###### Version: 0
 
 ## Description
 None

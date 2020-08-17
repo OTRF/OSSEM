@@ -1,4 +1,5 @@
 # Event 5 - CPL_DefaultPrograms_ProgramsPage_SetAsDefaultClicks
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 184 - Shdocvw_BaseBrowser_FireEvent_BeforeNavigate
+###### Version: 0
 
 ## Description
 None

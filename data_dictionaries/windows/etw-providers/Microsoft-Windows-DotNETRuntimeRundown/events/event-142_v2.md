@@ -1,4 +1,5 @@
 # Event 142 - Method
+###### Version: 2
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_keywords_JitRundownKeyword NGenRundownKeyword
 * etw_opcode_DCStop
 * etw_task_Method
-* version_2

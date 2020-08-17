@@ -1,4 +1,5 @@
 # Event 5382 - Dashboard_Network_Adapter_EnumerateAdapters
+###### Version: 0
 
 ## Description
 None

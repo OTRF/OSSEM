@@ -1,4 +1,5 @@
 # Event 647 - Mshtml_Generic_Diagnosis_Win_Error
+###### Version: 0
 
 ## Description
 None

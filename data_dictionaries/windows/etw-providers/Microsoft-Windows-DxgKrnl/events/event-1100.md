@@ -1,4 +1,5 @@
 # Event 1100 - TraceAdapterLock
+###### Version: 0
 
 ## Description
 None

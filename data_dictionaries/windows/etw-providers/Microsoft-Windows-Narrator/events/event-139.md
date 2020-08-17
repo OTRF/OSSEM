@@ -1,4 +1,5 @@
 # Event 139 - InternalGetTextPatternUnitChange
+###### Version: 0
 
 ## Description
 None

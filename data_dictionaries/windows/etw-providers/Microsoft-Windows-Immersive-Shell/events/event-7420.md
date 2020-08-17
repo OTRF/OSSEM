@@ -1,4 +1,5 @@
 # Event 7420 - ConnectedSearch_ImageDownloaderDownloadUrl
+###### Version: 0
 
 ## Description
 None

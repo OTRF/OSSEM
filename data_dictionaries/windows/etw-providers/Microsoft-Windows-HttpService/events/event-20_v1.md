@@ -1,4 +1,5 @@
 # Event 20 - HTTPSetupTraceTask
+###### Version: 1
 
 ## Description
 None
@@ -24,4 +25,3 @@ None
 * etw_keywords_HTTP_KEYWORD_SETUP HTTP_KEYWORD_SSL
 * etw_opcode_CreatedSslCred
 * etw_task_HTTPSetupTraceTask
-* version_1

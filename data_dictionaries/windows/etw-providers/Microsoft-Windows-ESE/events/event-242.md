@@ -1,4 +1,5 @@
 # Event 242 - ESE_tagUpgrade_Trace
+###### Version: 0
 
 ## Description
 None

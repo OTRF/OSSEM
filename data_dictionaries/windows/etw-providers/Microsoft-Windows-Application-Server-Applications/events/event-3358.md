@@ -1,4 +1,5 @@
 # Event 3358 - ActivationDuplicateSocket
+###### Version: 0
 
 ## Description
 None

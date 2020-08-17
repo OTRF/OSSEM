@@ -1,4 +1,5 @@
 # Event 7287 - ConnectedSearch_TemplateDownloadEvent
+###### Version: 0
 
 ## Description
 None

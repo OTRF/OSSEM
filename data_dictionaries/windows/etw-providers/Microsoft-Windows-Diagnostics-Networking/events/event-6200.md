@@ -1,4 +1,5 @@
 # Event 6200 - HelperClassInfo
+###### Version: 0
 
 ## Description
 None

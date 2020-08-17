@@ -1,4 +1,5 @@
 # Event 704 - WININET_HTTPS_SERVER_CERT_ERROR
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1004 - Processinglpksetupunattendedexecutionfromthecommandline
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Error
 * etw_opcode_Validateunattendedparameters
 * etw_task_Processinglpksetupunattendedexecutionfromthecommandline
-* version_1

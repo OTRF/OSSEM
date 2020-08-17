@@ -1,4 +1,5 @@
 # Event 211 - DdiStopDeviceAndReleasePostDisplayOwnership
+###### Version: 0
 
 ## Description
 None

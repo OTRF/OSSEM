@@ -1,4 +1,5 @@
 # Event ID 5889: An object was deleted from the COM+ Catalog.
+###### Version: 0
 
 ## Description
 This event generates when the object in the COM+ Catalog.

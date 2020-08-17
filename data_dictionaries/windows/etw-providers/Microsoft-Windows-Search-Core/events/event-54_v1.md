@@ -1,4 +1,5 @@
 # Event 54 - MergeThread
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_Performance Indexing IndexPI
 * etw_opcode_Start
 * etw_task_MergeThread
-* version_1

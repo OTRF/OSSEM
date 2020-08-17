@@ -1,4 +1,5 @@
 # Event 1058 - Wininet_UsageLogScavenge
+###### Version: 0
 
 ## Description
 None

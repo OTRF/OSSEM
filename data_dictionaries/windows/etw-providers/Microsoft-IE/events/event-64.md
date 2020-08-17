@@ -1,4 +1,5 @@
 # Event 64 - Mshtml_InitImageSizeCache
+###### Version: 0
 
 ## Description
 None

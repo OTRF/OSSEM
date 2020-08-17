@@ -1,4 +1,5 @@
 # Event 1002 - FeatureConfigurationEvents
+###### Version: 0
 
 ## Description
 None

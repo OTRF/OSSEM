@@ -1,4 +1,5 @@
 # Event 1059 - IndirectSwapChainCloseHandle
+###### Version: 0
 
 ## Description
 None

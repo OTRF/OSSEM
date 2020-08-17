@@ -1,4 +1,5 @@
 # Event 218 - MediaCapturePhotoSequenceStopoperation
+###### Version: 0
 
 ## Description
 None

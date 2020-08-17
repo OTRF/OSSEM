@@ -1,4 +1,5 @@
 # Event 2302 - Launcher_Apps_Show
+###### Version: 0
 
 ## Description
 None

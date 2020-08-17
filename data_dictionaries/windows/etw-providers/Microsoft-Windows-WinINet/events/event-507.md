@@ -1,4 +1,5 @@
 # Event 507 - WININET_COOKIE_ADDED_TO_HEADER
+###### Version: 0
 
 ## Description
 None

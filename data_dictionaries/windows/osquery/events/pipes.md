@@ -1,4 +1,5 @@
 # Pipes Table
+###### Version: 4.4.2
 
 ## Description
 Named and Anonymous pipes.
@@ -14,6 +15,3 @@ Named and Anonymous pipes.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#pipes)
-
-## Tags
-* version_4.4.2

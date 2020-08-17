@@ -1,4 +1,5 @@
 # Event 50 - Contention
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_opcode_Bucketreadcollision
 * etw_task_Contention
-* version_1

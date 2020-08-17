@@ -1,4 +1,5 @@
 # Event 1355 - TcpIsPatternCoalescingRequired
+###### Version: 0
 
 ## Description
 None

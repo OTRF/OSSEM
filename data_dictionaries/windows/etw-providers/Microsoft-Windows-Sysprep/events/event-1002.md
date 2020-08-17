@@ -1,4 +1,5 @@
 # Event 1002 - RunRegistryDlls
+###### Version: 0
 
 ## Description
 None
