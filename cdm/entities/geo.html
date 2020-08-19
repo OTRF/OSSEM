@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>user_agent &#8212; The OSSEM Project</title>
+    <title>geo &#8212; The OSSEM Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../../_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="../../_static/sphinx-book-theme.css" type="text/css" />
@@ -29,12 +29,12 @@
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script async="async" src="../../_static/thebelab.js"></script>
-    <link rel="canonical" href="https://ossemproject.com/cdm/entities/user_agent.html" />
+    <link rel="canonical" href="https://ossemproject.com/cdm/entities/geo.html" />
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="any" href="any.html" />
-    <link rel="prev" title="ip" href="ip.html" />
+    <link rel="next" title="source" href="source.html" />
+    <link rel="prev" title="Entities" href="intro.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -44,10 +44,10 @@
 
 
 <!-- Opengraph tags -->
-<meta property="og:url"         content="https://ossemproject.com/cdm/entities/user_agent.html" />
+<meta property="og:url"         content="https://ossemproject.com/cdm/entities/geo.html" />
 <meta property="og:type"        content="article" />
-<meta property="og:title"       content="user_agent" />
-<meta property="og:description" content="user_agent  Document is a work in progress. Entity covering fields related to user agents in http requests.  Attributes          Name  Type  Description  Sample" />
+<meta property="og:title"       content="geo" />
+<meta property="og:description" content="geo  Event fields used to define metadata about a geographical.  Attributes          Name  Type  Description  Sample Value  geo_city  string  name of the city  " />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary">
@@ -102,8 +102,8 @@
   <li class="active">
     <a href="intro.html">Entities</a>
   <ul class="nav sidenav_l2">
-    <li class="">
-      <a href="geo.html">geo</a>
+    <li class="active">
+      <a href="">geo</a>
     </li>
     <li class="">
       <a href="source.html">source</a>
@@ -123,8 +123,8 @@
     <li class="">
       <a href="ip.html">ip</a>
     </li>
-    <li class="active">
-      <a href="">user_agent</a>
+    <li class="">
+      <a href="user_agent.html">user_agent</a>
     </li>
     <li class="">
       <a href="any.html">any</a>
@@ -245,7 +245,7 @@
                 <!-- ipynb file if we had a myst markdown file -->
                 
                 <!-- Download raw file -->
-                <a class="dropdown-buttons" href="../../_sources/cdm/entities/user_agent.md.txt"><button type="button" class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip" data-placement="left">.md</button></a>
+                <a class="dropdown-buttons" href="../../_sources/cdm/entities/geo.md.txt"><button type="button" class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip" data-placement="left">.md</button></a>
                 <!-- Download PDF via print -->
                 <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF" onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
             </div>
@@ -253,7 +253,7 @@
         </div>
 
         <!-- Edit this page -->
-        <a class="edit-button" href="https://github.com/hunters-forge/OSSEM/edit/master/docs/cdm/entities/user_agent.md"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" title="Edit this page"><i class="fas fa-pencil-alt"></i></button></a>
+        <a class="edit-button" href="https://github.com/hunters-forge/OSSEM/edit/master/docs/cdm/entities/geo.md"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" title="Edit this page"><i class="fas fa-pencil-alt"></i></button></a>
 
         <!-- Full screen (wrap in <a> to have style consistency -->
         <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i class="fas fa-expand"></i></button></a>
@@ -281,7 +281,7 @@
 
 
 <div class="tocsection editthispage">
-    <a href="https://github.com/hunters-forge/OSSEM/edit/master/docs/cdm/entities/user_agent.md">
+    <a href="https://github.com/hunters-forge/OSSEM/edit/master/docs/cdm/entities/geo.md">
         <i class="fas fa-pencil-alt"></i> Edit this page
     </a>
 </div>
@@ -293,9 +293,9 @@
         
               <div>
                 
-  <div class="section" id="user-agent">
-<h1>user_agent<a class="headerlink" href="#user-agent" title="Permalink to this headline">¶</a></h1>
-<p>Document is a work in progress. Entity covering fields related to user agents in http requests.</p>
+  <div class="section" id="geo">
+<h1>geo<a class="headerlink" href="#geo" title="Permalink to this headline">¶</a></h1>
+<p>Event fields used to define metadata about a geographical.</p>
 <div class="section" id="attributes">
 <h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h2>
 <table class="colwidths-auto table">
@@ -307,10 +307,45 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td class="text-align:left"><p>user_agent_original</p></td>
+<tr class="row-even"><td class="text-align:left"><p>geo_city</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The User agent seen in an HTTP request</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Mozilla/5.0</span> <span class="pre">(Windows</span> <span class="pre">NT</span> <span class="pre">10.0;</span> <span class="pre">Win64;</span> <span class="pre">x64)</span> <span class="pre">AppleWebKit/537.36</span> <span class="pre">(KHTML,</span> <span class="pre">like</span> <span class="pre">Gecko)</span> <span class="pre">Chrome/74.0.3729.169</span> <span class="pre">Safari/537.36</span></code></p></td>
+<td class="text-align:left"><p>name of the city</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">San</span> <span class="pre">Miguel</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>geo_continent</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>continent in the world</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">South</span> <span class="pre">America</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>geo_country</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>name of the country</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Peru</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>geo_country_capital</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>capital of the country</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Lima</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>geo_country_code</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>51</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Country</span> <span class="pre">code</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>geo_latitude</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Latitude is a measurement on a globe or map of location north or south of the Equator.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">38.8951</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>geo_longitude</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Longitude is a measurement of location east or west of the prime meridian at Greenwich, the specially designated imaginary north-south line that passes through both geographic poles and Greenwich, London.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-77.0364</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>geo_region</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>name of region</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">East</span> <span class="pre">US</span></code></p></td>
 </tr>
 </tbody>
 </table>
@@ -344,8 +379,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="ip.html" title="previous page">ip</a>
-    <a class='right-next' id="next-link" href="any.html" title="next page">any</a>
+    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">Entities</a>
+    <a class='right-next' id="next-link" href="source.html" title="next page">source</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

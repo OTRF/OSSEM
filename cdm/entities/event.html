@@ -103,6 +103,9 @@
     <a href="intro.html">Entities</a>
   <ul class="nav sidenav_l2">
     <li class="">
+      <a href="geo.html">geo</a>
+    </li>
+    <li class="">
       <a href="source.html">source</a>
     </li>
     <li class="">
@@ -304,55 +307,105 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td class="text-align:left"><p>event_count</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_category_type</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>A description of the event, which can help with categorization. If the vendor defines a category/grouping for its log. i.e. Zeek has a few category types for its many logs (network-protocols, network-observations, etc…). Example. sysmon event id 12 is EventType field is this.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">network-protocols</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>event_count</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>The number of aggregated events, if applicable</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">10</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_creation_time</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_creation_time</p></td>
 <td class="text-align:left"><p>datetime</p></td>
 <td class="text-align:left"><p>original time when event/log was created as reported from the log source itself</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2017-01-21</span> <span class="pre">09:12:34</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_duration</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event_duration</p></td>
 <td class="text-align:left"><p>float</p></td>
 <td class="text-align:left"><p>The length/duration of the event in seconds (e.g., 1 min is 60.0)</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">60</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_endtime</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_endtime</p></td>
 <td class="text-align:left"><p>datetime</p></td>
 <td class="text-align:left"><p>The time in which the event ended</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2017-04-12</span> <span class="pre">12:00:00</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_error</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event_error</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Information about an error</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">an</span> <span class="pre">error</span> <span class="pre">occurred</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_error_code</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_error_code</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>Integer that defines a particular error</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">4564</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_id</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event_event_host_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The host name from which the event/log came from. There may be multiple host names in an event (i.e. syslog could have forwarder host name), this field is to be the most true log host name (i.e. NOT the forwarders name).</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">bobs.uncle-pc</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>event_event_ip_addr</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The IP address from which the event/log came from. There may be multiple IP addresses in an event (i.e. syslog could have forwarder IP), this field is to be the most true log IP (i.e. NOT the forwarders IP).</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">10.10.10.10</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>event_id</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>event identifier for specific event logs. Event ids might repeat across different data sources. This is most common in Windows using EventID</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">4688</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_message</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_message</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>A general message or description, either included in, or generated from the record</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">TCP</span> <span class="pre">access</span> <span class="pre">denied</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_original_message</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event_original_message</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The (original) log message from the source before any ETL manipulations/modifications</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">a</span> <span class="pre">long</span> <span class="pre">message</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>event_original_time</p></td>
+<td class="text-align:left"><p>datetime</p></td>
+<td class="text-align:left"><p>original time when event/log was created as reported from the log source itself.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">4/11/2018</span> <span class="pre">5:46:18</span></code></p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>event_original_uid</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Original unique ID specific to the log/event as recorded from the source.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">CMzY3i4YoNZ3mT5yu5</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>event_product</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The product generating the event.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">OfficeSharepoint</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>event_product_ver</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The version of the product generating the event</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0.2</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>event_recorded_time</p></td>
+<td class="text-align:left"><p>datetime</p></td>
+<td class="text-align:left"><p>The time the log was recorded on disk or data plane or if there is another timestamp with the log (common scenario if there is a a manager of many devices or the log itself tracks log time and log written/recorded time) (e.g., 1 min is 60.0).</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">4/11/2018</span> <span class="pre">5:46:18</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>event_report_url</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>url of the full analysis report, if applicable</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">https://192.168.1.1/reports/ade-123-afa.log</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>event_resource_group</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The resource group to which the device generating the record belongs. This might be an AWS account, or an Azure subscription or Resource Group</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">DBVM</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>event_resource_id</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The resource ID of the device generating the message.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">/subscriptions/aaabbbcc-dddd-eeee-1234-1234567890ab/resourcegroups/shokobo/providers/microsoft.compute/virtualmachines/sysmachine</span></code></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>event_severity</p></td>
 <td class="text-align:left"><p>string</p></td>
@@ -374,15 +427,25 @@
 <td class="text-align:left"><p>Integer that defines a particular status</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">3221225875</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_status_code</p></td>
-<td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>Integer that defines a particular sub_status</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0</span></code></p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_sub_category_type</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>What sub type is for the given event_category_type,</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Microsoft-Windows-Sysmon/Operational</span></code></p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>event_sub_status</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Additional status information</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Account</span> <span class="pre">expired</span> <span class="pre">300</span> <span class="pre">days</span> <span class="pre">ago</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>event_sub_status_code</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>Integer that defines a particular event_sub_status</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>event_sub_type</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>What sub type is for the given event_type, this should be closest to what the vendor calls it. i.e. Zeek Conn log would be conn. PaloAlto traffic log would be traffic. Additonal example, for wef the channel Sysmon would be Microsoft-Windows-Sysmon/Operational</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Microsoft-Windows-Sysmon/Operational</span></code></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>event_time_ingested</p></td>
 <td class="text-align:left"><p>datetime</p></td>
@@ -394,20 +457,30 @@
 <td class="text-align:left"><p>The most accurate timestamp of the log. Commonly this will be the original reporting timestamp from the log. However, if you believe the log timestamp has been altered or skewed (ie: either due to timezone issues or NTP skew)then replace this field with the most likely timestamp. Always keep the original log timestamp in the field creation_timestamp</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2017-01-21</span> <span class="pre">09:12:34</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_type</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_timezone</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Timezone of the event if it can be determined. Format such as UTC, UTC+1, UTC-5, etc..</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">UTC</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>event_type</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>A description of the event, which can help with categorization.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Login</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_type_detailed</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_type_detailed</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Additional description of type if applicable</p></td>
 <td class="text-align:left"><p>````````</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_uid</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event_uid</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Original unique ID specific to the log/event assigned to the event (not original).</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">CMzY3i4YoNZ3mT5yu5</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>event_vendor</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The vendor of the product generating the event</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Microsoft</span></code></p></td>
 </tr>
 </tbody>
 </table>
