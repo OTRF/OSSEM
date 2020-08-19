@@ -20,8 +20,6 @@ Event fields used to define the destination (server) in a network connection eve
  | dst_certificate_issuer | string | Information about the CA that issued the certificate | ```CN=neu5ron.local,OU=Admin``` |
  | dst_certificate_serial_number | string | Serial number, this is chosen by the CA (certificate authority) which issued the certificate. Therefore this can relatively be arbritary if the CA does not follow a standard or is malicious. | ```5157550``` |
  | dst_certificate_subject | string | Information about the CA that issued the certificate | ```CN=natetoken,OU=Admin,DC=neu5ron,DC=local``` |
- | dst_city | string | The city associated with the destination IP address | ```Burlington``` |
- | dst_country | country | The country associated with the destination IP address | ```USA``` |
  | dst_domain | string | The (DNS) hierarchy that encompasses multiple hosts (i.e a Windows Active Directory environment). | ```bigwheel.corporation.local``` |
  | dst_file_accessed_time | date | When the file was last accessed . Also known as `atime` | ```2016-11-25 18:21:47``` |
  | dst_file_changed_time | date | When the file was last changed. Also known as `ctime` | ```2016-11-25 18:21:47``` |
@@ -47,6 +45,14 @@ Event fields used to define the destination (server) in a network connection eve
  | dst_file_system_block_size | integer | Block size of filesystem | `````` |
  | dst_file_system_type | string | The file system type, ex:  fat32, ntfs, vmfs, ext3, ext4, xfs | ```ntfs``` |
  | dst_fqdn | string | The absolute (entire) value of the DNS hierarchy from the lowest level to the top level domain (TLD). Consists of the Hostname and Domain. This is best defined in [this Wikipedia](https://en.wikipedia.org/w/index.php?title=Fully_qualified_domain_name&oldid=911195384#Syntax) article on FQDN. | ```bob-berto-pc.bigwheel.corporation.local``` |
+ | dst_geo_city | string | name of the city | ```San Miguel``` |
+ | dst_geo_continent | string | continent in the world | ```South America``` |
+ | dst_geo_country | string | name of the country | ```Peru``` |
+ | dst_geo_country_capital | string | capital of the country | ```Lima``` |
+ | dst_geo_country_code | string | 51 | ```Country code``` |
+ | dst_geo_latitude | string | Latitude is a measurement on a globe or map of location north or south of the Equator. | ```38.8951``` |
+ | dst_geo_longitude | string | Longitude is a measurement of location east or west of the prime meridian at Greenwich, the specially designated imaginary north-south line that passes through both geographic poles and Greenwich, London. | ```-77.0364``` |
+ | dst_geo_region | string | name of region | ```East US``` |
  | dst_host_domain | string | Name of the domain the host is part of or joined. | ```hunt.wardog.com``` |
  | dst_host_fqdn | string | The fully qualified domain name of the host | ```WKHR001.hunt.wardog.com``` |
  | dst_host_interface_guid | string | GUID of the network interface which was used for authentication request | ```{2BB33827-6BB6-48DB-8DE6-DB9E0B9F9C9B}``` |
@@ -63,14 +69,11 @@ Event fields used to define the destination (server) in a network connection eve
  | dst_ip_bytes | integer | network IP (header) bytes sent by the either the source or destination ip address | ```100``` |
  | dst_ip_dhcp_assigned_ip_addr | ip | IP address assigned by the DHCP server. | ```192.168.1.2``` |
  | dst_ip_is_ipv6 | boolean | If source or destination IP address is IP version 6 | ```false``` |
- | dst_latitude | real | The latitude of the geographical coordinate associated with the destination IP address | ```44.475833``` |
- | dst_longitude | real | The longitude of the geographical coordinate associated with the destination IP address | ```-73.211944``` |
- | dst_mac_address | mac | MAC address of an endpoint or network interface where a connection starts or ends. | ```00:11:22:33:44:55``` |
+ | dst_mac_addr | mac | MAC address of an endpoint or network interface where a connection starts or ends. | ```00:11:22:33:44:55``` |
  | dst_mime_type | string | Destination MIME type as seen in (layer 7) application layer details or as defined by an application scanner such as an anti-virus/EDR. For HTTP this is usually from the server's "Content-Type" header. https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types | ```application/pdf``` |
  | dst_packets | integer | Network packets sent by the destination (Reply) | ```5``` |
  | dst_port_name | string | Name of the port used in a network connection. This is usually determined by IANA common port assignment. Therefore, this means its a guess and NOT actually what the application/ is what the actually. | ```netbios-dgm``` |
  | dst_port_number | integer | Port number used in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall. | ```138``` |
- | dst_region | string | The region within a country associated with the destination IP address | ```Vermont``` |
  | dst_resource_group | string | The ID of the group to which the destination device belongs in a network connection. This might be an AWS account, or an Azure subscription or Resource Group | ```DatabaseVMs``` |
  | dst_resource_id | string | The resource Id of the destination device in a network connection | ```/subscriptions/33333333-8888-4444-a115-aaaaaaaaaaaa/resourcegroups/shokobo/providers/microsoft.compute/virtualmachines/sysmachine2``` |
  | dst_vlan_id | integer | The destination VLAN ID if it can be determined. Most commonly if from a firewall/switch/router then it can be determined | ```1000``` |
