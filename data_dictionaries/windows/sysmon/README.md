@@ -27,9 +27,9 @@ System Monitor (Sysmon) is a Windows system service and device driver that, once
 |[16](events/event-16.md)|4.32|This event logs when the local **sysmon configuration is updated**.||
 |[17](events/event-17.md)|4.32|This event generates when a **named pipe is created**. Malware often uses named pipes for interprocess communication.||
 |[18](events/event-18.md)|4.32|This event logs when a **named pipe connection** is made between a client and a server.||
-|[19](events/event-19.md)|0|When a **WMI event filter is registered**, which is a method used by malware to execute, this event logs the WMI namespace, filter name and filter expression.||
-|[20](events/event-20.md)|0|This event logs the **registration of WMI consumers**, recording the consumer name, log, and destination.||
-|[21](events/event-21.md)|0|When a consumer **binds to a filter**, this event logs the consumer name and filter path.||
+|[19](events/event-19.md)|4.32|When a **WMI event filter is registered**, which is a method used by malware to execute, this event logs the WMI namespace, filter name and filter expression.||
+|[20](events/event-20.md)|4.32|This event logs the **registration of WMI consumers**, recording the consumer name, log, and destination.||
+|[21](events/event-21.md)|4.32|When a consumer **binds to a filter**, this event logs the consumer name and filter path.||
 |[22](events/event-22.md)|4.32|This event generates when a process executes a **DNS query**, whether the result is successful or fails, cached or not.||
 |[23](events/event-23.md)|4.32|This event logs when a **file is deleted** by a process.||
 |[255](events/event-255.md)|4.32|This event is generated when an **error occurred within Sysmon**. They can happen if the system is under heavy load and certain tasked could not be performed or a bug exists in the Sysmon service.||

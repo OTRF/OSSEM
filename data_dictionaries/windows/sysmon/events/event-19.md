@@ -1,5 +1,5 @@
 # Event ID 19: WmiEvent (WmiEventFilter activity detected)
-###### Version: 0
+###### Version: 4.32
 
 ## Description
 When a **WMI event filter is registered**, which is a method used by malware to execute, this event logs the WMI namespace, filter name and filter expression.

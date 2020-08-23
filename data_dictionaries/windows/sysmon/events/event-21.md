@@ -1,5 +1,5 @@
 # Event ID 21: WmiEvent (WmiEventConsumerToFilter activity detected)
-###### Version: 0
+###### Version: 4.32
 
 ## Description
 When a consumer **binds to a filter**, this event logs the consumer name and filter path.
