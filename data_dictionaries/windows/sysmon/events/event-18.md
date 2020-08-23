@@ -1,5 +1,5 @@
 # Event ID 18: PipeEvent (Pipe Connected)
-###### Version: 0
+###### Version: 4.32
 
 ## Description
 This event logs when a **named pipe connection** is made between a client and a server.

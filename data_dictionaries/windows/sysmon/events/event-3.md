@@ -1,5 +1,5 @@
 # Event ID 3: Network connection
-###### Version: 0
+###### Version: 4.32
 
 ## Description
 The **network connection** event logs TCP/UDP connections on the machine. It is disabled by default. Each connection is linked to a process through the ProcessId and ProcessGUID fields. The event also contains the source and destination host names IP addresses, port numbers and IPv6 status.

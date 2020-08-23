@@ -1,5 +1,5 @@
 # Event ID 5: Process terminated
-###### Version: 0
+###### Version: 4.32
 
 ## Description
 The **process terminate** event reports when a process terminates. It provides the UtcTime, ProcessGuid and ProcessId of the process.

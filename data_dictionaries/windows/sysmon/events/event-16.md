@@ -1,5 +1,5 @@
 # Event ID 16 - Sysmon Config State Changed
-###### Version: 0
+###### Version: 4.32
 
 ## Description
 This event logs when the local **sysmon configuration is updated**.

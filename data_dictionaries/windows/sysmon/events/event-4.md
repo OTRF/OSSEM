@@ -1,5 +1,5 @@
 # Event ID 4: Sysmon service state changed
-###### Version: 0
+###### Version: 4.32
 
 ## Description
 The **service state change** event reports the state of the Sysmon service (started or stopped).

@@ -1,5 +1,5 @@
 # Event ID 22: DNSEvent (DNS query)
-###### Version: 0
+###### Version: 4.32
 
 ## Description
 This event generates when a process executes a **DNS query**, whether the result is successful or fails, cached or not.
