@@ -1,4 +1,5 @@
 # Event 11 - SLSvc_HwidCollect
+###### Version: 0
 
 ## Description
 None

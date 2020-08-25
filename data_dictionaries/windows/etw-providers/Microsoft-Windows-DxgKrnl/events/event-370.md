@@ -1,4 +1,5 @@
 # Event 370 - VidMmProcessDemotedCommitmentChange
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 2000 - MUINotifyUILanguageChangetask
+###### Version: 0
 
 ## Description
 None

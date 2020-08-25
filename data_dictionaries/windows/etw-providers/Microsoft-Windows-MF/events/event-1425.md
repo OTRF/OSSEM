@@ -1,4 +1,5 @@
 # Event 1425 - DeviceMFTMDeviceTransformSetOutputType
+###### Version: 0
 
 ## Description
 None

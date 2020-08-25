@@ -1,4 +1,5 @@
 # Event 143 - MemoryPartitionsRestored
+###### Version: 0
 
 ## Description
 None

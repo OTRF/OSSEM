@@ -1,4 +1,5 @@
 # Event 211 - Class
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_keywords_Flush
 * etw_opcode_Completionofrequest.
 * etw_task_Class
-* version_1

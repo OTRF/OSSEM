@@ -1,4 +1,5 @@
 # Event 371 - Debugger_OnAddDocuments
+###### Version: 0
 
 ## Description
 None

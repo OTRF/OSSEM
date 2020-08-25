@@ -1,4 +1,5 @@
 # Event 331 - GpuVirtualAddressRange
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_GPUVA
 * etw_opcode_Start
 * etw_task_GpuVirtualAddressRange
-* version_1

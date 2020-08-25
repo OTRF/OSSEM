@@ -1,4 +1,5 @@
 # Event 560 - AppXDeployment.Task.Server.Deployment.StageUserData
+###### Version: 0
 
 ## Description
 None

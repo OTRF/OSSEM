@@ -1,4 +1,5 @@
 # Event 3080 - ValidateSIPolicy
+###### Version: 9
 
 ## Description
 None
@@ -39,4 +40,3 @@ None
 * etw_level_Informational
 * etw_opcode_SiPolicyFailureIgnored
 * etw_task_ValidateSIPolicy
-* version_9

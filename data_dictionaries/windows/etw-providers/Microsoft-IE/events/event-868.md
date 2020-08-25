@@ -1,4 +1,5 @@
 # Event 868 - Mshtml_AlignedBeat_VSync_Beat
+###### Version: 0
 
 ## Description
 None

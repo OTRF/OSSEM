@@ -1,4 +1,5 @@
 # Shadow Table
+###### Version: 4.4.2
 
 ## Description
 Local system users encrypted passwords and related information. Please note, that you usually need superuser rights to access `/etc/shadow`.
@@ -19,6 +20,3 @@ Local system users encrypted passwords and related information. Please note, tha
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#shadow)
-
-## Tags
-* version_4.4.2

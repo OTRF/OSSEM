@@ -1,4 +1,5 @@
 # Event 1020 - ApplicationActivateEvent
+###### Version: 0
 
 ## Description
 None

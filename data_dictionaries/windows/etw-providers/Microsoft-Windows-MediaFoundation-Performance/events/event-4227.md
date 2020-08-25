@@ -1,4 +1,5 @@
 # Event 4227 - SourceResolutionByteStreamHandlerBeginCreateObject
+###### Version: 0
 
 ## Description
 None

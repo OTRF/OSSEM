@@ -1,4 +1,5 @@
 # Event ID 4634: An account was logged off
+###### Version: 0
 
 ## Description
 This event shows that logon session was terminated and no longer exists.

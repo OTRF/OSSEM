@@ -1,4 +1,5 @@
 # Event 66 - ParkNodeCapChange
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_keywords_Diag
 * etw_task_ParkNodeCapChange
-* version_1

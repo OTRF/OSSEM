@@ -1,4 +1,5 @@
 # Event 124 - CloseTab
+###### Version: 0
 
 ## Description
 None

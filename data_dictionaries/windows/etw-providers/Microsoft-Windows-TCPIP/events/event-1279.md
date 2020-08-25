@@ -1,4 +1,5 @@
 # Event 1279 - Ndkpi_Release_Lam
+###### Version: 0
 
 ## Description
 None

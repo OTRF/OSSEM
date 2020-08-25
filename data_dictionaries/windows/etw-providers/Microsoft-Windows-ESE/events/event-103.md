@@ -1,4 +1,5 @@
 # Event 103 - ESE_CacheNewPage_Trace
+###### Version: 0
 
 ## Description
 None

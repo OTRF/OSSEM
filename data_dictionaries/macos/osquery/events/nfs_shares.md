@@ -1,4 +1,5 @@
 # Nfs_shares Table
+###### Version: 4.4.2
 
 ## Description
 NFS shares exported by the host.
@@ -12,6 +13,3 @@ NFS shares exported by the host.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#nfs_shares)
-
-## Tags
-* version_4.4.2

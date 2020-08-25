@@ -1,4 +1,5 @@
 # Event 2067 - Browseui_FrameMessagePump_Activate
+###### Version: 0
 
 ## Description
 None

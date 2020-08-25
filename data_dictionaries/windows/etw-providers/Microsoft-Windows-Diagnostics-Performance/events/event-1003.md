@@ -1,4 +1,5 @@
 # Event 1003 - Boot_ChangedState
+###### Version: 0
 
 ## Description
 None

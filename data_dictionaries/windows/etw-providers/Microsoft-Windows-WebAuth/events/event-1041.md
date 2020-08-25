@@ -1,4 +1,5 @@
 # Event 1041 - NavigationTerminate
+###### Version: 0
 
 ## Description
 None

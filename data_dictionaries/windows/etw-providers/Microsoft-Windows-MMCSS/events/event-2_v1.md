@@ -1,4 +1,5 @@
 # Event 2 - Scheduler_Wakeup
+###### Version: 1
 
 ## Description
 None
@@ -11,4 +12,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_Scheduler_Wakeup
-* version_1

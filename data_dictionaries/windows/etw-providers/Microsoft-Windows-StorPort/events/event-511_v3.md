@@ -1,4 +1,5 @@
 # Event 511 - Port
+###### Version: 3
 
 ## Description
 None
@@ -37,4 +38,3 @@ None
 * etw_level_Informational
 * etw_keywords_DeviceState
 * etw_task_Port
-* version_3

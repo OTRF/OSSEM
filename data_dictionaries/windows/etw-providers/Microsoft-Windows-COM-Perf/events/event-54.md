@@ -1,4 +1,5 @@
 # Event 54 - ExtensionCatalog_RoGetExtensionRegistrationForLaunchContracts
+###### Version: 0
 
 ## Description
 None

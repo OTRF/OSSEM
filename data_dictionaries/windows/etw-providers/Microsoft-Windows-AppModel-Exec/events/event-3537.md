@@ -1,4 +1,5 @@
 # Event 3537 - LogTrace
+###### Version: 0
 
 ## Description
 None

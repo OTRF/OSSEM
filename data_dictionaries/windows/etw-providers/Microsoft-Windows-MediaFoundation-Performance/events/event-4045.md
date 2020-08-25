@@ -1,4 +1,5 @@
 # Event 4045 - AudioRendererBufferFullness
+###### Version: 0
 
 ## Description
 None

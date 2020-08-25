@@ -1,4 +1,5 @@
 # Event ID 4866: A trusted forest information entry was removed.
+###### Version: 0
 
 ## Description
 This event generates when the trusted forest information entry was removed.

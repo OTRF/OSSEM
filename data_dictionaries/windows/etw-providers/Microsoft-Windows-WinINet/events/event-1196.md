@@ -1,4 +1,5 @@
 # Event 1196 - Wininet_CacheServerContainer
+###### Version: 0
 
 ## Description
 None

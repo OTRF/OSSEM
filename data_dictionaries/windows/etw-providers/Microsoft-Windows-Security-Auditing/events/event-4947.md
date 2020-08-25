@@ -1,4 +1,5 @@
 # Event ID 4947: A change has been made to Windows Firewall exception list. A rule was modified.
+###### Version: 0
 
 ## Description
 This event generates when Windows Firewall rule was modified.

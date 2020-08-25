@@ -1,4 +1,5 @@
 # Event 12 - KERNEL_MITIGATION_TASK_PROHIBIT_NON_MICROSOFT_BINARIES
+###### Version: 0
 
 ## Description
 None

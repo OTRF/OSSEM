@@ -1,4 +1,5 @@
 # Battery Table
+###### Version: 4.4.2
 
 ## Description
 Provides information about the internal battery of a Macbook.
@@ -27,6 +28,3 @@ Provides information about the internal battery of a Macbook.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#battery)
-
-## Tags
-* version_4.4.2

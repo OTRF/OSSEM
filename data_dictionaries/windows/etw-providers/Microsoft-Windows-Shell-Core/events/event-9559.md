@@ -1,4 +1,5 @@
 # Event 9559 - ExplorerFrame_OpenPictures
+###### Version: 0
 
 ## Description
 None

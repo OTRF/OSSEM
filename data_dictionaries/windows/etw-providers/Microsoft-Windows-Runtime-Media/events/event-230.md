@@ -1,4 +1,5 @@
 # Event 230 - MediaCaptureLowLagPhotoFinishoperation
+###### Version: 0
 
 ## Description
 None

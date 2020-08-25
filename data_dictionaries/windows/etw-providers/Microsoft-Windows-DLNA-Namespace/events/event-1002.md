@@ -1,4 +1,5 @@
 # Event 1002 - GetThumbnailProvider
+###### Version: 0
 
 ## Description
 None

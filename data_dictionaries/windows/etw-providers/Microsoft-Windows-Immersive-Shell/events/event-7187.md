@@ -1,4 +1,5 @@
 # Event 7187 - ConnectedSearch_AppBarClick
+###### Version: 0
 
 ## Description
 None

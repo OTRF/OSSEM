@@ -1,4 +1,5 @@
 # Event 126 - Mshtml_FormatCalculation_ComputeFormats
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_verbose
 * etw_opcode_Stop
 * etw_task_Mshtml_FormatCalculation_ComputeFormats
-* version_1

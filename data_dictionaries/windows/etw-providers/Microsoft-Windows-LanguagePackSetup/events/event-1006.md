@@ -1,4 +1,5 @@
 # Event 1006 - LanguagePackSetupWorkerClassfunctionality
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Docker_containers Table
+###### Version: 4.4.2
 
 ## Description
 Docker containers information.
@@ -33,6 +34,3 @@ Docker containers information.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_containers)
-
-## Tags
-* version_4.4.2

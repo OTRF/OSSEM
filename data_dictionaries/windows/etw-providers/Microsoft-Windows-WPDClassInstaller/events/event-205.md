@@ -1,4 +1,5 @@
 # Event 205 - DeviceMetadataRetrieval
+###### Version: 0
 
 ## Description
 None

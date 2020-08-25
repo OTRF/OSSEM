@@ -1,4 +1,5 @@
 # Intel_me_info Table
+###### Version: 4.4.2
 
 ## Description
 Intel ME/CSE Info.
@@ -10,6 +11,3 @@ Intel ME/CSE Info.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#intel_me_info)
-
-## Tags
-* version_4.4.2

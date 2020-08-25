@@ -1,4 +1,5 @@
 # Event 410 - WMPSyncLicenseAcquisition
+###### Version: 0
 
 ## Description
 None

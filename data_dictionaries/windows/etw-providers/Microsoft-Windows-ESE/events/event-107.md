@@ -1,4 +1,5 @@
 # Event 107 - ESE_CacheEvictPage_Trace
+###### Version: 0
 
 ## Description
 None

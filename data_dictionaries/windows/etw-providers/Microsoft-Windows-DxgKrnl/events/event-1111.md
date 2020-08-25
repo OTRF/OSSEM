@@ -1,4 +1,5 @@
 # Event 1111 - IndirectSwapChainRemoveSurface
+###### Version: 0
 
 ## Description
 None

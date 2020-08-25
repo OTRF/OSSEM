@@ -1,4 +1,5 @@
 # Event 8031 - DnsRegistration
+###### Version: 0
 
 ## Description
 None

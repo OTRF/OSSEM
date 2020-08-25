@@ -1,4 +1,5 @@
 # Event 515 - BackgroundManagerTrace
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1114 - MediaFoundationContentEnablerEvent
+###### Version: 0
 
 ## Description
 None

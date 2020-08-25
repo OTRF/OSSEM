@@ -1,4 +1,5 @@
 # Event 245 - EMEMediaKeys
+###### Version: 0
 
 ## Description
 None

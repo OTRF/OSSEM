@@ -1,4 +1,5 @@
 # Event 367 - RME_CLIENT_LIVE_MACHINE_DISCOVERY
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1262 - FM_IsApplicationStateBackgroundEligibile
+###### Version: 0
 
 ## Description
 None

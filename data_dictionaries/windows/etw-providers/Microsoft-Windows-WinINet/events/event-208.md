@@ -1,4 +1,5 @@
 # Event 208 - WININET_KEEP_ALIVE_CONNECTION_CLOSED
+###### Version: 0
 
 ## Description
 None

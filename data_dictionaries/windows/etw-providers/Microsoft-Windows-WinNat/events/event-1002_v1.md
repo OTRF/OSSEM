@@ -1,4 +1,5 @@
 # Event 1002 - WinNatSessionTimerUpdate
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_level_Verbose
 * etw_keywords_ut:Session
 * etw_task_WinNatSessionTimerUpdate
-* version_1

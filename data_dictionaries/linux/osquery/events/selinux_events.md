@@ -1,4 +1,5 @@
 # Selinux_events Table
+###### Version: 4.4.2
 
 ## Description
 Track SELinux events.
@@ -14,6 +15,3 @@ Track SELinux events.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#selinux_events)
-
-## Tags
-* version_4.4.2

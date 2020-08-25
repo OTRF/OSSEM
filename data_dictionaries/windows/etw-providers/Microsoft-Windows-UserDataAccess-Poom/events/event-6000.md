@@ -1,4 +1,5 @@
 # Event 6000 - SODA_ActivitySnapshot
+###### Version: 0
 
 ## Description
 None

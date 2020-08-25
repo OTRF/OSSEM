@@ -1,4 +1,5 @@
 # Event 1046 - Wininet_Connect
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_WININET_KEYWORD_IE WININET_KEYWORD_HTTPDIAG
 * etw_opcode_Stop
 * etw_task_Wininet_Connect
-* version_1

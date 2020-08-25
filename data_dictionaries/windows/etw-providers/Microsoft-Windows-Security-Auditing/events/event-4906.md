@@ -1,4 +1,5 @@
 # Event ID 4906: The CrashOnAuditFail value has changed.
+###### Version: 0
 
 ## Description
 This event generates every time CrashOnAuditFail audit flag value was modified.

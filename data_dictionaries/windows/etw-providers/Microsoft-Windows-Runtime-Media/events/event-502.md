@@ -1,4 +1,5 @@
 # Event 502 - WinRTMediaStreamSourceEventTask
+###### Version: 0
 
 ## Description
 None

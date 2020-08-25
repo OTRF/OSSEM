@@ -1,4 +1,5 @@
 # Event 200 - MicrosoftWindowsRuntimeCaptureEngineInitializationTask
+###### Version: 0
 
 ## Description
 None

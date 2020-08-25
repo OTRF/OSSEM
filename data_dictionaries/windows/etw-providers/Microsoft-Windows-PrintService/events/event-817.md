@@ -1,4 +1,5 @@
 # Event 817 - EnablingspoolerRPCendpoints
+###### Version: 0
 
 ## Description
 None

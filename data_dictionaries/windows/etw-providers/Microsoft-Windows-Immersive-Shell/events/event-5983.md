@@ -1,4 +1,5 @@
 # Event 5983 - AppActivation_Log_GenericFailure
+###### Version: 0
 
 ## Description
 None

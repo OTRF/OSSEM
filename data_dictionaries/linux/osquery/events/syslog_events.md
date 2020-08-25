@@ -1,4 +1,5 @@
 # Syslog_events Table
+###### Version: 4.4.2
 
 ## Description
 
@@ -17,6 +18,3 @@
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#syslog_events)
-
-## Tags
-* version_4.4.2

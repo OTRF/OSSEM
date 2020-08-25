@@ -1,4 +1,5 @@
 # Event 23 - AudioSession_Release_Client_Resource
+###### Version: 0
 
 ## Description
 None

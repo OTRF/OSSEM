@@ -1,4 +1,5 @@
 # Event 19 - MFTStateWaitingForReaquireResourcesMessage
+###### Version: 0
 
 ## Description
 None

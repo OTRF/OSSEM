@@ -1,4 +1,5 @@
 # Event 300 - INTERACTION_TOUCHPAD_CONFIGURATION_CHANGED
+###### Version: 0
 
 ## Description
 None

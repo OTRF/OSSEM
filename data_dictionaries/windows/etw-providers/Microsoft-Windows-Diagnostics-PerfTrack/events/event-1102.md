@@ -1,4 +1,5 @@
 # Event 1102 - IdleDetection_PostResumeFromHibernate
+###### Version: 0
 
 ## Description
 None

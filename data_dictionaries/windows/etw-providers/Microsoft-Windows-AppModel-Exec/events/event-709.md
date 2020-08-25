@@ -1,4 +1,5 @@
 # Event 709 - BAM_SanitizePackageReregister
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 235 - MediaCaptureLowLagRecordPrepareoperation
+###### Version: 0
 
 ## Description
 None

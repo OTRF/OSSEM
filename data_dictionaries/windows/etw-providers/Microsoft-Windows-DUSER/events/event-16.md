@@ -1,4 +1,5 @@
 # Event 16 - DUser_DestroyPendingDCVisuals
+###### Version: 0
 
 ## Description
 None

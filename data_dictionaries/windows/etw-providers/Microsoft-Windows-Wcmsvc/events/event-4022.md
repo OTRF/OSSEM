@@ -1,4 +1,5 @@
 # Event 4022 - MeasureWLANResumeReconnecttask
+###### Version: 0
 
 ## Description
 None

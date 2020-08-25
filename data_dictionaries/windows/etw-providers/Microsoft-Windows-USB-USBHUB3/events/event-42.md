@@ -1,4 +1,5 @@
 # Event 42 - PrepareHardware
+###### Version: 0
 
 ## Description
 None

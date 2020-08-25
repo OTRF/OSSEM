@@ -1,4 +1,5 @@
 # Event 4006 - ExecuteEmbeddedScripts
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Error
 * etw_keywords_EmbeddedScripting
 * etw_task_ExecuteEmbeddedScripts
-* version_1

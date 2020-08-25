@@ -1,4 +1,5 @@
 # Event 4312 - ImmersiveMonitorHandleDisplayChange
+###### Version: 0
 
 ## Description
 None

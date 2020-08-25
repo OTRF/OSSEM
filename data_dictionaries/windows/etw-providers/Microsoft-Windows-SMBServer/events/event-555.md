@@ -1,4 +1,5 @@
 # Event 555 - Smb2SessionClose
+###### Version: 0
 
 ## Description
 None

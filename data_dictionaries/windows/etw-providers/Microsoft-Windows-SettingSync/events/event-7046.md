@@ -1,4 +1,5 @@
 # Event 7046 - Perf_WLRoamFindChanges
+###### Version: 0
 
 ## Description
 None

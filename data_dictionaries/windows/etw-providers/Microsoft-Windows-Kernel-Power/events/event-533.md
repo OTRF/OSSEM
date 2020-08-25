@@ -1,4 +1,5 @@
 # Event 533 - PowerAggregatorSessionBegin
+###### Version: 0
 
 ## Description
 None

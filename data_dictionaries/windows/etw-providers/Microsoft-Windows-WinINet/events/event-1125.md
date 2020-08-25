@@ -1,4 +1,5 @@
 # Event 1125 - Wininet_CacheClientBloomFilter
+###### Version: 0
 
 ## Description
 None

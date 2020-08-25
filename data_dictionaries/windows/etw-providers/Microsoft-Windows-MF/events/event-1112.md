@@ -1,4 +1,5 @@
 # Event 1112 - MediaFoundationIMFSampleProtection_InitOutputProtection
+###### Version: 0
 
 ## Description
 None

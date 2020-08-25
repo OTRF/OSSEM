@@ -1,4 +1,5 @@
 # Event 135 - CBlackboxCreateLicenseStateStorePassword
+###### Version: 0
 
 ## Description
 None

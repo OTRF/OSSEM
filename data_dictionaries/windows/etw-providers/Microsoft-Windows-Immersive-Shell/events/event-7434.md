@@ -1,4 +1,5 @@
 # Event 7434 - ConnectedSearch_LogTemplateRequestInfoPayload
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1081 - OpmCreateProtectedOutput
+###### Version: 0
 
 ## Description
 None

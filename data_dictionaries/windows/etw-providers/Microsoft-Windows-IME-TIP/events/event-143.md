@@ -1,4 +1,5 @@
 # Event 143 - TaskID:IME_CHT_HWKBD_KeyProcess
+###### Version: 0
 
 ## Description
 None

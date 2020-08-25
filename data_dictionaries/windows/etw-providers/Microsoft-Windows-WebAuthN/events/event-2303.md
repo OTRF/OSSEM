@@ -1,4 +1,5 @@
 # Event 2303 - CtapNfcProviderThread
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 233 - REMOTEAPP_WINDOWCLIP
+###### Version: 0
 
 ## Description
 None

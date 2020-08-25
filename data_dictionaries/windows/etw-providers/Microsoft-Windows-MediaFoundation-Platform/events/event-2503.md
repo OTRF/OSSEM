@@ -1,4 +1,5 @@
 # Event 2503 - MediaFoundationMFTEnum
+###### Version: 0
 
 ## Description
 None

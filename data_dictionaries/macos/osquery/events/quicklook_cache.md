@@ -1,4 +1,5 @@
 # Quicklook_cache Table
+###### Version: 4.4.2
 
 ## Description
 Files and thumbnails within OS X's Quicklook Cache.
@@ -20,6 +21,3 @@ Files and thumbnails within OS X's Quicklook Cache.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#quicklook_cache)
-
-## Tags
-* version_4.4.2

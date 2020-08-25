@@ -1,4 +1,5 @@
 # Event 5010 - UdwmProcessSnapshotIconicThumbnail
+###### Version: 0
 
 ## Description
 None

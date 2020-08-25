@@ -1,4 +1,5 @@
 # Keychain_acls Table
+###### Version: 4.4.2
 
 ## Description
 Applications that have ACL entries in the keychain.
@@ -14,6 +15,3 @@ Applications that have ACL entries in the keychain.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#keychain_acls)
-
-## Tags
-* version_4.4.2

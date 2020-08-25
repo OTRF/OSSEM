@@ -1,4 +1,5 @@
 # Event ID 4769: A Kerberos service ticket was requested
+###### Version: 0
 
 ## Description
 This event generates for every Ticket Granting Service (TGS) ticket renewal. This event generates only on domain controllers.

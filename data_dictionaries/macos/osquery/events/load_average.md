@@ -1,4 +1,5 @@
 # Load_average Table
+###### Version: 4.4.2
 
 ## Description
 Displays information about the system wide load averages.
@@ -11,6 +12,3 @@ Displays information about the system wide load averages.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#load_average)
-
-## Tags
-* version_4.4.2

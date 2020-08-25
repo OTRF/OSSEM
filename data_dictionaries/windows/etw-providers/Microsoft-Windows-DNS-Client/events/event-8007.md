@@ -1,4 +1,5 @@
 # Event 8007 - DnsRegistration
+###### Version: 0
 
 ## Description
 None

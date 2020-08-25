@@ -1,4 +1,5 @@
 # Smart_drive_info Table
+###### Version: 4.4.2
 
 ## Description
 Drive information read by SMART controller utilizing autodetect.
@@ -27,6 +28,3 @@ Drive information read by SMART controller utilizing autodetect.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#smart_drive_info)
-
-## Tags
-* version_4.4.2

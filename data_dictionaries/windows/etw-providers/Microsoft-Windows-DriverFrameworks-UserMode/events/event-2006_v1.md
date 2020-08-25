@@ -1,4 +1,5 @@
 # Event 2006 - Loadingdriverstocontrolanewlydiscovereddevice.
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Verbose
 * etw_opcode_Stop
 * etw_task_Loadingdriverstocontrolanewlydiscovereddevice.
-* version_1

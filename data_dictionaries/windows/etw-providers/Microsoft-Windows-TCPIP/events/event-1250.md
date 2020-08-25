@@ -1,4 +1,5 @@
 # Event 1250 - Ndkpi_Close_Obj
+###### Version: 0
 
 ## Description
 None

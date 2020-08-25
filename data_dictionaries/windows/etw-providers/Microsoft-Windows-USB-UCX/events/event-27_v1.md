@@ -1,4 +1,5 @@
 # Event 27 - URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace
 * etw_opcode_Stop
 * etw_task_URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER
-* version_1

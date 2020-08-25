@@ -1,4 +1,5 @@
 # Event 181 - StrongNameVerification
+###### Version: 0
 
 ## Description
 None

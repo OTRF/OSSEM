@@ -1,4 +1,5 @@
 # Event 428 - CONFIGURE_STREAMING_MENU_ACTION
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 11 - AUD_DOLBY_MODE_CHANGE
+###### Version: 0
 
 ## Description
 None

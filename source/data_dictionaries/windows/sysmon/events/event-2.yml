@@ -1,5 +1,5 @@
 title: 'Event ID 2: A process changed a file creation time'
-description: The change file creation time event is registered when a file creation
+description: The change **file creation time** event is registered when a file creation
   time is explicitly modified by a process. This event helps tracking the real creation
   time of a file. Attackers may change the file creation time of a backdoor to make
   it look like it was installed with the operating system. Note that many processes
@@ -8,6 +8,7 @@ description: The change file creation time event is registered when a file creat
 platform: windows
 log_source: sysmon
 event_code: '2'
+event_version: '4.32'
 event_fields:
 - standard_name: tag
   standard_type: TBD

@@ -1,4 +1,5 @@
 # Event 4312 - DsGetDcName(DnsSuffix)
+###### Version: 0
 
 ## Description
 None

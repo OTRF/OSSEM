@@ -1,4 +1,5 @@
 # Event 154 - DdiSetPowerState
+###### Version: 0
 
 ## Description
 None

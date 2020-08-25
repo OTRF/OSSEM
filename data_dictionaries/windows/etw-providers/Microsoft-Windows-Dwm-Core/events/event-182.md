@@ -1,4 +1,5 @@
 # Event 182 - ETWGUID_DRAWING_CONTEXT_STATE
+###### Version: 0
 
 ## Description
 None

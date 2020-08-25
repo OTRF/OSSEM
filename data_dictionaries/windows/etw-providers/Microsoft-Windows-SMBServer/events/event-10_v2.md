@@ -1,4 +1,5 @@
 # Event 10 - Smb2RequestFlush
+###### Version: 2
 
 ## Description
 None
@@ -24,4 +25,3 @@ None
 * etw_level_Informational
 * etw_keywords_Request
 * etw_task_Smb2RequestFlush
-* version_2

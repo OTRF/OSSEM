@@ -1,4 +1,5 @@
 # Event 512 - BackgroundManagerTrace
+###### Version: 0
 
 ## Description
 None

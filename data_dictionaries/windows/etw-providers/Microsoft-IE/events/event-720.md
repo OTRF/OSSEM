@@ -1,4 +1,5 @@
 # Event 720 - Mshtml_CTouchDragDropHelper_DragCancelled
+###### Version: 0
 
 ## Description
 None

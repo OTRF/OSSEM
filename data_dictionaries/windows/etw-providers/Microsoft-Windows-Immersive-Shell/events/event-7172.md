@@ -1,4 +1,5 @@
 # Event 7172 - ConnectedSearch_LogAppBarClickPayload
+###### Version: 0
 
 ## Description
 None

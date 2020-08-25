@@ -1,4 +1,5 @@
 # Event 4174 - UrlmonByteStreamClose
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Gatekeeper Table
+###### Version: 4.4.2
 
 ## Description
 OS X Gatekeeper Details.
@@ -13,6 +14,3 @@ OS X Gatekeeper Details.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#gatekeeper)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 10 - KERNEL_MITIGATION_TASK_PROHIBIT_WIN32K_SYSTEM_CALLS
+###### Version: 0
 
 ## Description
 None

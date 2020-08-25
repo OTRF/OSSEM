@@ -1,4 +1,5 @@
 # Event 417 - SharedUserCritTelemetry
+###### Version: 0
 
 ## Description
 None

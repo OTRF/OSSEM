@@ -4,9 +4,9 @@
 This page contains the list of events for Microsoft-Windows-ApplicationExperience-SwitchBack, as collected by the Event Tracing for Windows.
 
 ## Sub Data Sets
-|events|Description|Tags|
-|---|---|---|
-|[1](events/event-1.md)|None|etw_level_Informational, etw_task_AeSbCall|
-|[2](events/event-2.md)|None|etw_level_Informational, etw_task_AeSbImpl|
-|[3](events/event-3.md)|None|etw_level_Informational, etw_task_AeSbContextUpdate|
-|[4](events/event-4.md)|None|etw_level_Informational, etw_task_AeSbContextReadRetry|
+|events|Version|Description|Tags|
+|---|---|---|---|
+|[1](events/event-1.md)|0|None|etw_level_Informational, etw_task_AeSbCall|
+|[2](events/event-2.md)|0|None|etw_level_Informational, etw_task_AeSbImpl|
+|[3](events/event-3.md)|0|None|etw_level_Informational, etw_task_AeSbContextUpdate|
+|[4](events/event-4.md)|0|None|etw_level_Informational, etw_task_AeSbContextReadRetry|

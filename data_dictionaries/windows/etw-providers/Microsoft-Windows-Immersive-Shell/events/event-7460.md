@@ -1,4 +1,5 @@
 # Event 7460 - Perftrack_ConnectedSearch_PageLoadWithImages
+###### Version: 0
 
 ## Description
 None

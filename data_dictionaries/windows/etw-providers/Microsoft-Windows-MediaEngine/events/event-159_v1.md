@@ -1,4 +1,5 @@
 # Event 159 - Normal(non_decode)SwapchainCreated
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_Normal(non_decode)SwapchainCreated
-* version_1

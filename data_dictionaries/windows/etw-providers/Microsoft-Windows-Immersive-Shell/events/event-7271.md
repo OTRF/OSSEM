@@ -1,4 +1,5 @@
 # Event 7271 - ConnectedSearch_LogSuggestion
+###### Version: 0
 
 ## Description
 None

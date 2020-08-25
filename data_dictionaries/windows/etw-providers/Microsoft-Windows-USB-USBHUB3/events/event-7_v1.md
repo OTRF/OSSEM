@@ -1,4 +1,5 @@
 # Event 7 - USB3.0HubDriverRundown
+###### Version: 1
 
 ## Description
 None
@@ -27,4 +28,3 @@ None
 * etw_keywords_Default Rundown
 * etw_opcode_Information
 * etw_task_USB3.0HubDriverRundown
-* version_1

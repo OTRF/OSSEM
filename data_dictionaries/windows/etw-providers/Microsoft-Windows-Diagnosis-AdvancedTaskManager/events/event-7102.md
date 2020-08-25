@@ -1,4 +1,5 @@
 # Event 7102 - AppHistory_RegisterAndProcessStats
+###### Version: 0
 
 ## Description
 None

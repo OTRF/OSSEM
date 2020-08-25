@@ -1,4 +1,5 @@
 # Event 42 - RejectRevocationInformation
+###### Version: 0
 
 ## Description
 None

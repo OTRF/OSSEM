@@ -1,4 +1,5 @@
 # Event ID 4729: A member was removed from a security-enabled global group
+###### Version: 0
 
 ## Description
 Event 4729 is the same as 4733, but it is generated for a global security group instead of a local security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.

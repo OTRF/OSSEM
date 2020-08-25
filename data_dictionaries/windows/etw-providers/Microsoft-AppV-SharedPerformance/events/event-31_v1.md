@@ -1,4 +1,5 @@
 # Event 31 - Transportstreamrequestoperation
+###### Version: 1
 
 ## Description
 None
@@ -10,4 +11,3 @@ None
 
 ## Tags
 * etw_task_Transportstreamrequestoperation
-* version_1

@@ -1,4 +1,5 @@
 # Event 518 - EmptyTab_CreateNewTab
+###### Version: 0
 
 ## Description
 None

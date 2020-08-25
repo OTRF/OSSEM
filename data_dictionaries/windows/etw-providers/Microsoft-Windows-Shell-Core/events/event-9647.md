@@ -1,4 +1,5 @@
 # Event 9647 - Explorer_Startup_PhaseReached
+###### Version: 0
 
 ## Description
 None

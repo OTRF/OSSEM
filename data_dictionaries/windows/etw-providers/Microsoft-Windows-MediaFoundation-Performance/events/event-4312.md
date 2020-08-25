@@ -1,4 +1,5 @@
 # Event 4312 - MFGraphClose
+###### Version: 0
 
 ## Description
 None

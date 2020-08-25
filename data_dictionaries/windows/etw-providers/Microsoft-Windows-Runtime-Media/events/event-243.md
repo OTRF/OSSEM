@@ -1,4 +1,5 @@
 # Event 243 - MediaCaptureLifetime
+###### Version: 0
 
 ## Description
 None

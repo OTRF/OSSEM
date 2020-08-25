@@ -1,4 +1,5 @@
 # Event 8198 - RebuildasubsystemoftheCatalogDatabase
+###### Version: 0
 
 ## Description
 None

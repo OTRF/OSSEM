@@ -1,4 +1,5 @@
 # Event 367 - ScopeChangeNotification_Register
+###### Version: 0
 
 ## Description
 None

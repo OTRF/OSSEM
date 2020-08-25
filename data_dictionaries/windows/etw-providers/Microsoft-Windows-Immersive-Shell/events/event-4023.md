@@ -1,4 +1,5 @@
 # Event 4023 - AssociationLaunch_UriLaunch_MissingIntranetCapability
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 35 - PerfStatesError
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 ## Tags
 * etw_level_Error
 * etw_task_PerfStatesError
-* version_1

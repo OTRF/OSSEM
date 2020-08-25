@@ -1,4 +1,5 @@
 # Event 3002 - Impersonation/Deimpersonation
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_Common
 * etw_opcode_Stop
 * etw_task_Impersonation/Deimpersonation
-* version_1

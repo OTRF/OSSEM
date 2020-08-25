@@ -1,4 +1,5 @@
 # Event 71 - CBlackboxWithTEEDeleteLicenseLKB
+###### Version: 0
 
 ## Description
 None

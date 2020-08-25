@@ -1,4 +1,5 @@
 # Event 382 - Debugger_Intellisense_Provider_Update
+###### Version: 0
 
 ## Description
 None

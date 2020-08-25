@@ -1,4 +1,5 @@
 # Processes Table
+###### Version: 4.4.2
 
 ## Description
 All running processes on the host system.
@@ -42,6 +43,3 @@ All running processes on the host system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#processes)
-
-## Tags
-* version_4.4.2

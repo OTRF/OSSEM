@@ -1,4 +1,5 @@
 # Event 3006 - PageHashFoundInCatalog
+###### Version: 0
 
 ## Description
 None

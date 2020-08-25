@@ -1,4 +1,5 @@
 # Event 25 - MediaFoundationDevproxyMFTStreamState
+###### Version: 0
 
 ## Description
 None

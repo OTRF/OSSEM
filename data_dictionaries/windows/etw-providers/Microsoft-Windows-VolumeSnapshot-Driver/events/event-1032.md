@@ -1,4 +1,5 @@
 # Event 1032 - vs:DiscoverSnapshots
+###### Version: 0
 
 ## Description
 None

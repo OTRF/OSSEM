@@ -1,4 +1,5 @@
 # Event 8004 - AuditingNTLM
+###### Version: 0
 
 ## Description
 None

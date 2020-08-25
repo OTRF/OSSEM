@@ -1,4 +1,5 @@
 # Event 532 - PowerAggregatorCompletionEvent
+###### Version: 0
 
 ## Description
 None

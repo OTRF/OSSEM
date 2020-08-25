@@ -1,4 +1,5 @@
 # Event 186 - Mshtml_Image_Draw
+###### Version: 0
 
 ## Description
 None

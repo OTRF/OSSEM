@@ -1,4 +1,5 @@
 # Event 302 - Wordlist_Publish
+###### Version: 0
 
 ## Description
 None

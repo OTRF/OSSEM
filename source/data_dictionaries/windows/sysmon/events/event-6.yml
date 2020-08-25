@@ -1,11 +1,12 @@
 title: 'Event ID 6: Driver loaded'
-description: The driver loaded events provides information about a driver being loaded
+description: The **driver loaded** events provides information about a driver being loaded
   on the system. The configured hashes are provided as well as signature information.
   The signature is created asynchronously for performance reasons and indicates if
   the file was removed after loading.
 platform: windows
 log_source: sysmon
 event_code: '6'
+event_version: '4.32'
 event_fields:
 - standard_name: tag
   standard_type: TBD

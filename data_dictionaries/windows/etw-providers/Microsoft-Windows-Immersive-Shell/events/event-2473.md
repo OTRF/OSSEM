@@ -1,4 +1,5 @@
 # Event 2473 - PLM_ApplicationStateChange
+###### Version: 0
 
 ## Description
 None

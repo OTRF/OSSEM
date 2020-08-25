@@ -1,4 +1,5 @@
 # Event 1026 - MiracastUmdDriverStopMiracastSession
+###### Version: 0
 
 ## Description
 None

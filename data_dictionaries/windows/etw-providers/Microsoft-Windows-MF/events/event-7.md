@@ -1,4 +1,5 @@
 # Event 7 - MediaFoundationDevproxySetInputType
+###### Version: 0
 
 ## Description
 None

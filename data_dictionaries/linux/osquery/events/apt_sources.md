@@ -1,4 +1,5 @@
 # Apt_sources Table
+###### Version: 4.4.2
 
 ## Description
 Current list of APT repositories or software channels.
@@ -17,6 +18,3 @@ Current list of APT repositories or software channels.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#apt_sources)
-
-## Tags
-* version_4.4.2

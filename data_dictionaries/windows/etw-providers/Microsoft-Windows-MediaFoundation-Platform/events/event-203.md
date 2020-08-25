@@ -1,4 +1,5 @@
 # Event 203 - MediaFoundationSourceResolver
+###### Version: 0
 
 ## Description
 None

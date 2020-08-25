@@ -1,4 +1,5 @@
 # Event 6103 - DeviceDiscovery
+###### Version: 0
 
 ## Description
 None

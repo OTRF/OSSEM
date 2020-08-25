@@ -1,4 +1,5 @@
 # Event 320 - MediaCaptureAdvancedPhotoFinishoperation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 64 - ENDPOINT_STATE_MACHINE_EVENT
+###### Version: 0
 
 ## Description
 None

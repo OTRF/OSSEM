@@ -1,4 +1,5 @@
 # Services Table
+###### Version: 4.4.2
 
 ## Description
 Lists all installed Windows services and their relevant data.
@@ -21,6 +22,3 @@ Lists all installed Windows services and their relevant data.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#services)
-
-## Tags
-* version_4.4.2

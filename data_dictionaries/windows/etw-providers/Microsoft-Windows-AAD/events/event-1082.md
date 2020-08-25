@@ -1,4 +1,5 @@
 # Event 1082 - AadCloudAPPluginOperation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 172 - MFAudio_Render_StreamInvalidationTask
+###### Version: 0
 
 ## Description
 None

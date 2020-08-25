@@ -1,4 +1,5 @@
 # Event 5046 - VMT_VID_ALLOCATE_PARTITION_NODE_PAGES
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 7443 - ConnectedSearch_DeletingInvalidTemplate
+###### Version: 0
 
 ## Description
 None

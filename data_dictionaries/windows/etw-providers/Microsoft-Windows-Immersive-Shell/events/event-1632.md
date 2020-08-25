@@ -1,4 +1,5 @@
 # Event 1632 - AppsFolder_LaunchImmersiveApp_Failure
+###### Version: 0
 
 ## Description
 None

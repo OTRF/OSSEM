@@ -1,4 +1,5 @@
 # Event 4494 - UpdateSelectWorkQueuesCpuGroupMask
+###### Version: 0
 
 ## Description
 None

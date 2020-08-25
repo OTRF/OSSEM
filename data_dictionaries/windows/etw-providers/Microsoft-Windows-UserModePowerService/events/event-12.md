@@ -1,4 +1,5 @@
 # Event 12 - PowerSchemeChanged
+###### Version: 0
 
 ## Description
 None

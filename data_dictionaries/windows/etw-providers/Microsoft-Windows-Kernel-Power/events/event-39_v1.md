@@ -1,4 +1,5 @@
 # Event 39 - PowerTransition
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:Diagnostic po:Performance po:DiagnosticLight po:PerformanceLight po:SleepDiagnostic po:WdiDiagnostic
 * etw_task_PowerTransition
-* version_1

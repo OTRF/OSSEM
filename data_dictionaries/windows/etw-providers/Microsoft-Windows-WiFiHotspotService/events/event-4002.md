@@ -1,4 +1,5 @@
 # Event 4002 - HotspotService
+###### Version: 0
 
 ## Description
 None

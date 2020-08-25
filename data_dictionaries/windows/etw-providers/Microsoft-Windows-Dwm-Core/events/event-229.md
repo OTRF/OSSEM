@@ -1,4 +1,5 @@
 # Event 229 - REMOTEAPP_METADATA_STATS
+###### Version: 0
 
 ## Description
 None

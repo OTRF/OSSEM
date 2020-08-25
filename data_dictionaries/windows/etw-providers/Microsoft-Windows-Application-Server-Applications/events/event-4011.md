@@ -1,4 +1,5 @@
 # Event 4011 - MessageQueueRegister
+###### Version: 0
 
 ## Description
 None

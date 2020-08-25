@@ -1,4 +1,5 @@
 # Event 1484 - TcpipFramingInterfaceBindFailure
+###### Version: 0
 
 ## Description
 None

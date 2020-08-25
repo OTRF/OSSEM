@@ -1,4 +1,5 @@
 # Event 816 - EnablingspoolerRPCendpoints
+###### Version: 0
 
 ## Description
 None

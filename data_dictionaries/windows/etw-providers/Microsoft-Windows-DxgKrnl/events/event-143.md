@@ -1,4 +1,5 @@
 # Event 143 - DdiRemoveDevice
+###### Version: 0
 
 ## Description
 None

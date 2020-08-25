@@ -1,4 +1,5 @@
 # Event 7214 - ConnectedSearch_ConnectionEstablished
+###### Version: 0
 
 ## Description
 None

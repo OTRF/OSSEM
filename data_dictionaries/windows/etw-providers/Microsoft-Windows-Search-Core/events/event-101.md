@@ -1,4 +1,5 @@
 # Event 101 - ProtocolHostStopped
+###### Version: 0
 
 ## Description
 None

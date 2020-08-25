@@ -1,4 +1,5 @@
 # Event ID 4663: An attempt was made to access an object
+###### Version: 1
 
 ## Description
 This event indicates that a specific operation was performed on an object. The object could be a file system, kernel, or registry object, or a file system object on removable storage or a device.
@@ -31,7 +32,6 @@ This event indicates that a specific operation was performed on an object. The o
 ## Tags
 * etw_level_Informational
 * etw_task_task_0
-* version_1
 * Object Access
 * Audit File System
 * Audit Kernel Object

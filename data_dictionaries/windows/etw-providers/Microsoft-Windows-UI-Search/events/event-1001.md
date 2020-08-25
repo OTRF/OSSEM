@@ -1,4 +1,5 @@
 # Event 1001 - XamlHostWindow_VisibilityChanged
+###### Version: 0
 
 ## Description
 None

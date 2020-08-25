@@ -1,4 +1,5 @@
 # Event 301 - WinRTTranscode_Stage1_Task
+###### Version: 0
 
 ## Description
 None

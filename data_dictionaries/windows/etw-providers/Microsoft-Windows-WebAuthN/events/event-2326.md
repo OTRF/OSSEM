@@ -1,4 +1,5 @@
 # Event 2326 - CtapNfcSendMessage
+###### Version: 0
 
 ## Description
 None

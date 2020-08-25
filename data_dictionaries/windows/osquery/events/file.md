@@ -1,4 +1,5 @@
 # File Table
+###### Version: 4.4.2
 
 ## Description
 Interactive filesystem attributes and metadata.
@@ -29,6 +30,3 @@ Interactive filesystem attributes and metadata.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#file)
-
-## Tags
-* version_4.4.2

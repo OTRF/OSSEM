@@ -1,4 +1,5 @@
 # Event 1033 - InfoBar_Display_Count_Indexer_Busy
+###### Version: 0
 
 ## Description
 None

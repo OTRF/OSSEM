@@ -1,4 +1,5 @@
 # Event 274 - INTERACTION_DESTROYED
+###### Version: 0
 
 ## Description
 None

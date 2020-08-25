@@ -1,4 +1,5 @@
 # Event 187 - InternalSetTimerCoalescing
+###### Version: 0
 
 ## Description
 None

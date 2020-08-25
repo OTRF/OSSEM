@@ -1,4 +1,5 @@
 # Event ID 5152: The Windows Filtering Platform blocked a packet.
+###### Version: 0
 
 ## Description
 This event generates when Windows Filtering Platform.

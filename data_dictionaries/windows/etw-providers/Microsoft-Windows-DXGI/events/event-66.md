@@ -1,4 +1,5 @@
 # Event 66 - ReCreateSwapChainBufferForHardwareProtection
+###### Version: 0
 
 ## Description
 None

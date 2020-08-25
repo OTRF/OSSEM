@@ -1,4 +1,5 @@
 # Event 1007 - InMemoryDecompression
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Informational
 * etw_keywords_Store
 * etw_task_InMemoryDecompression
-* version_1

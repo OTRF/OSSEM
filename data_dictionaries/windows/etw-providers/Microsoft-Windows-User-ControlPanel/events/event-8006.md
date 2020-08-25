@@ -1,4 +1,5 @@
 # Event 8006 - UserAccount_AddUserWizard_NewOnlineUserAdded
+###### Version: 0
 
 ## Description
 None

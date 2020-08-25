@@ -1,4 +1,5 @@
 # Iptables Table
+###### Version: 4.4.2
 
 ## Description
 Linux IP packet filtering and NAT tool.
@@ -27,6 +28,3 @@ Linux IP packet filtering and NAT tool.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#iptables)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 1106 - SensorsDefaultDeviceSelectionTask
+###### Version: 0
 
 ## Description
 None

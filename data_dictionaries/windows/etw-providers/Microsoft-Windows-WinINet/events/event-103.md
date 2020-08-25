@@ -1,4 +1,5 @@
 # Event 103 - WININET_CONNECT_HANDLE_CREATED
+###### Version: 0
 
 ## Description
 None

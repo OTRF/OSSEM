@@ -1,4 +1,5 @@
 # Event 9509 - Explorer_StartPane_AllPrograms_Show
+###### Version: 0
 
 ## Description
 None

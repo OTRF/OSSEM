@@ -1,4 +1,5 @@
 # Event 206 - DeviceMetadataRetrieval
+###### Version: 0
 
 ## Description
 None

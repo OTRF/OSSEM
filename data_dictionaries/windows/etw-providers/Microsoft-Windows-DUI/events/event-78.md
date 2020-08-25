@@ -1,4 +1,5 @@
 # Event 78 - DirectUI_ActivityOverlayPaint
+###### Version: 0
 
 ## Description
 None

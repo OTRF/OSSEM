@@ -1,4 +1,5 @@
 # Users Table
+###### Version: 4.4.2
 
 ## Description
 Local user accounts (including domain accounts that have logged on locally (Windows)).
@@ -20,6 +21,3 @@ Local user accounts (including domain accounts that have logged on locally (Wind
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#users)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 158 - Loader
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_LoaderRundownKeyword
 * etw_opcode_AppDomainDCStop
 * etw_task_Loader
-* version_1

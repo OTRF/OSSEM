@@ -1,4 +1,5 @@
 # Event 226 - ProcessAllocation
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_Memory
 * etw_opcode_Stop
 * etw_task_ProcessAllocation
-* version_1

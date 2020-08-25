@@ -1,4 +1,5 @@
 # Event 3001 - HotspotDetection
+###### Version: 0
 
 ## Description
 None

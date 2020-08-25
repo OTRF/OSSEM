@@ -1,4 +1,5 @@
 # Event 816 - ConfigureDevice
+###### Version: 0
 
 ## Description
 None

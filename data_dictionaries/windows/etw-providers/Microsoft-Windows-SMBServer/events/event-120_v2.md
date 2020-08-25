@@ -1,4 +1,5 @@
 # Event 120 - Smb2ResponseQueryInfo
+###### Version: 2
 
 ## Description
 None
@@ -40,4 +41,3 @@ None
 * etw_level_Informational
 * etw_keywords_Response
 * etw_task_Smb2ResponseQueryInfo
-* version_2

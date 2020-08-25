@@ -1,4 +1,5 @@
 # Event 127 - Telemetry.WERReporting
+###### Version: 0
 
 ## Description
 None

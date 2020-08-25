@@ -1,4 +1,5 @@
 # Event ID 4698: A scheduled task was created
+###### Version: 0
 
 ## Description
 This event generates every time a new scheduled task is created.

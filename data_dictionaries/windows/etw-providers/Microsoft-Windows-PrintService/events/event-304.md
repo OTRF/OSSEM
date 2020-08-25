@@ -1,4 +1,5 @@
 # Event 304 - Resumingaprinter
+###### Version: 0
 
 ## Description
 None

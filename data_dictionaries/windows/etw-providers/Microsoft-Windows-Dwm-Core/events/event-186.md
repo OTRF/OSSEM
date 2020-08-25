@@ -1,4 +1,5 @@
 # Event 186 - ETWGUID_DIRECTFLIP_CANDIDATERECORDEVENT
+###### Version: 0
 
 ## Description
 None

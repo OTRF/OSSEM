@@ -1,4 +1,5 @@
 # Event 7425 - ConnectedSearch_LogRenderComplete
+###### Version: 0
 
 ## Description
 None

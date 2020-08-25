@@ -1,4 +1,5 @@
 # Event 785 - Mshtml_Media_Capture_Sample_Received
+###### Version: 0
 
 ## Description
 None

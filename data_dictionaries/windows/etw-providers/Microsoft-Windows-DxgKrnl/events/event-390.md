@@ -1,4 +1,5 @@
 # Event 390 - VGPUEtwSession
+###### Version: 0
 
 ## Description
 None

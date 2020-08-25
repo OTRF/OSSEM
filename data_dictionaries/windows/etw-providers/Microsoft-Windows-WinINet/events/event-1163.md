@@ -1,4 +1,5 @@
 # Event 1163 - Wininet_CacheServerConnection
+###### Version: 0
 
 ## Description
 None

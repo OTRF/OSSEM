@@ -1,4 +1,5 @@
 # Event 25 - Statechangedetectnotification
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_keywords_PortNotification
 * etw_opcode_OpCodeStateChangeDetected
 * etw_task_Statechangedetectnotification
-* version_1

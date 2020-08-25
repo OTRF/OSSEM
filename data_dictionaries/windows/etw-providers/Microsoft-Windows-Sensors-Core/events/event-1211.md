@@ -1,4 +1,5 @@
 # Event 1211 - SensorsHidInitializationTask
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 4497 - CpuGroupMaskChangeWnfCallback
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1003 - vs:PreExposure
+###### Version: 0
 
 ## Description
 None

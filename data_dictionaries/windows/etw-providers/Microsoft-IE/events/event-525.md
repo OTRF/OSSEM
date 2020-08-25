@@ -1,4 +1,5 @@
 # Event 525 - Mshtml_Canvas_Operation
+###### Version: 0
 
 ## Description
 None

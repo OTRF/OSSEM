@@ -3,6 +3,7 @@ description: File creation, modification, and other file system events
 platform: windows
 log_source: windowsdefenderatp
 event_code: DeviceFileEvents
+event_version: '0'
 event_fields:
 - standard_name: event_date_creation
   standard_type: TBD
@@ -178,7 +179,7 @@ event_fields:
   standard_type: TBD
   name: RequestProtocol
   type: string
-  description: Network protocol, if applicable, used to initiate the activity: Unknown, Local, SMB, or NFS
+  description: 'Network protocol, if applicable, used to initiate the activity: Unknown, Local, SMB, or NFS'
   sample_value: SMB 
 - standard_name: share_name
   standard_type: TBD

@@ -1,4 +1,5 @@
 # Event 1345 - TcpDataTransferSpuriousTimeout
+###### Version: 0
 
 ## Description
 None

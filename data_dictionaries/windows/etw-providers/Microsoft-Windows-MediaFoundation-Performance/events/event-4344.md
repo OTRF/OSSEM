@@ -1,4 +1,5 @@
 # Event 4344 - MFGraphGetCurrentPosition
+###### Version: 0
 
 ## Description
 None

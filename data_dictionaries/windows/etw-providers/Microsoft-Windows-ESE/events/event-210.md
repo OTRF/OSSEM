@@ -1,4 +1,5 @@
 # Event 210 - ESE_tagVersionStore_Trace
+###### Version: 0
 
 ## Description
 None

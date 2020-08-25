@@ -1,4 +1,5 @@
 # Event 1060 - DeviceError
+###### Version: 0
 
 ## Description
 None

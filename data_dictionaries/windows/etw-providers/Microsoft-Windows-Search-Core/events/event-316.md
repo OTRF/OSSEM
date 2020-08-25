@@ -1,4 +1,5 @@
 # Event 316 - ScopeManager_Write
+###### Version: 0
 
 ## Description
 None

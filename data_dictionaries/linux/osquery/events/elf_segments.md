@@ -1,4 +1,5 @@
 # Elf_segments Table
+###### Version: 4.4.2
 
 ## Description
 ELF segment information.
@@ -17,6 +18,3 @@ ELF segment information.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#elf_segments)
-
-## Tags
-* version_4.4.2

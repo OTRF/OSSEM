@@ -1,4 +1,5 @@
 # Event ID 4692: Backup of data protection master key was attempted.
+###### Version: 0
 
 ## Description
 This event generates every time that a backup is attempted for the DPAPI Master Key.

@@ -1,4 +1,5 @@
 # Event 1206 - MediaFoundationSyncMFTRunning
+###### Version: 0
 
 ## Description
 None

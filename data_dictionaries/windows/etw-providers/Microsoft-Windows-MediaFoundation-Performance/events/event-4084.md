@@ -1,4 +1,5 @@
 # Event 4084 - NetworkSessionSendResponse
+###### Version: 0
 
 ## Description
 None

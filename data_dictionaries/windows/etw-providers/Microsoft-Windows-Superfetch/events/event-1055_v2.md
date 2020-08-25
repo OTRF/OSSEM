@@ -1,4 +1,5 @@
 # Event 1055 - PrefetchScheduleTask
+###### Version: 2
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Informational
 * etw_keywords_PfAp
 * etw_task_PrefetchScheduleTask
-* version_2

@@ -1,4 +1,5 @@
 # Event 702 - Smb2ShareDelete
+###### Version: 0
 
 ## Description
 None

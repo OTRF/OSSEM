@@ -1,4 +1,5 @@
 # Event 70 - CBlackboxWithTEEDeleteLicenseLKB
+###### Version: 0
 
 ## Description
 None

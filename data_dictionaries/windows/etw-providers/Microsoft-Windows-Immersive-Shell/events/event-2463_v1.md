@@ -1,4 +1,5 @@
 # Event 2463 - PerfTrack_PLM_ResumeApplication
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_PLMComponent keyword_200000000000
 * etw_opcode_Start
 * etw_task_PerfTrack_PLM_ResumeApplication
-* version_1

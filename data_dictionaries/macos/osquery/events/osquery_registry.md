@@ -1,4 +1,5 @@
 # Osquery_registry Table
+###### Version: 4.4.2
 
 ## Description
 List the osquery registry plugins.
@@ -14,6 +15,3 @@ List the osquery registry plugins.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#osquery_registry)
-
-## Tags
-* version_4.4.2

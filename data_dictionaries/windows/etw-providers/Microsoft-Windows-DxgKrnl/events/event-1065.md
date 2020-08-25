@@ -1,4 +1,5 @@
 # Event 1065 - IndirectSwapChainSetMetaData
+###### Version: 0
 
 ## Description
 None

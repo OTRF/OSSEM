@@ -1,4 +1,5 @@
 # Event 7026 - Perf_FastPathSession
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event ID 4946: A change has been made to Windows Firewall exception list. A rule was added.
+###### Version: 0
 
 ## Description
 This event generates when new rule was locally added to Windows Firewall.

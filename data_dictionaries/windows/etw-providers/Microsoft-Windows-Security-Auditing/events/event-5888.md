@@ -1,4 +1,5 @@
 # Event ID 5888: An object in the COM+ Catalog was modified.
+###### Version: 0
 
 ## Description
 This event generates when the object in COM+ Catalog.

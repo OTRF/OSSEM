@@ -1,4 +1,5 @@
 # Event 18 - ProcessorPerfStateChange
+###### Version: 2
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Informational
 * etw_keywords_Perf
 * etw_task_ProcessorPerfStateChange
-* version_2

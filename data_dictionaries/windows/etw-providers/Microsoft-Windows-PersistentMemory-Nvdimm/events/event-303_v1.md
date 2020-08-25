@@ -1,4 +1,5 @@
 # Event 303 - task_0
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 ## Tags
 * etw_level_Error
 * etw_task_task_0
-* version_1

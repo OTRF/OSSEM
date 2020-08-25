@@ -1,4 +1,5 @@
 # Event 119 - DpiAddDevice
+###### Version: 0
 
 ## Description
 None

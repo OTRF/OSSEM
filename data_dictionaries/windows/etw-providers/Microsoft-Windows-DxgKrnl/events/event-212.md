@@ -1,4 +1,5 @@
 # Event 212 - Dxgk_Diag_OutputDupl_Release_Frame
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 6501 - WPNSettings_PermissionsUI
+###### Version: 0
 
 ## Description
 None

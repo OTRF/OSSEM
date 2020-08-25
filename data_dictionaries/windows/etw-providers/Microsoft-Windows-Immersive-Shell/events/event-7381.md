@@ -1,4 +1,5 @@
 # Event 7381 - WallpaperBackground_SceneInitialization
+###### Version: 0
 
 ## Description
 None

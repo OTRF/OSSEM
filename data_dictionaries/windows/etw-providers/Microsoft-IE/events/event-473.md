@@ -1,4 +1,5 @@
 # Event 473 - Mshtml_CScriptCollection_WebOC_FirstScriptExecutionEvent
+###### Version: 0
 
 ## Description
 None

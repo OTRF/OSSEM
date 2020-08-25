@@ -1,4 +1,5 @@
 # Event 49 - USBHubResetRecovery
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 12 - Debug
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Verbose
 * etw_opcode_Start
 * etw_task_Debug
-* version_1

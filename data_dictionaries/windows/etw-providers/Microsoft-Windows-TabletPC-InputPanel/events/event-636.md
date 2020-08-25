@@ -1,4 +1,5 @@
 # Event 636 - SoftKeyboard_OutputManager_CharacterSelectedByLM
+###### Version: 0
 
 ## Description
 None

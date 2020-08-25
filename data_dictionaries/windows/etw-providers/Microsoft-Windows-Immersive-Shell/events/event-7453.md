@@ -1,4 +1,5 @@
 # Event 7453 - ConnectedSearch_LogPrefetchImagesComplete
+###### Version: 0
 
 ## Description
 None

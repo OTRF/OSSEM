@@ -1,4 +1,5 @@
 # Event 161 - IDXGIOutput_GetFrameStatistics
+###### Version: 0
 
 ## Description
 None

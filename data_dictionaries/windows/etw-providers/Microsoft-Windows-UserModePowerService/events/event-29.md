@@ -1,4 +1,5 @@
 # Event 29 - SmartUserPresenceIntervalsSet
+###### Version: 0
 
 ## Description
 None

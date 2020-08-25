@@ -1,4 +1,5 @@
 # Event 153 - ImmersiveShellLayoutUpdate
+###### Version: 0
 
 ## Description
 None

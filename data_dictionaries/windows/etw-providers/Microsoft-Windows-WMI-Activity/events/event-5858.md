@@ -1,4 +1,5 @@
 # Event 5858 - task_0
+###### Version: 0
 
 ## Description
 WMI query error

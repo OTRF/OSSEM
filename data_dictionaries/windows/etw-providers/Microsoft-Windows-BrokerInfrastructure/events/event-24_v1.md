@@ -1,4 +1,5 @@
 # Event 24 - Package
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_keywords_Package
 * etw_opcode_DC_Stop
 * etw_task_Package
-* version_1

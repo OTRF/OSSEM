@@ -1,4 +1,5 @@
 # Event 1139 - MediaFoundationAsyncWrapperLoopRunning
+###### Version: 0
 
 ## Description
 None

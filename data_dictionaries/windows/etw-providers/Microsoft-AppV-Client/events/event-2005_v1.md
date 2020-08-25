@@ -1,4 +1,5 @@
 # Event 2005 - ClientStartup
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Error
 * etw_keywords_Startup Catalog
 * etw_task_ClientStartup
-* version_1

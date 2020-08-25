@@ -1,4 +1,5 @@
 # Event 240 - DdiNotifySurpriseRemoval
+###### Version: 0
 
 ## Description
 None

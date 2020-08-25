@@ -1,4 +1,5 @@
 # Event 102 - PrepareTarget
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_SoftRestart
 * etw_opcode_Start
 * etw_task_PrepareTarget
-* version_1

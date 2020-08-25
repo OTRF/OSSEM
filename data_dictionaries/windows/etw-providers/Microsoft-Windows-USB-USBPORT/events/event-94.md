@@ -1,4 +1,5 @@
 # Event 94 - USBPORT_URB_INVALID_NULL_TRANSFER_BUFFER_AND_MDL
+###### Version: 0
 
 ## Description
 None

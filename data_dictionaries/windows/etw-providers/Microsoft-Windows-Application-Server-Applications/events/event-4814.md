@@ -1,4 +1,5 @@
 # Event 4814 - EndpointDiscoverability
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 812 - LogTrace
+###### Version: 0
 
 ## Description
 None

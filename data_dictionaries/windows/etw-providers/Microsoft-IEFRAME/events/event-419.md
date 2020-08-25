@@ -1,4 +1,5 @@
 # Event 419 - Browseui_Tabs_ShowHungTabBar
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event ID 4731: A security-enabled local group was created
+###### Version: 0
 
 ## Description
 This event generates every time a new security-enabled (security) local group was created. This event generates on domain controllers, member servers, and workstations.

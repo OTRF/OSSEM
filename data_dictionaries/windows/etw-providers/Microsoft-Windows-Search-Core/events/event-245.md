@@ -1,4 +1,5 @@
 # Event 245 - CSearchRoot_get_UseNotificationsOnly
+###### Version: 0
 
 ## Description
 None

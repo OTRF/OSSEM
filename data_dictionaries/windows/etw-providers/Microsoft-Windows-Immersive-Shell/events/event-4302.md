@@ -1,4 +1,5 @@
 # Event 4302 - ImmersiveMonitorAdded
+###### Version: 0
 
 ## Description
 None

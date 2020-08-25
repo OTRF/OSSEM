@@ -1,4 +1,5 @@
 # Fan_speed_sensors Table
+###### Version: 4.4.2
 
 ## Description
 Fan speeds.
@@ -15,6 +16,3 @@ Fan speeds.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#fan_speed_sensors)
-
-## Tags
-* version_4.4.2

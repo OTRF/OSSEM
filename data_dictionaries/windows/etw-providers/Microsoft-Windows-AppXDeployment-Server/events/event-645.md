@@ -1,4 +1,5 @@
 # Event 645 - AppXDeployment.Task.Server.Deployment
+###### Version: 0
 
 ## Description
 None

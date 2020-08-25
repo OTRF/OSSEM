@@ -1,4 +1,5 @@
 # Event 25 - Powerstatetransitions.
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_PowerStateTransition
 * etw_opcode_Start
 * etw_task_Powerstatetransitions.
-* version_1

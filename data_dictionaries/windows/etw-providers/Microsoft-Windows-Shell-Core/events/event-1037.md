@@ -1,4 +1,5 @@
 # Event 1037 - InfoBar_NonIndexed_Location_Count
+###### Version: 0
 
 ## Description
 None

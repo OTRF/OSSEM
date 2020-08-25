@@ -1,4 +1,5 @@
 # Event 1043 - NavigationTerminate
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1227 - TcpRscNblOobInfo
+###### Version: 0
 
 ## Description
 None

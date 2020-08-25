@@ -1,4 +1,5 @@
 # Event ID 4801: The workstation was unlocked
+###### Version: 0
 
 ## Description
 This event is generated when workstation was unlocked.

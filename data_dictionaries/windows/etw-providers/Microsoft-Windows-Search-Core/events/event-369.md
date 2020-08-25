@@ -1,4 +1,5 @@
 # Event 369 - ScopeChangeNotification_Unregister
+###### Version: 0
 
 ## Description
 None

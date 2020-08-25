@@ -1,4 +1,5 @@
 # Event 148 - DecodeSwapchainDestroyed
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 10 - GC
+###### Version: 3
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_keywords_GCKeyword
 * etw_opcode_AllocationTick
 * etw_task_GC
-* version_3

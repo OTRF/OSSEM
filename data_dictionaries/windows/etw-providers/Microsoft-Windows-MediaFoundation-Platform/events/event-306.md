@@ -1,4 +1,5 @@
 # Event 306 - MediaFoundationMFTEnum
+###### Version: 0
 
 ## Description
 None

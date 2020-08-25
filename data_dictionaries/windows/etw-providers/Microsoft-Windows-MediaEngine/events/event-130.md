@@ -1,4 +1,5 @@
 # Event 130 - MediaFoundationNotVisible
+###### Version: 0
 
 ## Description
 None

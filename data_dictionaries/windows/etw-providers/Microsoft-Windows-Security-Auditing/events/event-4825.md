@@ -1,4 +1,5 @@
 # Event ID 4825: A user was denied the access to Remote Desktop.
+###### Version: 0
 
 ## Description
 This event is generated when an authenticated user who is not allowed to log on remotely attempts to connect to this computer through Remote Desktop.

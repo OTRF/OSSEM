@@ -1,4 +1,5 @@
 # Event 3081 - ValidateSIPolicy
+###### Version: 3
 
 ## Description
 None
@@ -28,4 +29,3 @@ None
 * etw_level_Error
 * etw_opcode_PolicyFailure
 * etw_task_ValidateSIPolicy
-* version_3

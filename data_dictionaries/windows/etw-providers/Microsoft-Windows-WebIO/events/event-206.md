@@ -1,4 +1,5 @@
 # Event 206 - ConnectionNameResolutionRequest
+###### Version: 0
 
 ## Description
 None

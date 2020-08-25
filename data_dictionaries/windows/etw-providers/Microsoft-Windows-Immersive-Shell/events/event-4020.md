@@ -1,4 +1,5 @@
 # Event 4020 - AssociationLaunch_UriLaunch_UnsupportedFileExtension
+###### Version: 0
 
 ## Description
 None

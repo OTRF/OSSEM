@@ -1,4 +1,5 @@
 # Event ID 5139: A directory service object was moved
+###### Version: 0
 
 ## Description
 This event generates every time an Active Directory object is moved.

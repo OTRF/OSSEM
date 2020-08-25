@@ -1,4 +1,5 @@
 # Event 7019 - Perf_ProcessHighPrioritySettingChange
+###### Version: 0
 
 ## Description
 None

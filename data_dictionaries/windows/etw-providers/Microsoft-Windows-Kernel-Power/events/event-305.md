@@ -1,4 +1,5 @@
 # Event 305 - DeviceUnregistration
+###### Version: 0
 
 ## Description
 None

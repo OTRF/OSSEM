@@ -1,4 +1,5 @@
 # Event 16 - InhibitIssuerCertificateRetrieval
+###### Version: 0
 
 ## Description
 None

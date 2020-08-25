@@ -1,4 +1,5 @@
 # Event 14 - Provider
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_keywords_ETW_KEYWORD_PROVIDER ETW_KEYWORD_ENABLEMENT
 * etw_opcode_Enable
 * etw_task_Provider
-* version_1

@@ -1,4 +1,5 @@
 # Event 265 - SphericalVideoPropertiesChangedTask
+###### Version: 0
 
 ## Description
 None

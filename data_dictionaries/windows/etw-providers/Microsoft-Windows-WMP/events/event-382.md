@@ -1,4 +1,5 @@
 # Event 382 - HME_UPnPDeviceRemovedCallback
+###### Version: 0
 
 ## Description
 None

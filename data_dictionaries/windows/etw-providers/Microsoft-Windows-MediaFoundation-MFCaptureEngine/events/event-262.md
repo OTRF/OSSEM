@@ -1,4 +1,5 @@
 # Event 262 - MFCaptureEngine_BridgeSourceSink
+###### Version: 0
 
 ## Description
 None

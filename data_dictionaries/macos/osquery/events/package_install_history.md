@@ -1,4 +1,5 @@
 # Package_install_history Table
+###### Version: 4.4.2
 
 ## Description
 OS X package install history.
@@ -15,6 +16,3 @@ OS X package install history.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#package_install_history)
-
-## Tags
-* version_4.4.2

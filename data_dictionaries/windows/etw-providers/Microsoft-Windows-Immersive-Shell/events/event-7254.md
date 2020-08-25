@@ -1,4 +1,5 @@
 # Event 7254 - ConnectedSearch_LogAppResizePayload
+###### Version: 0
 
 ## Description
 None

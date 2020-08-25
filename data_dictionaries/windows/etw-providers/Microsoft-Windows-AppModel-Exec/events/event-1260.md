@@ -1,4 +1,5 @@
 # Event 1260 - FM_NotifyPendingResourceSetTransition
+###### Version: 0
 
 ## Description
 None

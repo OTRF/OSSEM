@@ -1,4 +1,5 @@
 # Event 71 - ApiSnapshotIconicThumbnail
+###### Version: 0
 
 ## Description
 None

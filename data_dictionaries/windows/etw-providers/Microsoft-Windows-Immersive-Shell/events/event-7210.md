@@ -1,4 +1,5 @@
 # Event 7210 - ConnectedSearch_LogClickPayload
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Routes Table
+###### Version: 4.4.2
 
 ## Description
 The active route table for the host system.
@@ -19,6 +20,3 @@ The active route table for the host system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#routes)
-
-## Tags
-* version_4.4.2

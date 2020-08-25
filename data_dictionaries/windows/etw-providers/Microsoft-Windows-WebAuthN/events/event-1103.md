@@ -1,4 +1,5 @@
 # Event 1103 - CborEncodeGetAssertionRequest
+###### Version: 0
 
 ## Description
 None

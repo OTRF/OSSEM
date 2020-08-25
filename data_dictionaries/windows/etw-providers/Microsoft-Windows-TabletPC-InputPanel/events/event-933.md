@@ -1,4 +1,5 @@
 # Event 933 - SoftKeyboard_CandidatePane_PerfTrack_NextWordOpen_CHS
+###### Version: 0
 
 ## Description
 None

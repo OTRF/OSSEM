@@ -1,4 +1,5 @@
 # Event 7 - VC1ENC_FRAME_DROP_INFO
+###### Version: 0
 
 ## Description
 None

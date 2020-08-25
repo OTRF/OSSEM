@@ -1,4 +1,5 @@
 # Event 235 - ETWGUID_PRIMITIVE_GROUP_DRAW
+###### Version: 0
 
 ## Description
 None

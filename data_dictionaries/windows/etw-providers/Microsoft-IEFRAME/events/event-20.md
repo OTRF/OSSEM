@@ -1,4 +1,5 @@
 # Event 20 - Browseui_Tabs_CloseTab
+###### Version: 0
 
 ## Description
 None

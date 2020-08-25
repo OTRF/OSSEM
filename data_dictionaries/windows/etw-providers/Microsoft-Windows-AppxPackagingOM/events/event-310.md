@@ -1,4 +1,5 @@
 # Event 310 - AppXPackaging.Task.StreamingReader.Create
+###### Version: 0
 
 ## Description
 None

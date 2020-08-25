@@ -1,4 +1,5 @@
 # Event 4246 - SessionPause
+###### Version: 0
 
 ## Description
 None

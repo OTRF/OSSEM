@@ -1,4 +1,5 @@
 # Event 253 - Mshtml_Image_Offer
+###### Version: 0
 
 ## Description
 None

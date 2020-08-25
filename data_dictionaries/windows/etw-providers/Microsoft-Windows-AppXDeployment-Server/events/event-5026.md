@@ -1,4 +1,5 @@
 # Event 5026 - AppXDeployment.Task.Server.Extensions
+###### Version: 0
 
 ## Description
 None

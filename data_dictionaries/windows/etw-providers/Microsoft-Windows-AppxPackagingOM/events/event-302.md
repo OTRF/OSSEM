@@ -1,4 +1,5 @@
 # Event 302 - AppXPackaging.Task.PackageWriter.AddPayloadFile
+###### Version: 0
 
 ## Description
 None

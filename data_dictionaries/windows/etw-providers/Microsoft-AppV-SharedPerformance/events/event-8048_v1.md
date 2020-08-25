@@ -1,4 +1,5 @@
 # Event 8048 - UnpublishPackage_1519
+###### Version: 1
 
 ## Description
 None
@@ -11,4 +12,3 @@ None
 ## Tags
 * etw_opcode_Start
 * etw_task_UnpublishPackage_1519
-* version_1

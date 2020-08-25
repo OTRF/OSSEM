@@ -1,4 +1,5 @@
 # Event 1051 - Objwriter_Get_Album_Art_Data
+###### Version: 0
 
 ## Description
 None

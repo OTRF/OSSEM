@@ -1,4 +1,5 @@
 # Event 213 - Memory_GridFilterUIResponse
+###### Version: 0
 
 ## Description
 None

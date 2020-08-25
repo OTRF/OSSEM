@@ -1,4 +1,5 @@
 # Event 1030 - NavigateAway
+###### Version: 0
 
 ## Description
 None

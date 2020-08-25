@@ -1,4 +1,5 @@
 # Event 1061 - Wininet_AppCacheLookup
+###### Version: 0
 
 ## Description
 None

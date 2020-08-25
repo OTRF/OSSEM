@@ -1,4 +1,5 @@
 # Event 106 - PpmProfileClientRegistration
+###### Version: 0
 
 ## Description
 None

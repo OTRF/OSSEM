@@ -3,6 +3,7 @@ description: null
 platform: zeek
 log_source: network-protocols
 event_code: smb_mapping
+event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
   standard_type: TBD
@@ -39,7 +40,7 @@ event_fields:
   name: uid
   type: string
   description: Unique ID of the connection the tree was mapped over
-  sample_value: 'CVCEfC2Vej9sjr5ARe'
+  sample_value: CVCEfC2Vej9sjr5ARe
 - standard_name: file_system_type
   standard_type: TBD
   name: native_file_system

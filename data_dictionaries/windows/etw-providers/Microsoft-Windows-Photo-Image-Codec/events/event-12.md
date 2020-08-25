@@ -1,4 +1,5 @@
 # Event 12 - WMPHOTO_Encoder_FrameParams_Info
+###### Version: 0
 
 ## Description
 None

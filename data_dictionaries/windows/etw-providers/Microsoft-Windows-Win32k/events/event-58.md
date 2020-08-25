@@ -1,4 +1,5 @@
 # Event 58 - DesktopResolutionFailure
+###### Version: 0
 
 ## Description
 None

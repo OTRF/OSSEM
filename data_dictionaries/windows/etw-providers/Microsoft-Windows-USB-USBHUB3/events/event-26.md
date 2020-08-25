@@ -1,4 +1,5 @@
 # Event 26 - PrepareHardware
+###### Version: 0
 
 ## Description
 None

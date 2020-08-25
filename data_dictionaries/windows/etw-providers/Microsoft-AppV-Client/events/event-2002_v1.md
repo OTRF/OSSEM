@@ -1,4 +1,5 @@
 # Event 2002 - UserLogon
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Warning
 * etw_keywords_Startup Logon Catalog
 * etw_task_UserLogon
-* version_1

@@ -1,4 +1,5 @@
 # Event ID 4781: The name of an account was changed
+###### Version: 0
 
 ## Description
 This event generates every time a user or computer account name (sAMAccountName attribute) is changed. For user accounts, this event generates on domain controllers, member servers, and workstations. For computer accounts, this event generates only on domain controllers.

@@ -1,4 +1,5 @@
 # Event 844 - AppXDeployment.Task.Server.Dependency
+###### Version: 0
 
 ## Description
 None

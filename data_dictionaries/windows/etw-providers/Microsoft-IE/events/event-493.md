@@ -1,4 +1,5 @@
 # Event 493 - Mshtml_Animations_Animating
+###### Version: 0
 
 ## Description
 None

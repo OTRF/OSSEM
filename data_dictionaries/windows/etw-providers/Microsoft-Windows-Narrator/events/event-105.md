@@ -1,4 +1,5 @@
 # Event 105 - GetTargetTextPatternElement
+###### Version: 0
 
 ## Description
 None

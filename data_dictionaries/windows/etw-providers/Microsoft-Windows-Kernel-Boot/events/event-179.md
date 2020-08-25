@@ -1,4 +1,5 @@
 # Event 179 - GetFirmwareInformation
+###### Version: 0
 
 ## Description
 None

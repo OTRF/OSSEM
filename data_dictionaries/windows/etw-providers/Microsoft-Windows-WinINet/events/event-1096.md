@@ -1,4 +1,5 @@
 # Event 1096 - Wininet_AppCacheServerContainer
+###### Version: 0
 
 ## Description
 None

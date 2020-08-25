@@ -1,4 +1,5 @@
 # Event 313 - WinRTCaptureEngineSetStreamMediaTypeAsyncTask
+###### Version: 0
 
 ## Description
 None

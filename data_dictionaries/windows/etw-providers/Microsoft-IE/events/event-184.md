@@ -1,4 +1,5 @@
 # Event 184 - Mshtml_CImgCacheEntry_Destroy
+###### Version: 0
 
 ## Description
 None

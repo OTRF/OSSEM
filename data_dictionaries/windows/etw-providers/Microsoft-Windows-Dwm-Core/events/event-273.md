@@ -1,4 +1,5 @@
 # Event 273 - INTERACTION_TOUCH_CONFIGURATION_CHANGED
+###### Version: 0
 
 ## Description
 None

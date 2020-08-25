@@ -1,4 +1,5 @@
 # Event 2 - PrefetchSections
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_keywords_BasicInformation
 * etw_opcode_Stop
 * etw_task_PrefetchSections
-* version_1

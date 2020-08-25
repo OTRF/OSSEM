@@ -1,4 +1,5 @@
 # Event 319 - AppXPackaging.Task.StreamingReader.BlockDecompress
+###### Version: 0
 
 ## Description
 None

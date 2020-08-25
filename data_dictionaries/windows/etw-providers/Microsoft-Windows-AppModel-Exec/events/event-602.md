@@ -1,4 +1,5 @@
 # Event 602 - AM_CreatingActivationPlugins
+###### Version: 0
 
 ## Description
 None

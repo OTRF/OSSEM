@@ -1,4 +1,5 @@
 # Event 1115 - IpDadFailed
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_level_Warning
 * etw_keywords_ut:TcpipCsDiag ut:Global keyword_80000000000
 * etw_task_IpDadFailed
-* version_1

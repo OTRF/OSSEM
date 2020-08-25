@@ -1,4 +1,5 @@
 # Event 550 - Mshtml_Composition_IR_Disabled
+###### Version: 0
 
 ## Description
 None

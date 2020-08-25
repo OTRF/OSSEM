@@ -1,4 +1,5 @@
 # Event 20 - AudioSession_Stream_Resource_Type
+###### Version: 0
 
 ## Description
 None

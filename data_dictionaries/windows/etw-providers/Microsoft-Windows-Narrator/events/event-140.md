@@ -1,4 +1,5 @@
 # Event 140 - InternalGetTextPatternUnitChange
+###### Version: 0
 
 ## Description
 None

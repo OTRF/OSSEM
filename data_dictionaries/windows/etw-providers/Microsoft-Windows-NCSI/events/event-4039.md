@@ -1,4 +1,5 @@
 # Event 4039 - InternetConnectivityDetection
+###### Version: 0
 
 ## Description
 None

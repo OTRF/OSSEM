@@ -1,4 +1,5 @@
 # Event 6308 - DocPerf_Task_WSDMon_BackupDeviceId
+###### Version: 0
 
 ## Description
 None

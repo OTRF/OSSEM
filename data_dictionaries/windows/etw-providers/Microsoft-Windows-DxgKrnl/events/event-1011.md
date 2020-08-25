@@ -1,4 +1,5 @@
 # Event 1011 - MiracastStopMiracastSession
+###### Version: 0
 
 ## Description
 None

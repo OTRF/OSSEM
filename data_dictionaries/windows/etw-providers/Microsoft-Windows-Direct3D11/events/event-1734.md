@@ -1,4 +1,5 @@
 # Event 1734 - ID3D11VideoDecoder_Release
+###### Version: 0
 
 ## Description
 None

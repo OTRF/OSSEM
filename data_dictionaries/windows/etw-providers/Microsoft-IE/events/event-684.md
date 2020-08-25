@@ -1,4 +1,5 @@
 # Event 684 - Mshtml_CDMDraggableTouchTarget_ProcessTouchTargetStatusChange
+###### Version: 0
 
 ## Description
 None

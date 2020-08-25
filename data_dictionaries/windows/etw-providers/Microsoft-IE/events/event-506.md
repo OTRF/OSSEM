@@ -1,4 +1,5 @@
 # Event 506 - Mshtml_Composition_Scroller_PVR
+###### Version: 0
 
 ## Description
 None

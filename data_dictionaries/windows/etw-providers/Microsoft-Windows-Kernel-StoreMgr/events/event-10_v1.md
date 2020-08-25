@@ -1,4 +1,5 @@
 # Event 10 - UnpersistFailure
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_keywords_StoreOps StoreDiag
 * etw_task_UnpersistFailure
-* version_1

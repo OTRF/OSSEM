@@ -1,4 +1,5 @@
 # Event 6204 - Thumbnails_FastExtract
+###### Version: 0
 
 ## Description
 None

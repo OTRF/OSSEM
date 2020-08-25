@@ -1,4 +1,5 @@
 # Event 149 - METADATAPLUGIN
+###### Version: 0
 
 ## Description
 None

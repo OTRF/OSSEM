@@ -1,4 +1,5 @@
 # Event ID 4754: A security-enabled universal group was created
+###### Version: 0
 
 ## Description
 Event 4754 is the same as 4731, but it is generated for a universal security group instead of a local security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.

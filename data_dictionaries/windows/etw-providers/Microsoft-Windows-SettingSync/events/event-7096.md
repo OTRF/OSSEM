@@ -1,4 +1,5 @@
 # Event 7096 - Perf_LocalDeleteCollection
+###### Version: 0
 
 ## Description
 None

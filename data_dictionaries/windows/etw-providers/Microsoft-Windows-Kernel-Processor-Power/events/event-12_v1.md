@@ -1,4 +1,5 @@
 # Event 12 - RecordedUtility
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_level_Verbose
 * etw_keywords_Diag
 * etw_task_RecordedUtility
-* version_1

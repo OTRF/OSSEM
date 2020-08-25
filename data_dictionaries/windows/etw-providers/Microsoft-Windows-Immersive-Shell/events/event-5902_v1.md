@@ -1,4 +1,5 @@
 # Event 5902 - PerfTrack_AppActivation_Activate
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Informational
 * etw_opcode_Stop
 * etw_task_PerfTrack_AppActivation_Activate
-* version_1

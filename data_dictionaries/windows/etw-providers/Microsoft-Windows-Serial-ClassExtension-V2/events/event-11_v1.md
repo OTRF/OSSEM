@@ -1,4 +1,5 @@
 # Event 11 - I/Orequest.
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Error
 * etw_keywords_TransferStateMachine TransmitTransferStateMachine
 * etw_task_I/Orequest.
-* version_1

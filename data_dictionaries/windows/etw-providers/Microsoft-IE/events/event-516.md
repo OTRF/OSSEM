@@ -1,4 +1,5 @@
 # Event 516 - Mshtml_Composition_Layer_Reverted
+###### Version: 0
 
 ## Description
 None

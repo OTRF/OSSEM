@@ -1,4 +1,5 @@
 # Event 206 - MediaFoundationTraceFailure
+###### Version: 0
 
 ## Description
 None

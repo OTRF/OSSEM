@@ -1,4 +1,5 @@
 # Event 142 - TaskID:IME_CHS_HWKBD_KeyProcess
+###### Version: 0
 
 ## Description
 None

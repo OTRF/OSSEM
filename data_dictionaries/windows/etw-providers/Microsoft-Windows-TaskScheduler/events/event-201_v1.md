@@ -1,4 +1,5 @@
 # Event 201 - Actioncompleted
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_opcode_Stop
 * etw_task_Actioncompleted
-* version_1

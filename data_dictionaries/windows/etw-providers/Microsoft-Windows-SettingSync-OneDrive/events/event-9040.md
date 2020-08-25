@@ -1,4 +1,5 @@
 # Event 9040 - Perf_WLRoamGetBackupSyncToken
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 7 - JSDumpHeapDoubleTable
+###### Version: 0
 
 ## Description
 None

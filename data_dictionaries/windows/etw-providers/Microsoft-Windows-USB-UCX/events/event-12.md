@@ -1,4 +1,5 @@
 # Event 12 - UCXRootHubPrepareHardware
+###### Version: 0
 
 ## Description
 None

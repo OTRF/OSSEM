@@ -1,4 +1,5 @@
 # Event 4 - Class
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Informational
 * etw_keywords_CopyOffload_IO_Performance IO_Performance
 * etw_task_Class
-* version_1

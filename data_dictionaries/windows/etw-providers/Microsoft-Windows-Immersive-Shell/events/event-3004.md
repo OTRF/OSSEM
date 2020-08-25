@@ -1,4 +1,5 @@
 # Event 3004 - Watermark_Render_Error
+###### Version: 0
 
 ## Description
 None

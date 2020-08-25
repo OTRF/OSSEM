@@ -1,4 +1,5 @@
 # Event ID 6419: A request was made to disable a device.
+###### Version: 0
 
 ## Description
 This event generates every time when someone made a request to disable a device.

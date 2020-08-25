@@ -1,4 +1,5 @@
 # Event 308 - Wordlist_BeginResourceFailed_CBOverflow
+###### Version: 0
 
 ## Description
 None

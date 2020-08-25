@@ -1,4 +1,5 @@
 # Event 4008 - ExecuteEmbeddedScripts
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Warning
 * etw_keywords_EmbeddedScripting
 * etw_task_ExecuteEmbeddedScripts
-* version_1

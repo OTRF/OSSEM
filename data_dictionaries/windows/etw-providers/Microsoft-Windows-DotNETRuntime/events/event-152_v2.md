@@ -1,4 +1,5 @@
 # Event 152 - Loader
+###### Version: 2
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 * etw_keywords_LoaderKeyword PerfTrackKeyword
 * etw_opcode_ModuleLoad
 * etw_task_Loader
-* version_2

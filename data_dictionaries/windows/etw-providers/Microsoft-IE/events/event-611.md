@@ -1,4 +1,5 @@
 # Event 611 - Mshtml_WebWorker
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 612 - Recovery_WriteInitialStore
+###### Version: 0
 
 ## Description
 None

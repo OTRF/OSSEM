@@ -1,4 +1,5 @@
 # Event 4106 - NetworkClientReceivedAnnounce
+###### Version: 0
 
 ## Description
 None

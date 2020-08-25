@@ -1,4 +1,5 @@
 # Event 4146 - task_0
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Warning
 * etw_keywords_AsynchronousOperation ApplicationOperation OperationCreate
 * etw_task_task_0
-* version_1

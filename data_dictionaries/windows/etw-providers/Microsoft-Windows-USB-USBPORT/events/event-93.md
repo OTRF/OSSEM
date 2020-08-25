@@ -1,4 +1,5 @@
 # Event 93 - USBPORT_URB_INVALID_ISOCHRONOUS_TRANSFER_ENDPOINT
+###### Version: 0
 
 ## Description
 None

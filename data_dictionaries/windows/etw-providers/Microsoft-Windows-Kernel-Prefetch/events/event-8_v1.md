@@ -1,4 +1,5 @@
 # Event 8 - ScenarioDecision
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_level_Informational
 * etw_keywords_BasicInformation
 * etw_task_ScenarioDecision
-* version_1

@@ -1,4 +1,5 @@
 # Event 662 - Mshtml_CDMScrollableTouchTarget_OnViewportStatusChanged
+###### Version: 0
 
 ## Description
 None

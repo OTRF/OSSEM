@@ -1,4 +1,5 @@
 # Event 502 - WININET_COOKIE_STORED
+###### Version: 0
 
 ## Description
 None

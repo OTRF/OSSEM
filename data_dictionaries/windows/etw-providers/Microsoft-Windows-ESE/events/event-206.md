@@ -1,4 +1,5 @@
 # Event 206 - ESE_tagBufferManager_Trace
+###### Version: 0
 
 ## Description
 None

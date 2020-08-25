@@ -1,4 +1,5 @@
 # Event 5399 - Dashboard_RemoveAdapter
+###### Version: 0
 
 ## Description
 None

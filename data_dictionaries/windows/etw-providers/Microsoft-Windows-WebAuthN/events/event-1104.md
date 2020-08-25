@@ -1,4 +1,5 @@
 # Event 1104 - CborDecodeGetAssertionResponse
+###### Version: 0
 
 ## Description
 None

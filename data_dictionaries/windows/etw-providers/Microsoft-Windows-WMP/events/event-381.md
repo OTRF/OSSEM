@@ -1,4 +1,5 @@
 # Event 381 - HME_UPnPDeviceRemovedCallback
+###### Version: 0
 
 ## Description
 None

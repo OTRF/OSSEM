@@ -1,4 +1,5 @@
 # Event 5032 - UdwmContactStationaryVisual
+###### Version: 0
 
 ## Description
 None

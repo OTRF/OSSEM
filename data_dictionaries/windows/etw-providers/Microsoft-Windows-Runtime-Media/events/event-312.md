@@ -1,4 +1,5 @@
 # Event 312 - WinRTCaptureEngineSetStreamMediaTypeAsyncTask
+###### Version: 0
 
 ## Description
 None

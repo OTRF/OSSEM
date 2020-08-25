@@ -1,4 +1,5 @@
 # Event 7176 - ConnectedSearch_AttributionVisibility
+###### Version: 0
 
 ## Description
 None

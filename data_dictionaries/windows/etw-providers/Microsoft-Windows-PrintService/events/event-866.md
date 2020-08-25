@@ -1,4 +1,5 @@
 # Event 866 - CreatingaPlugandPlaydeviceobjectinstanceforaprinter
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 5150 - UdwmThumbnailVisualValidated
+###### Version: 0
 
 ## Description
 None

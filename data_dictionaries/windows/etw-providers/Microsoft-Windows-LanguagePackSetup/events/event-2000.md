@@ -1,4 +1,5 @@
 # Event 2000 - LanguagePackSetupLanguagePackrelatedfunctionality
+###### Version: 0
 
 ## Description
 None

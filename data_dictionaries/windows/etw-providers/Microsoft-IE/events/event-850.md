@@ -1,4 +1,5 @@
 # Event 850 - Mshtml_PowerStateController_Invisible
+###### Version: 0
 
 ## Description
 None

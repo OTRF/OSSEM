@@ -1,4 +1,5 @@
 # Event 7282 - ConnectedSearch_UploadPerfPing
+###### Version: 0
 
 ## Description
 None

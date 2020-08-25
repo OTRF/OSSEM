@@ -1,4 +1,5 @@
 # Xprotect_reports Table
+###### Version: 4.4.2
 
 ## Description
 Database of XProtect matches (if user generated/sent an XProtect report).
@@ -12,6 +13,3 @@ Database of XProtect matches (if user generated/sent an XProtect report).
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#xprotect_reports)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 7040 - Launcher_Apps_SwitchToAllAppsViewFromSearch
+###### Version: 0
 
 ## Description
 None

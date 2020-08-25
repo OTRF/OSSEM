@@ -1,4 +1,5 @@
 # Event 830 - DeviceRemoval
+###### Version: 0
 
 ## Description
 None

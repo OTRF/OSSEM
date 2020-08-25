@@ -1,4 +1,5 @@
 # Event 27 - HrSendHttpAsyncLicenseAcq
+###### Version: 0
 
 ## Description
 None

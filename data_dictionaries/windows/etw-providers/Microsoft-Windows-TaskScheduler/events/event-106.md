@@ -1,4 +1,5 @@
 # Event 106 - Taskregistered
+###### Version: 0
 
 ## Description
 None

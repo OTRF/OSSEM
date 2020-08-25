@@ -1,4 +1,5 @@
 # Event 33 - ETWGUID_BITMAPCOPYEVENT
+###### Version: 0
 
 ## Description
 None

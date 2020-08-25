@@ -1,4 +1,5 @@
 # Event 1006 - DxgkDdiMiracastDestroyContext
+###### Version: 0
 
 ## Description
 None

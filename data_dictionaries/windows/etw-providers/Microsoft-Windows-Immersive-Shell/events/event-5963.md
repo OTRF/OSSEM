@@ -1,4 +1,5 @@
 # Event 5963 - AppActivation_Log_DisabledByPolicy
+###### Version: 0
 
 ## Description
 None

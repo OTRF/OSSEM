@@ -1,4 +1,5 @@
 # Event 28 - I/Orequest.
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Informational
 * etw_keywords_IO
 * etw_task_I/Orequest.
-* version_1

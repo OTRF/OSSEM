@@ -1,4 +1,5 @@
 # Event 314 - ScopeManager_Retrieved
+###### Version: 0
 
 ## Description
 None

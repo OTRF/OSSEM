@@ -1,4 +1,5 @@
 # Event 357 - TOUCH_INTERACTION_DEBUG_EVENTS
+###### Version: 1
 
 ## Description
 None
@@ -30,4 +31,3 @@ None
 * etw_level_Verbose
 * etw_keywords_DwmCore DwmInput
 * etw_task_TOUCH_INTERACTION_DEBUG_EVENTS
-* version_1

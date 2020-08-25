@@ -1,4 +1,5 @@
 # Event 2007 - VisibilityInputType
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 531 - PowerAggregatorValidationEvent
+###### Version: 0
 
 ## Description
 None

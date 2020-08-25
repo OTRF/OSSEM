@@ -1,4 +1,5 @@
 # Event 701 - BAM_RemovePackage
+###### Version: 0
 
 ## Description
 None

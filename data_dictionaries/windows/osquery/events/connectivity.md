@@ -1,4 +1,5 @@
 # Connectivity Table
+###### Version: 4.4.2
 
 ## Description
 Provides the overall system's network state.
@@ -18,6 +19,3 @@ Provides the overall system's network state.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#connectivity)
-
-## Tags
-* version_4.4.2

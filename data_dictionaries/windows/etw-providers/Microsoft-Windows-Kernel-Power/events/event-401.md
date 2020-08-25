@@ -1,4 +1,5 @@
 # Event 401 - SessionClosed
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 604 - WININET_AUTH_USING_CACHED_CREDS
+###### Version: 0
 
 ## Description
 None

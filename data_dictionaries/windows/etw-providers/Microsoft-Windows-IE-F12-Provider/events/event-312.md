@@ -1,4 +1,5 @@
 # Event 312 - Debugger_SwitchDocument
+###### Version: 0
 
 ## Description
 None

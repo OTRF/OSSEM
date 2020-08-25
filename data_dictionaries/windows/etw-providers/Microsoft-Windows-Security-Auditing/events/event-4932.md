@@ -1,4 +1,5 @@
 # Event ID 4932: Synchronization of a replica of an Active Directory naming context has begun
+###### Version: 0
 
 ## Description
 This event generates every time synchronization of a replica of an Active Directory naming context has begun.

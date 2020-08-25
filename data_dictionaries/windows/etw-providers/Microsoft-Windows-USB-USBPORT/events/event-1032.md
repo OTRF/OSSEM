@@ -1,4 +1,5 @@
 # Event 1032 - MiniportStop
+###### Version: 0
 
 ## Description
 None

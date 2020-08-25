@@ -1,4 +1,5 @@
 # Event 8045 - PublishPackageComplete_1517
+###### Version: 1
 
 ## Description
 None
@@ -11,4 +12,3 @@ None
 ## Tags
 * etw_opcode_Stop
 * etw_task_PublishPackageComplete_1517
-* version_1

@@ -1,4 +1,5 @@
 # Event 40 - RequesttoVTL1IUMtrustlet
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_Performance
 * etw_opcode_Stop
 * etw_task_RequesttoVTL1IUMtrustlet
-* version_1

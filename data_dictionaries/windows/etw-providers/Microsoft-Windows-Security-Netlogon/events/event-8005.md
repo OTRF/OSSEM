@@ -1,4 +1,5 @@
 # Event 8005 - AuditingNTLM
+###### Version: 0
 
 ## Description
 None

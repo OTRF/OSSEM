@@ -1,4 +1,5 @@
 # Authorizations Table
+###### Version: 4.4.2
 
 ## Description
 OS X Authorization rights database.
@@ -21,6 +22,3 @@ OS X Authorization rights database.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#authorizations)
-
-## Tags
-* version_4.4.2

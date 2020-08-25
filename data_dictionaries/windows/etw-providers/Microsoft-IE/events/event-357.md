@@ -1,4 +1,5 @@
 # Event 357 - Mshtml_MediaElement_Seek
+###### Version: 0
 
 ## Description
 None

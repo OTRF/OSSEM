@@ -1,4 +1,5 @@
 # Event 135 - HiddenProcessorThermalCapChange
+###### Version: 0
 
 ## Description
 None

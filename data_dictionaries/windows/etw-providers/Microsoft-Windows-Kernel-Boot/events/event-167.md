@@ -1,4 +1,5 @@
 # Event 167 - SoftRestartHostCapability
+###### Version: 0
 
 ## Description
 None

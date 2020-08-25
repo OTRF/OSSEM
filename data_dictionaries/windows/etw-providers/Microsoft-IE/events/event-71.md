@@ -1,4 +1,5 @@
 # Event 71 - Mshtml_CWindow_SuperNavigate2
+###### Version: 0
 
 ## Description
 None

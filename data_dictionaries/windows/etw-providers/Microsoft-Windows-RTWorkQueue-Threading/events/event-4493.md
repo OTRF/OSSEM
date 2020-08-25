@@ -1,4 +1,5 @@
 # Event 4493 - UpdateSelectWorkQueuesCpuGroupMask
+###### Version: 0
 
 ## Description
 None

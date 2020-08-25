@@ -1,4 +1,5 @@
 # Event 72 - CBlackboxWithTEEPrepareProvisioningChallengeForNetwork
+###### Version: 0
 
 ## Description
 None

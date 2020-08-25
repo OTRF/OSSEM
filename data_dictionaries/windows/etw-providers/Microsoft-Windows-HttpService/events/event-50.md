@@ -1,4 +1,5 @@
 # Event 50 - HTTPLoggingTraceTask
+###### Version: 0
 
 ## Description
 None

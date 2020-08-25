@@ -1,4 +1,5 @@
 # Event 6203 - DocPerf_Task_USBMon_LoadBidiExtensions
+###### Version: 0
 
 ## Description
 None

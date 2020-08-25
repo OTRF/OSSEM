@@ -1,4 +1,5 @@
 # Event 41 - USBtransfer
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_Performance
 * etw_opcode_USBtransferinitialized
 * etw_task_USBtransfer
-* version_1

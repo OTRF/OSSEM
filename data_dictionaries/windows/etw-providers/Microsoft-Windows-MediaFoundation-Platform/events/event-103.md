@@ -1,4 +1,5 @@
 # Event 103 - MediaFoundationGetConfigurationKey
+###### Version: 0
 
 ## Description
 None

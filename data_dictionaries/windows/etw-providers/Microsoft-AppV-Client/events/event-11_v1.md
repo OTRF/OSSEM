@@ -1,4 +1,5 @@
 # Event 11 - ClientStartup
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Warning
 * etw_keywords_Startup
 * etw_task_ClientStartup
-* version_1

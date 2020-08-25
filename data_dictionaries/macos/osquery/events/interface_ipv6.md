@@ -1,4 +1,5 @@
 # Interface_ipv6 Table
+###### Version: 4.4.2
 
 ## Description
 IPv6 configuration and stats of network interfaces.
@@ -14,6 +15,3 @@ IPv6 configuration and stats of network interfaces.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#interface_ipv6)
-
-## Tags
-* version_4.4.2

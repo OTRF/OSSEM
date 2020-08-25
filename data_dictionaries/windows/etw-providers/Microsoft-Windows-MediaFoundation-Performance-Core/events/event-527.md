@@ -1,4 +1,5 @@
 # Event 527 - AudCaptureStream_Info_Task
+###### Version: 0
 
 ## Description
 None

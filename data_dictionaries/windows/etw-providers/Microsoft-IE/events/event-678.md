@@ -1,4 +1,5 @@
 # Event 678 - Mshtml_CDMDraggableTouchTarget_SetDragDropConfiguration
+###### Version: 0
 
 ## Description
 None

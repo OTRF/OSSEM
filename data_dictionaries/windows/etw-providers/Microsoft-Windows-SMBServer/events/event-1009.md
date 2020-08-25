@@ -1,4 +1,5 @@
 # Event 1009 - SrvSessionAnonymousAccessDenied
+###### Version: 0
 
 ## Description
 None

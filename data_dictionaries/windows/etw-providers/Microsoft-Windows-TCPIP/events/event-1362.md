@@ -1,4 +1,5 @@
 # Event 1362 - IpAddressWolStateChange
+###### Version: 0
 
 ## Description
 None

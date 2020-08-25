@@ -1,4 +1,5 @@
 # Event 182 - Mshtml_CImgCacheEntry_PrepareToRender
+###### Version: 0
 
 ## Description
 None

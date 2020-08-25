@@ -1,4 +1,5 @@
 # Event 624 - Mshtml_SetStyle
+###### Version: 0
 
 ## Description
 None

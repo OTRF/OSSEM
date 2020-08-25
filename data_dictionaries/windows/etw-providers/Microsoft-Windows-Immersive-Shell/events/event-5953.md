@@ -1,4 +1,5 @@
 # Event 5953 - AppActivation_Log_MultiplePackages
+###### Version: 0
 
 ## Description
 None

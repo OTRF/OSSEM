@@ -1,4 +1,5 @@
 # Event 301 - PluginRegistrationRundown
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 6 - UserLogoff
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_Logoff
 * etw_opcode_Stop
 * etw_task_UserLogoff
-* version_1

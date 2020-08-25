@@ -1,4 +1,5 @@
 # Event 313 - ENDFRAME_PRIMITIVE_GROUP_STATS
+###### Version: 0
 
 ## Description
 None

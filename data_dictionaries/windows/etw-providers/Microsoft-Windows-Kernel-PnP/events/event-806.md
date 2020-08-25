@@ -1,4 +1,5 @@
 # Event 806 - ProcessDeviceRestart
+###### Version: 0
 
 ## Description
 None

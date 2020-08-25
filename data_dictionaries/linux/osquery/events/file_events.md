@@ -1,4 +1,5 @@
 # File_events Table
+###### Version: 4.4.2
 
 ## Description
 Track time/action changes to files specified in configuration data.
@@ -26,6 +27,3 @@ Track time/action changes to files specified in configuration data.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#file_events)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 17 - HTTPRequestTraceTask
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_HTTP_KEYWORD_RESPONSE HTTP_KEYWORD_CACHE
 * etw_opcode_CachedNotModified
 * etw_task_HTTPRequestTraceTask
-* version_1

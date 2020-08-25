@@ -1,4 +1,5 @@
 # Event 43 - SuspendResumeRegistration
+###### Version: 0
 
 ## Description
 None

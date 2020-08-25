@@ -1,4 +1,5 @@
 # Event 2003 - RunningthelpksetupWizard
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Warning
 * etw_opcode_ChangetheSystemUIlanguagesettingtoselectedlanguage
 * etw_task_RunningthelpksetupWizard
-* version_1

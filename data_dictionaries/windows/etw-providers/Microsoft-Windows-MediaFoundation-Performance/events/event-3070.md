@@ -1,4 +1,5 @@
 # Event 3070 - PerfTrack:VideoCaptureFirstSampleReceived
+###### Version: 0
 
 ## Description
 None

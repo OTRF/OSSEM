@@ -1,4 +1,5 @@
 # Event 327 - ComponentPerformanceState
+###### Version: 0
 
 ## Description
 None

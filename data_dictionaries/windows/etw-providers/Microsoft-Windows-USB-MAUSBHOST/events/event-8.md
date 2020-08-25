@@ -1,4 +1,5 @@
 # Event 8 - MAUSBDeviceCreate
+###### Version: 0
 
 ## Description
 None

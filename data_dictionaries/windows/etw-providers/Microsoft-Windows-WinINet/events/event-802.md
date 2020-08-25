@@ -1,4 +1,5 @@
 # Event 802 - WININET_AUTOPROXY_DHCP
+###### Version: 0
 
 ## Description
 None

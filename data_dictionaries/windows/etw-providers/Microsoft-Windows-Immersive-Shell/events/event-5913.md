@@ -1,4 +1,5 @@
 # Event 5913 - AppActivation_CompositionEnabledCheck
+###### Version: 0
 
 ## Description
 None

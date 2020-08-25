@@ -1,4 +1,5 @@
 # Smbios_tables Table
+###### Version: 4.4.2
 
 ## Description
 BIOS (DMI) structure common details and content.
@@ -16,6 +17,3 @@ BIOS (DMI) structure common details and content.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#smbios_tables)
-
-## Tags
-* version_4.4.2

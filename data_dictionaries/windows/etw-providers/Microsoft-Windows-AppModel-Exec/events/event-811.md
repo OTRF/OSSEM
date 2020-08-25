@@ -1,4 +1,5 @@
 # Event 811 - LogTrace
+###### Version: 0
 
 ## Description
 None

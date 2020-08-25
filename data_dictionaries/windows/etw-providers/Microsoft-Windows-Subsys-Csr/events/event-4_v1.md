@@ -1,4 +1,5 @@
 # Event 4 - csr:ShutdownProcess
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_csr:Diagnostics
 * etw_opcode_Stop
 * etw_task_csr:ShutdownProcess
-* version_1

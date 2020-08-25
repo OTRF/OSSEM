@@ -1,4 +1,5 @@
 # Keychain_items Table
+###### Version: 4.4.2
 
 ## Description
 Generic details about keychain items.
@@ -16,6 +17,3 @@ Generic details about keychain items.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#keychain_items)
-
-## Tags
-* version_4.4.2

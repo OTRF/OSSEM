@@ -1,4 +1,5 @@
 # Event 301 - INTERACTION_PEN_CONFIGURATION_CHANGED
+###### Version: 0
 
 ## Description
 None

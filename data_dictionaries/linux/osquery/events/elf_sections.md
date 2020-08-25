@@ -1,4 +1,5 @@
 # Elf_sections Table
+###### Version: 4.4.2
 
 ## Description
 ELF section information.
@@ -18,6 +19,3 @@ ELF section information.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#elf_sections)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 3020 - LoadCatalogCache
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Verbose
 * etw_opcode_Stop
 * etw_task_LoadCatalogCache
-* version_1

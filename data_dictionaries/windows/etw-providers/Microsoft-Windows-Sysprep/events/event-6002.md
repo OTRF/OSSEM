@@ -1,4 +1,5 @@
 # Event 6002 - Deleteadirectory
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 166 - MediaEnginePruneHistory
+###### Version: 0
 
 ## Description
 None

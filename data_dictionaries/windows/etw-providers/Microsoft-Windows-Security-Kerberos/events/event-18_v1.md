@@ -1,4 +1,5 @@
 # Event 18 - task_0
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 ## Tags
 * etw_level_Always
 * etw_task_task_0
-* version_1

@@ -1,4 +1,5 @@
 # Event 113 - Smb2ResponseBreakOplock
+###### Version: 2
 
 ## Description
 None
@@ -40,4 +41,3 @@ None
 * etw_level_Informational
 * etw_keywords_Response
 * etw_task_Smb2ResponseBreakOplock
-* version_2

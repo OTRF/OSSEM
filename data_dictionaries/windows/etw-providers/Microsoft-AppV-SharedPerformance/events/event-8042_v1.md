@@ -1,4 +1,5 @@
 # Event 8042 - PublishPackageFinalize_1516
+###### Version: 1
 
 ## Description
 None
@@ -11,4 +12,3 @@ None
 ## Tags
 * etw_opcode_Start
 * etw_task_PublishPackageFinalize_1516
-* version_1

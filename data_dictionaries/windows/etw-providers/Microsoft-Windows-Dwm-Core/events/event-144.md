@@ -1,4 +1,5 @@
 # Event 144 - ETWGUID_DIRECTFLIP_TRANSITIONEVENT
+###### Version: 0
 
 ## Description
 None

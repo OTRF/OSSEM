@@ -1,4 +1,5 @@
 # Event 259 - MMIOFlipMultiPlaneOverlay
+###### Version: 3
 
 ## Description
 None
@@ -37,4 +38,3 @@ None
 * etw_level_Always
 * etw_keywords_Base
 * etw_task_MMIOFlipMultiPlaneOverlay
-* version_3

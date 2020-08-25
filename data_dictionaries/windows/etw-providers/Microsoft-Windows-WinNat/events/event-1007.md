@@ -1,4 +1,5 @@
 # Event 1007 - WinNatBindingDelete
+###### Version: 0
 
 ## Description
 None

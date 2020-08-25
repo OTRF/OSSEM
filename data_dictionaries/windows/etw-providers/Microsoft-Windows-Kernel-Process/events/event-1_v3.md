@@ -1,4 +1,5 @@
 # Event 1 - ProcessStart
+###### Version: 3
 
 ## Description
 None
@@ -27,4 +28,3 @@ None
 * etw_keywords_WINEVENT_KEYWORD_PROCESS
 * etw_opcode_Start
 * etw_task_ProcessStart
-* version_3

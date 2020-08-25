@@ -1,4 +1,5 @@
 # Event ID 4759: A security-disabled universal group was created
+###### Version: 0
 
 ## Description
 Event 4759 is the same as 4749, except it is generated for a universal distribution group instead of a global distribution group. All event fields, XML, and recommendations are the same. The type of group is the only difference.

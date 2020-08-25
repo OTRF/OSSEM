@@ -1,4 +1,5 @@
 # Event ID 6144: Security policy in the group policy objects has been applied successfully.
+###### Version: 0
 
 ## Description
 This event generates every time settings from the "Security Settings" section in the group policy object are applied successfully to a computer, without any errors.

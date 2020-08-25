@@ -1,4 +1,5 @@
 # Event 1537 - FreeCredentialHandle
+###### Version: 0
 
 ## Description
 None

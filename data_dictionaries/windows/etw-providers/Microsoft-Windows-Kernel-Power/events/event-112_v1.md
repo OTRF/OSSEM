@@ -1,4 +1,5 @@
 # Event 112 - PowerSettingChange
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:PowerSetting
 * etw_task_PowerSettingChange
-* version_1

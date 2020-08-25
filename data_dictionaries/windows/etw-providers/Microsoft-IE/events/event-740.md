@@ -1,4 +1,5 @@
 # Event 740 - Mshtml_MemoryProtector_ReclaimMemoryWithoutProtection
+###### Version: 0
 
 ## Description
 None

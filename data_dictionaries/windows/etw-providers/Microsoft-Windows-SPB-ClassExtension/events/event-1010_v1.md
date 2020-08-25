@@ -1,4 +1,5 @@
 # Event 1010 - I/OoperationflowthroughSPBCx
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Informational
 * etw_opcode_Start
 * etw_task_I/OoperationflowthroughSPBCx
-* version_1

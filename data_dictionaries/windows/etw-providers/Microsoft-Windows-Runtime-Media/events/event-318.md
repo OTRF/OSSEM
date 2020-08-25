@@ -1,4 +1,5 @@
 # Event 318 - MediaCaptureAdvancedPhotoCaptureoperation
+###### Version: 0
 
 ## Description
 None

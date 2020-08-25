@@ -1,4 +1,5 @@
 # Event 4495 - SubscribeCpuGroupMaskChangeWNF
+###### Version: 0
 
 ## Description
 None

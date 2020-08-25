@@ -1,4 +1,5 @@
 # Event 10 - WMPHOTO_Decoder_FrameParamsSource_Info
+###### Version: 0
 
 ## Description
 None

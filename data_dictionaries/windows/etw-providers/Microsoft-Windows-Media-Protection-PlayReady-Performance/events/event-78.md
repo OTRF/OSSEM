@@ -1,4 +1,5 @@
 # Event 78 - CBlackboxWithTEEGenerateBootstrapChallenge
+###### Version: 0
 
 ## Description
 None

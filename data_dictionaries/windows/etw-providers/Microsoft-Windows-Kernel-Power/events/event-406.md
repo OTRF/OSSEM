@@ -1,4 +1,5 @@
 # Event 406 - SessionLocked
+###### Version: 0
 
 ## Description
 None

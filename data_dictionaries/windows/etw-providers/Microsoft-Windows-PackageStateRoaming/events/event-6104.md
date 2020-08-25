@@ -1,4 +1,5 @@
 # Event 6104 - Debug_PackageStateConsistencyMonitor_EndQuiescentPeriod
+###### Version: 0
 
 ## Description
 None

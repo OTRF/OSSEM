@@ -1,4 +1,5 @@
 # Event 205 - Memory_ViewSnapshot
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Informational
 * etw_opcode_Start
 * etw_task_Memory_ViewSnapshot
-* version_1

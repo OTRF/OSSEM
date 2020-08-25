@@ -1,4 +1,5 @@
 # Docker_image_layers Table
+###### Version: 4.4.2
 
 ## Description
 Docker image layers information.
@@ -12,6 +13,3 @@ Docker image layers information.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_image_layers)
-
-## Tags
-* version_4.4.2

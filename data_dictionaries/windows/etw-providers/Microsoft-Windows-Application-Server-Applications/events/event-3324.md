@@ -1,4 +1,5 @@
 # Event 3324 - FormatterSerializeReply
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1018 - PerfTrackNXNonPagedPool
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_PerfTrackNXNonPagedPool
-* version_1

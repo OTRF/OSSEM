@@ -1,4 +1,5 @@
 # Event 93 - DirectUI_ModernProgressBarForegroundColor
+###### Version: 0
 
 ## Description
 None

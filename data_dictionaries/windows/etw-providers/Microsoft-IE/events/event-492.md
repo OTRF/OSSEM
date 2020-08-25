@@ -1,4 +1,5 @@
 # Event 492 - Mshtml_DocumentSuspend
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 570 - IdleManager_RemoveExpiredRunningTask
+###### Version: 0
 
 ## Description
 None

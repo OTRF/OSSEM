@@ -1,4 +1,5 @@
 # Osquery_info Table
+###### Version: 4.4.2
 
 ## Description
 Top level information about the running version of osquery.
@@ -21,6 +22,3 @@ Top level information about the running version of osquery.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#osquery_info)
-
-## Tags
-* version_4.4.2

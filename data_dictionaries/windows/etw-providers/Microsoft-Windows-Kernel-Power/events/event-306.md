@@ -1,4 +1,5 @@
 # Event 306 - StartDevicePowerManagement
+###### Version: 0
 
 ## Description
 None

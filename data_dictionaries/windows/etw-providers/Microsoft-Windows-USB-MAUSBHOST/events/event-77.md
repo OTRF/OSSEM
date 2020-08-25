@@ -1,4 +1,5 @@
 # Event 77 - PALManagementChannel
+###### Version: 0
 
 ## Description
 None

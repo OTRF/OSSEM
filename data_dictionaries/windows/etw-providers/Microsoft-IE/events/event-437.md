@@ -1,4 +1,5 @@
 # Event 437 - Mshtml_MediaElement_Visualization
+###### Version: 0
 
 ## Description
 None

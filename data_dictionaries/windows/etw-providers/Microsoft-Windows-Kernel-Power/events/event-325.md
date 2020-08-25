@@ -1,4 +1,5 @@
 # Event 325 - ComponentPerformanceState
+###### Version: 0
 
 ## Description
 None

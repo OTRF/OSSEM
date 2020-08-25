@@ -1,4 +1,5 @@
 # Event 19 - BootPerformanceData
+###### Version: 2
 
 ## Description
 None
@@ -24,4 +25,3 @@ None
 * etw_level_Informational
 * etw_keywords_BootPerformance
 * etw_task_BootPerformanceData
-* version_2

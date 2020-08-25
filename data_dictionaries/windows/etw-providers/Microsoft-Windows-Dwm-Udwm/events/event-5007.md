@@ -1,4 +1,5 @@
 # Event 5007 - UdwmProcessSetIconicThumbnail
+###### Version: 0
 
 ## Description
 None

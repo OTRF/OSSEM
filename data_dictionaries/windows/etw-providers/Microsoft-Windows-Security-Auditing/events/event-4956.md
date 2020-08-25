@@ -1,4 +1,5 @@
 # Event ID 4956: Windows Firewall has changed the active profile.
+###### Version: 0
 
 ## Description
 This event generates when Windows Firewall has changed the active profile.

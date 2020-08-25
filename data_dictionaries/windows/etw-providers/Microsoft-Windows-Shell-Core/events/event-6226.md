@@ -1,4 +1,5 @@
 # Event 6226 - Thumbnails_ReadThumbsDB
+###### Version: 0
 
 ## Description
 None

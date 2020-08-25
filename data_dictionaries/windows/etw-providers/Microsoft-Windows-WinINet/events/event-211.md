@@ -1,4 +1,5 @@
 # Event 211 - WININET_RESPONSE_HEADER
+###### Version: 0
 
 ## Description
 None

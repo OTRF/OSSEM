@@ -1,4 +1,5 @@
 # Event 1121 - MediaFoundationValidateApplicationCertificate
+###### Version: 0
 
 ## Description
 None

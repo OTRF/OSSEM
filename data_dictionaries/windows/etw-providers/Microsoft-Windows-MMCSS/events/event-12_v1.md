@@ -1,4 +1,5 @@
 # Event 12 - TaskIndex_Yield
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_TaskIndex_Yield
-* version_1

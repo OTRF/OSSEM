@@ -1,4 +1,5 @@
 # Event 4602 - MFIsContentProtectionDeviceSupportedStarttask
+###### Version: 0
 
 ## Description
 None

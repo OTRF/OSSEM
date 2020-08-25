@@ -1,4 +1,5 @@
 # Event 296 - SignalSynchronizationObjectFromCpu
+###### Version: 0
 
 ## Description
 None

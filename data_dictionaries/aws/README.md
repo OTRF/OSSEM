@@ -4,14 +4,14 @@
 Data dictionaries for AWS DataSources
 
 ## Sub Data Sets
-|events|Description|Tags|
-|---|---|---|
-|[cloudtrail](events/cloudtrail.md)|AWS CloudTrail Event Log Schema| version_1.05|
-|[s3 server access logs](events/s3_server_access_log.md)| S3 Server Access Log| version_API-2006-03-01|
-|[VPC logs](events/vpc_flow_log.md)| VPC Flow Logs| version_2|
-|[Security Finding Format](events/security_finding_format.md)| AWS Security Finding Format(ASFF)| 2018-10-08|
-|[ELB Access Logs](events/elb_access_logs.md)| ELB Access Logs| 2016-06-01|
-|[Route53 DNS Logs](events/route53_dns_logs.md)| ELB Access Logs| version_1.0|
+|events|Version|Description|Tags|
+|---|---|---|---|
+|[cloudtrail](events/cloudtrail.md)|1.05|AWS CloudTrail Log format common schema||
+|[elb_access](events/elb_access_logs.md)|0|Elastic Load Balancing(ELB) Access Event Schema|2016-06-01|
+|[route53_dns](events/route53_dns_logs.md)|1|AWS Route 53 DNS Log format common schema||
+|[s3_server_access](events/s3_server_access_logs.md)|0|S3 Server Access Log format common schema.|2006-03-01|
+|[security_finding_format](events/security_finding_format.md)|0|AWS Security Finding Format common schema.|2018-10-08|
+|[vpc_flow](events/vpc_flow_log.md)|2|VPC Flow Log format common schema.||
 
 ## References
 * [AWS Cloudtrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference.html)

@@ -1,4 +1,5 @@
 # Event 106 - WININET_HANDLE_CREATE_FAILED
+###### Version: 0
 
 ## Description
 None

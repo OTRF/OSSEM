@@ -1,4 +1,5 @@
 # Event ID 4673: A privileged service was called
+###### Version: 0
 
 ## Description
 This event generates when an attempt was made to perform privileged system service operations. This event generates, for example, when SeSystemtimePrivilege, SeCreateGlobalPrivilege, or SeTcbPrivilege privilege was used.

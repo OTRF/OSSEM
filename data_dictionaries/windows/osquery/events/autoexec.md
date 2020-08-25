@@ -1,4 +1,5 @@
 # Autoexec Table
+###### Version: 4.4.2
 
 ## Description
 Aggregate of executables that will automatically 
@@ -12,6 +13,3 @@ Aggregate of executables that will automatically
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#autoexec)
-
-## Tags
-* version_4.4.2

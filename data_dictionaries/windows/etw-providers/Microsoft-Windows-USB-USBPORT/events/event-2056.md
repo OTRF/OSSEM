@@ -1,4 +1,5 @@
 # Event 2056 - MiniportStop
+###### Version: 0
 
 ## Description
 None

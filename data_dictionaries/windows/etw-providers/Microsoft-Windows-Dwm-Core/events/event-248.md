@@ -1,4 +1,5 @@
 # Event 248 - ETWGUID_PRIMITIVE_GROUP_SELF_OCCLUSION_INFO
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 683 - Mshtml_CDMDraggableTouchTarget_OnViewportStatusChanged
+###### Version: 0
 
 ## Description
 None

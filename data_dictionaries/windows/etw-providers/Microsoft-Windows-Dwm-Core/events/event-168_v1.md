@@ -1,4 +1,5 @@
 # Event 168 - ANIMATION_ANALYSIS_DEBUG_EVENT
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Verbose
 * etw_keywords_DwmCore
 * etw_task_ANIMATION_ANALYSIS_DEBUG_EVENT
-* version_1

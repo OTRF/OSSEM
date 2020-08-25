@@ -1,4 +1,5 @@
 # Event 205 - MFCaptureEngineTakePhotoTask
+###### Version: 0
 
 ## Description
 None

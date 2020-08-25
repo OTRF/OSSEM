@@ -1,4 +1,5 @@
 # Event 1307 - TcpCreateNotificationChannelRequestProcessed
+###### Version: 0
 
 ## Description
 None

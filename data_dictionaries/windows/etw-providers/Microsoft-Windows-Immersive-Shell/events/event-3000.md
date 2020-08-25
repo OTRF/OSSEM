@@ -1,4 +1,5 @@
 # Event 3000 - Watermark_Register_Licensing_Event_Error
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event ID 4713: Kerberos policy was changed.
+###### Version: 0
 
 ## Description
 This event generates when Kerberos policy was changed.

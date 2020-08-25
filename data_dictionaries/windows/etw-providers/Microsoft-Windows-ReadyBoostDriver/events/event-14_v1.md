@@ -1,4 +1,5 @@
 # Event 14 - StorePageRundown
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Informational
 * etw_keywords_StoreContentsRundown
 * etw_task_StorePageRundown
-* version_1

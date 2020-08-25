@@ -1,4 +1,5 @@
 # Event 45 - Jscript_Projection_GetTypeFromTypeNameParts
+###### Version: 0
 
 ## Description
 None

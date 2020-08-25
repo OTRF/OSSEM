@@ -1,4 +1,5 @@
 # Mounts Table
+###### Version: 4.4.2
 
 ## Description
 System mounted devices and filesystems (not process specific).
@@ -20,6 +21,3 @@ System mounted devices and filesystems (not process specific).
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#mounts)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Extended_attributes Table
+###### Version: 4.4.2
 
 ## Description
 Returns the extended attributes for files (similar to Windows ADS).
@@ -14,6 +15,3 @@ Returns the extended attributes for files (similar to Windows ADS).
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#extended_attributes)
-
-## Tags
-* version_4.4.2

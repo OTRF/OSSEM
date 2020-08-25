@@ -1,4 +1,5 @@
 # Event 201 - Class
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Informational
 * etw_keywords_IO_Performance
 * etw_task_Class
-* version_1

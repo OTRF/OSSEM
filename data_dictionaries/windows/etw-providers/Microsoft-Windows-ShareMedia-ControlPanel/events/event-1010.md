@@ -1,4 +1,5 @@
 # Event 1010 - UpdateDevice
+###### Version: 0
 
 ## Description
 None

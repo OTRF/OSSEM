@@ -1,4 +1,5 @@
 # Launchd_overrides Table
+###### Version: 4.4.2
 
 ## Description
 Override keys, per user, for LaunchDaemons and Agents.
@@ -14,6 +15,3 @@ Override keys, per user, for LaunchDaemons and Agents.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#launchd_overrides)
-
-## Tags
-* version_4.4.2

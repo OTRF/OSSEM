@@ -1,4 +1,5 @@
 # Event 1018 - I/OoperationflowthroughSPBCx
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Verbose
 * etw_opcode_IoSpbDirection
 * etw_task_I/OoperationflowthroughSPBCx
-* version_1

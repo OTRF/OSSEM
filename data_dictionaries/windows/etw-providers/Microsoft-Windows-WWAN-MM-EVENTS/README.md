@@ -4,6 +4,6 @@
 This page contains the list of events for Microsoft-Windows-WWAN-MM-EVENTS, as collected by the Event Tracing for Windows.
 
 ## Sub Data Sets
-|events|Description|Tags|
-|---|---|---|
-|[1004](events/event-1004.md)|None|etw_level_Error, etw_task_task_0|
+|events|Version|Description|Tags|
+|---|---|---|---|
+|[1004](events/event-1004.md)|0|None|etw_level_Error, etw_task_task_0|

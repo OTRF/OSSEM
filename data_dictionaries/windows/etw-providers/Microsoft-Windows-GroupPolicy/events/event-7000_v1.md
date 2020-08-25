@@ -1,4 +1,5 @@
 # Event 7000 - task_0
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Error
 * etw_opcode_Stop
 * etw_task_task_0
-* version_1

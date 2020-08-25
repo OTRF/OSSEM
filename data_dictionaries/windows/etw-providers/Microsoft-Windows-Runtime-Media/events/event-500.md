@@ -1,4 +1,5 @@
 # Event 500 - WinRTMediaStreamSourceEventTask
+###### Version: 0
 
 ## Description
 None

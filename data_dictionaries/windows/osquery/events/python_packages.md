@@ -1,4 +1,5 @@
 # Python_packages Table
+###### Version: 4.4.2
 
 ## Description
 Python packages installed in a system.
@@ -16,6 +17,3 @@ Python packages installed in a system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#python_packages)
-
-## Tags
-* version_4.4.2

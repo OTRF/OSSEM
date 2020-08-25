@@ -1,4 +1,5 @@
 # Event 198 - Dxgk_Diag_OutputDupl_High_Level_Update_Stop
+###### Version: 0
 
 ## Description
 None

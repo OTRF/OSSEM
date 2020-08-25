@@ -1,4 +1,5 @@
 # Event 534 - Browseui_Prerender_Closing_Prerendered_Page
+###### Version: 0
 
 ## Description
 None

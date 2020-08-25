@@ -1,4 +1,5 @@
 # Event 247 - MFCaptureEngineSetExtendedPropertyAsyncTask
+###### Version: 0
 
 ## Description
 None

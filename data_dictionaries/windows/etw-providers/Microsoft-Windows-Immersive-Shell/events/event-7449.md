@@ -1,4 +1,5 @@
 # Event 7449 - ConnectedSearch_LogPerfTemplateRequest
+###### Version: 0
 
 ## Description
 None

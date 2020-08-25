@@ -1,4 +1,5 @@
 # Event 180 - ETWGUID_DRAWING_CONTEXT_FRAME
+###### Version: 0
 
 ## Description
 None

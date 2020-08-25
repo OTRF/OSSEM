@@ -1,4 +1,5 @@
 # Event 703 - WININET_HTTPS_NEGOTIATION
+###### Version: 0
 
 ## Description
 None

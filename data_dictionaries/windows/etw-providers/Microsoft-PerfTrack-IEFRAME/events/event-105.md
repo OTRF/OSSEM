@@ -1,4 +1,5 @@
 # Event 105 - FavoritesSwitchView
+###### Version: 0
 
 ## Description
 None

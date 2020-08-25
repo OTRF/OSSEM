@@ -1,4 +1,5 @@
 # Event 1116 - IpDadStarted
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:Global keyword_80000000000
 * etw_task_IpDadStarted
-* version_1

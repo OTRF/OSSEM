@@ -1,4 +1,5 @@
 # Event 18 - Browseui_Tabs_AddTabAPI
+###### Version: 0
 
 ## Description
 None

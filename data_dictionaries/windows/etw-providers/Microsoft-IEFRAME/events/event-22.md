@@ -1,4 +1,5 @@
 # Event 22 - Browseui_Tabs_SwitchTabs
+###### Version: 0
 
 ## Description
 None

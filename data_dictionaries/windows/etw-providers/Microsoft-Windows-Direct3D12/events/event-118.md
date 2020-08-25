@@ -1,4 +1,5 @@
 # Event 118 - ProtectedResourceSession
+###### Version: 0
 
 ## Description
 None

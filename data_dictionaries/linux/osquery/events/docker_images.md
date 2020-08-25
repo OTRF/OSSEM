@@ -1,4 +1,5 @@
 # Docker_images Table
+###### Version: 4.4.2
 
 ## Description
 Docker images information.
@@ -13,6 +14,3 @@ Docker images information.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_images)
-
-## Tags
-* version_4.4.2

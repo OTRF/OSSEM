@@ -1,4 +1,5 @@
 # Event 400 - SystemPerformanceMonitoring
+###### Version: 1
 
 ## Description
 None
@@ -22,4 +23,3 @@ None
 * etw_keywords_EventLog
 * etw_opcode_ShellInformation
 * etw_task_SystemPerformanceMonitoring
-* version_1

@@ -1,4 +1,5 @@
 # Event 30 - RESOURCE_RELEASE
+###### Version: 0
 
 ## Description
 None

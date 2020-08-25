@@ -1,4 +1,5 @@
 # Event 129 - Telemetry.WERReporting
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1011 - Wininet_OfflineCacheHit
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event ID 6420: A device was disabled.
+###### Version: 0
 
 ## Description
 This event generates every time specific device was disabled.

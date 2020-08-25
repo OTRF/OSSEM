@@ -1,4 +1,5 @@
 # Event ID 4702: A scheduled task was updated
+###### Version: 0
 
 ## Description
 This event generates every time scheduled task was updated/changed.

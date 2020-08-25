@@ -1,4 +1,5 @@
 # Event 213 - WININET_HTTP_RESPONSE_BODY_READ_ERROR
+###### Version: 0
 
 ## Description
 None

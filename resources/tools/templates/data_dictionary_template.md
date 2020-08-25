@@ -1,4 +1,5 @@
 # {{entry['title']}}
+###### Version: {{entry['event_version']}}
 
 ## Description
 {{entry['description']}}

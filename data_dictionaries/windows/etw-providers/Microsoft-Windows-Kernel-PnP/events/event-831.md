@@ -1,4 +1,5 @@
 # Event 831 - DeviceRemoval
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 2269 - SharingManager_RetrieveSourceAppName
+###### Version: 0
 
 ## Description
 None

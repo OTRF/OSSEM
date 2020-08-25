@@ -1,4 +1,5 @@
 # Event 400 - task_0
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 ## Tags
 * etw_level_Critical
 * etw_task_task_0
-* version_1

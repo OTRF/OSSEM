@@ -1,4 +1,5 @@
 # Event 5010 - VID_releasepages
+###### Version: 0
 
 ## Description
 None

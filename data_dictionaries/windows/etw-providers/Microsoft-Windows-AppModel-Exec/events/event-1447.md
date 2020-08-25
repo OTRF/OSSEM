@@ -1,4 +1,5 @@
 # Event 1447 - FM_OnResourceAcquired
+###### Version: 0
 
 ## Description
 None

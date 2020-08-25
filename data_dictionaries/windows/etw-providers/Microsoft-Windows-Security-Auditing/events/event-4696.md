@@ -1,4 +1,5 @@
 # Event ID 4696: A primary token was assigned to process
+###### Version: 0
 
 ## Description
 This event generates every time a process runs using the non-current access token, for example, UAC elevated token, RUN AS different user actions, scheduled task with defined user, services, and so on.

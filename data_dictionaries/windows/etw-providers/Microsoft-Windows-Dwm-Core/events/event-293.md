@@ -1,4 +1,5 @@
 # Event 293 - ETWGUID_PUBLISH_SEB_NOTIFICATION
+###### Version: 0
 
 ## Description
 None

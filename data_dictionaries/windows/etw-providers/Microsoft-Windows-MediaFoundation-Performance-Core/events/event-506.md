@@ -1,4 +1,5 @@
 # Event 506 - AudCaptureStream_Initialize
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 9597 - ExplorerFrame_OpenProfile
+###### Version: 0
 
 ## Description
 None

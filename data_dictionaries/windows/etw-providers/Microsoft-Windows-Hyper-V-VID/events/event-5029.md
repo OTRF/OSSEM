@@ -1,4 +1,5 @@
 # Event 5029 - VID_hotadd
+###### Version: 0
 
 ## Description
 None

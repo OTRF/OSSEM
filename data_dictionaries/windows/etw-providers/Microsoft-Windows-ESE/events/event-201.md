@@ -1,4 +1,5 @@
 # Event 201 - ESE_tagInformation_Trace
+###### Version: 0
 
 ## Description
 None

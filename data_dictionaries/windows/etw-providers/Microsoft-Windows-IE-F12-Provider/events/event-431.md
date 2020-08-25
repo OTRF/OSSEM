@@ -1,4 +1,5 @@
 # Event 431 - Console_Intellisense_Provider_Update
+###### Version: 0
 
 ## Description
 None

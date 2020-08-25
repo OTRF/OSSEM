@@ -1,4 +1,5 @@
 # Event 8 - Portpause
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_PauseResume
 * etw_opcode_OpCodePortPause
 * etw_task_Portpause
-* version_1

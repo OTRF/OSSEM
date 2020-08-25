@@ -1,4 +1,5 @@
 # Event 11 - Proximity_OOBMessagePublishing
+###### Version: 0
 
 ## Description
 None

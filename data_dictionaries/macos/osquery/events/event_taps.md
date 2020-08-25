@@ -1,4 +1,5 @@
 # Event_taps Table
+###### Version: 4.4.2
 
 ## Description
 Returns information about installed event taps.
@@ -14,6 +15,3 @@ Returns information about installed event taps.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#event_taps)
-
-## Tags
-* version_4.4.2

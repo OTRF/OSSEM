@@ -1,4 +1,5 @@
 # Event 10 - Portpausedevice
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_keywords_PauseResume
 * etw_opcode_OpCodePortPauseDevice
 * etw_task_Portpausedevice
-* version_1

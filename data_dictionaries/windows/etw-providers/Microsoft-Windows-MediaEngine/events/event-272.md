@@ -1,4 +1,5 @@
 # Event 272 - WindowResizeOptimization
+###### Version: 0
 
 ## Description
 None

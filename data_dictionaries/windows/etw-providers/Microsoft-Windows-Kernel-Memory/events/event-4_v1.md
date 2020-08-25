@@ -1,4 +1,5 @@
 # Event 4 - WorkingSetOutSwap
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_KERNEL_MEM_KEYWORD_WS_SWAP
 * etw_opcode_Start
 * etw_task_WorkingSetOutSwap
-* version_1

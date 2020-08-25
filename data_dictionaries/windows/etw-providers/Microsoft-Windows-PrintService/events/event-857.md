@@ -1,4 +1,5 @@
 # Event 857 - Connectionreconfigured
+###### Version: 0
 
 ## Description
 None

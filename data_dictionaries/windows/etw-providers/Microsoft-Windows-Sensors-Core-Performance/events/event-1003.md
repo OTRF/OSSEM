@@ -1,4 +1,5 @@
 # Event 1003 - CollectionListSerializationTask
+###### Version: 0
 
 ## Description
 None

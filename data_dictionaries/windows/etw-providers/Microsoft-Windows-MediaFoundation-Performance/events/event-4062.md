@@ -1,4 +1,5 @@
 # Event 4062 - MediaCacheTrim
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event ID 5137: A directory service object was created
+###### Version: 0
 
 ## Description
 This event generates every time an Active Directory object is created.

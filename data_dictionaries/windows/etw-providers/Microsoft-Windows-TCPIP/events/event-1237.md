@@ -1,4 +1,5 @@
 # Event 1237 - RssIndirectionChange
+###### Version: 0
 
 ## Description
 None

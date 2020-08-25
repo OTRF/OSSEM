@@ -1,4 +1,5 @@
 # Event 321 - MIDMANIPULATION_UPDATE_CAPTURE_MANIPULATION
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 301 - StandbyPerformanceMonitoring
+###### Version: 1
 
 ## Description
 None
@@ -27,4 +28,3 @@ None
 * etw_keywords_EventLog
 * etw_opcode_StandbyDegradation
 * etw_task_StandbyPerformanceMonitoring
-* version_1

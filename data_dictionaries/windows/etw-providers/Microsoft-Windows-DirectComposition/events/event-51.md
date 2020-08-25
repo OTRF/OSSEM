@@ -1,4 +1,5 @@
 # Event 51 - ANIMATION_SCENARIO_REFERENCE
+###### Version: 0
 
 ## Description
 None

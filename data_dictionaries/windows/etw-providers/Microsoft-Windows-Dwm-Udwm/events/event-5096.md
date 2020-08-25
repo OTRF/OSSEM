@@ -1,4 +1,5 @@
 # Event 5096 - UdwmSecondaryWindowBrushSnapshot
+###### Version: 0
 
 ## Description
 None

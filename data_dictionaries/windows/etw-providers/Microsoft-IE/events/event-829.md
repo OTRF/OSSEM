@@ -1,4 +1,5 @@
 # Event 829 - Mshtml_Aligned_RAF_Disabled
+###### Version: 0
 
 ## Description
 None

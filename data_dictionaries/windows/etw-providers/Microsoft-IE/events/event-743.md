@@ -1,4 +1,5 @@
 # Event 743 - Mshtml_MemoryProtector_SyncMark
+###### Version: 0
 
 ## Description
 None

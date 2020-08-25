@@ -1,4 +1,5 @@
 # Event ID 4616: The system time was changed.
+###### Version: 1
 
 ## Description
 This event generates every time system time was changed.
@@ -23,6 +24,5 @@ This event generates every time system time was changed.
 ## Tags
 * etw_level_Informational
 * etw_task_task_0
-* version_1
 * System
 * Audit Security State Change

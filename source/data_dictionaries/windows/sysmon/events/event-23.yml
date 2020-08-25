@@ -1,8 +1,9 @@
 title: 'Event ID 23: FileDelete (A file delete was detected)'
-description: This event logs when a file is deleted by a process.
+description: This event logs when a **file is deleted** by a process.
 platform: windows
 log_source: sysmon
 event_code: '23'
+event_version: '4.32'
 event_fields:
 - standard_name: tag
   standard_type: TBD
@@ -26,7 +27,8 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: integer
-  description: Process ID used by the os to identify the process that deleted the file
+  description: Process ID used by the os to identify the process that deleted the
+    file
   sample_value: '1896'
 - standard_name: process_path
   standard_type: TBD
@@ -64,7 +66,7 @@ event_fields:
   name: Archived
   type: string
   description: States if the file was archived when deleted
-  sample_value: Yes
+  sample_value: true
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-23-filedelete-a-file-delete-was-detected

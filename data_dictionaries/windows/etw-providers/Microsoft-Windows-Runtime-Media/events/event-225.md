@@ -1,4 +1,5 @@
 # Event 225 - MediaCaptureLowLagPhotoPrepareoperation
+###### Version: 0
 
 ## Description
 None

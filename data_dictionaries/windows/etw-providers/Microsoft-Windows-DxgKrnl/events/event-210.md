@@ -1,4 +1,5 @@
 # Event 210 - DdiStopDeviceAndReleasePostDisplayOwnership
+###### Version: 0
 
 ## Description
 None

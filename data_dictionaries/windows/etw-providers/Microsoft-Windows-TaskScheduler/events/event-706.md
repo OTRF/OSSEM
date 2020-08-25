@@ -1,4 +1,5 @@
 # Event 706 - Compatibilitymoduletaskstatusupdatefailed
+###### Version: 0
 
 ## Description
 None

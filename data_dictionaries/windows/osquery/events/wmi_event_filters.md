@@ -1,4 +1,5 @@
 # Wmi_event_filters Table
+###### Version: 4.4.2
 
 ## Description
 Lists WMI event filters.
@@ -14,6 +15,3 @@ Lists WMI event filters.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#wmi_event_filters)
-
-## Tags
-* version_4.4.2

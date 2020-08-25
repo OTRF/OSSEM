@@ -1,4 +1,5 @@
 # Event 2221 - CtapUsbRemove
+###### Version: 0
 
 ## Description
 None

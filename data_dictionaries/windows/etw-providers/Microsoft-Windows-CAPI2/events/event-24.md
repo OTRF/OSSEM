@@ -1,4 +1,5 @@
 # Event 24 - RetrieveCrossCertificatefromNetwork
+###### Version: 0
 
 ## Description
 None

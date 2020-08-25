@@ -1,4 +1,5 @@
 # Event 200 - Dxgk_Diag_OutputDupl_Get_Meta_Data
+###### Version: 0
 
 ## Description
 None

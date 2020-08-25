@@ -1,4 +1,5 @@
 # Event 1233 - RssPortCapabilities
+###### Version: 0
 
 ## Description
 None

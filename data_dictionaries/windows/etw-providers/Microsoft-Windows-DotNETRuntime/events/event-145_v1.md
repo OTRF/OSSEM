@@ -1,4 +1,5 @@
 # Event 145 - Method
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_keywords_JitKeyword
 * etw_opcode_JittingStarted
 * etw_task_Method
-* version_1

@@ -3,6 +3,7 @@ description: This event generates when Windows Filtering Platform has allowed a 
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '5156'
+event_version: '1'
 event_fields:
 - standard_name: process_id
   standard_type: TBD
@@ -92,6 +93,5 @@ references:
 tags:
 - etw_level_Informational
 - etw_task_task_0
-- version_1
 - Object Access
 - Audit Filtering Platform Connection

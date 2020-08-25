@@ -1,4 +1,5 @@
 # Event 7 - RequestTimernotification
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_PortNotification
 * etw_opcode_OpCodeRequestTimerCall
 * etw_task_RequestTimernotification
-* version_1

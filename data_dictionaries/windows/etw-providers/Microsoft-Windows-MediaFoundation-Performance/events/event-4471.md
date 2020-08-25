@@ -1,4 +1,5 @@
 # Event 4471 - MFMediaDeviceStreamSendSinglePhotoTriggerToKSTask
+###### Version: 0
 
 ## Description
 None

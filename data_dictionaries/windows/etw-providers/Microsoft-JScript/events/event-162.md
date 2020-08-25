@@ -1,4 +1,5 @@
 # Event 162 - Jscript_Hosting_BinaryInconsistency
+###### Version: 0
 
 ## Description
 None

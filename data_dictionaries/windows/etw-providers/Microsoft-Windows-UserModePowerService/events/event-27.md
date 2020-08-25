@@ -1,4 +1,5 @@
 # Event 27 - RundownSmartUserPresenceState
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 269 - Port
+###### Version: 1
 
 ## Description
 None
@@ -24,4 +25,3 @@ None
 * etw_keywords_PassThrough IOCTL
 * etw_opcode_Completionofrequest.
 * etw_task_Port
-* version_1

@@ -1,4 +1,5 @@
 # Event 161 - ESE_DiskOsDiskCacheInfo_Trace
+###### Version: 0
 
 ## Description
 None

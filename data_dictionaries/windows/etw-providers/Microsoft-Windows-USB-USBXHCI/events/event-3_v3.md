@@ -1,4 +1,5 @@
 # Event 3 - USBXHCIControlerRundown
+###### Version: 3
 
 ## Description
 None
@@ -55,4 +56,3 @@ None
 * etw_keywords_Default Rundown
 * etw_opcode_Information
 * etw_task_USBXHCIControlerRundown
-* version_3

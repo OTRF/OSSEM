@@ -3,6 +3,7 @@ description: This event generates every time system time was changed.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4616'
+event_version: '1'
 event_fields:
 - standard_name: user_sid
   standard_type: TBD
@@ -66,6 +67,5 @@ references:
 tags:
 - etw_level_Informational
 - etw_task_task_0
-- version_1
 - System
 - Audit Security State Change

@@ -1,4 +1,5 @@
 # Event 1 - Resumecapablesettings
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_Config
 * etw_opcode_OpCodeResumeCapable
 * etw_task_Resumecapablesettings
-* version_1

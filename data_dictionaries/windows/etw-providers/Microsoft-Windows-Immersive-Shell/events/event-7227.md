@@ -1,4 +1,5 @@
 # Event 7227 - ConnectedSearch_LogScroll
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Rpm_packages Table
+###### Version: 4.4.2
 
 ## Description
 RPM packages that are currently installed on the host system.
@@ -18,6 +19,3 @@ RPM packages that are currently installed on the host system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#rpm_packages)
-
-## Tags
-* version_4.4.2

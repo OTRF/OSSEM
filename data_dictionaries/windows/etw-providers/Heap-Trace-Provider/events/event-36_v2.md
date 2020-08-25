@@ -1,4 +1,5 @@
 # Event 36
+###### Version: 2
 
 ## Description
 None
@@ -9,6 +10,3 @@ None
 |TBD|HeapHandle|UInt32|None|`None`|
 |TBD|FreeAddress|UInt32|None|`None`|
 |TBD|SourceId|UInt32|None|`None`|
-
-## Tags
-* version_2

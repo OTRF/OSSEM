@@ -1,4 +1,5 @@
 # Event 4251 - SessionShutdown
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 18 - ApiUnregisterThumbnail
+###### Version: 0
 
 ## Description
 None

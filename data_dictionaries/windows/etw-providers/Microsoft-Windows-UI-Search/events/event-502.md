@@ -1,4 +1,5 @@
 # Event 502 - ViewServiceInit
+###### Version: 0
 
 ## Description
 None

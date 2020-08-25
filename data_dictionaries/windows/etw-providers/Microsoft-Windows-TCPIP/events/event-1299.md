@@ -1,4 +1,5 @@
 # Event 1299 - Ndkpi_Close_Adapter_Exit
+###### Version: 0
 
 ## Description
 None

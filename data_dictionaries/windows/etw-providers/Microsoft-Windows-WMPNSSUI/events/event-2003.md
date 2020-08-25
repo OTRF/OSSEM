@@ -1,4 +1,5 @@
 # Event 2003 - DeviceAuthorization_VerifyShouldDisplay
+###### Version: 0
 
 ## Description
 None

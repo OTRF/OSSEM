@@ -1,4 +1,5 @@
 # Event ID 4931: An Active Directory replica destination naming context was modified.
+###### Version: 1
 
 ## Description
 This event generates every time Active Directory replica destination naming context was modified.
@@ -21,6 +22,5 @@ This event generates every time Active Directory replica destination naming cont
 ## Tags
 * etw_level_Informational
 * etw_task_task_0
-* version_1
 * DS Access
 * Audit Detailed Directory Service Replication

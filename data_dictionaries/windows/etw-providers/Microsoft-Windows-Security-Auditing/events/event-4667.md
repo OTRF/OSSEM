@@ -1,4 +1,5 @@
 # Event ID 4667: An application client context was deleted
+###### Version: 0
 
 ## Description
 Not available

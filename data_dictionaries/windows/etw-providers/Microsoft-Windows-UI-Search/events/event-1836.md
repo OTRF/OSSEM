@@ -1,4 +1,5 @@
 # Event 1836 - GetSearchLaunchModeForWindow_Result
+###### Version: 0
 
 ## Description
 None

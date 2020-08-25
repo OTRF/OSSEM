@@ -1,4 +1,5 @@
 # Event 1132 - Wininet_CookieServerContainer
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 145 - TaskID:IME_KOR_HWKBD_KeyProcess
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 6066 - CertificateEnrollment
+###### Version: 0
 
 ## Description
 None

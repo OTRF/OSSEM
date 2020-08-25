@@ -1,4 +1,5 @@
 # Event 1324 - IpNeighborState
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:TcpipRoute
 * etw_task_IpNeighborState
-* version_1

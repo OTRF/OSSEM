@@ -1,5 +1,5 @@
 title: 'Event ID 15: FileCreateStreamHash'
-description: This event logs when a named file stream is created, and it generates
+description: This event logs when a **named file stream is created**, and it generates
   events that log the hash of the contents of the file to which the stream is assigned
   (the unnamed stream), as well as the contents of the named stream. There are malware
   variants that drop their executables or configuration settings via browser downloads,
@@ -8,6 +8,7 @@ description: This event logs when a named file stream is created, and it generat
 platform: windows
 log_source: sysmon
 event_code: '15'
+event_version: '4.32'
 event_fields:
 - standard_name: tag
   standard_type: TBD

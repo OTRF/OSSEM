@@ -1,4 +1,5 @@
 # Event 71 - RootSignature
+###### Version: 0
 
 ## Description
 None

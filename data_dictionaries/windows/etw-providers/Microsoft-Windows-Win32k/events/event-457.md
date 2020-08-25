@@ -1,4 +1,5 @@
 # Event 457 - GdiHandleOperation
+###### Version: 0
 
 ## Description
 None

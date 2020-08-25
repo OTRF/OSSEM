@@ -1,4 +1,5 @@
 # Event 1110 - MediaFoundationIMFSampleProtection_GetProtectionCertificate
+###### Version: 0
 
 ## Description
 None

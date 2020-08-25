@@ -1,4 +1,5 @@
 # Event 536 - Mshtml_DMTouchTarget_SetContentRect
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 205 - MediaFoundationSourceResolver
+###### Version: 0
 
 ## Description
 None

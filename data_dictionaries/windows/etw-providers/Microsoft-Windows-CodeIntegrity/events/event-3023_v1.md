@@ -1,4 +1,5 @@
 # Event 3023 - CreateSection
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Error
 * etw_opcode_RevokedDriverNotLoaded
 * etw_task_CreateSection
-* version_1

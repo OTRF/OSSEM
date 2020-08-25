@@ -1,4 +1,5 @@
 # Event 710 - XamlHostCreateWindow
+###### Version: 0
 
 ## Description
 None

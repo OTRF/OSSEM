@@ -1,4 +1,5 @@
 # Event 784 - Mshtml_Media_Capture_Sample_Delivered
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 705 - Compatibilitymoduledirectorymonitoringfailed
+###### Version: 0
 
 ## Description
 None

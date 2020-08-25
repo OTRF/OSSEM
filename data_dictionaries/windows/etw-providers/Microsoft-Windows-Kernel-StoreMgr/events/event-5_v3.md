@@ -1,4 +1,5 @@
 # Event 5 - StoreRundown
+###### Version: 3
 
 ## Description
 None
@@ -30,4 +31,3 @@ None
 * etw_level_Informational
 * etw_keywords_StoreOps
 * etw_task_StoreRundown
-* version_3

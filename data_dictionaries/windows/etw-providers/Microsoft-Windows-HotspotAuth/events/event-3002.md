@@ -1,4 +1,5 @@
 # Event 3002 - HotspotDetection
+###### Version: 0
 
 ## Description
 None

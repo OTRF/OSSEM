@@ -1,4 +1,5 @@
 # Event 10 - MediaFoundationDevproxySetOutputType
+###### Version: 0
 
 ## Description
 None

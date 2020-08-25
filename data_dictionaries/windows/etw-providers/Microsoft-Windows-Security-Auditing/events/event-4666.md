@@ -1,4 +1,5 @@
 # Event ID 4666: An application attempted an operation
+###### Version: 0
 
 ## Description
 Not available

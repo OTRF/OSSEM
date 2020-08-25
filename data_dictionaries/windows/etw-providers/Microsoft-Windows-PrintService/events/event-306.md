@@ -1,4 +1,5 @@
 # Event 306 - Settingprinterconfiguration
+###### Version: 0
 
 ## Description
 None

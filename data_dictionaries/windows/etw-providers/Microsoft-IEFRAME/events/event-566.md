@@ -1,4 +1,5 @@
 # Event 566 - IdleManager_AddRunningTask
+###### Version: 0
 
 ## Description
 None

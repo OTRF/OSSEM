@@ -1,4 +1,5 @@
 # Event 433 - AssociateDxgSchedulerObject
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Always
 * etw_keywords_Resource LongHaul
 * etw_task_AssociateDxgSchedulerObject
-* version_1

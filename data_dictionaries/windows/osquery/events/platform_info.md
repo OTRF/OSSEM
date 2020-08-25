@@ -1,4 +1,5 @@
 # Platform_info Table
+###### Version: 4.4.2
 
 ## Description
 Information about EFI/UEFI/ROM and platform/boot.
@@ -17,6 +18,3 @@ Information about EFI/UEFI/ROM and platform/boot.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#platform_info)
-
-## Tags
-* version_4.4.2

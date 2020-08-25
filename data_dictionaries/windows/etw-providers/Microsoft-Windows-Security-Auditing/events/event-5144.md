@@ -1,4 +1,5 @@
 # Event ID 5144: A network share object was deleted
+###### Version: 0
 
 ## Description
 This event generates every time a network share object is deleted.

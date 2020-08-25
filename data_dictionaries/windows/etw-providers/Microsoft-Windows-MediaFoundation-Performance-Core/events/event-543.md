@@ -1,4 +1,5 @@
 # Event 543 - AudCaptureStream_SetCurrentMediaType
+###### Version: 0
 
 ## Description
 None

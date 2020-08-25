@@ -1,4 +1,5 @@
 # Event 1209 - SensorClassExtensionClientInformationevent
+###### Version: 0
 
 ## Description
 None

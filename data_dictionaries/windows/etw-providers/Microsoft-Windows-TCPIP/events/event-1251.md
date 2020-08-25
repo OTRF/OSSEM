@@ -1,4 +1,5 @@
 # Event 1251 - Ndkpi_Close_Completion
+###### Version: 0
 
 ## Description
 None

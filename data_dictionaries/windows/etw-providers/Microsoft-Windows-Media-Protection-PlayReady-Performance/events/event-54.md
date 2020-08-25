@@ -1,4 +1,5 @@
 # Event 54 - CBlackboxWithTEEPrepareSampleProtectionKey
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Docker_volumes Table
+###### Version: 4.4.2
 
 ## Description
 Docker volumes information.
@@ -13,6 +14,3 @@ Docker volumes information.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_volumes)
-
-## Tags
-* version_4.4.2

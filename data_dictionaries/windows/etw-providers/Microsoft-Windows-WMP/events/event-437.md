@@ -1,4 +1,5 @@
 # Event 437 - STREAMING_MENUITEM_AUTOALLOWDEVICES_CHECKSTATE
+###### Version: 0
 
 ## Description
 None

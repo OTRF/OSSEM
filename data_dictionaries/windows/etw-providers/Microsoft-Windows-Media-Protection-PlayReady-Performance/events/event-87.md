@@ -1,4 +1,5 @@
 # Event 87 - CBlackboxWithTEEGetVersionInformation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 500 - SoftKeyboard_Geometry_GetNumberOfKeys
+###### Version: 0
 
 ## Description
 None

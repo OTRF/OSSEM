@@ -1,4 +1,5 @@
 # Event 405 - Wininet_WebSocketSession
+###### Version: 0
 
 ## Description
 None

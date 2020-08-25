@@ -1,4 +1,5 @@
 # Event 24 - WinlogonSleepEnd
+###### Version: 0
 
 ## Description
 None

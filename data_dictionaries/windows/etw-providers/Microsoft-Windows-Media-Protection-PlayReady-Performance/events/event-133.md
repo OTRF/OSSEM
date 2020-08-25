@@ -1,4 +1,5 @@
 # Event 133 - CBlackboxCreateGlobalStorePassword
+###### Version: 0
 
 ## Description
 None

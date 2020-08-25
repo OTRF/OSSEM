@@ -1,4 +1,5 @@
 # Event 193 - Dxgk_Diag_OutputDupl_Destroy
+###### Version: 0
 
 ## Description
 None

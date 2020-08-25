@@ -1,4 +1,5 @@
 # Event 1004 - TableEvent
+###### Version: 2
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Informational
 * etw_opcode_BucketMerge
 * etw_task_TableEvent
-* version_2

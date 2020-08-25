@@ -1,4 +1,5 @@
 # Example Table
+###### Version: 4.4.2
 
 ## Description
 This is an example table spec.
@@ -15,6 +16,3 @@ This is an example table spec.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#example)
-
-## Tags
-* version_4.4.2

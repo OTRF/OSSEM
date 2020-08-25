@@ -1,4 +1,5 @@
 # Event 7202 - Perf_WLRoamCheckIfBackupFolderExistsUnderDeviceRoot
+###### Version: 0
 
 ## Description
 None

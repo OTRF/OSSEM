@@ -1,4 +1,5 @@
 # Event 4024 - AssociationLaunch_UriLaunch_UntrustedFileBlocked
+###### Version: 0
 
 ## Description
 None

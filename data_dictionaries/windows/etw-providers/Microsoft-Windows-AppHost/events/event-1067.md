@@ -1,4 +1,5 @@
 # Event 1067 - ByteCodeSourceMapping
+###### Version: 0
 
 ## Description
 None

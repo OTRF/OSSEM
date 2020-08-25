@@ -1,4 +1,5 @@
 # Event 7196 - Perf_WLRoamGetAppOsBackupFolderForMetadata
+###### Version: 0
 
 ## Description
 None

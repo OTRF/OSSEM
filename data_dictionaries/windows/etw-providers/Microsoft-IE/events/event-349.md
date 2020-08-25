@@ -1,4 +1,5 @@
 # Event 349 - Mshtml_MediaElement_PlayPause
+###### Version: 0
 
 ## Description
 None

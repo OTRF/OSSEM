@@ -1,4 +1,5 @@
 # Groups Table
+###### Version: 4.4.2
 
 ## Description
 Local system groups.
@@ -15,6 +16,3 @@ Local system groups.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#groups)
-
-## Tags
-* version_4.4.2

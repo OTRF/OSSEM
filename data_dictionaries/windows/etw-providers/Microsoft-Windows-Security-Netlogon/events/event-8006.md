@@ -1,4 +1,5 @@
 # Event 8006 - AuditingNTLM
+###### Version: 0
 
 ## Description
 None

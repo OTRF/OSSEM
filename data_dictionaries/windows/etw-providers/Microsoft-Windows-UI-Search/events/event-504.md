@@ -1,4 +1,5 @@
 # Event 504 - ViewServiceSubscribe
+###### Version: 0
 
 ## Description
 None

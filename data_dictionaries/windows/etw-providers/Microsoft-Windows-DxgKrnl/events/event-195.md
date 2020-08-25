@@ -1,4 +1,5 @@
 # Event 195 - Dxgk_Diag_OutputDupl_Process_Pointer_Shape
+###### Version: 0
 
 ## Description
 None

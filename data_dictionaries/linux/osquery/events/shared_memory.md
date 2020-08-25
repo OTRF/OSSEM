@@ -1,4 +1,5 @@
 # Shared_memory Table
+###### Version: 4.4.2
 
 ## Description
 OS shared memory regions.
@@ -22,6 +23,3 @@ OS shared memory regions.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#shared_memory)
-
-## Tags
-* version_4.4.2

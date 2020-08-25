@@ -1,4 +1,5 @@
 # Event 6239 - Thumbnails_FullExtractionFailed
+###### Version: 0
 
 ## Description
 None

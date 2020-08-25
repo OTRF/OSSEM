@@ -1,4 +1,5 @@
 # Event ID 4716: Trusted domain information was modified.
+###### Version: 0
 
 ## Description
 This event generates when the trust was modified.

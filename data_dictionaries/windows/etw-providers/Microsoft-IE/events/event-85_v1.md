@@ -1,4 +1,5 @@
 # Event 85 - Mshtml_CWindow_CommitCodeLight
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_primarynav pageloadbreakdown
 * etw_opcode_Stop
 * etw_task_Mshtml_CWindow_CommitCodeLight
-* version_1

@@ -1,4 +1,5 @@
 # Event 46 - ETWGUID_DWMUPDATEWINDOW
+###### Version: 0
 
 ## Description
 None

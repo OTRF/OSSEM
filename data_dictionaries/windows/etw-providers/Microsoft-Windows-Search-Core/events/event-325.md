@@ -1,4 +1,5 @@
 # Event 325 - ETWLoggingItemFailure
+###### Version: 0
 
 ## Description
 None

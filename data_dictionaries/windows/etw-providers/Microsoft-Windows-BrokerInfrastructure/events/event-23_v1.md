@@ -1,4 +1,5 @@
 # Event 23 - BackgroundTask
+###### Version: 1
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 * etw_keywords_BackgroundTask
 * etw_opcode_DC_Stop
 * etw_task_BackgroundTask
-* version_1

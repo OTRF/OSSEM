@@ -1,4 +1,5 @@
 # Event 858 - Connectionreconfigured
+###### Version: 0
 
 ## Description
 None

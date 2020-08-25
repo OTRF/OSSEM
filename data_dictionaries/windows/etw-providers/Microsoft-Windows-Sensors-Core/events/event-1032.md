@@ -1,4 +1,5 @@
 # Event 1032 - SensorsCxClearHistoryTask
+###### Version: 0
 
 ## Description
 None

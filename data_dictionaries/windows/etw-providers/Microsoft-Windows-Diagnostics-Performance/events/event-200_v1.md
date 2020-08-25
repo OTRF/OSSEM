@@ -1,4 +1,5 @@
 # Event 200 - ShutdownPerformanceMonitoring
+###### Version: 1
 
 ## Description
 None
@@ -29,4 +30,3 @@ None
 * etw_keywords_EventLog
 * etw_opcode_ShutdownInformation
 * etw_task_ShutdownPerformanceMonitoring
-* version_1

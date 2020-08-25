@@ -1,4 +1,5 @@
 # Event 1016 - PerfTrackPhysical
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_PerfTrackPhysical
-* version_1

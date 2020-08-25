@@ -1,4 +1,5 @@
 # Event 210 - MicrosoftWindowsRuntimeCaptureEngineStopPreviewTask
+###### Version: 0
 
 ## Description
 None

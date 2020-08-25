@@ -1,4 +1,5 @@
 # Logged_in_users Table
+###### Version: 4.4.2
 
 ## Description
 Users with an active shell on the system.
@@ -17,6 +18,3 @@ Users with an active shell on the system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#logged_in_users)
-
-## Tags
-* version_4.4.2

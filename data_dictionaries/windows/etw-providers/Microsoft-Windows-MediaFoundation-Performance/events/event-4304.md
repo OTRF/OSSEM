@@ -1,4 +1,5 @@
 # Event 4304 - MFGraphSetRate
+###### Version: 0
 
 ## Description
 None

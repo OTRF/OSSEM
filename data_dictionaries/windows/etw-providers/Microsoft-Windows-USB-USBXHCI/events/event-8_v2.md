@@ -1,4 +1,5 @@
 # Event 8 - USBXHCIDeviceCreate
+###### Version: 2
 
 ## Description
 None
@@ -30,4 +31,3 @@ None
 * etw_keywords_Default
 * etw_opcode_Information
 * etw_task_USBXHCIDeviceCreate
-* version_2

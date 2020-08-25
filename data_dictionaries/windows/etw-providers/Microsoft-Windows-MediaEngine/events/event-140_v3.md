@@ -1,4 +1,5 @@
 # Event 140 - MediaFoundationPresent_ProcessVSync
+###### Version: 3
 
 ## Description
 None
@@ -27,4 +28,3 @@ None
 ## Tags
 * etw_level_Verbose
 * etw_task_MediaFoundationPresent_ProcessVSync
-* version_3

@@ -1,4 +1,5 @@
 # Event 730 - Mshtml_WebOCEvents_BeforeNavigate
+###### Version: 0
 
 ## Description
 None

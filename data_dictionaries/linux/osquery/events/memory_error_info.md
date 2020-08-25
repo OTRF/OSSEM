@@ -1,4 +1,5 @@
 # Memory_error_info Table
+###### Version: 4.4.2
 
 ## Description
 Data associated with errors of a physical memory array.
@@ -10,6 +11,3 @@ Data associated with errors of a physical memory array.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#memory_error_info)
-
-## Tags
-* version_4.4.2

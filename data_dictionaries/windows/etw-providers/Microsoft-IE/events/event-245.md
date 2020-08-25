@@ -1,4 +1,5 @@
 # Event 245 - Mshtml_CHighFreqScheduler_Fire
+###### Version: 0
 
 ## Description
 None

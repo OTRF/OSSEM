@@ -1,4 +1,5 @@
-# MiscEvents
+# DeviceEvents
+###### Version: 0
 
 ## Description
 Multiple event types, such as process injection, creation of scheduled tasks, and LSASS access attempts
@@ -6,9 +7,9 @@ Multiple event types, such as process injection, creation of scheduled tasks, an
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|event_date_creation|EventTime|date|Date and time when the event was recorded|``|
-|machine_id|MachineId|string|Unique identifier for the machine in the service|``|
-|computer_name|ComputerName|string|Fully qualified domain name (FQDN) of the machine|``|
+|event_date_creation|Timestamp|date|Date and time when the event was recorded|``|
+|device_id|DeviceId|string|Unique identifier for the machine in the service|``|
+|computer_name|DeviceName|string|Fully qualified domain name (FQDN) of the machine|``|
 |action_type|ActionType|string|Type of activity that triggered the event|``|
 |file_name|FileName|string|Name of the file that the recorded action was applied to|``|
 |folder_path|FolderPath|string|Folder containing the file that the recorded action was applied to|``|
@@ -18,7 +19,7 @@ Multiple event types, such as process injection, creation of scheduled tasks, an
 |user_name|AccountName|string|User name of the account|``|
 |user_sid|AccountSid|string|Security Identifier (SID) of the account|``|
 |remote_url|RemoteUrl|string|URL or fully qualified domain name (FQDN) that was being connected to|``|
-|remote_computer_name|RemoteComputerName|string|Name of the machine that performed a remote operation on the affected machine. Depending on the event being reported, this name could be a fully-qualified domain name (FQDN), a NetBIOS name, or a host name without domain information.|``|
+|remote_computer_name|RemoteDeviceName|string|Name of the machine that performed a remote operation on the affected machine. Depending on the event being reported, this name could be a fully-qualified domain name (FQDN), a NetBIOS name, or a host name without domain information.|``|
 |process_id|ProcessId|int|Process ID (PID) of the newly created process|``|
 |process_command_line|ProcessCommandLine|string|Command line used to create the new process|``|
 |process_creation_time|ProcessCreationTime|date|Date and time the process was created|``|
@@ -27,15 +28,15 @@ Multiple event types, such as process injection, creation of scheduled tasks, an
 |registry_key|RegistryKey|string|Registry key that the recorded action was applied to|``|
 |registry_value_name|RegistryValueName|string|Name of the registry value that the recorded action was applied to|``|
 |registry_value_data|RegistryValueData|string|Data of the registry value that the recorded action was applied to|``|
-|remote_ip|RemoteIP|string|IP address that was being connected to|``|
-|remote_port|RemotePort|int|TCP port on the remote device that was being connected to|``|
-|local_ip|LocalIP|string|IP address assigned to the local machine used during communication|``|
-|local_port|LocalPort|int|TCP port on the local machine used during communication|``|
+|dst_ip_addr|RemoteIP|string|IP address that was being connected to|``|
+|dst_port|RemotePort|int|TCP port on the remote device that was being connected to|``|
+|src_ip_addr|LocalIP|string|IP address assigned to the local machine used during communication|``|
+|src_port|LocalPort|int|TCP port on the local machine used during communication|``|
 |file_origin_url|FileOriginUrl|string|URL where the file was downloaded from|``|
 |file_origin_ip|FileOriginIP|string|IP address where the file was downloaded from|``|
 |additional_fields|AdditionalFields|string|Additional information about the event in JSON array format|``|
-|iniating_process_sha1|InitiatingProcessSHA1|string|SHA-1 of the process (image file) that initiated the event|``|
-|iniating_process_sha256|InitiatingProcessSHA256|string|SHA-256 of the process (image file) that initiated the event. This field is usually not populated-use the SHA1 column when available.|``|
+|initiating_process_sha1|InitiatingProcessSHA1|string|SHA-1 of the process (image file) that initiated the event|``|
+|initiating_process_sha256|InitiatingProcessSHA256|string|SHA-256 of the process (image file) that initiated the event. This field is usually not populated-use the SHA1 column when available.|``|
 |initiating_process_file_name|InitiatingProcessFileName|string|Name of the process that initiated the event|``|
 |initiating_process_folder_path|InitiatingProcessFolderPath|string|Folder containing the process (image file) that initiated the event|``|
 |initiating_process_id|InitiatingProcessId|int|Process ID (PID) of the process that initiated the event|``|

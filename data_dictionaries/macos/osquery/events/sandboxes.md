@@ -1,4 +1,5 @@
 # Sandboxes Table
+###### Version: 4.4.2
 
 ## Description
 OS X application sandboxes container details.
@@ -15,6 +16,3 @@ OS X application sandboxes container details.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#sandboxes)
-
-## Tags
-* version_4.4.2

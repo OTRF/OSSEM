@@ -1,4 +1,5 @@
 # Event 1102 - MediaFoundationIMFInputTrustAuthority_GetPolicy
+###### Version: 0
 
 ## Description
 None

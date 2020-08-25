@@ -1,4 +1,5 @@
 # Event 151 - IDXGIOutput_GetGammaControlCapabilities
+###### Version: 0
 
 ## Description
 None

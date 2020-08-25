@@ -1,4 +1,5 @@
 # Event 310 - ComponentRegistration
+###### Version: 0
 
 ## Description
 None

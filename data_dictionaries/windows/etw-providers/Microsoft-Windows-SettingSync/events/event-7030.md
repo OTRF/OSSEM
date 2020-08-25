@@ -1,4 +1,5 @@
 # Event 7030 - Perf_RemoteDeleteCollection
+###### Version: 0
 
 ## Description
 None

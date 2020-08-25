@@ -1,4 +1,5 @@
 # Event 8015 - DnsRegistration
+###### Version: 0
 
 ## Description
 None

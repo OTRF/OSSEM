@@ -1,4 +1,5 @@
 # Event 95 - DirectUI_ModernProgressBarState
+###### Version: 0
 
 ## Description
 None

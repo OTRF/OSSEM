@@ -1,4 +1,5 @@
 # Event 141 - PersistMemoryPartition
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_keywords_SoftRestart MemoryPreservation
 * etw_opcode_Stop
 * etw_task_PersistMemoryPartition
-* version_1

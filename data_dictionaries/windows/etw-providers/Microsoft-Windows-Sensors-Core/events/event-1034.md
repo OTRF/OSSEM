@@ -1,4 +1,5 @@
 # Event 1034 - SensorsCxEnableWakeTask
+###### Version: 0
 
 ## Description
 None

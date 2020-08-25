@@ -1,4 +1,5 @@
 # Event 1002 - Boot_UnexpectedEvent
+###### Version: 0
 
 ## Description
 None

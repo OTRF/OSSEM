@@ -1,4 +1,5 @@
 # Event 211 - CSearchCrawlScopeManager_AddRoot
+###### Version: 0
 
 ## Description
 None

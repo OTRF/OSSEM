@@ -1,4 +1,5 @@
 # Event 1624 - AppsFolderItemState_DoCommit
+###### Version: 0
 
 ## Description
 None

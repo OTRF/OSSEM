@@ -1,4 +1,5 @@
 # Event 22 - vs:ProtectedBitmap
+###### Version: 0
 
 ## Description
 None

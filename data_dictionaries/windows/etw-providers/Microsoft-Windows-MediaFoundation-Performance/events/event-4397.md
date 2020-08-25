@@ -1,4 +1,5 @@
 # Event 4397 - PEAuthCommRenewSessionKey
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 192 - Mshtml_Scroll_SetOffset
+###### Version: 0
 
 ## Description
 None

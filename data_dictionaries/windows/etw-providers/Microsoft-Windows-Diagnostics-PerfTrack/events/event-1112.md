@@ -1,4 +1,5 @@
 # Event 1112 - IdleDetection_PostResumeFromConnectedStandby
+###### Version: 0
 
 ## Description
 None

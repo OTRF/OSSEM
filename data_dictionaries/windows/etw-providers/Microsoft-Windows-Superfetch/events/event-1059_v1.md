@@ -1,4 +1,5 @@
 # Event 1059 - PrefetchIsCandidate
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Informational
 * etw_keywords_PfAp
 * etw_task_PrefetchIsCandidate
-* version_1

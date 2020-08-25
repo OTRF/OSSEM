@@ -1,4 +1,5 @@
 # Event 324 - ETWGUID_HW_PROTECTED_ENTITY_CHANGE
+###### Version: 0
 
 ## Description
 None

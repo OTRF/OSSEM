@@ -1,4 +1,5 @@
 # Event 207 - MicrosoftWindowsRuntimeCaptureEngineStopRecordTask
+###### Version: 0
 
 ## Description
 None

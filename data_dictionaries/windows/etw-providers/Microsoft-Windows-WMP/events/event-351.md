@@ -1,4 +1,5 @@
 # Event 351 - RME_CLIENT_RESOLVE_SERVER_URL_RESPONSE
+###### Version: 0
 
 ## Description
 None

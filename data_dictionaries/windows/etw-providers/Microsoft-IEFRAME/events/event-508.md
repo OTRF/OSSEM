@@ -1,4 +1,5 @@
 # Event 508 - EmptyTab_Conversion_CleanUpBrowserTab_Begin
+###### Version: 0
 
 ## Description
 None

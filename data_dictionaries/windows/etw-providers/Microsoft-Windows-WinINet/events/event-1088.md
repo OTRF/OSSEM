@@ -1,4 +1,5 @@
 # Event 1088 - Wininet_AppCacheHandle
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 6006 - DocPerf_Task_Scan_EndPostScanJob
+###### Version: 0
 
 ## Description
 None

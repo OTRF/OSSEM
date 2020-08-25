@@ -1,4 +1,5 @@
 # Event 268 - EDRStateChangedTask
+###### Version: 0
 
 ## Description
 None

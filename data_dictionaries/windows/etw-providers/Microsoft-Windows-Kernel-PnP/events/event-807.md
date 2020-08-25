@@ -1,4 +1,5 @@
 # Event 807 - DeviceAdd
+###### Version: 0
 
 ## Description
 None

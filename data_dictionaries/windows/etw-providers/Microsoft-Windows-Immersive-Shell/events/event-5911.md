@@ -1,4 +1,5 @@
 # Event 5911 - AppActivation_MinimumResolutionCheck
+###### Version: 0
 
 ## Description
 None

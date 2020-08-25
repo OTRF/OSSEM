@@ -1,4 +1,5 @@
 # Event 352 - RME_CLIENT_LIBRARY_METADATA_REQUEST
+###### Version: 0
 
 ## Description
 None

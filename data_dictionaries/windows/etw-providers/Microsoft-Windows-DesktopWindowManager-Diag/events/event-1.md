@@ -1,4 +1,5 @@
 # Event 1 - DesktopWindowManager_DiagStats
+###### Version: 0
 
 ## Description
 None

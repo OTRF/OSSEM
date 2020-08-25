@@ -1,4 +1,5 @@
 # Event 2006 - DeviceAuthorization_LaunchSharingCPL
+###### Version: 0
 
 ## Description
 None

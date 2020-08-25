@@ -1,4 +1,5 @@
 # Event 33 - vs:DiscoverSnapshots
+###### Version: 0
 
 ## Description
 None

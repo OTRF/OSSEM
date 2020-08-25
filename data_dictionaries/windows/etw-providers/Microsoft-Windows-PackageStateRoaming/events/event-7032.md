@@ -1,4 +1,5 @@
 # Event 7032 - Perf_GetLocalKnownCollections
+###### Version: 0
 
 ## Description
 None

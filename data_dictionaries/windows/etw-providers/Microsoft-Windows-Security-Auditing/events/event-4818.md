@@ -1,4 +1,5 @@
 # Event ID 4818: Proposed Central Access Policy does not grant the same access permissions as the current Central Access Policy.
+###### Version: 0
 
 ## Description
 This event generates when Dynamic Access Control Proposed Central Access Policy is enabled and access was not granted by Proposed Central Access Policy.

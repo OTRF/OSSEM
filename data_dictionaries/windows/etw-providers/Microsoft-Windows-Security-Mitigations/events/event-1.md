@@ -1,4 +1,5 @@
 # Event 1 - KERNEL_MITIGATION_TASK_PROHIBIT_DYNAMIC_CODE
+###### Version: 0
 
 ## Description
 None

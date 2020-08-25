@@ -1,4 +1,5 @@
 # Event 120 - get_allowSharingToAllDevices
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 469 - Mshtml_CActiveScriptHolder_Close
+###### Version: 0
 
 ## Description
 None

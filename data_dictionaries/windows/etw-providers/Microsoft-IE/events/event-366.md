@@ -1,4 +1,5 @@
 # Event 366 - Mshtml_CElement_HandleMouseForActiveStyle
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 7146 - Perf_WLRoamEnumerateDeviceBackups
+###### Version: 0
 
 ## Description
 None

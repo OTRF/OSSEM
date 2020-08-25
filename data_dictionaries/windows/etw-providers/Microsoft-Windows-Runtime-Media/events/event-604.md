@@ -1,4 +1,5 @@
 # Event 604 - AdaptiveMediaSourcebufferlevelchanged
+###### Version: 0
 
 ## Description
 None

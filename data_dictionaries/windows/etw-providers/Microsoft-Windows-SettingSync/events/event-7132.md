@@ -1,4 +1,5 @@
 # Event 7132 - Perf_WLRoamGetBackupSyncToken
+###### Version: 0
 
 ## Description
 None

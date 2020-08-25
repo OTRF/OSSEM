@@ -1,4 +1,5 @@
 # Event 176 - MediaFoundationMirrorVideo
+###### Version: 0
 
 ## Description
 None

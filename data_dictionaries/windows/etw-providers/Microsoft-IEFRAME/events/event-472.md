@@ -1,4 +1,5 @@
 # Event 472 - BrowserRoamedSettingChange_TrackingProtectionLists
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 342 - HOLOGRAPHICCLIENT_TEXTUREUPDATECOUNT
+###### Version: 0
 
 ## Description
 None

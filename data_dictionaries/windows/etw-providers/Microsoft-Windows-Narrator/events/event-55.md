@@ -1,4 +1,5 @@
 # Event 55 - InvestigateUpdateTextPattern
+###### Version: 0
 
 ## Description
 None

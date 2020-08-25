@@ -1,4 +1,5 @@
 # Event 490 - Mshtml_IndependentHitTest
+###### Version: 0
 
 ## Description
 None

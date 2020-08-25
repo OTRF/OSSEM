@@ -1,4 +1,5 @@
 # Event 1041 - WFApplicationStateChange
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 122 - EndpointCharacteristicsDiscovery
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 31 - HbdrvIrpTag
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Informational
 * etw_keywords_StoreDiag
 * etw_task_HbdrvIrpTag
-* version_1

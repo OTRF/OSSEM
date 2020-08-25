@@ -1,4 +1,5 @@
 # Event 832 - Mshtml_Launch_Uri_Async_Task
+###### Version: 0
 
 ## Description
 None

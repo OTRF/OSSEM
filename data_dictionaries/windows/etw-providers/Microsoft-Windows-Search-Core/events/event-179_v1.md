@@ -1,4 +1,5 @@
 # Event 179 - RobotThread_CatalogResetRequested
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Informational
 * etw_keywords_IndexingItem Gatherer
 * etw_task_RobotThread_CatalogResetRequested
-* version_1

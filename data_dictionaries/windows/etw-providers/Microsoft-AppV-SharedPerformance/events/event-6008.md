@@ -1,4 +1,5 @@
 # Event 6008 - GetConnectionGroups
+###### Version: 0
 
 ## Description
 None

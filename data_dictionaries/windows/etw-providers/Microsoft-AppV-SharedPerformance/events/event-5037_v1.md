@@ -1,4 +1,5 @@
 # Event 5037 - UserMaintenanceComponent
+###### Version: 1
 
 ## Description
 None
@@ -11,4 +12,3 @@ None
 ## Tags
 * etw_opcode_Start
 * etw_task_UserMaintenanceComponent
-* version_1

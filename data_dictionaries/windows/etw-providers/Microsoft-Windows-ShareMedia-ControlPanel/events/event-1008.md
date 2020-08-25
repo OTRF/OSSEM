@@ -1,4 +1,5 @@
 # Event 1008 - AddDevice
+###### Version: 0
 
 ## Description
 None

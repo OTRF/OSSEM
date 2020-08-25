@@ -1,4 +1,5 @@
 # Event 7175 - ConnectedSearch_LogAttributionClick
+###### Version: 0
 
 ## Description
 None

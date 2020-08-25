@@ -1,4 +1,5 @@
 # Event 105 - MediaFoundationLifetime
+###### Version: 0
 
 ## Description
 None

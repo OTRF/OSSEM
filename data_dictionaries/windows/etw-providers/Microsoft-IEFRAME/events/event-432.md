@@ -1,4 +1,5 @@
 # Event 432 - Bing_Suggestions_ServiceRequest
+###### Version: 0
 
 ## Description
 None

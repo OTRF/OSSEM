@@ -1,4 +1,5 @@
 # Event 117 - ProtectedResourceSession
+###### Version: 0
 
 ## Description
 None

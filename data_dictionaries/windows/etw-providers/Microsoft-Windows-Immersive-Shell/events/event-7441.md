@@ -1,4 +1,5 @@
 # Event 7441 - ConnectedSearch_BadCertificate
+###### Version: 0
 
 ## Description
 None

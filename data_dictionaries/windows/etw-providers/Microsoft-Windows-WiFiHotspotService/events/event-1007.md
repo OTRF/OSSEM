@@ -1,4 +1,5 @@
 # Event 1007 - HotspotService
+###### Version: 0
 
 ## Description
 None

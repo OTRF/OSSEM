@@ -1,4 +1,5 @@
 # Event 127 - ETWGUID_STEREO_TEMPORARYMONOEVENT
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Cups_destinations Table
+###### Version: 4.4.2
 
 ## Description
 Returns all configured printers.
@@ -12,6 +13,3 @@ Returns all configured printers.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#cups_destinations)
-
-## Tags
-* version_4.4.2

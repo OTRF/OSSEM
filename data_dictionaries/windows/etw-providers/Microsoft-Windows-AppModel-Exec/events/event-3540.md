@@ -1,4 +1,5 @@
 # Event 3540 - LogTrace
+###### Version: 0
 
 ## Description
 None

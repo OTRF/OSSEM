@@ -1,4 +1,5 @@
 # Event 648 - Mshtml_Generic_Diagnosis_Trace_Hr_Error
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 58 - PALManagementChannel
+###### Version: 0
 
 ## Description
 None

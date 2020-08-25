@@ -1,4 +1,5 @@
 # Md_drives Table
+###### Version: 4.4.2
 
 ## Description
 Drive devices used for Software RAID.
@@ -13,6 +14,3 @@ Drive devices used for Software RAID.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#md_drives)
-
-## Tags
-* version_4.4.2

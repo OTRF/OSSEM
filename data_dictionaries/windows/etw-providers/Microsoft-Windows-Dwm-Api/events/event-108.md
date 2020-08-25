@@ -1,4 +1,5 @@
 # Event 108 - ApipUpdateDesktopThumbnail
+###### Version: 0
 
 ## Description
 None

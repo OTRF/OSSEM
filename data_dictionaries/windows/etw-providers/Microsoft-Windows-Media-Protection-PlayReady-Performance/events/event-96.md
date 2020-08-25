@@ -1,4 +1,5 @@
 # Event 96 - CBlackboxWithTEECreateGlobalStorePassword
+###### Version: 0
 
 ## Description
 None

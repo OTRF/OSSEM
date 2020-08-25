@@ -1,4 +1,5 @@
 # Event 1054 - PrefetchPredictorQuery
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_keywords_PfAp
 * etw_task_PrefetchPredictorQuery
-* version_1

@@ -1,4 +1,5 @@
 # Event 55 - Mshtml_CHtmRootParseCtx_ElementsAdded
+###### Version: 0
 
 ## Description
 None

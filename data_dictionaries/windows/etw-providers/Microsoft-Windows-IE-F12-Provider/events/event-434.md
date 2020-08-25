@@ -1,4 +1,5 @@
 # Event 434 - Console_Intellisense_Provider_Get_Items
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Osquery_flags Table
+###### Version: 4.4.2
 
 ## Description
 Configurable flags that modify osquery's behavior.
@@ -15,6 +16,3 @@ Configurable flags that modify osquery's behavior.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#osquery_flags)
-
-## Tags
-* version_4.4.2

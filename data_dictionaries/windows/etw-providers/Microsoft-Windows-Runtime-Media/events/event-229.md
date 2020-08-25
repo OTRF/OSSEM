@@ -1,4 +1,5 @@
 # Event 229 - MediaCaptureLowLagPhotoFinishoperation
+###### Version: 0
 
 ## Description
 None

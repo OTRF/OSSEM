@@ -1,4 +1,5 @@
 # Event 350 - VidMmSuspendDevice
+###### Version: 0
 
 ## Description
 None

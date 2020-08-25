@@ -1,4 +1,5 @@
 # Event 15 - USBXHCIControllerFirmwareVersionUpdate
+###### Version: 0
 
 ## Description
 None

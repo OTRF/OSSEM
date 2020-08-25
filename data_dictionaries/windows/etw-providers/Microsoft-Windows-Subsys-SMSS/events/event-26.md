@@ -1,4 +1,5 @@
 # Event 26 - smss:InitializeKnownDlls
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 21 - USBXHCIControllerD0ExitPreInterruptsDisabled
+###### Version: 0
 
 ## Description
 None

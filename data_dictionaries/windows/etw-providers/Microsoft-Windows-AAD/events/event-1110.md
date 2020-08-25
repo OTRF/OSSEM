@@ -1,4 +1,5 @@
 # Event 1110 - AadAdalrtOperation
+###### Version: 0
 
 ## Description
 None

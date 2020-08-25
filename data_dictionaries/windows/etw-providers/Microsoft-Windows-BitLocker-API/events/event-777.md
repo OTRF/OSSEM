@@ -1,4 +1,5 @@
 # Event 777 - BitLockerPINModificationTask
+###### Version: 0
 
 ## Description
 None

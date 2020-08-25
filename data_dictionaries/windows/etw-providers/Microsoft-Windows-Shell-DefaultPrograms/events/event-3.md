@@ -1,4 +1,5 @@
 # Event 3 - CPL_DefaultPrograms_Hub_AutoplayClicks
+###### Version: 0
 
 ## Description
 None

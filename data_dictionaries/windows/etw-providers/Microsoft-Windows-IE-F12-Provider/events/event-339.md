@@ -1,4 +1,5 @@
 # Event 339 - Debugger_EditorWindow_CreateDataTipFromPosition
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 801 - LogTrace
+###### Version: 0
 
 ## Description
 None

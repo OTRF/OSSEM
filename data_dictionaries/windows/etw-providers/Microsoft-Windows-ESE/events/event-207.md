@@ -1,4 +1,5 @@
 # Event 207 - ESE_tagBufferManagerHashedLatches_Trace
+###### Version: 0
 
 ## Description
 None

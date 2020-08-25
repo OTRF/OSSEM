@@ -1,4 +1,5 @@
 # Event 0 - DataTransmitReceive
+###### Version: 1
 
 ## Description
 None
@@ -22,4 +23,3 @@ None
 * etw_keywords_DataPath
 * etw_opcode_Transmit
 * etw_task_DataTransmitReceive
-* version_1

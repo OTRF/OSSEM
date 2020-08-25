@@ -1,4 +1,5 @@
 # Event 7263 - ConnectedSearch_AuthenticationGettingTokenFailure
+###### Version: 0
 
 ## Description
 None

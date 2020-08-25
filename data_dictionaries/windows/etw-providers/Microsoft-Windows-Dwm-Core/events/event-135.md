@@ -1,4 +1,5 @@
 # Event 135 - DCOMPEVENT_ANIMATION_UPDATE_VALUE
+###### Version: 0
 
 ## Description
 None

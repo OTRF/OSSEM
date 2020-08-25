@@ -1,4 +1,5 @@
 # Event 8016 - ConfigurePackage
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Warning
 * etw_keywords_DynamicConfiguration
 * etw_task_ConfigurePackage
-* version_1

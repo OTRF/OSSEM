@@ -1,4 +1,5 @@
 # Event 4104 - StartingCommand
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_Runspace
 * etw_opcode_Oncreatecalls
 * etw_task_StartingCommand
-* version_1

@@ -1,4 +1,5 @@
 # Event 1392 - UdpCreateEndpointInspectionFailure
+###### Version: 0
 
 ## Description
 None

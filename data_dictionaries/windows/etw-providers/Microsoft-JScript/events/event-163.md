@@ -1,4 +1,5 @@
 # Event 163 - Jscript_Hosting_BinaryConsistencyInfo
+###### Version: 0
 
 ## Description
 None

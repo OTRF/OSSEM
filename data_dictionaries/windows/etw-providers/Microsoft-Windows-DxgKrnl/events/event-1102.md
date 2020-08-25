@@ -1,4 +1,5 @@
 # Event 1102 - TraceAdapterLock
+###### Version: 0
 
 ## Description
 None

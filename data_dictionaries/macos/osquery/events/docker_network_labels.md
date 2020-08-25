@@ -1,4 +1,5 @@
 # Docker_network_labels Table
+###### Version: 4.4.2
 
 ## Description
 Docker network labels.
@@ -12,6 +13,3 @@ Docker network labels.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_network_labels)
-
-## Tags
-* version_4.4.2

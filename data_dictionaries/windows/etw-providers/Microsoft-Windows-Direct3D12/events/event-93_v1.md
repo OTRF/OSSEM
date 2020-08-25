@@ -1,4 +1,5 @@
 # Event 93 - Resource
+###### Version: 1
 
 ## Description
 None
@@ -37,4 +38,3 @@ None
 * etw_keywords_Resources ObjectLifetime
 * etw_opcode_DC_Start
 * etw_task_Resource
-* version_1

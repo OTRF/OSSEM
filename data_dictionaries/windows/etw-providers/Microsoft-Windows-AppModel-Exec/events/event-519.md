@@ -1,4 +1,5 @@
 # Event 519 - BM_OnApplicationStateChanged
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 666 - WebStorage_Platform
+###### Version: 0
 
 ## Description
 None

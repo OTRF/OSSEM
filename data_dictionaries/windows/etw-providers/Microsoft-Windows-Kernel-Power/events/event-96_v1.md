@@ -1,4 +1,5 @@
 # Event 96 - SystemTimeResolutionRundown
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:Diagnostic
 * etw_task_SystemTimeResolutionRundown
-* version_1

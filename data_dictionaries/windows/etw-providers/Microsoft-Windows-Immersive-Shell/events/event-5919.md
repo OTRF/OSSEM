@@ -1,4 +1,5 @@
 # Event 5919 - AppActivation_PackageActivationSettings
+###### Version: 0
 
 ## Description
 None

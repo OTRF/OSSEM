@@ -1,4 +1,5 @@
 # Event 493 - Mshtml_Animations_Animating
+###### Version: 2
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_animation
 * etw_opcode_Stop
 * etw_task_Mshtml_Animations_Animating
-* version_2

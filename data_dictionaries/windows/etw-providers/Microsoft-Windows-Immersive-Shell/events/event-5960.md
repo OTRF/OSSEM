@@ -1,4 +1,5 @@
 # Event 5960 - AppActivation_Log_Remediation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 4240 - SessionSetTopology
+###### Version: 0
 
 ## Description
 None

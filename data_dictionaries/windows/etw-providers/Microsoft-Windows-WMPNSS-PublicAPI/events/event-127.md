@@ -1,4 +1,5 @@
 # Event 127 - setAuthorizationState
+###### Version: 0
 
 ## Description
 None

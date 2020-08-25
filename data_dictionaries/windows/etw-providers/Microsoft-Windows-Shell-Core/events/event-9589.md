@@ -1,4 +1,5 @@
 # Event 9589 - Explorer_User_Account_Type
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 6000 - HelperClassInfo
+###### Version: 0
 
 ## Description
 None

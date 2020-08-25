@@ -1,4 +1,5 @@
 # Event 441 - Mshtml_TouchSelection_GripperHidden
+###### Version: 0
 
 ## Description
 None

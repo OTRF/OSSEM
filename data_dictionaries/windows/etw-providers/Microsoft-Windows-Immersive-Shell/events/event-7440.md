@@ -1,4 +1,5 @@
 # Event 7440 - ConnectedSearch_BadSignature
+###### Version: 0
 
 ## Description
 None

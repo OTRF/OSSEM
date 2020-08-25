@@ -1,7 +1,8 @@
 # Event ID 23: FileDelete (A file delete was detected)
+###### Version: 4.32
 
 ## Description
-This event logs when a file is deleted by a process.
+This event logs when a **file is deleted** by a process.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

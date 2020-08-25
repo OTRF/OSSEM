@@ -1,4 +1,5 @@
 # Event 306 - AppXDeployment.Task.Client.Deployment
+###### Version: 0
 
 ## Description
 None

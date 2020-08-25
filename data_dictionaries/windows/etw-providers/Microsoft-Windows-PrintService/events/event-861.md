@@ -1,4 +1,5 @@
 # Event 861 - Connectionreconfigured
+###### Version: 0
 
 ## Description
 None

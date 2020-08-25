@@ -1,4 +1,5 @@
 # Event 677 - Mshtml_CDMHoldDraggableTouchTarget_OnInteraction
+###### Version: 0
 
 ## Description
 None

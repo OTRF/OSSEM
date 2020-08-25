@@ -1,5 +1,5 @@
 title: 'Event ID 8: CreateRemoteThread'
-description: 'The CreateRemoteThread event detects when a process creates a thread
+description: 'The **CreateRemoteThread** event detects when a process creates a thread
   in another process. This technique is used by malware to inject code and hide in
   other processes. The event indicates the source and target process. It gives information
   on the code that will be run in the new thread: StartAddress, StartModule and StartFunction.
@@ -8,6 +8,7 @@ description: 'The CreateRemoteThread event detects when a process creates a thre
 platform: windows
 log_source: sysmon
 event_code: '8'
+event_version: '4.32'
 event_fields:
 - standard_name: tag
   standard_type: TBD

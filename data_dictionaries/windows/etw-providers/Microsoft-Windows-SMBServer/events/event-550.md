@@ -1,4 +1,5 @@
 # Event 550 - Smb2SessionAllocate
+###### Version: 0
 
 ## Description
 None

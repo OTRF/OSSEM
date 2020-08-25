@@ -1,4 +1,5 @@
 # Event 5006 - UdwmSelectIconicRepresentation
+###### Version: 0
 
 ## Description
 None

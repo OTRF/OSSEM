@@ -1,4 +1,5 @@
 # Event 676 - Mshtml_CDMCrossSlideDraggableTouchTargetHandler_UpdateCrossSlideOffset
+###### Version: 0
 
 ## Description
 None

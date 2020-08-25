@@ -1,4 +1,5 @@
 # Event 145 - Jscript_GC_BackgroundResetWriteWatch
+###### Version: 0
 
 ## Description
 None

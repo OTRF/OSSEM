@@ -1,4 +1,5 @@
 # Event 12 - SecureBootVariableUsage
+###### Version: 0
 
 ## Description
 None

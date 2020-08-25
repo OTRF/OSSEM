@@ -1,4 +1,5 @@
 # Event 4049 - Obj_Pop_Artist_Author
+###### Version: 0
 
 ## Description
 None

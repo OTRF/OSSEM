@@ -1,4 +1,5 @@
 # Event 614 - SoftKeyboard_OutputManager_GetCapabilities
+###### Version: 0
 
 ## Description
 None

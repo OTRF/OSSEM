@@ -1,4 +1,5 @@
 # Event 52 - LatencySensitivityHint
+###### Version: 0
 
 ## Description
 None

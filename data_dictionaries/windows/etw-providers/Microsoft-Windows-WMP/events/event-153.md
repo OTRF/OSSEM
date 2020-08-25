@@ -1,4 +1,5 @@
 # Event 153 - METADATAPLUGIN
+###### Version: 0
 
 ## Description
 None

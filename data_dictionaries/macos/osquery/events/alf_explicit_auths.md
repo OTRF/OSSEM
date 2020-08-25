@@ -1,4 +1,5 @@
 # Alf_explicit_auths Table
+###### Version: 4.4.2
 
 ## Description
 ALF services explicitly allowed to perform networking.
@@ -10,6 +11,3 @@ ALF services explicitly allowed to perform networking.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#alf_explicit_auths)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 502 - Smb2ConnectionTerminate
+###### Version: 0
 
 ## Description
 None

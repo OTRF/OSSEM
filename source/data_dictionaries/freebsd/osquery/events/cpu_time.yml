@@ -4,6 +4,7 @@ description: Displays information from /proc/stat file about the time the cpu co
 platform: freebsd
 log_source: osquery
 event_code: cpu_time
+event_version: 4.4.2
 event_fields:
 - standard_name: TBD
   standard_type: TBD
@@ -76,5 +77,4 @@ event_fields:
 references:
 - text: OSQuery table documentation
   link: https://osquery.io/schema/current#cpu_time
-tags:
-- version_4.4.2
+tags: []

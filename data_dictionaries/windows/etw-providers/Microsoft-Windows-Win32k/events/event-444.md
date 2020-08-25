@@ -1,4 +1,5 @@
 # Event 444 - DCompResourcePropertyUpdate
+###### Version: 0
 
 ## Description
 None

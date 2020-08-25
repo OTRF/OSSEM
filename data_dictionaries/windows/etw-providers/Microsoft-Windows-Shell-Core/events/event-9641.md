@@ -1,4 +1,5 @@
 # Event 9641 - Explorer_IconCache_TableSize
+###### Version: 0
 
 ## Description
 None

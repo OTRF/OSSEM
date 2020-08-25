@@ -1,4 +1,5 @@
 # Event 6045 - GetPublishingServers
+###### Version: 0
 
 ## Description
 None

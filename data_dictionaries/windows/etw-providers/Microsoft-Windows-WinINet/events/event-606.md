@@ -1,4 +1,5 @@
 # Event 606 - WININET_AUTH_CLIENT_ADD_HEADERS
+###### Version: 0
 
 ## Description
 None

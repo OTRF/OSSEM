@@ -1,4 +1,5 @@
 # Event 131 - DecodePictureLists
+###### Version: 1
 
 ## Description
 None
@@ -24,4 +25,3 @@ None
 * etw_level_Always
 * etw_keywords_DecodeInfo
 * etw_task_DecodePictureLists
-* version_1

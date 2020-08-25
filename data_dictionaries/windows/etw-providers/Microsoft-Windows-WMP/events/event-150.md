@@ -1,4 +1,5 @@
 # Event 150 - METADATAPLUGIN
+###### Version: 0
 
 ## Description
 None

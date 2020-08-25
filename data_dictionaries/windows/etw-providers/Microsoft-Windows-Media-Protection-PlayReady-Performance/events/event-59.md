@@ -1,4 +1,5 @@
 # Event 59 - CBlackboxWithTEEGetBinaryCertificateChain
+###### Version: 0
 
 ## Description
 None

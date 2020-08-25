@@ -1,4 +1,5 @@
 # Event 295 - MIDMANIPULATION_UPDATE_INTERACTION_REMOVAL
+###### Version: 0
 
 ## Description
 None

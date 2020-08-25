@@ -1,4 +1,5 @@
 # Event 378 - INTERACTION_MOUSEWHEEL_CONFIGURATION_CHANGED
+###### Version: 0
 
 ## Description
 None

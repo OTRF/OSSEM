@@ -1,4 +1,5 @@
 # Event 902 - CIMFindBar_Hide_Perftrack
+###### Version: 0
 
 ## Description
 None

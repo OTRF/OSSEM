@@ -1,4 +1,5 @@
 # Event 297 - WaitForSynchronizationObjectFromCpu
+###### Version: 0
 
 ## Description
 None

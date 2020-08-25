@@ -1,4 +1,5 @@
 # Signature Table
+###### Version: 4.4.2
 
 ## Description
 File (executable, bundle, installer, disk) code signing status.
@@ -16,6 +17,3 @@ File (executable, bundle, installer, disk) code signing status.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#signature)
-
-## Tags
-* version_4.4.2

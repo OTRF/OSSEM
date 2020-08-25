@@ -1,4 +1,5 @@
 # Event 107 - Mshtml_CStorage_RemoveItem
+###### Version: 0
 
 ## Description
 None

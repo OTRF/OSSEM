@@ -1,4 +1,5 @@
 # Event 4106 - StoppingCommand
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_Runspace
 * etw_opcode_Close(Async)
 * etw_task_StoppingCommand
-* version_1

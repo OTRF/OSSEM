@@ -1,4 +1,5 @@
 # Event 37
+###### Version: 3
 
 ## Description
 None
@@ -14,6 +15,3 @@ None
 |TBD|ReservedSpace|Object|None|`None`|
 |TBD|NoOfUCRs|UInt32|None|`None`|
 |TBD|AllocatedSpace|Object|None|`None`|
-
-## Tags
-* version_3

@@ -1,4 +1,5 @@
 # Event 5979 - PerfTrack_ModernApp_ResumeVisibleComplete
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 123 - ESE_EventLogInfo_Trace
+###### Version: 0
 
 ## Description
 None

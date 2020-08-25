@@ -1,4 +1,5 @@
 # Event 613 - SoftKeyboard_OutputManager_PasswordModeChanged
+###### Version: 0
 
 ## Description
 None

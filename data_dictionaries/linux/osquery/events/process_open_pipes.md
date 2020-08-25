@@ -1,4 +1,5 @@
 # Process_open_pipes Table
+###### Version: 4.4.2
 
 ## Description
 Pipes and partner processes for each process.
@@ -17,6 +18,3 @@ Pipes and partner processes for each process.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#process_open_pipes)
-
-## Tags
-* version_4.4.2

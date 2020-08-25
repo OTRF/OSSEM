@@ -1,4 +1,5 @@
 # Event 206 - WININET_KEEP_ALIVE_CONNECTION_REUSED
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 75 - VsmLKeyProvisioningStatus
+###### Version: 0
 
 ## Description
 None

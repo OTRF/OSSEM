@@ -1,4 +1,5 @@
 # Event 702 - INetCfgNotifyObject
+###### Version: 0
 
 ## Description
 None

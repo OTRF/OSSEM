@@ -1,4 +1,5 @@
 # Event 2028 - CacheRootMetadata
+###### Version: 0
 
 ## Description
 None

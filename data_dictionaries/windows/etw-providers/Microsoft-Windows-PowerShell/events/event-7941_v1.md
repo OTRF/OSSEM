@@ -1,4 +1,5 @@
 # Event 7941 - task_0
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Verbose
 * etw_opcode_Tobeusedwhenoperationisjustexecutingamethod
 * etw_task_task_0
-* version_1

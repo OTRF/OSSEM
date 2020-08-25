@@ -1,4 +1,5 @@
 # Event 524 - Port
+###### Version: 1
 
 ## Description
 None
@@ -36,4 +37,3 @@ None
 * etw_level_Error
 * etw_keywords_keyword_200000000000
 * etw_task_Port
-* version_1

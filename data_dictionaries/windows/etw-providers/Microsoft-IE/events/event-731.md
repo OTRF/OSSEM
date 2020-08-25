@@ -1,4 +1,5 @@
 # Event 731 - Mshtml_WebOCEvents_BeforeNavigateRefresh
+###### Version: 0
 
 ## Description
 None

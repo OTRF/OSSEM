@@ -1,4 +1,5 @@
 # Event 152 - ETWGUID_RENDEROPT_TILEABLECOPYEVENT
+###### Version: 0
 
 ## Description
 None

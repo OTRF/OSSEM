@@ -1,4 +1,5 @@
 # Event 9599 - Explorer_Help_Launched
+###### Version: 0
 
 ## Description
 None

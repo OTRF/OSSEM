@@ -1,4 +1,5 @@
 # Event 675 - Mshtml_CDMCrossSlideDraggableTouchTarget_ClearLayerFromDragging
+###### Version: 0
 
 ## Description
 None

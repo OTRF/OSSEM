@@ -1,4 +1,5 @@
 # Event 151 - PartitionInitialAddMemory
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_MemoryPartitions
 * etw_opcode_Start
 * etw_task_PartitionInitialAddMemory
-* version_1

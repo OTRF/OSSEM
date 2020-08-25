@@ -1,4 +1,5 @@
 # Event 98 - CBlackboxWithTEECreateLicenseStateStorePassword
+###### Version: 0
 
 ## Description
 None

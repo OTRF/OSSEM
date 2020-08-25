@@ -1,4 +1,5 @@
 # Event 1308 - TcpSignalNotificationChannelEvent
+###### Version: 0
 
 ## Description
 None

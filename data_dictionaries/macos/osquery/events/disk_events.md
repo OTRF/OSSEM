@@ -1,4 +1,5 @@
 # Disk_events Table
+###### Version: 4.4.2
 
 ## Description
 Track DMG disk image events (appearance/disappearance) when opened.
@@ -25,6 +26,3 @@ Track DMG disk image events (appearance/disappearance) when opened.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#disk_events)
-
-## Tags
-* version_4.4.2

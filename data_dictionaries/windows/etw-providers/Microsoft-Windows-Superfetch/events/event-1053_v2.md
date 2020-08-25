@@ -1,4 +1,5 @@
 # Event 1053 - PrefetchHeartBeat
+###### Version: 2
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_PfAp
 * etw_opcode_Stop
 * etw_task_PrefetchHeartBeat
-* version_2

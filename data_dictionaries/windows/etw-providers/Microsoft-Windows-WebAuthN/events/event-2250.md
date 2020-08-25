@@ -1,4 +1,5 @@
 # Event 2250 - CtapBleProviderThread
+###### Version: 0
 
 ## Description
 None

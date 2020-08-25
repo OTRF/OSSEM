@@ -1,4 +1,5 @@
 # Event 802 - WINHTTP_AUTOPROXY_DHCP
+###### Version: 0
 
 ## Description
 None

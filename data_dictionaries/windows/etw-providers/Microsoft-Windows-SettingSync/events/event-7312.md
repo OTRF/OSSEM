@@ -1,4 +1,5 @@
 # Event 7312 - Perf_CreateRoamingCollectionFolder
+###### Version: 0
 
 ## Description
 None

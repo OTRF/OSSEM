@@ -1,4 +1,5 @@
 # Event 108 - WININET_HTTP_REQUEST_HANDLE_CREATED
+###### Version: 0
 
 ## Description
 None

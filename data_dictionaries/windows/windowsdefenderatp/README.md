@@ -4,18 +4,18 @@
 None
 
 ## Sub Data Sets
-|events|Description|Tags|
-|---|---|---|
-|[AlertEvents](events/AlertEvents.md)|Alerts on Windows Defender Security Center||
-|[FileCreationEvents](events/FileCreationEvents.md)|File creation, modification, and other file system events||
-|[ImageLoadEvents](events/ImageLoadEvents.md)|DLL loading events||
-|[LogonEvents](events/LogonEvents.md)|Login and other authentication events||
-|[MachineInfo](events/MachineInfo.md)|Machine information, including OS information||
-|[MachineNetworkInfo](events/MachineNetworkInfo.md)|Network properties of machines, including adapters, IP and MAC addresses, as well as connected networks and domains||
-|[MiscEvents](events/MiscEvents.md)|Multiple event types, such as process injection, creation of scheduled tasks, and LSASS access attempts||
-|[NetworkCommunicationEvents](events/NetworkCommunicationEvents.md)|Network connection and related events||
-|[ProcessCreationEvents](events/ProcessCreationEvents.md)|Process creation and related events||
-|[RegistryEvents](events/RegistryEvents.md)|Creation and modification of registry entries||
+|events|Version|Description|Tags|
+|---|---|---|---|
+|[DeviceAlertEvents](events/DeviceAlertEvents.md)|0|Alerts on Windows Defender Security Center||
+|[DeviceEvents](events/DeviceEvents.md)|0|Multiple event types, such as process injection, creation of scheduled tasks, and LSASS access attempts||
+|[DeviceFileEvents](events/DeviceFileEvents.md)|0|File creation, modification, and other file system events||
+|[DeviceImageLoadEvents](events/DeviceImageLoadEvents.md)|0|DLL loading events||
+|[DeviceInfo](events/DeviceInfo.md)|0|Machine information, including OS information||
+|[DeviceLogonEvents](events/DeviceLogonEvents.md)|0|Login and other authentication events||
+|[DeviceNetworkEvents](events/DeviceNetworkEvents.md)|0|Network connection and related events||
+|[DeviceNetworkInfo](events/DeviceNetworkInfo.md)|0|Network properties of machines, including adapters, IP and MAC addresses, as well as connected networks and domains||
+|[DeviceProcessEvents](events/DeviceProcessEvents.md)|0|Process creation and related events||
+|[DeviceRegistryEvents](events/DeviceRegistryEvents.md)|0|Creation and modification of registry entries||
 
 ## References
 * [Windows Defender Advanced Threat Protection](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)

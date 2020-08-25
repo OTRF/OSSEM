@@ -1,4 +1,5 @@
 # Video_info Table
+###### Version: 4.4.2
 
 ## Description
 Retrieve video card information of the machine.
@@ -17,6 +18,3 @@ Retrieve video card information of the machine.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#video_info)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 1715 - IDXGIDevice2_OfferResources
+###### Version: 0
 
 ## Description
 None

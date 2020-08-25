@@ -1,4 +1,5 @@
 # Memory_array_mapped_addresses Table
+###### Version: 4.4.2
 
 ## Description
 Data associated for address mapping of physical memory arrays.
@@ -10,6 +11,3 @@ Data associated for address mapping of physical memory arrays.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#memory_array_mapped_addresses)
-
-## Tags
-* version_4.4.2

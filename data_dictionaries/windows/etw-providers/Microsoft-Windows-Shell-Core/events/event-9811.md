@@ -1,4 +1,5 @@
 # Event 9811 - Explorer_PinDefaultItems_RetrievePidlFailure
+###### Version: 0
 
 ## Description
 None

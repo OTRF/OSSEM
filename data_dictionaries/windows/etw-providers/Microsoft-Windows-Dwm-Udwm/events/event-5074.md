@@ -1,4 +1,5 @@
 # Event 5074 - UdwmIndirectTouchVisual
+###### Version: 0
 
 ## Description
 None

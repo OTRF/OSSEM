@@ -1,4 +1,5 @@
 # Event 1002 - CuratedTileCollectionTransformer_LayoutInitialization
+###### Version: 0
 
 ## Description
 None

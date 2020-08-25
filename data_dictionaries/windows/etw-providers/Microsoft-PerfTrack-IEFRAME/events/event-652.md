@@ -1,4 +1,5 @@
 # Event 652 - CreateThumbnail_Superbar_Perftrack
+###### Version: 0
 
 ## Description
 None

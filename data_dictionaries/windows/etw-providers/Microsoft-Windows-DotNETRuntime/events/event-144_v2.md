@@ -1,4 +1,5 @@
 # Event 144 - Method
+###### Version: 2
 
 ## Description
 None
@@ -23,4 +24,3 @@ None
 * etw_keywords_JitKeyword NGenKeyword
 * etw_opcode_UnloadVerbose
 * etw_task_Method
-* version_2

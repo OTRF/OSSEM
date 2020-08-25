@@ -1,4 +1,5 @@
 # Event 931 - SoftKeyboard_CandidatePane_PerfTrack_NextWordOpen_JPN
+###### Version: 0
 
 ## Description
 None

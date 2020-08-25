@@ -1,4 +1,5 @@
 # Event 701 - ServiceChannelOpen
+###### Version: 0
 
 ## Description
 None

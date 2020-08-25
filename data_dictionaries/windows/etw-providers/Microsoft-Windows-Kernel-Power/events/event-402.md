@@ -1,4 +1,5 @@
 # Event 402 - SessionConnected
+###### Version: 0
 
 ## Description
 None

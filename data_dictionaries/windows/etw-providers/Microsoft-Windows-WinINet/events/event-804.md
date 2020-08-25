@@ -1,4 +1,5 @@
 # Event 804 - WININET_AUTOPROXY_DHCP
+###### Version: 0
 
 ## Description
 None

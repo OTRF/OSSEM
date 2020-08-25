@@ -1,4 +1,5 @@
 # Event 1107 - MediaFoundationDecrypt
+###### Version: 0
 
 ## Description
 None

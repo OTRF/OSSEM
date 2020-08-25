@@ -1,4 +1,5 @@
 # Event 122 - ImmersiveShellAppManagerModeNotification
+###### Version: 0
 
 ## Description
 None

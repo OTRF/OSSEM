@@ -1,4 +1,5 @@
 # Event 141 - Method
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_JitRundownKeyword NGenRundownKeyword
 * etw_opcode_DCStart
 * etw_task_Method
-* version_1

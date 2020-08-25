@@ -1,4 +1,5 @@
 # Event 2252 - CtapBleProviderThread
+###### Version: 0
 
 ## Description
 None

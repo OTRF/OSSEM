@@ -1,4 +1,5 @@
 # Event 17 - SebEvent
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_TraceSebEvent
 * etw_opcode_Signal
 * etw_task_SebEvent
-* version_1

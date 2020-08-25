@@ -1,4 +1,5 @@
 # Event 8195 - RemoveaSecurityCatalogfromtheCatalogDatabase
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 9 - Portresume
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_PauseResume
 * etw_opcode_OpCodePortResume
 * etw_task_Portresume
-* version_1

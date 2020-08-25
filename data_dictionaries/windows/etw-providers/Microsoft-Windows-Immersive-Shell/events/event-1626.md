@@ -1,4 +1,5 @@
 # Event 1626 - AppsFolder_ImmersiveApp_OpenVerb
+###### Version: 0
 
 ## Description
 None

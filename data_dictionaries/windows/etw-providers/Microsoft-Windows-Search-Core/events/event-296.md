@@ -1,4 +1,5 @@
 # Event 296 - RobotThread_LangAutoDetection_Fail
+###### Version: 0
 
 ## Description
 None

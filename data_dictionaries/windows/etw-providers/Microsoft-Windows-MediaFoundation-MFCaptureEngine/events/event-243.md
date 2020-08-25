@@ -1,4 +1,5 @@
 # Event 243 - MFCaptureEngineSetCurrentDeviceMediaTypeTask
+###### Version: 0
 
 ## Description
 None

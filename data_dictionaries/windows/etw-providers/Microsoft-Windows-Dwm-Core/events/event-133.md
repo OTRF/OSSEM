@@ -1,4 +1,5 @@
 # Event 133 - DCOMPEVENT_RESOURCE
+###### Version: 0
 
 ## Description
 None

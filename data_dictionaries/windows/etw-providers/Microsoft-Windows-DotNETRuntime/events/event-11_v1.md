@@ -1,4 +1,5 @@
 # Event 11 - GC
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_GCKeyword ThreadingKeyword
 * etw_opcode_CreateConcurrentThread
 * etw_task_GC
-* version_1

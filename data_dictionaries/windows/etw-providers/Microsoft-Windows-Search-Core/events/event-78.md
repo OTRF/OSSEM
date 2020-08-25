@@ -1,4 +1,5 @@
 # Event 78 - Gatherer_RequestStatusChange
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 3009 - ToastSessionClose
+###### Version: 0
 
 ## Description
 None

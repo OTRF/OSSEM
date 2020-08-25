@@ -1,4 +1,5 @@
 # Event 106 - MFTProcessingLoopStateResolveWaitingState100msRetry
+###### Version: 0
 
 ## Description
 None

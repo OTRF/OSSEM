@@ -1,4 +1,5 @@
 # Event 238 - Mshtml_CImgTask_LazyDecoded
+###### Version: 0
 
 ## Description
 None

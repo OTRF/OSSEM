@@ -1,4 +1,5 @@
 # Event 1043 - Objwriter_Get_Element_Attrib_Value
+###### Version: 0
 
 ## Description
 None

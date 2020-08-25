@@ -1,4 +1,5 @@
 # Event 2002 - Removinglanguagepack
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Warning
 * etw_opcode_Notifythesystemthatalanguagehasbeeninstalledorremoved
 * etw_task_Removinglanguagepack
-* version_1

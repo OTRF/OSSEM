@@ -1,4 +1,5 @@
 # Event 1041 - AppXDeployment.Task.Server.StagingManager
+###### Version: 0
 
 ## Description
 None

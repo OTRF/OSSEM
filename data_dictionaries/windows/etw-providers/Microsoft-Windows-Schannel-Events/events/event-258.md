@@ -1,4 +1,5 @@
 # Event 258 - AcquireCredentialHandle
+###### Version: 0
 
 ## Description
 None

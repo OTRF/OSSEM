@@ -1,4 +1,5 @@
 # Event 1335 - UdpQueryNotificationChannelStatusRequest
+###### Version: 0
 
 ## Description
 None

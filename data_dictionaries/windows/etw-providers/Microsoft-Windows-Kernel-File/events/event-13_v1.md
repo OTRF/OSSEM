@@ -1,4 +1,5 @@
 # Event 13 - Cleanup
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_keywords_KERNEL_FILE_KEYWORD_FILEIO
 * etw_task_Cleanup
-* version_1

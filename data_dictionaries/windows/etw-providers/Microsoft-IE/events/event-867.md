@@ -1,4 +1,5 @@
 # Event 867 - Mshtml_AlignedBeat_Timer_Beat
+###### Version: 0
 
 ## Description
 None

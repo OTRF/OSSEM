@@ -1,4 +1,5 @@
 # Event 16 - OLE_DragDrop_RegisterInternal
+###### Version: 0
 
 ## Description
 None

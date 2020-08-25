@@ -1,4 +1,5 @@
 # Event 501 - BackgroundManagerTrace
+###### Version: 0
 
 ## Description
 None

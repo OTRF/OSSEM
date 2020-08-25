@@ -4,11 +4,11 @@
 Metadata about files, certificates, and executables that is in addition to the network data.
 
 ## Sub Data Sets
-|events|Description|Tags|
-|---|---|---|
-|[files](events/files.md)|None||
-|[pe](events/pe.md)|None||
-|[x509](events/x509.md)|None||
+|events|Version|Description|Tags|
+|---|---|---|---|
+|[files](events/files.md)|0|None||
+|[pe](events/pe.md)|0|None||
+|[x509](events/x509.md)|0|None||
 
 ## References
 * [File Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#files)

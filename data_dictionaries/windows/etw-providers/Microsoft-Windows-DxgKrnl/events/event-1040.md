@@ -1,4 +1,5 @@
 # Event 1040 - DxgkMiracastCbReportChunkInfo
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 6252 - SplashScreen_ImageLoad
+###### Version: 0
 
 ## Description
 None

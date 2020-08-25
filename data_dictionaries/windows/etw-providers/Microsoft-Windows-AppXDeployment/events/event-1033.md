@@ -1,4 +1,5 @@
 # Event 1033 - AppXDeployment.Task.Client.Deployment
+###### Version: 0
 
 ## Description
 None

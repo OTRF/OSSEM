@@ -1,4 +1,5 @@
 # Event 9 - DeleteFileW
+###### Version: 0
 
 ## Description
 None

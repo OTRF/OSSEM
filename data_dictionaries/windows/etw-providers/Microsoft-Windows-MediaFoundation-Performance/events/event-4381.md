@@ -1,4 +1,5 @@
 # Event 4381 - MFGraphNotifyFullscreen
+###### Version: 0
 
 ## Description
 None

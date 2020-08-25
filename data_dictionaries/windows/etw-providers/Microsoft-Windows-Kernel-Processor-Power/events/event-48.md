@@ -1,4 +1,5 @@
 # Event 48 - ThermalCapChange
+###### Version: 0
 
 ## Description
 None

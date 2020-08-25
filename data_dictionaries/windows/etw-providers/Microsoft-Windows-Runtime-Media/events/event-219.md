@@ -1,4 +1,5 @@
 # Event 219 - MediaCapturePhotoSequenceStopoperation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1096 - DataLayer_GetResultTaskCancelled
+###### Version: 0
 
 ## Description
 None

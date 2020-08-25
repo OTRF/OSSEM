@@ -1,4 +1,5 @@
 # Event 238 - MFCaptureEnginePhotoXVP
+###### Version: 0
 
 ## Description
 None

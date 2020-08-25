@@ -1,4 +1,5 @@
 # Kva_speculative_info Table
+###### Version: 4.4.2
 
 ## Description
 Display kernel virtual address and speculative execution information for the system.
@@ -20,6 +21,3 @@ Display kernel virtual address and speculative execution information for the sys
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#kva_speculative_info)
-
-## Tags
-* version_4.4.2

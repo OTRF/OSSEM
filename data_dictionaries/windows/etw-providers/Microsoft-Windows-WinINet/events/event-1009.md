@@ -1,4 +1,5 @@
 # Event 1009 - Wininet_OfflineCacheLookup
+###### Version: 0
 
 ## Description
 None

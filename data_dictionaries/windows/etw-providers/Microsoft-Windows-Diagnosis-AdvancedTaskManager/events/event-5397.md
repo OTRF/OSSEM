@@ -1,4 +1,5 @@
 # Event 5397 - Dashboard_AddAdapter
+###### Version: 0
 
 ## Description
 None

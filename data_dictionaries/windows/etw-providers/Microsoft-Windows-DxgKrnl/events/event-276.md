@@ -1,4 +1,5 @@
 # Event 276 - BacklightOptimizationLevel
+###### Version: 0
 
 ## Description
 None

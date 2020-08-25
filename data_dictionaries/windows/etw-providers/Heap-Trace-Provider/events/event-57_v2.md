@@ -1,4 +1,5 @@
 # Event 57
+###### Version: 2
 
 ## Description
 None
@@ -9,6 +10,3 @@ None
 |TBD|Heap|UInt32|None|`None`|
 |TBD|SubSegment|UInt32|None|`None`|
 |TBD|SlotIndex|UInt32|None|`None`|
-
-## Tags
-* version_2

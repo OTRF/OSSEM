@@ -1,4 +1,5 @@
 # Event 8067 - CertificateEnrollment
+###### Version: 0
 
 ## Description
 None

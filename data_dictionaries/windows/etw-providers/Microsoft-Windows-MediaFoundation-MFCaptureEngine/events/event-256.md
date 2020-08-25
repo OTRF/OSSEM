@@ -1,4 +1,5 @@
 # Event 256 - MFCaptureEngineStopCapturePhotoSequenceTask
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Docker_container_stats Table
+###### Version: 4.4.2
 
 ## Description
 Docker container statistics. Queries on this table take at least one second.
@@ -33,6 +34,3 @@ Docker container statistics. Queries on this table take at least one second.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#docker_container_stats)
-
-## Tags
-* version_4.4.2

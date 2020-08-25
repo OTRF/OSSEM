@@ -1,4 +1,5 @@
 # Event 4239 - SessionBitpumpDetails
+###### Version: 0
 
 ## Description
 None

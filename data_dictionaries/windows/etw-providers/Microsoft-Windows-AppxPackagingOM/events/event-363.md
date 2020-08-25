@@ -1,4 +1,5 @@
 # Event 363 - AppXPackaging.Task.Manifest.LookupCapabilityDisplayName
+###### Version: 0
 
 ## Description
 None

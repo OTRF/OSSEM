@@ -1,4 +1,5 @@
 # Event 6 - ActiveCoolingDevicePower
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 9 - ShowHideLanguageBar
+###### Version: 0
 
 ## Description
 None

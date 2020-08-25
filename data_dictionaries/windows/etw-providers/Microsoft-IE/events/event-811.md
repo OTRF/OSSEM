@@ -1,4 +1,5 @@
 # Event 811 - Mshtml_CBase_AddPrivateRef
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 9 - APIRequest
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Error
 * etw_keywords_API
 * etw_task_APIRequest
-* version_1

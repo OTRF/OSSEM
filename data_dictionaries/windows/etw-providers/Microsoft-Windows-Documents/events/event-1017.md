@@ -1,4 +1,5 @@
 # Event 1017 - DocPerf_Task_AddPrinterDriverEx
+###### Version: 0
 
 ## Description
 None

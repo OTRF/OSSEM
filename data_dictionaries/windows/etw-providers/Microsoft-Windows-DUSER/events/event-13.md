@@ -1,4 +1,5 @@
 # Event 13 - DUser_LayeredRemoveVisuals
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1020 - NavigationRedirect
+###### Version: 0
 
 ## Description
 None

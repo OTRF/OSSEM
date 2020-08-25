@@ -1,4 +1,5 @@
 # Event 8 - WMPHOTO_Decoder_ReducedResolution_Info
+###### Version: 0
 
 ## Description
 None

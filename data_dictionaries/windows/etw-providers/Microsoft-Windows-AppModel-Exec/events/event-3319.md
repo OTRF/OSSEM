@@ -1,4 +1,5 @@
 # Event 3319 - LogTrace
+###### Version: 0
 
 ## Description
 None

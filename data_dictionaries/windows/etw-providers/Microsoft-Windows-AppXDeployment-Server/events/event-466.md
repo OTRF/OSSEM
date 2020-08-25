@@ -1,4 +1,5 @@
 # Event 466 - AppXDeployment.Task.Server.StagingManager
+###### Version: 0
 
 ## Description
 None

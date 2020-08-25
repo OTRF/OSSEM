@@ -1,4 +1,5 @@
 # Event 166 - SystemIdle
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:Diagnostic po:DiagnosticLight
 * etw_task_SystemIdle
-* version_1

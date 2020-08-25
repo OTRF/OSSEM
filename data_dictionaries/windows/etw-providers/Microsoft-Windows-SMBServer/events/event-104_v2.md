@@ -1,4 +1,5 @@
 # Event 104 - Smb2ResponseTreeConnect
+###### Version: 2
 
 ## Description
 None
@@ -41,4 +42,3 @@ None
 * etw_level_Informational
 * etw_keywords_Response
 * etw_task_Smb2ResponseTreeConnect
-* version_2

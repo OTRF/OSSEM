@@ -1,4 +1,5 @@
 # Known_hosts Table
+###### Version: 4.4.2
 
 ## Description
 A line-delimited known_hosts table.
@@ -12,6 +13,3 @@ A line-delimited known_hosts table.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#known_hosts)
-
-## Tags
-* version_4.4.2

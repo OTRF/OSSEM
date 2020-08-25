@@ -1,4 +1,5 @@
 # Event 2008 - Removinglanguagepack
+###### Version: 0
 
 ## Description
 None

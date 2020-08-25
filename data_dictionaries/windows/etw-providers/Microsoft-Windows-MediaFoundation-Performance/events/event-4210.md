@@ -1,4 +1,5 @@
 # Event 4210 - SourceResolutionBeginCreateObjectFromURL
+###### Version: 0
 
 ## Description
 None

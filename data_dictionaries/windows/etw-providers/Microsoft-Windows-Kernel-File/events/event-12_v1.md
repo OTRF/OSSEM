@@ -1,4 +1,5 @@
 # Event 12 - Create
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Informational
 * etw_keywords_KERNEL_FILE_KEYWORD_FILEIO KERNEL_FILE_KEYWORD_CREATE
 * etw_task_Create
-* version_1

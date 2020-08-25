@@ -1,4 +1,5 @@
 # Event 315 - ScopeManager_SwitchToFull
+###### Version: 0
 
 ## Description
 None

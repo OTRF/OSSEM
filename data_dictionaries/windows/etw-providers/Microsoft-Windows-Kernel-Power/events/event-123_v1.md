@@ -1,4 +1,5 @@
 # Event 123 - PowerTransition
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:Scenario po:Performance po:PerformanceLight
 * etw_task_PowerTransition
-* version_1

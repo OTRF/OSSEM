@@ -1,4 +1,5 @@
 # Event ID 4668: An application was initialized
+###### Version: 0
 
 ## Description
 Not available

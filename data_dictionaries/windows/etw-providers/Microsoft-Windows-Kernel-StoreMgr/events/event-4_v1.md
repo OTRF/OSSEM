@@ -1,4 +1,5 @@
 # Event 4 - StoreDelete
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Informational
 * etw_keywords_StoreOps
 * etw_task_StoreDelete
-* version_1

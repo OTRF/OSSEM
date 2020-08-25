@@ -1,4 +1,5 @@
 # Event 142 - ImmersiveShellAppManagerModeChanged
+###### Version: 0
 
 ## Description
 None

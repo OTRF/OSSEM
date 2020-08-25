@@ -1,4 +1,5 @@
 # Event 3068 - PerfTrack:VideoCaptureStartRequest
+###### Version: 0
 
 ## Description
 None

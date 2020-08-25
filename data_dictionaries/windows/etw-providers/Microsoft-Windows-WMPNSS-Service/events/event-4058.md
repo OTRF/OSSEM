@@ -1,4 +1,5 @@
 # Event 4058 - WMP_On_Content_Prov_Removed
+###### Version: 0
 
 ## Description
 None

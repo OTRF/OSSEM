@@ -1,4 +1,5 @@
 # Event 110 - XSSFilter_Sanitize
+###### Version: 0
 
 ## Description
 None

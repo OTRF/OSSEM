@@ -1,4 +1,5 @@
 # Event 410 - Mshtml_Animations_Transitioning
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_keywords_animation
 * etw_opcode_Start
 * etw_task_Mshtml_Animations_Transitioning
-* version_1

@@ -1,4 +1,5 @@
 # Event 471 - BrowserRoamedSettingChange_TrackingProtection
+###### Version: 0
 
 ## Description
 None

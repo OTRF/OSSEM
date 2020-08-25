@@ -1,4 +1,5 @@
 # Event 1342 - TcpRttResiliencyDetection
+###### Version: 0
 
 ## Description
 None

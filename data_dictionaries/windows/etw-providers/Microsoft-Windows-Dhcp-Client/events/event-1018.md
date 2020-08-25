@@ -1,4 +1,5 @@
 # Event 1018 - AddressConfigurationStateEvent
+###### Version: 0
 
 ## Description
 None

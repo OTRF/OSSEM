@@ -1,4 +1,5 @@
 # Event 10 - ProcessorPerfStateChange
+###### Version: 3
 
 ## Description
 None
@@ -24,4 +25,3 @@ None
 * etw_level_Informational
 * etw_keywords_Perf
 * etw_task_ProcessorPerfStateChange
-* version_3

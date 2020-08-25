@@ -1,4 +1,5 @@
 # Event 650 - CreateThumbnail_Immersive_Perftrack
+###### Version: 0
 
 ## Description
 None

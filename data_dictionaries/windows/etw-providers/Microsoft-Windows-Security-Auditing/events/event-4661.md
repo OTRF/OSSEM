@@ -1,4 +1,5 @@
 # Event ID 4661: A handle to an object was requested
+###### Version: 0
 
 ## Description
 This event indicates that a handle was requested for either an Active Directory object or a Security Account Manager (SAM) object. If access was declined, then Failure event is generated. This event generates only if Success auditing is enabled for the Audit Handle Manipulation subcategory.

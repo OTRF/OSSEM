@@ -1,4 +1,5 @@
 # Event 24 - URB_FUNCTION_CONTROL_TRANSFER_EX
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_HeadersBusTrace PartialDataBusTrace FullDataBusTrace
 * etw_opcode_Stop
 * etw_task_URB_FUNCTION_CONTROL_TRANSFER_EX
-* version_1

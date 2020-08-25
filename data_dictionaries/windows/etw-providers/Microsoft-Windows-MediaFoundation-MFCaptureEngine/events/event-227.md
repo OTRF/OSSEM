@@ -1,4 +1,5 @@
 # Event 227 - MFCaptureEnginePhotoXVP
+###### Version: 0
 
 ## Description
 None

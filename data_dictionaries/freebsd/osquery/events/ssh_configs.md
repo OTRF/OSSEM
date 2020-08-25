@@ -1,4 +1,5 @@
 # Ssh_configs Table
+###### Version: 4.4.2
 
 ## Description
 A table of parsed ssh_configs.
@@ -12,6 +13,3 @@ A table of parsed ssh_configs.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#ssh_configs)
-
-## Tags
-* version_4.4.2

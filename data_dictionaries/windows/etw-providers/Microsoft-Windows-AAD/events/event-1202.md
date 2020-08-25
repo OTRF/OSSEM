@@ -1,4 +1,5 @@
 # Event 1202 - BrowserCoreOperation
+###### Version: 0
 
 ## Description
 None

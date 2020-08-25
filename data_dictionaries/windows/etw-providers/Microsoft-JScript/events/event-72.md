@@ -1,4 +1,5 @@
 # Event 72 - Jscript_GC_ScanStack
+###### Version: 0
 
 ## Description
 None

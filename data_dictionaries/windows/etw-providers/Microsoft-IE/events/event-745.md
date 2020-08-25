@@ -1,4 +1,5 @@
 # Event 745 - Mshtml_MemoryProtector_ReclaimUnmarked
+###### Version: 0
 
 ## Description
 None

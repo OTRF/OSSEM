@@ -1,4 +1,5 @@
 # Event 558 - BM_ShellReadyExempted
+###### Version: 0
 
 ## Description
 None

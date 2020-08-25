@@ -1,4 +1,5 @@
 # Event 43 - Deferredwork(DPC/WorkItem)
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_Performance
 * etw_opcode_Start
 * etw_task_Deferredwork(DPC/WorkItem)
-* version_1

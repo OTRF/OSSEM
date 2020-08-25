@@ -1,4 +1,5 @@
 # Process_events Table
+###### Version: 4.4.2
 
 ## Description
 Track time/action process executions.
@@ -36,6 +37,3 @@ Track time/action process executions.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#process_events)
-
-## Tags
-* version_4.4.2

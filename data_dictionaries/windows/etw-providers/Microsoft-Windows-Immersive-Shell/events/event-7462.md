@@ -1,4 +1,5 @@
 # Event 7462 - ConnectedSearch_SetScope
+###### Version: 0
 
 ## Description
 None

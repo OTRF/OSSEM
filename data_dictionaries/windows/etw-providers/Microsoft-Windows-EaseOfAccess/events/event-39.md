@@ -1,4 +1,5 @@
 # Event 39 - Magnify_ChangeDesktopMagnification
+###### Version: 0
 
 ## Description
 None

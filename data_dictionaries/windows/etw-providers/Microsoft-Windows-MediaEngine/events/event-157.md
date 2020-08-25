@@ -1,4 +1,5 @@
 # Event 157 - CustomRefreshRateStateChange
+###### Version: 0
 
 ## Description
 None

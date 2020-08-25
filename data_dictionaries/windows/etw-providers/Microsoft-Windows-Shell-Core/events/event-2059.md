@@ -1,4 +1,5 @@
 # Event 2059 - Browseui_AutoComplete_UpdateCompletion
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 512 - Mshtml_CView_ExecuteInvalidationTasks_Stats
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 374 - HME_UPnPDiscoveryInitialComplete
+###### Version: 0
 
 ## Description
 None

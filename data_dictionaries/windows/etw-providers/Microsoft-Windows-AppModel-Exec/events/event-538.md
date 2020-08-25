@@ -1,4 +1,5 @@
 # Event 538 - BM_NotifyEndSession
+###### Version: 0
 
 ## Description
 None

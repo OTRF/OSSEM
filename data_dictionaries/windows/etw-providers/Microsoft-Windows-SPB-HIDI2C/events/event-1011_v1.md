@@ -1,4 +1,5 @@
 # Event 1011 - IOrequestflowviatheHIDI2Cdriver
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Informational
 * etw_opcode_IoSpbReadDispatch
 * etw_task_IOrequestflowviatheHIDI2Cdriver
-* version_1

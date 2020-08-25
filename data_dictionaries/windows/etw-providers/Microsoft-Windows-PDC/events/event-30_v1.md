@@ -1,4 +1,5 @@
 # Event 30 - CsMonitorContext
+###### Version: 1
 
 ## Description
 None
@@ -22,4 +23,3 @@ None
 * etw_level_Always
 * etw_keywords_Cs
 * etw_task_CsMonitorContext
-* version_1

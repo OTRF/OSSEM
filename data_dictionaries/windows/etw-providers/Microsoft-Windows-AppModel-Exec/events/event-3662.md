@@ -1,4 +1,5 @@
 # Event 3662 - LogTrace
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Wmi_bios_info Table
+###### Version: 4.4.2
 
 ## Description
 Lists important information from the system bios.
@@ -11,6 +12,3 @@ Lists important information from the system bios.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#wmi_bios_info)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 224 - MediaCaptureTrySetEncodingPropertiesoperation
+###### Version: 0
 
 ## Description
 None

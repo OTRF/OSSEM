@@ -1,4 +1,5 @@
 # Event 1005 - TcpBindEndpointResolutionFailure
+###### Version: 0
 
 ## Description
 None

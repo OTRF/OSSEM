@@ -1,4 +1,5 @@
 # Event 205 - GC
+###### Version: 2
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_keywords_GCKeyword
 * etw_opcode_GlobalHeapHistory
 * etw_task_GC
-* version_2

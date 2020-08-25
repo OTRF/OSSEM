@@ -1,4 +1,5 @@
 # Event 1048 - Wininet_LookupConnection
+###### Version: 0
 
 ## Description
 None

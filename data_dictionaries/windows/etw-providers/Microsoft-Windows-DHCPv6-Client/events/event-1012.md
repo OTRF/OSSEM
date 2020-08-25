@@ -1,4 +1,5 @@
 # Event 1012 - AddressConfigurationStateEvent
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 231 - USBDeviceIOCTL_INTERNAL_USB_RESET_PORT
+###### Version: 0
 
 ## Description
 None

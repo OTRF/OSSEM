@@ -1,4 +1,5 @@
 # Event 4818 - DiscoveryClientChannel
+###### Version: 0
 
 ## Description
 None

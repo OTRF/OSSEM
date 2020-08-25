@@ -1,4 +1,5 @@
 # Event 4447 - PropertyHandlerThumbnailGeneration
+###### Version: 0
 
 ## Description
 None

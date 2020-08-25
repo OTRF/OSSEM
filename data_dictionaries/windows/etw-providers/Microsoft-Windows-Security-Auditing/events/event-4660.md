@@ -1,4 +1,5 @@
 # Event ID 4660: An object was deleted
+###### Version: 0
 
 ## Description
 This event generates when an object was deleted. The object could be a file system, kernel, or registry object.

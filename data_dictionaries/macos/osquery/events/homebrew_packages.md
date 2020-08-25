@@ -1,4 +1,5 @@
 # Homebrew_packages Table
+###### Version: 4.4.2
 
 ## Description
 The installed homebrew package database.
@@ -12,6 +13,3 @@ The installed homebrew package database.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#homebrew_packages)
-
-## Tags
-* version_4.4.2

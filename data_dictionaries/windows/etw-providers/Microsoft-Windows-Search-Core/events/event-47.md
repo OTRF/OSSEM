@@ -1,4 +1,5 @@
 # Event 47 - HighPriorityItemBoost
+###### Version: 0
 
 ## Description
 None

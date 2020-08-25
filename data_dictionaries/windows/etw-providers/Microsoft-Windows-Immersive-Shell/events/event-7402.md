@@ -1,4 +1,5 @@
 # Event 7402 - ConnectedSearch_LogTemplateFallback
+###### Version: 0
 
 ## Description
 None

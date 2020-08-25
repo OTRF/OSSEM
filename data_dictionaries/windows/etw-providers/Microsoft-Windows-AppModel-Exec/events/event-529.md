@@ -1,4 +1,5 @@
 # Event 529 - BackgroundManagerTrace
+###### Version: 0
 
 ## Description
 None

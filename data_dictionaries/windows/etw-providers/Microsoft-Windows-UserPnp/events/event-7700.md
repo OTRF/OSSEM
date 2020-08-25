@@ -1,4 +1,5 @@
 # Event 7700 - PnP_SetupAPI_CallClassInstaller
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 808 - DeviceAdd
+###### Version: 0
 
 ## Description
 None

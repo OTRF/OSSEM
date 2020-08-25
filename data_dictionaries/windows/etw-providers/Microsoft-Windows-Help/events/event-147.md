@@ -1,4 +1,5 @@
 # Event 147 - LocalWindowsContentSearch
+###### Version: 0
 
 ## Description
 None

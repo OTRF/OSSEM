@@ -1,4 +1,5 @@
 # Portage_packages Table
+###### Version: 4.4.2
 
 ## Description
 List of currently installed packages.
@@ -17,6 +18,3 @@ List of currently installed packages.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#portage_packages)
-
-## Tags
-* version_4.4.2

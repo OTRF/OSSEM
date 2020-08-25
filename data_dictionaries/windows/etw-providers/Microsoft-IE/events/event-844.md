@@ -1,4 +1,5 @@
 # Event 844 - Mshtml_WebRTC_Add_Ice_Candidate
+###### Version: 0
 
 ## Description
 None

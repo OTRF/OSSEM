@@ -1,4 +1,5 @@
 # Event 1327 - IpSortedAddressPairs
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_level_Verbose
 * etw_keywords_ut:TcpipRoute
 * etw_task_IpSortedAddressPairs
-* version_1

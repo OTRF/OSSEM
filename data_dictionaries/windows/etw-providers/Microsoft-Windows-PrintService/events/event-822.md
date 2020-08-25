@@ -1,4 +1,5 @@
 # Event 822 - ClientSideRenderingrevertingtoServerSideRendering
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 107 - IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_NFP
 * etw_opcode_Stop
 * etw_task_IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE
-* version_1

@@ -1,4 +1,5 @@
 # Event 121 - MSVideoProcessoftMFT_ConfigureInputHDRMetadata
+###### Version: 0
 
 ## Description
 None

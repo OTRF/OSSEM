@@ -1,4 +1,5 @@
 # Event 4102 - None
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_Cmdlets
 * etw_opcode_Tobeusedwhenanexceptionisraised
 * etw_task_None
-* version_1

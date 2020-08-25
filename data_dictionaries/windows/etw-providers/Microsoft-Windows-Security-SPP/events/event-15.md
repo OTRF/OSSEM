@@ -1,4 +1,5 @@
 # Event 15 - SLSVC_InstallEncryptedLicense
+###### Version: 0
 
 ## Description
 None

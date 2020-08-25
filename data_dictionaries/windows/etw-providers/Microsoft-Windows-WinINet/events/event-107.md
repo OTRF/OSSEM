@@ -1,4 +1,5 @@
 # Event 107 - WININET_HANDLE_CLOSE_FAILED
+###### Version: 0
 
 ## Description
 None

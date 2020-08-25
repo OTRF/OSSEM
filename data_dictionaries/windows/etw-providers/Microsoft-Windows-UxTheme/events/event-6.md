@@ -1,4 +1,5 @@
 # Event 6 - ThemesAndMetric_GetCurrentThemeName
+###### Version: 0
 
 ## Description
 None

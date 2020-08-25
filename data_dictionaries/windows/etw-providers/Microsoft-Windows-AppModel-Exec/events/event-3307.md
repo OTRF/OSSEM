@@ -1,4 +1,5 @@
 # Event 3307 - LogTrace
+###### Version: 0
 
 ## Description
 None

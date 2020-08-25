@@ -1,4 +1,5 @@
 # Event 1087 - OPMDestroyProtectedOutput
+###### Version: 0
 
 ## Description
 None

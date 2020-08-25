@@ -1,4 +1,5 @@
 # Socket_events Table
+###### Version: 4.4.2
 
 ## Description
 Track network socket opens and closes.
@@ -25,6 +26,3 @@ Track network socket opens and closes.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#socket_events)
-
-## Tags
-* version_4.4.2

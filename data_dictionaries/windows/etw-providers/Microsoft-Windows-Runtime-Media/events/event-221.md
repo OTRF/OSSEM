@@ -1,4 +1,5 @@
 # Event 221 - MediaCapturePhotoSequenceFinishoperation
+###### Version: 0
 
 ## Description
 None

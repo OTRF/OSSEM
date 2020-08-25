@@ -15,15 +15,15 @@
 |{{entry['data_set_type']}}|Description|
 |---|---|
 {%- else %}
-|{{entry['data_set_type']}}|Description|Tags|
-|---|---|---|
+|{{entry['data_set_type']}}|Version|Description|Tags|
+|---|---|---|---|
 {%- endif %}
 {%- if entry['sub_data_sets'] %}
 {%- for row in entry['sub_data_sets'] %}
 {%- if entry['data_set_type'] == 'Data Set' %}
 |[{{row['title']}}]({{row['link']}})|{{row['description']}}|
 {%- else %}
-|[{{row['title']}}]({{row['link']}})|{{row['description']}}|{{row['tags']|join(', ') if row['tags']}}|
+|[{{row['title']}}]({{row['link']}})|{{row['version']}}|{{row['description']}}|{{row['tags']|join(', ') if row['tags']}}|
 {%- endif %}
 {%- endfor %}
 {%- endif %}

@@ -1,4 +1,5 @@
 # Gatekeeper_approved_apps Table
+###### Version: 4.4.2
 
 ## Description
 Gatekeeper apps a user has allowed to run.
@@ -13,6 +14,3 @@ Gatekeeper apps a user has allowed to run.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#gatekeeper_approved_apps)
-
-## Tags
-* version_4.4.2

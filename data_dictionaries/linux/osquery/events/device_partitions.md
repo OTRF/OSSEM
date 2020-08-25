@@ -1,4 +1,5 @@
 # Device_partitions Table
+###### Version: 4.4.2
 
 ## Description
 Use TSK to enumerate details about partitions on a disk device.
@@ -18,6 +19,3 @@ Use TSK to enumerate details about partitions on a disk device.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#device_partitions)
-
-## Tags
-* version_4.4.2

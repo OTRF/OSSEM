@@ -1,4 +1,5 @@
 # Event 132 - ETWGUID_SLICER_CAPTUREFRAME
+###### Version: 0
 
 ## Description
 None

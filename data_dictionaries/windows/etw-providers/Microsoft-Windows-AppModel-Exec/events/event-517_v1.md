@@ -1,4 +1,5 @@
 # Event 517 - BM_TryAcquireResourceSet
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Verbose
 * etw_keywords_BM ExecProductionCircular ExecDevPlatCircular
 * etw_task_BM_TryAcquireResourceSet
-* version_1

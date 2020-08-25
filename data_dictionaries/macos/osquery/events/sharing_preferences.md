@@ -1,4 +1,5 @@
 # Sharing_preferences Table
+###### Version: 4.4.2
 
 ## Description
 OS X Sharing preferences.
@@ -19,6 +20,3 @@ OS X Sharing preferences.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#sharing_preferences)
-
-## Tags
-* version_4.4.2

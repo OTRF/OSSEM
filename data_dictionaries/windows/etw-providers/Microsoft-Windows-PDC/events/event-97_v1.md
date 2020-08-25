@@ -1,4 +1,5 @@
 # Event 97 - SpmScenarioRundown
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Always
 * etw_keywords_SPM
 * etw_task_SpmScenarioRundown
-* version_1

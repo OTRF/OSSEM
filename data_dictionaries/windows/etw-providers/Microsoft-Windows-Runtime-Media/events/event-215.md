@@ -1,4 +1,5 @@
 # Event 215 - MediaCapturePhotoSequencePrepareoperation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 305 - Purgingjobsfromprinterqueue
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Hardware_events Table
+###### Version: 4.4.2
 
 ## Description
 Hardware (PCI/USB/HID) events from UDEV or IOKit.
@@ -21,6 +22,3 @@ Hardware (PCI/USB/HID) events from UDEV or IOKit.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#hardware_events)
-
-## Tags
-* version_4.4.2

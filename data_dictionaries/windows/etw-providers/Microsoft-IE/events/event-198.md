@@ -1,4 +1,5 @@
 # Event 198 - Mshtml_SAM_Free
+###### Version: 0
 
 ## Description
 None

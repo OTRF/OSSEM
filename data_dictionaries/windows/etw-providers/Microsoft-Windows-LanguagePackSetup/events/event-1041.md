@@ -1,4 +1,5 @@
 # Event 1041 - Removinglanguagepack
+###### Version: 0
 
 ## Description
 None

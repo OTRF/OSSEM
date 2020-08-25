@@ -1,4 +1,5 @@
 # Event 695 - Mshtml_CDoubleTap_PanAndZoom
+###### Version: 0
 
 ## Description
 None

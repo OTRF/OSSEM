@@ -1,4 +1,5 @@
 # Event 5070 - UdwmScreenRotationAnimation
+###### Version: 0
 
 ## Description
 None

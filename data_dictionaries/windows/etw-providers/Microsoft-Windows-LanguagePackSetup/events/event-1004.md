@@ -1,4 +1,5 @@
 # Event 1004 - LanguagePackSetupWorkerClassfunctionality
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 19 - Smb2RequestChangeNotify
+###### Version: 2
 
 ## Description
 None
@@ -27,4 +28,3 @@ None
 * etw_level_Informational
 * etw_keywords_Request
 * etw_task_Smb2RequestChangeNotify
-* version_2

@@ -1,4 +1,5 @@
 # Yara Table
+###### Version: 4.4.2
 
 ## Description
 Track YARA matches for files or PIDs.
@@ -16,6 +17,3 @@ Track YARA matches for files or PIDs.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#yara)
-
-## Tags
-* version_4.4.2

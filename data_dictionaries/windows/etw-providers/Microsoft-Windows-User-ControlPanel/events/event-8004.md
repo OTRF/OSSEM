@@ -1,4 +1,5 @@
 # Event 8004 - UserAccount_AddUserWizard_InstallProviderLinkClickedonOnline
+###### Version: 0
 
 ## Description
 None

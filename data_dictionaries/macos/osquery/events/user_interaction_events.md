@@ -1,4 +1,5 @@
 # User_interaction_events Table
+###### Version: 4.4.2
 
 ## Description
 Track user interaction events from macOS' event tapping framework.
@@ -10,6 +11,3 @@ Track user interaction events from macOS' event tapping framework.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#user_interaction_events)
-
-## Tags
-* version_4.4.2

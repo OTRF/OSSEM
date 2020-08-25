@@ -1,4 +1,5 @@
 # Event 32 - HandleThreadInputFocusEvent
+###### Version: 0
 
 ## Description
 None

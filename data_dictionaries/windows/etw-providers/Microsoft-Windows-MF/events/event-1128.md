@@ -1,4 +1,5 @@
 # Event 1128 - MediaFoundationAsyncWrapperProcessOutput(MFT)
+###### Version: 0
 
 ## Description
 None

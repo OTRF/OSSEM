@@ -1,4 +1,5 @@
 # Event 337 - Debugger_Editor_RestoreViewState
+###### Version: 0
 
 ## Description
 None

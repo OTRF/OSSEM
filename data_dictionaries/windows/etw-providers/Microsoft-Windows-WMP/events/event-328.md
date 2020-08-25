@@ -1,4 +1,5 @@
 # Event 328 - RME_CLIENT_CURRENT_BANDWIDTH
+###### Version: 0
 
 ## Description
 None

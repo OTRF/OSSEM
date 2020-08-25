@@ -1,4 +1,5 @@
 # Event 127 - CBlackboxPrepareDomainPrivateKeysForStorage
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 60 - UserQueryAllowed
+###### Version: 0
 
 ## Description
 None

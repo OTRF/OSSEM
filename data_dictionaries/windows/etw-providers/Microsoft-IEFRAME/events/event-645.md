@@ -1,4 +1,5 @@
 # Event 645 - Browseui_TabSuspension_Check_Suspendable
+###### Version: 0
 
 ## Description
 None

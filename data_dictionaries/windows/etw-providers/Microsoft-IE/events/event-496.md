@@ -1,4 +1,5 @@
 # Event 496 - Mshtml_Composition_Create_ImplicitLayer
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1028 - HybridDrive
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Warning
 * etw_keywords_ReadyBoost
 * etw_task_HybridDrive
-* version_1

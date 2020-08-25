@@ -1,4 +1,5 @@
 # Event ID 4734: A security-enabled local group was deleted
+###### Version: 0
 
 ## Description
 This event generates every time security-enabled (security) local group is deleted. This event generates on domain controllers, member servers, and workstations.

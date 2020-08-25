@@ -1,4 +1,5 @@
 # Event 7416 - ConnectedSearch_ImageDownloaderPreFetchTask
+###### Version: 0
 
 ## Description
 None

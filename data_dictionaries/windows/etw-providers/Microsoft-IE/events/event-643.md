@@ -1,4 +1,5 @@
 # Event 643 - Mshtml_EventDebug_MutationObserverCallback
+###### Version: 0
 
 ## Description
 None

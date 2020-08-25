@@ -1,4 +1,5 @@
 # Event 1002 - CMIConfiguration
+###### Version: 0
 
 ## Description
 None

@@ -215,7 +215,8 @@ class ossemParser():
                                             'title': readme['event_code'] if 'event_code' in readme else readme['title'],
                                             'link': '{}/{}.md'.format(item, event.split('.')[0]),
                                             'description': self.remove_new_lines(readme['description']),
-                                            'tags': readme['tags']})
+                                            'tags': readme['tags'],
+                                            'version': readme['event_version']})
                                 except Exception as e:
                                     print('[!] Failed parsing', event_file_path)
 
@@ -250,7 +251,7 @@ class ossemParser():
         dds_template = env.get_template('data_dictionary_template.md')
         cim_template = env.get_template('cim_entity_template.md')
         ddm_template = env.get_template('ddm_relationships_template.md')
-        ds_template = env.get_template('attack_ds_template.md')
+        ds_template = env.get_template('attack/ds_template.md')
 
         #generate data dictionary event markdown
         for entry in self.data_dictionaries:

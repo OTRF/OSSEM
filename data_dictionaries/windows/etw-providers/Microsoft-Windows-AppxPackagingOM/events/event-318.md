@@ -1,4 +1,5 @@
 # Event 318 - AppXPackaging.Task.StreamingReader.BlockDecompress
+###### Version: 0
 
 ## Description
 None

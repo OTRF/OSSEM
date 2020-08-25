@@ -1,4 +1,5 @@
 # Event 366 - ScopeChangeNotification_OnChanged
+###### Version: 0
 
 ## Description
 None

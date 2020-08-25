@@ -1,4 +1,5 @@
 # Event 239 - MediaCaptureLowLagRecordStopoperation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 125 - ThermalZoneEnumerated
+###### Version: 3
 
 ## Description
 None
@@ -34,4 +35,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:Thermal
 * etw_task_ThermalZoneEnumerated
-* version_3

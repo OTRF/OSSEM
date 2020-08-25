@@ -1,4 +1,5 @@
 # Event 307 - DevicePowerRequirementToDevice
+###### Version: 0
 
 ## Description
 None

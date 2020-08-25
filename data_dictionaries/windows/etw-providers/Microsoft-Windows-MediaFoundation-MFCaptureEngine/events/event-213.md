@@ -1,4 +1,5 @@
 # Event 213 - MFCaptureEngineStopRecordTask
+###### Version: 0
 
 ## Description
 None

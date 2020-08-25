@@ -1,4 +1,5 @@
 # Event 213 - ESE_tagCatalog_Trace
+###### Version: 0
 
 ## Description
 None

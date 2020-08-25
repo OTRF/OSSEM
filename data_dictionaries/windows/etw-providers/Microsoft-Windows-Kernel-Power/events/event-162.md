@@ -1,4 +1,5 @@
 # Event 162 - ThermalZoneThermalStandbyUpdate
+###### Version: 0
 
 ## Description
 None

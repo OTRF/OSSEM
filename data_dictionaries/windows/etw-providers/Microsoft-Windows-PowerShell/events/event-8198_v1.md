@@ -1,4 +1,5 @@
 # Event 8198 - Connect
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_Runspace
 * etw_opcode_Open(async)
 * etw_task_Connect
-* version_1

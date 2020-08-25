@@ -1,4 +1,5 @@
 # Event 128 - PepPerfDomainInfo
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Informational
 * etw_keywords_Diag
 * etw_task_PepPerfDomainInfo
-* version_1

@@ -1,4 +1,5 @@
 # Event 7034 - DocPerf_Task_XpsViewer_PackageLoader_OnPageLoaded_ProcessPage
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 588 - Mshtml_Media_TextTrack_Parsing
+###### Version: 0
 
 ## Description
 None

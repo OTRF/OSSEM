@@ -1,4 +1,5 @@
 # Event 41 - COM_ClientAsyncCall
+###### Version: 1
 
 ## Description
 None
@@ -24,4 +25,3 @@ None
 * etw_level_Informational
 * etw_opcode_Start
 * etw_task_COM_ClientAsyncCall
-* version_1

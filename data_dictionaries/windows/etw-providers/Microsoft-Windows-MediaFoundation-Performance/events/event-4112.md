@@ -1,4 +1,5 @@
 # Event 4112 - NetworkClientBeginClose
+###### Version: 0
 
 ## Description
 None

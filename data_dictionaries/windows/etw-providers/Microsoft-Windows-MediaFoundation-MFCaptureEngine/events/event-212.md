@@ -1,4 +1,5 @@
 # Event 212 - MFCaptureEngineStopRecordTask
+###### Version: 0
 
 ## Description
 None

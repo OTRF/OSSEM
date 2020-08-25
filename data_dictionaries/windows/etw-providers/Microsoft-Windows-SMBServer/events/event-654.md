@@ -1,4 +1,5 @@
 # Event 654 - Smb2FileClose
+###### Version: 0
 
 ## Description
 None

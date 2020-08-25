@@ -1,4 +1,5 @@
 # Event 1061 - IndirectSwapChainMarkAbandoned
+###### Version: 0
 
 ## Description
 None

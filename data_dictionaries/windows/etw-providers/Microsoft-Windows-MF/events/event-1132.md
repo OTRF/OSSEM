@@ -1,4 +1,5 @@
 # Event 1132 - MediaFoundationAsyncWrapperRunning
+###### Version: 0
 
 ## Description
 None

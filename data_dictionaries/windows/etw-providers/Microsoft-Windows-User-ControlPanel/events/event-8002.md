@@ -1,4 +1,5 @@
 # Event 8002 - UserAccount_AddUserWizard_ExistingOnlineUserAdded
+###### Version: 0
 
 ## Description
 None

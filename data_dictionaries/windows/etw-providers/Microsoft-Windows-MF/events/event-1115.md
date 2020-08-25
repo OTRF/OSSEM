@@ -1,4 +1,5 @@
 # Event 1115 - MediaFoundationIMFPMPHost_CreateObjectByCLSID
+###### Version: 0
 
 ## Description
 None

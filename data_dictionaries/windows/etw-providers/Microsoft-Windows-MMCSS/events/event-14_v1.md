@@ -1,4 +1,5 @@
 # Event 14 - Set_MultimediaMode
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 ## Tags
 * etw_level_Informational
 * etw_task_Set_MultimediaMode
-* version_1

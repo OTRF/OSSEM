@@ -1,4 +1,5 @@
 # Event 5014 - ControllerUserLogon
+###### Version: 1
 
 ## Description
 None
@@ -11,4 +12,3 @@ None
 ## Tags
 * etw_opcode_Stop
 * etw_task_ControllerUserLogon
-* version_1

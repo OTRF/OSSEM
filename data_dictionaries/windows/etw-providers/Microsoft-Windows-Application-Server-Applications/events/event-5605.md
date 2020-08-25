@@ -1,4 +1,5 @@
 # Event 5605 - SessionCookieReading
+###### Version: 0
 
 ## Description
 None

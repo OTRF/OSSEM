@@ -1,4 +1,5 @@
 # Event ID 4912: Per User Audit Policy was changed.
+###### Version: 0
 
 ## Description
 This event generates every time Per User Audit Policy was changed.

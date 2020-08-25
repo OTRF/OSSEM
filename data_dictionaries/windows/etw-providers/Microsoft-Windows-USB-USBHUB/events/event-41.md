@@ -1,4 +1,5 @@
 # Event 41 - USBHubResetRecovery
+###### Version: 0
 
 ## Description
 None

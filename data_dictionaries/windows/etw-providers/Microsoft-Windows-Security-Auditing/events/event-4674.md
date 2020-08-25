@@ -1,4 +1,5 @@
 # Event ID 4674: An operation was attempted on a privileged object.
+###### Version: 0
 
 ## Description
 This event generates when an attempt is made to perform privileged operations on a protected subsystem object after the object is already opened.

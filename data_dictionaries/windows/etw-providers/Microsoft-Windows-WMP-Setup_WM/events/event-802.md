@@ -1,4 +1,5 @@
 # Event 802 - FUE_CONFIGURATION
+###### Version: 0
 
 ## Description
 None

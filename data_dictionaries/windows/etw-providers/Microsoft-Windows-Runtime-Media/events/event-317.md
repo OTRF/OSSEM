@@ -1,4 +1,5 @@
 # Event 317 - MediaCaptureAdvancedPhotoCaptureoperation
+###### Version: 0
 
 ## Description
 None

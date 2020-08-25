@@ -1,4 +1,5 @@
 # Event 1212 - DocPerf_Task_PrintProcClose
+###### Version: 0
 
 ## Description
 None

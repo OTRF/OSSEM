@@ -1,4 +1,5 @@
 # Event 319 - MediaCaptureAdvancedPhotoFinishoperation
+###### Version: 0
 
 ## Description
 None

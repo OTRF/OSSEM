@@ -1,4 +1,5 @@
 # Event 5907 - AppActivation_ActivateExtensionForContract
+###### Version: 0
 
 ## Description
 None

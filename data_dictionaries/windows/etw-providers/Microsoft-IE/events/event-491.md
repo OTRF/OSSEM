@@ -1,4 +1,5 @@
 # Event 491 - Mshtml_IndependentHitTestInfo
+###### Version: 0
 
 ## Description
 None

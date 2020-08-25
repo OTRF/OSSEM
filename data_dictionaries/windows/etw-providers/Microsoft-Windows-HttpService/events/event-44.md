@@ -1,4 +1,5 @@
 # Event 44 - HTTPAuthenticationTraceTask
+###### Version: 0
 
 ## Description
 None

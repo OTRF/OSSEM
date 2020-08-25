@@ -1,4 +1,5 @@
 # Event 311 - ClientQuery_Rowset_Reuse
+###### Version: 0
 
 ## Description
 None

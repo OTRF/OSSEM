@@ -1,4 +1,5 @@
 # Event 790 - BitLockerPINModificationTask
+###### Version: 0
 
 ## Description
 None

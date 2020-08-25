@@ -1,4 +1,5 @@
 # Event 245 - QueuePacket
+###### Version: 2
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_Base
 * etw_opcode_Start
 * etw_task_QueuePacket
-* version_2

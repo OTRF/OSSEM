@@ -1,4 +1,5 @@
 # Ec2_instance_metadata Table
+###### Version: 4.4.2
 
 ## Description
 EC2 instance metadata.
@@ -23,6 +24,3 @@ EC2 instance metadata.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#ec2_instance_metadata)
-
-## Tags
-* version_4.4.2

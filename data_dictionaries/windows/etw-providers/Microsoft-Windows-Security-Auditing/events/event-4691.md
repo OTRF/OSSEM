@@ -1,4 +1,5 @@
 # Event ID 4691: Indirect access to an object was requested.
+###### Version: 0
 
 ## Description
 This event indicates that indirect access to an object was requested.

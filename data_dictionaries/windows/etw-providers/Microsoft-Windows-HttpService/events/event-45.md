@@ -1,4 +1,5 @@
 # Event 45 - HTTPAuthenticationTraceTask
+###### Version: 0
 
 ## Description
 None

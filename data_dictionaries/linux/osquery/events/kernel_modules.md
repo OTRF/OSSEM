@@ -1,4 +1,5 @@
 # Kernel_modules Table
+###### Version: 4.4.2
 
 ## Description
 Linux kernel modules both loaded and within the load search path.
@@ -14,6 +15,3 @@ Linux kernel modules both loaded and within the load search path.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#kernel_modules)
-
-## Tags
-* version_4.4.2

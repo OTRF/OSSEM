@@ -1,4 +1,5 @@
 # Event 32 - DUser_AddChildVisual
+###### Version: 0
 
 ## Description
 None

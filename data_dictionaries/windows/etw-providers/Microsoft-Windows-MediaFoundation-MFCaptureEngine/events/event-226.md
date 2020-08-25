@@ -1,4 +1,5 @@
 # Event 226 - MFCaptureEnginePhotoFlip
+###### Version: 0
 
 ## Description
 None

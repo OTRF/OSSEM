@@ -1,4 +1,5 @@
 # Event 23 - I/Orequest.
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Informational
 * etw_keywords_IO ReceiveIO
 * etw_task_I/Orequest.
-* version_1

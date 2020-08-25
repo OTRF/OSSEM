@@ -1,4 +1,5 @@
 # Event 63 - HighlightCursor
+###### Version: 0
 
 ## Description
 None

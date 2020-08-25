@@ -1,4 +1,5 @@
 # Event 3327 - LogTrace
+###### Version: 0
 
 ## Description
 None

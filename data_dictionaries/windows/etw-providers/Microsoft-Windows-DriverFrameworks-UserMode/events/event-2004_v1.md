@@ -1,4 +1,5 @@
 # Event 2004 - Loadingdriverstocontrolanewlydiscovereddevice.
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Verbose
 * etw_opcode_Start
 * etw_task_Loadingdriverstocontrolanewlydiscovereddevice.
-* version_1

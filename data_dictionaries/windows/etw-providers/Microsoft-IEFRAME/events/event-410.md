@@ -1,4 +1,5 @@
 # Event 410 - Browseui_HangUI_ShowNotificationBar
+###### Version: 0
 
 ## Description
 None

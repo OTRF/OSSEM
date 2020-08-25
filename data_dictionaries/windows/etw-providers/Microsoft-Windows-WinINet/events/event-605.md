@@ -1,4 +1,5 @@
 # Event 605 - WININET_AUTH_USING_DEFAULT_CREDS
+###### Version: 0
 
 ## Description
 None

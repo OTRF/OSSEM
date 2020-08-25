@@ -1,4 +1,5 @@
 # Event 1026 - ConfigurePackage
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Error
 * etw_keywords_Publishing
 * etw_task_ConfigurePackage
-* version_1

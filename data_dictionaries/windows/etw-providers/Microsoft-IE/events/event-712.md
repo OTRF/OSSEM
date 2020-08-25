@@ -1,4 +1,5 @@
 # Event 712 - Mshtml_CDragPreview_Initialize
+###### Version: 0
 
 ## Description
 None

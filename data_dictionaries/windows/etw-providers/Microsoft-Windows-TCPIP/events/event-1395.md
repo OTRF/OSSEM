@@ -1,4 +1,5 @@
 # Event 1395 - UdpBindEndpointInspectionFailure
+###### Version: 0
 
 ## Description
 None

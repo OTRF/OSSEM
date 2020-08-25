@@ -1,4 +1,5 @@
 # Event 294 - RobotThread_LangAutoDetection_Stop
+###### Version: 0
 
 ## Description
 None

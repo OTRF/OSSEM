@@ -1,4 +1,5 @@
 # Event 26 - WatchdogIteration
+###### Version: 1
 
 ## Description
 None
@@ -24,4 +25,3 @@ None
 * etw_keywords_Watchdog
 * etw_opcode_WatchdogIteration
 * etw_task_WatchdogIteration
-* version_1

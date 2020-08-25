@@ -1,4 +1,5 @@
 # Event 438 - DdiSaveMemoryForHotUpdate
+###### Version: 0
 
 ## Description
 None

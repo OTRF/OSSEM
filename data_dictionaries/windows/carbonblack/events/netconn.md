@@ -1,4 +1,5 @@
 # ingress.event.netconn (Network Connection)
+###### Version: 0
 
 ## Description
 A network connection has been received or initiated by an endpoint monitored by Carbon Black.

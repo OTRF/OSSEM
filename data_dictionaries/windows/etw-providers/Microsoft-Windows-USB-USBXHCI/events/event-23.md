@@ -1,4 +1,5 @@
 # Event 23 - USBXHCIControllerD0Exit
+###### Version: 0
 
 ## Description
 None

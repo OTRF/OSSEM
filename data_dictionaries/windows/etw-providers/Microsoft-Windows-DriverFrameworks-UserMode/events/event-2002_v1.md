@@ -1,4 +1,5 @@
 # Event 2002 - Startupofanewdriverhostprocess.
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Error
 * etw_opcode_Stop
 * etw_task_Startupofanewdriverhostprocess.
-* version_1

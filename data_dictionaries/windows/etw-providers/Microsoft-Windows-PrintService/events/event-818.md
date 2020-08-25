@@ -1,4 +1,5 @@
 # Event 818 - EnablingspoolerRPCendpoints
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 804 - WINHTTP_AUTOPROXY_DHCP
+###### Version: 0
 
 ## Description
 None

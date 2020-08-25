@@ -1,4 +1,5 @@
 # Event 217 - CSearchCrawlScopeManager_EnumerateScopeRules
+###### Version: 0
 
 ## Description
 None

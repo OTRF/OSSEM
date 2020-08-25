@@ -1,4 +1,5 @@
 # Event 1160 - Wininet_HstsServerContainer
+###### Version: 0
 
 ## Description
 None

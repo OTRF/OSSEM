@@ -1,4 +1,5 @@
 # Event 1021 - NavigationNewWindow
+###### Version: 0
 
 ## Description
 None

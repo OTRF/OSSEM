@@ -1,4 +1,5 @@
 # Alf Table
+###### Version: 4.4.2
 
 ## Description
 OS X application layer firewall (ALF) service details.
@@ -16,6 +17,3 @@ OS X application layer firewall (ALF) service details.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#alf)
-
-## Tags
-* version_4.4.2

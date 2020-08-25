@@ -1,4 +1,5 @@
 # Event 215 - CSearchCrawlScopeManager_EnumerateRoots
+###### Version: 0
 
 ## Description
 None

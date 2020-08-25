@@ -1,4 +1,5 @@
 # Event 174 - CapTpmPcr
+###### Version: 0
 
 ## Description
 None

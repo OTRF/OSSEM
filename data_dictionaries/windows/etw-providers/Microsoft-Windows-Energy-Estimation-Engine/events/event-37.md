@@ -1,4 +1,5 @@
 # Event 37 - QueryStats
+###### Version: 0
 
 ## Description
 None

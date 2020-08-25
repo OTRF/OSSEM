@@ -1,4 +1,5 @@
 # Event 818 - ConfigureDevice
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1102 - CborDecodeMakeCredentialResponse
+###### Version: 0
 
 ## Description
 None

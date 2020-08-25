@@ -1,4 +1,5 @@
 # Event 559 - Browseui_OnPrepareVisibleComplete
+###### Version: 0
 
 ## Description
 None

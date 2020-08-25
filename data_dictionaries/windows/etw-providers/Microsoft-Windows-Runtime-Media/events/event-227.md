@@ -1,4 +1,5 @@
 # Event 227 - MediaCaptureLowLagPhotoCaptureoperation
+###### Version: 0
 
 ## Description
 None

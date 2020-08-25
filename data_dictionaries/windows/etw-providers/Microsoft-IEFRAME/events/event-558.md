@@ -1,4 +1,5 @@
 # Event 558 - Browseui_OnPrepareVisibleComplete
+###### Version: 0
 
 ## Description
 None

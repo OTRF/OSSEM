@@ -1,4 +1,5 @@
 # Event 115 - Smb2ResponseAcknowledgeBreakLease
+###### Version: 2
 
 ## Description
 None
@@ -42,4 +43,3 @@ None
 * etw_level_Informational
 * etw_keywords_Response
 * etw_task_Smb2ResponseAcknowledgeBreakLease
-* version_2

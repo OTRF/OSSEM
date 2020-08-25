@@ -1,4 +1,5 @@
 # Event 204 - MFCaptureEngineTakePhotoTask
+###### Version: 0
 
 ## Description
 None

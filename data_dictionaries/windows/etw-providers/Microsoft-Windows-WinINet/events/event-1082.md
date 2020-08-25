@@ -1,4 +1,5 @@
 # Event 1082 - Wininet_AppCacheHandle
+###### Version: 0
 
 ## Description
 None

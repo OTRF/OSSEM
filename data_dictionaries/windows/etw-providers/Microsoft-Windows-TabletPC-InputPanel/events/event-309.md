@@ -1,4 +1,5 @@
 # Event 309 - IHM_ModalitySwitch
+###### Version: 0
 
 ## Description
 None

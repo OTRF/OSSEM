@@ -1,4 +1,5 @@
 # Event 612 - CreateThumbnail_Perftrack
+###### Version: 0
 
 ## Description
 None

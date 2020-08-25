@@ -1,4 +1,5 @@
 # Default_environment Table
+###### Version: 4.4.2
 
 ## Description
 Default environment variables and values.
@@ -12,6 +13,3 @@ Default environment variables and values.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#default_environment)
-
-## Tags
-* version_4.4.2

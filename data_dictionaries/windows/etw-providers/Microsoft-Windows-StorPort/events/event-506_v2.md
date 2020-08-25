@@ -1,4 +1,5 @@
 # Event 506 - Port
+###### Version: 2
 
 ## Description
 None
@@ -24,4 +25,3 @@ None
 * etw_level_Informational
 * etw_keywords_DeviceState
 * etw_task_Port
-* version_2

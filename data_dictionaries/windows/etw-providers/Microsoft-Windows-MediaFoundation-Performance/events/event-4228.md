@@ -1,4 +1,5 @@
 # Event 4228 - SourceResolutionByteStreamHandlerEndCreateObject
+###### Version: 0
 
 ## Description
 None

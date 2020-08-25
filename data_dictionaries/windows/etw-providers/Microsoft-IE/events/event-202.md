@@ -1,4 +1,5 @@
 # Event 202 - Mshtml_AlignedTimer_Kill
+###### Version: 0
 
 ## Description
 None

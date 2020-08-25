@@ -1,4 +1,5 @@
 # Selinux_settings Table
+###### Version: 4.4.2
 
 ## Description
 Track active SELinux settings.
@@ -12,6 +13,3 @@ Track active SELinux settings.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#selinux_settings)
-
-## Tags
-* version_4.4.2

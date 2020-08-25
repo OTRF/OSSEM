@@ -1,4 +1,5 @@
 # Event ID 4817: Auditing settings on object were changed.
+###### Version: 0
 
 ## Description
 This event generates when the Global Object Access Auditing.

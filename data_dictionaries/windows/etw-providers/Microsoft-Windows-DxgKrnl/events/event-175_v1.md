@@ -1,4 +1,5 @@
 # Event 175 - DmaPacket
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_Base
 * etw_opcode_Start
 * etw_task_DmaPacket
-* version_1

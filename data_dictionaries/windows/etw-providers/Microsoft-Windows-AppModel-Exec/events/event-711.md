@@ -1,4 +1,5 @@
 # Event 711 - BAM_RequestAccessKindAsync
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 632 - SoftKeyboard_OutputManager_CommitKeyPress_OriginalCharacter
+###### Version: 0
 
 ## Description
 None

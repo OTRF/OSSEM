@@ -1,4 +1,5 @@
 # Event 12 - OLE_DragDrop_Register
+###### Version: 0
 
 ## Description
 None

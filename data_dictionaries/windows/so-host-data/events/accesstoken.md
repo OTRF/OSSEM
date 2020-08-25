@@ -1,4 +1,5 @@
 # SO Host Data - Access Token Table
+###### Version: 0
 
 ## Description
 Get-SOHostData collects Access Tokens from every running Process and Thread. Threads only have their own Access Token if they are using impersonation, otherwise they inherit the token from their containing process.

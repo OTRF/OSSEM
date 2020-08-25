@@ -1,4 +1,5 @@
 # Event 200 - Mshtml_SAM_Segment_Delete
+###### Version: 0
 
 ## Description
 None

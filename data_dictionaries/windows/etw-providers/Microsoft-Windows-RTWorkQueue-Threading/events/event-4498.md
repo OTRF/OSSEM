@@ -1,4 +1,5 @@
 # Event 4498 - SetThreadCpuGroupMask
+###### Version: 0
 
 ## Description
 None

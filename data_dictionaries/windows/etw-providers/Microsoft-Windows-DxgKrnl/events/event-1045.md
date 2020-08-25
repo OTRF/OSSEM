@@ -1,4 +1,5 @@
 # Event 1045 - MiracastStopMiracastSessionAbnormal
+###### Version: 0
 
 ## Description
 None

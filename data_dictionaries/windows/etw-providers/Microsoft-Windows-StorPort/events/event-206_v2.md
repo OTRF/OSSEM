@@ -1,4 +1,5 @@
 # Event 206 - Port
+###### Version: 2
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_keywords_Read LowMemoryRead
 * etw_opcode_Dispatchingofrequest.
 * etw_task_Port
-* version_2

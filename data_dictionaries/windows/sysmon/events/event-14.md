@@ -1,7 +1,8 @@
 # Event ID 14: RegistryEvent (Key and Value Rename)
+###### Version: 4.32
 
 ## Description
-Registry key and value rename operations map to this event type, recording the new name of the key or value that was renamed.
+**Registry key and value rename** operations map to this event type, recording the new name of the key or value that was renamed.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

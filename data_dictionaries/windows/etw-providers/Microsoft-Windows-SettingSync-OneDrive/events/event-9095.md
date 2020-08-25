@@ -1,4 +1,5 @@
 # Event 9095 - Perf_WLRoamGlobalEnable
+###### Version: 0
 
 ## Description
 None

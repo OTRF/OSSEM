@@ -1,4 +1,5 @@
 # Event 58 - Mshtml_NotifyGoesInteractive
+###### Version: 0
 
 ## Description
 None

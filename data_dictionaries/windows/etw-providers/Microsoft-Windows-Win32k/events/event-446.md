@@ -1,4 +1,5 @@
 # Event 446 - DCompCommandsInBatch
+###### Version: 0
 
 ## Description
 None

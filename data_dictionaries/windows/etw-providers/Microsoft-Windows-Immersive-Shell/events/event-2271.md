@@ -1,4 +1,5 @@
 # Event 2271 - SharingManager_RetrieveAppListingUri
+###### Version: 0
 
 ## Description
 None

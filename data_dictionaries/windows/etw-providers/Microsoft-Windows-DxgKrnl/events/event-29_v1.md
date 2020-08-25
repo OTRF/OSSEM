@@ -1,4 +1,5 @@
 # Event 29 - Device
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_Resource LongHaul
 * etw_opcode_DC_Start
 * etw_task_Device
-* version_1

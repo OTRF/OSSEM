@@ -1,4 +1,5 @@
 # Event 706 - WININET_HTTPS_CLIENT_CERT_REQUIRED
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 540 - BackgroundManagerTrace
+###### Version: 0
 
 ## Description
 None

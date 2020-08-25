@@ -1,4 +1,5 @@
 # Event 205 - WININET_HTTP_CONNECTION_CLOSED
+###### Version: 0
 
 ## Description
 None

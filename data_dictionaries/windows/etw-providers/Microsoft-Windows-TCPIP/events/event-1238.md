@@ -1,4 +1,5 @@
 # Event 1238 - RssProcessorConsolidation
+###### Version: 0
 
 ## Description
 None

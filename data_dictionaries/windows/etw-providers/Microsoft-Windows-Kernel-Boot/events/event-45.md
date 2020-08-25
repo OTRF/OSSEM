@@ -1,4 +1,5 @@
 # Event 45 - VsmIdkProvisioningStatus
+###### Version: 0
 
 ## Description
 None

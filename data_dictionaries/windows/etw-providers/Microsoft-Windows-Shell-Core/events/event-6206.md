@@ -1,4 +1,5 @@
 # Event 6206 - Thumbnails_CacheLookup
+###### Version: 0
 
 ## Description
 None

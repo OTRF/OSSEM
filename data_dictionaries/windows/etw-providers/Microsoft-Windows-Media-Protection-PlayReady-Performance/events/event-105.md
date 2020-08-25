@@ -1,4 +1,5 @@
 # Event 105 - MFTProcessingLoopStateOtherItemsInQueueStartInternal
+###### Version: 0
 
 ## Description
 None

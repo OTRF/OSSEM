@@ -1,4 +1,5 @@
 # Event 3079 - MiniportStop
+###### Version: 0
 
 ## Description
 None

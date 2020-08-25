@@ -1,4 +1,5 @@
 # Event ID 4656: A handle to an object was requested
+###### Version: 1
 
 ## Description
 This event indicates that specific access was requested for an object. The object could be a file system, kernel, or registry object, or a file system object on removable storage or a device.
@@ -35,7 +36,6 @@ This event indicates that specific access was requested for an object. The objec
 ## Tags
 * etw_level_Informational
 * etw_task_task_0
-* version_1
 * Object Access
 * Audit File System
 * Audit Kernel Object

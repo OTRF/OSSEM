@@ -1,4 +1,5 @@
 # Event 1001 - RunRegistryDlls
+###### Version: 0
 
 ## Description
 None

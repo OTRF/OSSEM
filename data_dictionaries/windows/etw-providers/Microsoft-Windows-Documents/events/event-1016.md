@@ -1,4 +1,5 @@
 # Event 1016 - DocPerf_Task_AddPrinter
+###### Version: 0
 
 ## Description
 None

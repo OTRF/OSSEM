@@ -1,4 +1,5 @@
 # Event 341 - Mshtml_CTouchHelper_DispatchTouchEvent
+###### Version: 0
 
 ## Description
 None

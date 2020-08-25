@@ -1,4 +1,5 @@
 # Event 118 - DpiAddDevice
+###### Version: 0
 
 ## Description
 None

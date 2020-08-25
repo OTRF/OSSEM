@@ -1,4 +1,5 @@
 # Event 304 - DeviceRegistrationRundown
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:RuntimeFx
 * etw_task_DeviceRegistrationRundown
-* version_1

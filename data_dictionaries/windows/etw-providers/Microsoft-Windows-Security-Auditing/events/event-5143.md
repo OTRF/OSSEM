@@ -1,4 +1,5 @@
 # Event ID 5143: A network share object was modified
+###### Version: 0
 
 ## Description
 This event generates every time network share object was modified.

@@ -1,4 +1,5 @@
 # Curl Table
+###### Version: 4.4.2
 
 ## Description
 Perform an http request and return stats about it.
@@ -16,6 +17,3 @@ Perform an http request and return stats about it.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#curl)
-
-## Tags
-* version_4.4.2

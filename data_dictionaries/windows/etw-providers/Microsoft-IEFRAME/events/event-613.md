@@ -1,4 +1,5 @@
 # Event 613 - Recovery_WriteInitialStore
+###### Version: 0
 
 ## Description
 None

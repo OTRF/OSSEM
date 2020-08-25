@@ -1,4 +1,5 @@
 # Event 2047 - Browseui_Forward_Button_Clicked
+###### Version: 0
 
 ## Description
 None

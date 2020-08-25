@@ -1,4 +1,5 @@
 # Event 4313 - ImmersiveMonitorHandleDisplayChange
+###### Version: 0
 
 ## Description
 None

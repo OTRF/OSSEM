@@ -1,4 +1,5 @@
 # Event 687 - Mshtml_CStorage
+###### Version: 0
 
 ## Description
 None

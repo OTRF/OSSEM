@@ -1,4 +1,5 @@
 # Event 8007 - UserAccount_AddUserWizard_OnlineWizardError
+###### Version: 0
 
 ## Description
 None

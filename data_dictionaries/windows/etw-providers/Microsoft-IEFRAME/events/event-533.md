@@ -1,4 +1,5 @@
 # Event 533 - DownloadWindow_Items_Removed
+###### Version: 0
 
 ## Description
 None

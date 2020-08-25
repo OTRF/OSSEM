@@ -2,15 +2,17 @@ title: Security Finding Format(SFF)
 description: AWS Security Finding Format common schema.
 platform: aws
 log_source: security_finding_format
+event_code: security_finding_format
+event_version: '0'
 event_fields:
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: AwsAccountId
   type: string
   description: The AWS account ID where a finding is generated.
-  sample_value: `111111111111`
+  sample_value: '111111111111'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Compliance
   type: object
   description: |
@@ -22,7 +24,7 @@ event_fields:
       "RelatedRequirements": ["Req1", "Req2"]
     }
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Confidence
   type: integer
   description: |
@@ -31,9 +33,9 @@ event_fields:
     0–100 basis using a ratio scale, where 0 means zero-percent confidence and 100 means 100-percent 
     confidence.However, a data exfiltration detection based on a statistical deviation of network traffic 
     has a much lower confidence because an actual exfiltration hasn't been verified.
-  sample_value: `42`
+  sample_value: '42'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: CreatedAt
   type: datetime
   description: | 
@@ -41,9 +43,9 @@ event_fields:
     that indicates when the potential security issue captured by a finding was created. 
     Because the CreatedAt timestamp reflects the time when the finding record was created, 
     it can differ from the FirstObservedAt timestamp, which reflects the time when the event or vulnerability was first observed.
-  sample_value: `2017-03-22T13:22:13.933Z`
+  sample_value: '2017-03-22T13:22:13.933Z'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Criticality
   type: integer
   description: |
@@ -55,16 +57,16 @@ event_fields:
     others but also how much more critical those resources are compared to other resources. 
     A score of 0 means that the underlying resources have no criticality, 
     and a score of 100 is reserved for the most critical resources.
-  sample_value: `99`
+  sample_value: '99'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Description
   type: string
   description: |
     A finding's description. This field can be nonspecific boilerplate text or details that are specific to the instance of the finding.
-  sample_value: `The version of openssl found on instance i-abcd1234 is known to contain a vulnerability.`
+  sample_value: 'The version of openssl found on instance i-abcd1234 is known to contain a vulnerability.'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: FirstObservedAt
   type: datetime
   description: |
@@ -72,23 +74,23 @@ event_fields:
     that indicates when the potential security issue captured by a finding was first observed.
     Because this timestamp reflects the time of when the event or vulnerability was first observed, 
     it can differ from the CreatedAt timestamp, which reflects the time this finding record was created
-  sample_value: `2017-03-22T13:22:13.933Z`
+  sample_value: '2017-03-22T13:22:13.933Z'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: GeneratorId
   type: string
   description: |
     The identifier for the solution-specific component (a discrete unit of logic) that generated a finding. 
     In various solutions from security findings products, this generator can be called a rule, a check, a detector, a plug-in, and so on.
-  sample_value: `acme-vuln-9ab348`
+  sample_value: 'acme-vuln-9ab348'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Id
   type: string
   description: The product-specific identifier for a finding.
-  sample_value: `us-west-2/111111111111/98aebb2207407c87f51e89943f12b1ef`
+  sample_value: 'us-west-2/111111111111/98aebb2207407c87f51e89943f12b1ef'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: LastObservedAt
   type: datetime
   description: |
@@ -97,9 +99,9 @@ event_fields:
     security findings product.Because this timestamp reflects the time of when the event or vulnerability was 
     last or most recently observed, it can differ from the UpdatedAt timestamp, which reflects the time this 
     finding record was last or most recently updated.
-  sample_value: `2017-03-23T13:22:13.933Z`
+  sample_value: '2017-03-23T13:22:13.933Z'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Malware
   type: array
   description: A list of malware related to a finding.
@@ -113,7 +115,7 @@ event_fields:
         }
     ]
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Network
   type: object
   description: The details of network-related information about a finding.
@@ -132,7 +134,7 @@ event_fields:
       "DestinationDomain": "there.com"
     }
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Note
   type: object
   description: A user-defined note that is added to a finding.
@@ -143,7 +145,7 @@ event_fields:
       "UpdatedAt": "2018-08-31T00:15:09Z"
     }
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Process
   type: object
   description: The details of process-related information about a finding.
@@ -157,16 +159,16 @@ event_fields:
       "TerminatedAt": "2018-09-27T23:37:31Z"
     }
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: ProductArn
   type: string
   description: |
     The ARN generated by Security Hub that uniquely identifies a third-party findings product after the product 
     is registered with Security Hub.
     The format of this field is arn:partition:securityhub:region:account-id:product/company-id/product-id.
-  sample_value: `arn:aws:securityhub:us-west-2::product/aws/guardduty`
+  sample_value: 'arn:aws:securityhub:us-west-2::product/aws/guardduty'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: ProductFields
   type: string
   description: | 
@@ -184,7 +186,7 @@ event_fields:
       "aws/inspector/RulesPackageName": "Common Vulnerabilities and Exposures"
     }
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: RecordState
   type: string
   description: |
@@ -193,9 +195,9 @@ event_fields:
     Archived findings aren't deleted and remain in the service historically. 
     You can search, review, and report against them at any time.
     Valid values: ACTIVE , ARCHIVED.
-  sample_value: `ACTIVE`
+  sample_value: 'ACTIVE'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: RelatedFindings
   type: array
   description: A list of related findings.
@@ -209,7 +211,7 @@ event_fields:
       }
     ]
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Remediation
   type: object
   description: The remediation options for a finding.
@@ -222,7 +224,7 @@ event_fields:
       }
     }
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Resources
   type: string
   description: A set of resource data types that describe the resources that the finding refers to.
@@ -256,16 +258,16 @@ event_fields:
       }
     ]
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: SchemaVersion
   type: string
   description: |
     The schema version that a finding is formatted for. 
     The value of this field must be one of the officially published versions identified by AWS. 
     In the current release, the AWS Security Finding Format schema version is 2018-10-08.
-  sample_value: `2018-10-08`
+  sample_value: '2018-10-08'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Severity
   type: object
   description: |
@@ -276,13 +278,13 @@ event_fields:
       "Label": "CRITICAL","Product": 8.3
     }
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: SourceUrl
   type: string
   description: A URL that links to a page about the current finding in the finding product.
-  sample_value: `TBD`
+  sample_value: 'TBD'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: ThreatIntelIndicators
   type: array
   description: Threat intelligence details that are related to a finding.
@@ -298,14 +300,14 @@ event_fields:
       }
     ]
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Title
   type: string
   description: |
     A finding's title. This field can contain nonspecific boilerplate text or details that are specific to this instance of the finding.
-  sample_value: `TBD`
+  sample_value: 'TBD'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Types
   type: string
   description: | 
@@ -319,9 +321,9 @@ event_fields:
     If you specify a classifier, you must also specify a category.
     The '/' character is reserved and must not be used in a category or classifier. 
     Escaping the '/' character is not supported.
-  sample_value: `["Software and Configuration Checks/Vulnerabilities/CVE"]`
+  sample_value: '["Software and Configuration Checks/Vulnerabilities/CVE"]'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: UpdatedAt
   type: datetime
   description: |
@@ -332,9 +334,9 @@ event_fields:
     or most recently observed.When you update the finding record, you must update this timestamp to the current timestamp. 
     Upon creation of a finding record, the CreatedAt and UpdatedAt timestamps must be the same timestamp. 
     After an update to the finding record, the value of this field must be greater than all of the previous values that it contained.
-  sample_value: `2017-03-23T13:22:13.933Z`
+  sample_value: '2017-03-23T13:22:13.933Z'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: UserDefinedFields
   type: string
   description: | 
@@ -350,7 +352,7 @@ event_fields:
       "comeBackToLater": "Check this again on Monday"
     }
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: VerificationState
   type: string
   description: |
@@ -363,9 +365,9 @@ event_fields:
     * FALSE_POSITIVE – A user sets this value if the security finding has been determined to be a false alarm.
     * BENIGN_POSITIVE – A user sets this value as a special case of TRUE_POSITIVE where the finding doesn't 
       pose any threat, is expected, or both
-  sample_value: `TRUE_POSITIVE`
+  sample_value: 'TRUE_POSITIVE'
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: Workflow
   type: string
   description: Provides information about the status of the investigation into a finding.
@@ -374,7 +376,7 @@ event_fields:
       "Status": "NEW"
     }
 - standard_name: TBD
-  standard_name: TBD
+  standard_type: TBD
   name: WorkflowState (deprecated)
   type: string
   description: |
@@ -396,7 +398,7 @@ event_fields:
       in the active dataset.
     * DUPLICATE – This can be associated with findings in the Archived record state. 
       It means that the finding is a duplicate of another finding.
-  sample_value: `NEW`
+  sample_value: 'NEW'
 references:
   - text: AWS Security Finding Format (ASFF) Syntax
     link: https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-findings-format.html#securityhub-findings-format-syntax
@@ -405,4 +407,4 @@ references:
   - text: Available third-party partner product integrations
     link: https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html
 tags:
-  - 2018-10-08
+  - '2018-10-08'

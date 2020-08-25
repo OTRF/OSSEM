@@ -1,4 +1,5 @@
 # Event 30 - SmartUserPresenceIntevalsClear
+###### Version: 0
 
 ## Description
 None

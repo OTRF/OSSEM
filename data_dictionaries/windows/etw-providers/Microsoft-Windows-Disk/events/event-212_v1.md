@@ -1,4 +1,5 @@
 # Event 212 - Class
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_IOCTL
 * etw_opcode_Dispatchingofrequest.
 * etw_task_Class
-* version_1

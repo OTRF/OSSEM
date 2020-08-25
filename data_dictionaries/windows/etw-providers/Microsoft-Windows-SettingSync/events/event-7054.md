@@ -1,4 +1,5 @@
 # Event 7054 - Perf_WLRoamGlobalEnable
+###### Version: 0
 
 ## Description
 None

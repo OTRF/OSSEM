@@ -1,4 +1,5 @@
 # Event 1001 - DxgkDdiMiracastQueryCaps
+###### Version: 0
 
 ## Description
 None

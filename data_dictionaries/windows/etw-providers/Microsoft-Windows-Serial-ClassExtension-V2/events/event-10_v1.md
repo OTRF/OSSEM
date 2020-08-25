@@ -1,4 +1,5 @@
 # Event 10 - I/Orequest.
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_TransferStateMachine TransmitTransferStateMachine
 * etw_opcode_I/OStateMachineoperation.
 * etw_task_I/Orequest.
-* version_1

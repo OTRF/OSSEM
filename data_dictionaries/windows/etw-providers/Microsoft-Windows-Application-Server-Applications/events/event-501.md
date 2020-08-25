@@ -1,4 +1,5 @@
 # Event 501 - ServiceHostCompilation
+###### Version: 0
 
 ## Description
 None

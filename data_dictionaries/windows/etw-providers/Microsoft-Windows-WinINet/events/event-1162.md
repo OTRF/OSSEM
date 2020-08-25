@@ -1,4 +1,5 @@
 # Event 1162 - Wininet_HstsServerContainer
+###### Version: 0
 
 ## Description
 None

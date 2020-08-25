@@ -1,4 +1,5 @@
 # Event 6230 - Thumbnails_WriteThumbsDB
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 119 - ETWGUID_DWMUPDATEBLTTRANSLATION_RECT
+###### Version: 0
 
 ## Description
 None

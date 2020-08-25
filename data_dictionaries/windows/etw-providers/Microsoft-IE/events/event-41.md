@@ -1,4 +1,5 @@
 # Event 41 - Mshtml_CHtmPre_Suspend
+###### Version: 0
 
 ## Description
 None

@@ -4,8 +4,8 @@
 None
 
 ## Sub Data Sets
-||Description|Tags|
-|---|---|---|
+||Version|Description|Tags|
+|---|---|---|---|
 
 ## References
 * [Diagnostic Logs](https://docs.zeek.org/en/stable/script-reference/log-files.html#zeek-diagnostics)

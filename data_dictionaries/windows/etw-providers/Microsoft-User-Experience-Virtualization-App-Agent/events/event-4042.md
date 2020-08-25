@@ -1,4 +1,5 @@
 # Event 4042 - Local/remotechangemanager,offlinefiles
+###### Version: 0
 
 ## Description
 None

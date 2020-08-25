@@ -1,4 +1,5 @@
 # Event 356 - SHADERS_EFFECT_COMPILE_INFO
+###### Version: 0
 
 ## Description
 None

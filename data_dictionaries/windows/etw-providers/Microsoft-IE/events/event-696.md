@@ -1,4 +1,5 @@
 # Event 696 - Mshtml_CDoubleTap_IsDoubleTapAllowed
+###### Version: 0
 
 ## Description
 None

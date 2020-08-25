@@ -1,4 +1,5 @@
 # Event 306 - PagingOpVirtualTransfer
+###### Version: 1
 
 ## Description
 None
@@ -27,4 +28,3 @@ None
 * etw_level_Always
 * etw_keywords_Resource
 * etw_task_PagingOpVirtualTransfer
-* version_1

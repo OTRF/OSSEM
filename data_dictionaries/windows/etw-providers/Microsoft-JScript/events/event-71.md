@@ -1,4 +1,5 @@
 # Event 71 - Jscript_GC_ScanRoots
+###### Version: 0
 
 ## Description
 None

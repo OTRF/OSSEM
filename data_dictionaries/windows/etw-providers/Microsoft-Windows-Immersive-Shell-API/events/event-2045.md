@@ -1,4 +1,5 @@
 # Event 2045 - CoreApplicationViewInitializationProcessAndThread
+###### Version: 0
 
 ## Description
 None

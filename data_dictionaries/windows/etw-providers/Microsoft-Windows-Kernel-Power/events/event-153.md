@@ -1,4 +1,5 @@
 # Event 153 - CoolingExtensionRemove
+###### Version: 0
 
 ## Description
 None

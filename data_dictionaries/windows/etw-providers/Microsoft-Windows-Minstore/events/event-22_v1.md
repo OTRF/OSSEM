@@ -1,4 +1,5 @@
 # Event 22 - Allocation
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Verbose
 * etw_opcode_Allocationrange
 * etw_task_Allocation
-* version_1

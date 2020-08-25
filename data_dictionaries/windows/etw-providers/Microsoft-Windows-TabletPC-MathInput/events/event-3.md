@@ -1,4 +1,5 @@
 # Event 3 - StrokeErase
+###### Version: 0
 
 ## Description
 None

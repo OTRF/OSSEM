@@ -1,4 +1,5 @@
 # Event 602 - WININET_AUTH_CLIENT_SETS_USERNAME
+###### Version: 0
 
 ## Description
 None

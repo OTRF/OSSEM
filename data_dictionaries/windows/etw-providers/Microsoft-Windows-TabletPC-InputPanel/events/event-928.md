@@ -1,4 +1,5 @@
 # Event 928 - SoftKeyboard_CandidatePane_PerfTrack_ScrollToSecondDataSource_JPN
+###### Version: 0
 
 ## Description
 None

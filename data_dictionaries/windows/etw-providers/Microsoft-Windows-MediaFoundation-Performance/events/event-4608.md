@@ -1,4 +1,5 @@
 # Event 4608 - MFContentDecryptorContextInitializeKeytask
+###### Version: 0
 
 ## Description
 None

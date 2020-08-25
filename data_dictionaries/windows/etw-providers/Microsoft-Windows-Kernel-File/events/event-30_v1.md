@@ -1,4 +1,5 @@
 # Event 30 - CreateNewFile
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Informational
 * etw_keywords_KERNEL_FILE_KEYWORD_CREATE_NEW_FILE
 * etw_task_CreateNewFile
-* version_1

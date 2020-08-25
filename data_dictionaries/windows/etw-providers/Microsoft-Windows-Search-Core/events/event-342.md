@@ -1,4 +1,5 @@
 # Event 342 - ReleaseWordBreaker
+###### Version: 0
 
 ## Description
 None

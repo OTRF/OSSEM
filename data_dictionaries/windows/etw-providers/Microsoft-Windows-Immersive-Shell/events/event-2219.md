@@ -1,4 +1,5 @@
 # Event 2219 - SharingManager_ActivateTarget
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 702 - Mshtml_DragAndDrop_Fire_DragEnter
+###### Version: 0
 
 ## Description
 None

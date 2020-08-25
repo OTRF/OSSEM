@@ -1,4 +1,5 @@
 # Event 79 - PALManagementChannel
+###### Version: 0
 
 ## Description
 None

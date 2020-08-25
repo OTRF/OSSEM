@@ -1,4 +1,5 @@
 # Chocolatey_packages Table
+###### Version: 4.4.2
 
 ## Description
 Chocolatey packages installed in a system.
@@ -15,6 +16,3 @@ Chocolatey packages installed in a system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#chocolatey_packages)
-
-## Tags
-* version_4.4.2

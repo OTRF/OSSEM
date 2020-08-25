@@ -1,4 +1,5 @@
 # Event 233 - CSearchCrawlScopeManager_RevertToDefaultScopes
+###### Version: 0
 
 ## Description
 None

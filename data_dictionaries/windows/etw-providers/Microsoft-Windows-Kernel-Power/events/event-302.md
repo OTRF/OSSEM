@@ -1,4 +1,5 @@
 # Event 302 - DevicePreparation
+###### Version: 0
 
 ## Description
 None

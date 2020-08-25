@@ -1,4 +1,5 @@
 # Event 9075 - Perf_WLRoamCheckIfBackupFolderExistsUnderDeviceRoot
+###### Version: 0
 
 ## Description
 None

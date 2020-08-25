@@ -1,4 +1,5 @@
 # Winbaseobj Table
+###### Version: 4.4.2
 
 ## Description
 Lists named Windows objects in the default object directories, across all terminal services sessions.
@@ -12,6 +13,3 @@ Lists named Windows objects in the default object directories, across all termin
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#winbaseobj)
-
-## Tags
-* version_4.4.2

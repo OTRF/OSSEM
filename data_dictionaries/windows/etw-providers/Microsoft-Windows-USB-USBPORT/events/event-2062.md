@@ -1,4 +1,5 @@
 # Event 2062 - MiniportResume
+###### Version: 0
 
 ## Description
 None

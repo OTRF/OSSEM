@@ -1,4 +1,5 @@
 # Event 4328 - MFGraphGetType
+###### Version: 0
 
 ## Description
 None

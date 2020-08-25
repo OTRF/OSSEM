@@ -1,4 +1,5 @@
 # Event 347 - Debugger_WatchWindowView_RefreshView
+###### Version: 0
 
 ## Description
 None

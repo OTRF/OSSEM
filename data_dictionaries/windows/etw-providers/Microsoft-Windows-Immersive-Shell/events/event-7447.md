@@ -1,4 +1,5 @@
 # Event 7447 - ConnectedSearch_BlockingTemplateDownload
+###### Version: 0
 
 ## Description
 None

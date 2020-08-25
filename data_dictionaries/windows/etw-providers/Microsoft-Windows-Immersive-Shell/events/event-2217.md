@@ -1,4 +1,5 @@
 # Event 2217 - SharingManager_GetQuickShareTarget
+###### Version: 0
 
 ## Description
 None

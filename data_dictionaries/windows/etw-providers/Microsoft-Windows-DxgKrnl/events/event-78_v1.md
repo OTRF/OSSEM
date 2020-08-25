@@ -1,4 +1,5 @@
 # Event 78 - ReportSegment
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_level_Always
 * etw_keywords_Base
 * etw_task_ReportSegment
-* version_1

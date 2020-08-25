@@ -1,4 +1,5 @@
 # Event 30 - TaskID:IME_JPN_HWKBD_CandUIProcess
+###### Version: 0
 
 ## Description
 None

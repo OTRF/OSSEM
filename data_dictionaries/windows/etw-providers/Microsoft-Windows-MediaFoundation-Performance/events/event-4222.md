@@ -1,4 +1,5 @@
 # Event 4222 - SourceResolutionSchemeHandlerBeginCreateObject
+###### Version: 0
 
 ## Description
 None

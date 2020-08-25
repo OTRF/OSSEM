@@ -1,4 +1,5 @@
 # Event 1012 - GPIObankinterruptflowthroughMSGPIOCLX
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Informational
 * etw_opcode_InterruptInvokeDeviceIsrStart
 * etw_task_GPIObankinterruptflowthroughMSGPIOCLX
-* version_1

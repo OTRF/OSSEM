@@ -1,4 +1,5 @@
 # Event 5989 - AppActivation_Log_GenericFailure
+###### Version: 0
 
 ## Description
 None

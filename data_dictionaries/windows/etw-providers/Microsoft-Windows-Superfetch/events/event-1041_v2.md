@@ -1,4 +1,5 @@
 # Event 1041 - PrelaunchHeartBeat
+###### Version: 2
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_PfAp
 * etw_opcode_Stop
 * etw_task_PrelaunchHeartBeat
-* version_2

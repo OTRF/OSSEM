@@ -1,4 +1,5 @@
 # Bitlocker_info Table
+###### Version: 4.4.2
 
 ## Description
 Retrieve bitlocker status of the machine.
@@ -18,6 +19,3 @@ Retrieve bitlocker status of the machine.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#bitlocker_info)
-
-## Tags
-* version_4.4.2

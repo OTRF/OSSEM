@@ -1,4 +1,5 @@
 # Event 302 - ResourceManager
+###### Version: 0
 
 ## Description
 None

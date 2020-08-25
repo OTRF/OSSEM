@@ -1,4 +1,5 @@
 # Event 2163 - Picker_AppInstanceView_Closing
+###### Version: 0
 
 ## Description
 None

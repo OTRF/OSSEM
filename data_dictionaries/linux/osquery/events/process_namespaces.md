@@ -1,4 +1,5 @@
 # Process_namespaces Table
+###### Version: 4.4.2
 
 ## Description
 Linux namespaces for processes running on the host system.
@@ -17,6 +18,3 @@ Linux namespaces for processes running on the host system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#process_namespaces)
-
-## Tags
-* version_4.4.2

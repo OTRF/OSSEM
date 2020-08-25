@@ -1,4 +1,5 @@
 # Event 1130 - MediaFoundationAsyncWrapperHaveOutput
+###### Version: 0
 
 ## Description
 None

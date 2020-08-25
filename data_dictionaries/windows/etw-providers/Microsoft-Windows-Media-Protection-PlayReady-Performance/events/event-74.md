@@ -1,4 +1,5 @@
 # Event 74 - CBlackboxWithTEEPrepareBootstrapProvisioningChallengeForNetwork
+###### Version: 0
 
 ## Description
 None

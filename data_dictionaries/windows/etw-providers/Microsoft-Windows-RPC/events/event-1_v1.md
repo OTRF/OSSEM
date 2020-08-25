@@ -1,4 +1,5 @@
 # Event 1 - RpcClientCall
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_level_Error
 * etw_opcode_Stop
 * etw_task_RpcClientCall
-* version_1

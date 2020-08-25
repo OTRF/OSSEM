@@ -1,4 +1,5 @@
 # Event 101 - ErrorDetected
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_level_Informational
 * etw_opcode_B+noderepairedviaredundantcopy
 * etw_task_ErrorDetected
-* version_1

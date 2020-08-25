@@ -1,4 +1,5 @@
 # Event 5951 - AppActivation_Log_NotRegistered
+###### Version: 0
 
 ## Description
 None

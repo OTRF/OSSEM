@@ -1,4 +1,5 @@
 # Event 506 - WININET_COOKIE_REQUEST_HEADER_CREATED
+###### Version: 0
 
 ## Description
 None

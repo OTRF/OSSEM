@@ -1,4 +1,5 @@
 # Event 1092 - SetVidPnSourceVisibility
+###### Version: 0
 
 ## Description
 None

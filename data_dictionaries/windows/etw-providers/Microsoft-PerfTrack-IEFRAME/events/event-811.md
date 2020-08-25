@@ -1,4 +1,5 @@
 # Event 811 - CIMNavBar_Hide_Perftrack
+###### Version: 0
 
 ## Description
 None

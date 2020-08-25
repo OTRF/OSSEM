@@ -1,4 +1,5 @@
 # Event 807 - WINHTTP_AUTOPROXY_DNS
+###### Version: 0
 
 ## Description
 None

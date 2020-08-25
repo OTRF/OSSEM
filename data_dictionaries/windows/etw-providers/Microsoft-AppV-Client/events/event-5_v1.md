@@ -1,4 +1,5 @@
 # Event 5 - UserLogon
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_Logon
 * etw_opcode_Start
 * etw_task_UserLogon
-* version_1

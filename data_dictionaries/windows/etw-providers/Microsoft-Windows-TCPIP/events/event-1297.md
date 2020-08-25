@@ -1,4 +1,5 @@
 # Event 1297 - Ndkpi_Open_Adapter
+###### Version: 0
 
 ## Description
 None

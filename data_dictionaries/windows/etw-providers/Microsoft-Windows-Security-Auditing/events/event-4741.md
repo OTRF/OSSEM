@@ -1,4 +1,5 @@
 # Event ID 4741: A computer account was created
+###### Version: 0
 
 ## Description
 This event generates every time a new computer object is created. This event generates only on domain controllers.

@@ -1,4 +1,5 @@
 # Event 18 - BootmgrEntryCount
+###### Version: 0
 
 ## Description
 None

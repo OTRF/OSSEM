@@ -1,4 +1,5 @@
 # Event 1028 - Wininet_AutodialIfNotLocalHost
+###### Version: 0
 
 ## Description
 None

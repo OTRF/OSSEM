@@ -1,4 +1,5 @@
 # Event 4032 - CorporateSuspectstate
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Scheduled_tasks Table
+###### Version: 4.4.2
 
 ## Description
 Lists all of the tasks in the Windows task scheduler.
@@ -19,6 +20,3 @@ Lists all of the tasks in the Windows task scheduler.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#scheduled_tasks)
-
-## Tags
-* version_4.4.2

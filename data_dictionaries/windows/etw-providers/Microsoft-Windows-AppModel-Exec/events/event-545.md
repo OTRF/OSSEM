@@ -1,4 +1,5 @@
 # Event 545 - BackgroundManagerTrace
+###### Version: 0
 
 ## Description
 None

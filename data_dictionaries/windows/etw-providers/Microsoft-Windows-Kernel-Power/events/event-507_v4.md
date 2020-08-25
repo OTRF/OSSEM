@@ -1,4 +1,5 @@
 # Event 507 - CsExitReason
+###### Version: 4
 
 ## Description
 None
@@ -29,4 +30,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:Diagnostic po:SleepStudy po:DiagnosticLight
 * etw_task_CsExitReason
-* version_4

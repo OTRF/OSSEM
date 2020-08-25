@@ -1,4 +1,5 @@
 # Event ID 5447: A Windows Filtering Platform filter has been changed.
+###### Version: 0
 
 ## Description
 This event generates every time a Windows Filtering Platform.

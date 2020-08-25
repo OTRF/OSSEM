@@ -1,4 +1,5 @@
 # Event 824 - Mshtml_Gwnd_Task_Queued
+###### Version: 0
 
 ## Description
 None

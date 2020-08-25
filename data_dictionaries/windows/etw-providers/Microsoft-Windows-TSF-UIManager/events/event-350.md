@@ -1,4 +1,5 @@
 # Event 350 - CandidateView_Click
+###### Version: 0
 
 ## Description
 None

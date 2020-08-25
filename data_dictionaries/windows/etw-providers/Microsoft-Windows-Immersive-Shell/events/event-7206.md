@@ -1,4 +1,5 @@
 # Event 7206 - ConnectedSearch_LogWebClick
+###### Version: 0
 
 ## Description
 None

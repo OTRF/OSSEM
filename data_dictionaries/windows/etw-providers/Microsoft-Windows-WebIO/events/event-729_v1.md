@@ -1,4 +1,5 @@
 # Event 729 - SSLAcquireCredentialsHandle
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_keywords_Keyword.SECURITY
 * etw_opcode_Stop
 * etw_task_SSLAcquireCredentialsHandle
-* version_1

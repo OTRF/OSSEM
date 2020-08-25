@@ -1,4 +1,5 @@
 # Event 583 - Browseui_Tabs_Activity_Hide
+###### Version: 0
 
 ## Description
 None

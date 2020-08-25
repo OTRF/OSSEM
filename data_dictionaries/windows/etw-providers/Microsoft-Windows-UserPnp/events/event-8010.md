@@ -1,4 +1,5 @@
 # Event 8010 - FinishInstallOperationsstatehaschanged.
+###### Version: 0
 
 ## Description
 None

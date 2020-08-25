@@ -1,4 +1,5 @@
 # Event 1000 - Startupofthedrivermanagerservice.
+###### Version: 1
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Informational
 * etw_opcode_Start
 * etw_task_Startupofthedrivermanagerservice.
-* version_1

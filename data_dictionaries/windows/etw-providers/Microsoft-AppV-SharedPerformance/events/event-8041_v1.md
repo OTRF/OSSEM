@@ -1,4 +1,5 @@
 # Event 8041 - PublishPackage_1515
+###### Version: 1
 
 ## Description
 None
@@ -11,4 +12,3 @@ None
 ## Tags
 * etw_opcode_Stop
 * etw_task_PublishPackage_1515
-* version_1

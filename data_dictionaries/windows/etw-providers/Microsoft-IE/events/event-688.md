@@ -1,4 +1,5 @@
 # Event 688 - Mshtml_CStorage
+###### Version: 0
 
 ## Description
 None

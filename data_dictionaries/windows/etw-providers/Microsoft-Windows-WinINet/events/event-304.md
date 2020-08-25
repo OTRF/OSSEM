@@ -1,4 +1,5 @@
 # Event 304 - WININET_DNS_QUERY
+###### Version: 0
 
 ## Description
 None

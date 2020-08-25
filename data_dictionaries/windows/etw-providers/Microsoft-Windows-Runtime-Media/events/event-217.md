@@ -1,4 +1,5 @@
 # Event 217 - MediaCapturePhotoSequenceStartoperation
+###### Version: 0
 
 ## Description
 None

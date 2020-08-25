@@ -1,4 +1,5 @@
 # Event 315 - MediaCaptureAdvancedPhotoPrepareoperation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 4088 - NetworkSessionOpen
+###### Version: 0
 
 ## Description
 None

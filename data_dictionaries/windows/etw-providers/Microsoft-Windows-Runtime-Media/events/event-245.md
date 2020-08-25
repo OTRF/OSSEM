@@ -1,4 +1,5 @@
 # Event 245 - MediaCapturePhotoConfirmation
+###### Version: 0
 
 ## Description
 None

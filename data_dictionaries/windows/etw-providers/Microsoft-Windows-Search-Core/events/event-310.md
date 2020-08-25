@@ -1,4 +1,5 @@
 # Event 310 - Wordlist_BeginResource_InvalidatedPreviousDoc
+###### Version: 0
 
 ## Description
 None

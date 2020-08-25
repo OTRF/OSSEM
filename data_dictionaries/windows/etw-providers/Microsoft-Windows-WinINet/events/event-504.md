@@ -1,4 +1,5 @@
 # Event 504 - WININET_COOKIE_BLOCKED
+###### Version: 0
 
 ## Description
 None

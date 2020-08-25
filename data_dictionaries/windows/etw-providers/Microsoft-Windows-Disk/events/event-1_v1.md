@@ -1,4 +1,5 @@
 # Event 1 - DiskCacheInformation
+###### Version: 1
 
 ## Description
 None
@@ -22,4 +23,3 @@ None
 * etw_keywords_DiskCache
 * etw_opcode_OpCodeDiskCacheInfo
 * etw_task_DiskCacheInformation
-* version_1

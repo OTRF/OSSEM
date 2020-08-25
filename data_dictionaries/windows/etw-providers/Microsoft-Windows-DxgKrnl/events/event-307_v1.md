@@ -1,4 +1,5 @@
 # Event 307 - PagingOpVirtualFill
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_level_Always
 * etw_keywords_Resource
 * etw_task_PagingOpVirtualFill
-* version_1

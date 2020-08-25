@@ -1,4 +1,5 @@
 # Event 50 - PALManagementChannel
+###### Version: 0
 
 ## Description
 None

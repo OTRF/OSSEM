@@ -1,4 +1,5 @@
 # Event ID 6421: A request was made to enable a device.
+###### Version: 0
 
 ## Description
 This event generates every time when someone made a request to enable a device.

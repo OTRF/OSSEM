@@ -1,4 +1,5 @@
 # Event 70 - ApipGetGlobalState
+###### Version: 0
 
 ## Description
 None

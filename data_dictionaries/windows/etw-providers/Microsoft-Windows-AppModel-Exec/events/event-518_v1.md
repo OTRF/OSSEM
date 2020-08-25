@@ -1,4 +1,5 @@
 # Event 518 - BM_TryAcquireHostResourceSet
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Verbose
 * etw_keywords_BM ExecProductionCircular ExecDevPlatCircular
 * etw_task_BM_TryAcquireHostResourceSet
-* version_1

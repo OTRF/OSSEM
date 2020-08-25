@@ -1,4 +1,5 @@
 # Event 146 - Mshtml_PrivacIE_AddToUserList
+###### Version: 0
 
 ## Description
 None

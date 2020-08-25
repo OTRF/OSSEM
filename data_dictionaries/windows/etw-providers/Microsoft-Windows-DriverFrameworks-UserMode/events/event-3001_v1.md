@@ -1,4 +1,5 @@
 # Event 3001 - PnporPowerManagementoperationtoaparticulardriverinadevicestack.
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 ## Tags
 * etw_level_Verbose
 * etw_task_PnporPowerManagementoperationtoaparticulardriverinadevicestack.
-* version_1

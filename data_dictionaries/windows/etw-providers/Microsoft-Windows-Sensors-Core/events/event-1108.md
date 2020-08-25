@@ -1,4 +1,5 @@
 # Event 1108 - SensorsDefaultDeviceSelectionTask
+###### Version: 0
 
 ## Description
 None

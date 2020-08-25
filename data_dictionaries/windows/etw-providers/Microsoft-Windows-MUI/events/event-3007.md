@@ -1,4 +1,5 @@
 # Event 3007 - MUIresourcecachebuilder
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1012 - DocPerf_Task_EnumPrinters
+###### Version: 0
 
 ## Description
 None

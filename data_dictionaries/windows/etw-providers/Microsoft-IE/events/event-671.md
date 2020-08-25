@@ -1,4 +1,5 @@
 # Event 671 - Mshtml_TouchDiagnosis_GenericInfo_Output
+###### Version: 0
 
 ## Description
 None

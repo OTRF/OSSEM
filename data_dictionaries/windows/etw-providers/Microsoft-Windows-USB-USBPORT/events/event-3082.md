@@ -1,4 +1,5 @@
 # Event 3082 - MiniportResume
+###### Version: 0
 
 ## Description
 None

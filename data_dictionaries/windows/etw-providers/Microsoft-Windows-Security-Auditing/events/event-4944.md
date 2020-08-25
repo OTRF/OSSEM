@@ -1,4 +1,5 @@
 # Event ID 4944: The following policy was active when the Windows Firewall started.
+###### Version: 0
 
 ## Description
 This event generates every time Windows Firewall service starts.

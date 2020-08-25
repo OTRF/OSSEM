@@ -1,4 +1,5 @@
 # Event 1016 - WinNatMemoryAllocationFailure
+###### Version: 0
 
 ## Description
 None

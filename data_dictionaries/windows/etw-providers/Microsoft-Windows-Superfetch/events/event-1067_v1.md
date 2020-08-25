@@ -1,4 +1,5 @@
 # Event 1067 - PageCombining
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_Combine
 * etw_opcode_Stop
 * etw_task_PageCombining
-* version_1

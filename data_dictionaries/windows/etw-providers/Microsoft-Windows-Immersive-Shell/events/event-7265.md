@@ -1,4 +1,5 @@
 # Event 7265 - ConnectedSearch_LogHttpError
+###### Version: 0
 
 ## Description
 None

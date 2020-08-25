@@ -1,4 +1,5 @@
 # Event 206 - EarlyLaunchAntiMalware
+###### Version: 0
 
 ## Description
 None

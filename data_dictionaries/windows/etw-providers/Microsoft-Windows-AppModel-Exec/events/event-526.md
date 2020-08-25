@@ -1,4 +1,5 @@
 # Event 526 - BackgroundManagerTrace
+###### Version: 0
 
 ## Description
 None

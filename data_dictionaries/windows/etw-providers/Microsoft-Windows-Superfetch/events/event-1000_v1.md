@@ -1,4 +1,5 @@
 # Event 1000 - VirtualRebalance
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_Store
 * etw_opcode_Start
 * etw_task_VirtualRebalance
-* version_1

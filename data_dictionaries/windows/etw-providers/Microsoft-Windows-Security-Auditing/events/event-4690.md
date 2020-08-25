@@ -1,4 +1,5 @@
 # Event ID 4690: An attempt was made to duplicate a handle to an object.
+###### Version: 0
 
 ## Description
 This event generates if an attempt was made to duplicate a handle to an object.

@@ -1,4 +1,5 @@
 # Event 863 - Connectionreconfigured
+###### Version: 0
 
 ## Description
 None

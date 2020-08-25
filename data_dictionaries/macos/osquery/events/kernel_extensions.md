@@ -1,4 +1,5 @@
 # Kernel_extensions Table
+###### Version: 4.4.2
 
 ## Description
 OS X's kernel extensions, both loaded and within the load search path.
@@ -15,6 +16,3 @@ OS X's kernel extensions, both loaded and within the load search path.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#kernel_extensions)
-
-## Tags
-* version_4.4.2

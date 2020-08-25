@@ -1,4 +1,5 @@
 # Prometheus_metrics Table
+###### Version: 4.4.2
 
 ## Description
 Retrieve metrics from a Prometheus server.
@@ -13,6 +14,3 @@ Retrieve metrics from a Prometheus server.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#prometheus_metrics)
-
-## Tags
-* version_4.4.2

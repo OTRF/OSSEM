@@ -1,4 +1,5 @@
 # Event 1804 - IDXGIDevice3_Trim
+###### Version: 0
 
 ## Description
 None

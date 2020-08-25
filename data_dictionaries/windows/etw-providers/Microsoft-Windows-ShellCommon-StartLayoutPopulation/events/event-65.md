@@ -1,4 +1,5 @@
 # Event 65 - CollectionInitializedWithoutPermission
+###### Version: 0
 
 ## Description
 None

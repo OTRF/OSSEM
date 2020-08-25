@@ -1,4 +1,5 @@
 # Event 4342 - MFGraphGetRate
+###### Version: 0
 
 ## Description
 None

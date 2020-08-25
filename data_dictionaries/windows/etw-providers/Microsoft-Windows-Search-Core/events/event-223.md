@@ -1,4 +1,5 @@
 # Event 223 - CSearchCrawlScopeManager_HasParentScopeRule
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 136 - GenerateTextPatternText
+###### Version: 0
 
 ## Description
 None

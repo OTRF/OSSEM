@@ -1,7 +1,8 @@
 # Event ID 20: WmiEvent (WmiEventConsumer activity detected)
+###### Version: 4.32
 
 ## Description
-This event logs the registration of WMI consumers, recording the consumer name, log, and destination.
+This event logs the **registration of WMI consumers**, recording the consumer name, log, and destination.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

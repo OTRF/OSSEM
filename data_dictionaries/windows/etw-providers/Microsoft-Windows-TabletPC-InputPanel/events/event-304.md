@@ -1,4 +1,5 @@
 # Event 304 - IHM_DesktopSwitch
+###### Version: 0
 
 ## Description
 None

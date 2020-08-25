@@ -1,4 +1,5 @@
 # Event 24 - QueryStats
+###### Version: 0
 
 ## Description
 None

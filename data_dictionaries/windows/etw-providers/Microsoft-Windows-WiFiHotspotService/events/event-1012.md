@@ -1,4 +1,5 @@
 # Event 1012 - HotspotService
+###### Version: 0
 
 ## Description
 None

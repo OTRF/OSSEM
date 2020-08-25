@@ -1,4 +1,5 @@
 # Event 47 - IOThreadRetirement
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_ThreadingKeyword
 * etw_opcode_Stop
 * etw_task_IOThreadRetirement
-* version_1

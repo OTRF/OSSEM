@@ -1,4 +1,5 @@
 # Event 3003 - HotspotUtils
+###### Version: 0
 
 ## Description
 None

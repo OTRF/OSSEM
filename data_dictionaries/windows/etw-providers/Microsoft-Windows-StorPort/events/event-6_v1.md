@@ -1,4 +1,5 @@
 # Event 6 - LinkUpnotification
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_PortNotification
 * etw_opcode_OpCodeLinkUp
 * etw_task_LinkUpnotification
-* version_1

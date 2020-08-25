@@ -1,4 +1,5 @@
 # Event 1309 - TcpDetachNotificationChannel
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 7257 - ConnectedSearch_LogLayoutPayload
+###### Version: 0
 
 ## Description
 None

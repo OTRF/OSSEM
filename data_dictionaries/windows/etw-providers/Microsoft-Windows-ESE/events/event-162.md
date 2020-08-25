@@ -1,4 +1,5 @@
 # Event 162 - ESE_DiskOsStorageWriteCacheProp_Trace
+###### Version: 0
 
 ## Description
 None

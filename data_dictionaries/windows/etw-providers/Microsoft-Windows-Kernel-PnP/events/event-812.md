@@ -1,4 +1,5 @@
 # Event 812 - ReenumerateDeviceTree
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 134 - AddDevice
+###### Version: 0
 
 ## Description
 None

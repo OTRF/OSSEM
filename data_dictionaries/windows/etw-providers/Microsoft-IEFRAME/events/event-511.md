@@ -1,4 +1,5 @@
 # Event 511 - EmptyTab_Reuse_ReuseTabThread_Failed
+###### Version: 0
 
 ## Description
 None

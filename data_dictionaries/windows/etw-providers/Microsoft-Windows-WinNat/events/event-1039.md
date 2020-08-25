@@ -1,4 +1,5 @@
 # Event 1039 - WinNatMTaskGenericEventError
+###### Version: 0
 
 ## Description
 None

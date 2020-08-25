@@ -1,4 +1,5 @@
 # Event 6228 - Thumbnails_LoadFromThumbsDB
+###### Version: 0
 
 ## Description
 None

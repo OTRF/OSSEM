@@ -1,4 +1,5 @@
 # Event 278 - VidMmDereferenceObjectAsync
+###### Version: 0
 
 ## Description
 None

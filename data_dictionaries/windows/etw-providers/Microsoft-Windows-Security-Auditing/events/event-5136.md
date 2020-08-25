@@ -1,4 +1,5 @@
 # Event ID 5136: A directory service object was modified
+###### Version: 0
 
 ## Description
 This event generates every time an Active Directory object is modified.

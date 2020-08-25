@@ -1,4 +1,5 @@
 # Event 218 - CSearchCrawlScopeManager_GetParentScopeVersionId
+###### Version: 0
 
 ## Description
 None

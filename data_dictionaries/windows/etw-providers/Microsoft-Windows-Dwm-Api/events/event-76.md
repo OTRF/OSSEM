@@ -1,4 +1,5 @@
 # Event 76 - ApiSetIconicLivePreviewBitmap
+###### Version: 0
 
 ## Description
 None

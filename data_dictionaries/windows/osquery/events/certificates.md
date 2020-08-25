@@ -1,4 +1,5 @@
 # Certificates Table
+###### Version: 4.4.2
 
 ## Description
 Certificate Authorities installed in Keychains/ca-bundles.
@@ -30,6 +31,3 @@ Certificate Authorities installed in Keychains/ca-bundles.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#certificates)
-
-## Tags
-* version_4.4.2

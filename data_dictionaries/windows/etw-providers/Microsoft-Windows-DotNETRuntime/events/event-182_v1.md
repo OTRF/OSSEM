@@ -1,4 +1,5 @@
 # Event 182 - StrongNameVerification
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_SecurityKeyword
 * etw_opcode_Stop
 * etw_task_StrongNameVerification
-* version_1

@@ -1,4 +1,5 @@
 # Event 393 - Bundlemanifest
+###### Version: 0
 
 ## Description
 None

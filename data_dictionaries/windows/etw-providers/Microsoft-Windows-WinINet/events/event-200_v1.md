@@ -1,4 +1,5 @@
 # Event 200 - WININET_HTTP_REQUEST
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_WININET_KEYWORD_HTTP WININET_KEYWORD_HTTPDIAG
 * etw_opcode_Start
 * etw_task_WININET_HTTP_REQUEST
-* version_1

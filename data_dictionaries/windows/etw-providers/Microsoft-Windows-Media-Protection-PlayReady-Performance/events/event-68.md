@@ -1,4 +1,5 @@
 # Event 68 - CBlackboxWithTEEProcessLicenseToStore
+###### Version: 0
 
 ## Description
 None

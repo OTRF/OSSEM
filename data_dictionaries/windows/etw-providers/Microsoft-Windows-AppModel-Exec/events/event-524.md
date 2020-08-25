@@ -1,4 +1,5 @@
 # Event 524 - BackgroundManagerTrace
+###### Version: 0
 
 ## Description
 None

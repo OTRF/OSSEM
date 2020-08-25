@@ -1,4 +1,5 @@
 # Event 53 - ParkNodeRecordedStats
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Verbose
 * etw_keywords_Diag
 * etw_task_ParkNodeRecordedStats
-* version_1

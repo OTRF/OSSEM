@@ -1,4 +1,5 @@
 # Event 502 - CandListData_Refresh
+###### Version: 0
 
 ## Description
 None

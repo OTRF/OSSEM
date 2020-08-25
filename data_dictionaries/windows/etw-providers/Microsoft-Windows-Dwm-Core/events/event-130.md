@@ -1,4 +1,5 @@
 # Event 130 - ETWGUID_SLICER_CAPTURE
+###### Version: 0
 
 ## Description
 None

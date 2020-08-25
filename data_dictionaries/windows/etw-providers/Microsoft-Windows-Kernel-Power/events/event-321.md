@@ -1,4 +1,5 @@
 # Event 321 - PerformanceStateRegistration
+###### Version: 0
 
 ## Description
 None

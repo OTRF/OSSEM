@@ -1,4 +1,5 @@
 # Event 7169 - ConnectedSearch_LogAttributionClickPayload
+###### Version: 0
 
 ## Description
 None

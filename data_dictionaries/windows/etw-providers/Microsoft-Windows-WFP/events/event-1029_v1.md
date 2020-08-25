@@ -1,4 +1,5 @@
 # Event 1029 - task_0
+###### Version: 1
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 * etw_level_Informational
 * etw_keywords_keyword_10000000000
 * etw_task_task_0
-* version_1

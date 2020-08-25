@@ -1,4 +1,5 @@
 # Event 1035 - Objwriter_Act_Write_Album_Art_Element
+###### Version: 0
 
 ## Description
 None

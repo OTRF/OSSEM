@@ -1,4 +1,5 @@
 # Event 862 - Connectionreconfigured
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 426 - AppXPackaging.Task.PackageWriter.ProcessPayloadFile
+###### Version: 0
 
 ## Description
 None

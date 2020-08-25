@@ -1,4 +1,5 @@
 # Event 4386 - WMPPlaybackOpen
+###### Version: 0
 
 ## Description
 None

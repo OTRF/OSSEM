@@ -1,4 +1,5 @@
 # Event 1076 - OutputDuplicationProcessHighLevel
+###### Version: 0
 
 ## Description
 None

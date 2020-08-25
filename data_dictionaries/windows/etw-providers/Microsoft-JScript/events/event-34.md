@@ -1,4 +1,5 @@
 # Event 34 - Jscript_Projection_RemoveAllEventsAndEventHandlers
+###### Version: 0
 
 ## Description
 None

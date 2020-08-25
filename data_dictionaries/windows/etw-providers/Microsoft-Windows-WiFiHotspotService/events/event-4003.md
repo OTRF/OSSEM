@@ -1,4 +1,5 @@
 # Event 4003 - HotspotService
+###### Version: 0
 
 ## Description
 None

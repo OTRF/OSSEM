@@ -1,4 +1,5 @@
 # Event 401 - SystemPerformanceMonitoring
+###### Version: 1
 
 ## Description
 None
@@ -28,4 +29,3 @@ None
 * etw_keywords_EventLog
 * etw_opcode_ShellDegradation
 * etw_task_SystemPerformanceMonitoring
-* version_1

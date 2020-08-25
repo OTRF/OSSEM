@@ -1,4 +1,5 @@
 # Event 1001 - Startupofthedrivermanagerservice.
+###### Version: 2
 
 ## Description
 None
@@ -12,4 +13,3 @@ None
 * etw_level_Critical
 * etw_opcode_Stop
 * etw_task_Startupofthedrivermanagerservice.
-* version_2

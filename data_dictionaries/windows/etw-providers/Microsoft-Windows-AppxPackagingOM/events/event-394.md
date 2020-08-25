@@ -1,4 +1,5 @@
 # Event 394 - Bundlemanifest
+###### Version: 0
 
 ## Description
 None

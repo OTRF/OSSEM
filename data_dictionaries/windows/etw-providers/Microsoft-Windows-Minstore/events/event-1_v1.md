@@ -1,4 +1,5 @@
 # Event 1 - TableEvent
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Informational
 * etw_opcode_BucketSplit
 * etw_task_TableEvent
-* version_1

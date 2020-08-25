@@ -1,4 +1,5 @@
 # Event 500 - SqmLogger_AddToScenarioStream
+###### Version: 0
 
 ## Description
 None

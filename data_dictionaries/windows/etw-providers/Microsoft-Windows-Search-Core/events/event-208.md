@@ -1,4 +1,5 @@
 # Event 208 - CSearchCrawlScopeManager_AddHierarchicalScope
+###### Version: 0
 
 ## Description
 None

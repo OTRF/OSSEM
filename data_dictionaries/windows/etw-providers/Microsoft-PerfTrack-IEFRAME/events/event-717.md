@@ -1,4 +1,5 @@
 # Event 717 - Browseui_Tabs_Tearoff_BetweenWindows_TabProc
+###### Version: 0
 
 ## Description
 None

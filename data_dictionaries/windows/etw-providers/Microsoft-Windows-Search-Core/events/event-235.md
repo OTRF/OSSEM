@@ -1,4 +1,5 @@
 # Event 235 - CSearchCrawlScopeManager_SaveAll
+###### Version: 0
 
 ## Description
 None

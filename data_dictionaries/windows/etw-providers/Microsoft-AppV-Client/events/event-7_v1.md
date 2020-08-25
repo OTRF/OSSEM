@@ -1,4 +1,5 @@
 # Event 7 - APIRequest
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_API
 * etw_opcode_Send
 * etw_task_APIRequest
-* version_1

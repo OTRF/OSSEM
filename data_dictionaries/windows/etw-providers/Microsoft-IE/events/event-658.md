@@ -1,4 +1,5 @@
 # Event 658 - Mshtml_CView_UpdateRootScrollerSizeAndZoom
+###### Version: 0
 
 ## Description
 None

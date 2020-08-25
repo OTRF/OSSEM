@@ -1,4 +1,5 @@
 # Event 180 - Mshtml_CImgTask_Decoded
+###### Version: 0
 
 ## Description
 None

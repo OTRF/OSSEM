@@ -1,4 +1,5 @@
 # Event 3007 - CheckSecureBootPolicy
+###### Version: 0
 
 ## Description
 None

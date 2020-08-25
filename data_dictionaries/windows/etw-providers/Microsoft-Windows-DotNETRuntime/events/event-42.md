@@ -1,4 +1,5 @@
 # Event 42 - WorkerThreadRetirementV2
+###### Version: 0
 
 ## Description
 None

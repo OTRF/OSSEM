@@ -1,4 +1,5 @@
 # Event 200 - MediaFoundationSourceResolver
+###### Version: 0
 
 ## Description
 None

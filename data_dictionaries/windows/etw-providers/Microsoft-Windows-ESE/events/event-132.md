@@ -1,4 +1,5 @@
 # Event 132 - ESE_TaskManagerPost_Trace
+###### Version: 0
 
 ## Description
 None

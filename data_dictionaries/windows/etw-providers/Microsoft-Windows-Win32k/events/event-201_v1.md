@@ -1,4 +1,5 @@
 # Event 201 - TokenCompositionSurfaceObject
+###### Version: 1
 
 ## Description
 None
@@ -20,4 +21,3 @@ None
 * etw_level_Informational
 * etw_keywords_Updates Visualization
 * etw_task_TokenCompositionSurfaceObject
-* version_1

@@ -1,4 +1,5 @@
 # Event 228 - MediaCaptureLowLagPhotoCaptureoperation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 119 - CBlackboxGetBinaryCertificateChain
+###### Version: 0
 
 ## Description
 None

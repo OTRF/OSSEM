@@ -1,4 +1,5 @@
 # Wifi_survey Table
+###### Version: 4.4.2
 
 ## Description
 Scan for nearby WiFi networks.
@@ -19,6 +20,3 @@ Scan for nearby WiFi networks.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#wifi_survey)
-
-## Tags
-* version_4.4.2

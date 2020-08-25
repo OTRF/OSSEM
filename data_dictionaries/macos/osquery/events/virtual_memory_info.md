@@ -1,4 +1,5 @@
 # Virtual_memory_info Table
+###### Version: 4.4.2
 
 ## Description
 Darwin Virtual Memory statistics.
@@ -31,6 +32,3 @@ Darwin Virtual Memory statistics.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#virtual_memory_info)
-
-## Tags
-* version_4.4.2

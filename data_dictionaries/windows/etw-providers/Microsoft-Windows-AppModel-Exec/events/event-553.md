@@ -1,4 +1,5 @@
 # Event 553 - BM_ShellSuspendStateChanged
+###### Version: 0
 
 ## Description
 None

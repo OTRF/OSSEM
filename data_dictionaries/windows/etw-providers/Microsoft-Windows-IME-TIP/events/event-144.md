@@ -1,4 +1,5 @@
 # Event 144 - TaskID:IME_JPN_HWKBD_KeyProcess
+###### Version: 0
 
 ## Description
 None

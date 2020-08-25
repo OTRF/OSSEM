@@ -1,4 +1,5 @@
 # Event 113 - MSVideoProcessoftMFT_Resizer
+###### Version: 0
 
 ## Description
 None

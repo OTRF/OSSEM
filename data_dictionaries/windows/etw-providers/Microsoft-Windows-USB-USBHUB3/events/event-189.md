@@ -1,4 +1,5 @@
 # Event 189 - USBDeviceEnumeration
+###### Version: 0
 
 ## Description
 None

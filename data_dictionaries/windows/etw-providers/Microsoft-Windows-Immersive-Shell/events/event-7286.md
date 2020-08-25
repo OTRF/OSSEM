@@ -1,4 +1,5 @@
 # Event 7286 - ConnectedSearch_LogResponseReceived
+###### Version: 0
 
 ## Description
 None

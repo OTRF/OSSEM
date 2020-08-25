@@ -1,4 +1,5 @@
 # Event 244 - Mshtml_CHighFreqScheduler_Fire
+###### Version: 0
 
 ## Description
 None

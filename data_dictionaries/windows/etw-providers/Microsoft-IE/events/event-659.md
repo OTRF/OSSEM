@@ -1,4 +1,5 @@
 # Event 659 - Mshtml_CView_SetFixedLayoutWidth
+###### Version: 0
 
 ## Description
 None

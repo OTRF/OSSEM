@@ -1,4 +1,5 @@
 # Event 1008 - WFApplicationStateChange
+###### Version: 0
 
 ## Description
 None

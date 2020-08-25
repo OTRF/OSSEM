@@ -1,4 +1,5 @@
 # Event 120 - ETWGUID_DWMUPDATEBLTTRANSLATION_POINT
+###### Version: 0
 
 ## Description
 None

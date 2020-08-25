@@ -1,4 +1,5 @@
 # Event 726 - Mshtml_CTouchDragDropHelper_Shutdown
+###### Version: 0
 
 ## Description
 None

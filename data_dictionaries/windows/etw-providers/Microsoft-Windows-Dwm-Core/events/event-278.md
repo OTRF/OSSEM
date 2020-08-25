@@ -1,4 +1,5 @@
 # Event 278 - MANIPULATION_CONTEXT_CONTACT_DEPARTED
+###### Version: 0
 
 ## Description
 None

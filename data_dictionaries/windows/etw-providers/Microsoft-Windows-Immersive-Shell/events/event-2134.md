@@ -1,4 +1,5 @@
 # Event 2134 - PerfTrack_Picker_Launch_Open_Thumbnail_Responsive
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event ID 4911: Resource attributes of the object were changed.
+###### Version: 0
 
 ## Description
 This event generates when resource attributes of the file system object were changed.

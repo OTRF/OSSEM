@@ -1,4 +1,5 @@
 # Event 462 - Mshtml_IndependentAnimation_Start
+###### Version: 0
 
 ## Description
 None

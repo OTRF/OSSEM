@@ -1,4 +1,5 @@
 # Event 726 - KeyboardUI_Optimized_Thumb_Resize
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 585 - Browseui_PrepareResizeAsync
+###### Version: 0
 
 ## Description
 None

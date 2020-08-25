@@ -1,4 +1,5 @@
 # Event 766 - AppXDeployment.Task.Server.Deployment.PackagesInUse
+###### Version: 0
 
 ## Description
 None

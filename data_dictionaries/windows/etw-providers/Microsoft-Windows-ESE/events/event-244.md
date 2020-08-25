@@ -1,4 +1,5 @@
 # Event 244 - ESE_tagBufferManagerBufferCacheState_Trace
+###### Version: 0
 
 ## Description
 None

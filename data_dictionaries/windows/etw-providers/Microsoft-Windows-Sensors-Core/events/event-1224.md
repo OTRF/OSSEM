@@ -1,4 +1,5 @@
 # Event 1224 - SensorsHidInitializationTask
+###### Version: 0
 
 ## Description
 None

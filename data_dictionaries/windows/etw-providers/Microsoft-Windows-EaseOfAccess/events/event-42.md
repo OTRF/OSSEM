@@ -1,4 +1,5 @@
 # Event 42 - Magnify_AnimateRectangle
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 130 - Jscript_GC_SweepWeakRef
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 3038 - ValidateImageHeader
+###### Version: 0
 
 ## Description
 None

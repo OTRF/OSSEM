@@ -1,4 +1,5 @@
 # Event 3 - ThreadStart
+###### Version: 1
 
 ## Description
 None
@@ -22,4 +23,3 @@ None
 * etw_keywords_WINEVENT_KEYWORD_THREAD
 * etw_opcode_Start
 * etw_task_ThreadStart
-* version_1

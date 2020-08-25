@@ -1,4 +1,5 @@
 # Event 52 - ITfThreadFocusSink_OnSetThreadFocus
+###### Version: 0
 
 ## Description
 None

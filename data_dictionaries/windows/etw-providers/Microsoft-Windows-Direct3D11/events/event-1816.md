@@ -1,4 +1,5 @@
 # Event 1816 - ID3D11VideoDevice_DestroyCryptoSession
+###### Version: 0
 
 ## Description
 None

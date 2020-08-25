@@ -1,4 +1,5 @@
 # Event 70 - AcquireCertificatePrivateKey
+###### Version: 0
 
 ## Description
 None

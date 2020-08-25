@@ -1,4 +1,5 @@
 # Apps Table
+###### Version: 4.4.2
 
 ## Description
 OS X applications installed in known search paths (e.g., /Applications).
@@ -20,6 +21,3 @@ OS X applications installed in known search paths (e.g., /Applications).
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#apps)
-
-## Tags
-* version_4.4.2

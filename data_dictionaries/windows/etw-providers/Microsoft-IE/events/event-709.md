@@ -1,4 +1,5 @@
 # Event 709 - Mshtml_Fire_MSManipulationStateChange
+###### Version: 0
 
 ## Description
 None

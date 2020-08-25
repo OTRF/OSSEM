@@ -1,4 +1,5 @@
 # Event 4603 - MFIsContentProtectionDeviceSupportedStarttask
+###### Version: 0
 
 ## Description
 None

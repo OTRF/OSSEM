@@ -1,4 +1,5 @@
 # User_ssh_keys Table
+###### Version: 4.4.2
 
 ## Description
 Returns the private keys in the users ~/.ssh directory and whether or not they are encrypted.
@@ -12,6 +13,3 @@ Returns the private keys in the users ~/.ssh directory and whether or not they a
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#user_ssh_keys)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Portage_use Table
+###### Version: 4.4.2
 
 ## Description
 List of enabled portage USE values for specific package.
@@ -12,6 +13,3 @@ List of enabled portage USE values for specific package.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#portage_use)
-
-## Tags
-* version_4.4.2

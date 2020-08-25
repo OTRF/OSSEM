@@ -1,4 +1,5 @@
 # Event 700 - Smb2ShareAdd
+###### Version: 0
 
 ## Description
 None

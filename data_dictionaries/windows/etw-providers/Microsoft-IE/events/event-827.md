@@ -1,4 +1,5 @@
 # Event 827 - Mshtml_Aligned_RAF_Fire
+###### Version: 0
 
 ## Description
 None

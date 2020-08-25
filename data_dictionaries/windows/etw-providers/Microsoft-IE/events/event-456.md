@@ -1,4 +1,5 @@
 # Event 456 - Mshtml_Composition_Scrollbar_Paint
+###### Version: 0
 
 ## Description
 None

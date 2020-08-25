@@ -1,4 +1,5 @@
 # Event 6 - Detachvirtualdisk.
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 4341 - LdapAuthentication
+###### Version: 0
 
 ## Description
 None

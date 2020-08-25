@@ -1,4 +1,5 @@
 # Event 8 - RedirSetLivePreviewExcludeHwnd
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 603 - WININET_AUTH_CLIENT_SETS_PASSWORD
+###### Version: 0
 
 ## Description
 None

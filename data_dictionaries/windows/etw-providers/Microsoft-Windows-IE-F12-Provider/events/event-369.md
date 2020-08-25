@@ -1,4 +1,5 @@
 # Event 369 - Debugger_Editor_GetOrCreateMode
+###### Version: 0
 
 ## Description
 None

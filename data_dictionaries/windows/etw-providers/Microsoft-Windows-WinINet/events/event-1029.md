@@ -1,4 +1,5 @@
 # Event 1029 - Wininet_ResolveHost
+###### Version: 0
 
 ## Description
 None

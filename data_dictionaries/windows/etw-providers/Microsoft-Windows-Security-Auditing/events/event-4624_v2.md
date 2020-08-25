@@ -1,4 +1,5 @@
 # Event ID 4624: An account was successfully logged on
+###### Version: 2
 
 ## Description
 This event generates when a logon session is created (on destination machine). It generates on the computer that was accessed, where the session was created.
@@ -42,6 +43,5 @@ This event generates when a logon session is created (on destination machine). I
 ## Tags
 * etw_level_Informational
 * etw_task_task_0
-* version_2
 * Logon/Logoff
 * Audit Logon

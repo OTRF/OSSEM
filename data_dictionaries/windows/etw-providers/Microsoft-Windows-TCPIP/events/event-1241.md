@@ -1,4 +1,5 @@
 # Event 1241 - RssBindingBindComplete
+###### Version: 0
 
 ## Description
 None

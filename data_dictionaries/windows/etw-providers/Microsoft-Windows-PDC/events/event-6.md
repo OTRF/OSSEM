@@ -1,4 +1,5 @@
 # Event 6 - ResiliencyClientDeregistration
+###### Version: 0
 
 ## Description
 None

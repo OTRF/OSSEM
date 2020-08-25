@@ -1,4 +1,5 @@
 # Event 49 - COM_ApartmentInitialize
+###### Version: 0
 
 ## Description
 None

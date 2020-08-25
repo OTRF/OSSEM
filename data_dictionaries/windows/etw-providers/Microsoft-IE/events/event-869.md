@@ -1,4 +1,5 @@
 # Event 869 - Edgehtml_Extensions_Script_Execution
+###### Version: 0
 
 ## Description
 None

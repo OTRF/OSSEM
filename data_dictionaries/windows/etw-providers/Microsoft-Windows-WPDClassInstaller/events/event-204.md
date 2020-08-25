@@ -1,4 +1,5 @@
 # Event 204 - DeviceMetadataRetrieval
+###### Version: 0
 
 ## Description
 None

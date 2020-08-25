@@ -1,4 +1,5 @@
 # Event 375 - Mshtml_CElement_GetTooltipText
+###### Version: 0
 
 ## Description
 None

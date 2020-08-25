@@ -1,4 +1,5 @@
 # Event 9400 - AppXDeployment.Task.Server.StagingManager
+###### Version: 0
 
 ## Description
 None

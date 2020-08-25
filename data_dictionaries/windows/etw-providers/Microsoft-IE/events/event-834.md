@@ -1,4 +1,5 @@
 # Event 834 - Mshtml_EventLoop_OnSentinelFired
+###### Version: 0
 
 ## Description
 None

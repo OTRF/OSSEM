@@ -1,4 +1,5 @@
 # Event 3306 - ChannelFactoryCaching
+###### Version: 0
 
 ## Description
 None

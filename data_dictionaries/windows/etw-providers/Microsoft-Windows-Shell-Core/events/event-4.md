@@ -1,4 +1,5 @@
 # Event 4 - AggregatePropertyProvider_GetValueObject
+###### Version: 0
 
 ## Description
 None

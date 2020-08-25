@@ -1,4 +1,5 @@
 # Event 124 - Mshtml_CSS_Parser
+###### Version: 2
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_keywords_subsystem mshtml
 * etw_opcode_Stop
 * etw_task_Mshtml_CSS_Parser
-* version_2

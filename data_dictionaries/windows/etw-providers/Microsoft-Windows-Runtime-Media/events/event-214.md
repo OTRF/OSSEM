@@ -1,4 +1,5 @@
 # Event 214 - MediaCapturePhotoSequencePrepareoperation
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 109 - IDXGIAdapter_Release
+###### Version: 0
 
 ## Description
 None

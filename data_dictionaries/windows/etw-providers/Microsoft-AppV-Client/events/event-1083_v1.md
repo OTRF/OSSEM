@@ -1,4 +1,5 @@
 # Event 1083 - UnpublishPackage
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_level_Error
 * etw_keywords_Publishing
 * etw_task_UnpublishPackage
-* version_1

@@ -1,4 +1,5 @@
 # Event 505 - Mshtml_CDoc_PaintRect
+###### Version: 0
 
 ## Description
 None

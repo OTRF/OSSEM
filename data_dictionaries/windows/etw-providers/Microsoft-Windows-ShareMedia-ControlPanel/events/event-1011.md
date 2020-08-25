@@ -1,4 +1,5 @@
 # Event 1011 - RemoveDevice
+###### Version: 0
 
 ## Description
 None

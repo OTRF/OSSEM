@@ -1,4 +1,5 @@
 # Event 13 - VetoCreateGhostWindow
+###### Version: 0
 
 ## Description
 None

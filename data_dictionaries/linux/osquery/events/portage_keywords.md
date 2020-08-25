@@ -1,4 +1,5 @@
 # Portage_keywords Table
+###### Version: 4.4.2
 
 ## Description
 A summary about portage configurations like keywords, mask and unmask.
@@ -14,6 +15,3 @@ A summary about portage configurations like keywords, mask and unmask.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#portage_keywords)
-
-## Tags
-* version_4.4.2

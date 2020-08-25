@@ -1,4 +1,5 @@
 # Event 817 - ConfigureDevice
+###### Version: 0
 
 ## Description
 None

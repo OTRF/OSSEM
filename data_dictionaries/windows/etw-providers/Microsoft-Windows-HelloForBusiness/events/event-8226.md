@@ -1,4 +1,5 @@
 # Event 8226 - KeyDeletion
+###### Version: 0
 
 ## Description
 None

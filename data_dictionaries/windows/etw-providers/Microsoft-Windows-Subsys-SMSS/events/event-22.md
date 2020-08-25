@@ -1,4 +1,5 @@
 # Event 22 - smss:SerializeBoot
+###### Version: 0
 
 ## Description
 None

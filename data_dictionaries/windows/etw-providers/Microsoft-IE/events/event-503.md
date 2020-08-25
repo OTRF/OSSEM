@@ -1,4 +1,5 @@
 # Event 503 - Mshtml_Composition_Trim_SBLayer
+###### Version: 0
 
 ## Description
 None

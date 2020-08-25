@@ -1,4 +1,5 @@
 # Event 1107 - SensorServiceprocessingsensordatafororientation,readingsensordatasuccessful
+###### Version: 0
 
 ## Description
 None

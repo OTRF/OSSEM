@@ -1,4 +1,5 @@
 # Event 7111 - AppHistory_AddDesktopApplication
+###### Version: 0
 
 ## Description
 None

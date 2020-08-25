@@ -1,4 +1,5 @@
 # Event 216 - MediaCapturePhotoSequenceStartoperation
+###### Version: 0
 
 ## Description
 None

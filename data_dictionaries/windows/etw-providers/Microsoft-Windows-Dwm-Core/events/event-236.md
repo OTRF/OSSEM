@@ -1,4 +1,5 @@
 # Event 236 - ETWGUID_D2DLAYERCREATEREASON
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 43 - Audio_Glitch_Detection
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1100 - CborDecodeError
+###### Version: 0
 
 ## Description
 None

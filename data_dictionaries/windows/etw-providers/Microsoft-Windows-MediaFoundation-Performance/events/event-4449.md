@@ -1,4 +1,5 @@
 # Event 4449 - PropertyHandlerThumbnailGenerationBestFrame
+###### Version: 0
 
 ## Description
 None

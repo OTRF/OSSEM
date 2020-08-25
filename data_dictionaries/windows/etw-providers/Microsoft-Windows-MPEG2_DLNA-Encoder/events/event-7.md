@@ -1,4 +1,5 @@
 # Event 7 - AudioEncodeSessionConfig
+###### Version: 0
 
 ## Description
 None

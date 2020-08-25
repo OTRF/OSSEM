@@ -1,4 +1,5 @@
 # Event 416 - Wininet_WebSocketSession
+###### Version: 0
 
 ## Description
 None

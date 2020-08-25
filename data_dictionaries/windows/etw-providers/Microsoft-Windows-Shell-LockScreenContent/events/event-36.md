@@ -1,4 +1,5 @@
 # Event 36 - LockScreenContent_RandomLayoutGenerated
+###### Version: 0
 
 ## Description
 None

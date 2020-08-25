@@ -1,4 +1,5 @@
 # Event 504 - AudCaptureStream_Shutdown
+###### Version: 0
 
 ## Description
 None

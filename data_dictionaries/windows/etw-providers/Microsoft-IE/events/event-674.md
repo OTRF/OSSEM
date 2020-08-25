@@ -1,4 +1,5 @@
 # Event 674 - Mshtml_CDMCrossSlideDraggableTouchTarget_SetupLayerForDragging
+###### Version: 0
 
 ## Description
 None

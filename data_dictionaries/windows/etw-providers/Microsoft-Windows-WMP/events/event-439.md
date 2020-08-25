@@ -1,4 +1,5 @@
 # Event 439 - ALLOW_ALL_DEVICES_MENU_ACTION
+###### Version: 0
 
 ## Description
 None

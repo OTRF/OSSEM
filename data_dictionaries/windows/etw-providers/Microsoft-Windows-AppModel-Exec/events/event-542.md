@@ -1,4 +1,5 @@
 # Event 542 - BackgroundManagerTrace
+###### Version: 0
 
 ## Description
 None

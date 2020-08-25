@@ -1,4 +1,5 @@
 # Event 7223 - ConnectedSearch_LogLocalClick
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 2608 - Settings_SettingsLoadAppWidgetsBG
+###### Version: 0
 
 ## Description
 None

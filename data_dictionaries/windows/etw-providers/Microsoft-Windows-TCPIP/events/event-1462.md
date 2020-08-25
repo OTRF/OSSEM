@@ -1,4 +1,5 @@
 # Event 1462 - FeatureFallbackNcsiNoConnectivity
+###### Version: 0
 
 ## Description
 None

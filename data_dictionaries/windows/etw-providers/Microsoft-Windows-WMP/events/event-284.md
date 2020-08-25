@@ -1,4 +1,5 @@
 # Event 284 - THUMBNAIL_TOOLTIP_CHANGED
+###### Version: 0
 
 ## Description
 None

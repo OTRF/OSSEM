@@ -1,4 +1,5 @@
 # Event 681 - Mshtml_CDMDraggableTouchTarget_HandleDragStateChanges
+###### Version: 0
 
 ## Description
 None

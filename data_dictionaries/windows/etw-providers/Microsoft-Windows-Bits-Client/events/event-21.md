@@ -1,4 +1,5 @@
 # Event 21 - listenviaWS_Discoveryforserverannouncements
+###### Version: 0
 
 ## Description
 None

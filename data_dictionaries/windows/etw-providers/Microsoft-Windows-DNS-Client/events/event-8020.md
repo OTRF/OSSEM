@@ -1,4 +1,5 @@
 # Event 8020 - DnsRegistration
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 30 - FirmwareBootData
+###### Version: 0
 
 ## Description
 None

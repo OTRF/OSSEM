@@ -1,4 +1,5 @@
 # Event 7268 - ConnectedSearch_LogHttpError
+###### Version: 0
 
 ## Description
 None

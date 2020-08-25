@@ -1,4 +1,5 @@
 # Augeas Table
+###### Version: 4.4.2
 
 ## Description
 Configuration files parsed by augeas.
@@ -13,6 +14,3 @@ Configuration files parsed by augeas.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#augeas)
-
-## Tags
-* version_4.4.2

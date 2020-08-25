@@ -1,4 +1,5 @@
 # Event 7013 - Perf_ScanForLocalSettingChanges
+###### Version: 0
 
 ## Description
 None

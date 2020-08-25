@@ -1,4 +1,5 @@
 # Event 9003 - SecondaryLogon_UnexpectedEvent
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 9 - UpdateNamespaceRecord
+###### Version: 0
 
 ## Description
 None

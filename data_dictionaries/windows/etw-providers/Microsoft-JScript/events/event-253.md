@@ -1,4 +1,5 @@
 # Event 253 - Jscript_GC_SweepWeakRef
+###### Version: 0
 
 ## Description
 None

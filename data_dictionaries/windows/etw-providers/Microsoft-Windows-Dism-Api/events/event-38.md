@@ -1,4 +1,5 @@
 # Event 38 - DismRemovePackage
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 6607 - ConnectCharm_PrintTargetsEnum
+###### Version: 0
 
 ## Description
 None

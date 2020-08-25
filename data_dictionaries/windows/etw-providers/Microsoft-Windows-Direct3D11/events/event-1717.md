@@ -1,4 +1,5 @@
 # Event 1717 - IDXGIDevice2_ReclaimResources
+###### Version: 0
 
 ## Description
 None

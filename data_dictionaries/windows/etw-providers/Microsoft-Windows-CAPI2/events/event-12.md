@@ -1,4 +1,5 @@
 # Event 12 - RetrieveIssuerCertificatefromCache
+###### Version: 0
 
 ## Description
 None

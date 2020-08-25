@@ -1,4 +1,5 @@
 # Event 1488 - IpSessionFailure
+###### Version: 0
 
 ## Description
 None

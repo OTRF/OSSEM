@@ -1,4 +1,5 @@
 # Event 516 - SpmScenarioStop
+###### Version: 7
 
 ## Description
 None
@@ -39,4 +40,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:SleepStudy
 * etw_task_SpmScenarioStop
-* version_7

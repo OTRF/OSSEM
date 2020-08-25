@@ -1,4 +1,5 @@
 # Event 1025 - SensorsCxGetDatafieldPropertiesTask
+###### Version: 0
 
 ## Description
 None

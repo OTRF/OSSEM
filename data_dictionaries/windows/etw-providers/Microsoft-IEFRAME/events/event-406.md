@@ -1,4 +1,5 @@
 # Event 406 - Browseui_HangUI_SetVisible
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 122 - put_allowSharingToAllDevices
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 9063 - Perf_WLRoamUpdateDeviceMetadataNetworkRequest
+###### Version: 0
 
 ## Description
 None

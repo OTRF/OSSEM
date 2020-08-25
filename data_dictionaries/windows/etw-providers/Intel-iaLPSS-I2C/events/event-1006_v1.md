@@ -1,4 +1,5 @@
 # Event 1006 - DevicePowerFlow
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Informational
 * etw_opcode_Stop
 * etw_task_DevicePowerFlow
-* version_1

@@ -1,4 +1,5 @@
 # Event 1001 - task_0
+###### Version: 2
 
 ## Description
 None
@@ -32,4 +33,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:AOAC keyword_10000000000
 * etw_task_task_0
-* version_2

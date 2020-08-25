@@ -1,4 +1,5 @@
 # Event 642 - Mshtml_CDoc_HostPaintUpdateNotification_IgnoredRequest
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Firefox_addons Table
+###### Version: 4.4.2
 
 ## Description
 Firefox browser extensions, webapps, and addons.
@@ -21,6 +22,3 @@ Firefox browser extensions, webapps, and addons.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#firefox_addons)
-
-## Tags
-* version_4.4.2

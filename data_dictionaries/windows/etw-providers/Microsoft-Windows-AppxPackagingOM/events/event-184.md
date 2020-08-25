@@ -1,4 +1,5 @@
 # Event 184 - AppXPackaging.Task.EncryptionProvider.Creation
+###### Version: 0
 
 ## Description
 None

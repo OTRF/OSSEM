@@ -1,4 +1,5 @@
 # Event 3007 - Generate_Album_Art_Element
+###### Version: 0
 
 ## Description
 None

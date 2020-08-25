@@ -1,4 +1,5 @@
 # Event 2451 - PerfTrack_PLM_SuspendApplication
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_keywords_PLMComponent keyword_200000000000
 * etw_opcode_Stop
 * etw_task_PerfTrack_PLM_SuspendApplication
-* version_1

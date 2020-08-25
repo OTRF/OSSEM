@@ -1,4 +1,5 @@
 # Event 7289 - ConnectedSearch_TemplateWrittenToDisk
+###### Version: 0
 
 ## Description
 None

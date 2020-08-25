@@ -1,4 +1,5 @@
 # Event 405 - Browseui_HangUI_CreateCoverWindow
+###### Version: 0
 
 ## Description
 None

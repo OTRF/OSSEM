@@ -1,4 +1,5 @@
 # Event 230 - MFCaptureEnginePhotoSinkConfigure
+###### Version: 0
 
 ## Description
 None

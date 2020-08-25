@@ -1,4 +1,5 @@
 # Event 110 - DirectShowFilterGraphPause
+###### Version: 0
 
 ## Description
 None

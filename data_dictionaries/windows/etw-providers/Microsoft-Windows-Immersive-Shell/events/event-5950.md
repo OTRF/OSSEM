@@ -1,4 +1,5 @@
 # Event 5950 - AppActivation_Log_Success
+###### Version: 0
 
 ## Description
 None

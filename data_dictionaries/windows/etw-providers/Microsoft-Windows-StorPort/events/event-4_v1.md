@@ -1,4 +1,5 @@
 # Event 4 - Resetdetectednotification
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_PortNotification
 * etw_opcode_OpCodeResetDetected
 * etw_task_Resetdetectednotification
-* version_1

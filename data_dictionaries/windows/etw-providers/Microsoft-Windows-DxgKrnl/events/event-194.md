@@ -1,4 +1,5 @@
 # Event 194 - Dxgk_Diag_OutputDupl_Process_Present
+###### Version: 0
 
 ## Description
 None

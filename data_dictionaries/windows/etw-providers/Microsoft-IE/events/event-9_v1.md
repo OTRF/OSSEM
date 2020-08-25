@@ -1,4 +1,5 @@
 # Event 9 - Mshtml_CMarkup_LoadEvent_Start
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_keywords_primarynav pageloadbreakdown
 * etw_opcode_Start
 * etw_task_Mshtml_CMarkup_LoadEvent_Start
-* version_1

@@ -1,4 +1,5 @@
 # Event 34 - MediaFoundationDevproxyDMFTNotificationInit
+###### Version: 0
 
 ## Description
 None

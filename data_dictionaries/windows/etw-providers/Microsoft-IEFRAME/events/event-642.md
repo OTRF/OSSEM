@@ -1,4 +1,5 @@
 # Event 642 - BrowseUI_CStorage
+###### Version: 0
 
 ## Description
 None

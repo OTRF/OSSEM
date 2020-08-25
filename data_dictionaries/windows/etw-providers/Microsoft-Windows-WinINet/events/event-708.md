@@ -1,4 +1,5 @@
 # Event 708 - WININET_HTTPS_CLIENT_CERT_SELECTED
+###### Version: 0
 
 ## Description
 None

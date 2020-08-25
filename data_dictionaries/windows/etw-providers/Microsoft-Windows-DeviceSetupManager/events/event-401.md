@@ -1,4 +1,5 @@
 # Event 401 - DeviceSetupTask
+###### Version: 0
 
 ## Description
 None

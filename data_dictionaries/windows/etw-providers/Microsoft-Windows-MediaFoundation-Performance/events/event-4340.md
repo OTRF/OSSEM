@@ -1,4 +1,5 @@
 # Event 4340 - MFGraphGetOpenState
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 308 - CandidateWindow_HandleAction
+###### Version: 0
 
 ## Description
 None

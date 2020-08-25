@@ -1,4 +1,5 @@
 # Event 24 - OLE_DragDrop_DragOperation_SetDataObject
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 333 - GpuVirtualAddressRangeMapping
+###### Version: 1
 
 ## Description
 None
@@ -22,4 +23,3 @@ None
 * etw_keywords_GPUVA
 * etw_opcode_DC_Start
 * etw_task_GpuVirtualAddressRangeMapping
-* version_1

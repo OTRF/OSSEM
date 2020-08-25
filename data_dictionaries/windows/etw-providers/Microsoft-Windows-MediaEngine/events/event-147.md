@@ -1,4 +1,5 @@
 # Event 147 - YUVSwapchainConfigured
+###### Version: 0
 
 ## Description
 None

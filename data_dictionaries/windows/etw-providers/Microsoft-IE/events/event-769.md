@@ -1,4 +1,5 @@
 # Event 769 - Mshtml_Image_Pooling_Budget_Enforce
+###### Version: 0
 
 ## Description
 None

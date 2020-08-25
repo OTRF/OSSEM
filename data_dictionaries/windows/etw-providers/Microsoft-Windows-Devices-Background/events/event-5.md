@@ -1,4 +1,5 @@
 # Event 5 - Applicationinitiateddeviceservicing/updatetask
+###### Version: 0
 
 ## Description
 None

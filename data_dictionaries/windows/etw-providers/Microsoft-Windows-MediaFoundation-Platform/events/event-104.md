@@ -1,4 +1,5 @@
 # Event 104 - MediaFoundationGetConfigurationValueDWORD
+###### Version: 0
 
 ## Description
 None

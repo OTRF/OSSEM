@@ -1,4 +1,5 @@
 # Event 7130 - Perf_WLRoamDeleteBackupReplica
+###### Version: 0
 
 ## Description
 None

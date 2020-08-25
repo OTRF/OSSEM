@@ -1,4 +1,5 @@
 # Event 333 - DefaultPepWorkerDeviceOrphaned
+###### Version: 0
 
 ## Description
 None

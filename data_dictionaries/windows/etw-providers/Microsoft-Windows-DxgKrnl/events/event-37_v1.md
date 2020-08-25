@@ -1,4 +1,5 @@
 # Event 37 - DeviceAllocation
+###### Version: 1
 
 ## Description
 None
@@ -24,4 +25,3 @@ None
 * etw_keywords_Resource
 * etw_opcode_Stop
 * etw_task_DeviceAllocation
-* version_1

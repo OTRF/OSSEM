@@ -1,4 +1,5 @@
 # Event 203 - Mshtml_AlignedTimer_Fire
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_level_Always
 * etw_keywords_paintbeat
 * etw_task_Mshtml_AlignedTimer_Fire
-* version_1

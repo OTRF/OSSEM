@@ -1,4 +1,5 @@
 # Event 3002 - SensorPlatformDataEvent
+###### Version: 0
 
 ## Description
 None

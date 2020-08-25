@@ -1,4 +1,5 @@
 # Event 1104 - MediaFoundationIMFInputTrustAuthority_BindAccess
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1006 - InMemoryCompression
+###### Version: 1
 
 ## Description
 None
@@ -14,4 +15,3 @@ None
 * etw_level_Informational
 * etw_keywords_Store
 * etw_task_InMemoryCompression
-* version_1

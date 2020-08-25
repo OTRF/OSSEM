@@ -1,4 +1,5 @@
 # Event 7190 - ConnectedSearch_LocalSuggestionPayload
+###### Version: 0
 
 ## Description
 None

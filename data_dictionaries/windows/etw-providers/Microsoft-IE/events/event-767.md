@@ -1,4 +1,5 @@
 # Event 767 - Mshtml_Selectors_Api_Query_Selector
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1099 - AadTokenBrokerPluginOperation
+###### Version: 0
 
 ## Description
 None

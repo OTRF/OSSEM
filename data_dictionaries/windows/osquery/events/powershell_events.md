@@ -1,4 +1,5 @@
 # Powershell_events Table
+###### Version: 4.4.2
 
 ## Description
 Powershell script blocks reconstructed to their full script content, this table requires script block logging to be enabled.
@@ -17,6 +18,3 @@ Powershell script blocks reconstructed to their full script content, this table 
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#powershell_events)
-
-## Tags
-* version_4.4.2

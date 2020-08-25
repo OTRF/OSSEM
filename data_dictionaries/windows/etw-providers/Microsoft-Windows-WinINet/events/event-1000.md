@@ -1,4 +1,5 @@
 # Event 1000 - WININET_TEST_EVENT
+###### Version: 0
 
 ## Description
 None

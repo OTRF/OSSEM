@@ -1,4 +1,5 @@
 # Md_devices Table
+###### Version: 4.4.2
 
 ## Description
 Software RAID array settings.
@@ -37,6 +38,3 @@ Software RAID array settings.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#md_devices)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 56 - InvestigateUpdateTextPattern
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 252 - DeviceConfig
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 239 - Mshtml_CImgInfo_ForcedDecoding
+###### Version: 0
 
 ## Description
 None

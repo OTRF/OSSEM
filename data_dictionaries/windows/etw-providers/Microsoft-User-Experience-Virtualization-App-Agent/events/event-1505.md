@@ -1,4 +1,5 @@
 # Event 1505 - SettingsTemplateCatalogProcessing
+###### Version: 0
 
 ## Description
 None

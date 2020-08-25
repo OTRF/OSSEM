@@ -1,4 +1,5 @@
 # Event 298 - MIDMANIPULATION_UPDATE_VISUAL_PROP
+###### Version: 0
 
 ## Description
 None

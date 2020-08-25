@@ -1,4 +1,5 @@
 # Account_policy_data Table
+###### Version: 4.4.2
 
 ## Description
 Additional OS X user account data from the AccountPolicy section of OpenDirectory.
@@ -14,6 +15,3 @@ Additional OS X user account data from the AccountPolicy section of OpenDirector
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#account_policy_data)
-
-## Tags
-* version_4.4.2

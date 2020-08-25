@@ -1,4 +1,5 @@
 # Source Type: Kerberos Ticket Granting Ticket
+###### Version: 0
 
 ## Description
 The Kerberos Ticket Granting Ticket (TGT) source type is derived by querying all active Logon Sessions for their TGT with the LsaCallAuthenticationPackage API.

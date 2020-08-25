@@ -1,4 +1,5 @@
 # Event 1242 - RssPortBindComplete
+###### Version: 0
 
 ## Description
 None

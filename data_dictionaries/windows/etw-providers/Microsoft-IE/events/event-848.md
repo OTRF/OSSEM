@@ -1,4 +1,5 @@
 # Event 848 - Mshtml_PowerStateController_Unregister
+###### Version: 0
 
 ## Description
 None

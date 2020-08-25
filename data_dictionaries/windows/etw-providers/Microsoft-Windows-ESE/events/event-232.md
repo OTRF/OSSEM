@@ -1,4 +1,5 @@
 # Event 232 - ESE_tagRestore_Trace
+###### Version: 0
 
 ## Description
 None

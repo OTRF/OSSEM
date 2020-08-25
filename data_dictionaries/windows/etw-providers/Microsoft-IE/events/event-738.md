@@ -1,4 +1,5 @@
 # Event 738 - Mshtml_WebOCEvents_DelegateNavigate
+###### Version: 0
 
 ## Description
 None

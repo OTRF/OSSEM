@@ -1,4 +1,5 @@
 # Etc_services Table
+###### Version: 4.4.2
 
 ## Description
 Line-parsed /etc/services.
@@ -14,6 +15,3 @@ Line-parsed /etc/services.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#etc_services)
-
-## Tags
-* version_4.4.2

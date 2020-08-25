@@ -1,4 +1,5 @@
 # Event 303 - DeviceRegistration
+###### Version: 0
 
 ## Description
 None

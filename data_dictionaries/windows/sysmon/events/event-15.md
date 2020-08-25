@@ -1,7 +1,8 @@
 # Event ID 15: FileCreateStreamHash
+###### Version: 4.32
 
 ## Description
-This event logs when a named file stream is created, and it generates events that log the hash of the contents of the file to which the stream is assigned (the unnamed stream), as well as the contents of the named stream. There are malware variants that drop their executables or configuration settings via browser downloads, and this event is aimed at capturing that based on the browser attaching a Zone.Identifier "mark of the web" stream.
+This event logs when a **named file stream is created**, and it generates events that log the hash of the contents of the file to which the stream is assigned (the unnamed stream), as well as the contents of the named stream. There are malware variants that drop their executables or configuration settings via browser downloads, and this event is aimed at capturing that based on the browser attaching a Zone.Identifier "mark of the web" stream.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

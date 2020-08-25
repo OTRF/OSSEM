@@ -1,4 +1,5 @@
 # Windows_security_products Table
+###### Version: 4.4.2
 
 ## Description
 Enumeration of registered Windows security products.
@@ -15,6 +16,3 @@ Enumeration of registered Windows security products.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#windows_security_products)
-
-## Tags
-* version_4.4.2

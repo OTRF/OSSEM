@@ -1,4 +1,5 @@
 # Event 241 - DdiNotifySurpriseRemoval
+###### Version: 0
 
 ## Description
 None

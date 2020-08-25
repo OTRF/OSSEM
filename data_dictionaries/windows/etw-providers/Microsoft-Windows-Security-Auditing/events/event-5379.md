@@ -1,4 +1,5 @@
 # Event ID 5379: Credential Manager credentials were read
+###### Version: 0
 
 ## Description
 This event occurs when a user performs a read operation on stored credentials in Credential Manager.

@@ -1,4 +1,5 @@
 # Event 4260 - SequencerSourceCreateObjectFromNode
+###### Version: 0
 
 ## Description
 None

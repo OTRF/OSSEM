@@ -1,4 +1,5 @@
 # Event 814 - ReenumerateDeviceOnly
+###### Version: 0
 
 ## Description
 None

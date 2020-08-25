@@ -1,4 +1,5 @@
 # Event 115 - MSVideoProcessoftMFT_Rotation
+###### Version: 0
 
 ## Description
 None

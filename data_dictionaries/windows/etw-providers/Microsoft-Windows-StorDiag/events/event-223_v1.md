@@ -1,4 +1,5 @@
 # Event 223 - Class
+###### Version: 1
 
 ## Description
 None
@@ -23,4 +24,3 @@ None
 * etw_keywords_keyword_400000000000
 * etw_opcode_Completionofrequest.
 * etw_task_Class
-* version_1

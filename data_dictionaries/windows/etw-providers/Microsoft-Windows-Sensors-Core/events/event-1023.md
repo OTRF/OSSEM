@@ -1,4 +1,5 @@
 # Event 1023 - SensorsCxGetPropertiesTask
+###### Version: 0
 
 ## Description
 None

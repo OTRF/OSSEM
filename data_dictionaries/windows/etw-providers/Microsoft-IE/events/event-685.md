@@ -1,4 +1,5 @@
 # Event 685 - Mshtml_CDMDraggableTouchTargetHandler_OnDragInitiated
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 302 - RFinterfaceinitialization.
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_RF
 * etw_opcode_Stop
 * etw_task_RFinterfaceinitialization.
-* version_1

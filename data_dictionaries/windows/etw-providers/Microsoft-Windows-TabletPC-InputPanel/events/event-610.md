@@ -1,4 +1,5 @@
 # Event 610 - SoftKeyboard_OutputManager_HKLChanged
+###### Version: 0
 
 ## Description
 None

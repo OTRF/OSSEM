@@ -1,4 +1,5 @@
 # Osquery_packs Table
+###### Version: 4.4.2
 
 ## Description
 Information about the current query packs that are loaded in osquery.
@@ -16,6 +17,3 @@ Information about the current query packs that are loaded in osquery.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#osquery_packs)
-
-## Tags
-* version_4.4.2

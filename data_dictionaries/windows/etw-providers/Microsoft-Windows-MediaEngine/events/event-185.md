@@ -1,4 +1,5 @@
 # Event 185 - MediaFoundationME_GetCurrentTime
+###### Version: 0
 
 ## Description
 None

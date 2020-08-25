@@ -1,4 +1,5 @@
 # Event 300 - StandbyPerformanceMonitoring
+###### Version: 1
 
 ## Description
 None
@@ -65,4 +66,3 @@ None
 * etw_keywords_EventLog
 * etw_opcode_StandbyInformation
 * etw_task_StandbyPerformanceMonitoring
-* version_1

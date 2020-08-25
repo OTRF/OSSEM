@@ -1,4 +1,5 @@
 # Event 3 - TraceGraphicsCapabilities
+###### Version: 0
 
 ## Description
 None

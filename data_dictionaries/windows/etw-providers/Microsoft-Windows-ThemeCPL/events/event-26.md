@@ -1,4 +1,5 @@
 # Event 26 - ThemeCPL_AccColorCplPageApply
+###### Version: 0
 
 ## Description
 None

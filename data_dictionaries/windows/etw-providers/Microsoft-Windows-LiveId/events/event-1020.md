@@ -1,4 +1,5 @@
 # Event 1020 - LiveIdModernAPIOperation
+###### Version: 0
 
 ## Description
 None

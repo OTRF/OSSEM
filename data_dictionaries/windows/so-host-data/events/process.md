@@ -1,4 +1,5 @@
 # SO Host Data - Process Table
+###### Version: 0
 
 ## Description
 Get-SOHostData enumerates active processes on the scanned system. To do this it combines the output of PowerShell's Get-Process cmdlet and the Win32_Process WMI class.

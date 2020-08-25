@@ -1,4 +1,5 @@
 # Event 105 - Smb2ResponseTreeDisconnect
+###### Version: 2
 
 ## Description
 None
@@ -37,4 +38,3 @@ None
 * etw_level_Informational
 * etw_keywords_Response
 * etw_task_Smb2ResponseTreeDisconnect
-* version_2

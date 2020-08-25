@@ -1,4 +1,5 @@
 # Event 64 - SetHardwareProtection
+###### Version: 0
 
 ## Description
 None

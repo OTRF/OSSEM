@@ -1,4 +1,5 @@
 # Event 264 - SphericalVideoChangedTask
+###### Version: 0
 
 ## Description
 None

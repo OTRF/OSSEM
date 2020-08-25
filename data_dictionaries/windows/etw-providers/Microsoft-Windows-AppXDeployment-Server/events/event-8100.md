@@ -1,4 +1,5 @@
 # Event 8100 - AppXDeployment.Task.Server.Deployment.Trust
+###### Version: 0
 
 ## Description
 None

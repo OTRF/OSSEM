@@ -1,4 +1,5 @@
 # Event 501 - Busreset
+###### Version: 1
 
 ## Description
 None
@@ -15,4 +16,3 @@ None
 * etw_keywords_Reset
 * etw_opcode_OpCodeBusReset
 * etw_task_Busreset
-* version_1

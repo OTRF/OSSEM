@@ -1,4 +1,5 @@
 # Event 6001 - SODA_ActivitySnapshot
+###### Version: 0
 
 ## Description
 None

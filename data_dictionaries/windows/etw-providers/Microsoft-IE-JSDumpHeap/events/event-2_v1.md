@@ -1,4 +1,5 @@
 # Event 2 - JSDumpHeapEnvelope
+###### Version: 1
 
 ## Description
 None
@@ -13,4 +14,3 @@ None
 * etw_keywords_jsdumpheap jsdumpheapEnvelopeOnly
 * etw_opcode_Stop
 * etw_task_JSDumpHeapEnvelope
-* version_1

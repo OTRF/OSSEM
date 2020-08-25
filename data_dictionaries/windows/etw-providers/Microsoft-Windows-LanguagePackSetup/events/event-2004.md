@@ -1,4 +1,5 @@
 # Event 2004 - LanguagePackSetupUtilityfunctionality
+###### Version: 0
 
 ## Description
 None

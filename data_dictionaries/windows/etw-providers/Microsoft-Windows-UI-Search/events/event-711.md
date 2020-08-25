@@ -1,4 +1,5 @@
 # Event 711 - SearchPane_QueryChanged
+###### Version: 0
 
 ## Description
 None

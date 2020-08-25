@@ -1,4 +1,5 @@
 # Event 63 - SystemTimeResolutionChange
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Informational
 * etw_keywords_po:Diagnostic
 * etw_task_SystemTimeResolutionChange
-* version_1

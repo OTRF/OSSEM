@@ -1,4 +1,5 @@
 # Event 18 - CacheTermination
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Informational
 * etw_keywords_StoreOps StoreDiag
 * etw_task_CacheTermination
-* version_1

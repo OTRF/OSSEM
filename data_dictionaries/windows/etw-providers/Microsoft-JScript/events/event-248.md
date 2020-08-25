@@ -1,4 +1,5 @@
 # Event 248 - Jscript_GC_Clear_InlineCache
+###### Version: 0
 
 ## Description
 None

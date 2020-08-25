@@ -1,4 +1,5 @@
 # Event 53 - DWMRedirection
+###### Version: 0
 
 ## Description
 None

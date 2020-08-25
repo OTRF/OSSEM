@@ -1,4 +1,5 @@
 # Event 4000 - HotspotService
+###### Version: 0
 
 ## Description
 None

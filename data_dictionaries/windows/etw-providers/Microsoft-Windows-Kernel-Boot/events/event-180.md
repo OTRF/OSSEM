@@ -1,4 +1,5 @@
 # Event 180 - VerifyBootEntry
+###### Version: 0
 
 ## Description
 None

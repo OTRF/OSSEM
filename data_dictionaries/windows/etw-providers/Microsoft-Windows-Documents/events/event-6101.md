@@ -1,4 +1,5 @@
 # Event 6101 - DocPerf_Task_Setup_InstallDriverFromCurrentInf
+###### Version: 0
 
 ## Description
 None

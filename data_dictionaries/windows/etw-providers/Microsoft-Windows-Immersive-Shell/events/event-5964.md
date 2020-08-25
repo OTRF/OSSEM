@@ -1,4 +1,5 @@
 # Event 5964 - AppActivation_Log_AppManagerNotRunning
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 17 - DefaultLayoutManager_WriteStartLayoutToStorage
+###### Version: 0
 
 ## Description
 None

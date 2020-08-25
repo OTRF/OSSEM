@@ -1,4 +1,5 @@
 # Event 7106 - AppHistory_ParsePackageIcon
+###### Version: 0
 
 ## Description
 None

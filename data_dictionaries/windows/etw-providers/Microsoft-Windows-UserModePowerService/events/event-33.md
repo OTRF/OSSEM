@@ -1,4 +1,5 @@
 # Event 33 - SmartUserPresenceTimeUpdate
+###### Version: 0
 
 ## Description
 None

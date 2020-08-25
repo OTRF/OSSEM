@@ -1,4 +1,5 @@
 # Event 26 - Targetedreenumeration
+###### Version: 1
 
 ## Description
 None
@@ -21,4 +22,3 @@ None
 * etw_keywords_Enum
 * etw_opcode_OpCodeTargetedReenumeration
 * etw_task_Targetedreenumeration
-* version_1

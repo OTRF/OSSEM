@@ -1,4 +1,5 @@
 # Elf_info Table
+###### Version: 4.4.2
 
 ## Description
 ELF file information.
@@ -18,6 +19,3 @@ ELF file information.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#elf_info)
-
-## Tags
-* version_4.4.2

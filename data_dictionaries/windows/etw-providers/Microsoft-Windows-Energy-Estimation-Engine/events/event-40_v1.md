@@ -1,4 +1,5 @@
 # Event 40 - ProcessTagEnergyEstimate
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_level_Informational
 * etw_keywords_ProcessTag
 * etw_task_ProcessTagEnergyEstimate
-* version_1

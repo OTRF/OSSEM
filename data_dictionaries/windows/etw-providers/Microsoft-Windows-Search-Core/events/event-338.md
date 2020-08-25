@@ -1,4 +1,5 @@
 # Event 338 - GetQueryStatusEx
+###### Version: 0
 
 ## Description
 None

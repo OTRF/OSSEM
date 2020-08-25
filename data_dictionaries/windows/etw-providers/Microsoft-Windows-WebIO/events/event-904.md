@@ -1,4 +1,5 @@
 # Event 904 - CloseProtocolHandle
+###### Version: 0
 
 ## Description
 None

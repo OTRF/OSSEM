@@ -1,4 +1,5 @@
 # Event 507 - Suspending
+###### Version: 0
 
 ## Description
 None

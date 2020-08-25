@@ -1,4 +1,5 @@
 # Event 310 - AppXDeployment.Task.Client.Deployment
+###### Version: 0
 
 ## Description
 None

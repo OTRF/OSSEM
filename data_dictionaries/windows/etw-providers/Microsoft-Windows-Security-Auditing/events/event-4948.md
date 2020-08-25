@@ -1,4 +1,5 @@
 # Event ID 4948: A change has been made to Windows Firewall exception list. A rule was deleted.
+###### Version: 0
 
 ## Description
 This event generates when Windows Firewall rule was deleted.

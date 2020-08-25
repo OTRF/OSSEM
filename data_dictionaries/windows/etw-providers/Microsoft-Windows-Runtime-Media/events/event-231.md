@@ -1,4 +1,5 @@
 # Event 231 - MediaCaptureSetRegionsAsyncoperation
+###### Version: 0
 
 ## Description
 None

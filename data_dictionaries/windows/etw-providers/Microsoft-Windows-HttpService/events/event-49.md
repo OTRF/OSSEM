@@ -1,4 +1,5 @@
 # Event 49 - HTTPLoggingTraceTask
+###### Version: 0
 
 ## Description
 None

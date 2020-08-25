@@ -1,4 +1,5 @@
 # Event 237 - MFCaptureEngineStartPreviewTask
+###### Version: 0
 
 ## Description
 None

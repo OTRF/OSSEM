@@ -1,4 +1,5 @@
 # Event 7 - SessionClose
+###### Version: 0
 
 ## Description
 None

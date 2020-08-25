@@ -1,4 +1,5 @@
 # Event 5955 - AppActivation_Log_FullAdmin
+###### Version: 0
 
 ## Description
 None

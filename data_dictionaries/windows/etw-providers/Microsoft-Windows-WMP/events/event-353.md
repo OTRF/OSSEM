@@ -1,4 +1,5 @@
 # Event 353 - RME_CLIENT_LIBRARY_METADATA_RESPONSE
+###### Version: 0
 
 ## Description
 None

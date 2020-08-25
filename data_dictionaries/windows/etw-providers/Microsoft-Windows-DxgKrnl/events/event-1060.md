@@ -1,4 +1,5 @@
 # Event 1060 - IndirectSwapChainDestroy
+###### Version: 0
 
 ## Description
 None

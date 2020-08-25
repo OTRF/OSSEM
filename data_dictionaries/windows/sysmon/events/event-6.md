@@ -1,7 +1,8 @@
 # Event ID 6: Driver loaded
+###### Version: 4.32
 
 ## Description
-The driver loaded events provides information about a driver being loaded on the system. The configured hashes are provided as well as signature information. The signature is created asynchronously for performance reasons and indicates if the file was removed after loading.
+The **driver loaded** events provides information about a driver being loaded on the system. The configured hashes are provided as well as signature information. The signature is created asynchronously for performance reasons and indicates if the file was removed after loading.
 
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|

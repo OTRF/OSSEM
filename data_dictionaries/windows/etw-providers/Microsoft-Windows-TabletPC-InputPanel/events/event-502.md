@@ -1,4 +1,5 @@
 # Event 502 - SoftKeyboard_Geometry_GetKeyInfo
+###### Version: 0
 
 ## Description
 None

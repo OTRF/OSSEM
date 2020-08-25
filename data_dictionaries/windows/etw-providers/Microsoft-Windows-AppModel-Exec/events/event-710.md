@@ -1,4 +1,5 @@
 # Event 710 - BAM_SanitizePackageUnregister
+###### Version: 0
 
 ## Description
 None

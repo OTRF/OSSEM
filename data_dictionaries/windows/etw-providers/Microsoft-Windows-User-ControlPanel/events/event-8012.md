@@ -1,4 +1,5 @@
 # Event 8012 - UserAccount_ConnectLocalAccount_Completed
+###### Version: 0
 
 ## Description
 None

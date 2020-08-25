@@ -1,4 +1,5 @@
 # Managed_policies Table
+###### Version: 4.4.2
 
 ## Description
 The managed configuration policies from AD, MDM, MCX, etc.
@@ -15,6 +16,3 @@ The managed configuration policies from AD, MDM, MCX, etc.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#managed_policies)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 2320 - CtapNfcAddReader
+###### Version: 0
 
 ## Description
 None

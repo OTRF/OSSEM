@@ -1,4 +1,5 @@
 # Event 64 - CBlackboxWithTEEPrepareDomainPrivateKeysForStorage
+###### Version: 0
 
 ## Description
 None

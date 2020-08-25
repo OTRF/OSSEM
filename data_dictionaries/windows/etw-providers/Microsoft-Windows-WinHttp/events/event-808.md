@@ -1,4 +1,5 @@
 # Event 808 - WINHTTP_AUTOPROXY_SEARCH
+###### Version: 0
 
 ## Description
 None

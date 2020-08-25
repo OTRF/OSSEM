@@ -1,4 +1,5 @@
 # Event ID 4706: A new trust was created to a domain.
+###### Version: 0
 
 ## Description
 This event generates when a new trust was created to a domain.

@@ -1,4 +1,5 @@
 # Event 445 - DCompCommandType
+###### Version: 0
 
 ## Description
 None

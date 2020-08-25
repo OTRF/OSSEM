@@ -1,4 +1,5 @@
 # Shell_history Table
+###### Version: 4.4.2
 
 ## Description
 A line-delimited (command) table of per-user .*_history data.
@@ -13,6 +14,3 @@ A line-delimited (command) table of per-user .*_history data.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#shell_history)
-
-## Tags
-* version_4.4.2

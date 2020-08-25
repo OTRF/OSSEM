@@ -1,4 +1,5 @@
 # Event 2316 - CtapNfcReaderManagerThread
+###### Version: 0
 
 ## Description
 None

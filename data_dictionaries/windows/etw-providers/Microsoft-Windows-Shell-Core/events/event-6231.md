@@ -1,4 +1,5 @@
 # Event 6231 - Thumbnails_CropLookupSize
+###### Version: 0
 
 ## Description
 None

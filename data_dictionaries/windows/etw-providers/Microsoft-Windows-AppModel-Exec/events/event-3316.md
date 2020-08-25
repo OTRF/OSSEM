@@ -1,4 +1,5 @@
 # Event 3316 - LogTrace
+###### Version: 0
 
 ## Description
 None

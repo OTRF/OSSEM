@@ -1,4 +1,5 @@
 # Event 296 - MIDMANIPULATION_UPDATE_VISUAL_ADDITION
+###### Version: 0
 
 ## Description
 None

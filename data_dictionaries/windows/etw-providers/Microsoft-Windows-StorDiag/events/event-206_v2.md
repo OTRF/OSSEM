@@ -1,4 +1,5 @@
 # Event 206 - Class
+###### Version: 2
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_keywords_Read LowMemoryRead
 * etw_opcode_Dispatchingofrequest.
 * etw_task_Class
-* version_2

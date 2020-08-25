@@ -1,4 +1,5 @@
 # Event 475 - WMPDMR_CONNECTION_MANAGER_ACTIONS
+###### Version: 0
 
 ## Description
 None

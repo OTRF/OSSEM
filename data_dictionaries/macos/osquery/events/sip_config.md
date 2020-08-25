@@ -1,4 +1,5 @@
 # Sip_config Table
+###### Version: 4.4.2
 
 ## Description
 Apple's System Integrity Protection (rootless) status.
@@ -12,6 +13,3 @@ Apple's System Integrity Protection (rootless) status.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#sip_config)
-
-## Tags
-* version_4.4.2

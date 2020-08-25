@@ -1,4 +1,5 @@
 # Event 12 - MediaFoundationDevproxyKSPinStateChange
+###### Version: 0
 
 ## Description
 None

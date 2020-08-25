@@ -1,4 +1,5 @@
 # Event 3699 - LogTrace
+###### Version: 0
 
 ## Description
 None

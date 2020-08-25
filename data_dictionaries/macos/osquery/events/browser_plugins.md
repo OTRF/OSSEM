@@ -1,4 +1,5 @@
 # Browser_plugins Table
+###### Version: 4.4.2
 
 ## Description
 All C/NPAPI browser plugin details for all users.
@@ -19,6 +20,3 @@ All C/NPAPI browser plugin details for all users.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#browser_plugins)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 5152 - UdwmAnimationResource
+###### Version: 0
 
 ## Description
 None

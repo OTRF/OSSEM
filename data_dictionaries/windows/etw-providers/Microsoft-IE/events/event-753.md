@@ -1,4 +1,5 @@
 # Event 753 - Mshtml_CrossCDoc_NodeAdoptionAttempt
+###### Version: 0
 
 ## Description
 None

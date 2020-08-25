@@ -1,4 +1,5 @@
 # Event 3368 - SessionUpgrade
+###### Version: 0
 
 ## Description
 None

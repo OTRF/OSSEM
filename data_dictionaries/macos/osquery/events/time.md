@@ -1,4 +1,5 @@
 # Time Table
+###### Version: 4.4.2
 
 ## Description
 Track current date and time in the system.
@@ -23,6 +24,3 @@ Track current date and time in the system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#time)
-
-## Tags
-* version_4.4.2

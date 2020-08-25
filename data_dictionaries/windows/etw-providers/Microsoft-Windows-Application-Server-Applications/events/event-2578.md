@@ -1,4 +1,5 @@
 # Event 2578 - TryCatchException
+###### Version: 0
 
 ## Description
 None

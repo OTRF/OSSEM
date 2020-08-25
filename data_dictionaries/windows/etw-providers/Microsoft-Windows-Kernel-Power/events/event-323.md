@@ -1,4 +1,5 @@
 # Event 323 - PerformanceStateSetRegistration
+###### Version: 0
 
 ## Description
 None

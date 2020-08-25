@@ -1,4 +1,5 @@
 # Event 2204 - SharingManager_GetSharableItemDescription
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 109 - MFTProcessingLoopStateOtherItemsInQueueAfterStateChanged
+###### Version: 0
 
 ## Description
 None

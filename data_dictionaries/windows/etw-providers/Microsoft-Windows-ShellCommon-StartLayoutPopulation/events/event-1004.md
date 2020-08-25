@@ -1,4 +1,5 @@
 # Event 1004 - CuratedTileCollectionTransformer_LayoutInitialization
+###### Version: 0
 
 ## Description
 None

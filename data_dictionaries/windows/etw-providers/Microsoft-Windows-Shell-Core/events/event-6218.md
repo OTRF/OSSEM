@@ -1,4 +1,5 @@
 # Event 6218 - Thumbnails_GetThumbnail
+###### Version: 0
 
 ## Description
 None

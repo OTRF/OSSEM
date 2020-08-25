@@ -1,4 +1,5 @@
 # Event 20 - ApiUpdateThumbnailProperties
+###### Version: 0
 
 ## Description
 None

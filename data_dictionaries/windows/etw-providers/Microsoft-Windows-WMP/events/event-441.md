@@ -1,4 +1,5 @@
 # Event 441 - CONFIGURE_STREAMING_HG_MENU_ACTION
+###### Version: 0
 
 ## Description
 None

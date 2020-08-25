@@ -1,4 +1,5 @@
 # Event 89 - Mshtml_HtmPost_Exec
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_primarynav mshtml pageloadbreakdown
 * etw_opcode_Stop
 * etw_task_Mshtml_HtmPost_Exec
-* version_1

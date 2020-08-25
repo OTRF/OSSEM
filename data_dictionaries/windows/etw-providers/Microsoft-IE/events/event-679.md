@@ -1,4 +1,5 @@
 # Event 679 - Mshtml_CDMDraggableTouchTarget_OnDragDropStatusChangeImp
+###### Version: 0
 
 ## Description
 None

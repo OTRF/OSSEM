@@ -1,4 +1,5 @@
 # Event 1046 - WinNatMInternalAddressRemoval
+###### Version: 0
 
 ## Description
 None

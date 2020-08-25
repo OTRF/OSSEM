@@ -1,4 +1,5 @@
 # Event 1271 - FM_IsForegroundApplication
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 2272 - CtapBleSendReceive
+###### Version: 0
 
 ## Description
 None

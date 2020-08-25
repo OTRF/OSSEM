@@ -1,4 +1,5 @@
 # Event 3554 - LogTrace
+###### Version: 0
 
 ## Description
 None

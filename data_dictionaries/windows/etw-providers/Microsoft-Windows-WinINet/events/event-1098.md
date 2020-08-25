@@ -1,4 +1,5 @@
 # Event 1098 - Wininet_AppCacheServerContainer
+###### Version: 0
 
 ## Description
 None

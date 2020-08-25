@@ -1,4 +1,5 @@
 # Event 229 - ESE_tagLogging_Trace
+###### Version: 0
 
 ## Description
 None

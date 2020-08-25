@@ -1,11 +1,12 @@
 title: 'Event ID 3: Network connection'
-description: The network connection event logs TCP/UDP connections on the machine.
+description: The **network connection** event logs TCP/UDP connections on the machine.
   It is disabled by default. Each connection is linked to a process through the ProcessId
   and ProcessGUID fields. The event also contains the source and destination host
   names IP addresses, port numbers and IPv6 status.
 platform: windows
 log_source: sysmon
 event_code: '3'
+event_version: '4.32'
 event_fields:
 - standard_name: tag
   standard_type: TBD

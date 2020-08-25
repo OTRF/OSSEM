@@ -1,4 +1,5 @@
 # Event 333 - ETWGUID_VISUAL_RENDERCONTENT
+###### Version: 0
 
 ## Description
 None

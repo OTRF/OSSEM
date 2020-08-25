@@ -1,4 +1,5 @@
 # Event 134 - HiddenProcessorBiosCapChange
+###### Version: 0
 
 ## Description
 None

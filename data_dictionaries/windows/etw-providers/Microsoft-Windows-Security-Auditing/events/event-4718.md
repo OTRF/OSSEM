@@ -1,4 +1,5 @@
 # Event ID 4718: System security access was removed from an account
+###### Version: 0
 
 ## Description
 This event generates every time local logon user right policy is changed and logon right was removed from an account. You will see unique event for every user if logon user rights were removed for multiple accounts.

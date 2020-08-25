@@ -1,4 +1,5 @@
 # Event 640 - Mshtml_CDoc_HostPaintUpdateNotification
+###### Version: 0
 
 ## Description
 None

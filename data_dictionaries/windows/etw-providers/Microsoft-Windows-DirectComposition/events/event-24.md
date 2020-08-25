@@ -1,4 +1,5 @@
 # Event 24 - DEVICE_DESTROY
+###### Version: 0
 
 ## Description
 None

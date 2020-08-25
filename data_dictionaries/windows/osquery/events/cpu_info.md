@@ -1,4 +1,5 @@
 # Cpu_info Table
+###### Version: 4.4.2
 
 ## Description
 Retrieve cpu hardware info of the machine.
@@ -21,6 +22,3 @@ Retrieve cpu hardware info of the machine.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#cpu_info)
-
-## Tags
-* version_4.4.2

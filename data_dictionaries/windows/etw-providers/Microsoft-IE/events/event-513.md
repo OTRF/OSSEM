@@ -1,4 +1,5 @@
 # Event 513 - Mshtml_XML_Http_Request_Open_Sync_On_UI_Thread
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 18 - OLE_DragDrop_UnregisterInternal
+###### Version: 0
 
 ## Description
 None

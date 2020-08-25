@@ -1,4 +1,5 @@
 # Event 502 - Mshtml_Composition_Destroy_SBLayer
+###### Version: 0
 
 ## Description
 None

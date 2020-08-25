@@ -1,4 +1,5 @@
 # Event 393 - COMPUTESCRIBBLE_TELEMETRYDROPPED
+###### Version: 0
 
 ## Description
 None

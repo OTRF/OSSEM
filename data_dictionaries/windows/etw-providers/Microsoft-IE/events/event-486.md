@@ -1,4 +1,5 @@
 # Event 486 - Mshtml_CDirectManipulationHandler_TouchHandler_Configuration
+###### Version: 0
 
 ## Description
 None

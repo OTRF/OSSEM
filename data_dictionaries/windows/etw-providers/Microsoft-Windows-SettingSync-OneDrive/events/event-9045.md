@@ -1,4 +1,5 @@
 # Event 9045 - Perf_WLRoamCreateAppBackupFolder
+###### Version: 0
 
 ## Description
 None

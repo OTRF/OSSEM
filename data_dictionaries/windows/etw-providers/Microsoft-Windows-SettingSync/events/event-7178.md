@@ -1,4 +1,5 @@
 # Event 7178 - Perf_AppSyncInstallApp
+###### Version: 0
 
 ## Description
 None

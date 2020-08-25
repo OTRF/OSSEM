@@ -1,4 +1,5 @@
 # Event 48 - AddDevice
+###### Version: 0
 
 ## Description
 None

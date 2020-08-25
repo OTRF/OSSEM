@@ -1,4 +1,5 @@
 # Event ID 4762: A member was removed from a security-disabled universal group
+###### Version: 0
 
 ## Description
 Event 4762 is the same as 4752, except it is generated for a universal distribution group instead of a global distribution group. All event fields, XML, and recommendations are the same. The type of group is the only difference.

@@ -1,4 +1,5 @@
 # Event 241 - FileMetadataOptimization
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 9711 - Explorer_ExecutingFromStartupMenu
+###### Version: 0
 
 ## Description
 None

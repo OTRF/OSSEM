@@ -1,4 +1,5 @@
 # Event 1098 - MediaFoundationOPMPoll
+###### Version: 0
 
 ## Description
 None

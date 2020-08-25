@@ -1,4 +1,5 @@
 # Event 283 - THUMBNAIL_TOOLBAR_BUTTON_CLICKED
+###### Version: 0
 
 ## Description
 None

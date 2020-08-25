@@ -1,4 +1,5 @@
 # Event 302 - INTERACTION_MOUSE_CONFIGURATION_CHANGED
+###### Version: 0
 
 ## Description
 None

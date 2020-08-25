@@ -1,4 +1,5 @@
 # Event 32 - StrokeSelect
+###### Version: 0
 
 ## Description
 None

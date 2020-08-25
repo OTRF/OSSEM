@@ -1,4 +1,5 @@
 # Event 146 - ESE_ResMgrInit_Trace
+###### Version: 0
 
 ## Description
 None

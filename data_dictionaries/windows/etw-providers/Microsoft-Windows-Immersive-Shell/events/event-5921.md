@@ -1,4 +1,5 @@
 # Event 5921 - AppActivation_ErrorDialogDisplayed
+###### Version: 0
 
 ## Description
 None

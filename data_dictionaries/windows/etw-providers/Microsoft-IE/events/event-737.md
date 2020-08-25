@@ -1,4 +1,5 @@
 # Event 737 - Mshtml_WebOCEvents_NavigateRedirected
+###### Version: 0
 
 ## Description
 None

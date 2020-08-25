@@ -1,4 +1,5 @@
 # Event 750 - Mshtml_CSP_CheckPolicy
+###### Version: 0
 
 ## Description
 None

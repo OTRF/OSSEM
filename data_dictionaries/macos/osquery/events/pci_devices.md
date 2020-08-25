@@ -1,4 +1,5 @@
 # Pci_devices Table
+###### Version: 4.4.2
 
 ## Description
 PCI devices active on the host system.
@@ -27,6 +28,3 @@ PCI devices active on the host system.
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#pci_devices)
-
-## Tags
-* version_4.4.2

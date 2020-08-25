@@ -1,4 +1,5 @@
 # Event 151 - CoolingExtensionAdd
+###### Version: 0
 
 ## Description
 None

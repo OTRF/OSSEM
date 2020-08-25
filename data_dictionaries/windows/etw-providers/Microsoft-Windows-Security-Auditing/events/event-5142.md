@@ -1,4 +1,5 @@
 # Event ID 5142: A network share object was added
+###### Version: 0
 
 ## Description
 This event generates every time network share object was accessed.

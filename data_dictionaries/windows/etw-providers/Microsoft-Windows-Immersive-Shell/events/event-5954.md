@@ -1,4 +1,5 @@
 # Event 5954 - AppActivation_Log_UACDisabled
+###### Version: 0
 
 ## Description
 None

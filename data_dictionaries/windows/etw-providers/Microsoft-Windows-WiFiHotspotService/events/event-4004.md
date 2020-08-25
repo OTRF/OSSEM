@@ -1,4 +1,5 @@
 # Event 4004 - HotspotService
+###### Version: 0
 
 ## Description
 None

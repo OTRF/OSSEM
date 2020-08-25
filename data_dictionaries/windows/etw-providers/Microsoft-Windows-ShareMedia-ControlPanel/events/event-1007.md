@@ -1,4 +1,5 @@
 # Event 1007 - AddDevice
+###### Version: 0
 
 ## Description
 None

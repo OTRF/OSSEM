@@ -1,4 +1,5 @@
 # Event 138 - ESE_ThreadStart_Trace
+###### Version: 0
 
 ## Description
 None

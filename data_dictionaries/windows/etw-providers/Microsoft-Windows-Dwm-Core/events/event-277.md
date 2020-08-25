@@ -1,4 +1,5 @@
 # Event 277 - MANIPULATION_CONTEXT_NEW_CONTACT
+###### Version: 0
 
 ## Description
 None

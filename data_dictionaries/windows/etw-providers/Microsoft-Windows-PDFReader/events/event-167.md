@@ -1,4 +1,5 @@
 # Event 167 - PageResourceUpdate
+###### Version: 0
 
 ## Description
 None

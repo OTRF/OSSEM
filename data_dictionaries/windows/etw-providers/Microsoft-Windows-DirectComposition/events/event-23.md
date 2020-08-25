@@ -1,4 +1,5 @@
 # Event 23 - DEVICE_CREATE
+###### Version: 0
 
 ## Description
 None

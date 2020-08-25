@@ -1,4 +1,5 @@
 # Event 256 - CSearchScopeRule_get_PatternOrURL
+###### Version: 0
 
 ## Description
 None

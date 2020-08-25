@@ -1,4 +1,5 @@
 # Event 12 - PackageStateChange
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_BackgroundTask
 * etw_opcode_Stop
 * etw_task_PackageStateChange
-* version_1

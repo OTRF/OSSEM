@@ -1,4 +1,5 @@
 # Event 254 - Mshtml_Image_Reclaim
+###### Version: 0
 
 ## Description
 None

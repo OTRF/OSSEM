@@ -1,4 +1,5 @@
 # Cpu_time Table
+###### Version: 4.4.2
 
 ## Description
 Displays information from /proc/stat file about the time the cpu cores spent in different parts of the system.
@@ -20,6 +21,3 @@ Displays information from /proc/stat file about the time the cpu cores spent in 
 
 ## References
 * [OSQuery table documentation](https://osquery.io/schema/current#cpu_time)
-
-## Tags
-* version_4.4.2

@@ -1,4 +1,5 @@
 # Event 835 - WINHTTP_AUTOPROXY_PERFTRACK_ALL
+###### Version: 0
 
 ## Description
 None

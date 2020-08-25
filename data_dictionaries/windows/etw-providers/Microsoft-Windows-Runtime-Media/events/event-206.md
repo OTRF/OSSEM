@@ -1,4 +1,5 @@
 # Event 206 - MicrosoftWindowsRuntimeCaptureEngineStopRecordTask
+###### Version: 0
 
 ## Description
 None

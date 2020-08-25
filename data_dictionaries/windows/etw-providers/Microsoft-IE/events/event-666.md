@@ -1,4 +1,5 @@
 # Event 666 - Mshtml_IndependentHitTest_HitTestPointer
+###### Version: 0
 
 ## Description
 None

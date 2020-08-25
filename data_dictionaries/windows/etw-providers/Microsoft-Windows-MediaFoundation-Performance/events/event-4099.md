@@ -1,4 +1,5 @@
 # Event 4099 - NetworkClientPause
+###### Version: 0
 
 ## Description
 None

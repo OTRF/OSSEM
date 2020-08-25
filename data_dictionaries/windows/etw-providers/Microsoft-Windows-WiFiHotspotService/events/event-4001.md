@@ -1,4 +1,5 @@
 # Event 4001 - HotspotService
+###### Version: 0
 
 ## Description
 None

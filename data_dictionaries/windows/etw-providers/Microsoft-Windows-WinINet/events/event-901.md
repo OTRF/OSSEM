@@ -1,4 +1,5 @@
 # Event 901 - WININET_APPLICATION_OFFLINE_CHECK
+###### Version: 0
 
 ## Description
 None

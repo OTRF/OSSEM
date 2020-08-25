@@ -1,4 +1,5 @@
 # Event 205 - CSearchCrawlScopeManager_IncludedInCrawlScope
+###### Version: 0
 
 ## Description
 None

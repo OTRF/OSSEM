@@ -1,5 +1,5 @@
 title: 'Event ID 1: Process creation'
-description: The process creation event provides extended information about a newly
+description: The **process creation** event provides extended information about a newly
   created process. The full command line provides context on the process execution.
   The ProcessGUID field is a unique value for this process across a domain to make
   event correlation easier. The hash is a full hash of the file with the algorithms
@@ -7,6 +7,7 @@ description: The process creation event provides extended information about a ne
 platform: windows
 log_source: sysmon
 event_code: '1'
+event_version: '4.32'
 event_fields:
 - standard_name: tag
   standard_type: TBD

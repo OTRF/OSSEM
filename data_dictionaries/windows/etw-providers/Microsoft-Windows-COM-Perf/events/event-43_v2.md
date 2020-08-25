@@ -1,4 +1,5 @@
 # Event 43 - COM_ServerSyncCall
+###### Version: 2
 
 ## Description
 None
@@ -23,4 +24,3 @@ None
 * etw_level_Informational
 * etw_opcode_Start
 * etw_task_COM_ServerSyncCall
-* version_2

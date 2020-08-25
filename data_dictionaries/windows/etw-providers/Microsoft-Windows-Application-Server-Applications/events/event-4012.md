@@ -1,4 +1,5 @@
 # Event 4012 - MessageQueueRegister
+###### Version: 0
 
 ## Description
 None

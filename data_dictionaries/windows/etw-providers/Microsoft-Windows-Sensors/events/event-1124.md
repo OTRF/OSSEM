@@ -1,4 +1,5 @@
 # Event 1124 - SensorServicesettingsensorstateinaggregatedsensor
+###### Version: 0
 
 ## Description
 None

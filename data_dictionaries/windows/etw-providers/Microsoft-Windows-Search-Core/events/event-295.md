@@ -1,4 +1,5 @@
 # Event 295 - RobotThread_LangAutoDetection_Succeed
+###### Version: 0
 
 ## Description
 None

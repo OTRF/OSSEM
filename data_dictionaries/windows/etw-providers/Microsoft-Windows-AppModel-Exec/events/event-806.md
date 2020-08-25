@@ -1,4 +1,5 @@
 # Event 806 - LogTrace
+###### Version: 0
 
 ## Description
 None

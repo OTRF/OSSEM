@@ -1,4 +1,5 @@
 # Event 116 - ProtectedResourceSession
+###### Version: 0
 
 ## Description
 None

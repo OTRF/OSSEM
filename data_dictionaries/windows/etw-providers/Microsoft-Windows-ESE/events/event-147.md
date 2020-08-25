@@ -1,4 +1,5 @@
 # Event 147 - ESE_ResMgrTerm_Trace
+###### Version: 0
 
 ## Description
 None

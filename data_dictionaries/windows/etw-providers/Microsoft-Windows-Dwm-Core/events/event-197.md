@@ -1,4 +1,5 @@
 # Event 197 - ETWGUID_RENDEROPT_DISCARDVIEWEVENT
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 7212 - ConnectedSearch_UploadEventDequeued
+###### Version: 0
 
 ## Description
 None

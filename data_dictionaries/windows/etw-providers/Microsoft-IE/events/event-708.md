@@ -1,4 +1,5 @@
 # Event 708 - Mshtml_Post_MSManipulationStateChange
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 4326 - ImmersiveMonitorDestroyPerMonitorComponents
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 9907 - ExplorerFrame_ExplorerLauncher_Launch_Failure
+###### Version: 0
 
 ## Description
 None

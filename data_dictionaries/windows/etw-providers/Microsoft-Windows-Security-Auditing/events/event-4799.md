@@ -1,4 +1,5 @@
 # Event ID 4799: A security-enabled local group membership was enumerated
+###### Version: 0
 
 ## Description
 This event generates when a process enumerates the members of a security-enabled local group on the computer or device. This event doesn't generate when group members were enumerated using Active Directory Users and Computers snap-in.

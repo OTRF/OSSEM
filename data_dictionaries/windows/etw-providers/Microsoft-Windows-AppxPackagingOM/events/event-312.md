@@ -1,4 +1,5 @@
 # Event 312 - AppXPackaging.Task.StreamingReader.RequestHandlerRun
+###### Version: 0
 
 ## Description
 None

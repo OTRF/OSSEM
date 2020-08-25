@@ -1,4 +1,5 @@
 # Event 52 - ANIMATION_SCENARIO_UNREFERENCE
+###### Version: 0
 
 ## Description
 None

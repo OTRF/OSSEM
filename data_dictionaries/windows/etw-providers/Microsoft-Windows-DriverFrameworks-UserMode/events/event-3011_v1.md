@@ -1,4 +1,5 @@
 # Event 3011 - PnporPowerManagementoperationtoaparticulardriverinadevicestack.
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_level_Verbose
 * etw_opcode_Stop
 * etw_task_PnporPowerManagementoperationtoaparticulardriverinadevicestack.
-* version_1

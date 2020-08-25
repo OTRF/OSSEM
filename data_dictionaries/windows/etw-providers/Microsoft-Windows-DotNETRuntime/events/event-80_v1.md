@@ -1,4 +1,5 @@
 # Event 80 - Exception
+###### Version: 1
 
 ## Description
 None
@@ -18,4 +19,3 @@ None
 * etw_keywords_ExceptionKeyword MonitoringKeyword
 * etw_opcode_Start
 * etw_task_Exception
-* version_1

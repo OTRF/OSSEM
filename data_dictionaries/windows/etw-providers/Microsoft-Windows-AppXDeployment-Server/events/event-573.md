@@ -1,4 +1,5 @@
 # Event 573 - AppXDeployment.Task.Server.Deployment.StageUserData
+###### Version: 0
 
 ## Description
 None

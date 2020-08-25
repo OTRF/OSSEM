@@ -1,4 +1,5 @@
 # Event 1257 - FM_RegisterForExtensionRevokedEvent
+###### Version: 0
 
 ## Description
 None

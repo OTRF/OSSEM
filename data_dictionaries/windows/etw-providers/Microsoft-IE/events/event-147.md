@@ -1,4 +1,5 @@
 # Event 147 - Mshtml_PrivacIE_AddWebFilter
+###### Version: 0
 
 ## Description
 None

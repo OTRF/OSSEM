@@ -1,4 +1,5 @@
 # Event 4338 - MFGraphSetCookie
+###### Version: 0
 
 ## Description
 None

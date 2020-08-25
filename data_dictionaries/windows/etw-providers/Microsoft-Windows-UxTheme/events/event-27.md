@@ -1,4 +1,5 @@
 # Event 27 - GetClientSessionData
+###### Version: 0
 
 ## Description
 None

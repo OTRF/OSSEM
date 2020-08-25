@@ -1,4 +1,5 @@
 # Event 504 - Port
+###### Version: 3
 
 ## Description
 None
@@ -44,4 +45,3 @@ None
 * etw_level_Informational
 * etw_keywords_Read Write
 * etw_task_Port
-* version_3

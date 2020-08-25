@@ -1,4 +1,5 @@
 # Event ID 5378: The requested credentials delegation was disallowed by policy
+###### Version: 0
 
 ## Description
 This event occurs when an account that is a member of any defined Special Group logs in.

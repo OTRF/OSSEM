@@ -1,4 +1,5 @@
 # Event 7211 - ConnectedSearch_UploadEventEnqueued
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 1420 - MediaFoundationDeviceMFTSetOutputTypeInitialization
+###### Version: 0
 
 ## Description
 None

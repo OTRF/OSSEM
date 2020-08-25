@@ -1,4 +1,5 @@
 # Event 281 - THUMBNAIL_TOOLBAR_ADD
+###### Version: 0
 
 ## Description
 None

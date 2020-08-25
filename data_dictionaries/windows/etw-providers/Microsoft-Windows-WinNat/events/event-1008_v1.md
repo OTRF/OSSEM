@@ -1,4 +1,5 @@
 # Event 1008 - WinNatBindingSessionCount
+###### Version: 1
 
 ## Description
 None
@@ -19,4 +20,3 @@ None
 * etw_level_Informational
 * etw_keywords_ut:Binding
 * etw_task_WinNatBindingSessionCount
-* version_1

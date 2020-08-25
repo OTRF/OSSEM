@@ -1,4 +1,5 @@
 # Event 860 - Connectionreconfigured
+###### Version: 0
 
 ## Description
 None

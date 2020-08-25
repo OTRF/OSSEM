@@ -1,4 +1,5 @@
 # Event 7043 - Perf_WLRoamLocalSyncGetSettingUnit
+###### Version: 0
 
 ## Description
 None

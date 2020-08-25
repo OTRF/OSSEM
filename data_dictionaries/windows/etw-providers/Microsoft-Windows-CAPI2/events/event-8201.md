@@ -1,4 +1,5 @@
 # Event 8201 - SearchforSecurityCatalogsintheCatalogDatabasethatcontainthehash
+###### Version: 0
 
 ## Description
 None

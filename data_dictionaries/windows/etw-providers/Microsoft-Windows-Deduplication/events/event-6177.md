@@ -1,4 +1,5 @@
 # Event 6177 - DataDeduplicationOptimizationTask
+###### Version: 0
 
 ## Description
 None

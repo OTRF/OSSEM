@@ -1,4 +1,5 @@
 # Event 2265 - SharingManager_RetrieveSquare30x30Logo
+###### Version: 0
 
 ## Description
 None

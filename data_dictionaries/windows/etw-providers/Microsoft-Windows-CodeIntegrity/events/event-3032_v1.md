@@ -1,4 +1,5 @@
 # Event 3032 - CreateSection
+###### Version: 1
 
 ## Description
 None
@@ -17,4 +18,3 @@ None
 * etw_level_Warning
 * etw_opcode_RevokedImageLoaded
 * etw_task_CreateSection
-* version_1

@@ -1,4 +1,5 @@
 # Event 183 - Mshtml_CImgCacheEntry_RemoveFromWS
+###### Version: 0
 
 ## Description
 None

@@ -1,4 +1,5 @@
 # Event 183 - AuthenticodeVerification
+###### Version: 1
 
 ## Description
 None
@@ -16,4 +17,3 @@ None
 * etw_keywords_SecurityKeyword
 * etw_opcode_Start
 * etw_task_AuthenticodeVerification
-* version_1

@@ -1,4 +1,5 @@
 # Event 6101 - DeviceDiscovery
+###### Version: 0
 
 ## Description
 None

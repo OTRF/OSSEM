@@ -1,4 +1,5 @@
 # Event 173 - MediaFoundationPresent_ProcessFlipMode
+###### Version: 2
 
 ## Description
 None
@@ -25,4 +26,3 @@ None
 ## Tags
 * etw_level_Verbose
 * etw_task_MediaFoundationPresent_ProcessFlipMode
-* version_2

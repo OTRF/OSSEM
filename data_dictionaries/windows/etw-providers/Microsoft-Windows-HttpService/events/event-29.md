@@ -1,4 +1,5 @@
 # Event 29 - HTTPConfigurationPropertyTraceTask
+###### Version: 0
 
 ## Description
 None

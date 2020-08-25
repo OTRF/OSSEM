@@ -1,4 +1,5 @@
 # Event 5116 - CConnectedUserWizardPage_InternetInitialize
+###### Version: 0
 
 ## Description
 None

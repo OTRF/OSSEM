@@ -1,4 +1,5 @@
 # Event 302 - MediaFoundationMFTEnum
+###### Version: 0
 
 ## Description
 None

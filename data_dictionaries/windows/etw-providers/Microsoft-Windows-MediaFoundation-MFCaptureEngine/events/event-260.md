@@ -1,4 +1,5 @@
 # Event 260 - MFCaptureEngineGetAvailableDeviceMediaType
+###### Version: 0
 
 ## Description
 None

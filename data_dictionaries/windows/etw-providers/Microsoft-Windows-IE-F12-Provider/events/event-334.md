@@ -1,4 +1,5 @@
 # Event 334 - Debugger_Editor_SaveViewState
+###### Version: 0
 
 ## Description
 None
