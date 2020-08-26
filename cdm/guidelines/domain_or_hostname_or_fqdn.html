@@ -467,7 +467,7 @@ example Domain value = <code class="docutils literal notranslate"><span class="p
 <div class="section" id="implementation-examples">
 <h3>Implementation Examples<a class="headerlink" href="#implementation-examples" title="Permalink to this headline">¶</a></h3>
 <ol class="simple">
-<li><p>Sysmon <a class="reference external" href="https://github.com/hunters-forge/OSSEM/blob/master/data_dictionaries/windows/sysmon/events/event-3.md">EventID:3 network connection event log</a> field for <code class="docutils literal notranslate"><span class="pre">DestinationHostName</span></code> should be set as <code class="docutils literal notranslate"><span class="pre">dst_host_name</span></code></p></li>
+<li><p>Sysmon <a class="reference external" href="https://github.com/OTRF/OSSEM/blob/master/data_dictionaries/windows/sysmon/events/event-3.md">EventID:3 network connection event log</a> field for <code class="docutils literal notranslate"><span class="pre">DestinationHostName</span></code> should be set as <code class="docutils literal notranslate"><span class="pre">dst_host_name</span></code></p></li>
 <li><p>HTTP or Proxy or web server application logs (ie: IIS, Apache, NGINX, etc…), with the hostname/domain (also known as the HTTP Host header) should be set as <code class="docutils literal notranslate"><span class="pre">dst_host_name</span></code><br />
 this would include:</p>
 <ul class="simple">
@@ -486,7 +486,7 @@ this would include:</p>
 </ul>
 </li>
 <li><p>Kerberos service name should be set as <code class="docutils literal notranslate"><span class="pre">dst_host_name</span></code></p></li>
-<li><p>Sysmon <a class="reference external" href="https://github.com/hunters-forge/OSSEM/blob/master/data_dictionaries/windows/sysmon/events/event-22.md">EventID:22 dns query event log</a> field for <code class="docutils literal notranslate"><span class="pre">QueryName</span></code> should be set as <code class="docutils literal notranslate"><span class="pre">dst_host_name</span></code></p></li>
+<li><p>Sysmon <a class="reference external" href="https://github.com/OTRF/OSSEM/blob/master/data_dictionaries/windows/sysmon/events/event-22.md">EventID:22 dns query event log</a> field for <code class="docutils literal notranslate"><span class="pre">QueryName</span></code> should be set as <code class="docutils literal notranslate"><span class="pre">dst_host_name</span></code></p></li>
 <li><p>DNS query name field should be set as <code class="docutils literal notranslate"><span class="pre">dst_host_name</span></code></p>
 <ul class="simple">
 <li><p>Zeek DNS field <code class="docutils literal notranslate"><span class="pre">query</span></code></p></li>
@@ -497,13 +497,13 @@ this would include:</p>
 For example:</p>
 <ul class="simple">
 <li><p>Zeek or Suricata HTTP log, skip this because it is defined in option 2</p></li>
-<li><p>PaloAlto Threat log using the field <code class="docutils literal notranslate"><span class="pre">URL/Filename</span></code> field as <a class="reference external" href="https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/monitoring/use-syslog-for-monitoring/syslog-field-descriptions.html">outlined here</a> , after first renaming to <code class="docutils literal notranslate"><span class="pre">url.original</span></code> as defined in <a class="reference external" href="https://github.com/hunters-forge/OSSEM/blob/master/common_information_model/entities/url.md">URL Schema</a>, you would parse the domain/host out of this field and then set it as <code class="docutils literal notranslate"><span class="pre">dst_host_name</span></code></p></li>
+<li><p>PaloAlto Threat log using the field <code class="docutils literal notranslate"><span class="pre">URL/Filename</span></code> field as <a class="reference external" href="https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/monitoring/use-syslog-for-monitoring/syslog-field-descriptions.html">outlined here</a> , after first renaming to <code class="docutils literal notranslate"><span class="pre">url.original</span></code> as defined in <a class="reference external" href="https://github.com/OTRF/OSSEM/blob/master/common_information_model/entities/url.md">URL Schema</a>, you would parse the domain/host out of this field and then set it as <code class="docutils literal notranslate"><span class="pre">dst_host_name</span></code></p></li>
 </ul>
 </li>
 <li><p>RDP client/source name should be set as  <code class="docutils literal notranslate"><span class="pre">src_host_name</span></code></p></li>
 <li><p>Endpoint (ie: Windows/Linux) logs that do <strong>NOT</strong> apply to the following:<br />
 a) defined in the use cases above<br />
-b) already defined in <a class="reference external" href="https://github.com/hunters-forge/OSSEM/tree/master/data_dictionaries">data dictionaries</a> (ex: <a class="reference external" href="https://github.com/hunters-forge/OSSEM/blob/master/data_dictionaries/windows/etw-providers/Microsoft-Windows-Security-Auditing/events/event-4768.md">Windows Kerberos EventID:4768</a>, <a class="reference external" href="https://github.com/hunters-forge/OSSEM/blob/master/data_dictionaries/windows/etw-providers/Microsoft-Windows-Security-Auditing/events/event-4624_v2.md">Windows Logon EventID:4624</a>)<br />
+b) already defined in <a class="reference external" href="https://github.com/OTRF/OSSEM/tree/master/data_dictionaries">data dictionaries</a> (ex: <a class="reference external" href="https://github.com/OTRF/OSSEM/blob/master/data_dictionaries/windows/etw-providers/Microsoft-Windows-Security-Auditing/events/event-4768.md">Windows Kerberos EventID:4768</a>, <a class="reference external" href="https://github.com/OTRF/OSSEM/blob/master/data_dictionaries/windows/etw-providers/Microsoft-Windows-Security-Auditing/events/event-4624_v2.md">Windows Logon EventID:4624</a>)<br />
 c) logically fit into Target or and are NOT</p>
 <ol class="simple">
 <li><p>FQDN and Domain values exist.</p>

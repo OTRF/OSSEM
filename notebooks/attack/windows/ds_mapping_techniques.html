@@ -310,7 +310,7 @@
 <li><p><strong>Project</strong>: Infosec Jupyter Book</p></li>
 <li><p><strong>Public Organization</strong>: <a class="reference external" href="https://github.com/OTRF">Open Threat Research</a></p></li>
 <li><p><strong>License</strong>: <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a></p></li>
-<li><p><strong>Reference</strong>: https://github.com/hunters-forge/OSSEM/tree/master/attack_data_sources</p></li>
+<li><p><strong>Reference</strong>: https://github.com/OTRF/OSSEM/tree/master/attack_data_sources</p></li>
 </ul>
 <div class="section" id="importing-libraries">
 <h2>Importing Libraries<a class="headerlink" href="#importing-libraries" title="Permalink to this headline">¶</a></h2>
@@ -500,7 +500,7 @@
 </ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">yamlUrl</span> <span class="o">=</span> <span class="s1">&#39;https://raw.githubusercontent.com/hunters-forge/OSSEM/master/attack_data_sources/event-mappings/all_data_sources.yml&#39;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">yamlUrl</span> <span class="o">=</span> <span class="s1">&#39;https://raw.githubusercontent.com/OTRF/OSSEM/master/attack_data_sources/event-mappings/all_data_sources.yml&#39;</span>
 <span class="n">dataSourcesModelingData</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">yamlUrl</span><span class="p">)</span>
 <span class="n">all_ds</span> <span class="o">=</span> <span class="n">yaml</span><span class="o">.</span><span class="n">safe_load</span><span class="p">(</span><span class="n">dataSourcesModelingData</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
 </pre></div>
