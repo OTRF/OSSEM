@@ -3,7 +3,7 @@
 * **Project**: Infosec Jupyter Book
 * **Public Organization**: [Open Threat Research](https://github.com/OTRF)
 * **License**: [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
-* **Reference**: https://github.com/hunters-forge/OSSEM/tree/master/attack_data_sources
+* **Reference**: https://github.com/OTRF/OSSEM/tree/master/attack_data_sources
 
 ### Importing Libraries
 
@@ -43,7 +43,7 @@ windowsTechniques.head()
 
 * Getting Yaml File content
 
-yamlUrl = 'https://raw.githubusercontent.com/hunters-forge/OSSEM/master/attack_data_sources/event-mappings/all_data_sources.yml'
+yamlUrl = 'https://raw.githubusercontent.com/OTRF/OSSEM/master/attack_data_sources/event-mappings/all_data_sources.yml'
 dataSourcesModelingData = requests.get(yamlUrl)
 all_ds = yaml.safe_load(dataSourcesModelingData.text)
 
