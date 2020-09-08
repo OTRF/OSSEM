@@ -14,46 +14,49 @@
     - file: cdm/guidelines/table_structure
     - file: cdm/guidelines/data_types
     - file: cdm/guidelines/domain_or_hostname_or_fqdn
-  - file: cdm/entities/intro
+    - file: cdm/entities/intro
     sections:
-    - file: cdm/entities/geo
-    - file: cdm/entities/source
-    - file: cdm/entities/pipe
-    - file: cdm/entities/network
-    - file: cdm/entities/process
-    - file: cdm/entities/url
-    - file: cdm/entities/ip
-    - file: cdm/entities/user_agent
-    - file: cdm/entities/any
-    - file: cdm/entities/module
-    - file: cdm/entities/cloud
-    - file: cdm/entities/device
-    - file: cdm/entities/logon
-    - file: cdm/entities/file
-    - file: cdm/entities/registry
     - file: cdm/entities/alert
-    - file: cdm/entities/destination
-    - file: cdm/entities/etl
-    - file: cdm/entities/user
-    - file: cdm/entities/http
-    - file: cdm/entities/meta
-    - file: cdm/entities/tls
-    - file: cdm/entities/target
-    - file: cdm/entities/mac
-    - file: cdm/entities/destination_nat
-    - file: cdm/entities/port
-    - file: cdm/entities/hash
-    - file: cdm/entities/event
-    - file: cdm/entities/dns
-    - file: cdm/entities/group
+    - file: cdm/entities/any
     - file: cdm/entities/certificate
-    - file: cdm/entities/source_nat
+    - file: cdm/entities/cloud
+    - file: cdm/entities/destination
+    - file: cdm/entities/destination_nat
+    - file: cdm/entities/device
+    - file: cdm/entities/dns
+    - file: cdm/entities/etl
+    - file: cdm/entities/event
+    - file: cdm/entities/file
+    - file: cdm/entities/geo
+    - file: cdm/entities/group
+    - file: cdm/entities/hash
+    - file: cdm/entities/http
+    - file: cdm/entities/ip
     - file: cdm/entities/kerberos
-    - file: cdm/entities/host
+    - file: cdm/entities/logon
+    - file: cdm/entities/mac
+    - file: cdm/entities/meta
+    - file: cdm/entities/module
+    - file: cdm/entities/network
+    - file: cdm/entities/pipe
+    - file: cdm/entities/port
+    - file: cdm/entities/process
+    - file: cdm/entities/registry
+    - file: cdm/entities/rule
+    - file: cdm/entities/source
+    - file: cdm/entities/source_nat
+    - file: cdm/entities/target
+    - file: cdm/entities/tls
+    - file: cdm/entities/url
+    - file: cdm/entities/user
+    - file: cdm/entities/user_agent
   - file: cdm/tables/intro
     sections:
     - file: cdm/tables/processes
     - file: cdm/tables/network_session
+- part: Detection Data Model
+  chapters:
+  - file: ddm/intro
 - part: ATT&CK Data Sources
   chapters:
   - file: attack/windows/intro

@@ -124,13 +124,20 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../cdm/entities/intro.html">
-   Entities
-  </a>
- </li>
- <li class="toctree-l1">
   <a class="reference internal" href="../../cdm/tables/intro.html">
    Tables
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Detection Data Model
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../ddm/intro.html">
+   Introduction
   </a>
  </li>
 </ul>
@@ -297,7 +304,7 @@
 <h2>Definition<a class="headerlink" href="#definition" title="Permalink to this headline">¶</a></h2>
 <p>Data dictionaries are atomic structures of base events emitted by log sources on a platform. These structures contain the <strong>definition</strong> of a base event and its <strong>fields</strong>.</p>
 <p>The event <strong>definition</strong> enables the entity to be fully functional by itself. It describes the title, code, platform, log source, and other meta-data that provides context. The event <strong>definition</strong> plays a major role on how the event is consumed.</p>
-<p>The event <strong>fields</strong> contain the list of fields available. Each field have properties that provide context about the field, and ultimately enable it to be correlated with other OSSEM data like the <code class="xref any docutils literal notranslate"><span class="pre">Common</span> <span class="pre">Information</span> <span class="pre">Model</span></code> and <code class="xref any docutils literal notranslate"><span class="pre">Detection</span> <span class="pre">Data</span> <span class="pre">Model</span></code>.</p>
+<p>The event <strong>fields</strong> contain the list of fields available. Each field have properties that provide context about the field, and ultimately enable it to be correlated with other OSSEM data like the <code class="xref any docutils literal notranslate"><span class="pre">Common</span> <span class="pre">Data</span> <span class="pre">Model</span></code> and <code class="xref any docutils literal notranslate"><span class="pre">Detection</span> <span class="pre">Data</span> <span class="pre">Model</span></code>.</p>
 <p>OSSEM data dictionaries are structured to be as lean as possible, the reason is twofold: not only to avoid redundant information between events, but also to promote the adoption of external references (pointers).</p>
 <p>OSSEM data dictionaries are represented in YAML. Again, the goal is to find the best balance between human readability, and ease of automation, hence YAML was a relatively easy pick when choosing an OSSEM data language.</p>
 </div>
