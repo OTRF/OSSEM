@@ -40,8 +40,8 @@
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="dns" href="dns.html" />
-    <link rel="prev" title="hash" href="hash.html" />
+    <link rel="next" title="file" href="file.html" />
+    <link rel="prev" title="etl" href="etl.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -51,7 +51,7 @@
 <meta property="og:url"         content="https://ossemproject.com/cdm/entities/event.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="event" />
-<meta property="og:description" content="event  Event fields used to define specific metadata of the event itself. For example uid or creation_timestamp  Attributes          Name  Type  Description  Sa" />
+<meta property="og:description" content="event  Event attributes used to define specific metadata of the event itself. This also includes information about the host where the event was originally gener" />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -111,54 +111,14 @@
    Introduction
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 current active">
   <a class="reference internal" href="../guidelines/intro.html">
    Guidelines
   </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="reference internal" href="intro.html">
-   Entities
-  </a>
   <ul class="current">
    <li class="toctree-l2">
-    <a class="reference internal" href="geo.html">
-     geo
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="source.html">
-     source
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="pipe.html">
-     pipe
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="network.html">
-     network
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="process.html">
-     process
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="url.html">
-     url
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ip.html">
-     ip
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="user_agent.html">
-     user_agent
+    <a class="reference internal" href="alert.html">
+     alert
     </a>
    </li>
    <li class="toctree-l2">
@@ -167,8 +127,8 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="module.html">
-     module
+    <a class="reference internal" href="certificate.html">
+     certificate
     </a>
    </li>
    <li class="toctree-l2">
@@ -177,68 +137,8 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="device.html">
-     device
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="logon.html">
-     logon
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="file.html">
-     file
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="registry.html">
-     registry
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="alert.html">
-     alert
-    </a>
-   </li>
-   <li class="toctree-l2">
     <a class="reference internal" href="destination.html">
      destination
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="etl.html">
-     etl
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="user.html">
-     user
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="http.html">
-     http
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="meta.html">
-     meta
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="tls.html">
-     tls
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="target.html">
-     target
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="mac.html">
-     mac
     </a>
    </li>
    <li class="toctree-l2">
@@ -247,18 +147,8 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="port.html">
-     port
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="hash.html">
-     hash
-    </a>
-   </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
-     event
+    <a class="reference internal" href="device.html">
+     device
     </a>
    </li>
    <li class="toctree-l2">
@@ -267,18 +157,43 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="etl.html">
+     etl
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     event
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="file.html">
+     file
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="geo.html">
+     geo
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="group.html">
      group
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="certificate.html">
-     certificate
+    <a class="reference internal" href="hash.html">
+     hash
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="source_nat.html">
-     source_nat
+    <a class="reference internal" href="http.html">
+     http
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ip.html">
+     ip
     </a>
    </li>
    <li class="toctree-l2">
@@ -287,8 +202,88 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="host.html">
-     host
+    <a class="reference internal" href="logon.html">
+     logon
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="mac.html">
+     mac
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="meta.html">
+     meta
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="module.html">
+     module
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="network.html">
+     network
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pipe.html">
+     pipe
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="port.html">
+     port
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="process.html">
+     process
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="registry.html">
+     registry
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="rule.html">
+     rule
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="source.html">
+     source
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="source_nat.html">
+     source_nat
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="target.html">
+     target
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="tls.html">
+     tls
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="url.html">
+     url
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="user.html">
+     user
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="user_agent.html">
+     user_agent
     </a>
    </li>
   </ul>
@@ -296,6 +291,18 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../tables/intro.html">
    Tables
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Detection Data Model
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../ddm/intro.html">
+   Introduction
   </a>
  </li>
 </ul>
@@ -411,7 +418,7 @@
                 
   <div class="section" id="event">
 <h1>event<a class="headerlink" href="#event" title="Permalink to this headline">¶</a></h1>
-<p>Event fields used to define specific metadata of the event itself. For example uid or creation_timestamp</p>
+<p>Event attributes used to define specific metadata of the event itself. This also includes information about the host where the event was originally generated. In scenarios where an event is forwarded (Windows Event Forwarding, Syslog, etc), the ETL entity must be used.</p>
 <div class="section" id="attributes">
 <h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h2>
 <table class="colwidths-auto table">
@@ -428,100 +435,100 @@
 <td class="text-align:left"><p>A description of the event, which can help with categorization. If the vendor defines a category/grouping for its log. i.e. Zeek has a few category types for its many logs (network-protocols, network-observations, etc…). Example. sysmon event id 12 is EventType field is this.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">network-protocols</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_count</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event_category_type</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>If the event contains a category, then this it. i.e For the Windows Security channel, this could be something such as Audit object access. For Zeek conn.log, this would be network-protocols.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Audit</span> <span class="pre">Object</span> <span class="pre">Access</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>event_count</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>The number of aggregated events, if applicable</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">10</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_creation_time</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event_creation_time</p></td>
 <td class="text-align:left"><p>datetime</p></td>
 <td class="text-align:left"><p>original time when event/log was created as reported from the log source itself</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2017-01-21</span> <span class="pre">09:12:34</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_duration</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_duration</p></td>
 <td class="text-align:left"><p>float</p></td>
 <td class="text-align:left"><p>The length/duration of the event in seconds (e.g., 1 min is 60.0)</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">60</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_endtime</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event_end_time</p></td>
 <td class="text-align:left"><p>datetime</p></td>
 <td class="text-align:left"><p>The time in which the event ended</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2017-04-12</span> <span class="pre">12:00:00</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_error</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_error</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Information about an error</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">an</span> <span class="pre">error</span> <span class="pre">occurred</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_error_code</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event_error_code</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>Integer that defines a particular error</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">4564</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_event_host_name</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The host name from which the event/log came from. There may be multiple host names in an event (i.e. syslog could have forwarder host name), this field is to be the most true log host name (i.e. NOT the forwarders name).</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">bobs.uncle-pc</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>event_event_ip_addr</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The IP address from which the event/log came from. There may be multiple IP addresses in an event (i.e. syslog could have forwarder IP), this field is to be the most true log IP (i.e. NOT the forwarders IP).</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">10.10.10.10</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_id</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_id</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>event identifier for specific event logs. Event ids might repeat across different data sources. This is most common in Windows using EventID</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">4688</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_message</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event_message</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>A general message or description, either included in, or generated from the record</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">TCP</span> <span class="pre">access</span> <span class="pre">denied</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_original_message</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_original_message</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The (original) log message from the source before any ETL manipulations/modifications</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">a</span> <span class="pre">long</span> <span class="pre">message</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_original_time</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event_original_time</p></td>
 <td class="text-align:left"><p>datetime</p></td>
 <td class="text-align:left"><p>original time when event/log was created as reported from the log source itself.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">4/11/2018</span> <span class="pre">5:46:18</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_original_uid</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_original_uid</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Original unique ID specific to the log/event as recorded from the source.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">CMzY3i4YoNZ3mT5yu5</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_product</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event_product</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The product generating the event.</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">OfficeSharepoint</span></code></p></td>
+<td class="text-align:left"><p>The product generating the event. Vendor and product might be the same for some data sources.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Windows</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_product_ver</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_product_version</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The version of the product generating the event</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0.2</span></code></p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">10</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_recorded_time</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event_recorded_time</p></td>
 <td class="text-align:left"><p>datetime</p></td>
 <td class="text-align:left"><p>The time the log was recorded on disk or data plane or if there is another timestamp with the log (common scenario if there is a a manager of many devices or the log itself tracks log time and log written/recorded time) (e.g., 1 min is 60.0).</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">4/11/2018</span> <span class="pre">5:46:18</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_report_url</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_report_url</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>url of the full analysis report, if applicable</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">https://192.168.1.1/reports/ade-123-afa.log</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event_resource_group</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event_resource_group</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The resource group to which the device generating the record belongs. This might be an AWS account, or an Azure subscription or Resource Group</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">DBVM</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event_resource_id</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event_resource_id</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The resource ID of the device generating the message.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">/subscriptions/aaabbbcc-dddd-eeee-1234-1234567890ab/resourcegroups/shokobo/providers/microsoft.compute/virtualmachines/sysmachine</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>event_schema_version</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Azure Sentinel Schema Version</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0.1</span></code></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>event_severity</p></td>
 <td class="text-align:left"><p>string</p></td>
@@ -545,8 +552,8 @@
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>event_sub_category_type</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>What sub type is for the given event_category_type,</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Microsoft-Windows-Sysmon/Operational</span></code></p></td>
+<td class="text-align:left"><p>If the event contains a sub-category, then this it. i.e For the Windows Security channel, this could be something such as Audit Registry.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Audit</span> <span class="pre">Registry</span></code></p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>event_sub_status</p></td>
 <td class="text-align:left"><p>string</p></td>
@@ -560,8 +567,8 @@
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>event_sub_type</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>What sub type is for the given event_type, this should be closest to what the vendor calls it. i.e. Zeek Conn log would be conn. PaloAlto traffic log would be traffic. Additonal example, for wef the channel Sysmon would be Microsoft-Windows-Sysmon/Operational</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Microsoft-Windows-Sysmon/Operational</span></code></p></td>
+<td class="text-align:left"><p>If there are subsets of an event log type, this field carries the next level value. i.e For windows, it would be the Security channel.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Security</span></code></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>event_time_ingested</p></td>
 <td class="text-align:left"><p>datetime</p></td>
@@ -580,8 +587,8 @@
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>event_type</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>A description of the event, which can help with categorization.</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Login</span></code></p></td>
+<td class="text-align:left"><p>Type of event being collected. i.e For Windows it would be the Event Provider (Microsoft-Windows-Security-Auditing). I.e. Paloalto, it would be the type of event such as Traffic or Threat. I.e. Zeek Logs, one example could be the conn.log.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Microsoft-Windows-Security-Auditing</span></code></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>event_type_detailed</p></td>
 <td class="text-align:left"><p>string</p></td>
@@ -631,8 +638,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="hash.html" title="previous page">hash</a>
-    <a class='right-next' id="next-link" href="dns.html" title="next page">dns</a>
+    <a class='left-prev' id="prev-link" href="etl.html" title="previous page">etl</a>
+    <a class='right-next' id="next-link" href="file.html" title="next page">file</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

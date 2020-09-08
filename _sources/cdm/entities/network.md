@@ -9,6 +9,7 @@ Event fields used to define metadata about network information seen in a typical
  | network_application_name | string | Layer 7 (application) name specific to service/name/software as provided by a device or user | ```google-drive``` |
  | network_application_protocol | string | Layer 7 (application) in the OSI model. Ex: HTTP,SMB,FTP,SSH, etc. | ```HTTP``` |
  | network_bytes | long | Total bytes for the session. If this field does not exist in the log source, then its possible in your ETL pipeline to combine the source and destination bytes | ```102034``` |
+ | network_code | integer | For an ICMP message, ICMP message type numeric value (RFC 2780 or RFC 4443). | ```34``` |
  | network_connection_history | string | TCP Flags and other potential IP header info | `````` |
  | network_connection_history_detailed | string | Detailed description of the information in connection_history | `````` |
  | network_connection_state | string | The end state of the session/connection as defined in short abbreviation | `````` |
@@ -23,4 +24,5 @@ Event fields used to define metadata about network information seen in a typical
  | network_outer_vlan_id | integer | Normally the VLAN can not be determined as source/destination and VLANs are stacked/wrapped. This is the VLAN on the "outside" | ```160``` |
  | network_packets | long | Total packets for the session. If this field does not exist in the log source, then its possible in your ETL pipeline to combine the source and destination packets | ```143``` |
  | network_protocol | string | Transport layer in the OSI model. Also known as, IP Protocol. Ex: TCP,UDP,ICMP,ICMP-v6, etc. Convert to lowercase | ```tcp``` |
- | network_session_id | string | The session identifier as reported by the reporting device. Typically, not available for connections. | ```S198_13_1_27_12321_D205_13_1_27_443_0012``` |
+ | network_session_id | string | The session identifier as reported by the network sensor device. Typically, not available for connections. | ```S198_13_1_27_12321_D205_13_1_27_443_0012``` |
+ | network_type | string | For an ICMP message, ICMP message type text representation (RFC 2780 or RFC 4443) | ```Destination Unreachable``` |

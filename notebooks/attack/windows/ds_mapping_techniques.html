@@ -116,13 +116,20 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../../cdm/entities/intro.html">
-   Entities
-  </a>
- </li>
- <li class="toctree-l1">
   <a class="reference internal" href="../../../cdm/tables/intro.html">
    Tables
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Detection Data Model
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../ddm/intro.html">
+   Introduction
   </a>
  </li>
 </ul>
@@ -375,38 +382,38 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>[impact]</td>
-      <td>T1531</td>
-      <td>Account Access Removal</td>
-      <td>[Windows event logs, Process command-line parameters, Process monitoring]</td>
+      <td>[defense-evasion, persistence, command-and-control]</td>
+      <td>T1205.001</td>
+      <td>Port Knocking</td>
+      <td>[Netflow/Enclave netflow, Packet capture]</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>[credential-access]</td>
-      <td>T1539</td>
-      <td>Steal Web Session Cookie</td>
-      <td>[File monitoring, API monitoring]</td>
+      <td>[defense-evasion]</td>
+      <td>T1564.006</td>
+      <td>Run Virtual Instance</td>
+      <td>[Packet capture, Host network interface, Windows Registry, File monitoring, Process monitoring, Process command-line parameters]</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>[impact]</td>
-      <td>T1529</td>
-      <td>System Shutdown/Reboot</td>
-      <td>[Windows event logs, Process command-line parameters, Process monitoring]</td>
+      <td>[defense-evasion]</td>
+      <td>T1564.005</td>
+      <td>Hidden File System</td>
+      <td>[File monitoring, Windows Registry]</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>[discovery]</td>
-      <td>T1518</td>
-      <td>Software Discovery</td>
-      <td>[Process command-line parameters, Process monitoring, File monitoring]</td>
+      <td>[persistence, privilege-escalation, defense-evasion]</td>
+      <td>T1574.012</td>
+      <td>COR_PROFILER</td>
+      <td>[Windows Registry, File monitoring, Process monitoring, Process command-line parameters]</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>[lateral-movement]</td>
-      <td>T1534</td>
-      <td>Internal Spearphishing</td>
-      <td>[SSL/TLS inspection, DNS records, Anti-virus, Web proxy, File monitoring, Mail server, Office 365 trace logs]</td>
+      <td>[defense-evasion]</td>
+      <td>T1480.001</td>
+      <td>Environmental Keying</td>
+      <td>[Process monitoring]</td>
     </tr>
   </tbody>
 </table>
@@ -455,38 +462,38 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>[impact]</td>
-      <td>T1531</td>
-      <td>Account Access Removal</td>
-      <td>Windows event logs</td>
+      <td>[defense-evasion, persistence, command-and-control]</td>
+      <td>T1205.001</td>
+      <td>Port Knocking</td>
+      <td>Netflow/Enclave netflow</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>[credential-access]</td>
-      <td>T1539</td>
-      <td>Steal Web Session Cookie</td>
-      <td>File monitoring</td>
+      <td>[defense-evasion]</td>
+      <td>T1564.006</td>
+      <td>Run Virtual Instance</td>
+      <td>Packet capture</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>[impact]</td>
-      <td>T1529</td>
-      <td>System Shutdown/Reboot</td>
-      <td>Windows event logs</td>
+      <td>[defense-evasion]</td>
+      <td>T1564.005</td>
+      <td>Hidden File System</td>
+      <td>File monitoring</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>[discovery]</td>
-      <td>T1518</td>
-      <td>Software Discovery</td>
-      <td>Process command-line parameters</td>
+      <td>[persistence, privilege-escalation, defense-evasion]</td>
+      <td>T1574.012</td>
+      <td>COR_PROFILER</td>
+      <td>Windows Registry</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>[lateral-movement]</td>
-      <td>T1534</td>
-      <td>Internal Spearphishing</td>
-      <td>SSL/TLS inspection</td>
+      <td>[defense-evasion]</td>
+      <td>T1480.001</td>
+      <td>Environmental Keying</td>
+      <td>Process monitoring</td>
     </tr>
   </tbody>
 </table>
@@ -660,43 +667,43 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>[impact]</td>
-      <td>T1531</td>
-      <td>Account Access Removal</td>
-      <td>Windows event logs</td>
-      <td>[4768, 4769, 4770, 4773, 4779, 4778, 4800, 4801, 4741, 4742, 4743, 4749, 4750, 4751, 4752, 4753, 4731, 4732, 4733, 4734, 4735, 4764, 4799, 4720, 4722, 4723, 4724, 4725, 4726, 4738, 4740, 4767, 4781, 4798, 4662, 4661, 5136, 5137, 5138, 5139, 5141, 4625, 5140, 5142, 5143, 5144, 4656, 4664, 4698, 4699, 4700, 4701, 4702, 4660, 4663, 4658, 4670, 4657, 4717, 4718, 4674, 4673, 5025, 5034, 4697, 4776, 4771, 4624, 4648]</td>
+      <td>[defense-evasion, persistence, command-and-control]</td>
+      <td>T1205.001</td>
+      <td>Port Knocking</td>
+      <td>Netflow/Enclave netflow</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>[credential-access]</td>
-      <td>T1539</td>
-      <td>Steal Web Session Cookie</td>
+      <td>[defense-evasion]</td>
+      <td>T1564.006</td>
+      <td>Run Virtual Instance</td>
+      <td>Packet capture</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>[defense-evasion]</td>
+      <td>T1564.005</td>
+      <td>Hidden File System</td>
       <td>File monitoring</td>
       <td>[6, 9, 11, 2, 5145, 4656, 4663, 4670, 4660, 4658]</td>
     </tr>
     <tr>
-      <th>2</th>
-      <td>[impact]</td>
-      <td>T1529</td>
-      <td>System Shutdown/Reboot</td>
-      <td>Windows event logs</td>
-      <td>[4768, 4769, 4770, 4773, 4779, 4778, 4800, 4801, 4741, 4742, 4743, 4749, 4750, 4751, 4752, 4753, 4731, 4732, 4733, 4734, 4735, 4764, 4799, 4720, 4722, 4723, 4724, 4725, 4726, 4738, 4740, 4767, 4781, 4798, 4662, 4661, 5136, 5137, 5138, 5139, 5141, 4625, 5140, 5142, 5143, 5144, 4656, 4664, 4698, 4699, 4700, 4701, 4702, 4660, 4663, 4658, 4670, 4657, 4717, 4718, 4674, 4673, 5025, 5034, 4697, 4776, 4771, 4624, 4648]</td>
-    </tr>
-    <tr>
       <th>3</th>
-      <td>[discovery]</td>
-      <td>T1518</td>
-      <td>Software Discovery</td>
-      <td>Process command-line parameters</td>
-      <td>[4688, 1]</td>
+      <td>[persistence, privilege-escalation, defense-evasion]</td>
+      <td>T1574.012</td>
+      <td>COR_PROFILER</td>
+      <td>Windows Registry</td>
+      <td>[4657, 12, 14, 13]</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>[lateral-movement]</td>
-      <td>T1534</td>
-      <td>Internal Spearphishing</td>
-      <td>SSL/TLS inspection</td>
-      <td>NaN</td>
+      <td>[defense-evasion]</td>
+      <td>T1480.001</td>
+      <td>Environmental Keying</td>
+      <td>Process monitoring</td>
+      <td>[4688, 1, 4689, 5, 8, 10]</td>
     </tr>
   </tbody>
 </table>
@@ -743,7 +750,7 @@
   </thead>
   <tbody>
     <tr>
-      <th>110</th>
+      <th>304</th>
       <td>[defense-evasion]</td>
       <td>T1112</td>
       <td>Modify Registry</td>
@@ -751,7 +758,7 @@
       <td>[4657, 12, 14, 13]</td>
     </tr>
     <tr>
-      <th>324</th>
+      <th>653</th>
       <td>[defense-evasion]</td>
       <td>T1112</td>
       <td>Modify Registry</td>
@@ -759,7 +766,7 @@
       <td>[6, 9, 11, 2, 5145, 4656, 4663, 4670, 4660, 4658]</td>
     </tr>
     <tr>
-      <th>510</th>
+      <th>945</th>
       <td>[defense-evasion]</td>
       <td>T1112</td>
       <td>Modify Registry</td>
@@ -767,7 +774,7 @@
       <td>[4688, 1, 4689, 5, 8, 10]</td>
     </tr>
     <tr>
-      <th>646</th>
+      <th>1145</th>
       <td>[defense-evasion]</td>
       <td>T1112</td>
       <td>Modify Registry</td>
@@ -775,7 +782,7 @@
       <td>[4688, 1]</td>
     </tr>
     <tr>
-      <th>721</th>
+      <th>1251</th>
       <td>[defense-evasion]</td>
       <td>T1112</td>
       <td>Modify Registry</td>
@@ -826,23 +833,23 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>SSL/TLS inspection</td>
-      <td>NaN</td>
+      <td>Process command-line parameters</td>
+      <td>[4688, 1]</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Windows Error Reporting</td>
-      <td>NaN</td>
+      <td>Process monitoring</td>
+      <td>[4688, 1, 4689, 5, 8, 10]</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>PowerShell logs</td>
-      <td>NaN</td>
+      <td>Process use of network</td>
+      <td>[3, 5031, 5154, 5155, 5156, 5157, 5158, 5159]</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>File monitoring</td>
-      <td>[6, 9, 11, 2, 5145, 4656, 4663, 4670, 4660, 4658]</td>
+      <td>Windows event logs</td>
+      <td>[4768, 4769, 4770, 4773, 4779, 4778, 4800, 4801, 4741, 4742, 4743, 4749, 4750, 4751, 4752, 4753, 4731, 4732, 4733, 4734, 4735, 4764, 4799, 4720, 4722, 4723, 4724, 4725, 4726, 4738, 4740, 4767, 4781, 4798, 4662, 4661, 5136, 5137, 5138, 5139, 5141, 4625, 5140, 5142, 5143, 5144, 4656, 4664, 4698, 4699, 4700, 4701, 4702, 4660, 4663, 4658, 4670, 4657, 4717, 4718, 4674, 4673, 5025, 5034, 4697, 4776, 4771, 4624, 4648]</td>
     </tr>
     <tr>
       <th>4</th>
@@ -851,33 +858,33 @@
     </tr>
     <tr>
       <th>5</th>
-      <td>Process use of network</td>
-      <td>[3, 5031, 5154, 5155, 5156, 5157, 5158, 5159]</td>
+      <td>Office 365 audit logs</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>DNS records</td>
-      <td>[22]</td>
+      <td>SSL/TLS inspection</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>Process monitoring</td>
-      <td>[4688, 1, 4689, 5, 8, 10]</td>
+      <td>Windows Error Reporting</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>API monitoring</td>
+      <td>PowerShell logs</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>Packet capture</td>
-      <td>NaN</td>
+      <td>File monitoring</td>
+      <td>[6, 9, 11, 2, 5145, 4656, 4663, 4670, 4660, 4658]</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>Data loss prevention</td>
-      <td>NaN</td>
+      <td>Windows Registry</td>
+      <td>[4657, 12, 14, 13]</td>
     </tr>
     <tr>
       <th>11</th>
@@ -886,58 +893,68 @@
     </tr>
     <tr>
       <th>12</th>
-      <td>Third-party application logs</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>Anti-virus</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>Windows Registry</td>
-      <td>[4657, 12, 14, 13]</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>Web proxy</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>DLL monitoring</td>
-      <td>[7]</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>Process command-line parameters</td>
-      <td>[4688, 1]</td>
-    </tr>
-    <tr>
-      <th>18</th>
       <td>Network protocol analysis</td>
       <td>NaN</td>
     </tr>
     <tr>
+      <th>13</th>
+      <td>OAuth audit logs</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>DNS records</td>
+      <td>[22]</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>API monitoring</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Data loss prevention</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Packet capture</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Anti-virus</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
       <th>19</th>
-      <td>Mail server</td>
+      <td>Third-party application logs</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>20</th>
-      <td>Binary file metadata</td>
+      <td>Web proxy</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>21</th>
+      <td>DLL monitoring</td>
+      <td>[7]</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Mail server</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>23</th>
       <td>Office 365 trace logs</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>22</th>
-      <td>Windows event logs</td>
-      <td>[4768, 4769, 4770, 4773, 4779, 4778, 4800, 4801, 4741, 4742, 4743, 4749, 4750, 4751, 4752, 4753, 4731, 4732, 4733, 4734, 4735, 4764, 4799, 4720, 4722, 4723, 4724, 4725, 4726, 4738, 4740, 4767, 4781, 4798, 4662, 4661, 5136, 5137, 5138, 5139, 5141, 4625, 5140, 5142, 5143, 5144, 4656, 4664, 4698, 4699, 4700, 4701, 4702, 4660, 4663, 4658, 4670, 4657, 4717, 4718, 4674, 4673, 5025, 5034, 4697, 4776, 4771, 4624, 4648]</td>
+      <th>24</th>
+      <td>Binary file metadata</td>
+      <td>NaN</td>
     </tr>
   </tbody>
 </table>
@@ -978,7 +995,7 @@
   </thead>
   <tbody>
     <tr>
-      <th>22</th>
+      <th>3</th>
       <td>Windows event logs</td>
       <td>[4768, 4769, 4770, 4773, 4779, 4778, 4800, 4801, 4741, 4742, 4743, 4749, 4750, 4751, 4752, 4753, 4731, 4732, 4733, 4734, 4735, 4764, 4799, 4720, 4722, 4723, 4724, 4725, 4726, 4738, 4740, 4767, 4781, 4798, 4662, 4661, 5136, 5137, 5138, 5139, 5141, 4625, 5140, 5142, 5143, 5144, 4656, 4664, 4698, 4699, 4700, 4701, 4702, 4660, 4663, 4658, 4670, 4657, 4717, 4718, 4674, 4673, 5025, 5034, 4697, 4776, 4771, 4624, 4648]</td>
     </tr>

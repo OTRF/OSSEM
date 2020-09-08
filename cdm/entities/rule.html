@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>tls &#8212; The OSSEM Project</title>
+    <title>rule &#8212; The OSSEM Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../../_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="../../_static/sphinx-book-theme.css" type="text/css" />
@@ -36,22 +36,22 @@
         const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="https://ossemproject.com/cdm/entities/tls.html" />
+    <link rel="canonical" href="https://ossemproject.com/cdm/entities/rule.html" />
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="url" href="url.html" />
-    <link rel="prev" title="target" href="target.html" />
+    <link rel="next" title="source" href="source.html" />
+    <link rel="prev" title="registry" href="registry.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
 
 
 <!-- Opengraph tags -->
-<meta property="og:url"         content="https://ossemproject.com/cdm/entities/tls.html" />
+<meta property="og:url"         content="https://ossemproject.com/cdm/entities/rule.html" />
 <meta property="og:type"        content="article" />
-<meta property="og:title"       content="tls" />
-<meta property="og:description" content="tls  Event fields used to define metadata about a TLS(SSL) record. This document is a work in progress, but is a foundational start there is included. Specifica" />
+<meta property="og:title"       content="rule" />
+<meta property="og:description" content="rule  Event fields used to define metadata about rules.  Attributes          Name  Type  Description  Sample Value  rule_name  string  The name or ID of the rul" />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -246,8 +246,8 @@
      registry
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="rule.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      rule
     </a>
    </li>
@@ -266,8 +266,8 @@
      target
     </a>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+   <li class="toctree-l2">
+    <a class="reference internal" href="tls.html">
      tls
     </a>
    </li>
@@ -355,7 +355,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/cdm/entities/tls.md"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/cdm/entities/rule.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -375,10 +375,10 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/OTRF/OSSEM/issues/new?title=Issue%20on%20page%20%2Fcdm/entities/tls.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/OTRF/OSSEM/issues/new?title=Issue%20on%20page%20%2Fcdm/entities/rule.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/OTRF/OSSEM/edit/master/docs/cdm/entities/tls.md"><button
+        <a class="edit-button" href="https://github.com/OTRF/OSSEM/edit/master/docs/cdm/entities/rule.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -416,9 +416,9 @@
         
               <div>
                 
-  <div class="section" id="tls">
-<h1>tls<a class="headerlink" href="#tls" title="Permalink to this headline">¶</a></h1>
-<p>Event fields used to define metadata about a TLS(SSL) record. This document is a work in progress, but is a foundational start there is included. Specifically the main foundations of TLS info is already in here</p>
+  <div class="section" id="rule">
+<h1>rule<a class="headerlink" href="#rule" title="Permalink to this headline">¶</a></h1>
+<p>Event fields used to define metadata about rules.</p>
 <div class="section" id="attributes">
 <h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h2>
 <table class="colwidths-auto table">
@@ -430,45 +430,15 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td class="text-align:left"><p>tls_cipher</p></td>
+<tr class="row-even"><td class="text-align:left"><p>rule_name</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The cipher (encryption) parameters used to make the TLS connection</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">TLS_RSA_WITH_AES_128_CBC_SHA</span></code></p></td>
+<td class="text-align:left"><p>The name or ID of the rule by which DeviceAction was decided upon</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Any</span> <span class="pre">Any</span> <span class="pre">Drop</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>tls_curve</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>rule_number</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Elliptic curve the server chose when using ECDH/ECDHE</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">TLS_RSA_WITH_AES_128_CBC_SHA</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>tls_established</p></td>
-<td class="text-align:left"><p>boolean</p></td>
-<td class="text-align:left"><p>Indicates if the session has been established successfully, or if it was aborted during the handshake</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">true</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>tls_next_protocol</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Next protocol the server chose using the application layer next protocol extension, if present.</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">spdy/3.1</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>tls_resumed</p></td>
-<td class="text-align:left"><p>boolean</p></td>
-<td class="text-align:left"><p>If the session was resumed from previous established connection</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">false</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>tls_server_name</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The name of the requested server/destination, this should be copied to dst_host_name</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">www.google.com</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>tls_version</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Version of TLS/SSL used (ie: SSLv3.0, TLSv1.1, TLSv1.2, TLSv1.3</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">TLSv10</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>tls_version_number</p></td>
-<td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>Numeric value of the tls_version</p></td>
-<td class="text-align:left"><p>````````</p></td>
+<td class="text-align:left"><p>Matched rule number</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">7</span></code></p></td>
 </tr>
 </tbody>
 </table>
@@ -503,8 +473,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="target.html" title="previous page">target</a>
-    <a class='right-next' id="next-link" href="url.html" title="next page">url</a>
+    <a class='left-prev' id="prev-link" href="registry.html" title="previous page">registry</a>
+    <a class='right-next' id="next-link" href="source.html" title="next page">source</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

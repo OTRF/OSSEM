@@ -15,7 +15,7 @@ Data dictionaries are atomic structures of base events emitted by log sources on
 
 The event **definition** enables the entity to be fully functional by itself. It describes the title, code, platform, log source, and other meta-data that provides context. The event **definition** plays a major role on how the event is consumed.
 
-The event **fields** contain the list of fields available. Each field have properties that provide context about the field, and ultimately enable it to be correlated with other OSSEM data like the [Common Information Model](../cdm) and [Detection Data Model](../dd).
+The event **fields** contain the list of fields available. Each field have properties that provide context about the field, and ultimately enable it to be correlated with other OSSEM data like the [Common Data Model](../../cdm) and [Detection Data Model](../../ddm).
 
 OSSEM data dictionaries are structured to be as lean as possible, the reason is twofold: not only to avoid redundant information between events, but also to promote the adoption of external references (pointers).
 
@@ -117,13 +117,13 @@ tags:
 ### Standardization
 The **standard_name** and **standard_type** are special properties of event fields, as they represent the first layer of data standardization on the event.
 
-In the example above (event 4616), the `SubjectUserSid` name was *translated* to `user_logon_id` standard name. This *translation* ensures the data dictionary is aligned with the [Common Information Model](../cdm/user.md) (CIM) **User schema**, reduces complexity, and enhances the development of detection analytics.
+In the example above (event 4616), the `SubjectUserSid` name was *translated* to `user_logon_id` standard name. This *translation* ensures the data dictionary is aligned with the [Common Information Model](../../cdm/user.md) (CIM) **User schema**, reduces complexity, and enhances the development of detection analytics.
 
 The `standard type` is still work in progress, thus the *to-be-defined* default, but it aims at defining standard field types like 'boolean', 'list', 'json', etc. The goal is to provide guidance to anyone post-processing/enriching base events.
 
 Note that its not mandatory that you define a standard name for every field on your event. Some good practices when defining standard names include:
 * Search for the field name in other OSSEM events. Its not uncommon that you can apply the same standard name to identical field names, specially if the log source is the same.
-* Check if the standard name already exists in one of the [Common Information Model](../cdm) entities schema.
+* Check if the standard name already exists in one of the [Common Information Model](../../cdm) entities schema.
 
 ## Organization
 OSSEM built-in data dictionaries are primarily organized in a file system folder structure, that ensures the grouping according to data dictionaries characteristics. While there is no limit to the folder depth, the **root folder** and **log sources** must follow a predefined structure.

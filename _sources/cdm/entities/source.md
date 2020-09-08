@@ -7,10 +7,11 @@ Event fields used to define the source (client) in a network connection event.
 | Name | Type | Description | Sample Value |
 |:---|:---|:---|:---|
  | src_bytes | integer | network bytes sent by the src_ip_addr | ```100``` |
- | src_domain | string | The (DNS) hierarchy that encompasses multiple hosts (i.e a Windows Active Directory environment). | ```bigwheel.corporation.local``` |
  | src_file_accessed_time | date | When the file was last accessed . Also known as `atime` | ```2016-11-25 18:21:47``` |
  | src_file_changed_time | date | When the file was last changed. Also known as `ctime` | ```2016-11-25 18:21:47``` |
+ | src_file_company | string | Company name a file belongs to | ```Microsoft Corporation``` |
  | src_file_creation_time | date | When the file was created. Also known as `crtime` | ```2016-11-25 18:21:47``` |
+ | src_file_description | string | Description of a file | ```Console Window Host``` |
  | src_file_directory | string | Directory of file(s). It does not include the file name | ```C:\users\wardog\``` |
  | src_file_extension | string | The file extension of a file (.txt, .exe, etc) | ```exe``` |
  | src_file_hard_links | integer | Number of hard links | ```3``` |
@@ -25,13 +26,18 @@ Event fields used to define the source (client) in a network connection event.
  | src_file_modified_time | date | When the file was last modified. Also known as `mtime` | ```2016-11-25 18:21:47``` |
  | src_file_name | string | name of a file without its full path. This could be a local file or transmitted over the network. | ```a.exe``` |
  | src_file_path | string | full path of a file including the name of the file. | ```C:\users\wardog\z.exe``` |
+ | src_file_previous_accessed_time | date | When the file was previously accessed | ```2016-11-25 18:21:47``` |
+ | src_file_previous_changed_time | date | When the file was previously changed | ```2016-11-25 18:21:47``` |
+ | src_file_previous_creation_time | date | When the file was previously created | ```2016-11-25 18:21:47``` |
+ | src_file_previous_modified_time | date | When the file was previously modified | ```2016-11-25 18:21:47``` |
  | src_file_previous_name | string | The file's previous name | ```C:\\Windows\system32\cmd.exe``` |
+ | src_file_product | string | The file's product name | ```Microsoft® Windows® Operating System``` |
  | src_file_size | string | Specifies the size of a file, in bytes | ```45``` |
  | src_file_symlink | integer | 1 if the path is a symlink, otherwise 0 | ```0``` |
  | src_file_symlink_name | string | path of the symlink | ```C:\Docs\My.exe``` |
  | src_file_system_block_size | integer | Block size of filesystem | `````` |
  | src_file_system_type | string | The file system type, ex:  fat32, ntfs, vmfs, ext3, ext4, xfs | ```ntfs``` |
- | src_fqdn | string | The absolute (entire) value of the DNS hierarchy from the lowest level to the top level domain (TLD). Consists of the Hostname and Domain. This is best defined in [this Wikipedia](https://en.wikipedia.org/w/index.php?title=Fully_qualified_domain_name&oldid=911195384#Syntax) article on FQDN. | ```bob-berto-pc.bigwheel.corporation.local``` |
+ | src_file_version | string | file version. i.e. image loaded version | ```10.0.16299.15 (WinBuild.160101.0800)``` |
  | src_geo_city | string | name of the city | ```San Miguel``` |
  | src_geo_continent | string | continent in the world | ```South America``` |
  | src_geo_country | string | name of the country | ```Peru``` |
@@ -40,28 +46,17 @@ Event fields used to define the source (client) in a network connection event.
  | src_geo_latitude | string | Latitude is a measurement on a globe or map of location north or south of the Equator. | ```38.8951``` |
  | src_geo_longitude | string | Longitude is a measurement of location east or west of the prime meridian at Greenwich, the specially designated imaginary north-south line that passes through both geographic poles and Greenwich, London. | ```-77.0364``` |
  | src_geo_region | string | name of region | ```East US``` |
- | src_host_domain | string | Name of the domain the host is part of or joined. | ```hunt.wardog.com``` |
- | src_host_fqdn | string | The fully qualified domain name of the host | ```WKHR001.hunt.wardog.com``` |
- | src_host_interface_guid | string | GUID of the network interface which was used for authentication request | ```{2BB33827-6BB6-48DB-8DE6-DB9E0B9F9C9B}``` |
- | src_host_interface_name | string | the name (description) of the network interface that was used for authentication request. You can get the list of all available network adapters using "ipconfig /all" command | ```Microsoft Hyper-V Network Adapter``` |
- | src_host_local_mac | string | local interface's MAC-address | ```18:64:72:F3:33:91``` |
- | src_host_model | string | The model of the source device | ```Samsung Galaxy Note 10``` |
- | src_host_name | string | The name of a host, device, node, or entity that is separate from the FQDN and Domain. | ```WKHR001``` |
- | src_host_os | string | The OS of the source device | ```iOS``` |
- | src_host_peer_mac | string | peer's (typically - access point) MAC-address | ```02:1A:C5:14:59:C9``` |
- | src_host_type | string | The type of the source device | ```mobile``` |
- | src_interface_guid | string | GUID of the network interface which was used for authentication request. | ```7C202E90-2FBE-4275-AB0E-9BF67E04BEDF``` |
+ | src_host_name | string | The source server, host, hostname, domain, or domain name. Some examples, would include the TLS server name, HTTP Host, DNS Query Name, etc. For information on how to define and use this field refer to the documentation [here](https://ossemproject.com/cdm/guidelines/domain_or_hostname_or_fqdn.html) | ```www.google.com``` |
+ | src_interface_guid | string | GUID of the network interface which was used for authentication request (if applicable). Most of the time you would use the interface_name field for the uid. | ```7C202E90-2FBE-4275-AB0E-9BF67E04BEDF``` |
  | src_interface_name | string | The network interface used for the connection or session by the source device. | ```eth02``` |
  | src_ip_addr | ip | IP address captured in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall. | ```192.168.1.2``` |
- | src_ip_bytes | integer | network IP (header) bytes sent by the either the source or destination ip address | ```100``` |
  | src_ip_dhcp_assigned_ip_addr | ip | IP address assigned by the DHCP server. | ```192.168.1.2``` |
  | src_ip_is_ipv6 | boolean | If source or destination IP address is IP version 6 | ```false``` |
- | src_longitude | real | The longitude of the geographical coordinate associated with the source IP address | ```-73.211944``` |
- | src_mac_addr | mac | MAC address of an endpoint or network interface where a connection starts or ends. | ```00:11:22:33:44:55``` |
+ | src_mac_addr | string | MAC address of an endpoint or network interface where a connection starts or ends. | ```00:11:22:33:44:55``` |
  | src_mime_type | string | Source MIME type as seen in (layer 7) application layer details or as defined by an application scanner such as an anti-virus/EDR. For HTTP this is usually from the server's "Content-Type" header. https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types | ```application/pdf``` |
  | src_packets | integer | Network packets sent by the source | ```5``` |
+ | src_port | integer | Port number used in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall. | ```138``` |
  | src_port_name | string | Name of the port used in a network connection. This is usually determined by IANA common port assignment. Therefore, this means its a guess and NOT actually what the application/ is what the actually. | ```netbios-dgm``` |
- | src_port_number | integer | Port number used in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall. | ```138``` |
  | src_process_call_trace | string | Stack trace of where open process is called | ```C:\WINDOWS\SYSTEM32\ntdll.dll+a0344 | C:\WINDOWS\System32\KERNELBASE.dll+64794| c:\windows\system32\lsm.dll+10e93| c:\windows\system32\lsm.dll+f9ea| C:\WINDOWS\System32\RPCRT4.dll+76d23| C:\WINDOWS\System32\RPCRT4.dll+d9390| C:\WINDOWS\System32\RPCRT4.dll+a81c| C:\WINDOWS\System32\RPCRT4.dll+273b4| C:\WINDOWS\System32\RPCRT4.dll+2654e| C:\WINDOWS\System32\RPCRT4.dll+26cfb| C:\WINDOWS\System32\RPCRT4.dll+3083f| C:\WINDOWS\System32\RPCRT4.dll+313a6| C:\WINDOWS\System32\RPCRT4.dll+2d12e| C:\WINDOWS\System32\RPCRT4.dll+2e853| C:\WINDOWS\System32\RPCRT4.dll+5cc68| C:\WINDOWS\SYSTEM32\ntdll.dll+365ce| C:\WINDOWS\SYSTEM32\ntdll.dll+34b46| C:\WINDOWS\System32\KERNEL32.DLL+11fe4| C:\WINDOWS\SYSTEM32\ntdll.dll+6efc1``` |
  | src_process_command_line | string | Command arguments that were were executed by the process in the endpoint. | ```C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1``` |
  | src_process_company | string | Company name metadata of the Image file | ```Microsoft Corporation``` |
