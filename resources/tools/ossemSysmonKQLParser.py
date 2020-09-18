@@ -107,4 +107,4 @@ parser = kql_parser_template.render(sysmon=sysmon_for_render, uniquesysmon=uniqu
 
 # ******** Creating File ****************
 log.info('Creating Parser in: {}'.format(output_file_path))
-open(f'{output_file_path}/SysmonKQLParser.txt', 'w').write(parser)
+open(f'{output_file_path}/SysmonKQLParserV{sysmon_version}.txt', 'w').write(parser)
