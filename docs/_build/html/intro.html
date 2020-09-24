@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OSSEM &#8212; The OSSEM Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="_static/css/index.css" rel="stylesheet">
@@ -14,9 +15,8 @@
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-dropdown.css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script src="_static/sphinx-book-theme.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
@@ -24,11 +24,8 @@
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script src="_static/mystnb.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe,.cell"
@@ -50,7 +47,7 @@
 <meta property="og:url"         content="https://ossemproject.com/intro.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="OSSEM" />
-<meta property="og:description" content="OSSEM  Open Source Love Open_Threat_Research Community  The Open Source Security Events Metadata (OSSEM) is a community-led project that focuses primarily on th" />
+<meta property="og:description" content="OSSEM  Open Source Love Open_Threat_Research Community Twitter  The Open Source Security Events Metadata (OSSEM) is a community-led project that focuses primari" />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -155,6 +152,10 @@
 
  <!-- To handle the deprecated key -->
 
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
 </div>
 
 
@@ -244,60 +245,77 @@
   <div class="section" id="ossem">
 <h1>OSSEM<a class="headerlink" href="#ossem" title="Permalink to this headline">¶</a></h1>
 <p><a class="reference external" href="https://github.com/ellerbrock/open-source-badges/"><img alt="Open Source Love" src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" /></a>
-<img alt="Open_Threat_Research Community" src="https://img.shields.io/badge/Open_Threat_Research-Community-brightgreen.svg" /></p>
-<p>The Open Source Security Events Metadata (OSSEM) is a community-led project that focuses primarily on the documentation and standardization of security event logs from diverse data sources and operating systems. Security events are documented in a dictionary format and can be used as a reference for projects like the ThreatHunter-Playbook while mapping data sources to data analytics used to validate the detection of adversarial techniques. In addition, the project provides a common information model (CIM) that can be used for data engineers during data normalization procedures to allow security analysts to query and analyze data across diverse data sources. Finally, the project also provides documentation about the structure and relationships identified in specific data sources to facilitate the development of data analytics.</p>
+<img alt="Open_Threat_Research Community" src="https://img.shields.io/badge/Open_Threat_Research-Community-brightgreen.svg" />
+<a class="reference external" href="https://twitter.com/OSSEM_Project"><img alt="Twitter" src="https://img.shields.io/twitter/follow/OSSEM_Project.svg?style=social&amp;label=Follow" /></a></p>
+<p>The Open Source Security Events Metadata (OSSEM) is a community-led project that focuses primarily on the documentation and standardization of security event logs from diverse data sources and operating systems. Security events are documented in a dictionary format and can be used as a reference while mapping data sources to data analytics used to validate the detection of adversarial techniques. In addition, the project provides a common data model (CDM) that can be used for data engineers during data normalization procedures to allow security analysts to query and analyze data across diverse data sources. Finally, the project also provides documentation about the structure and relationships identified in specific data sources to facilitate the development of data analytics.</p>
 </div>
 <div class="section" id="goals">
 <h1>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
-<li><p>Define and share a common information model in order to improve the data standardization and transformation of security event logs</p></li>
+<li><p>Define and share a common data moel in order to improve the data standardization and transformation of security event logs</p></li>
 <li><p>Define and share data structures and relationships identified in security events logs</p></li>
 <li><p>Provide detailed information in a dictionary format about several security event logs to the community</p></li>
-<li><p>Learn more about security event logs (Windows, Linux &amp; MacOS)</p></li>
+<li><p>Learn more about security event logs (Windows, Linux, MacOS, Azure, AWS, etc)</p></li>
 <li><p>Have fun and think more about the data structure in your SIEM when it comes down to detection!!</p></li>
 </ul>
 </div>
 <div class="section" id="project-structure">
 <h1>Project Structure<a class="headerlink" href="#project-structure" title="Permalink to this headline">¶</a></h1>
-<p>There are four main folders:</p>
+<p>There are three main folders:</p>
 <ul class="simple">
-<li><p><strong>Common Information Model (CIM)</strong>:</p>
+<li><p><strong>Common Data Model (CDM)</strong>:</p>
 <ul>
-<li><p>Facilitates the normalization of data sets by providing a standard way to parse security event logs</p></li>
-<li><p>It is organized by specific entities associated with event logs and defined in more details by <strong>Data Dictionaries</strong>.</p></li>
-<li><p>The definitions of each entity and its respective field names are mostly general descriptions that could help and expedite event logs parsing procedures.</p></li>
+<li><p>Facilitates the normalization of data sets by providing a standard way to parse security event logs.</p></li>
+<li><p>It is organized by specific <a class="reference external" href="https://github.com/OTRF/OSSEM-CDM/tree/master/schemas/entities">schema entities</a> identified in several data sources.</p></li>
+<li><p>The definitions of each schema entity and its respective attributes (field names) are mostly general descriptions that could help and expedite event logs parsing procedures.</p></li>
+<li><p>Besides data <a class="reference external" href="https://github.com/OTRF/OSSEM-CDM/tree/master/schemas/entities">schema entities</a>, it provides the concept of <a class="reference external" href="https://github.com/OTRF/OSSEM-CDM/tree/master/schemas/tables">schema tables</a> to aggregate common entities that can be used to parse several data sources with similar context. For example, the HTTP,Port and User Agent entities can be used to normalize data providing context about the network traffic metadata captured in a network environment.</p></li>
 </ul>
 </li>
-<li><p><strong>Data Dictionaries</strong>:</p>
+<li><p><strong>Data Dictionaries (DD)</strong>:</p>
 <ul>
-<li><p>Contains specific information about several security event logs organized by operating system and their respective data sets</p></li>
+<li><p>Contains specific information about several security event logs organized by operating system and their respective data providers</p></li>
 <li><p>Each dictionary describes a single event log and its corresponding event field names</p></li>
-<li><p>The difference between the <strong>Common Information Model</strong> folder and the data dictionaries is that in the CIM the field definitions are more general whereas in a data dictionary, each field name definition is unique to the specific event log.</p></li>
+<li><p>It provides the foundational concepts to create a data wiki in an organization.</p></li>
 </ul>
 </li>
-<li><p><strong>Detection Data Model</strong>:</p>
+<li><p><strong>Detection Data Model (DDM)</strong>:</p>
 <ul>
-<li><p>Focuses on defining the required data in form of data objects and the relationships among each other needed to facilitate the creation of data analytics and validate the detection of adversary techniques</p></li>
-<li><p>This is inspired by the awesome work of MITRE with their project <a class="reference external" href="https://car.mitre.org/wiki/Main_Page">CAR Analytics</a></p></li>
-<li><p>The information needed for each data object is pulled from the entities defined in the <strong>Common Information Model</strong>.</p></li>
+<li><p>Focuses on defining the required data in form of data objects and relationships among each other needed to facilitate the creation of data analytics and validate the detection of adversary techniques</p></li>
+<li><p>Developed initially to extend the definitions of ATT&amp;CK Data Sources.</p>
+<ul>
+<li><p><a class="reference external" href="https://youtu.be/QCDBjFJ_C3g">MITRE ATT&amp;CKcon 2018: Hunters ATT&amp;CKing with the Data</a></p></li>
+<li><p><a class="reference external" href="https://youtu.be/eM0c_Gil-38">MITRE ATT&amp;CKcon 2.0: Ready to ATT&amp;CK? Bring Your Own Data (BYOD) and Validate Your Data Analytics!</a></p></li>
 </ul>
 </li>
-<li><p><strong>ATTACK Data Sources</strong>:</p>
+<li><p>Initial work in this project has been migrated to ATT&amp;CK (<a class="reference external" href="https://twitter.com/Cyb3rPandaH">&#64;Cyb3rPandah</a></p>
 <ul>
-<li><p>Focuses on the documentation of data sources suggested or associated with techniques defined in the <a class="reference external" href="https://attack.mitre.org/wiki/Technique_Matrix">Enterprise Matrix</a></p></li>
-<li><p>In addition, here is where data sources will be mapped with specific data objects defined in the <strong>Detection Data Model</strong> part of the project with the main goal of creating a link between techniques, data sources and data analytics</p></li>
+<li><p><a class="reference external" href="https://medium.com/mitre-attack/defining-attack-data-sources-part-i-4c39e581454f">Defining ATT&amp;CK Data Sources, Part I: Enhancing the Current State</a></p></li>
+<li><p>We are currently extending the model to map security events to the relationships identified in ATT&amp;CK.</p></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 </div>
-<div class="section" id="current-status-alpha">
-<h1>Current Status: Alpha<a class="headerlink" href="#current-status-alpha" title="Permalink to this headline">¶</a></h1>
-<p>The project is currently in an alpha stage, which means that the content is still changing. We welcome any feedback and suggestions to improve the project.</p>
+<div class="section" id="author">
+<h1>Author<a class="headerlink" href="#author" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Roberto Rodriguez <a class="reference external" href="https://twitter.com/Cyb3rWard0g">&#64;Cyb3rWard0g</a></p></li>
+</ul>
+</div>
+<div class="section" id="current-committers">
+<h1>Current Committers<a class="headerlink" href="#current-committers" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Jose Luis Rodriguez <a class="reference external" href="https://twitter.com/Cyb3rPandaH">&#64;Cyb3rPandaH</a></p></li>
+<li><p>Nate Guagenti <a class="reference external" href="https://twitter.com/neu5ron">&#64;neu5ron</a></p></li>
+<li><p>Ricardo Dias <a class="reference external" href="https://twitter.com/hxnoyd">&#64;hxnoyd</a></p></li>
+</ul>
 </div>
 <div class="section" id="projects-using-ossem">
 <h1>Projects Using OSSEM<a class="headerlink" href="#projects-using-ossem" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/Cyb3rWard0g/HELK">HELK</a> currently updating its pipeline configs</p></li>
+<li><p><a class="reference external" href="https://github.com/Cyb3rWard0g/HELK">HELK</a></p></li>
+<li><p><a class="reference external" href="https://docs.microsoft.com/en-us/azure/sentinel/normalization-schema">Azure Sentinel Normalization</a></p></li>
 </ul>
 </div>
 <div class="section" id="resources">
@@ -312,21 +330,6 @@
 <li><p><a class="reference external" href="https://docs.microsoft.com/en-us/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection">Use Windows Event Forwarding to help with intrusion detection</a></p></li>
 <li><p><a class="reference external" href="https://docs.microsoft.com/en-us/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection#a-href-idbkmk-appendixaaappendix-a---minimum-recommended-minimum-audit-policy">Minimum recommended minimum audit policy</a></p></li>
 <li><p><a class="reference external" href="https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection">Windows ITPro Docs - Threat Protection</a></p></li>
-</ul>
-</div>
-<div class="section" id="author">
-<h1>Author<a class="headerlink" href="#author" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><p>Roberto Rodriguez <a class="reference external" href="https://twitter.com/Cyb3rWard0g">&#64;Cyb3rWard0g</a></p></li>
-</ul>
-</div>
-<div class="section" id="current-committers">
-<h1>Current Committers<a class="headerlink" href="#current-committers" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><p>Jose Luis Rodriguez <a class="reference external" href="https://twitter.com/Cyb3rPandaH">&#64;Cyb3rPandaH</a></p></li>
-<li><p>Nate Guagenti <a class="reference external" href="https://twitter.com/neu5ron">&#64;neu5ron</a></p></li>
-<li><p>Fred Frey <a class="reference external" href="https://twitter.com/FryGuy2600">&#64;FryGuy2600</a></p></li>
-<li><p>Ricardo Dias <a class="reference external" href="https://twitter.com/hxnoyd">&#64;hxnoyd</a></p></li>
 </ul>
 <div class="toctree-wrapper compound">
 </div>

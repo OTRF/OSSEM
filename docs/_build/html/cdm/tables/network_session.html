@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>network_session &#8212; The OSSEM Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../../_static/css/index.css" rel="stylesheet">
@@ -14,9 +15,8 @@
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/sphinx-book-theme.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -24,11 +24,8 @@
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/mystnb.js"></script>
     <script src="../../_static/sphinx-book-theme.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe,.cell"
@@ -41,7 +38,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Introduction" href="../../ddm/intro.html" />
-    <link rel="prev" title="processes" href="processes.html" />
+    <link rel="prev" title="Tables" href="intro.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -51,7 +48,7 @@
 <meta property="og:url"         content="https://ossemproject.com/cdm/tables/network_session.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="network_session" />
-<meta property="og:description" content="network_session  Event fields used to define network sessions.  Attributes            Entity  Name  Type  Description  Sample Value  cloud  cloud_app_id  string" />
+<meta property="og:description" content="network_session  Event fields used to normalize data related to network sessions.  Attributes            Entity  Name  Type  Description  Sample Value  cloud  c" />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -126,11 +123,6 @@
    Tables
   </a>
   <ul class="current">
-   <li class="toctree-l2">
-    <a class="reference internal" href="processes.html">
-     processes
-    </a>
-   </li>
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
      network_session
@@ -167,6 +159,10 @@
 </nav>
 
  <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
 
 </div>
 
@@ -263,7 +259,7 @@
                 
   <div class="section" id="network-session">
 <h1>network_session<a class="headerlink" href="#network-session" title="Permalink to this headline">¶</a></h1>
-<p>Event fields used to define network sessions.</p>
+<p>Event fields used to normalize data related to network sessions.</p>
 <div class="section" id="attributes">
 <h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h2>
 <table class="colwidths-auto table">
@@ -279,7 +275,7 @@
 <tr class="row-even"><td class="text-align:left"><p>cloud</p></td>
 <td class="text-align:left"><p>cloud_app_id</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Unique identifier for an application provided by a cloud service.</p></td>
+<td class="text-align:left"><p>The ID of the application for an HTTP application as identified by a proxy. This value is usually specific to the proxy used.</p></td>
 <td class="text-align:left"><p>124</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>cloud</p></td>
@@ -289,112 +285,136 @@
 <td class="text-align:left"><p>AppOne</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>cloud</p></td>
-<td class="text-align:left"><p>cloud_app_risk_level</p></td>
+<td class="text-align:left"><p>cloud_app_operation</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The risk level associated with an application provided by a cloud service</p></td>
-<td class="text-align:left"><p>3</p></td>
+<td class="text-align:left"><p>The operation the user performed in the context of the application for an HTTP application as identified by a proxy. This value is usually specific to the proxy used.</p></td>
+<td class="text-align:left"><p>DELETE</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>cloud</p></td>
-<td class="text-align:left"><p>cloud_operation</p></td>
+<td class="text-align:left"><p>cloud_app_risk_level</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Operation performed by an application provided by a cloud service.</p></td>
-<td class="text-align:left"><p>DELETE</p></td>
+<td class="text-align:left"><p>The risk level associated with an HTTP application as identified by a proxy. This value is usually specific to the proxy used.</p></td>
+<td class="text-align:left"><p>3</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>destination</p></td>
 <td class="text-align:left"><p>dst_bytes</p></td>
 <td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>network bytes sent by the dst_ip_addr.</p></td>
+<td class="text-align:left"><p>The number of bytes sent from the destination to the source for the connection or session.</p></td>
 <td class="text-align:left"><p>100</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
+<td class="text-align:left"><p>dst_domain_hostname</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The destination server, host, hostname, domain, domain name or what people commonly might refer to as a domain or website when someone is browsing the Internet. Some examples, would include the TLS server name, HTTP Host, DNS Query Name, etc. For information on how to define and use this field refer to the documentation <a class="reference external" href="https://ossemproject.com/cdm/guidelines/domain_or_hostname_or_fqdn.html">here</a></p></td>
+<td class="text-align:left"><p>www.google.com</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>destination</p></td>
+<td class="text-align:left"><p>dst_dvc_domain</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Name of the domain the device is part of.</p></td>
+<td class="text-align:left"><p>hunt.wardog.com</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
+<td class="text-align:left"><p>dst_dvc_fqdn</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The fully qualified domain name of the host</p></td>
+<td class="text-align:left"><p>WKHR001.hunt.wardog.com</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>destination</p></td>
+<td class="text-align:left"><p>dst_dvc_hostname</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The host name from which the event/log came from. There may be multiple host names in an event (i.e. syslog could have forwarder host name), this field is to be the most true log host name (i.e. NOT the forwarders name).</p></td>
+<td class="text-align:left"><p>bobs.uncle-pc</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
+<td class="text-align:left"><p>dst_dvc_ip_addr</p></td>
+<td class="text-align:left"><p>ip</p></td>
+<td class="text-align:left"><p>IP address assigned to the device generating the event and/or the IP address in the network packet. This could be used in the context of source, destination, device and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
+<td class="text-align:left"><p>192.168.1.2</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>destination</p></td>
+<td class="text-align:left"><p>dst_dvc_mac_addr</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>MAC address of the device where the event was generated or network interface where a connection starts or ends.</p></td>
+<td class="text-align:left"><p>00:11:22:33:44:55</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
 <td class="text-align:left"><p>dst_geo_city</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>name of the city</p></td>
+<td class="text-align:left"><p>The city associated to the IP address in the network session.</p></td>
 <td class="text-align:left"><p>San Miguel</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>destination</p></td>
 <td class="text-align:left"><p>dst_geo_country</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>name of the country</p></td>
+<td class="text-align:left"><p>The country associated with the IP address in the network session.</p></td>
 <td class="text-align:left"><p>Peru</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
 <td class="text-align:left"><p>dst_geo_latitude</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Latitude is a measurement on a globe or map of location north or south of the Equator.</p></td>
+<td class="text-align:left"><p>The latitude of the geographical coordinate associated with the IP address in the network session.</p></td>
 <td class="text-align:left"><p>38.8951</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>destination</p></td>
 <td class="text-align:left"><p>dst_geo_longitude</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Longitude is a measurement of location east or west of the prime meridian at Greenwich, the specially designated imaginary north-south line that passes through both geographic poles and Greenwich, London.</p></td>
+<td class="text-align:left"><p>The longitude of the geographical coordinate associated with the IP address in the network session.</p></td>
 <td class="text-align:left"><p>-77.0364</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
 <td class="text-align:left"><p>dst_geo_region</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>name of region</p></td>
+<td class="text-align:left"><p>The region within a country associated with the IP address in the network session.</p></td>
 <td class="text-align:left"><p>East US</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>destination</p></td>
-<td class="text-align:left"><p>dst_host_name</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The destination server, host, hostname, domain, or domain name. Some examples, would include the TLS server name, HTTP Host, DNS Query Name, etc. For information on how to define and use this field refer to the documentation <a class="reference external" href="https://ossemproject.com/cdm/guidelines/domain_or_hostname_or_fqdn.html">here</a></p></td>
-<td class="text-align:left"><p>www.google.com</p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
 <td class="text-align:left"><p>dst_interface_guid</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>GUID of the network interface which was used for authentication request (if applicable). Most of the time you would use the interface_name field for the uid.</p></td>
 <td class="text-align:left"><p>7C202E90-2FBE-4275-AB0E-9BF67E04BEDF</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>destination</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
 <td class="text-align:left"><p>dst_interface_name</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The network interface used for the connection or session by the destination device.</p></td>
 <td class="text-align:left"><p>eth02</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
+<tr class="row-even"><td class="text-align:left"><p>destination</p></td>
 <td class="text-align:left"><p>dst_ip_addr</p></td>
 <td class="text-align:left"><p>ip</p></td>
-<td class="text-align:left"><p>IP address captured in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
+<td class="text-align:left"><p>IP address assigned to the device generating the event and/or the IP address in the network packet. This could be used in the context of source, destination, device and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
 <td class="text-align:left"><p>192.168.1.2</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>destination</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
 <td class="text-align:left"><p>dst_mac_addr</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>MAC address of an endpoint or network interface where a connection starts or ends.</p></td>
+<td class="text-align:left"><p>MAC address of the device where the event was generated or network interface where a connection starts or ends.</p></td>
 <td class="text-align:left"><p>00:11:22:33:44:55</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>destination_nat</p></td>
+<tr class="row-even"><td class="text-align:left"><p>destination_nat</p></td>
 <td class="text-align:left"><p>dst_nat_ip_addr</p></td>
 <td class="text-align:left"><p>ip</p></td>
-<td class="text-align:left"><p>IP address captured in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
+<td class="text-align:left"><p>IP address assigned to the device generating the event and/or the IP address in the network packet. This could be used in the context of source, destination, device and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
 <td class="text-align:left"><p>192.168.1.2</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>destination_nat</p></td>
-<td class="text-align:left"><p>dst_nat_port</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>destination_nat</p></td>
+<td class="text-align:left"><p>dst_nat_port_number</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>Port number used in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
 <td class="text-align:left"><p>138</p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
-<td class="text-align:left"><p>dst_packets</p></td>
-<td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>Network packets sent by the destination (Reply)</p></td>
-<td class="text-align:left"><p>5</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>destination</p></td>
-<td class="text-align:left"><p>dst_port</p></td>
+<td class="text-align:left"><p>dst_packets</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>The number of packets sent from the destination to the source for the connection or session (Reply). The meaning of a packet is defined by the reporting device.</p></td>
+<td class="text-align:left"><p>5</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
+<td class="text-align:left"><p>dst_port_number</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>Port number used in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
 <td class="text-align:left"><p>138</p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
-<td class="text-align:left"><p>dst_resource_group</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The ID of the group to which the destination device belongs in a network connection. This might be an AWS account, or an Azure subscription or Resource Group</p></td>
-<td class="text-align:left"><p>DatabaseVMs</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>destination</p></td>
 <td class="text-align:left"><p>dst_resource_id</p></td>
@@ -403,82 +423,94 @@
 <td class="text-align:left"><p>/subscriptions/33333333-8888-4444-a115-aaaaaaaaaaaa/resourcegroups/shokobo/providers/microsoft.compute/virtualmachines/sysmachine2</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
+<td class="text-align:left"><p>dst_user_aadid</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The User Azure AD ID of the identity associated with a cloud network session. It applies to source and destination entities.</p></td>
+<td class="text-align:left"><p>5e8b0f4d-2cd4-4e17-9467-b0f6a5c0c4d0</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>destination</p></td>
 <td class="text-align:left"><p>dst_user_domain</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>subject’s domain or computer name of the account that performed the main action in the event</p></td>
-<td class="text-align:left"><p>WIN-GG82ULGC9GO</p></td>
+<td class="text-align:left"><p>The domain or computer name associated to the user in a session. In active directory, this would be the name of the domain the user belongs to.</p></td>
+<td class="text-align:left"><p>CONTOSO</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>destination</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
 <td class="text-align:left"><p>dst_user_name</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Name of the account that performed the main action in the event. (i.e. user_name authenticated to the box x or user_name spawned a process)</p></td>
-<td class="text-align:left"><p>DESKTOP-WARDOG\wardog</p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
-<td class="text-align:left"><p>dst_user_sid</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Security identifier of the account that performed the main action in the event</p></td>
-<td class="text-align:left"><p>S-1-5-21-1377283216-344919071-3415362939-500</p></td>
+<td class="text-align:left"><p>Name of the user associated with the main event (i.e. Network session). There could be a sense of direction depending how it is used together with other entities (i.e. src_user_name or dst_user_name)</p></td>
+<td class="text-align:left"><p>wardog</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>destination</p></td>
-<td class="text-align:left"><p>dst_user_upn</p></td>
+<td class="text-align:left"><p>dst_user_sid</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>UPN of the account for which delegation was requested.</p></td>
-<td class="text-align:left"><p>dadmin&#64;contoso</p></td>
+<td class="text-align:left"><p>Security identifier of the user. Typically, the identity used to authenticate a server.</p></td>
+<td class="text-align:left"><p>S-1-5-21-1377283216-344919071-3415362939-500</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>destination</p></td>
+<td class="text-align:left"><p>dst_user_upn</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>In Active Directory, the User Principal Name (UPN) attribute is a user identifier for logging in, separate from a Windows domain login.</p></td>
+<td class="text-align:left"><p>dadmin&#64;contoso</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>destination</p></td>
 <td class="text-align:left"><p>dst_zone</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The network zone of the destination, as defined by the reporting device.</p></td>
 <td class="text-align:left"><p>dmz</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>device</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>device</p></td>
 <td class="text-align:left"><p>dvc_action</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>If reported by an intermediary device such as a firewall, the action taken by device.</p></td>
 <td class="text-align:left"><p>allow</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>device</p></td>
+<tr class="row-even"><td class="text-align:left"><p>device</p></td>
 <td class="text-align:left"><p>dvc_domain</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Name of the domain the host is part of or joined.</p></td>
+<td class="text-align:left"><p>Name of the domain the device is part of.</p></td>
 <td class="text-align:left"><p>hunt.wardog.com</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>device</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>device</p></td>
 <td class="text-align:left"><p>dvc_fqdn</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The fully qualified domain name of the host</p></td>
 <td class="text-align:left"><p>WKHR001.hunt.wardog.com</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>device</p></td>
-<td class="text-align:left"><p>dvc_host_name</p></td>
+<tr class="row-even"><td class="text-align:left"><p>device</p></td>
+<td class="text-align:left"><p>dvc_hostname</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The host name from which the event/log came from. There may be multiple host names in an event (i.e. syslog could have forwarder host name), this field is to be the most true log host name (i.e. NOT the forwarders name).</p></td>
 <td class="text-align:left"><p>bobs.uncle-pc</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>device</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>device</p></td>
 <td class="text-align:left"><p>dvc_inbound_interface</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>If reported by an intermediary device such as a firewall, the network interface used by it for the connection to the source device</p></td>
 <td class="text-align:left"><p>eth0</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>device</p></td>
+<tr class="row-even"><td class="text-align:left"><p>device</p></td>
 <td class="text-align:left"><p>dvc_interface_guid</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>GUID of the network interface which was used for authentication request</p></td>
 <td class="text-align:left"><p>{2BB33827-6BB6-48DB-8DE6-DB9E0B9F9C9B}</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>device</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>device</p></td>
 <td class="text-align:left"><p>dvc_interface_name</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>the name (description) of the network interface that was used for authentication request. You can get the list of all available network adapters using “ipconfig /all” command</p></td>
 <td class="text-align:left"><p>Microsoft Hyper-V Network Adapter</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>device</p></td>
+<tr class="row-even"><td class="text-align:left"><p>device</p></td>
 <td class="text-align:left"><p>dvc_ip_addr</p></td>
 <td class="text-align:left"><p>ip</p></td>
-<td class="text-align:left"><p>IP address captured in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
+<td class="text-align:left"><p>IP address assigned to the device generating the event and/or the IP address in the network packet. This could be used in the context of source, destination, device and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
 <td class="text-align:left"><p>192.168.1.2</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>device</p></td>
+<td class="text-align:left"><p>dvc_mac_addr</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>MAC address of the device where the event was generated or network interface where a connection starts or ends.</p></td>
+<td class="text-align:left"><p>00:11:22:33:44:55</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>device</p></td>
 <td class="text-align:left"><p>dvc_outbound_interface</p></td>
@@ -529,34 +561,46 @@
 <td class="text-align:left"><p>https://192.168.1.1/reports/ade-123-afa.log</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>event</p></td>
-<td class="text-align:left"><p>event_resource_group</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The resource group to which the device generating the record belongs. This might be an AWS account, or an Azure subscription or Resource Group</p></td>
-<td class="text-align:left"><p>DBVM</p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>event</p></td>
 <td class="text-align:left"><p>event_resource_id</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The resource ID of the device generating the message.</p></td>
 <td class="text-align:left"><p>/subscriptions/aaabbbcc-dddd-eeee-1234-1234567890ab/resourcegroups/shokobo/providers/microsoft.compute/virtualmachines/sysmachine</p></td>
 </tr>
+<tr class="row-odd"><td class="text-align:left"><p>event</p></td>
+<td class="text-align:left"><p>event_result</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The result reported for the activity. Empty value when not applicable</p></td>
+<td class="text-align:left"><p>success</p></td>
+</tr>
 <tr class="row-even"><td class="text-align:left"><p>event</p></td>
+<td class="text-align:left"><p>event_result_details</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Reason or details for the result reported in event_result</p></td>
+<td class="text-align:left"><p>Wrong Password</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>event</p></td>
 <td class="text-align:left"><p>event_schema_version</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Azure Sentinel Schema Version</p></td>
 <td class="text-align:left"><p>0.1</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event</p></td>
 <td class="text-align:left"><p>event_severity</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The severity of the event as defined manually or usually via the original log, commonly this would be syslog severity. The number codes should be converted to their corresponding string value.</p></td>
 <td class="text-align:left"><p>high</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>event</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>event</p></td>
 <td class="text-align:left"><p>event_start_time</p></td>
 <td class="text-align:left"><p>datetime</p></td>
 <td class="text-align:left"><p>The time in which the event stated</p></td>
 <td class="text-align:left"><p>2017-01-21 09:12:34</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>event</p></td>
+<td class="text-align:left"><p>event_sub_type</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>If there are subsets of an event log type, this field carries the next level value. i.e For windows, it would be the Security channel.</p></td>
+<td class="text-align:left"><p>Security</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>event</p></td>
 <td class="text-align:left"><p>event_time_ingested</p></td>
@@ -565,94 +609,106 @@
 <td class="text-align:left"><p>2157-01-21 09:12:34</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>event</p></td>
+<td class="text-align:left"><p>event_type</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Type of event being collected. i.e For Windows it would be the Event Provider (Microsoft-Windows-Security-Auditing). I.e. Paloalto, it would be the type of event such as Traffic or Threat. I.e. Zeek Logs, one example could be the conn.log.</p></td>
+<td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>event</p></td>
 <td class="text-align:left"><p>event_uid</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Original unique ID specific to the log/event assigned to the event (not original).</p></td>
-<td class="text-align:left"><p>CMzY3i4YoNZ3mT5yu5</p></td>
+<td class="text-align:left"><p>516a64e3-8360-4f1e-a67c-d96b3d52df54</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>event</p></td>
+<tr class="row-even"><td class="text-align:left"><p>event</p></td>
 <td class="text-align:left"><p>event_vendor</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The vendor of the product generating the event</p></td>
 <td class="text-align:left"><p>Microsoft</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>file</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>file_extension</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The file extension of a file (.txt, .exe, etc)</p></td>
+<td class="text-align:left"><p>The extension name or type of the file.</p></td>
 <td class="text-align:left"><p>exe</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>file</p></td>
+<tr class="row-even"><td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>file_hash_md5</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>MD5 hash of the image/binary/file</p></td>
 <td class="text-align:left"><p>6A255BEBF3DBCD13585538ED47DBAFD7</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>file</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>file_hash_sha1</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>SHA1 hash of the image/binary/file</p></td>
 <td class="text-align:left"><p>B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>file</p></td>
+<tr class="row-even"><td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>file_hash_sha256</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>SHA256 hash of the image/binary/file</p></td>
 <td class="text-align:left"><p>4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>file</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>file_hash_sha512</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>SHA512 hash of the image/binary/file</p></td>
 <td class="text-align:left"><p>1AD1D79F85D8F6A50EA282F63898D652661DAA0C1FD361C22647CABC98A70E8CBCE83200D579D10DD0A3D46BE9496DCDFDDF28B0C5E9709343B032A8796FBECB</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>file</p></td>
+<tr class="row-even"><td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>file_mime_type</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Specifies the MIME type name specified for a file</p></td>
+<td class="text-align:left"><p>MIME type name specified for the file</p></td>
 <td class="text-align:left"><p>application/msword</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>file</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>file_name</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>name of a file without its full path. This could be a local file or transmitted over the network.</p></td>
+<td class="text-align:left"><p>name of the file without its full path. This could be a local file or one transmitted over the network.</p></td>
 <td class="text-align:left"><p>a.exe</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>file</p></td>
+<tr class="row-even"><td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>file_path</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>full path of a file including the name of the file.</p></td>
+<td class="text-align:left"><p>full path of a file including the name of the file. This could be a local file or one transmitted over the network.</p></td>
 <td class="text-align:left"><p>C:\users\wardog\z.exe</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>file</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>file_size</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Specifies the size of a file, in bytes</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>Size of the file, in bytes.</p></td>
 <td class="text-align:left"><p>45</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>http</p></td>
+<tr class="row-even"><td class="text-align:left"><p>http</p></td>
 <td class="text-align:left"><p>http_content_type</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The HTTP Response content type header for HTTP/HTTPS network sessions.</p></td>
 <td class="text-align:left"><p></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>http</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>http</p></td>
 <td class="text-align:left"><p>http_referrer_original</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>HTTP header “Referer”. The HTTP referer header for HTTP/HTTPS network sessions.</p></td>
 <td class="text-align:left"><p>https://sub.domain.tld/path/a/b/JavaScript</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>http</p></td>
+<tr class="row-even"><td class="text-align:left"><p>http</p></td>
 <td class="text-align:left"><p>http_request_method</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Type of HTTP request that was made. Other examples could be (anything) PUT, POST, HEAD, DELETE</p></td>
 <td class="text-align:left"><p>GET</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>http</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>http</p></td>
 <td class="text-align:left"><p>http_request_time</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>The amount of time in milliseconds it took to send the request to the server, if applicable.</p></td>
 <td class="text-align:left"><p>700</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>http</p></td>
+<td class="text-align:left"><p>http_request_xff</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The HTTP X-Forwarded-For header for HTTP/HTTPS network sessions.</p></td>
+<td class="text-align:left"><p>203.0.113.195</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>http</p></td>
 <td class="text-align:left"><p>http_response_time</p></td>
@@ -667,16 +723,16 @@
 <td class="text-align:left"><p>200</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>http</p></td>
-<td class="text-align:left"><p>http_version</p></td>
+<td class="text-align:left"><p>http_user_agent_original</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>HTTP version</p></td>
-<td class="text-align:left"><p>1.1</p></td>
+<td class="text-align:left"><p>The User agent seen in the HTTP request.</p></td>
+<td class="text-align:left"><p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>http</p></td>
-<td class="text-align:left"><p>http_xff</p></td>
+<td class="text-align:left"><p>http_version</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The HTTP X-Forwarded-For header for HTTP/HTTPS network sessions.</p></td>
-<td class="text-align:left"><p>203.0.113.195</p></td>
+<td class="text-align:left"><p>HTTP request version</p></td>
+<td class="text-align:left"><p>1.1</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>network</p></td>
 <td class="text-align:left"><p>network_application_protocol</p></td>
@@ -686,14 +742,14 @@
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>network</p></td>
 <td class="text-align:left"><p>network_bytes</p></td>
-<td class="text-align:left"><p>long</p></td>
-<td class="text-align:left"><p>Total bytes for the session. If this field does not exist in the log source, then its possible in your ETL pipeline to combine the source and destination bytes</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>Total bytes for the session. If this field does not exist in the log source, then its possible in your ETL pipeline to combine the source and destination bytes.</p></td>
 <td class="text-align:left"><p>102034</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>network</p></td>
 <td class="text-align:left"><p>network_direction</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>User/Device defined name of the direction of the connection</p></td>
+<td class="text-align:left"><p>User/Device defined name of the direction of the connection or session (Inbound or Outbound).</p></td>
 <td class="text-align:left"><p>outbound</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>network</p></td>
@@ -701,6 +757,18 @@
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>The amount of time, in millisecond, for the completion of the network session or connection.</p></td>
 <td class="text-align:left"><p>1500</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>network</p></td>
+<td class="text-align:left"><p>network_icmp_code</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>For an ICMP message, ICMP message type numeric value (RFC 2780 or RFC 4443).</p></td>
+<td class="text-align:left"><p>34</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>network</p></td>
+<td class="text-align:left"><p>network_icmp_type</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>For an ICMP message, ICMP message type text representation (RFC 2780 or RFC 4443)</p></td>
+<td class="text-align:left"><p>Destination Unreachable</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>network</p></td>
 <td class="text-align:left"><p>network_packets</p></td>
@@ -715,124 +783,160 @@
 <td class="text-align:left"><p>tcp</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>network</p></td>
+<td class="text-align:left"><p>network_rule_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The name or ID of the rule by which DeviceAction was decided upon</p></td>
+<td class="text-align:left"><p>AnyAnyDrop</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>network</p></td>
+<td class="text-align:left"><p>network_rule_number</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>Matched rule number</p></td>
+<td class="text-align:left"><p>23</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>network</p></td>
 <td class="text-align:left"><p>network_session_id</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The session identifier as reported by the network sensor device. Typically, not available for connections.</p></td>
 <td class="text-align:left"><p>S198_13_1_27_12321_D205_13_1_27_443_0012</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>operation</p></td>
-<td class="text-align:left"><p>op_name</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The activity associated with the record. Possible specific values are determined by the relevant schema.</p></td>
-<td class="text-align:left"><p>Traffic</p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>result</p></td>
-<td class="text-align:left"><p>result_reason_type</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Reason for the result reported in ResultType.</p></td>
-<td class="text-align:left"><p>Traffic</p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>result</p></td>
-<td class="text-align:left"><p>result_type</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The result reported for the activity. Empty value when not applicable.</p></td>
-<td class="text-align:left"><p>Success</p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>source</p></td>
+<tr class="row-even"><td class="text-align:left"><p>source</p></td>
 <td class="text-align:left"><p>src_bytes</p></td>
 <td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>network bytes sent by the src_ip_addr</p></td>
+<td class="text-align:left"><p>The number of bytes sent from the source to the destination for the connection or session.</p></td>
 <td class="text-align:left"><p>100</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>source</p></td>
+<td class="text-align:left"><p>src_dvc_domain</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Name of the domain the device is part of.</p></td>
+<td class="text-align:left"><p>hunt.wardog.com</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>source</p></td>
+<td class="text-align:left"><p>src_dvc_fqdn</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The fully qualified domain name of the host</p></td>
+<td class="text-align:left"><p>WKHR001.hunt.wardog.com</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>source</p></td>
+<td class="text-align:left"><p>src_dvc_hostname</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The host name from which the event/log came from. There may be multiple host names in an event (i.e. syslog could have forwarder host name), this field is to be the most true log host name (i.e. NOT the forwarders name).</p></td>
+<td class="text-align:left"><p>bobs.uncle-pc</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>source</p></td>
+<td class="text-align:left"><p>src_dvc_ip_addr</p></td>
+<td class="text-align:left"><p>ip</p></td>
+<td class="text-align:left"><p>IP address assigned to the device generating the event and/or the IP address in the network packet. This could be used in the context of source, destination, device and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
+<td class="text-align:left"><p>192.168.1.2</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>source</p></td>
+<td class="text-align:left"><p>src_dvc_mac_addr</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>MAC address of the device where the event was generated or network interface where a connection starts or ends.</p></td>
+<td class="text-align:left"><p>00:11:22:33:44:55</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>source</p></td>
+<td class="text-align:left"><p>src_dvc_model_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The model name of the device</p></td>
+<td class="text-align:left"><p>Samsung Galaxy Note</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>source</p></td>
+<td class="text-align:left"><p>src_dvc_model_number</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The model number of the device</p></td>
+<td class="text-align:left"><p>10</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>source</p></td>
+<td class="text-align:left"><p>src_dvc_os</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The OS of the device</p></td>
+<td class="text-align:left"><p>iOS</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>source</p></td>
+<td class="text-align:left"><p>src_dvc_type</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The type of the device</p></td>
+<td class="text-align:left"><p>mobile</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>source</p></td>
 <td class="text-align:left"><p>src_geo_city</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>name of the city</p></td>
+<td class="text-align:left"><p>The city associated to the IP address in the network session.</p></td>
 <td class="text-align:left"><p>San Miguel</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>source</p></td>
 <td class="text-align:left"><p>src_geo_country</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>name of the country</p></td>
+<td class="text-align:left"><p>The country associated with the IP address in the network session.</p></td>
 <td class="text-align:left"><p>Peru</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>source</p></td>
 <td class="text-align:left"><p>src_geo_latitude</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Latitude is a measurement on a globe or map of location north or south of the Equator.</p></td>
+<td class="text-align:left"><p>The latitude of the geographical coordinate associated with the IP address in the network session.</p></td>
 <td class="text-align:left"><p>38.8951</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>source</p></td>
 <td class="text-align:left"><p>src_geo_longitude</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Longitude is a measurement of location east or west of the prime meridian at Greenwich, the specially designated imaginary north-south line that passes through both geographic poles and Greenwich, London.</p></td>
+<td class="text-align:left"><p>The longitude of the geographical coordinate associated with the IP address in the network session.</p></td>
 <td class="text-align:left"><p>-77.0364</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>source</p></td>
 <td class="text-align:left"><p>src_geo_region</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>name of region</p></td>
+<td class="text-align:left"><p>The region within a country associated with the IP address in the network session.</p></td>
 <td class="text-align:left"><p>East US</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>source</p></td>
-<td class="text-align:left"><p>src_host_name</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The source server, host, hostname, domain, or domain name. Some examples, would include the TLS server name, HTTP Host, DNS Query Name, etc. For information on how to define and use this field refer to the documentation <a class="reference external" href="https://ossemproject.com/cdm/guidelines/domain_or_hostname_or_fqdn.html">here</a></p></td>
-<td class="text-align:left"><p>www.google.com</p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>source</p></td>
 <td class="text-align:left"><p>src_interface_guid</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>GUID of the network interface which was used for authentication request (if applicable). Most of the time you would use the interface_name field for the uid.</p></td>
 <td class="text-align:left"><p>7C202E90-2FBE-4275-AB0E-9BF67E04BEDF</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>source</p></td>
+<tr class="row-even"><td class="text-align:left"><p>source</p></td>
 <td class="text-align:left"><p>src_interface_name</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The network interface used for the connection or session by the source device.</p></td>
 <td class="text-align:left"><p>eth02</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>source</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>source</p></td>
 <td class="text-align:left"><p>src_ip_addr</p></td>
 <td class="text-align:left"><p>ip</p></td>
-<td class="text-align:left"><p>IP address captured in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
+<td class="text-align:left"><p>IP address assigned to the device generating the event and/or the IP address in the network packet. This could be used in the context of source, destination, device and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
 <td class="text-align:left"><p>192.168.1.2</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>source</p></td>
+<tr class="row-even"><td class="text-align:left"><p>source</p></td>
 <td class="text-align:left"><p>src_mac_addr</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>MAC address of an endpoint or network interface where a connection starts or ends.</p></td>
+<td class="text-align:left"><p>MAC address of the device where the event was generated or network interface where a connection starts or ends.</p></td>
 <td class="text-align:left"><p>00:11:22:33:44:55</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>source_nat</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>source_nat</p></td>
 <td class="text-align:left"><p>src_nat_ip_addr</p></td>
 <td class="text-align:left"><p>ip</p></td>
-<td class="text-align:left"><p>IP address captured in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
+<td class="text-align:left"><p>IP address assigned to the device generating the event and/or the IP address in the network packet. This could be used in the context of source, destination, device and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
 <td class="text-align:left"><p>192.168.1.2</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>source_nat</p></td>
-<td class="text-align:left"><p>src_nat_port</p></td>
+<tr class="row-even"><td class="text-align:left"><p>source_nat</p></td>
+<td class="text-align:left"><p>src_nat_port_number</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>Port number used in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
 <td class="text-align:left"><p>138</p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>source</p></td>
-<td class="text-align:left"><p>src_packets</p></td>
-<td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>Network packets sent by the source</p></td>
-<td class="text-align:left"><p>5</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>source</p></td>
-<td class="text-align:left"><p>src_port</p></td>
+<td class="text-align:left"><p>src_packets</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>The number of packets sent from the source to the destination for the connection or session. The meaning of a packet is defined by the reporting device.</p></td>
+<td class="text-align:left"><p>5</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>source</p></td>
+<td class="text-align:left"><p>src_port_number</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>Port number used in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
 <td class="text-align:left"><p>138</p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>source</p></td>
-<td class="text-align:left"><p>src_resource_group</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The ID of the group to which the source device belongs in a network connection. This might be an AWS account, or an Azure subscription or Resource Group</p></td>
-<td class="text-align:left"><p>DatabaseVMs</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>source</p></td>
 <td class="text-align:left"><p>src_resource_id</p></td>
@@ -841,76 +945,76 @@
 <td class="text-align:left"><p>/subscriptions/33333333-8888-4444-a115-aaaaaaaaaaaa/resourcegroups/shokobo/providers/microsoft.compute/virtualmachines/sysmachine2</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>source</p></td>
+<td class="text-align:left"><p>src_user_aadid</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The User Azure AD ID of the identity associated with a cloud network session. It applies to source and destination entities.</p></td>
+<td class="text-align:left"><p>5e8b0f4d-2cd4-4e17-9467-b0f6a5c0c4d0</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>source</p></td>
 <td class="text-align:left"><p>src_user_domain</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>subject’s domain or computer name of the account that performed the main action in the event</p></td>
-<td class="text-align:left"><p>WIN-GG82ULGC9GO</p></td>
+<td class="text-align:left"><p>The domain or computer name associated to the user in a session. In active directory, this would be the name of the domain the user belongs to.</p></td>
+<td class="text-align:left"><p>CONTOSO</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>source</p></td>
+<tr class="row-even"><td class="text-align:left"><p>source</p></td>
 <td class="text-align:left"><p>src_user_name</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Name of the account that performed the main action in the event. (i.e. user_name authenticated to the box x or user_name spawned a process)</p></td>
-<td class="text-align:left"><p>DESKTOP-WARDOG\wardog</p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>source</p></td>
-<td class="text-align:left"><p>src_user_sid</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Security identifier of the account that performed the main action in the event</p></td>
-<td class="text-align:left"><p>S-1-5-21-1377283216-344919071-3415362939-500</p></td>
+<td class="text-align:left"><p>Name of the user associated with the main event (i.e. Network session). There could be a sense of direction depending how it is used together with other entities (i.e. src_user_name or dst_user_name)</p></td>
+<td class="text-align:left"><p>wardog</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>source</p></td>
-<td class="text-align:left"><p>src_user_upn</p></td>
+<td class="text-align:left"><p>src_user_sid</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>UPN of the account for which delegation was requested.</p></td>
-<td class="text-align:left"><p>dadmin&#64;contoso</p></td>
+<td class="text-align:left"><p>Security identifier of the user. Typically, the identity used to authenticate a server.</p></td>
+<td class="text-align:left"><p>S-1-5-21-1377283216-344919071-3415362939-500</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>source</p></td>
+<td class="text-align:left"><p>src_user_upn</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>In Active Directory, the User Principal Name (UPN) attribute is a user identifier for logging in, separate from a Windows domain login.</p></td>
+<td class="text-align:left"><p>dadmin&#64;contoso</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>source</p></td>
 <td class="text-align:left"><p>src_zone</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The network zone of the source, as defined by the reporting device.</p></td>
 <td class="text-align:left"><p>dmz</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>threat</p></td>
+<tr class="row-even"><td class="text-align:left"><p>threat</p></td>
 <td class="text-align:left"><p>threat_category</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The category of a threat identified by a security system such as Web Security Gateway of an IPS and is associated with this network session.</p></td>
+<td class="text-align:left"><p>Trojan The category of a threat identified by a security system such as Web Security Gateway of an IPS and is associated with this network session.</p></td>
 <td class="text-align:left"><p>Trojan</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>threat</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>threat</p></td>
 <td class="text-align:left"><p>threat_id</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The ID of a threat identified by a security system such as Web Security Gateway of an IPS and is associated with this network session.</p></td>
-<td class="text-align:left"><p>tr.076</p></td>
+<td class="text-align:left"><p>Tr.124</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>threat</p></td>
+<tr class="row-even"><td class="text-align:left"><p>threat</p></td>
 <td class="text-align:left"><p>threat_name</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The name of the threat or malware identified</p></td>
-<td class="text-align:left"><p>Win32.Small.ahif(90603579)</p></td>
+<td class="text-align:left"><p>EICAR Test File</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>url</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>url</p></td>
 <td class="text-align:left"><p>url_category</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The defined grouping of a URL (or could be just based on the domain in the URL) related to what it is (ie: adult, news, advertising, parked domains, etc)</p></td>
 <td class="text-align:left"><p>Search Engines</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>url</p></td>
-<td class="text-align:left"><p>url_host_name</p></td>
+<tr class="row-even"><td class="text-align:left"><p>url</p></td>
+<td class="text-align:left"><p>url_hostname</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The domain/host/hostname of the URL. This could be an IP address or any variation of a value but is more than likely a domain/hostname</p></td>
 <td class="text-align:left"><p>google.com</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>url</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>url</p></td>
 <td class="text-align:left"><p>url_original</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The entirety of the URL combined together and or the URL in the truest form from the log source. Some log sources will already parse out portions of the URL into their respective fields. Other logs will even parse out the portions of the URL into their respective field but also include the “original” URL. Always try to include this field, because HTTP/URLs never truly have to conform to any RFC/implementation and thus any parsing/logging implementation could have any number of assumptions/mistakes - therefore it is best to keep a original value</p></td>
 <td class="text-align:left"><p>ftp://BigwheelPassword:BigwheelBobUser&#64;google.com:8088/common/Current/client/search/greatsearch.php?hash=215696fc36392ca70f89228b98060afb%20processname=example.exe#gid=l1k4h</p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_agent</p></td>
-<td class="text-align:left"><p>user_agent_original</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The User agent seen in an HTTP request</p></td>
-<td class="text-align:left"><p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36</p></td>
 </tr>
 </tbody>
 </table>
@@ -945,7 +1049,7 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="processes.html" title="previous page">processes</a>
+    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">Tables</a>
     <a class='right-next' id="next-link" href="../../ddm/intro.html" title="next page">Introduction</a>
 
     </div>

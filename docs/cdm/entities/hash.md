@@ -1,6 +1,6 @@
 # hash
 
-Event fields used to capture metadata about hashes of an image/binary/file.
+Event fields used to define/normalize data related to hashes of an image/binary/file.
 
 ## Attributes
 

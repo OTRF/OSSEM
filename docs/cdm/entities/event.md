@@ -1,6 +1,6 @@
 # event
 
-Event attributes used to define specific metadata of the event itself. This also includes information about the host where the event was originally generated. In scenarios where an event is forwarded (Windows Event Forwarding, Syslog, etc), the ETL entity must be used.
+Event attributes used to define/normalize specific metadata of the event itself. This also includes information about the host where the event was originally generated. In scenarios where an event is forwarded (Windows Event Forwarding, Syslog, etc), the ETL entity must be used.
 
 ## Attributes
 
@@ -25,6 +25,8 @@ Event attributes used to define specific metadata of the event itself. This also
  | event_report_url | string | url of the full analysis report, if applicable | ```https://192.168.1.1/reports/ade-123-afa.log``` |
  | event_resource_group | string | The resource group to which the device generating the record belongs. This might be an AWS account, or an Azure subscription or Resource Group | ```DBVM``` |
  | event_resource_id | string | The resource ID of the device generating the message. | ```/subscriptions/aaabbbcc-dddd-eeee-1234-1234567890ab/resourcegroups/shokobo/providers/microsoft.compute/virtualmachines/sysmachine``` |
+ | event_result | string | The result reported for the activity. Empty value when not applicable | ```success``` |
+ | event_result_details | string | Reason or details for the result reported in event_result | ```Wrong Password``` |
  | event_schema_version | string | Azure Sentinel Schema Version | ```0.1``` |
  | event_severity | string | The severity of the event as defined manually or usually via the original log, commonly this would be syslog severity. The number codes should be converted to their corresponding string value. | ```high``` |
  | event_start_time | datetime | The time in which the event stated | ```2017-01-21 09:12:34``` |
@@ -39,5 +41,5 @@ Event attributes used to define specific metadata of the event itself. This also
  | event_timezone | string | Timezone of the event if it can be determined. Format such as UTC, UTC+1, UTC-5, etc.. | ```UTC``` |
  | event_type | string | Type of event being collected. i.e For Windows it would be the Event Provider (Microsoft-Windows-Security-Auditing). I.e. Paloalto, it would be the type of event such as Traffic or Threat. I.e. Zeek Logs, one example could be the conn.log. | ```Microsoft-Windows-Security-Auditing``` |
  | event_type_detailed | string | Additional description of type if applicable | ```````` |
- | event_uid | string | Original unique ID specific to the log/event assigned to the event (not original). | ```CMzY3i4YoNZ3mT5yu5``` |
+ | event_uid | string | Original unique ID specific to the log/event assigned to the event (not original). | ```516a64e3-8360-4f1e-a67c-d96b3d52df54``` |
  | event_vendor | string | The vendor of the product generating the event | ```Microsoft``` |

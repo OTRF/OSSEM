@@ -1,16 +1,16 @@
 # geo
 
-Event fields used to define metadata about a geographical.
+Event fields used to define/normalize metadata about a geographical location.
 
 ## Attributes
 
 | Name | Type | Description | Sample Value |
 |:---|:---|:---|:---|
- | geo_city | string | name of the city | ```San Miguel``` |
- | geo_continent | string | continent in the world | ```South America``` |
- | geo_country | string | name of the country | ```Peru``` |
- | geo_country_capital | string | capital of the country | ```Lima``` |
+ | geo_city | string | The city associated to the IP address in the network session. | ```San Miguel``` |
+ | geo_continent | string | The continent associated with the IP address in the network session. | ```South America``` |
+ | geo_country | string | The country associated with the IP address in the network session. | ```Peru``` |
+ | geo_country_capital | string | The capital of the country associated with the IP address in the network session. | ```Lima``` |
  | geo_country_code | string | 51 | ```Country code``` |
- | geo_latitude | string | Latitude is a measurement on a globe or map of location north or south of the Equator. | ```38.8951``` |
- | geo_longitude | string | Longitude is a measurement of location east or west of the prime meridian at Greenwich, the specially designated imaginary north-south line that passes through both geographic poles and Greenwich, London. | ```-77.0364``` |
- | geo_region | string | name of region | ```East US``` |
+ | geo_latitude | string | The latitude of the geographical coordinate associated with the IP address in the network session. | ```38.8951``` |
+ | geo_longitude | string | The longitude of the geographical coordinate associated with the IP address in the network session. | ```-77.0364``` |
+ | geo_region | string | The region within a country associated with the IP address in the network session. | ```East US``` |

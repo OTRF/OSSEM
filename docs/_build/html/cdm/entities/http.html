@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>http &#8212; The OSSEM Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../../_static/css/index.css" rel="stylesheet">
@@ -14,9 +15,8 @@
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/sphinx-book-theme.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -24,11 +24,8 @@
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/mystnb.js"></script>
     <script src="../../_static/sphinx-book-theme.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe,.cell"
@@ -51,7 +48,7 @@
 <meta property="og:url"         content="https://ossemproject.com/cdm/entities/http.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="http" />
-<meta property="og:description" content="http  Event fields used to define metadata about HTTP (Hypertext Transfer Protocol) information. This is based on information in the layer 7 (HTTP) application," />
+<meta property="og:description" content="http  Event fields used to define/normalize metadata about HTTP (Hypertext Transfer Protocol) information. This is based on information in the layer 7 (HTTP) ap" />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -272,6 +269,11 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="threat.html">
+     threat
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="tls.html">
      tls
     </a>
@@ -327,6 +329,10 @@
 </nav>
 
  <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
 
 </div>
 
@@ -423,7 +429,7 @@
                 
   <div class="section" id="http">
 <h1>http<a class="headerlink" href="#http" title="Permalink to this headline">¶</a></h1>
-<p>Event fields used to define metadata about HTTP (Hypertext Transfer Protocol) information. This is based on information in the layer 7 (HTTP) application, however can also include HTTP information from an endpoint/server. IIS, Apache, NGINX, proxy logs, and other variances of logs that have HTTP information would go in here. Also, if the HTTP connection is from a decrypted/MITM HTTPS/TLS session then portions of that information, where applicable, would go in here.</p>
+<p>Event fields used to define/normalize metadata about HTTP (Hypertext Transfer Protocol) information. This is based on information in the layer 7 (HTTP) application, however can also include HTTP information from an endpoint/server. IIS, Apache, NGINX, proxy logs, and other variances of logs that have HTTP information would go in here. Also, if the HTTP connection is from a decrypted/MITM HTTPS/TLS session then portions of that information, where applicable, would go in here.</p>
 <div class="section" id="attributes">
 <h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h2>
 <table class="colwidths-auto table">
@@ -500,55 +506,55 @@
 <td class="text-align:left"><p>The amount of time in milliseconds it took to send the request to the server, if applicable.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">700</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>http_response_body_bytes</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>http_request_xff</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The HTTP X-Forwarded-For header for HTTP/HTTPS network sessions.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">203.0.113.195</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>http_response_body_bytes</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>Amount of bytes that the destination/server returned</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">87</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>http_response_body_original</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>http_response_body_original</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The raw HTTP (response) body</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">&lt;html&gt;</span> <span class="pre">&lt;header&gt;&lt;title&gt;This</span> <span class="pre">is</span> <span class="pre">title&lt;/title&gt;&lt;/header&gt;</span> <span class="pre">&lt;body&gt;</span> <span class="pre">Hello</span> <span class="pre">world</span> <span class="pre">&lt;/body&gt;</span> <span class="pre">&lt;/html&gt;</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>http_response_header_names</p></td>
+<tr class="row-even"><td class="text-align:left"><p>http_response_header_names</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>List of any additional (or all) HTTP headers. Because a server can use any HTTP header they want and there are already hundreds of https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers it would be impossible to define a specific field for each one.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">X-Forwarded-For</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>http_response_header_values</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>http_response_header_values</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Values for the response_header_names parameters</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">10.1.1.1</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>http_response_time</p></td>
+<tr class="row-even"><td class="text-align:left"><p>http_response_time</p></td>
 <td class="text-align:left"><p>inte</p></td>
 <td class="text-align:left"><p>The amount of time in milliseconds it took to receive a response in the server, if applicable.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">800</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>http_status_code</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>http_status_code</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>HTTP Server reply code</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">200</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>http_status_message</p></td>
+<tr class="row-even"><td class="text-align:left"><p>http_status_message</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>HTTP server reply message</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">OK</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>http_user_agent_original</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>http_user_agent_original</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The User agent seen in an HTTP request</p></td>
+<td class="text-align:left"><p>The User agent seen in the HTTP request.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Mozilla/5.0</span> <span class="pre">(Windows</span> <span class="pre">NT</span> <span class="pre">10.0;</span> <span class="pre">Win64;</span> <span class="pre">x64)</span> <span class="pre">AppleWebKit/537.36</span> <span class="pre">(KHTML,</span> <span class="pre">like</span> <span class="pre">Gecko)</span> <span class="pre">Chrome/74.0.3729.169</span> <span class="pre">Safari/537.36</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>http_version</p></td>
+<tr class="row-even"><td class="text-align:left"><p>http_version</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>HTTP version</p></td>
+<td class="text-align:left"><p>HTTP request version</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">1.1</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>http_xff</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The HTTP X-Forwarded-For header for HTTP/HTTPS network sessions.</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">203.0.113.195</span></code></p></td>
 </tr>
 </tbody>
 </table>

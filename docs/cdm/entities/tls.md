@@ -1,6 +1,6 @@
 # tls
 
-Event fields used to define metadata about a TLS(SSL) record. This document is a work in progress, but is a foundational start there is included. Specifically the main foundations of TLS info is already in here
+Event fields used to define/normalize metadata about a TLS(SSL) record. This document is a work in progress, but is a foundational start there is included. Specifically the main foundations of TLS info is already in here
 
 ## Attributes
 

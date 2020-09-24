@@ -1,6 +1,6 @@
 # rule
 
-Event fields used to define metadata about rules.
+Event fields used to define/normalize metadata about rules.
 
 ## Attributes
 

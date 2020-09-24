@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>network &#8212; The OSSEM Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../../_static/css/index.css" rel="stylesheet">
@@ -14,9 +15,8 @@
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/sphinx-book-theme.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -24,11 +24,8 @@
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/mystnb.js"></script>
     <script src="../../_static/sphinx-book-theme.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe,.cell"
@@ -272,6 +269,11 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="threat.html">
+     threat
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="tls.html">
      tls
     </a>
@@ -327,6 +329,10 @@
 </nav>
 
  <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
 
 </div>
 
@@ -446,94 +452,104 @@
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">HTTP</span></code></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>network_bytes</p></td>
-<td class="text-align:left"><p>long</p></td>
-<td class="text-align:left"><p>Total bytes for the session. If this field does not exist in the log source, then its possible in your ETL pipeline to combine the source and destination bytes</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>Total bytes for the session. If this field does not exist in the log source, then its possible in your ETL pipeline to combine the source and destination bytes.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">102034</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>network_code</p></td>
-<td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>For an ICMP message, ICMP message type numeric value (RFC 2780 or RFC 4443).</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">34</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>network_connection_history</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>network_connection_history</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>TCP Flags and other potential IP header info</p></td>
 <td class="text-align:left"><p>``````</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>network_connection_history_detailed</p></td>
+<tr class="row-even"><td class="text-align:left"><p>network_connection_history_detailed</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Detailed description of the information in connection_history</p></td>
 <td class="text-align:left"><p>``````</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>network_connection_state</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>network_connection_state</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The end state of the session/connection as defined in short abbreviation</p></td>
 <td class="text-align:left"><p>``````</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>network_connection_state_detailed</p></td>
+<tr class="row-even"><td class="text-align:left"><p>network_connection_state_detailed</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Detailed description of the information in network_connection_state</p></td>
 <td class="text-align:left"><p>``````</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>network_direction</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>network_direction</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>User/Device defined name of the direction of the connection</p></td>
+<td class="text-align:left"><p>User/Device defined name of the direction of the connection or session (Inbound or Outbound).</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">outbound</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>network_duration</p></td>
+<tr class="row-even"><td class="text-align:left"><p>network_duration</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>The amount of time, in millisecond, for the completion of the network session or connection.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">1500</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>network_fingerprint_network_community_id</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>network_fingerprint_network_community_id</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Network community ID as outlined by the standard from https://github.com/corelight/community-id-spec. Standardized hashing of network tuple. The combination, most commonly, of Source IP, Source Port, Destination IP, Destination Port, and IP Protocol allows pivoting between multiple log types</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">1:EeVyZ07VGj1n0rld+xCLFdM+u8M=</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>network_initiated</p></td>
+<tr class="row-even"><td class="text-align:left"><p>network_icmp_code</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>For an ICMP message, ICMP message type numeric value (RFC 2780 or RFC 4443).</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">34</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>network_icmp_type</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>For an ICMP message, ICMP message type text representation (RFC 2780 or RFC 4443)</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Destination</span> <span class="pre">Unreachable</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>network_initiated</p></td>
 <td class="text-align:left"><p>boolean</p></td>
 <td class="text-align:left"><p>Whether the session was initiated or received. Most commonly used in relation to an endpoint/device. False = the endpoint did not initiate the session (ie: was scanned or RDP connection made to it)</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">TRUE</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>network_inner_vlan_id</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>network_inner_vlan_id</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>Normally the VLAN can not be determined as source/destination and VLANs are stacked/wrapped. This is the VLAN “inside”</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">150</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>network_ip_bytes</p></td>
+<tr class="row-even"><td class="text-align:left"><p>network_ip_bytes</p></td>
 <td class="text-align:left"><p>long</p></td>
 <td class="text-align:left"><p>Total IP bytes, according to ip headers, for the session. If this field does not exist in the log source, then its possible in your ETL pipeline to combine the source and destination bytes</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">14564</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>network_missed_bytes</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>network_missed_bytes</p></td>
 <td class="text-align:left"><p>long</p></td>
 <td class="text-align:left"><p>bytes that a network sensor or other system/application may have missed</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">5</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>network_outer_vlan_id</p></td>
+<tr class="row-even"><td class="text-align:left"><p>network_outer_vlan_id</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>Normally the VLAN can not be determined as source/destination and VLANs are stacked/wrapped. This is the VLAN on the “outside”</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">160</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>network_packets</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>network_packets</p></td>
 <td class="text-align:left"><p>long</p></td>
 <td class="text-align:left"><p>Total packets for the session. If this field does not exist in the log source, then its possible in your ETL pipeline to combine the source and destination packets</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">143</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>network_protocol</p></td>
+<tr class="row-even"><td class="text-align:left"><p>network_protocol</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Transport layer in the OSI model. Also known as, IP Protocol. Ex: TCP,UDP,ICMP,ICMP-v6, etc. Convert to lowercase</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">tcp</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>network_session_id</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>network_rule_name</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The name or ID of the rule by which DeviceAction was decided upon</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">AnyAnyDrop</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>network_rule_number</p></td>
+<td class="text-align:left"><p>integer</p></td>
+<td class="text-align:left"><p>Matched rule number</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">23</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>network_session_id</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The session identifier as reported by the network sensor device. Typically, not available for connections.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">S198_13_1_27_12321_D205_13_1_27_443_0012</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>network_type</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>For an ICMP message, ICMP message type text representation (RFC 2780 or RFC 4443)</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Destination</span> <span class="pre">Unreachable</span></code></p></td>
 </tr>
 </tbody>
 </table>
