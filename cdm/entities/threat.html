@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>file &#8212; The OSSEM Project</title>
+    <title>threat &#8212; The OSSEM Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../../_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="../../_static/sphinx-book-theme.css" type="text/css" />
@@ -33,22 +33,22 @@
         const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="https://ossemproject.com/cdm/entities/file.html" />
+    <link rel="canonical" href="https://ossemproject.com/cdm/entities/threat.html" />
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="geo" href="geo.html" />
-    <link rel="prev" title="event" href="event.html" />
+    <link rel="next" title="tls" href="tls.html" />
+    <link rel="prev" title="target" href="target.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
 
 
 <!-- Opengraph tags -->
-<meta property="og:url"         content="https://ossemproject.com/cdm/entities/file.html" />
+<meta property="og:url"         content="https://ossemproject.com/cdm/entities/threat.html" />
 <meta property="og:type"        content="article" />
-<meta property="og:title"       content="file" />
-<meta property="og:description" content="file  Event fields used to define/normalize metadata about files either locally or over the wire (Network Traffic). This entity and attributes can extend other " />
+<meta property="og:title"       content="threat" />
+<meta property="og:description" content="threat  Event fields used to define/normalize metadata about threats in an network.  Attributes          Name  Type  Description  Sample Value  threat_category " />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -168,8 +168,8 @@
      event
     </a>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+   <li class="toctree-l2">
+    <a class="reference internal" href="file.html">
      file
     </a>
    </li>
@@ -268,8 +268,8 @@
      target
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="threat.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      threat
     </a>
    </li>
@@ -366,7 +366,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/cdm/entities/file.md"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/cdm/entities/threat.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -386,10 +386,10 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/OTRF/OSSEM/issues/new?title=Issue%20on%20page%20%2Fcdm/entities/file.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/OTRF/OSSEM/issues/new?title=Issue%20on%20page%20%2Fcdm/entities/threat.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/OTRF/OSSEM/edit/master/docs/cdm/entities/file.md"><button
+        <a class="edit-button" href="https://github.com/OTRF/OSSEM/edit/master/docs/cdm/entities/threat.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -427,9 +427,9 @@
         
               <div>
                 
-  <div class="section" id="file">
-<h1>file<a class="headerlink" href="#file" title="Permalink to this headline">¶</a></h1>
-<p>Event fields used to define/normalize metadata about files either locally or over the wire (Network Traffic). This entity and attributes can extend other entities such as source and destination.</p>
+  <div class="section" id="threat">
+<h1>threat<a class="headerlink" href="#threat" title="Permalink to this headline">¶</a></h1>
+<p>Event fields used to define/normalize metadata about threats in an network.</p>
 <div class="section" id="attributes">
 <h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h2>
 <table class="colwidths-auto table">
@@ -441,160 +441,20 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td class="text-align:left"><p>file_accessed_time</p></td>
-<td class="text-align:left"><p>date</p></td>
-<td class="text-align:left"><p>When the file was last accessed . Also known as <code class="docutils literal notranslate"><span class="pre">atime</span></code></p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2016-11-25</span> <span class="pre">18:21:47</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_changed_time</p></td>
-<td class="text-align:left"><p>date</p></td>
-<td class="text-align:left"><p>When the file was last changed. Also known as <code class="docutils literal notranslate"><span class="pre">ctime</span></code></p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2016-11-25</span> <span class="pre">18:21:47</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_company</p></td>
+<tr class="row-even"><td class="text-align:left"><p>threat_category</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Company name a file belongs to</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Microsoft</span> <span class="pre">Corporation</span></code></p></td>
+<td class="text-align:left"><p>Trojan The category of a threat identified by a security system such as Web Security Gateway of an IPS and is associated with this network session.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Trojan</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_creation_time</p></td>
-<td class="text-align:left"><p>date</p></td>
-<td class="text-align:left"><p>When the file was created. Also known as <code class="docutils literal notranslate"><span class="pre">crtime</span></code></p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2016-11-25</span> <span class="pre">18:21:47</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_description</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>threat_id</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Description of a file</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Console</span> <span class="pre">Window</span> <span class="pre">Host</span></code></p></td>
+<td class="text-align:left"><p>The ID of a threat identified by a security system such as Web Security Gateway of an IPS and is associated with this network session.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Tr.124</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_directory</p></td>
+<tr class="row-even"><td class="text-align:left"><p>threat_name</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Directory of file(s). It does not include the file name</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\users\wardog\</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_extension</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The extension name or type of the file.</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">exe</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_hard_links</p></td>
-<td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>Number of hard links</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">3</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_hash_imphash</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>IMPHASH hash of the image/binary/file</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2505BD03D7BD285E50CE89CEC02B333B</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_hash_md5</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>MD5 hash of the image/binary/file</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">6A255BEBF3DBCD13585538ED47DBAFD7</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_hash_sha1</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>SHA1 hash of the image/binary/file</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_hash_sha256</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>SHA256 hash of the image/binary/file</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_hash_sha512</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>SHA512 hash of the image/binary/file</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">1AD1D79F85D8F6A50EA282F63898D652661DAA0C1FD361C22647CABC98A70E8CBCE83200D579D10DD0A3D46BE9496DCDFDDF28B0C5E9709343B032A8796FBECB</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_inode</p></td>
-<td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>Filesystem inode number</p></td>
-<td class="text-align:left"><p>``````</p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_link_name</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>path of the hard link</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\Docs\My.exe</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_mime_type</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>MIME type name specified for the file</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">application/msword</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_modified_time</p></td>
-<td class="text-align:left"><p>date</p></td>
-<td class="text-align:left"><p>When the file was last modified. Also known as <code class="docutils literal notranslate"><span class="pre">mtime</span></code></p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2016-11-25</span> <span class="pre">18:21:47</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_name</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>name of the file without its full path. This could be a local file or one transmitted over the network.</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">a.exe</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_path</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>full path of a file including the name of the file. This could be a local file or one transmitted over the network.</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\users\wardog\z.exe</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_previous_accessed_time</p></td>
-<td class="text-align:left"><p>date</p></td>
-<td class="text-align:left"><p>When the file was previously accessed</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2016-11-25</span> <span class="pre">18:21:47</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_previous_changed_time</p></td>
-<td class="text-align:left"><p>date</p></td>
-<td class="text-align:left"><p>When the file was previously changed</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2016-11-25</span> <span class="pre">18:21:47</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_previous_creation_time</p></td>
-<td class="text-align:left"><p>date</p></td>
-<td class="text-align:left"><p>When the file was previously created</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2016-11-25</span> <span class="pre">18:21:47</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_previous_modified_time</p></td>
-<td class="text-align:left"><p>date</p></td>
-<td class="text-align:left"><p>When the file was previously modified</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2016-11-25</span> <span class="pre">18:21:47</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_previous_name</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The file’s previous name</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\\Windows\system32\cmd.exe</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_product</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The file’s product name</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Microsoft®</span> <span class="pre">Windows®</span> <span class="pre">Operating</span> <span class="pre">System</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_size</p></td>
-<td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>Size of the file, in bytes.</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">45</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_symlink</p></td>
-<td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>1 if the path is a symlink, otherwise 0</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_symlink_name</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>path of the symlink</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">C:\Docs\My.exe</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_system_block_size</p></td>
-<td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>Block size of filesystem</p></td>
-<td class="text-align:left"><p>``````</p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>file_system_type</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The file system type, ex:  fat32, ntfs, vmfs, ext3, ext4, xfs</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">ntfs</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>file_version</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>file version. i.e. image loaded version</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">10.0.16299.15</span> <span class="pre">(WinBuild.160101.0800)</span></code></p></td>
+<td class="text-align:left"><p>The name of the threat or malware identified</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">EICAR</span> <span class="pre">Test</span> <span class="pre">File</span></code></p></td>
 </tr>
 </tbody>
 </table>
@@ -629,8 +489,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="event.html" title="previous page">event</a>
-    <a class='right-next' id="next-link" href="geo.html" title="next page">geo</a>
+    <a class='left-prev' id="prev-link" href="target.html" title="previous page">target</a>
+    <a class='right-next' id="next-link" href="tls.html" title="next page">tls</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

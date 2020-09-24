@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>device &#8212; The OSSEM Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../../_static/css/index.css" rel="stylesheet">
@@ -14,9 +15,8 @@
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/sphinx-book-theme.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -24,11 +24,8 @@
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/mystnb.js"></script>
     <script src="../../_static/sphinx-book-theme.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe,.cell"
@@ -51,7 +48,7 @@
 <meta property="og:url"         content="https://ossemproject.com/cdm/entities/device.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="device" />
-<meta property="og:description" content="device  Events used to provide information about a network device.  Attributes          Name  Type  Description  Sample Value  dvc_action  string  If reported b" />
+<meta property="og:description" content="device  Events used to normalize events for the device or endpoint that generated the event (source or destination).  Attributes          Name  Type  Descriptio" />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -272,6 +269,11 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="threat.html">
+     threat
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="tls.html">
      tls
     </a>
@@ -327,6 +329,10 @@
 </nav>
 
  <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
 
 </div>
 
@@ -423,7 +429,7 @@
                 
   <div class="section" id="device">
 <h1>device<a class="headerlink" href="#device" title="Permalink to this headline">¶</a></h1>
-<p>Events used to provide information about a network device.</p>
+<p>Events used to normalize events for the device or endpoint that generated the event (source or destination).</p>
 <div class="section" id="attributes">
 <h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h2>
 <table class="colwidths-auto table">
@@ -442,7 +448,7 @@
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>dvc_domain</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Name of the domain the host is part of or joined.</p></td>
+<td class="text-align:left"><p>Name of the domain the device is part of.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">hunt.wardog.com</span></code></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>dvc_fqdn</p></td>
@@ -450,7 +456,7 @@
 <td class="text-align:left"><p>The fully qualified domain name of the host</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">WKHR001.hunt.wardog.com</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>dvc_host_name</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>dvc_hostname</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The host name from which the event/log came from. There may be multiple host names in an event (i.e. syslog could have forwarder host name), this field is to be the most true log host name (i.e. NOT the forwarders name).</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">bobs.uncle-pc</span></code></p></td>
@@ -472,7 +478,7 @@
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>dvc_ip_addr</p></td>
 <td class="text-align:left"><p>ip</p></td>
-<td class="text-align:left"><p>IP address captured in a network connection. This could be used in the context of source, destination and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
+<td class="text-align:left"><p>IP address assigned to the device generating the event and/or the IP address in the network packet. This could be used in the context of source, destination, device and even NAT when it is provided by an intermediary NAT device such as a firewall.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">192.168.1.2</span></code></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>dvc_ip_dhcp_assigned_ip_addr</p></td>
@@ -482,12 +488,12 @@
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>dvc_ip_is_ipv6</p></td>
 <td class="text-align:left"><p>boolean</p></td>
-<td class="text-align:left"><p>If source or destination IP address is IP version 6</p></td>
+<td class="text-align:left"><p>If IP address is IP version 6</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">false</span></code></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>dvc_mac_addr</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>MAC address of an endpoint or network interface where a connection starts or ends.</p></td>
+<td class="text-align:left"><p>MAC address of the device where the event was generated or network interface where a connection starts or ends.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">00:11:22:33:44:55</span></code></p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>dvc_model_name</p></td>
@@ -502,7 +508,7 @@
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>dvc_os</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The OS of the source device</p></td>
+<td class="text-align:left"><p>The OS of the device</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">iOS</span></code></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>dvc_outbound_interface</p></td>
@@ -512,7 +518,7 @@
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>dvc_type</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The type of the source device</p></td>
+<td class="text-align:left"><p>The type of the device</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">mobile</span></code></p></td>
 </tr>
 </tbody>

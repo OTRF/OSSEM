@@ -1,6 +1,6 @@
 # etl
 
-Event fields used to define specific metadata about the event during the processing of an ETL (Extract, Transform, Load) pipeline.
+Event fields used to define/normalize specific metadata about the event during the processing of an ETL (Extract, Transform, Load) pipeline.
 
 ## Attributes
 

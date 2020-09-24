@@ -1,6 +1,6 @@
 # logon
 
-Event fields used to define metadata about logon events.
+Event fields used to define/normalize metadata about logon events.
 
 ## Attributes
 

@@ -1,6 +1,6 @@
 # group
 
-Event fields used to define metadata about a security group, or distribution group that is created changed or deleted.
+Event fields used to define/normalize metadata about a security group, or distribution group that is created changed or deleted.
 
 ## Attributes
 

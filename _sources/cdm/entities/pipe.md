@@ -1,6 +1,6 @@
 # pipe
 
-Event fields used to define metadata about pipes being created or connected in an endpoint.
+Event fields used to define/normalize metadata about pipes being created or connected for inter-process communication locally or remotely.
 
 ## Attributes
 

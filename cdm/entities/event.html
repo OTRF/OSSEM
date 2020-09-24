@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>event &#8212; The OSSEM Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../../_static/css/index.css" rel="stylesheet">
@@ -14,9 +15,8 @@
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/sphinx-book-theme.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -24,11 +24,8 @@
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/mystnb.js"></script>
     <script src="../../_static/sphinx-book-theme.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe,.cell"
@@ -51,7 +48,7 @@
 <meta property="og:url"         content="https://ossemproject.com/cdm/entities/event.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="event" />
-<meta property="og:description" content="event  Event attributes used to define specific metadata of the event itself. This also includes information about the host where the event was originally gener" />
+<meta property="og:description" content="event  Event attributes used to define/normalize specific metadata of the event itself. This also includes information about the host where the event was origin" />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -272,6 +269,11 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="threat.html">
+     threat
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="tls.html">
      tls
     </a>
@@ -327,6 +329,10 @@
 </nav>
 
  <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
 
 </div>
 
@@ -423,7 +429,7 @@
                 
   <div class="section" id="event">
 <h1>event<a class="headerlink" href="#event" title="Permalink to this headline">¶</a></h1>
-<p>Event attributes used to define specific metadata of the event itself. This also includes information about the host where the event was originally generated. In scenarios where an event is forwarded (Windows Event Forwarding, Syslog, etc), the ETL entity must be used.</p>
+<p>Event attributes used to define/normalize specific metadata of the event itself. This also includes information about the host where the event was originally generated. In scenarios where an event is forwarded (Windows Event Forwarding, Syslog, etc), the ETL entity must be used.</p>
 <div class="section" id="attributes">
 <h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h2>
 <table class="colwidths-auto table">
@@ -530,6 +536,16 @@
 <td class="text-align:left"><p>The resource ID of the device generating the message.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">/subscriptions/aaabbbcc-dddd-eeee-1234-1234567890ab/resourcegroups/shokobo/providers/microsoft.compute/virtualmachines/sysmachine</span></code></p></td>
 </tr>
+<tr class="row-odd"><td class="text-align:left"><p>event_result</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The result reported for the activity. Empty value when not applicable</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">success</span></code></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>event_result_details</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>Reason or details for the result reported in event_result</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Wrong</span> <span class="pre">Password</span></code></p></td>
+</tr>
 <tr class="row-odd"><td class="text-align:left"><p>event_schema_version</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Azure Sentinel Schema Version</p></td>
@@ -603,7 +619,7 @@
 <tr class="row-odd"><td class="text-align:left"><p>event_uid</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Original unique ID specific to the log/event assigned to the event (not original).</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">CMzY3i4YoNZ3mT5yu5</span></code></p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">516a64e3-8360-4f1e-a67c-d96b3d52df54</span></code></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>event_vendor</p></td>
 <td class="text-align:left"><p>string</p></td>

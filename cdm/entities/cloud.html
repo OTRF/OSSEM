@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cloud &#8212; The OSSEM Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../../_static/css/index.css" rel="stylesheet">
@@ -14,9 +15,8 @@
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/sphinx-book-theme.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -24,11 +24,8 @@
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/mystnb.js"></script>
     <script src="../../_static/sphinx-book-theme.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe,.cell"
@@ -51,7 +48,7 @@
 <meta property="og:url"         content="https://ossemproject.com/cdm/entities/cloud.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="cloud" />
-<meta property="og:description" content="cloud  Event fields used to identify infrastructure and application in the cloud from different cloud providers.  Attributes          Name  Type  Description  S" />
+<meta property="og:description" content="cloud  Event fields used to identify/normalize infrastructure and application in the cloud from different cloud providers.  Attributes          Name  Type  Desc" />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -272,6 +269,11 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="threat.html">
+     threat
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="tls.html">
      tls
     </a>
@@ -327,6 +329,10 @@
 </nav>
 
  <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
 
 </div>
 
@@ -423,7 +429,7 @@
                 
   <div class="section" id="cloud">
 <h1>cloud<a class="headerlink" href="#cloud" title="Permalink to this headline">¶</a></h1>
-<p>Event fields used to identify infrastructure and application in the cloud from different cloud providers.</p>
+<p>Event fields used to identify/normalize infrastructure and application in the cloud from different cloud providers.</p>
 <div class="section" id="attributes">
 <h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h2>
 <table class="colwidths-auto table">
@@ -437,7 +443,7 @@
 <tbody>
 <tr class="row-even"><td class="text-align:left"><p>cloud_app_id</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Unique identifier for an application provided by a cloud service.</p></td>
+<td class="text-align:left"><p>The ID of the application for an HTTP application as identified by a proxy. This value is usually specific to the proxy used.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">124</span></code></p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>cloud_app_name</p></td>
@@ -445,15 +451,15 @@
 <td class="text-align:left"><p>The name of an application provided by a cloud service.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">AppOne</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>cloud_app_risk_level</p></td>
+<tr class="row-even"><td class="text-align:left"><p>cloud_app_operation</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The risk level associated with an application provided by a cloud service</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">3</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>cloud_operation</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Operation performed by an application provided by a cloud service.</p></td>
+<td class="text-align:left"><p>The operation the user performed in the context of the application for an HTTP application as identified by a proxy. This value is usually specific to the proxy used.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">DELETE</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>cloud_app_risk_level</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The risk level associated with an HTTP application as identified by a proxy. This value is usually specific to the proxy used.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">3</span></code></p></td>
 </tr>
 </tbody>
 </table>

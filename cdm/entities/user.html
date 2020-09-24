@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>user &#8212; The OSSEM Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../../_static/css/index.css" rel="stylesheet">
@@ -14,9 +15,8 @@
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/sphinx-book-theme.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -24,11 +24,8 @@
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/mystnb.js"></script>
     <script src="../../_static/sphinx-book-theme.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe,.cell"
@@ -51,7 +48,7 @@
 <meta property="og:url"         content="https://ossemproject.com/cdm/entities/user.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="user" />
-<meta property="og:description" content="user  Event fields used to define metadata about users in an network environment.  Attributes          Name  Type  Description  Sample Value  user_cred_type  st" />
+<meta property="og:description" content="user  Event fields used to define/normalize metadata about users in a network environment.  Attributes          Name  Type  Description  Sample Value  user_aadi" />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -272,6 +269,11 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="threat.html">
+     threat
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="tls.html">
      tls
     </a>
@@ -327,6 +329,10 @@
 </nav>
 
  <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
 
 </div>
 
@@ -423,7 +429,7 @@
                 
   <div class="section" id="user">
 <h1>user<a class="headerlink" href="#user" title="Permalink to this headline">¶</a></h1>
-<p>Event fields used to define metadata about users in an network environment.</p>
+<p>Event fields used to define/normalize metadata about users in a network environment.</p>
 <div class="section" id="attributes">
 <h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h2>
 <table class="colwidths-auto table">
@@ -435,170 +441,170 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td class="text-align:left"><p>user_cred_type</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_aadid</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The User Azure AD ID of the identity associated with a cloud network session. It applies to source and destination entities.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">5e8b0f4d-2cd4-4e17-9467-b0f6a5c0c4d0</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user_cred_type</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>types of credentials which were presented for delegation</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">%%8098</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_dentity</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_domain</p></td>
+<td class="text-align:left"><p>string</p></td>
+<td class="text-align:left"><p>The domain or computer name associated to the user in a session. In active directory, this would be the name of the domain the user belongs to.</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">CONTOSO</span></code></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user_identity</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>User Principal Name (UPN) or another type of account identifier for which 802.1x authentication request was made.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">host/XXXXXXXX.redmond.corp.microsoft.com</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_domain</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>subject’s domain or computer name of the account that performed the main action in the event</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">WIN-GG82ULGC9GO</span></code></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_linked_logon_id</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_linked_logon_id</p></td>
 <td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>A hexadecimal value of the paired logon session. If there is no other logon session associated with this logon session, then the value is “0x0”.</p></td>
+<td class="text-align:left"><p>A hexadecimal value of the paired logon session.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0x0</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_logon_authentication_lan_package_name</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user_logon_authentication_lan_package_name</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The name of the LAN Manager sub-package (NTLM-family protocol name) that was used during logon. Possible values are: NTLM V1, NTLM V2, LM. Only populated if Authentication Package = NTLM.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_logon_authentication_package_name</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_logon_authentication_package_name</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The name of the authentication package which was used for the logon authentication process. Default packages loaded on LSA startup are located in “HKLM\SYSTEM\CurrentControlSet\Control\Lsa\OSConfig” registry key. Other packages can be loaded at runtime. When a new package is loaded a “4610: An authentication package has been loaded by the Local Security Authority” (typically for NTLM) or “4622: A security package has been loaded by the Local Security Authority” (typically for Kerberos) event is logged to indicate that a new package has been loaded along with the package name.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Negotiate</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_logon_device_claims</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user_logon_device_claims</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>list of device claims for new logon session</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_logon_elevated_token</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_logon_elevated_token</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>a “Yes” or “No” flag. If “Yes” then the session this event represents is elevated and has administrator privileges.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">%%1842</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_logon_guid</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user_logon_guid</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>a GUID that can help you correlate this event with another event that can contain the same Logon GUID, “4769(S, F): A Kerberos service ticket was requested event on a domain controller. It also can be used for correlation between a 4624 event and several other events (on the same computer) that can contain the same Logon GUID, “4648(S): A logon was attempted using explicit credentials” and “4964(S): Special groups have been assigned to a new logon.”</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">{00000000-0000-0000-0000-000000000000}</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_logon_id</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_logon_id</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0x8dcdc</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_logon_impersonation_level</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user_logon_impersonation_level</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Impersonation level</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">%%1833</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_logon_key_length</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_logon_key_length</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>the length of NTLM Session Security key. Typically it has 128 bit or 56 bit length. This parameter is always 0 if “Authentication Package” = “Kerberos”, because it is not applicable for Kerberos protocol. This field will also have “0” value if Kerberos was negotiated using Negotiate authentication package.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_logon_process_name</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user_logon_process_name</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>The name of the trusted logon process that was used for the logon. See event “4611: A trusted logon process has been registered with the Local Security Authority” description for more information.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">User32</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_logon_restricted_admin_mode</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_logon_restricted_admin_mode</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>Only populated for RemoteInteractive logon type sessions. This is a Yes/No flag indicating if the credentials provided were passed using Restricted Admin mode. Restricted Admin mode was added in Win8.1/2012R2 but this flag was added to the event in Win10. If not a RemoteInteractive logon, then this will be “-” string.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_logon_transmitted_services</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user_logon_transmitted_services</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>the list of transmitted services. Transmitted services are populated if the logon was a result of a S4U (Service For User) logon process. S4U is a Microsoft extension to the Kerberos Protocol to allow an application service to obtain a Kerberos service ticket on behalf of a user - most commonly done by a front-end website to access an internal resource on behalf of a user.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_logon_type</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_logon_type</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>the type of logon which was performed</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">2</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_logon_user_claims</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user_logon_user_claims</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>list of user claims for new logon session. This field contains user claims if user account was logged in and device claims if computer account was logged in</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">ad://ext/cn:88d2b96fdb2b4c49</span> <span class="pre">&lt;%%1818&gt;</span> <span class="pre">:</span> <span class="pre">&quot;dadmin&quot;</span> <span class="pre">ad://ext/Department:88d16a8edaa8c66b</span> <span class="pre">&lt;%%1818&gt;</span> <span class="pre">:</span> <span class="pre">&quot;IT&quot;</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_logon_user_linked_id</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_logon_user_linked_id</p></td>
 <td class="text-align:left"><p>integer</p></td>
 <td class="text-align:left"><p>A hexadecimal value of the paired logon session. If there is no other logon session associated with this logon session, then the value is “0x0”.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0x0</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_logon_virtual_account</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user_logon_virtual_account</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>a “Yes” or “No” flag, which indicates if the account is a virtual account (e.g., “Managed Service Account”), which was introduced in Windows 7 and Windows Server 2008 R2 to provide the ability to identify the account that a given Service uses, instead of just using “NetworkService”.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">%%1843</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_name</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_name</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Name of the account that performed the main action in the event. (i.e. user_name authenticated to the box x or user_name spawned a process)</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">DESKTOP-WARDOG\wardog</span></code></p></td>
+<td class="text-align:left"><p>Name of the user associated with the main event (i.e. Network session). There could be a sense of direction depending how it is used together with other entities (i.e. src_user_name or dst_user_name)</p></td>
+<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">wardog</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_network_account_domain</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user_network_account_domain</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Domain for the user that will be used for outbound (network) connections. Valid only for NewCredentials logon type. If not NewCredentials logon, then this will be a “-” string.</p></td>
+<td class="text-align:left"><p>Domain for the user that will be used for outbound (network) connections.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_network_account_name</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_network_account_name</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>User name that will be used for outbound (network) connections. Valid only for NewCredentials logon type. If not NewCredentials logon, then this will be a “-” string.</p></td>
+<td class="text-align:left"><p>User name used for outbound (network) connections</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_password</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user_password</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>User password if seen in the request. Commonly seen in network logs and authentication proxy/logs.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">bobspassword</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_reporter_domain</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_reporter_domain</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>subject’s domain or computer name of the account that reported information about the main event</p></td>
+<td class="text-align:left"><p>domain name of the user that reported the main event</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">WORKGROUP</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_reporter_id</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user_reporter_id</p></td>
 <td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>hexadecimal value that can help you correlate an event with recent events that might contain the same Logon ID for the account that reported information about the main event</p></td>
+<td class="text-align:left"><p>unique identifier of the user that reported the main event</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">0x3e7</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_reporter_name</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_reporter_name</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>the name of the account that reported information about the main event</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">WIN-GG82ULGC9GO$</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_reporter_sid</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user_reporter_sid</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>SID of account that reported information about the main event</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">S-1-5-18</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_security_package</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_security_package</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>the name of Security Package which was used by the account that performed the main action in the event. Always CREDSSP for this event.</p></td>
+<td class="text-align:left"><p>the name of Security Package used during an authentication event.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">CREDSSP</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_session_id</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user_session_id</p></td>
 <td class="text-align:left"><p>integer</p></td>
-<td class="text-align:left"><p>ID of the session the account tha performed the main action in the event belongs to</p></td>
+<td class="text-align:left"><p>ID of the session the user belongs to.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">1</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_sid</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_sid</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Security identifier of the account that performed the main action in the event</p></td>
+<td class="text-align:left"><p>Security identifier of the user. Typically, the identity used to authenticate a server.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">S-1-5-21-1377283216-344919071-3415362939-500</span></code></p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user_sid_list</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user_sid_list</p></td>
 <td class="text-align:left"><p>string</p></td>
 <td class="text-align:left"><p>the list of special group SIDs, which New Logon\Security ID is a member of.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">{S-1-5-21-3457937927-2839227994-823803824-512}</span></code></p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user_upn</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user_upn</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>UPN of the account for which delegation was requested.</p></td>
+<td class="text-align:left"><p>In Active Directory, the User Principal Name (UPN) attribute is a user identifier for logging in, separate from a Windows domain login.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">dadmin&#64;contoso</span></code></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>user_user_aadid</p></td>
-<td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>The User Azure AD ID of the identity associated with a cloud network session. It applies to source and destination entities.</p></td>
-<td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">5e8b0f4d-2cd4-4e17-9467-b0f6a5c0c4d0</span></code></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,6 +1,6 @@
 # alert
 
-Alert fields that describe an indicator from a tool of a possible issue.
+Alert fields that describe/normalize an indicator from a tool of a possible issue.
 
 ## Attributes
 

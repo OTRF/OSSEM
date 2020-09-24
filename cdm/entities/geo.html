@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>geo &#8212; The OSSEM Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../../_static/css/index.css" rel="stylesheet">
@@ -14,9 +15,8 @@
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/sphinx-book-theme.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -24,11 +24,8 @@
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/mystnb.js"></script>
     <script src="../../_static/sphinx-book-theme.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe,.cell"
@@ -51,7 +48,7 @@
 <meta property="og:url"         content="https://ossemproject.com/cdm/entities/geo.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="geo" />
-<meta property="og:description" content="geo  Event fields used to define metadata about a geographical.  Attributes          Name  Type  Description  Sample Value  geo_city  string  name of the city  " />
+<meta property="og:description" content="geo  Event fields used to define/normalize metadata about a geographical location.  Attributes          Name  Type  Description  Sample Value  geo_city  string " />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -272,6 +269,11 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="threat.html">
+     threat
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="tls.html">
      tls
     </a>
@@ -327,6 +329,10 @@
 </nav>
 
  <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
 
 </div>
 
@@ -423,7 +429,7 @@
                 
   <div class="section" id="geo">
 <h1>geo<a class="headerlink" href="#geo" title="Permalink to this headline">¶</a></h1>
-<p>Event fields used to define metadata about a geographical.</p>
+<p>Event fields used to define/normalize metadata about a geographical location.</p>
 <div class="section" id="attributes">
 <h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h2>
 <table class="colwidths-auto table">
@@ -437,22 +443,22 @@
 <tbody>
 <tr class="row-even"><td class="text-align:left"><p>geo_city</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>name of the city</p></td>
+<td class="text-align:left"><p>The city associated to the IP address in the network session.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">San</span> <span class="pre">Miguel</span></code></p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>geo_continent</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>continent in the world</p></td>
+<td class="text-align:left"><p>The continent associated with the IP address in the network session.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">South</span> <span class="pre">America</span></code></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>geo_country</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>name of the country</p></td>
+<td class="text-align:left"><p>The country associated with the IP address in the network session.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Peru</span></code></p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>geo_country_capital</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>capital of the country</p></td>
+<td class="text-align:left"><p>The capital of the country associated with the IP address in the network session.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">Lima</span></code></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>geo_country_code</p></td>
@@ -462,17 +468,17 @@
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>geo_latitude</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Latitude is a measurement on a globe or map of location north or south of the Equator.</p></td>
+<td class="text-align:left"><p>The latitude of the geographical coordinate associated with the IP address in the network session.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">38.8951</span></code></p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>geo_longitude</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>Longitude is a measurement of location east or west of the prime meridian at Greenwich, the specially designated imaginary north-south line that passes through both geographic poles and Greenwich, London.</p></td>
+<td class="text-align:left"><p>The longitude of the geographical coordinate associated with the IP address in the network session.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">-77.0364</span></code></p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>geo_region</p></td>
 <td class="text-align:left"><p>string</p></td>
-<td class="text-align:left"><p>name of region</p></td>
+<td class="text-align:left"><p>The region within a country associated with the IP address in the network session.</p></td>
 <td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">East</span> <span class="pre">US</span></code></p></td>
 </tr>
 </tbody>

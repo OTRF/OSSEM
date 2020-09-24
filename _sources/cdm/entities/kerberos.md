@@ -1,6 +1,6 @@
 # kerberos
 
-Event fields used to define Kerberos Ticket Granting Service and Kerberos Ticket Granting Tickets. For certificate information within Kerberos see the ./x509_and_certificates.md
+Event fields used to define/normalize Kerberos Ticket Granting Service and Kerberos Ticket Granting Tickets. For certificate information within Kerberos see the ./x509_and_certificates.md
 
 ## Attributes
 
