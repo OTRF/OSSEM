@@ -32,7 +32,7 @@ There are three main folders:
   * Developed initially to extend the definitions of ATT&CK Data Sources.
     * [MITRE ATT&CKcon 2018: Hunters ATT&CKing with the Data](https://youtu.be/QCDBjFJ_C3g)
     * [MITRE ATT&CKcon 2.0: Ready to ATT&CK? Bring Your Own Data (BYOD) and Validate Your Data Analytics!](https://youtu.be/eM0c_Gil-38)
-  * Initial work in this project has been migrated to ATT&CK ([@Cyb3rPandah](https://twitter.com/Cyb3rPandaH)
+  * Initial work in this project has been migrated to ATT&CK and improved by [@Cyb3rPandah](https://twitter.com/Cyb3rPandaH)
     * [Defining ATT&CK Data Sources, Part I: Enhancing the Current State](https://medium.com/mitre-attack/defining-attack-data-sources-part-i-4c39e581454f)
     * We are currently extending the model to map security events to the relationships identified in ATT&CK.
 

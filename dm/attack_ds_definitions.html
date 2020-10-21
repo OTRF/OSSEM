@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Introduction &#8212; The OSSEM Project</title>
+    <title>ATT&amp;CK Data Sources &#8212; The OSSEM Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="../_static/sphinx-book-theme.css" type="text/css" />
@@ -33,22 +33,22 @@
         const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="https://ossemproject.com/cdm/intro.html" />
+    <link rel="canonical" href="https://ossemproject.com/dm/attack_ds_definitions.html" />
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Guidelines" href="guidelines/intro.html" />
-    <link rel="prev" title="Data Dictionary Authoring Guide" href="../dd/guidelines/authoring_data_dictionaries.html" />
+    <link rel="next" title="ATT&amp;CK DS Event Mappings" href="attack_ds_event_mappings.html" />
+    <link rel="prev" title="Introduction" href="intro.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
 
 
 <!-- Opengraph tags -->
-<meta property="og:url"         content="https://ossemproject.com/cdm/intro.html" />
+<meta property="og:url"         content="https://ossemproject.com/dm/attack_ds_definitions.html" />
 <meta property="og:type"        content="article" />
-<meta property="og:title"       content="Introduction" />
-<meta property="og:description" content="Introduction  The OSSEM commond data model (CDM) facilitates the normalization and consistency of diverse data sources by providing standardized and extensible " />
+<meta property="og:title"       content="ATT&amp;CK Data Sources" />
+<meta property="og:description" content="ATT&amp;CK Data Sources      Name  Definitions  Authentication log  Information about accounts’ (Local or Domain) attempts to access network resources interactively" />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -102,24 +102,24 @@
   Common Data Model
  </span>
 </p>
-<ul class="current nav sidenav_l1">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../cdm/intro.html">
    Introduction
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="guidelines/intro.html">
+  <a class="reference internal" href="../cdm/guidelines/intro.html">
    Guidelines
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="entities/intro.html">
+  <a class="reference internal" href="../cdm/entities/intro.html">
    Entities
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="tables/intro.html">
+  <a class="reference internal" href="../cdm/tables/intro.html">
    Tables
   </a>
  </li>
@@ -129,19 +129,19 @@
   Detection Model
  </span>
 </p>
-<ul class="nav sidenav_l1">
+<ul class="current nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="../dm/intro.html">
+  <a class="reference internal" href="intro.html">
    Introduction
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../dm/attack_ds_definitions.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    ATT&amp;CK Data Sources
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../dm/attack_ds_event_mappings.html">
+  <a class="reference internal" href="attack_ds_event_mappings.html">
    ATT&amp;CK DS Event Mappings
   </a>
  </li>
@@ -187,7 +187,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/cdm/intro.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/dm/attack_ds_definitions.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -207,10 +207,10 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/OTRF/OSSEM/issues/new?title=Issue%20on%20page%20%2Fcdm/intro.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/OTRF/OSSEM/issues/new?title=Issue%20on%20page%20%2Fdm/attack_ds_definitions.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/OTRF/OSSEM/edit/master/docs/cdm/intro.md"><button
+        <a class="edit-button" href="https://github.com/OTRF/OSSEM/edit/master/docs/dm/attack_ds_definitions.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -241,15 +241,50 @@
         
               <div>
                 
-  <div class="section" id="introduction">
-<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
-<p>The OSSEM commond data model (CDM) facilitates the normalization and consistency of diverse data sources by providing standardized and extensible data schemas.</p>
-<p><strong>This projects is designed to:</strong></p>
-<ul class="simple">
-<li><p>Simplify data management procedures by creating a structure around diverse data sources</p></li>
-<li><p>Integrate diverse data sources and provide a standardized way for security analysts to query data</p></li>
-<li><p>Extend the standard schemas to accomodate custom data entities and allow the community to contribute back</p></li>
-</ul>
+  <div class="section" id="att-ck-data-sources">
+<h1>ATT&amp;CK Data Sources<a class="headerlink" href="#att-ck-data-sources" title="Permalink to this headline">¶</a></h1>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:left head"><p>Name</p></th>
+<th class="text-align:left head"><p>Definitions</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:left"><p>Authentication log</p></td>
+<td class="text-align:left"><p>Information about accounts’ (Local or Domain) attempts to access network resources interactively or over the network.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>File</p></td>
+<td class="text-align:left"><p>Information about file objects that represent computer resources that can be managed by the I/O system.</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>Module</p></td>
+<td class="text-align:left"><p>Information about portable executable files, such as a dll or an executable, consisting of one or more classes and interfaces.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>Named pipe</p></td>
+<td class="text-align:left"><p>Information about mechanisms that allow inter-process communication locally or over the network. A named pipe is usually found as a file and processes attach to it.</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>Powershell log</p></td>
+<td class="text-align:left"><p>Information about PowerShell operations related to PowerShell engine, providers, and cmdlets.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>Process</p></td>
+<td class="text-align:left"><p>Information about instances of computer programs that are being executed by at least one thread.</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>Service</p></td>
+<td class="text-align:left"><p>Information about software programs that run in the background and typically start with the operating system.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>User Account</p></td>
+<td class="text-align:left"><p>Security principal or entity that represents a person or machine and can be authenticated by an operating system or platform.</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>Windows active directory</p></td>
+<td class="text-align:left"><p>Information about objects on a domain network such as a user, a group, or a workstation.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>Windows registry</p></td>
+<td class="text-align:left"><p>Information about configuration data used by applications and system components.</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>WMI object</p></td>
+<td class="text-align:left"><p>Information about objects from the system classes, such as filters and consumers, that support Windows Management Instrumentation activitites.</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 
     <script type="text/x-thebe-config">
@@ -265,7 +300,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./cdm"
+            path: "./dm"
         },
         predefinedOutput: true
     }
@@ -280,8 +315,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="../dd/guidelines/authoring_data_dictionaries.html" title="previous page">Data Dictionary Authoring Guide</a>
-    <a class='right-next' id="next-link" href="guidelines/intro.html" title="next page">Guidelines</a>
+    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">Introduction</a>
+    <a class='right-next' id="next-link" href="attack_ds_event_mappings.html" title="next page">ATT&amp;CK DS Event Mappings</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

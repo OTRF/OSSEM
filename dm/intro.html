@@ -33,11 +33,11 @@
         const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="https://ossemproject.com/ddm/intro.html" />
+    <link rel="canonical" href="https://ossemproject.com/dm/intro.html" />
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Windows" href="../attack/windows/intro.html" />
+    <link rel="next" title="ATT&amp;CK Data Sources" href="attack_ds_definitions.html" />
     <link rel="prev" title="network_session" href="../cdm/tables/network_session.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -45,10 +45,10 @@
 
 
 <!-- Opengraph tags -->
-<meta property="og:url"         content="https://ossemproject.com/ddm/intro.html" />
+<meta property="og:url"         content="https://ossemproject.com/dm/intro.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="Introduction" />
-<meta property="og:description" content="Introduction" />
+<meta property="og:description" content="Introduction  This part of the project focuses on defining the required data in form of data objects and the relationships among each other needed to facilitate" />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -126,7 +126,7 @@
 </ul>
 <p class="caption">
  <span class="caption-text">
-  Detection Data Model
+  Detection Model
  </span>
 </p>
 <ul class="current nav sidenav_l1">
@@ -135,16 +135,14 @@
    Introduction
   </a>
  </li>
-</ul>
-<p class="caption">
- <span class="caption-text">
-  ATT&amp;CK Data Sources
- </span>
-</p>
-<ul class="nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="../attack/windows/intro.html">
-   Windows
+  <a class="reference internal" href="attack_ds_definitions.html">
+   ATT&amp;CK Data Sources
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="attack_ds_event_mappings.html">
+   ATT&amp;CK DS Event Mappings
   </a>
  </li>
 </ul>
@@ -189,7 +187,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/ddm/intro.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/dm/intro.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -209,10 +207,10 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/OTRF/OSSEM/issues/new?title=Issue%20on%20page%20%2Fddm/intro.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/OTRF/OSSEM/issues/new?title=Issue%20on%20page%20%2Fdm/intro.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/OTRF/OSSEM/edit/master/docs/ddm/intro.md"><button
+        <a class="edit-button" href="https://github.com/OTRF/OSSEM/edit/master/docs/dm/intro.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -234,7 +232,14 @@
             <i class="fas fa-list"></i> Contents
         </div>
         <nav id="bd-toc-nav">
-            
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
         </nav>
     </div>
 </div>
@@ -245,6 +250,23 @@
                 
   <div class="section" id="introduction">
 <h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>This part of the project focuses on defining the required data in form of data objects and the relationships among each other needed to facilitate the creation of data analytics and validate the detection of adversary techniques. This is inspired by the awesome work of MITRE with their project https://github.com/mitre-attack/attack-datasources.</p>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://medium.com/mitre-attack/defining-attack-data-sources-part-i-4c39e581454f">Defining ATT&amp;CK Data Sources, Part I: Enhancing the Current State</a></p></li>
+<li><p><a class="reference external" href="https://medium.com/mitre-attack/defining-attack-data-sources-part-ii-1fc98738ba5b">Defining ATT&amp;CK Data Sources, Part II: Operationalizing the Methodology</a></p></li>
+<li><p><a class="reference external" href="https://github.com/mitre-attack/attack-datasources">ATT&amp;CK Data Sources GitHub repository</a></p></li>
+<li><p><a class="reference external" href="https://car.mitre.org/wiki/Main_Page">CAR Analytics</a></p></li>
+<li><p><a class="reference external" href="https://github.com/Cyb3rWard0g/OSSEM/blob/master/common_information_model">Common Information Model</a></p></li>
+<li><p><a class="reference external" href="http://stixproject.github.io/data-model/1.2/cyboxVocabs/ObjectRelationshipVocab-1.1/">STIX Cybox ObjectRelationshipVOcab-1.1</a></p></li>
+<li><p><a class="reference external" href="http://cyboxproject.github.io/documentation/objects/">Cybox Object</a></p></li>
+<li><p><a class="reference external" href="https://docs.oasis-open.org/cti/stix/v2.0/stix-v2.0-part4-cyber-observable-objects.html">STIX Version 2.0. Part 4 - Cyber Observable Object</a></p></li>
+<li><p><a class="reference external" href="https://www.mitre.org/sites/default/files/publications/16-3713-finding-cyber-threats%20with%20att%26ck-based-analytics.pdf">Finding Cyber Threats with ATTCK Based Analytics</a></p></li>
+<li><p><a class="reference external" href="https://car.mitre.org/wiki/Data_Model">CAR Analytics Data Model</a></p></li>
+<li><p><a class="reference external" href="http://www.irongeek.com/i.php?page=videos/bsidescharm2018/track-1-06-quantify-your-hunt-not-your-parents-red-teaming-devon-kerr">Quantifying your hunt - not your parent’s red teaming</a></p></li>
+</ul>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -260,7 +282,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./ddm"
+            path: "./dm"
         },
         predefinedOutput: true
     }
@@ -276,7 +298,7 @@
     <div class='prev-next-bottom'>
         
     <a class='left-prev' id="prev-link" href="../cdm/tables/network_session.html" title="previous page">network_session</a>
-    <a class='right-next' id="next-link" href="../attack/windows/intro.html" title="next page">Windows</a>
+    <a class='right-next' id="next-link" href="attack_ds_definitions.html" title="next page">ATT&amp;CK Data Sources</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
