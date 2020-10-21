@@ -31,14 +31,14 @@ There are three main folders:
   * Contains specific information about several security event logs organized by operating system and their respective data providers
   * Each dictionary describes a single event log and its corresponding event field names
   * It provides the foundational concepts to create a data wiki in an organization.
-* **Detection Data Model (DDM)**:
+* **Detection Model (DM)**:
   * Focuses on defining the required data in form of data objects and relationships among each other needed to facilitate the creation of data analytics and validate the detection of adversary techniques
   * Developed initially to extend the definitions of ATT&CK Data Sources.
     * [MITRE ATT&CKcon 2018: Hunters ATT&CKing with the Data](https://youtu.be/QCDBjFJ_C3g)
     * [MITRE ATT&CKcon 2.0: Ready to ATT&CK? Bring Your Own Data (BYOD) and Validate Your Data Analytics!](https://youtu.be/eM0c_Gil-38)
   * Initial work in this project has been migrated to ATT&CK and improved by [@Cyb3rPandah](https://twitter.com/Cyb3rPandaH)
     * [Defining ATT&CK Data Sources, Part I: Enhancing the Current State](https://medium.com/mitre-attack/defining-attack-data-sources-part-i-4c39e581454f)
-    * We are currently extending the model to map security events to the relationships identified in ATT&CK.
+    * This part of the project is an extension of the [ATT&CK Data Sources Objects](https://github.com/mitre-attack/attack-datasources) repo.
 
 # Author
 
