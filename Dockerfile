@@ -22,9 +22,10 @@ RUN adduser --disabled-password \
 
 USER ${NB_USER}
 
-RUN python3 -m pip install requests PyYAML attackcti==0.3.2 --user
+RUN mkdir -p ${HOME}/docs/notebooks \
+    && python3 -m pip install requests PyYAML attackcti==0.3.3 pandas==1.1.3 bokeh==2.2.3 networkx==2.5 --user
 
-COPY docs ${HOME}/docs
+COPY docs/notebooks ${HOME}/docs/notebooks
 
 USER root
 

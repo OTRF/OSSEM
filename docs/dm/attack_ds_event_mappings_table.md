@@ -1,4 +1,4 @@
-# ATT&CK DS Event Mappings
+# ATT&CK DS Event Mappings Table
 
 |Data Source|Component|Source|Relationship|Target|Event Provider|EventID|
 | :---| :---| :---| :---| :---| :---| :---|
