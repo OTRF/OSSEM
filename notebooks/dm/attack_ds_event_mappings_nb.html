@@ -1,0 +1,1969 @@
+
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATT&amp;CK DS Event Mappings Notebook &#8212; The OSSEM Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="../../_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://ossemproject.com/notebooks/dm/attack_ds_event_mappings_nb.html" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="prev" title="ATT&amp;CK DS Event Mappings Table" href="../../dm/attack_ds_event_mappings_table.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+
+<!-- Opengraph tags -->
+<meta property="og:url"         content="https://ossemproject.com/notebooks/dm/attack_ds_event_mappings_nb.html" />
+<meta property="og:type"        content="article" />
+<meta property="og:title"       content="ATT&amp;CK DS Event Mappings Notebook" />
+<meta property="og:description" content="ATT&amp;CK DS Event Mappings Notebook    Author: Jose Luis Rodriguez - @Cyb3rPandaH  Organization: Open Threat Research (OTR)  References:  OSSEM - ATT&amp;CK Event Map" />
+<meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
+
+<meta name="twitter:card" content="summary" />
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../../index.html">
+  
+  <img src="../../_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">The OSSEM Project</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <p class="caption">
+ <span class="caption-text">
+  Data Dictionaries
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../dd/intro.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../dd/guidelines/intro.html">
+   Guidelines
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Common Data Model
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../cdm/intro.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../cdm/guidelines/intro.html">
+   Guidelines
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../cdm/entities/intro.html">
+   Entities
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../cdm/tables/intro.html">
+   Tables
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Detection Model
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../dm/intro.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../dm/attack_ds_definitions.html">
+   ATT&amp;CK Data Sources
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../dm/attack_ds_event_mappings_table.html">
+   ATT&amp;CK DS Event Mappings Table
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   ATT&amp;CK DS Event Mappings Notebook
+  </a>
+ </li>
+</ul>
+
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/notebooks/dm/attack_ds_event_mappings_nb.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/OTRF/OSSEM"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/OTRF/OSSEM/issues/new?title=Issue%20on%20page%20%2Fnotebooks/dm/attack_ds_event_mappings_nb.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/OTRF/OSSEM/edit/master/docs/notebooks/dm/attack_ds_event_mappings_nb.ipynb"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/OTRF/OSSEM/master?urlpath=tree/docs/notebooks/dm/attack_ds_event_mappings_nb.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        <a class="colab-button" href="https://colab.research.google.com/github/OTRF/OSSEM/blob/master/docs/notebooks/dm/attack_ds_event_mappings_nb.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+                title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
+                    src="../../_static/images/logo_colab.png"
+                    alt="Interact on Colab">Colab</button></a>
+        
+        <button type="button" class="btn btn-secondary topbarbtn"
+            onclick="initThebeSBT()" title="Launch Thebe" data-toggle="tooltip" data-placement="left"><i
+                class="fas fa-play"></i><span style="margin-left: .4em;">Live Code</span></button>
+        
+    </div>
+</div>
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#importing-python-libraries">
+   Importing Python Libraries
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#importing-data-sources-mapping-yaml-file">
+   Importing Data Sources Mapping Yaml File
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#preparing-data-sources-mapping-dataframe">
+   Preparing Data Sources Mapping Dataframe
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#visualizing-relationships-among-data-elements-network-graph">
+   Visualizing Relationships Among Data Elements: Network Graph
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mapping-sub-techniques-to-data-components-relationships-event-logs">
+   Mapping (sub)techniques to data components &amp; relationships &amp; event logs
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#gathering-att-ck-content">
+     Gathering ATT&amp;CK content
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#use-case-smb-windows-admin-shares-t1021-002">
+     Use Case: SMB/Windows Admin Shares (T1021.002)
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#i-hope-you-find-this-notebook-helpful-d">
+   I hope you find this notebook helpful!! :D
+  </a>
+ </li>
+</ul>
+
+        </nav>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="att-ck-ds-event-mappings-notebook">
+<h1>ATT&amp;CK DS Event Mappings Notebook<a class="headerlink" href="#att-ck-ds-event-mappings-notebook" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
+<ul class="simple">
+<li><p><strong>Author</strong>: Jose Luis Rodriguez - <a class="reference external" href="https://twitter.com/Cyb3rPandaH">&#64;Cyb3rPandaH</a></p></li>
+<li><p><strong>Organization</strong>: <a class="reference external" href="https://github.com/OTRF">Open Threat Research (OTR)</a></p></li>
+<li><p><strong>References</strong>:</p></li>
+</ul>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/OTRF/OSSEM-DM/blob/main/attack_event_mapping/_attack_data_sources_all.yaml">OSSEM - ATT&amp;CK Event Mapping</a></p></li>
+<li><p><a class="reference external" href="https://medium.com/mitre-attack/defining-attack-data-sources-part-i-4c39e581454f">Defining ATT&amp;CK Data Sources, Part I: Enhancing the Current State</a></p></li>
+<li><p><a class="reference external" href="https://medium.com/mitre-attack/defining-attack-data-sources-part-ii-1fc98738ba5b">Defining ATT&amp;CK Data Sources, Part II: Operationalizing the Methodology</a></p></li>
+<li><p><a class="reference external" href="https://github.com/mitre-attack/attack-datasources/blob/main/DataSourcesDefinition.ipynb">ATT&amp;CK - Data Sources Definition</a></p></li>
+</ul>
+<div class="section" id="importing-python-libraries">
+<h2>Importing Python Libraries<a class="headerlink" href="#importing-python-libraries" title="Permalink to this headline">¶</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Importing library to manipulate data</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">pandas</span> <span class="kn">import</span> <span class="n">json_normalize</span>
+
+<span class="c1"># Importing library to manipulate yaml data</span>
+<span class="kn">import</span> <span class="nn">yaml</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="importing-data-sources-mapping-yaml-file">
+<h2>Importing Data Sources Mapping Yaml File<a class="headerlink" href="#importing-data-sources-mapping-yaml-file" title="Permalink to this headline">¶</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">yamlUrl</span> <span class="o">=</span> <span class="s1">&#39;https://raw.githubusercontent.com/OTRF/OSSEM-DM/main/attack_event_mapping/_attack_data_sources_all.yaml&#39;</span>
+<span class="n">yamlContent</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">yamlUrl</span><span class="p">)</span>
+<span class="n">yamlMapping</span> <span class="o">=</span> <span class="n">yaml</span><span class="o">.</span><span class="n">safe_load</span><span class="p">(</span><span class="n">yamlContent</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+<span class="n">mapping</span> <span class="o">=</span> <span class="n">json_normalize</span><span class="p">(</span><span class="n">yamlMapping</span><span class="p">)</span>
+<span class="n">mapping</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>definition</th>
+      <th>collection_layers</th>
+      <th>platforms</th>
+      <th>contributors</th>
+      <th>data_components</th>
+      <th>references</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Service</td>
+      <td>Information about software programs that run i...</td>
+      <td>[host]</td>
+      <td>[Windows]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
+      <td>[{'name': 'service creation', 'type': 'activit...</td>
+      <td>[https://docs.microsoft.com/en-us/dotnet/frame...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Module</td>
+      <td>Information about portable executable files, s...</td>
+      <td>[host]</td>
+      <td>[Windows]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
+      <td>[{'name': 'module load', 'type': 'activity', '...</td>
+      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>WMI object</td>
+      <td>Information about objects from the system clas...</td>
+      <td>[host]</td>
+      <td>[Windows]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
+      <td>[{'name': 'wmi object context', 'type': 'infor...</td>
+      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>File</td>
+      <td>Information about file objects that represent ...</td>
+      <td>[host]</td>
+      <td>[Windows]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
+      <td>[{'name': 'file creation', 'type': 'activity',...</td>
+      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Named pipe</td>
+      <td>Information about mechanisms that allow inter-...</td>
+      <td>[host]</td>
+      <td>[Windows]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
+      <td>[{'name': 'named pipe creation', 'relationship...</td>
+      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</div>
+<div class="section" id="preparing-data-sources-mapping-dataframe">
+<h2>Preparing Data Sources Mapping Dataframe<a class="headerlink" href="#preparing-data-sources-mapping-dataframe" title="Permalink to this headline">¶</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Splitting rows for data_components list</span>
+<span class="n">dcListExp</span> <span class="o">=</span> <span class="n">mapping</span><span class="o">.</span><span class="n">explode</span><span class="p">(</span><span class="s1">&#39;data_components&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;data_sources&#39;</span><span class="p">})</span>
+
+<span class="c1"># Splitting columns for data_components dict</span>
+<span class="n">dcDictExp</span> <span class="o">=</span> <span class="n">dcListExp</span><span class="p">[</span><span class="s1">&#39;data_components&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">)</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">dcListExp</span><span class="p">,</span><span class="n">left_index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">right_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>\
+<span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;components&#39;</span><span class="p">})</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;data_components&#39;</span><span class="p">],</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="c1"># Splitting rows for relationships list</span>
+<span class="n">drListExp</span> <span class="o">=</span> <span class="n">dcDictExp</span><span class="o">.</span><span class="n">explode</span><span class="p">(</span><span class="s1">&#39;relationships&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># Splitting columns for relationships dict</span>
+<span class="n">drDictExp</span> <span class="o">=</span> <span class="n">drListExp</span><span class="p">[</span><span class="s1">&#39;relationships&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">)</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">drListExp</span><span class="p">,</span><span class="n">left_index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">right_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>\
+<span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;data_relationships&#39;</span><span class="p">})</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;relationships&#39;</span><span class="p">],</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="c1"># Splitting rows for telemetry list</span>
+<span class="n">tListExp</span> <span class="o">=</span> <span class="n">drDictExp</span><span class="o">.</span><span class="n">explode</span><span class="p">(</span><span class="s1">&#39;telemetry&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># Splitting columnes for telemetry dict</span>
+<span class="n">tDictExp</span> <span class="o">=</span> <span class="n">tListExp</span><span class="p">[</span><span class="s1">&#39;telemetry&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">)</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">tListExp</span><span class="p">,</span><span class="n">left_index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">right_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>\
+<span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;telemetry&#39;</span><span class="p">],</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="c1"># Splitting rows for event_id list</span>
+<span class="n">dataSourcesMapping</span> <span class="o">=</span> <span class="n">tDictExp</span><span class="o">.</span><span class="n">explode</span><span class="p">(</span><span class="s1">&#39;event_id&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">dataSourcesMapping</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>event_provider</th>
+      <th>event_id</th>
+      <th>data_relationships</th>
+      <th>id</th>
+      <th>source_data_element</th>
+      <th>relationship</th>
+      <th>target_data_element</th>
+      <th>components</th>
+      <th>type</th>
+      <th>data_sources</th>
+      <th>definition</th>
+      <th>collection_layers</th>
+      <th>platforms</th>
+      <th>contributors</th>
+      <th>references</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>4697</td>
+      <td>User created Service</td>
+      <td>BB243122-F345-4ED6-97A7-FBA2A1AF7C38</td>
+      <td>user</td>
+      <td>created</td>
+      <td>service</td>
+      <td>service creation</td>
+      <td>activity</td>
+      <td>Service</td>
+      <td>Information about software programs that run i...</td>
+      <td>[host]</td>
+      <td>[Windows]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
+      <td>[https://docs.microsoft.com/en-us/dotnet/frame...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>System</td>
+      <td>7045</td>
+      <td>User created Service</td>
+      <td>BB243122-F345-4ED6-97A7-FBA2A1AF7C38</td>
+      <td>user</td>
+      <td>created</td>
+      <td>service</td>
+      <td>service creation</td>
+      <td>activity</td>
+      <td>Service</td>
+      <td>Information about software programs that run i...</td>
+      <td>[host]</td>
+      <td>[Windows]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
+      <td>[https://docs.microsoft.com/en-us/dotnet/frame...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>7</td>
+      <td>Process loaded Dll</td>
+      <td>109A870F-84A2-4CE4-948A-4773CD283F76</td>
+      <td>process</td>
+      <td>loaded</td>
+      <td>dll</td>
+      <td>module load</td>
+      <td>activity</td>
+      <td>Module</td>
+      <td>Information about portable executable files, s...</td>
+      <td>[host]</td>
+      <td>[Windows]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
+      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>7</td>
+      <td>Process loaded Executable</td>
+      <td>71F08C96-4ABE-47DE-A972-DEA470496FD4</td>
+      <td>process</td>
+      <td>loaded</td>
+      <td>executable</td>
+      <td>module load</td>
+      <td>activity</td>
+      <td>Module</td>
+      <td>Information about portable executable files, s...</td>
+      <td>[host]</td>
+      <td>[Windows]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
+      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Microsoft-Windows-WMI-Activity/Operational</td>
+      <td>5861</td>
+      <td>Wmi subscription created</td>
+      <td>F3B6DD23-4DBE-4214-A2D7-10E7103D815F</td>
+      <td>wmi subscription</td>
+      <td>created</td>
+      <td>None</td>
+      <td>wmi object context</td>
+      <td>information</td>
+      <td>WMI object</td>
+      <td>Information about objects from the system clas...</td>
+      <td>[host]</td>
+      <td>[Windows]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
+      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</div>
+<div class="section" id="visualizing-relationships-among-data-elements-network-graph">
+<h2>Visualizing Relationships Among Data Elements: Network Graph<a class="headerlink" href="#visualizing-relationships-among-data-elements-network-graph" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Getting dataframe of relationships among data elements</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">relationships</span> <span class="o">=</span> <span class="n">dataSourcesMapping</span><span class="p">[[</span><span class="s1">&#39;source_data_element&#39;</span><span class="p">,</span><span class="s1">&#39;target_data_element&#39;</span><span class="p">,</span><span class="s1">&#39;relationship&#39;</span><span class="p">]]</span>\
+      <span class="o">.</span><span class="n">drop_duplicates</span><span class="p">()</span>\
+      <span class="o">.</span><span class="n">dropna</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>\
+      <span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;source_data_element&#39;</span><span class="p">:</span><span class="s1">&#39;source&#39;</span><span class="p">,</span><span class="s1">&#39;target_data_element&#39;</span><span class="p">:</span><span class="s1">&#39;target&#39;</span><span class="p">})</span>\
+      <span class="o">.</span><span class="n">replace</span><span class="p">([</span><span class="s1">&#39;windows registry key&#39;</span><span class="p">,</span><span class="s1">&#39;windows registry key value&#39;</span><span class="p">],[</span><span class="s1">&#39;registry key&#39;</span><span class="p">,</span><span class="s1">&#39;registry key value&#39;</span><span class="p">])</span>
+<span class="n">relationships</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>source</th>
+      <th>target</th>
+      <th>relationship</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>user</td>
+      <td>service</td>
+      <td>created</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>process</td>
+      <td>dll</td>
+      <td>loaded</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>process</td>
+      <td>executable</td>
+      <td>loaded</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>user</td>
+      <td>wmi filter</td>
+      <td>created</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>user</td>
+      <td>wmi consumer</td>
+      <td>created</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<ul class="simple">
+<li><p>Importing libraries</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="kn">from</span> <span class="nn">bokeh.io</span> <span class="kn">import</span> <span class="n">output_notebook</span><span class="p">,</span> <span class="n">show</span>
+<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="p">(</span><span class="n">BoxSelectTool</span><span class="p">,</span><span class="n">LassoSelectTool</span><span class="p">,</span><span class="n">PanTool</span><span class="p">,</span><span class="n">BoxZoomTool</span><span class="p">,</span><span class="n">ResetTool</span><span class="p">,</span><span class="n">TapTool</span><span class="p">,</span>
+                          <span class="n">WheelZoomTool</span><span class="p">,</span><span class="n">HoverTool</span><span class="p">,</span><span class="n">Circle</span><span class="p">,</span> <span class="n">MultiLine</span><span class="p">,</span><span class="n">Plot</span><span class="p">,</span> <span class="n">Range1d</span><span class="p">,</span><span class="n">ColumnDataSource</span><span class="p">,</span>
+                          <span class="n">PointDrawTool</span><span class="p">,</span><span class="n">LabelSet</span><span class="p">,</span><span class="n">EdgesAndLinkedNodes</span><span class="p">,</span> <span class="n">NodesAndLinkedEdges</span><span class="p">,</span><span class="n">HoverTool</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">bokeh.palettes</span> <span class="kn">import</span> <span class="n">Spectral5</span>
+<span class="kn">from</span> <span class="nn">bokeh.plotting</span> <span class="kn">import</span> <span class="n">from_networkx</span>
+
+<span class="n">output_notebook</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<div class="bk-root">
+    <a href="https://bokeh.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
+    <span id="1001">Loading BokehJS ...</span>
+</div></div><script type="application/javascript">
+(function(root) {
+  function now() {
+    return new Date();
+  }
+
+  var force = true;
+
+  if (typeof root._bokeh_onload_callbacks === "undefined" || force === true) {
+    root._bokeh_onload_callbacks = [];
+    root._bokeh_is_loading = undefined;
+  }
+
+  var JS_MIME_TYPE = 'application/javascript';
+  var HTML_MIME_TYPE = 'text/html';
+  var EXEC_MIME_TYPE = 'application/vnd.bokehjs_exec.v0+json';
+  var CLASS_NAME = 'output_bokeh rendered_html';
+
+  /**
+   * Render data to the DOM node
+   */
+  function render(props, node) {
+    var script = document.createElement("script");
+    node.appendChild(script);
+  }
+
+  /**
+   * Handle when an output is cleared or removed
+   */
+  function handleClearOutput(event, handle) {
+    var cell = handle.cell;
+
+    var id = cell.output_area._bokeh_element_id;
+    var server_id = cell.output_area._bokeh_server_id;
+    // Clean up Bokeh references
+    if (id != null && id in Bokeh.index) {
+      Bokeh.index[id].model.document.clear();
+      delete Bokeh.index[id];
+    }
+
+    if (server_id !== undefined) {
+      // Clean up Bokeh references
+      var cmd = "from bokeh.io.state import curstate; print(curstate().uuid_to_server['" + server_id + "'].get_sessions()[0].document.roots[0]._id)";
+      cell.notebook.kernel.execute(cmd, {
+        iopub: {
+          output: function(msg) {
+            var id = msg.content.text.trim();
+            if (id in Bokeh.index) {
+              Bokeh.index[id].model.document.clear();
+              delete Bokeh.index[id];
+            }
+          }
+        }
+      });
+      // Destroy server and session
+      var cmd = "import bokeh.io.notebook as ion; ion.destroy_server('" + server_id + "')";
+      cell.notebook.kernel.execute(cmd);
+    }
+  }
+
+  /**
+   * Handle when a new output is added
+   */
+  function handleAddOutput(event, handle) {
+    var output_area = handle.output_area;
+    var output = handle.output;
+
+    // limit handleAddOutput to display_data with EXEC_MIME_TYPE content only
+    if ((output.output_type != "display_data") || (!output.data.hasOwnProperty(EXEC_MIME_TYPE))) {
+      return
+    }
+
+    var toinsert = output_area.element.find("." + CLASS_NAME.split(' ')[0]);
+
+    if (output.metadata[EXEC_MIME_TYPE]["id"] !== undefined) {
+      toinsert[toinsert.length - 1].firstChild.textContent = output.data[JS_MIME_TYPE];
+      // store reference to embed id on output_area
+      output_area._bokeh_element_id = output.metadata[EXEC_MIME_TYPE]["id"];
+    }
+    if (output.metadata[EXEC_MIME_TYPE]["server_id"] !== undefined) {
+      var bk_div = document.createElement("div");
+      bk_div.innerHTML = output.data[HTML_MIME_TYPE];
+      var script_attrs = bk_div.children[0].attributes;
+      for (var i = 0; i < script_attrs.length; i++) {
+        toinsert[toinsert.length - 1].firstChild.setAttribute(script_attrs[i].name, script_attrs[i].value);
+        toinsert[toinsert.length - 1].firstChild.textContent = bk_div.children[0].textContent
+      }
+      // store reference to server id on output_area
+      output_area._bokeh_server_id = output.metadata[EXEC_MIME_TYPE]["server_id"];
+    }
+  }
+
+  function register_renderer(events, OutputArea) {
+
+    function append_mime(data, metadata, element) {
+      // create a DOM node to render to
+      var toinsert = this.create_output_subarea(
+        metadata,
+        CLASS_NAME,
+        EXEC_MIME_TYPE
+      );
+      this.keyboard_manager.register_events(toinsert);
+      // Render to node
+      var props = {data: data, metadata: metadata[EXEC_MIME_TYPE]};
+      render(props, toinsert[toinsert.length - 1]);
+      element.append(toinsert);
+      return toinsert
+    }
+
+    /* Handle when an output is cleared or removed */
+    events.on('clear_output.CodeCell', handleClearOutput);
+    events.on('delete.Cell', handleClearOutput);
+
+    /* Handle when a new output is added */
+    events.on('output_added.OutputArea', handleAddOutput);
+
+    /**
+     * Register the mime type and append_mime function with output_area
+     */
+    OutputArea.prototype.register_mime_type(EXEC_MIME_TYPE, append_mime, {
+      /* Is output safe? */
+      safe: true,
+      /* Index of renderer in `output_area.display_order` */
+      index: 0
+    });
+  }
+
+  // register the mime type if in Jupyter Notebook environment and previously unregistered
+  if (root.Jupyter !== undefined) {
+    var events = require('base/js/events');
+    var OutputArea = require('notebook/js/outputarea').OutputArea;
+
+    if (OutputArea.prototype.mime_types().indexOf(EXEC_MIME_TYPE) == -1) {
+      register_renderer(events, OutputArea);
+    }
+  }
+
+  
+  if (typeof (root._bokeh_timeout) === "undefined" || force === true) {
+    root._bokeh_timeout = Date.now() + 5000;
+    root._bokeh_failed_load = false;
+  }
+
+  var NB_LOAD_WARNING = {'data': {'text/html':
+     "<div style='background-color: #fdd'>\n"+
+     "<p>\n"+
+     "BokehJS does not appear to have successfully loaded. If loading BokehJS from CDN, this \n"+
+     "may be due to a slow or bad network connection. Possible fixes:\n"+
+     "</p>\n"+
+     "<ul>\n"+
+     "<li>re-rerun `output_notebook()` to attempt to load from CDN again, or</li>\n"+
+     "<li>use INLINE resources instead, as so:</li>\n"+
+     "</ul>\n"+
+     "<code>\n"+
+     "from bokeh.resources import INLINE\n"+
+     "output_notebook(resources=INLINE)\n"+
+     "</code>\n"+
+     "</div>"}};
+
+  function display_loaded() {
+    var el = document.getElementById("1001");
+    if (el != null) {
+      el.textContent = "BokehJS is loading...";
+    }
+    if (root.Bokeh !== undefined) {
+      if (el != null) {
+        el.textContent = "BokehJS " + root.Bokeh.version + " successfully loaded.";
+      }
+    } else if (Date.now() < root._bokeh_timeout) {
+      setTimeout(display_loaded, 100)
+    }
+  }
+
+
+  function run_callbacks() {
+    try {
+      root._bokeh_onload_callbacks.forEach(function(callback) {
+        if (callback != null)
+          callback();
+      });
+    } finally {
+      delete root._bokeh_onload_callbacks
+    }
+    console.debug("Bokeh: all callbacks have finished");
+  }
+
+  function load_libs(css_urls, js_urls, callback) {
+    if (css_urls == null) css_urls = [];
+    if (js_urls == null) js_urls = [];
+
+    root._bokeh_onload_callbacks.push(callback);
+    if (root._bokeh_is_loading > 0) {
+      console.debug("Bokeh: BokehJS is being loaded, scheduling callback at", now());
+      return null;
+    }
+    if (js_urls == null || js_urls.length === 0) {
+      run_callbacks();
+      return null;
+    }
+    console.debug("Bokeh: BokehJS not loaded, scheduling load and callback at", now());
+    root._bokeh_is_loading = css_urls.length + js_urls.length;
+
+    function on_load() {
+      root._bokeh_is_loading--;
+      if (root._bokeh_is_loading === 0) {
+        console.debug("Bokeh: all BokehJS libraries/stylesheets loaded");
+        run_callbacks()
+      }
+    }
+
+    function on_error() {
+      console.error("failed to load " + url);
+    }
+
+    for (var i = 0; i < css_urls.length; i++) {
+      var url = css_urls[i];
+      const element = document.createElement("link");
+      element.onload = on_load;
+      element.onerror = on_error;
+      element.rel = "stylesheet";
+      element.type = "text/css";
+      element.href = url;
+      console.debug("Bokeh: injecting link tag for BokehJS stylesheet: ", url);
+      document.body.appendChild(element);
+    }
+
+    const hashes = {"https://cdn.bokeh.org/bokeh/release/bokeh-2.2.2.min.js": "JayppSWSRBsibIZqI8S4vAb1oFgLL0uhNvSn8cmArlOvYOwfFjYeyY5UWwJ+K0SU", "https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.2.2.min.js": "G0/Tv/Yy/zEPNsnW0Qif/FOsGesd+KIrKg/QLmvQmReuUW9qmSP7mAmr0VpiUNr3", "https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.2.2.min.js": "VLYHEbLQDk5G1+/4ALU0myoJPMEUsngWry2fzYorFOUmarjGRPLLURaeK/on6JqX"};
+
+    for (var i = 0; i < js_urls.length; i++) {
+      var url = js_urls[i];
+      var element = document.createElement('script');
+      element.onload = on_load;
+      element.onerror = on_error;
+      element.async = false;
+      element.src = url;
+      if (url in hashes) {
+        element.crossOrigin = "anonymous";
+        element.integrity = "sha384-" + hashes[url];
+      }
+      console.debug("Bokeh: injecting script tag for BokehJS library: ", url);
+      document.head.appendChild(element);
+    }
+  };
+
+  function inject_raw_css(css) {
+    const element = document.createElement("style");
+    element.appendChild(document.createTextNode(css));
+    document.body.appendChild(element);
+  }
+
+  
+  var js_urls = ["https://cdn.bokeh.org/bokeh/release/bokeh-2.2.2.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.2.2.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.2.2.min.js"];
+  var css_urls = [];
+  
+
+  var inline_js = [
+    function(Bokeh) {
+      Bokeh.set_log_level("info");
+    },
+    function(Bokeh) {
+    
+    
+    }
+  ];
+
+  function run_inline_js() {
+    
+    if (root.Bokeh !== undefined || force === true) {
+      
+    for (var i = 0; i < inline_js.length; i++) {
+      inline_js[i].call(root, root.Bokeh);
+    }
+    if (force === true) {
+        display_loaded();
+      }} else if (Date.now() < root._bokeh_timeout) {
+      setTimeout(run_inline_js, 100);
+    } else if (!root._bokeh_failed_load) {
+      console.log("Bokeh: BokehJS failed to load within specified timeout.");
+      root._bokeh_failed_load = true;
+    } else if (force !== true) {
+      var cell = $(document.getElementById("1001")).parents('.cell').data().cell;
+      cell.output_area.append_execute_result(NB_LOAD_WARNING)
+    }
+
+  }
+
+  if (root._bokeh_is_loading === 0) {
+    console.debug("Bokeh: BokehJS loaded, going straight to plotting");
+    run_inline_js();
+  } else {
+    load_libs(css_urls, js_urls, function() {
+      console.debug("Bokeh: BokehJS plotting callback run at", now());
+      run_inline_js();
+    });
+  }
+}(window));</script></div>
+</div>
+<ul class="simple">
+<li><p>Visualizing network graph</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Creating networkx graph object</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">from_pandas_edgelist</span><span class="p">(</span><span class="n">relationships</span><span class="p">,</span> <span class="n">source</span> <span class="o">=</span> <span class="s1">&#39;source&#39;</span><span class="p">,</span> <span class="n">target</span> <span class="o">=</span> <span class="s1">&#39;target&#39;</span><span class="p">,</span><span class="n">edge_attr</span> <span class="o">=</span> <span class="s1">&#39;relationship&#39;</span><span class="p">)</span>
+
+<span class="c1"># Creating plot object</span>
+<span class="n">plot</span> <span class="o">=</span> <span class="n">Plot</span><span class="p">(</span><span class="n">plot_width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">plot_height</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span>
+            <span class="n">x_range</span><span class="o">=</span><span class="n">Range1d</span><span class="p">(</span><span class="o">-</span><span class="mf">1.1</span><span class="p">,</span> <span class="mf">1.1</span><span class="p">),</span> <span class="n">y_range</span><span class="o">=</span><span class="n">Range1d</span><span class="p">(</span><span class="o">-</span><span class="mf">1.1</span><span class="p">,</span> <span class="mf">1.1</span><span class="p">))</span>
+<span class="n">plot</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;Relationships among Data Elements&quot;</span>
+<span class="n">plot</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">align</span> <span class="o">=</span> <span class="s2">&quot;center&quot;</span>
+<span class="n">plot</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">text_font_size</span> <span class="o">=</span> <span class="s2">&quot;30px&quot;</span>
+
+<span class="c1"># Creating renderer objects</span>
+<span class="n">graph_renderer</span> <span class="o">=</span> <span class="n">from_networkx</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">nx</span><span class="o">.</span><span class="n">spring_layout</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">center</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+
+<span class="n">graph_renderer</span><span class="o">.</span><span class="n">node_renderer</span><span class="o">.</span><span class="n">glyph</span> <span class="o">=</span> <span class="n">Circle</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">60</span><span class="p">,</span> <span class="n">fill_color</span><span class="o">=</span><span class="n">Spectral5</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">graph_renderer</span><span class="o">.</span><span class="n">node_renderer</span><span class="o">.</span><span class="n">selection_glyph</span> <span class="o">=</span> <span class="n">Circle</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">fill_color</span><span class="o">=</span><span class="n">Spectral5</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+<span class="n">graph_renderer</span><span class="o">.</span><span class="n">node_renderer</span><span class="o">.</span><span class="n">hover_glyph</span> <span class="o">=</span> <span class="n">Circle</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">fill_color</span><span class="o">=</span><span class="n">Spectral5</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+
+<span class="n">graph_renderer</span><span class="o">.</span><span class="n">edge_renderer</span><span class="o">.</span><span class="n">glyph</span> <span class="o">=</span> <span class="n">MultiLine</span><span class="p">(</span><span class="n">line_color</span><span class="o">=</span><span class="s2">&quot;gray&quot;</span><span class="p">,</span> <span class="n">line_alpha</span><span class="o">=</span><span class="mf">0.9</span><span class="p">,</span> <span class="n">line_width</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">graph_renderer</span><span class="o">.</span><span class="n">edge_renderer</span><span class="o">.</span><span class="n">selection_glyph</span> <span class="o">=</span> <span class="n">MultiLine</span><span class="p">(</span><span class="n">line_color</span><span class="o">=</span><span class="n">Spectral5</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">line_width</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">graph_renderer</span><span class="o">.</span><span class="n">edge_renderer</span><span class="o">.</span><span class="n">hover_glyph</span> <span class="o">=</span> <span class="n">MultiLine</span><span class="p">(</span><span class="n">line_color</span><span class="o">=</span><span class="n">Spectral5</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line_width</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+
+<span class="n">graph_renderer</span><span class="o">.</span><span class="n">selection_policy</span> <span class="o">=</span> <span class="n">NodesAndLinkedEdges</span><span class="p">()</span>
+<span class="n">graph_renderer</span><span class="o">.</span><span class="n">inspection_policy</span> <span class="o">=</span> <span class="n">NodesAndLinkedEdges</span><span class="p">()</span>
+<span class="n">plot</span><span class="o">.</span><span class="n">renderers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">graph_renderer</span><span class="p">)</span>
+
+<span class="c1"># Adding nodes labels</span>
+<span class="n">x</span><span class="p">,</span><span class="n">y</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="n">graph_renderer</span><span class="o">.</span><span class="n">layout_provider</span><span class="o">.</span><span class="n">graph_layout</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
+
+<span class="n">names</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">nx</span><span class="o">.</span><span class="n">nodes</span><span class="p">(</span><span class="n">G</span><span class="p">):</span> <span class="n">names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> 
+    
+<span class="n">nodes_table</span> <span class="o">=</span> <span class="n">ColumnDataSource</span><span class="p">({</span><span class="s1">&#39;x&#39;</span><span class="p">:</span> <span class="n">x</span><span class="p">,</span> <span class="s1">&#39;y&#39;</span><span class="p">:</span> <span class="n">y</span><span class="p">,</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="n">names</span><span class="p">})</span>
+<span class="n">labels</span> <span class="o">=</span> <span class="n">LabelSet</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;x&#39;</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s1">&#39;y&#39;</span><span class="p">,</span><span class="n">text</span><span class="o">=</span><span class="s1">&#39;name&#39;</span><span class="p">,</span><span class="n">render_mode</span><span class="o">=</span><span class="s1">&#39;canvas&#39;</span><span class="p">,</span><span class="n">y_offset</span><span class="o">=-</span><span class="mi">10</span><span class="p">,</span><span class="n">text_align</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span>
+                  <span class="n">text_font_size</span><span class="o">=</span><span class="s1">&#39;12px&#39;</span><span class="p">,</span><span class="n">source</span> <span class="o">=</span> <span class="n">nodes_table</span><span class="p">,</span> <span class="n">background_fill_color</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span><span class="n">text_color</span> <span class="o">=</span> <span class="s1">&#39;black&#39;</span><span class="p">)</span>
+
+<span class="n">plot</span><span class="o">.</span><span class="n">renderers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span>
+
+<span class="c1"># Adding tools</span>
+<span class="n">plot</span><span class="o">.</span><span class="n">add_tools</span><span class="p">(</span><span class="n">HoverTool</span><span class="p">(</span><span class="n">tooltips</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span><span class="n">WheelZoomTool</span><span class="p">(),</span><span class="n">TapTool</span><span class="p">(),</span><span class="n">BoxSelectTool</span><span class="p">(),</span><span class="n">BoxZoomTool</span><span class="p">(),</span>
+               <span class="n">PanTool</span><span class="p">(),</span><span class="n">LassoSelectTool</span><span class="p">(),</span><span class="n">ResetTool</span><span class="p">())</span>
+
+<span class="c1"># Showing graph</span>
+<span class="n">show</span><span class="p">(</span><span class="n">plot</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+
+
+
+
+
+<div class="bk-root" id="a3b4476e-d705-4de3-951b-5d2740217738" data-root-id="1004"></div>
+</div><script type="application/javascript">(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"5cc40232-1f07-43a4-9f99-303cd1d3940f":{"roots":{"references":[{"attributes":{"plot_height":500,"plot_width":800,"renderers":[{"id":"1010"},{"id":"1055"}],"title":{"id":"1007"},"toolbar":{"id":"1065"},"x_range":{"id":"1002"},"x_scale":{"id":"1076"},"y_range":{"id":"1003"},"y_scale":{"id":"1075"}},"id":"1004","type":"Plot"},{"attributes":{},"id":"1064","type":"ResetTool"},{"attributes":{},"id":"1092","type":"UnionRenderers"},{"attributes":{},"id":"1062","type":"PanTool"},{"attributes":{"overlay":{"id":"1087"}},"id":"1063","type":"LassoSelectTool"},{"attributes":{},"id":"1093","type":"Selection"},{"attributes":{"end":1.1,"start":-1.1},"id":"1002","type":"Range1d"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1057"},{"id":"1058"},{"id":"1059"},{"id":"1060"},{"id":"1061"},{"id":"1062"},{"id":"1063"},{"id":"1064"}]},"id":"1065","type":"Toolbar"},{"attributes":{"data_source":{"id":"1012"},"glyph":{"id":"1020"},"hover_glyph":{"id":"1030"},"muted_glyph":null,"selection_glyph":{"id":"1025"},"view":{"id":"1014"}},"id":"1013","type":"GlyphRenderer"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1085","type":"BoxAnnotation"},{"attributes":{"line_alpha":{"value":0.9},"line_color":{"value":"gray"}},"id":"1035","type":"MultiLine"},{"attributes":{"align":"center","text":"Relationships among Data Elements","text_font_size":{"value":"30px"}},"id":"1007","type":"Title"},{"attributes":{"fill_color":{"value":"#2b83ba"},"size":{"units":"screen","value":60}},"id":"1020","type":"Circle"},{"attributes":{"source":{"id":"1012"}},"id":"1014","type":"CDSView"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1086","type":"BoxAnnotation"},{"attributes":{"fill_alpha":0.5,"fill_color":"lightgrey","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"xs_units":"screen","ys_units":"screen"},"id":"1087","type":"PolyAnnotation"},{"attributes":{"source":{"id":"1054"},"text":{"field":"name"},"text_align":"center","text_color":{"value":"black"},"text_font_size":{"value":"12px"},"x":{"field":"x"},"y":{"field":"y"},"y_offset":{"value":-10}},"id":"1055","type":"LabelSet"},{"attributes":{"data":{"index":["user","service","process","dll","executable","wmi filter","wmi consumer","wmi subscription","file","file share","pipe","application host","command","ad object","registry key","registry key value","host","port","ip"]},"selected":{"id":"1091"},"selection_policy":{"id":"1090"}},"id":"1012","type":"ColumnDataSource"},{"attributes":{},"id":"1075","type":"LinearScale"},{"attributes":{"line_color":{"value":"#abdda4"},"line_width":{"value":4}},"id":"1045","type":"MultiLine"},{"attributes":{},"id":"1089","type":"Selection"},{"attributes":{"edge_renderer":{"id":"1017"},"inspection_policy":{"id":"1052"},"layout_provider":{"id":"1019"},"node_renderer":{"id":"1013"},"selection_policy":{"id":"1050"}},"id":"1010","type":"GraphRenderer"},{"attributes":{},"id":"1076","type":"LinearScale"},{"attributes":{"data":{"end":["service","wmi filter","wmi consumer","wmi subscription","file share","file","application host","ad object","registry key value","registry key","host","process","port","ip","user","dll","executable","file","pipe","command","ad object","registry key","registry key value","process","port","ip","host"],"relationship":["created","deleted","deleted","deleted","accessed","requested access","started","modified","modified","requested access","connected from","created","connected from","connected from","created","loaded","loaded","requested access","created","executed","requested access","requested access","modified","requested access","connected from","connected from","connected from"],"start":["user","user","user","user","user","user","user","user","user","user","user","user","user","user","user","process","process","process","process","process","process","process","process","process","process","process","process"]},"selected":{"id":"1093"},"selection_policy":{"id":"1092"}},"id":"1016","type":"ColumnDataSource"},{"attributes":{"overlay":{"id":"1086"}},"id":"1061","type":"BoxZoomTool"},{"attributes":{"data_source":{"id":"1016"},"glyph":{"id":"1035"},"hover_glyph":{"id":"1045"},"muted_glyph":null,"selection_glyph":{"id":"1040"},"view":{"id":"1018"}},"id":"1017","type":"GlyphRenderer"},{"attributes":{"callback":null},"id":"1059","type":"TapTool"},{"attributes":{"source":{"id":"1016"}},"id":"1018","type":"CDSView"},{"attributes":{},"id":"1090","type":"UnionRenderers"},{"attributes":{"end":1.1,"start":-1.1},"id":"1003","type":"Range1d"},{"attributes":{},"id":"1052","type":"NodesAndLinkedEdges"},{"attributes":{},"id":"1050","type":"NodesAndLinkedEdges"},{"attributes":{},"id":"1091","type":"Selection"},{"attributes":{"graph_layout":{"ad object":[-0.24390948463350998,0.2575480691936752],"application host":[0.3046732890811906,-0.7898762289290174],"command":[0.5304251767684278,0.7533752966055854],"dll":[-0.0377894656506495,1.0],"executable":[-0.34007362449116146,0.8670373429299624],"file":[-0.2647820583109858,-0.021635498747552273],"file share":[0.046481051757767074,-0.8858653418292478],"host":[0.4219335686922844,-0.006525879819879941],"ip":[0.20648189973707726,-0.04044374045473262],"pipe":[0.27312241315786834,0.9590922782273885],"port":[0.319496043889525,0.19034790441176516],"process":[0.04375281201889453,0.40130395426873383],"registry key":[-0.012161748313560391,0.08836624944354964],"registry key value":[-0.4194488642895498,0.12989368733462212],"service":[-0.45574018940593913,-0.7141443093384509],"user":[-0.03260191107852785,-0.2845236271149386],"wmi consumer":[0.5053803283836028,-0.5733689653265592],"wmi filter":[-0.2244806441927316,-0.8661608040353418],"wmi subscription":[-0.6207585931200219,-0.46442038681956327]}},"id":"1019","type":"StaticLayoutProvider"},{"attributes":{},"id":"1058","type":"WheelZoomTool"},{"attributes":{"data":{"name":["user","service","process","dll","executable","wmi filter","wmi consumer","wmi subscription","file","file share","pipe","application host","command","ad object","registry key","registry key value","host","port","ip"],"x":[-0.03260191107852785,-0.45574018940593913,0.04375281201889453,-0.0377894656506495,-0.34007362449116146,-0.2244806441927316,0.5053803283836028,-0.6207585931200219,-0.2647820583109858,0.046481051757767074,0.27312241315786834,0.3046732890811906,0.5304251767684278,-0.24390948463350998,-0.012161748313560391,-0.4194488642895498,0.4219335686922844,0.319496043889525,0.20648189973707726],"y":[-0.2845236271149386,-0.7141443093384509,0.40130395426873383,1.0,0.8670373429299624,-0.8661608040353418,-0.5733689653265592,-0.46442038681956327,-0.021635498747552273,-0.8858653418292478,0.9590922782273885,-0.7898762289290174,0.7533752966055854,0.2575480691936752,0.08836624944354964,0.12989368733462212,-0.006525879819879941,0.19034790441176516,-0.04044374045473262]},"selected":{"id":"1089"},"selection_policy":{"id":"1088"}},"id":"1054","type":"ColumnDataSource"},{"attributes":{"fill_color":{"value":"#abdda4"},"size":{"units":"screen","value":15}},"id":"1030","type":"Circle"},{"attributes":{"callback":null,"tooltips":null},"id":"1057","type":"HoverTool"},{"attributes":{"overlay":{"id":"1085"}},"id":"1060","type":"BoxSelectTool"},{"attributes":{"fill_color":{"value":"#fdae61"},"size":{"units":"screen","value":15}},"id":"1025","type":"Circle"},{"attributes":{},"id":"1088","type":"UnionRenderers"},{"attributes":{"line_color":{"value":"#fdae61"},"line_width":{"value":4}},"id":"1040","type":"MultiLine"}],"root_ids":["1004"]},"title":"Bokeh Application","version":"2.2.2"}};
+  var render_items = [{"docid":"5cc40232-1f07-43a4-9f99-303cd1d3940f","root_ids":["1004"],"roots":{"1004":"a3b4476e-d705-4de3-951b-5d2740217738"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);</script></div>
+</div>
+</div>
+<div class="section" id="mapping-sub-techniques-to-data-components-relationships-event-logs">
+<h2>Mapping (sub)techniques to data components &amp; relationships &amp; event logs<a class="headerlink" href="#mapping-sub-techniques-to-data-components-relationships-event-logs" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="gathering-att-ck-content">
+<h3>Gathering ATT&amp;CK content<a class="headerlink" href="#gathering-att-ck-content" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Importing libraries</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Importing library to interact with up to date ATT&amp;CK content available in STIX format via public TAXII server</span>
+<span class="kn">from</span> <span class="nn">attackcti</span> <span class="kn">import</span> <span class="n">attack_client</span>
+</pre></div>
+</div>
+</div>
+</div>
+<ul class="simple">
+<li><p>Gathering (sub)techniques</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Instantiating attack_client class</span>
+<span class="n">lift</span> <span class="o">=</span> <span class="n">attack_client</span><span class="p">()</span>
+
+<span class="c1"># Collecting all techniques (Revoked and not revoked) for windows platform within the enterprise matrix</span>
+<span class="n">attck</span> <span class="o">=</span> <span class="n">lift</span><span class="o">.</span><span class="n">get_techniques_by_platform</span><span class="p">(</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Windows&#39;</span><span class="p">,</span> <span class="n">stix_format</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+
+<span class="c1"># Removing revoked techniques</span>
+<span class="n">attck</span> <span class="o">=</span> <span class="n">lift</span><span class="o">.</span><span class="n">remove_revoked</span><span class="p">(</span><span class="n">attck</span><span class="p">)</span>
+
+<span class="c1"># Generating a dataframe with information collected</span>
+<span class="n">attck</span> <span class="o">=</span> <span class="n">json_normalize</span><span class="p">(</span><span class="n">attck</span><span class="p">)</span>
+
+<span class="c1"># Selecting columns</span>
+<span class="n">attck</span> <span class="o">=</span> <span class="n">attck</span><span class="p">[[</span><span class="s1">&#39;tactic&#39;</span><span class="p">,</span><span class="s1">&#39;technique_id&#39;</span><span class="p">,</span><span class="s1">&#39;technique&#39;</span><span class="p">,</span><span class="s1">&#39;data_sources&#39;</span><span class="p">]]</span>
+
+<span class="c1"># Showing information collected</span>
+<span class="n">attck</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tactic</th>
+      <th>technique_id</th>
+      <th>technique</th>
+      <th>data_sources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>[credential-access, collection]</td>
+      <td>T1557.002</td>
+      <td>ARP Cache Poisoning</td>
+      <td>[Packet capture, Netflow/Enclave netflow]</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>[persistence, privilege-escalation]</td>
+      <td>T1547.012</td>
+      <td>Print Processors</td>
+      <td>[Process monitoring, Windows Registry, File mo...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>[defense-evasion]</td>
+      <td>T1564.007</td>
+      <td>VBA Stomping</td>
+      <td>[Process monitoring, File monitoring]</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>[credential-access]</td>
+      <td>T1558.004</td>
+      <td>AS-REP Roasting</td>
+      <td>[Windows event logs, Authentication logs]</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>[defense-evasion]</td>
+      <td>T1218.012</td>
+      <td>Verclsid</td>
+      <td>[Process use of network, Process command-line ...</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<ul class="simple">
+<li><p>Splitting data_sources field</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">attck</span> <span class="o">=</span> <span class="n">attck</span><span class="o">.</span><span class="n">explode</span><span class="p">(</span><span class="s1">&#39;data_sources&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">attck</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tactic</th>
+      <th>technique_id</th>
+      <th>technique</th>
+      <th>data_sources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>[credential-access, collection]</td>
+      <td>T1557.002</td>
+      <td>ARP Cache Poisoning</td>
+      <td>Packet capture</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>[credential-access, collection]</td>
+      <td>T1557.002</td>
+      <td>ARP Cache Poisoning</td>
+      <td>Netflow/Enclave netflow</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>[persistence, privilege-escalation]</td>
+      <td>T1547.012</td>
+      <td>Print Processors</td>
+      <td>Process monitoring</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>[persistence, privilege-escalation]</td>
+      <td>T1547.012</td>
+      <td>Print Processors</td>
+      <td>Windows Registry</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>[persistence, privilege-escalation]</td>
+      <td>T1547.012</td>
+      <td>Print Processors</td>
+      <td>File monitoring</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<ul class="simple">
+<li><p>Updating data_sources names</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">yamlNamesUrl</span> <span class="o">=</span> <span class="s1">&#39;https://raw.githubusercontent.com/OTRF/OSSEM-DM/main/attack_event_mapping/_new_data_sources_names.yaml&#39;</span>
+<span class="n">yamlNamesContent</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">yamlNamesUrl</span><span class="p">)</span>
+<span class="n">names</span> <span class="o">=</span> <span class="n">yaml</span><span class="o">.</span><span class="n">safe_load</span><span class="p">(</span><span class="n">yamlNamesContent</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+<span class="n">names</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">names</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">items</span><span class="p">()),</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;data_sources&#39;</span><span class="p">,</span> <span class="s1">&#39;new_names&#39;</span><span class="p">])</span>
+
+<span class="n">attck</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">attck</span><span class="p">,</span> <span class="n">names</span><span class="p">,</span> <span class="n">on</span> <span class="o">=</span> <span class="s1">&#39;data_sources&#39;</span><span class="p">,</span> <span class="n">how</span> <span class="o">=</span> <span class="s1">&#39;left&#39;</span><span class="p">)</span>
+<span class="n">namesUpdate</span> <span class="o">=</span> <span class="n">attck</span><span class="p">[</span><span class="s1">&#39;new_names&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">attck</span><span class="p">[</span><span class="s1">&#39;data_sources&#39;</span><span class="p">])</span>
+<span class="n">attck</span> <span class="o">=</span> <span class="n">attck</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;new_names&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span><span class="n">data_sources</span> <span class="o">=</span> <span class="n">namesUpdate</span><span class="p">)</span>
+<span class="n">attck</span> <span class="o">=</span> <span class="n">attck</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">(</span><span class="n">subset</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;technique_id&#39;</span><span class="p">,</span><span class="s1">&#39;data_sources&#39;</span><span class="p">])</span>\
+        <span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;technique&#39;</span><span class="p">])</span>\
+        <span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">attck</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tactic</th>
+      <th>technique_id</th>
+      <th>technique</th>
+      <th>data_sources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>[credential-access, collection]</td>
+      <td>T1557.002</td>
+      <td>ARP Cache Poisoning</td>
+      <td>Packet capture</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>[credential-access, collection]</td>
+      <td>T1557.002</td>
+      <td>ARP Cache Poisoning</td>
+      <td>Netflow/Enclave netflow</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>[credential-access]</td>
+      <td>T1558.004</td>
+      <td>AS-REP Roasting</td>
+      <td>Authentication log</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>[credential-access]</td>
+      <td>T1558.004</td>
+      <td>AS-REP Roasting</td>
+      <td>Windows event logs</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>[privilege-escalation, defense-evasion]</td>
+      <td>T1548</td>
+      <td>Abuse Elevation Control Mechanism</td>
+      <td>File</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<ul class="simple">
+<li><p>Mapping techniques to data components &amp; relationships * event logs</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">techniques</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">attck</span><span class="p">,</span> <span class="n">dataSourcesMapping</span><span class="p">,</span> <span class="n">on</span> <span class="o">=</span> <span class="s1">&#39;data_sources&#39;</span><span class="p">,</span> <span class="n">how</span> <span class="o">=</span> <span class="s1">&#39;left&#39;</span><span class="p">)</span>\
+             <span class="p">[[</span><span class="s1">&#39;tactic&#39;</span><span class="p">,</span><span class="s1">&#39;technique_id&#39;</span><span class="p">,</span><span class="s1">&#39;technique&#39;</span><span class="p">,</span><span class="s1">&#39;data_sources&#39;</span><span class="p">,</span><span class="s1">&#39;components&#39;</span><span class="p">,</span><span class="s1">&#39;data_relationships&#39;</span><span class="p">,</span>\
+               <span class="s1">&#39;event_provider&#39;</span><span class="p">,</span><span class="s1">&#39;event_id&#39;</span><span class="p">]]</span>
+
+<span class="n">techniques</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tactic</th>
+      <th>technique_id</th>
+      <th>technique</th>
+      <th>data_sources</th>
+      <th>components</th>
+      <th>data_relationships</th>
+      <th>event_provider</th>
+      <th>event_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>[credential-access, collection]</td>
+      <td>T1557.002</td>
+      <td>ARP Cache Poisoning</td>
+      <td>Packet capture</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>[credential-access, collection]</td>
+      <td>T1557.002</td>
+      <td>ARP Cache Poisoning</td>
+      <td>Netflow/Enclave netflow</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>[credential-access]</td>
+      <td>T1558.004</td>
+      <td>AS-REP Roasting</td>
+      <td>Authentication log</td>
+      <td>authentication success</td>
+      <td>User authenticated Host</td>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>4624</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>[credential-access]</td>
+      <td>T1558.004</td>
+      <td>AS-REP Roasting</td>
+      <td>Authentication log</td>
+      <td>authentication success</td>
+      <td>User authenticated Host</td>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>4778</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>[credential-access]</td>
+      <td>T1558.004</td>
+      <td>AS-REP Roasting</td>
+      <td>Windows event logs</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</div>
+<div class="section" id="use-case-smb-windows-admin-shares-t1021-002">
+<h3>Use Case: SMB/Windows Admin Shares (T1021.002)<a class="headerlink" href="#use-case-smb-windows-admin-shares-t1021-002" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>What are the recommended data sources?</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">attck</span><span class="p">[</span><span class="n">attck</span><span class="p">[</span><span class="s1">&#39;technique_id&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;T1021.002&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tactic</th>
+      <th>technique_id</th>
+      <th>technique</th>
+      <th>data_sources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>746</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+    </tr>
+    <tr>
+      <th>747</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Authentication log</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<ul class="simple">
+<li><p>What are the potential event logs that we could consider in our analysis?</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">techniques</span><span class="p">[</span><span class="n">techniques</span><span class="p">[</span><span class="s1">&#39;technique_id&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;T1021.002&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tactic</th>
+      <th>technique_id</th>
+      <th>technique</th>
+      <th>data_sources</th>
+      <th>components</th>
+      <th>data_relationships</th>
+      <th>event_provider</th>
+      <th>event_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>6344</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process creation</td>
+      <td>User created Process</td>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>4688</td>
+    </tr>
+    <tr>
+      <th>6345</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process creation</td>
+      <td>User created Process</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>6346</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process creation</td>
+      <td>Process created Process</td>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>4688</td>
+    </tr>
+    <tr>
+      <th>6347</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process creation</td>
+      <td>Process created Process</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>6348</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process modification</td>
+      <td>Process wrote to Process</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>6349</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process access</td>
+      <td>Process accessed Process</td>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>4663</td>
+    </tr>
+    <tr>
+      <th>6350</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process access</td>
+      <td>Process accessed Process</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>6351</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process access</td>
+      <td>Process requested access Process</td>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>4656</td>
+    </tr>
+    <tr>
+      <th>6352</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>Process connected to Port</td>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>5156</td>
+    </tr>
+    <tr>
+      <th>6353</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>Process connected to Port</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>6354</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>Process connected to Ip</td>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>5156</td>
+    </tr>
+    <tr>
+      <th>6355</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>Process connected to Ip</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>6356</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>Process connected to Host</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>6357</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>Process connected from Port</td>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>5156</td>
+    </tr>
+    <tr>
+      <th>6358</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>Process connected from Port</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>6359</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>Process connected from Ip</td>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>5156</td>
+    </tr>
+    <tr>
+      <th>6360</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>Process connected from Ip</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>6361</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>Process connected from Host</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>6362</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>User connected to Port</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>6363</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>User connected to Ip</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>6364</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>User connected to Host</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>6365</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>User connected from Port</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>6366</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>User connected from Ip</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>6367</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Process</td>
+      <td>process network connection</td>
+      <td>User connected from Host</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>6368</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Authentication log</td>
+      <td>authentication success</td>
+      <td>User authenticated Host</td>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>4624</td>
+    </tr>
+    <tr>
+      <th>6369</th>
+      <td>[lateral-movement]</td>
+      <td>T1021.002</td>
+      <td>SMB/Windows Admin Shares</td>
+      <td>Authentication log</td>
+      <td>authentication success</td>
+      <td>User authenticated Host</td>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>4778</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<ul class="simple">
+<li><p><strong>Contribution opportunity identified after testing the framework!!</strong></p></li>
+</ul>
+<p>The <a class="reference external" href="https://github.com/OTRF/mordor">Mordor</a> project contains a dataset that represents a variation of the <a class="reference external" href="https://mordordatasets.com/notebooks/small/windows/08_lateral_movement/SDWIN-200806015757.html">SMB/Windows Admin Shares (T1021.002)</a> sub-technique.</p>
+<p><strong>Offensive tradecraft:</strong> Adversaries leverage SMB to copy files over the network to either execute code remotely or exfiltrate data.</p>
+<p><strong>Initial detection strategy:</strong> Using the data sources recommended by the ATT&amp;CK team, we were able to get some context related to the adversary behavior from a Procees and User Authentication perspective. However, more context around the manipulation or creation of files might be helpful to define a better detection strategy.</p>
+<p><strong>Contribution opportunity:</strong> Security event logs such as <strong>5140 (A network share object was accessed)</strong> and <strong>5145 (A network share object was checked)</strong> from Windows Security Auditing and <strong>11 (File created)</strong>  from Sysmon can help us with the conext required to define a detection strategy for this specific sub-technqiue variation. Therefore, adding the <strong>File data source object</strong> (file share access &amp; file access data components) to the recommended data sources for this sub-technique might be a good idea.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dataSourcesMapping</span><span class="p">[[</span><span class="s1">&#39;data_sources&#39;</span><span class="p">,</span><span class="s1">&#39;components&#39;</span><span class="p">,</span><span class="s1">&#39;data_relationships&#39;</span><span class="p">,</span><span class="s1">&#39;event_provider&#39;</span><span class="p">,</span><span class="s1">&#39;event_id&#39;</span><span class="p">]][(</span><span class="n">dataSourcesMapping</span><span class="p">[</span><span class="s1">&#39;data_sources&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;File&#39;</span><span class="p">)</span> <span class="o">&amp;</span> \
+                   <span class="p">((</span><span class="n">dataSourcesMapping</span><span class="p">[</span><span class="s1">&#39;event_id&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">5140</span><span class="p">)</span> <span class="o">|</span>\
+                    <span class="p">(</span><span class="n">dataSourcesMapping</span><span class="p">[</span><span class="s1">&#39;event_id&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">5145</span><span class="p">)</span> <span class="o">|</span>\
+                    <span class="p">(</span><span class="n">dataSourcesMapping</span><span class="p">[</span><span class="s1">&#39;event_id&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">11</span><span class="p">))]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>data_sources</th>
+      <th>components</th>
+      <th>data_relationships</th>
+      <th>event_provider</th>
+      <th>event_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>11</th>
+      <td>File</td>
+      <td>file creation</td>
+      <td>Process created File</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>File</td>
+      <td>file share access</td>
+      <td>User accessed File Share</td>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>5140</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>File</td>
+      <td>file access</td>
+      <td>User accessed File</td>
+      <td>Microsoft-Windows-Security-Auditing</td>
+      <td>5145</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</div>
+</div>
+<div class="section" id="i-hope-you-find-this-notebook-helpful-d">
+<h2>I hope you find this notebook helpful!! :D<a class="headerlink" href="#i-hope-you-find-this-notebook-helpful-d" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "OTRF/OSSEM",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./notebooks/dm"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="../../dm/attack_ds_event_mappings_table.html" title="previous page">ATT&amp;CK DS Event Mappings Table</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Roberto Rodriguez @Cyb3rWard0g<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="../../_static/js/index.js"></script>
+    
+  </body>
+</html>
