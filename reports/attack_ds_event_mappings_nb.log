@@ -1,0 +1,190 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/jupyter_cache/executors/utils.py", line 51, in single_nb_execution
+    executenb(
+  File "/usr/local/lib/python3.8/site-packages/nbclient/client.py", line 1082, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/usr/local/lib/python3.8/site-packages/nbclient/util.py", line 74, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/usr/local/lib/python3.8/site-packages/nbclient/util.py", line 53, in just_run
+    return loop.run_until_complete(coro)
+  File "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.8/site-packages/nbclient/client.py", line 535, in async_execute
+    await self.async_execute_cell(
+  File "/usr/local/lib/python3.8/site-packages/nbclient/client.py", line 827, in async_execute_cell
+    self._check_raise_for_error(cell, exec_reply)
+  File "/usr/local/lib/python3.8/site-packages/nbclient/client.py", line 735, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply['content'])
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+# Instantiating attack_client class
+lift = attack_client()
+
+# Collecting all techniques (Revoked and not revoked) for windows platform within the enterprise matrix
+attck = lift.get_techniques_by_platform(name = 'Windows', stix_format = False)
+
+# Removing revoked techniques
+attck = lift.remove_revoked(attck)
+
+# Generating a dataframe with information collected
+attck = json_normalize(attck)
+
+# Selecting columns
+attck = attck[['tactic','technique_id','technique','data_sources']]
+
+# Showing information collected
+attck.head()
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mConnectionRefusedError[0m                    Traceback (most recent call last)
+[0;32m/usr/local/lib/python3.8/site-packages/urllib3/connection.py[0m in [0;36m_new_conn[0;34m(self)[0m
+[1;32m    158[0m         [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 159[0;31m             conn = connection.create_connection(
+[0m[1;32m    160[0m                 [0;34m([0m[0mself[0m[0;34m.[0m[0m_dns_host[0m[0;34m,[0m [0mself[0m[0;34m.[0m[0mport[0m[0;34m)[0m[0;34m,[0m [0mself[0m[0;34m.[0m[0mtimeout[0m[0;34m,[0m [0;34m**[0m[0mextra_kw[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/urllib3/util/connection.py[0m in [0;36mcreate_connection[0;34m(address, timeout, source_address, socket_options)[0m
+[1;32m     83[0m     [0;32mif[0m [0merr[0m [0;32mis[0m [0;32mnot[0m [0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 84[0;31m         [0;32mraise[0m [0merr[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     85[0m [0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/urllib3/util/connection.py[0m in [0;36mcreate_connection[0;34m(address, timeout, source_address, socket_options)[0m
+[1;32m     73[0m                 [0msock[0m[0;34m.[0m[0mbind[0m[0;34m([0m[0msource_address[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 74[0;31m             [0msock[0m[0;34m.[0m[0mconnect[0m[0;34m([0m[0msa[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     75[0m             [0;32mreturn[0m [0msock[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mConnectionRefusedError[0m: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+[0;31mNewConnectionError[0m                        Traceback (most recent call last)
+[0;32m/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py[0m in [0;36murlopen[0;34m(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, **response_kw)[0m
+[1;32m    669[0m             [0;31m# Make the request on the httplib connection object.[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 670[0;31m             httplib_response = self._make_request(
+[0m[1;32m    671[0m                 [0mconn[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py[0m in [0;36m_make_request[0;34m(self, conn, method, url, timeout, chunked, **httplib_request_kw)[0m
+[1;32m    380[0m         [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 381[0;31m             [0mself[0m[0;34m.[0m[0m_validate_conn[0m[0;34m([0m[0mconn[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    382[0m         [0;32mexcept[0m [0;34m([0m[0mSocketTimeout[0m[0;34m,[0m [0mBaseSSLError[0m[0;34m)[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py[0m in [0;36m_validate_conn[0;34m(self, conn)[0m
+[1;32m    977[0m         [0;32mif[0m [0;32mnot[0m [0mgetattr[0m[0;34m([0m[0mconn[0m[0;34m,[0m [0;34m"sock"[0m[0;34m,[0m [0;32mNone[0m[0;34m)[0m[0;34m:[0m  [0;31m# AppEngine might not have  `.sock`[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 978[0;31m             [0mconn[0m[0;34m.[0m[0mconnect[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    979[0m [0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/urllib3/connection.py[0m in [0;36mconnect[0;34m(self)[0m
+[1;32m    308[0m         [0;31m# Add certificate verification[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 309[0;31m         [0mconn[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0m_new_conn[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    310[0m         [0mhostname[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mhost[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/urllib3/connection.py[0m in [0;36m_new_conn[0;34m(self)[0m
+[1;32m    170[0m         [0;32mexcept[0m [0mSocketError[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 171[0;31m             raise NewConnectionError(
+[0m[1;32m    172[0m                 [0mself[0m[0;34m,[0m [0;34m"Failed to establish a new connection: %s"[0m [0;34m%[0m [0me[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mNewConnectionError[0m: <urllib3.connection.HTTPSConnection object at 0x120d99970>: Failed to establish a new connection: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+[0;31mMaxRetryError[0m                             Traceback (most recent call last)
+[0;32m/usr/local/lib/python3.8/site-packages/requests/adapters.py[0m in [0;36msend[0;34m(self, request, stream, timeout, verify, cert, proxies)[0m
+[1;32m    438[0m             [0;32mif[0m [0;32mnot[0m [0mchunked[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 439[0;31m                 resp = conn.urlopen(
+[0m[1;32m    440[0m                     [0mmethod[0m[0;34m=[0m[0mrequest[0m[0;34m.[0m[0mmethod[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/urllib3/connectionpool.py[0m in [0;36murlopen[0;34m(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, **response_kw)[0m
+[1;32m    725[0m [0;34m[0m[0m
+[0;32m--> 726[0;31m             retries = retries.increment(
+[0m[1;32m    727[0m                 [0mmethod[0m[0;34m,[0m [0murl[0m[0;34m,[0m [0merror[0m[0;34m=[0m[0me[0m[0;34m,[0m [0m_pool[0m[0;34m=[0m[0mself[0m[0;34m,[0m [0m_stacktrace[0m[0;34m=[0m[0msys[0m[0;34m.[0m[0mexc_info[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0;36m2[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/urllib3/util/retry.py[0m in [0;36mincrement[0;34m(self, method, url, response, error, _pool, _stacktrace)[0m
+[1;32m    438[0m         [0;32mif[0m [0mnew_retry[0m[0;34m.[0m[0mis_exhausted[0m[0;34m([0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 439[0;31m             [0;32mraise[0m [0mMaxRetryError[0m[0;34m([0m[0m_pool[0m[0;34m,[0m [0murl[0m[0;34m,[0m [0merror[0m [0;32mor[0m [0mResponseError[0m[0;34m([0m[0mcause[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    440[0m [0;34m[0m[0m
+
+[0;31mMaxRetryError[0m: HTTPSConnectionPool(host='cti-taxii.mitre.org', port=443): Max retries exceeded with url: /stix/collections/95ecc380-afe9-11e4-9b6c-751b66dd541e/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x120d99970>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+[0;31mConnectionError[0m                           Traceback (most recent call last)
+[0;32m<ipython-input-8-07224ebde67c>[0m in [0;36m<module>[0;34m[0m
+[1;32m      1[0m [0;31m# Instantiating attack_client class[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m----> 2[0;31m [0mlift[0m [0;34m=[0m [0mattack_client[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      3[0m [0;34m[0m[0m
+[1;32m      4[0m [0;31m# Collecting all techniques (Revoked and not revoked) for windows platform within the enterprise matrix[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      5[0m [0mattck[0m [0;34m=[0m [0mlift[0m[0;34m.[0m[0mget_techniques_by_platform[0m[0;34m([0m[0mname[0m [0;34m=[0m [0;34m'Windows'[0m[0;34m,[0m [0mstix_format[0m [0;34m=[0m [0;32mFalse[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/attackcti/attack_api.py[0m in [0;36m__init__[0;34m(self, local_path)[0m
+[1;32m     44[0m             [0mMOBILE_COLLECTION[0m [0;34m=[0m [0mCollection[0m[0;34m([0m[0mATTCK_STIX_COLLECTIONS[0m [0;34m+[0m [0mMOBILE_ATTCK[0m [0;34m+[0m [0;34m"/"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     45[0m [0;34m[0m[0m
+[0;32m---> 46[0;31m             [0mself[0m[0;34m.[0m[0mTC_ENTERPRISE_SOURCE[0m [0;34m=[0m [0mTAXIICollectionSource[0m[0;34m([0m[0mENTERPRISE_COLLECTION[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     47[0m             [0mself[0m[0;34m.[0m[0mTC_PRE_SOURCE[0m [0;34m=[0m [0mTAXIICollectionSource[0m[0;34m([0m[0mPRE_COLLECTION[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     48[0m             [0mself[0m[0;34m.[0m[0mTC_MOBILE_SOURCE[0m [0;34m=[0m [0mTAXIICollectionSource[0m[0;34m([0m[0mMOBILE_COLLECTION[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/stix2/datastore/taxii.py[0m in [0;36m__init__[0;34m(self, collection, allow_custom)[0m
+[1;32m    153[0m [0;34m[0m[0m
+[1;32m    154[0m         [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 155[0;31m             [0;32mif[0m [0mcollection[0m[0;34m.[0m[0mcan_read[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    156[0m                 [0mself[0m[0;34m.[0m[0mcollection[0m [0;34m=[0m [0mcollection[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    157[0m             [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/taxii2client/v20/__init__.py[0m in [0;36mcan_read[0;34m(self)[0m
+[1;32m    279[0m     [0;34m@[0m[0mproperty[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    280[0m     [0;32mdef[0m [0mcan_read[0m[0;34m([0m[0mself[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 281[0;31m         [0mself[0m[0;34m.[0m[0m_ensure_loaded[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    282[0m         [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_can_read[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    283[0m [0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/taxii2client/v20/__init__.py[0m in [0;36m_ensure_loaded[0;34m(self)[0m
+[1;32m    351[0m     [0;32mdef[0m [0m_ensure_loaded[0m[0;34m([0m[0mself[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    352[0m         [0;32mif[0m [0;32mnot[0m [0mself[0m[0;34m.[0m[0m_loaded[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 353[0;31m             [0mself[0m[0;34m.[0m[0mrefresh[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    354[0m [0;34m[0m[0m
+[1;32m    355[0m     [0;32mdef[0m [0m_verify_can_read[0m[0;34m([0m[0mself[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/taxii2client/v20/__init__.py[0m in [0;36mrefresh[0;34m(self, accept)[0m
+[1;32m    365[0m     [0;32mdef[0m [0mrefresh[0m[0;34m([0m[0mself[0m[0;34m,[0m [0maccept[0m[0;34m=[0m[0mMEDIA_TYPE_TAXII_V20[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    366[0m         [0;34m"""Update Collection information"""[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 367[0;31m         response = self.__raw = self._conn.get(self.url,
+[0m[1;32m    368[0m                                                headers={"Accept": accept})
+[1;32m    369[0m         [0mself[0m[0;34m.[0m[0m_populate_fields[0m[0;34m([0m[0;34m**[0m[0mresponse[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/taxii2client/common.py[0m in [0;36mget[0;34m(self, url, headers, params)[0m
+[1;32m    294[0m         [0maccept[0m [0;34m=[0m [0mmerged_headers[0m[0;34m[[0m[0;34m"Accept"[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[1;32m    295[0m [0;34m[0m[0m
+[0;32m--> 296[0;31m         [0mresp[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0msession[0m[0;34m.[0m[0mget[0m[0;34m([0m[0murl[0m[0;34m,[0m [0mheaders[0m[0;34m=[0m[0mmerged_headers[0m[0;34m,[0m [0mparams[0m[0;34m=[0m[0mparams[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    297[0m [0;34m[0m[0m
+[1;32m    298[0m         [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/requests/sessions.py[0m in [0;36mget[0;34m(self, url, **kwargs)[0m
+[1;32m    541[0m [0;34m[0m[0m
+[1;32m    542[0m         [0mkwargs[0m[0;34m.[0m[0msetdefault[0m[0;34m([0m[0;34m'allow_redirects'[0m[0;34m,[0m [0;32mTrue[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 543[0;31m         [0;32mreturn[0m [0mself[0m[0;34m.[0m[0mrequest[0m[0;34m([0m[0;34m'GET'[0m[0;34m,[0m [0murl[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    544[0m [0;34m[0m[0m
+[1;32m    545[0m     [0;32mdef[0m [0moptions[0m[0;34m([0m[0mself[0m[0;34m,[0m [0murl[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/requests/sessions.py[0m in [0;36mrequest[0;34m(self, method, url, params, data, headers, cookies, files, auth, timeout, allow_redirects, proxies, hooks, stream, verify, cert, json)[0m
+[1;32m    528[0m         }
+[1;32m    529[0m         [0msend_kwargs[0m[0;34m.[0m[0mupdate[0m[0;34m([0m[0msettings[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 530[0;31m         [0mresp[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0msend[0m[0;34m([0m[0mprep[0m[0;34m,[0m [0;34m**[0m[0msend_kwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    531[0m [0;34m[0m[0m
+[1;32m    532[0m         [0;32mreturn[0m [0mresp[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/requests/sessions.py[0m in [0;36msend[0;34m(self, request, **kwargs)[0m
+[1;32m    641[0m [0;34m[0m[0m
+[1;32m    642[0m         [0;31m# Send the request[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 643[0;31m         [0mr[0m [0;34m=[0m [0madapter[0m[0;34m.[0m[0msend[0m[0;34m([0m[0mrequest[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    644[0m [0;34m[0m[0m
+[1;32m    645[0m         [0;31m# Total elapsed time of the request (approximately)[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/local/lib/python3.8/site-packages/requests/adapters.py[0m in [0;36msend[0;34m(self, request, stream, timeout, verify, cert, proxies)[0m
+[1;32m    514[0m                 [0;32mraise[0m [0mSSLError[0m[0;34m([0m[0me[0m[0;34m,[0m [0mrequest[0m[0;34m=[0m[0mrequest[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    515[0m [0;34m[0m[0m
+[0;32m--> 516[0;31m             [0;32mraise[0m [0mConnectionError[0m[0;34m([0m[0me[0m[0;34m,[0m [0mrequest[0m[0;34m=[0m[0mrequest[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    517[0m [0;34m[0m[0m
+[1;32m    518[0m         [0;32mexcept[0m [0mClosedPoolError[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mConnectionError[0m: HTTPSConnectionPool(host='cti-taxii.mitre.org', port=443): Max retries exceeded with url: /stix/collections/95ecc380-afe9-11e4-9b6c-751b66dd541e/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x120d99970>: Failed to establish a new connection: [Errno 61] Connection refused'))
+ConnectionError: HTTPSConnectionPool(host='cti-taxii.mitre.org', port=443): Max retries exceeded with url: /stix/collections/95ecc380-afe9-11e4-9b6c-751b66dd541e/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x120d99970>: Failed to establish a new connection: [Errno 61] Connection refused'))
+

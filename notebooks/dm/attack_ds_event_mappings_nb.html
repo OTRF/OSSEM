@@ -37,7 +37,7 @@
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="prev" title="ATT&amp;CK DS Event Mappings Table" href="../../dm/attack_ds_event_mappings_table.html" />
+    <link rel="prev" title="Data Model Relationships" href="../../dm/relationships.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -135,13 +135,13 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../dm/attack_ds_definitions.html">
-   ATT&amp;CK Data Sources
+  <a class="reference internal" href="../../dm/mitre_attack/intro.html">
+   MITRE ATT&amp;CK
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../dm/attack_ds_event_mappings_table.html">
-   ATT&amp;CK DS Event Mappings Table
+  <a class="reference internal" href="../../dm/relationships.html">
+   Data Model Relationships
   </a>
  </li>
  <li class="toctree-l1 current active">
@@ -348,7 +348,7 @@
 <h2>Importing Data Sources Mapping Yaml File<a class="headerlink" href="#importing-data-sources-mapping-yaml-file" title="Permalink to this headline">¶</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">yamlUrl</span> <span class="o">=</span> <span class="s1">&#39;https://raw.githubusercontent.com/OTRF/OSSEM-DM/main/attack_event_mapping/_attack_data_sources_all.yaml&#39;</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">yamlUrl</span> <span class="o">=</span> <span class="s1">&#39;https://raw.githubusercontent.com/OTRF/OSSEM-DM/main/attack_event_mapping/_all_attack_ds_mappings.yml&#39;</span>
 <span class="n">yamlContent</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">yamlUrl</span><span class="p">)</span>
 <span class="n">yamlMapping</span> <span class="o">=</span> <span class="n">yaml</span><span class="o">.</span><span class="n">safe_load</span><span class="p">(</span><span class="n">yamlContent</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
 <span class="n">mapping</span> <span class="o">=</span> <span class="n">json_normalize</span><span class="p">(</span><span class="n">yamlMapping</span><span class="p">)</span>
@@ -387,53 +387,53 @@
   <tbody>
     <tr>
       <th>0</th>
-      <td>Service</td>
-      <td>Information about software programs that run i...</td>
+      <td>User Account</td>
+      <td>Security principal or entity that represents a...</td>
       <td>[host]</td>
       <td>[Windows]</td>
-      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
-      <td>[{'name': 'service creation', 'type': 'activit...</td>
-      <td>[https://docs.microsoft.com/en-us/dotnet/frame...</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH, Roberto Rodrigue...</td>
+      <td>[{'name': 'user account creation', 'type': 'ac...</td>
+      <td>[https://docs.microsoft.com/en-us/windows/secu...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Module</td>
-      <td>Information about portable executable files, s...</td>
-      <td>[host]</td>
-      <td>[Windows]</td>
-      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
-      <td>[{'name': 'module load', 'type': 'activity', '...</td>
-      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
-    </tr>
-    <tr>
-      <th>2</th>
       <td>WMI object</td>
       <td>Information about objects from the system clas...</td>
       <td>[host]</td>
       <td>[Windows]</td>
-      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH, Roberto Rodrigue...</td>
       <td>[{'name': 'wmi object context', 'type': 'infor...</td>
       <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
     </tr>
     <tr>
-      <th>3</th>
-      <td>File</td>
-      <td>Information about file objects that represent ...</td>
+      <th>2</th>
+      <td>Process</td>
+      <td>Information about instances of computer progra...</td>
       <td>[host]</td>
       <td>[Windows]</td>
-      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
-      <td>[{'name': 'file creation', 'type': 'activity',...</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH, Roberto Rodrigue...</td>
+      <td>[{'name': 'process creation', 'type': 'activit...</td>
+      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Module</td>
+      <td>Information about portable executable files, s...</td>
+      <td>[host]</td>
+      <td>[Windows]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH, Roberto Rodrigue...</td>
+      <td>[{'name': 'module load', 'type': 'activity', '...</td>
       <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>Named pipe</td>
-      <td>Information about mechanisms that allow inter-...</td>
+      <td>Service</td>
+      <td>Information about software programs that run i...</td>
       <td>[host]</td>
       <td>[Windows]</td>
-      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
-      <td>[{'name': 'named pipe creation', 'relationship...</td>
-      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH, Roberto Rodrigue...</td>
+      <td>[{'name': 'service creation', 'type': 'activit...</td>
+      <td>[https://docs.microsoft.com/en-us/dotnet/frame...</td>
     </tr>
   </tbody>
 </table>
@@ -491,7 +491,10 @@
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>event_provider</th>
+      <th>log_provider</th>
+      <th>log_channel</th>
+      <th>audit_category</th>
+      <th>audit_sub_category</th>
       <th>event_id</th>
       <th>data_relationships</th>
       <th>id</th>
@@ -512,78 +515,30 @@
     <tr>
       <th>0</th>
       <td>Microsoft-Windows-Security-Auditing</td>
-      <td>4697</td>
-      <td>User created Service</td>
-      <td>BB243122-F345-4ED6-97A7-FBA2A1AF7C38</td>
+      <td>Security</td>
+      <td>Account Management</td>
+      <td>User Account Management</td>
+      <td>4720</td>
+      <td>User created User</td>
+      <td>0C55D5FB-1FCC-454B-9C4A-0E72116D4BE3</td>
       <td>user</td>
       <td>created</td>
-      <td>service</td>
-      <td>service creation</td>
+      <td>user</td>
+      <td>user account creation</td>
       <td>activity</td>
-      <td>Service</td>
-      <td>Information about software programs that run i...</td>
+      <td>User Account</td>
+      <td>Security principal or entity that represents a...</td>
       <td>[host]</td>
       <td>[Windows]</td>
-      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
-      <td>[https://docs.microsoft.com/en-us/dotnet/frame...</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH, Roberto Rodrigue...</td>
+      <td>[https://docs.microsoft.com/en-us/windows/secu...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>System</td>
-      <td>7045</td>
-      <td>User created Service</td>
-      <td>BB243122-F345-4ED6-97A7-FBA2A1AF7C38</td>
-      <td>user</td>
-      <td>created</td>
-      <td>service</td>
-      <td>service creation</td>
-      <td>activity</td>
-      <td>Service</td>
-      <td>Information about software programs that run i...</td>
-      <td>[host]</td>
-      <td>[Windows]</td>
-      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
-      <td>[https://docs.microsoft.com/en-us/dotnet/frame...</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>7</td>
-      <td>Process loaded Dll</td>
-      <td>109A870F-84A2-4CE4-948A-4773CD283F76</td>
-      <td>process</td>
-      <td>loaded</td>
-      <td>dll</td>
-      <td>module load</td>
-      <td>activity</td>
-      <td>Module</td>
-      <td>Information about portable executable files, s...</td>
-      <td>[host]</td>
-      <td>[Windows]</td>
-      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
-      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>7</td>
-      <td>Process loaded Executable</td>
-      <td>71F08C96-4ABE-47DE-A972-DEA470496FD4</td>
-      <td>process</td>
-      <td>loaded</td>
-      <td>executable</td>
-      <td>module load</td>
-      <td>activity</td>
-      <td>Module</td>
-      <td>Information about portable executable files, s...</td>
-      <td>[host]</td>
-      <td>[Windows]</td>
-      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
-      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
-    </tr>
-    <tr>
-      <th>4</th>
+      <td>Microsoft-Windows-WMI-Activity</td>
       <td>Microsoft-Windows-WMI-Activity/Operational</td>
+      <td>NaN</td>
+      <td>NaN</td>
       <td>5861</td>
       <td>Wmi subscription created</td>
       <td>F3B6DD23-4DBE-4214-A2D7-10E7103D815F</td>
@@ -596,7 +551,70 @@
       <td>Information about objects from the system clas...</td>
       <td>[host]</td>
       <td>[Windows]</td>
-      <td>[Jose Rodriguez @Cyb3rPandaH]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH, Roberto Rodrigue...</td>
+      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Microsoft-Windows-Sysmon</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>19</td>
+      <td>User created Wmi filter</td>
+      <td>AE378A1D-E665-461A-B478-539AFB5E37EF</td>
+      <td>user</td>
+      <td>created</td>
+      <td>wmi filter</td>
+      <td>wmi object creation</td>
+      <td>activity</td>
+      <td>WMI object</td>
+      <td>Information about objects from the system clas...</td>
+      <td>[host]</td>
+      <td>[Windows]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH, Roberto Rodrigue...</td>
+      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Microsoft-Windows-Sysmon</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>20</td>
+      <td>User created Wmi consumer</td>
+      <td>B5CD1D3E-3947-453B-ADEA-896A8F110A64</td>
+      <td>user</td>
+      <td>created</td>
+      <td>wmi consumer</td>
+      <td>wmi object creation</td>
+      <td>activity</td>
+      <td>WMI object</td>
+      <td>Information about objects from the system clas...</td>
+      <td>[host]</td>
+      <td>[Windows]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH, Roberto Rodrigue...</td>
+      <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Microsoft-Windows-Sysmon</td>
+      <td>Microsoft-Windows-Sysmon/Operational</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>21</td>
+      <td>User created Wmi subscription</td>
+      <td>73A84308-955C-43E7-B882-81EA1C8092D4</td>
+      <td>user</td>
+      <td>created</td>
+      <td>wmi subscription</td>
+      <td>wmi object creation</td>
+      <td>activity</td>
+      <td>WMI object</td>
+      <td>Information about objects from the system clas...</td>
+      <td>[host]</td>
+      <td>[Windows]</td>
+      <td>[Jose Rodriguez @Cyb3rPandaH, Roberto Rodrigue...</td>
       <td>[https://docs.microsoft.com/en-us/windows/win3...</td>
     </tr>
   </tbody>
@@ -648,32 +666,32 @@
     <tr>
       <th>0</th>
       <td>user</td>
-      <td>service</td>
+      <td>user</td>
       <td>created</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>process</td>
-      <td>dll</td>
-      <td>loaded</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>process</td>
-      <td>executable</td>
-      <td>loaded</td>
-    </tr>
-    <tr>
-      <th>3</th>
       <td>user</td>
       <td>wmi filter</td>
       <td>created</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>2</th>
       <td>user</td>
       <td>wmi consumer</td>
       <td>created</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>user</td>
+      <td>wmi subscription</td>
+      <td>created</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>user</td>
+      <td>wmi filter</td>
+      <td>deleted</td>
     </tr>
   </tbody>
 </table>
@@ -1057,12 +1075,12 @@
 
 
 
-<div class="bk-root" id="a3b4476e-d705-4de3-951b-5d2740217738" data-root-id="1004"></div>
+<div class="bk-root" id="b5f2b491-f04c-473e-b2e7-469e83fe3952" data-root-id="1004"></div>
 </div><script type="application/javascript">(function(root) {
   function embed_document(root) {
     
-  var docs_json = {"5cc40232-1f07-43a4-9f99-303cd1d3940f":{"roots":{"references":[{"attributes":{"plot_height":500,"plot_width":800,"renderers":[{"id":"1010"},{"id":"1055"}],"title":{"id":"1007"},"toolbar":{"id":"1065"},"x_range":{"id":"1002"},"x_scale":{"id":"1076"},"y_range":{"id":"1003"},"y_scale":{"id":"1075"}},"id":"1004","type":"Plot"},{"attributes":{},"id":"1064","type":"ResetTool"},{"attributes":{},"id":"1092","type":"UnionRenderers"},{"attributes":{},"id":"1062","type":"PanTool"},{"attributes":{"overlay":{"id":"1087"}},"id":"1063","type":"LassoSelectTool"},{"attributes":{},"id":"1093","type":"Selection"},{"attributes":{"end":1.1,"start":-1.1},"id":"1002","type":"Range1d"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1057"},{"id":"1058"},{"id":"1059"},{"id":"1060"},{"id":"1061"},{"id":"1062"},{"id":"1063"},{"id":"1064"}]},"id":"1065","type":"Toolbar"},{"attributes":{"data_source":{"id":"1012"},"glyph":{"id":"1020"},"hover_glyph":{"id":"1030"},"muted_glyph":null,"selection_glyph":{"id":"1025"},"view":{"id":"1014"}},"id":"1013","type":"GlyphRenderer"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1085","type":"BoxAnnotation"},{"attributes":{"line_alpha":{"value":0.9},"line_color":{"value":"gray"}},"id":"1035","type":"MultiLine"},{"attributes":{"align":"center","text":"Relationships among Data Elements","text_font_size":{"value":"30px"}},"id":"1007","type":"Title"},{"attributes":{"fill_color":{"value":"#2b83ba"},"size":{"units":"screen","value":60}},"id":"1020","type":"Circle"},{"attributes":{"source":{"id":"1012"}},"id":"1014","type":"CDSView"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1086","type":"BoxAnnotation"},{"attributes":{"fill_alpha":0.5,"fill_color":"lightgrey","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"xs_units":"screen","ys_units":"screen"},"id":"1087","type":"PolyAnnotation"},{"attributes":{"source":{"id":"1054"},"text":{"field":"name"},"text_align":"center","text_color":{"value":"black"},"text_font_size":{"value":"12px"},"x":{"field":"x"},"y":{"field":"y"},"y_offset":{"value":-10}},"id":"1055","type":"LabelSet"},{"attributes":{"data":{"index":["user","service","process","dll","executable","wmi filter","wmi consumer","wmi subscription","file","file share","pipe","application host","command","ad object","registry key","registry key value","host","port","ip"]},"selected":{"id":"1091"},"selection_policy":{"id":"1090"}},"id":"1012","type":"ColumnDataSource"},{"attributes":{},"id":"1075","type":"LinearScale"},{"attributes":{"line_color":{"value":"#abdda4"},"line_width":{"value":4}},"id":"1045","type":"MultiLine"},{"attributes":{},"id":"1089","type":"Selection"},{"attributes":{"edge_renderer":{"id":"1017"},"inspection_policy":{"id":"1052"},"layout_provider":{"id":"1019"},"node_renderer":{"id":"1013"},"selection_policy":{"id":"1050"}},"id":"1010","type":"GraphRenderer"},{"attributes":{},"id":"1076","type":"LinearScale"},{"attributes":{"data":{"end":["service","wmi filter","wmi consumer","wmi subscription","file share","file","application host","ad object","registry key value","registry key","host","process","port","ip","user","dll","executable","file","pipe","command","ad object","registry key","registry key value","process","port","ip","host"],"relationship":["created","deleted","deleted","deleted","accessed","requested access","started","modified","modified","requested access","connected from","created","connected from","connected from","created","loaded","loaded","requested access","created","executed","requested access","requested access","modified","requested access","connected from","connected from","connected from"],"start":["user","user","user","user","user","user","user","user","user","user","user","user","user","user","user","process","process","process","process","process","process","process","process","process","process","process","process"]},"selected":{"id":"1093"},"selection_policy":{"id":"1092"}},"id":"1016","type":"ColumnDataSource"},{"attributes":{"overlay":{"id":"1086"}},"id":"1061","type":"BoxZoomTool"},{"attributes":{"data_source":{"id":"1016"},"glyph":{"id":"1035"},"hover_glyph":{"id":"1045"},"muted_glyph":null,"selection_glyph":{"id":"1040"},"view":{"id":"1018"}},"id":"1017","type":"GlyphRenderer"},{"attributes":{"callback":null},"id":"1059","type":"TapTool"},{"attributes":{"source":{"id":"1016"}},"id":"1018","type":"CDSView"},{"attributes":{},"id":"1090","type":"UnionRenderers"},{"attributes":{"end":1.1,"start":-1.1},"id":"1003","type":"Range1d"},{"attributes":{},"id":"1052","type":"NodesAndLinkedEdges"},{"attributes":{},"id":"1050","type":"NodesAndLinkedEdges"},{"attributes":{},"id":"1091","type":"Selection"},{"attributes":{"graph_layout":{"ad object":[-0.24390948463350998,0.2575480691936752],"application host":[0.3046732890811906,-0.7898762289290174],"command":[0.5304251767684278,0.7533752966055854],"dll":[-0.0377894656506495,1.0],"executable":[-0.34007362449116146,0.8670373429299624],"file":[-0.2647820583109858,-0.021635498747552273],"file share":[0.046481051757767074,-0.8858653418292478],"host":[0.4219335686922844,-0.006525879819879941],"ip":[0.20648189973707726,-0.04044374045473262],"pipe":[0.27312241315786834,0.9590922782273885],"port":[0.319496043889525,0.19034790441176516],"process":[0.04375281201889453,0.40130395426873383],"registry key":[-0.012161748313560391,0.08836624944354964],"registry key value":[-0.4194488642895498,0.12989368733462212],"service":[-0.45574018940593913,-0.7141443093384509],"user":[-0.03260191107852785,-0.2845236271149386],"wmi consumer":[0.5053803283836028,-0.5733689653265592],"wmi filter":[-0.2244806441927316,-0.8661608040353418],"wmi subscription":[-0.6207585931200219,-0.46442038681956327]}},"id":"1019","type":"StaticLayoutProvider"},{"attributes":{},"id":"1058","type":"WheelZoomTool"},{"attributes":{"data":{"name":["user","service","process","dll","executable","wmi filter","wmi consumer","wmi subscription","file","file share","pipe","application host","command","ad object","registry key","registry key value","host","port","ip"],"x":[-0.03260191107852785,-0.45574018940593913,0.04375281201889453,-0.0377894656506495,-0.34007362449116146,-0.2244806441927316,0.5053803283836028,-0.6207585931200219,-0.2647820583109858,0.046481051757767074,0.27312241315786834,0.3046732890811906,0.5304251767684278,-0.24390948463350998,-0.012161748313560391,-0.4194488642895498,0.4219335686922844,0.319496043889525,0.20648189973707726],"y":[-0.2845236271149386,-0.7141443093384509,0.40130395426873383,1.0,0.8670373429299624,-0.8661608040353418,-0.5733689653265592,-0.46442038681956327,-0.021635498747552273,-0.8858653418292478,0.9590922782273885,-0.7898762289290174,0.7533752966055854,0.2575480691936752,0.08836624944354964,0.12989368733462212,-0.006525879819879941,0.19034790441176516,-0.04044374045473262]},"selected":{"id":"1089"},"selection_policy":{"id":"1088"}},"id":"1054","type":"ColumnDataSource"},{"attributes":{"fill_color":{"value":"#abdda4"},"size":{"units":"screen","value":15}},"id":"1030","type":"Circle"},{"attributes":{"callback":null,"tooltips":null},"id":"1057","type":"HoverTool"},{"attributes":{"overlay":{"id":"1085"}},"id":"1060","type":"BoxSelectTool"},{"attributes":{"fill_color":{"value":"#fdae61"},"size":{"units":"screen","value":15}},"id":"1025","type":"Circle"},{"attributes":{},"id":"1088","type":"UnionRenderers"},{"attributes":{"line_color":{"value":"#fdae61"},"line_width":{"value":4}},"id":"1040","type":"MultiLine"}],"root_ids":["1004"]},"title":"Bokeh Application","version":"2.2.2"}};
-  var render_items = [{"docid":"5cc40232-1f07-43a4-9f99-303cd1d3940f","root_ids":["1004"],"roots":{"1004":"a3b4476e-d705-4de3-951b-5d2740217738"}}];
+  var docs_json = {"9141d149-1cc4-484d-88b2-45628fcdaf1c":{"roots":{"references":[{"attributes":{"plot_height":500,"plot_width":800,"renderers":[{"id":"1010"},{"id":"1055"}],"title":{"id":"1007"},"toolbar":{"id":"1065"},"x_range":{"id":"1002"},"x_scale":{"id":"1075"},"y_range":{"id":"1003"},"y_scale":{"id":"1074"}},"id":"1004","type":"Plot"},{"attributes":{"source":{"id":"1012"}},"id":"1014","type":"CDSView"},{"attributes":{"data":{"end":["user","wmi filter","wmi consumer","wmi subscription","process","port","ip","host","service","file share","file","ad object","registry key value","registry key","application host","process","port","ip","host","dll","executable","file","ad object","pipe","registry key","registry key value","command"],"relationship":["created","deleted","deleted","deleted","created","connected from","connected from","authenticated","created","accessed","requested access","modified","modified","requested access","started","requested access","connected from","connected from","connected from","loaded","loaded","requested access","requested access","created","requested access","modified","executed"],"start":["user","user","user","user","user","user","user","user","user","user","user","user","user","user","user","process","process","process","process","process","process","process","process","process","process","process","process"]},"selected":{"id":"1092"},"selection_policy":{"id":"1093"}},"id":"1016","type":"ColumnDataSource"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1087","type":"BoxAnnotation"},{"attributes":{},"id":"1091","type":"UnionRenderers"},{"attributes":{"data_source":{"id":"1016"},"glyph":{"id":"1035"},"hover_glyph":{"id":"1045"},"muted_glyph":null,"selection_glyph":{"id":"1040"},"view":{"id":"1018"}},"id":"1017","type":"GlyphRenderer"},{"attributes":{"source":{"id":"1016"}},"id":"1018","type":"CDSView"},{"attributes":{"graph_layout":{"ad object":[-0.11006960444183492,-0.17926833085305016],"application host":[-0.21231470553032705,0.9148142731509304],"command":[0.1617295290457694,-1.0],"dll":[0.8071212597256119,-0.7548904395393382],"executable":[0.5262929751178066,-0.9623442235571013],"file":[-0.15782955812287636,-0.42934430692570325],"file share":[-0.7438082653496576,0.6520394253954374],"host":[0.4365141368210028,0.22727053315750587],"ip":[-0.3428409825484466,-0.2548556332839208],"pipe":[0.948059003385526,-0.4121739143619145],"port":[0.19901958658414884,0.2463455068108266],"process":[0.2815437081102034,-0.34372680169452874],"registry key":[0.09577492287518788,-0.025415900126923522],"registry key value":[0.4004298617962856,-0.013385185967938437],"service":[-0.8407883926824635,0.0395752815721943],"user":[-0.19333395976536308,0.24561226914938109],"wmi consumer":[-0.8587114111346017,0.3660822694142528],"wmi filter":[0.11070168758267908,0.8486923598367169],"wmi subscription":[-0.5074897914686525,0.8349728178231732]}},"id":"1019","type":"StaticLayoutProvider"},{"attributes":{"fill_alpha":0.5,"fill_color":"lightgrey","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"xs_units":"screen","ys_units":"screen"},"id":"1089","type":"PolyAnnotation"},{"attributes":{"data":{"name":["user","wmi filter","wmi consumer","wmi subscription","process","port","ip","host","dll","executable","service","file","file share","ad object","pipe","registry key","registry key value","application host","command"],"x":[-0.19333395976536308,0.11070168758267908,-0.8587114111346017,-0.5074897914686525,0.2815437081102034,0.19901958658414884,-0.3428409825484466,0.4365141368210028,0.8071212597256119,0.5262929751178066,-0.8407883926824635,-0.15782955812287636,-0.7438082653496576,-0.11006960444183492,0.948059003385526,0.09577492287518788,0.4004298617962856,-0.21231470553032705,0.1617295290457694],"y":[0.24561226914938109,0.8486923598367169,0.3660822694142528,0.8349728178231732,-0.34372680169452874,0.2463455068108266,-0.2548556332839208,0.22727053315750587,-0.7548904395393382,-0.9623442235571013,0.0395752815721943,-0.42934430692570325,0.6520394253954374,-0.17926833085305016,-0.4121739143619145,-0.025415900126923522,-0.013385185967938437,0.9148142731509304,-1.0]},"selected":{"id":"1085"},"selection_policy":{"id":"1086"}},"id":"1054","type":"ColumnDataSource"},{"attributes":{},"id":"1092","type":"Selection"},{"attributes":{"callback":null,"tooltips":null},"id":"1057","type":"HoverTool"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1088","type":"BoxAnnotation"},{"attributes":{},"id":"1062","type":"PanTool"},{"attributes":{},"id":"1093","type":"UnionRenderers"},{"attributes":{"overlay":{"id":"1089"}},"id":"1063","type":"LassoSelectTool"},{"attributes":{"fill_color":{"value":"#abdda4"},"size":{"units":"screen","value":15}},"id":"1030","type":"Circle"},{"attributes":{},"id":"1090","type":"Selection"},{"attributes":{"overlay":{"id":"1087"}},"id":"1060","type":"BoxSelectTool"},{"attributes":{},"id":"1064","type":"ResetTool"},{"attributes":{"end":1.1,"start":-1.1},"id":"1002","type":"Range1d"},{"attributes":{},"id":"1058","type":"WheelZoomTool"},{"attributes":{"end":1.1,"start":-1.1},"id":"1003","type":"Range1d"},{"attributes":{"overlay":{"id":"1088"}},"id":"1061","type":"BoxZoomTool"},{"attributes":{},"id":"1050","type":"NodesAndLinkedEdges"},{"attributes":{"callback":null},"id":"1059","type":"TapTool"},{"attributes":{"align":"center","text":"Relationships among Data Elements","text_font_size":{"value":"30px"}},"id":"1007","type":"Title"},{"attributes":{"line_color":{"value":"#abdda4"},"line_width":{"value":4}},"id":"1045","type":"MultiLine"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1057"},{"id":"1058"},{"id":"1059"},{"id":"1060"},{"id":"1061"},{"id":"1062"},{"id":"1063"},{"id":"1064"}]},"id":"1065","type":"Toolbar"},{"attributes":{"fill_color":{"value":"#2b83ba"},"size":{"units":"screen","value":60}},"id":"1020","type":"Circle"},{"attributes":{"fill_color":{"value":"#fdae61"},"size":{"units":"screen","value":15}},"id":"1025","type":"Circle"},{"attributes":{"line_alpha":{"value":0.9},"line_color":{"value":"gray"}},"id":"1035","type":"MultiLine"},{"attributes":{},"id":"1085","type":"Selection"},{"attributes":{"data_source":{"id":"1012"},"glyph":{"id":"1020"},"hover_glyph":{"id":"1030"},"muted_glyph":null,"selection_glyph":{"id":"1025"},"view":{"id":"1014"}},"id":"1013","type":"GlyphRenderer"},{"attributes":{"edge_renderer":{"id":"1017"},"inspection_policy":{"id":"1052"},"layout_provider":{"id":"1019"},"node_renderer":{"id":"1013"},"selection_policy":{"id":"1050"}},"id":"1010","type":"GraphRenderer"},{"attributes":{},"id":"1086","type":"UnionRenderers"},{"attributes":{"data":{"index":["user","wmi filter","wmi consumer","wmi subscription","process","port","ip","host","dll","executable","service","file","file share","ad object","pipe","registry key","registry key value","application host","command"]},"selected":{"id":"1090"},"selection_policy":{"id":"1091"}},"id":"1012","type":"ColumnDataSource"},{"attributes":{"line_color":{"value":"#fdae61"},"line_width":{"value":4}},"id":"1040","type":"MultiLine"},{"attributes":{},"id":"1074","type":"LinearScale"},{"attributes":{"source":{"id":"1054"},"text":{"field":"name"},"text_align":"center","text_color":{"value":"black"},"text_font_size":{"value":"12px"},"x":{"field":"x"},"y":{"field":"y"},"y_offset":{"value":-10}},"id":"1055","type":"LabelSet"},{"attributes":{},"id":"1052","type":"NodesAndLinkedEdges"},{"attributes":{},"id":"1075","type":"LinearScale"}],"root_ids":["1004"]},"title":"Bokeh Application","version":"2.2.2"}};
+  var render_items = [{"docid":"9141d149-1cc4-484d-88b2-45628fcdaf1c","root_ids":["1004"],"roots":{"1004":"b5f2b491-f04c-473e-b2e7-469e83fe3952"}}];
   root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
 
   }
@@ -1126,70 +1144,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>tactic</th>
-      <th>technique_id</th>
-      <th>technique</th>
-      <th>data_sources</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>[credential-access, collection]</td>
-      <td>T1557.002</td>
-      <td>ARP Cache Poisoning</td>
-      <td>[Packet capture, Netflow/Enclave netflow]</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>[persistence, privilege-escalation]</td>
-      <td>T1547.012</td>
-      <td>Print Processors</td>
-      <td>[Process monitoring, Windows Registry, File mo...</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>[defense-evasion]</td>
-      <td>T1564.007</td>
-      <td>VBA Stomping</td>
-      <td>[Process monitoring, File monitoring]</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>[credential-access]</td>
-      <td>T1558.004</td>
-      <td>AS-REP Roasting</td>
-      <td>[Windows event logs, Authentication logs]</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>[defense-evasion]</td>
-      <td>T1218.012</td>
-      <td>Verclsid</td>
-      <td>[Process use of network, Process command-line ...</td>
-    </tr>
-  </tbody>
-</table>
-</div></div></div>
 </div>
 <ul class="simple">
 <li><p>Splitting data_sources field</p></li>
@@ -1201,70 +1155,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>tactic</th>
-      <th>technique_id</th>
-      <th>technique</th>
-      <th>data_sources</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>[credential-access, collection]</td>
-      <td>T1557.002</td>
-      <td>ARP Cache Poisoning</td>
-      <td>Packet capture</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>[credential-access, collection]</td>
-      <td>T1557.002</td>
-      <td>ARP Cache Poisoning</td>
-      <td>Netflow/Enclave netflow</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>[persistence, privilege-escalation]</td>
-      <td>T1547.012</td>
-      <td>Print Processors</td>
-      <td>Process monitoring</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>[persistence, privilege-escalation]</td>
-      <td>T1547.012</td>
-      <td>Print Processors</td>
-      <td>Windows Registry</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>[persistence, privilege-escalation]</td>
-      <td>T1547.012</td>
-      <td>Print Processors</td>
-      <td>File monitoring</td>
-    </tr>
-  </tbody>
-</table>
-</div></div></div>
 </div>
 <ul class="simple">
 <li><p>Updating data_sources names</p></li>
@@ -1286,70 +1176,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>tactic</th>
-      <th>technique_id</th>
-      <th>technique</th>
-      <th>data_sources</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>[credential-access, collection]</td>
-      <td>T1557.002</td>
-      <td>ARP Cache Poisoning</td>
-      <td>Packet capture</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>[credential-access, collection]</td>
-      <td>T1557.002</td>
-      <td>ARP Cache Poisoning</td>
-      <td>Netflow/Enclave netflow</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>[credential-access]</td>
-      <td>T1558.004</td>
-      <td>AS-REP Roasting</td>
-      <td>Authentication log</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>[credential-access]</td>
-      <td>T1558.004</td>
-      <td>AS-REP Roasting</td>
-      <td>Windows event logs</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>[privilege-escalation, defense-evasion]</td>
-      <td>T1548</td>
-      <td>Abuse Elevation Control Mechanism</td>
-      <td>File</td>
-    </tr>
-  </tbody>
-</table>
-</div></div></div>
 </div>
 <ul class="simple">
 <li><p>Mapping techniques to data components &amp; relationships * event logs</p></li>
@@ -1358,100 +1184,12 @@
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">techniques</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">attck</span><span class="p">,</span> <span class="n">dataSourcesMapping</span><span class="p">,</span> <span class="n">on</span> <span class="o">=</span> <span class="s1">&#39;data_sources&#39;</span><span class="p">,</span> <span class="n">how</span> <span class="o">=</span> <span class="s1">&#39;left&#39;</span><span class="p">)</span>\
              <span class="p">[[</span><span class="s1">&#39;tactic&#39;</span><span class="p">,</span><span class="s1">&#39;technique_id&#39;</span><span class="p">,</span><span class="s1">&#39;technique&#39;</span><span class="p">,</span><span class="s1">&#39;data_sources&#39;</span><span class="p">,</span><span class="s1">&#39;components&#39;</span><span class="p">,</span><span class="s1">&#39;data_relationships&#39;</span><span class="p">,</span>\
-               <span class="s1">&#39;event_provider&#39;</span><span class="p">,</span><span class="s1">&#39;event_id&#39;</span><span class="p">]]</span>
+               <span class="s1">&#39;log_provider&#39;</span><span class="p">,</span><span class="s1">&#39;event_id&#39;</span><span class="p">]]</span>
 
 <span class="n">techniques</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>tactic</th>
-      <th>technique_id</th>
-      <th>technique</th>
-      <th>data_sources</th>
-      <th>components</th>
-      <th>data_relationships</th>
-      <th>event_provider</th>
-      <th>event_id</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>[credential-access, collection]</td>
-      <td>T1557.002</td>
-      <td>ARP Cache Poisoning</td>
-      <td>Packet capture</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>[credential-access, collection]</td>
-      <td>T1557.002</td>
-      <td>ARP Cache Poisoning</td>
-      <td>Netflow/Enclave netflow</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>[credential-access]</td>
-      <td>T1558.004</td>
-      <td>AS-REP Roasting</td>
-      <td>Authentication log</td>
-      <td>authentication success</td>
-      <td>User authenticated Host</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>4624</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>[credential-access]</td>
-      <td>T1558.004</td>
-      <td>AS-REP Roasting</td>
-      <td>Authentication log</td>
-      <td>authentication success</td>
-      <td>User authenticated Host</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>4778</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>[credential-access]</td>
-      <td>T1558.004</td>
-      <td>AS-REP Roasting</td>
-      <td>Windows event logs</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-  </tbody>
-</table>
-</div></div></div>
 </div>
 </div>
 <div class="section" id="use-case-smb-windows-admin-shares-t1021-002">
@@ -1465,49 +1203,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>tactic</th>
-      <th>technique_id</th>
-      <th>technique</th>
-      <th>data_sources</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>746</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-    </tr>
-    <tr>
-      <th>747</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Authentication log</td>
-    </tr>
-  </tbody>
-</table>
-</div></div></div>
 </div>
 <ul class="simple">
 <li><p>What are the potential event logs that we could consider in our analysis?</p></li>
@@ -1518,325 +1213,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>tactic</th>
-      <th>technique_id</th>
-      <th>technique</th>
-      <th>data_sources</th>
-      <th>components</th>
-      <th>data_relationships</th>
-      <th>event_provider</th>
-      <th>event_id</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>6344</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process creation</td>
-      <td>User created Process</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>4688</td>
-    </tr>
-    <tr>
-      <th>6345</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process creation</td>
-      <td>User created Process</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>6346</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process creation</td>
-      <td>Process created Process</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>4688</td>
-    </tr>
-    <tr>
-      <th>6347</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process creation</td>
-      <td>Process created Process</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>6348</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process modification</td>
-      <td>Process wrote to Process</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>6349</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process access</td>
-      <td>Process accessed Process</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>4663</td>
-    </tr>
-    <tr>
-      <th>6350</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process access</td>
-      <td>Process accessed Process</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>6351</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process access</td>
-      <td>Process requested access Process</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>4656</td>
-    </tr>
-    <tr>
-      <th>6352</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>Process connected to Port</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>5156</td>
-    </tr>
-    <tr>
-      <th>6353</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>Process connected to Port</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>6354</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>Process connected to Ip</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>5156</td>
-    </tr>
-    <tr>
-      <th>6355</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>Process connected to Ip</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>6356</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>Process connected to Host</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>6357</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>Process connected from Port</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>5156</td>
-    </tr>
-    <tr>
-      <th>6358</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>Process connected from Port</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>6359</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>Process connected from Ip</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>5156</td>
-    </tr>
-    <tr>
-      <th>6360</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>Process connected from Ip</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>6361</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>Process connected from Host</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>6362</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>User connected to Port</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>6363</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>User connected to Ip</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>6364</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>User connected to Host</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>6365</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>User connected from Port</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>6366</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>User connected from Ip</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>6367</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Process</td>
-      <td>process network connection</td>
-      <td>User connected from Host</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>6368</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Authentication log</td>
-      <td>authentication success</td>
-      <td>User authenticated Host</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>4624</td>
-    </tr>
-    <tr>
-      <th>6369</th>
-      <td>[lateral-movement]</td>
-      <td>T1021.002</td>
-      <td>SMB/Windows Admin Shares</td>
-      <td>Authentication log</td>
-      <td>authentication success</td>
-      <td>User authenticated Host</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>4778</td>
-    </tr>
-  </tbody>
-</table>
-</div></div></div>
 </div>
 <ul class="simple">
 <li><p><strong>Contribution opportunity identified after testing the framework!!</strong></p></li>
@@ -1847,67 +1223,13 @@
 <p><strong>Contribution opportunity:</strong> Security event logs such as <strong>5140 (A network share object was accessed)</strong> and <strong>5145 (A network share object was checked)</strong> from Windows Security Auditing and <strong>11 (File created)</strong>  from Sysmon can help us with the conext required to define a detection strategy for this specific sub-technqiue variation. Therefore, adding the <strong>File data source object</strong> (file share access &amp; file access data components) to the recommended data sources for this sub-technique might be a good idea.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dataSourcesMapping</span><span class="p">[[</span><span class="s1">&#39;data_sources&#39;</span><span class="p">,</span><span class="s1">&#39;components&#39;</span><span class="p">,</span><span class="s1">&#39;data_relationships&#39;</span><span class="p">,</span><span class="s1">&#39;event_provider&#39;</span><span class="p">,</span><span class="s1">&#39;event_id&#39;</span><span class="p">]][(</span><span class="n">dataSourcesMapping</span><span class="p">[</span><span class="s1">&#39;data_sources&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;File&#39;</span><span class="p">)</span> <span class="o">&amp;</span> \
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dataSourcesMapping</span><span class="p">[[</span><span class="s1">&#39;data_sources&#39;</span><span class="p">,</span><span class="s1">&#39;components&#39;</span><span class="p">,</span><span class="s1">&#39;data_relationships&#39;</span><span class="p">,</span><span class="s1">&#39;log_provider&#39;</span><span class="p">,</span><span class="s1">&#39;event_id&#39;</span><span class="p">]][(</span><span class="n">dataSourcesMapping</span><span class="p">[</span><span class="s1">&#39;data_sources&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;File&#39;</span><span class="p">)</span> <span class="o">&amp;</span> \
                    <span class="p">((</span><span class="n">dataSourcesMapping</span><span class="p">[</span><span class="s1">&#39;event_id&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">5140</span><span class="p">)</span> <span class="o">|</span>\
                     <span class="p">(</span><span class="n">dataSourcesMapping</span><span class="p">[</span><span class="s1">&#39;event_id&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">5145</span><span class="p">)</span> <span class="o">|</span>\
                     <span class="p">(</span><span class="n">dataSourcesMapping</span><span class="p">[</span><span class="s1">&#39;event_id&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">11</span><span class="p">))]</span>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>data_sources</th>
-      <th>components</th>
-      <th>data_relationships</th>
-      <th>event_provider</th>
-      <th>event_id</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>11</th>
-      <td>File</td>
-      <td>file creation</td>
-      <td>Process created File</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>File</td>
-      <td>file share access</td>
-      <td>User accessed File Share</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>5140</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>File</td>
-      <td>file access</td>
-      <td>User accessed File</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>5145</td>
-    </tr>
-  </tbody>
-</table>
-</div></div></div>
 </div>
 </div>
 </div>
@@ -1944,7 +1266,7 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="../../dm/attack_ds_event_mappings_table.html" title="previous page">ATT&amp;CK DS Event Mappings Table</a>
+    <a class='left-prev' id="prev-link" href="../../dm/relationships.html" title="previous page">Data Model Relationships</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
