@@ -48,7 +48,7 @@
 <meta property="og:url"         content="https://ossemproject.com/dm/relationships.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="Data Model Relationships" />
-<meta property="og:description" content="Data Model Relationships        Source  Relationship  Target  process  created  process  process  accessed  process  process  requested access  process  process" />
+<meta property="og:description" content="Data Model Relationships        Source  Relationship  Target  host  blocked connection on  process  host  blocked connection to  process  host  blocked connecti" />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -256,9 +256,89 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td class="text-align:left"><p>process</p></td>
+<tr class="row-even"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>blocked connection on</p></td>
+<td class="text-align:left"><p>process</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>blocked connection to</p></td>
+<td class="text-align:left"><p>process</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>blocked connection to</p></td>
+<td class="text-align:left"><p>ip</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>blocked connection to</p></td>
+<td class="text-align:left"><p>port</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>blocked connection from</p></td>
+<td class="text-align:left"><p>process</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>blocked connection from</p></td>
+<td class="text-align:left"><p>ip</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>blocked connection from</p></td>
+<td class="text-align:left"><p>port</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>permitted listener on</p></td>
+<td class="text-align:left"><p>process</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>permitted listener on</p></td>
+<td class="text-align:left"><p>ip</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>permitted listener on</p></td>
+<td class="text-align:left"><p>port</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>blocked listener on</p></td>
+<td class="text-align:left"><p>process</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>blocked listener on</p></td>
+<td class="text-align:left"><p>ip</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>blocked listener on</p></td>
+<td class="text-align:left"><p>port</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>permitted local port bind on</p></td>
+<td class="text-align:left"><p>process</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>permitted local port bind on</p></td>
+<td class="text-align:left"><p>ip</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>permitted local port bind on</p></td>
+<td class="text-align:left"><p>port</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>blocked local port bind on</p></td>
+<td class="text-align:left"><p>process</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>blocked local port bind on</p></td>
+<td class="text-align:left"><p>ip</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>blocked local port bind on</p></td>
+<td class="text-align:left"><p>port</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>process</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>process</p></td>
+<td class="text-align:left"><p>created</p></td>
+<td class="text-align:left"><p>thread</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>accessed</p></td>
@@ -291,6 +371,38 @@
 <tr class="row-even"><td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>connected from</p></td>
 <td class="text-align:left"><p>host</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>process</p></td>
+<td class="text-align:left"><p>attempted connection to</p></td>
+<td class="text-align:left"><p>ip</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>process</p></td>
+<td class="text-align:left"><p>attempted connection to</p></td>
+<td class="text-align:left"><p>port</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>process</p></td>
+<td class="text-align:left"><p>attempted connection from</p></td>
+<td class="text-align:left"><p>ip</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>process</p></td>
+<td class="text-align:left"><p>attempted connection from</p></td>
+<td class="text-align:left"><p>port</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>process</p></td>
+<td class="text-align:left"><p>listened on</p></td>
+<td class="text-align:left"><p>port</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>process</p></td>
+<td class="text-align:left"><p>attempted to listen on</p></td>
+<td class="text-align:left"><p>port</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>process</p></td>
+<td class="text-align:left"><p>bound to</p></td>
+<td class="text-align:left"><p>port</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>process</p></td>
+<td class="text-align:left"><p>attempted to bind on</p></td>
+<td class="text-align:left"><p>port</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>loaded</p></td>
@@ -317,11 +429,19 @@
 <td class="text-align:left"><p>file</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>process</p></td>
+<td class="text-align:left"><p>modified</p></td>
+<td class="text-align:left"><p>file</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>ad object</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>process</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>created</p></td>
+<td class="text-align:left"><p>pipe</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>process</p></td>
+<td class="text-align:left"><p>connected to</p></td>
 <td class="text-align:left"><p>pipe</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>process</p></td>
@@ -360,36 +480,100 @@
 <td class="text-align:left"><p>executed</p></td>
 <td class="text-align:left"><p>command</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<tr class="row-even"><td class="text-align:left"><p>process</p></td>
+<td class="text-align:left"><p>executed</p></td>
+<td class="text-align:left"><p>dns query</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>created</p></td>
+<td class="text-align:left"><p>user</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>deleted</p></td>
+<td class="text-align:left"><p>user</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>enabled</p></td>
+<td class="text-align:left"><p>user</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>disabled</p></td>
+<td class="text-align:left"><p>user</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>locked</p></td>
+<td class="text-align:left"><p>user</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>unlocked</p></td>
+<td class="text-align:left"><p>user</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>requested modification</p></td>
+<td class="text-align:left"><p>user</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>modified</p></td>
+<td class="text-align:left"><p>user</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>granted access</p></td>
+<td class="text-align:left"><p>user</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>removed access</p></td>
 <td class="text-align:left"><p>user</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>created</p></td>
-<td class="text-align:left"><p>wmi filter</p></td>
+<td class="text-align:left"><p>schedule task</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>deleted</p></td>
+<td class="text-align:left"><p>schedule task</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>enabled</p></td>
+<td class="text-align:left"><p>schedule task</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>disabled</p></td>
+<td class="text-align:left"><p>schedule task</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>modified</p></td>
+<td class="text-align:left"><p>schedule task</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>created</p></td>
+<td class="text-align:left"><p>wmi filter</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>wmi consumer</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>wmi subscription</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>wmi filter</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>wmi consumer</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>wmi subscription</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>created</p></td>
+<td class="text-align:left"><p>process</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>terminated</p></td>
 <td class="text-align:left"><p>process</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>user</p></td>
@@ -421,46 +605,130 @@
 <td class="text-align:left"><p>service</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>requested access</p></td>
+<td class="text-align:left"><p>service</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>deleted</p></td>
+<td class="text-align:left"><p>file</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>accessed</p></td>
+<td class="text-align:left"><p>file</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>requested access</p></td>
+<td class="text-align:left"><p>file</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>modified</p></td>
+<td class="text-align:left"><p>file</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>created</p></td>
+<td class="text-align:left"><p>file share</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>file share</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>accessed</p></td>
-<td class="text-align:left"><p>file</p></td>
+<td class="text-align:left"><p>file share</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>modified</p></td>
+<td class="text-align:left"><p>file share</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>created</p></td>
+<td class="text-align:left"><p>ad object</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>deleted</p></td>
+<td class="text-align:left"><p>ad object</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>undeleted</p></td>
+<td class="text-align:left"><p>ad object</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>requested access</p></td>
-<td class="text-align:left"><p>file</p></td>
+<td class="text-align:left"><p>ad object</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>accessed</p></td>
 <td class="text-align:left"><p>ad object</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>user</p></td>
-<td class="text-align:left"><p>requested access</p></td>
-<td class="text-align:left"><p>ad object</p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>ad object</p></td>
 </tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>deleted</p></td>
+<td class="text-align:left"><p>windows registry key</p></td>
+</tr>
 <tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>modified</p></td>
+<td class="text-align:left"><p>windows registry key</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>windows registry key value</p></td>
 </tr>
-<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>accessed</p></td>
 <td class="text-align:left"><p>windows registry key</p></td>
 </tr>
-<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>windows registry key</p></td>
 </tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>requested creation</p></td>
+<td class="text-align:left"><p>logon session</p></td>
+</tr>
 <tr class="row-even"><td class="text-align:left"><p>user</p></td>
-<td class="text-align:left"><p>authenticated</p></td>
-<td class="text-align:left"><p>host</p></td>
+<td class="text-align:left"><p>requested logon session creation from</p></td>
+<td class="text-align:left"><p>ip</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>requested logon session creation from</p></td>
+<td class="text-align:left"><p>port</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>created</p></td>
+<td class="text-align:left"><p>logon session</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>created logon session from</p></td>
+<td class="text-align:left"><p>ip</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>created logon session from</p></td>
+<td class="text-align:left"><p>port</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>failed creation</p></td>
+<td class="text-align:left"><p>host</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>failed logon session creation from</p></td>
+<td class="text-align:left"><p>ip</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>failed logon session creation from</p></td>
+<td class="text-align:left"><p>port</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>requested termination</p></td>
+<td class="text-align:left"><p>logon session</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>user</p></td>
+<td class="text-align:left"><p>terminated</p></td>
+<td class="text-align:left"><p>logon session</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>started</p></td>
 <td class="text-align:left"><p>application host</p></td>
 </tr>
