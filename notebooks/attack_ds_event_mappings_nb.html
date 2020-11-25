@@ -8,23 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ATT&amp;CK DS Event Mappings Notebook &#8212; The OSSEM Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-    <link href="../../_static/css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../_static/sphinx-book-theme.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/jquery.js"></script>
-    <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/language_data.js"></script>
-    <script src="../../_static/togglebutton.js"></script>
-    <script src="../../_static/clipboard.min.js"></script>
-    <script src="../../_static/copybutton.js"></script>
-    <script src="../../_static/sphinx-book-theme.js"></script>
+    <link href="../_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-dropdown.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/sphinx-book-theme.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
@@ -32,19 +32,18 @@
         const thebe_selector_input = "pre,.cell_input div.highlight"
         const thebe_selector_output = ".output,.cell_output"
     </script>
-    <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="https://ossemproject.com/notebooks/dm/attack_ds_event_mappings_nb.html" />
-    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
-    <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" />
-    <link rel="prev" title="Data Model Relationships" href="../../dm/relationships.html" />
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://ossemproject.com/notebooks/attack_ds_event_mappings_nb.html" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
 
 
 <!-- Opengraph tags -->
-<meta property="og:url"         content="https://ossemproject.com/notebooks/dm/attack_ds_event_mappings_nb.html" />
+<meta property="og:url"         content="https://ossemproject.com/notebooks/attack_ds_event_mappings_nb.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="ATT&amp;CK DS Event Mappings Notebook" />
 <meta property="og:description" content="ATT&amp;CK DS Event Mappings Notebook    Author: Jose Luis Rodriguez - @Cyb3rPandaH  Organization: Open Threat Research (OTR)  References:  OSSEM - ATT&amp;CK Event Map" />
@@ -63,9 +62,9 @@
 <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
         <div class="navbar-brand-box">
-<a class="navbar-brand text-wrap" href="../../index.html">
+<a class="navbar-brand text-wrap" href="../index.html">
   
-  <img src="../../_static/logo.png" class="logo" alt="logo">
+  <img src="../_static/logo.png" class="logo" alt="logo">
   
   
   <h1 class="site-logo" id="site-title">The OSSEM Project</h1>
@@ -73,7 +72,7 @@
 </a>
 </div>
 
-<form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form>
@@ -86,12 +85,12 @@
 </p>
 <ul class="nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="../../dd/intro.html">
+  <a class="reference internal" href="../dd/intro.html">
    Introduction
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../dd/guidelines/intro.html">
+  <a class="reference internal" href="../dd/guidelines/intro.html">
    Guidelines
   </a>
  </li>
@@ -103,22 +102,22 @@
 </p>
 <ul class="nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="../../cdm/intro.html">
+  <a class="reference internal" href="../cdm/intro.html">
    Introduction
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../cdm/guidelines/intro.html">
+  <a class="reference internal" href="../cdm/guidelines/intro.html">
    Guidelines
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../cdm/entities/intro.html">
+  <a class="reference internal" href="../cdm/entities/intro.html">
    Entities
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../cdm/tables/intro.html">
+  <a class="reference internal" href="../cdm/tables/intro.html">
    Tables
   </a>
  </li>
@@ -128,24 +127,24 @@
   Detection Model
  </span>
 </p>
-<ul class="current nav sidenav_l1">
+<ul class="nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="../../dm/intro.html">
+  <a class="reference internal" href="../dm/intro.html">
    Introduction
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../dm/mitre_attack/intro.html">
+  <a class="reference internal" href="../dm/mitre_attack/intro.html">
    MITRE ATT&amp;CK
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../dm/relationships.html">
+  <a class="reference internal" href="../dm/relationships.html">
    Data Model Relationships
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="dm/attack_ds_event_mappings_nb.html">
    ATT&amp;CK DS Event Mappings Notebook
   </a>
  </li>
@@ -191,7 +190,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/notebooks/dm/attack_ds_event_mappings_nb.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/notebooks/attack_ds_event_mappings_nb.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
@@ -211,10 +210,10 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/OTRF/OSSEM/issues/new?title=Issue%20on%20page%20%2Fnotebooks/dm/attack_ds_event_mappings_nb.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/OTRF/OSSEM/issues/new?title=Issue%20on%20page%20%2Fnotebooks/attack_ds_event_mappings_nb.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/OTRF/OSSEM/edit/master/docs/notebooks/dm/attack_ds_event_mappings_nb.ipynb"><button
+        <a class="edit-button" href="https://github.com/OTRF/OSSEM/edit/master/docs/notebooks/attack_ds_event_mappings_nb.ipynb"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -233,17 +232,17 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/OTRF/OSSEM/master?urlpath=tree/docs/notebooks/dm/attack_ds_event_mappings_nb.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/OTRF/OSSEM/master?urlpath=tree/docs/notebooks/attack_ds_event_mappings_nb.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
-                    src="../../_static/images/logo_binder.svg"
+                    src="../_static/images/logo_binder.svg"
                     alt="Interact on binder">Binder</button></a>
         
         
         
-        <a class="colab-button" href="https://colab.research.google.com/github/OTRF/OSSEM/blob/master/docs/notebooks/dm/attack_ds_event_mappings_nb.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+        <a class="colab-button" href="https://colab.research.google.com/github/OTRF/OSSEM/blob/master/docs/notebooks/attack_ds_event_mappings_nb.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
                 title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
-                    src="../../_static/images/logo_colab.png"
+                    src="../_static/images/logo_colab.png"
                     alt="Interact on Colab">Colab</button></a>
         
         <button type="button" class="btn btn-secondary topbarbtn"
@@ -1796,7 +1795,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./notebooks/dm"
+            path: "./notebooks"
         },
         predefinedOutput: true
     }
@@ -1811,7 +1810,6 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="../../dm/relationships.html" title="previous page">Data Model Relationships</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
@@ -1830,7 +1828,7 @@
       </div>
     </div>
 
-    <script src="../../_static/js/index.js"></script>
+    <script src="../_static/js/index.js"></script>
     
   </body>
 </html>
