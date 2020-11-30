@@ -48,7 +48,7 @@
 <meta property="og:url"         content="https://ossemproject.com/dm/mitre_attack/security_events_mappings.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="ATT&amp;CK DS Event Mappings" />
-<meta property="og:description" content="ATT&amp;CK DS Event Mappings                          Data Source  Component  Source  Relationship  Target  EventID  Log Provider  Log Channel  Audit Category  Audi" />
+<meta property="og:description" content="ATT&amp;CK DS Event Mappings                            Data Source  Component  Source  Relationship  Target  EventID  Event Name  Log Provider  Log Channel  Audit " />
 <meta property="og:image"       content="https://ossemproject.com/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -268,6 +268,7 @@
 <th class="text-align:left head"><p>Relationship</p></th>
 <th class="text-align:left head"><p>Target</p></th>
 <th class="text-align:left head"><p>EventID</p></th>
+<th class="text-align:left head"><p>Event Name</p></th>
 <th class="text-align:left head"><p>Log Provider</p></th>
 <th class="text-align:left head"><p>Log Channel</p></th>
 <th class="text-align:left head"><p>Audit Category</p></th>
@@ -283,6 +284,7 @@
 <td class="text-align:left"><p>executed</p></td>
 <td class="text-align:left"><p>dns query</p></td>
 <td class="text-align:left"><p>22</p></td>
+<td class="text-align:left"><p>DNSEvent (DNS query).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>DNSQuery</p></td>
@@ -296,6 +298,7 @@
 <td class="text-align:left"><p>loaded</p></td>
 <td class="text-align:left"><p>None</p></td>
 <td class="text-align:left"><p>6</p></td>
+<td class="text-align:left"><p>Driver loaded.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>DriverLoad</p></td>
@@ -309,6 +312,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>11</p></td>
+<td class="text-align:left"><p>FileCreate.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>FileCreate</p></td>
@@ -322,6 +326,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>23</p></td>
+<td class="text-align:left"><p>FileDelete (A file delete was detected).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>FileDelete</p></td>
@@ -335,6 +340,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>4660</p></td>
+<td class="text-align:left"><p>An object was deleted.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -348,6 +354,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>23</p></td>
+<td class="text-align:left"><p>FileDelete (A file delete was detected).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>FileDelete</p></td>
@@ -361,6 +368,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>4660</p></td>
+<td class="text-align:left"><p>An object was deleted.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -374,6 +382,7 @@
 <td class="text-align:left"><p>accessed</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>5145</p></td>
+<td class="text-align:left"><p>A network share object was checked to see whether client can be granted desired access.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -387,6 +396,7 @@
 <td class="text-align:left"><p>accessed</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>4663</p></td>
+<td class="text-align:left"><p>An attempt was made to access an object.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -400,6 +410,7 @@
 <td class="text-align:left"><p>accessed</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>4663</p></td>
+<td class="text-align:left"><p>An attempt was made to access an object.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -413,6 +424,7 @@
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>4656</p></td>
+<td class="text-align:left"><p>A handle to an object was requested.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -426,6 +438,7 @@
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>4661</p></td>
+<td class="text-align:left"><p>A handle to an object was requested.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>DS Access</p></td>
@@ -439,6 +452,7 @@
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>4661</p></td>
+<td class="text-align:left"><p>A handle to an object was requested.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -452,6 +466,7 @@
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>4692</p></td>
+<td class="text-align:left"><p>Backup of data protection master key was attempted.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Detailed Tracking</p></td>
@@ -465,6 +480,7 @@
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>4656</p></td>
+<td class="text-align:left"><p>A handle to an object was requested.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -478,6 +494,7 @@
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>4661</p></td>
+<td class="text-align:left"><p>A handle to an object was requested.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>DS Access</p></td>
@@ -491,6 +508,7 @@
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>4661</p></td>
+<td class="text-align:left"><p>A handle to an object was requested.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -504,6 +522,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>2</p></td>
+<td class="text-align:left"><p>A process changed a file creation time.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>FileCreateTime</p></td>
@@ -517,6 +536,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>11</p></td>
+<td class="text-align:left"><p>FileCreate.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>FileCreate</p></td>
@@ -530,6 +550,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>4670</p></td>
+<td class="text-align:left"><p>Permissions on an object were changed.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -543,6 +564,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>file</p></td>
 <td class="text-align:left"><p>4670</p></td>
+<td class="text-align:left"><p>Permissions on an object were changed.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -556,6 +578,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>file share</p></td>
 <td class="text-align:left"><p>5142</p></td>
+<td class="text-align:left"><p>A network share object was added.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -569,6 +592,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>file share</p></td>
 <td class="text-align:left"><p>5144</p></td>
+<td class="text-align:left"><p>A network share object was deleted.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -582,6 +606,7 @@
 <td class="text-align:left"><p>accessed</p></td>
 <td class="text-align:left"><p>file share</p></td>
 <td class="text-align:left"><p>5140</p></td>
+<td class="text-align:left"><p>A network share object was accessed.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -595,6 +620,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>file share</p></td>
 <td class="text-align:left"><p>5143</p></td>
+<td class="text-align:left"><p>A network share object was modified.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -608,6 +634,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>None</p></td>
 <td class="text-align:left"><p>4672</p></td>
+<td class="text-align:left"><p>Special privileges assigned to new logon.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -621,6 +648,7 @@
 <td class="text-align:left"><p>requested creation</p></td>
 <td class="text-align:left"><p>logon session</p></td>
 <td class="text-align:left"><p>4648</p></td>
+<td class="text-align:left"><p>A logon was attempted using explicit credentials.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -634,6 +662,7 @@
 <td class="text-align:left"><p>requested logon session creation from</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>4648</p></td>
+<td class="text-align:left"><p>A logon was attempted using explicit credentials.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -647,6 +676,7 @@
 <td class="text-align:left"><p>requested logon session creation from</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>4648</p></td>
+<td class="text-align:left"><p>A logon was attempted using explicit credentials.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -660,6 +690,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>logon session</p></td>
 <td class="text-align:left"><p>4624</p></td>
+<td class="text-align:left"><p>An account was successfully logged on.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -673,6 +704,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>logon session</p></td>
 <td class="text-align:left"><p>4778</p></td>
+<td class="text-align:left"><p>A session was reconnected to a Window Station.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -686,6 +718,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>logon session</p></td>
 <td class="text-align:left"><p>4964</p></td>
+<td class="text-align:left"><p>Special groups have been assigned to a new logon.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -699,6 +732,7 @@
 <td class="text-align:left"><p>created logon session from</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>4624</p></td>
+<td class="text-align:left"><p>An account was successfully logged on.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -712,6 +746,7 @@
 <td class="text-align:left"><p>created logon session from</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>4778</p></td>
+<td class="text-align:left"><p>A session was reconnected to a Window Station.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -725,6 +760,7 @@
 <td class="text-align:left"><p>created logon session from</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>4624</p></td>
+<td class="text-align:left"><p>An account was successfully logged on.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -738,6 +774,7 @@
 <td class="text-align:left"><p>failed creation</p></td>
 <td class="text-align:left"><p>host</p></td>
 <td class="text-align:left"><p>4625</p></td>
+<td class="text-align:left"><p>An account failed to log on.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -751,6 +788,7 @@
 <td class="text-align:left"><p>failed creation</p></td>
 <td class="text-align:left"><p>host</p></td>
 <td class="text-align:left"><p>4625</p></td>
+<td class="text-align:left"><p>An account failed to log on.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -764,6 +802,7 @@
 <td class="text-align:left"><p>failed logon session creation from</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>4625</p></td>
+<td class="text-align:left"><p>An account failed to log on.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -777,6 +816,7 @@
 <td class="text-align:left"><p>failed logon session creation from</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>4625</p></td>
+<td class="text-align:left"><p>An account failed to log on.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -790,6 +830,7 @@
 <td class="text-align:left"><p>failed logon session creation from</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>4625</p></td>
+<td class="text-align:left"><p>An account failed to log on.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -803,6 +844,7 @@
 <td class="text-align:left"><p>failed logon session creation from</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>4625</p></td>
+<td class="text-align:left"><p>An account failed to log on.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -816,6 +858,7 @@
 <td class="text-align:left"><p>requested termination</p></td>
 <td class="text-align:left"><p>logon session</p></td>
 <td class="text-align:left"><p>4647</p></td>
+<td class="text-align:left"><p>User initiated logoff.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -829,6 +872,7 @@
 <td class="text-align:left"><p>terminated</p></td>
 <td class="text-align:left"><p>logon session</p></td>
 <td class="text-align:left"><p>4634</p></td>
+<td class="text-align:left"><p>An account was logged off.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Logon/Logoff</p></td>
@@ -842,6 +886,7 @@
 <td class="text-align:left"><p>loaded</p></td>
 <td class="text-align:left"><p>dll</p></td>
 <td class="text-align:left"><p>7</p></td>
+<td class="text-align:left"><p>Image loaded.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>ImageLoad</p></td>
@@ -855,6 +900,7 @@
 <td class="text-align:left"><p>loaded</p></td>
 <td class="text-align:left"><p>executable</p></td>
 <td class="text-align:left"><p>7</p></td>
+<td class="text-align:left"><p>Image loaded.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>ImageLoad</p></td>
@@ -868,6 +914,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>pipe</p></td>
 <td class="text-align:left"><p>17</p></td>
+<td class="text-align:left"><p>PipeEvent (Pipe Created).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>PipeEvent</p></td>
@@ -881,6 +928,7 @@
 <td class="text-align:left"><p>connected to</p></td>
 <td class="text-align:left"><p>pipe</p></td>
 <td class="text-align:left"><p>18</p></td>
+<td class="text-align:left"><p>PipeEvent (Pipe Connected).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>PipeEvent</p></td>
@@ -894,6 +942,7 @@
 <td class="text-align:left"><p>started</p></td>
 <td class="text-align:left"><p>None</p></td>
 <td class="text-align:left"><p>400</p></td>
+<td class="text-align:left"><p>Engine state is changed from None to Available.</p></td>
 <td class="text-align:left"><p>PowerShell</p></td>
 <td class="text-align:left"><p>Windows PowerShell</p></td>
 <td class="text-align:left"><p>Engine Lifecycle</p></td>
@@ -907,6 +956,7 @@
 <td class="text-align:left"><p>started</p></td>
 <td class="text-align:left"><p>None</p></td>
 <td class="text-align:left"><p>53504</p></td>
+<td class="text-align:left"><p>Windows PowerShell has started an IPC listening thread on a process in AppDomain.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-PowerShell</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-PowerShell/Operational</p></td>
 <td class="text-align:left"><p>PowerShell Named Pipe IPC</p></td>
@@ -920,6 +970,7 @@
 <td class="text-align:left"><p>started</p></td>
 <td class="text-align:left"><p>application host</p></td>
 <td class="text-align:left"><p>4103</p></td>
+<td class="text-align:left"><p>Module logging.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-PowerShell</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-PowerShell/Operational</p></td>
 <td class="text-align:left"><p>Executing Pipeline</p></td>
@@ -933,6 +984,7 @@
 <td class="text-align:left"><p>executed</p></td>
 <td class="text-align:left"><p>command</p></td>
 <td class="text-align:left"><p>4103</p></td>
+<td class="text-align:left"><p>Module logging.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-PowerShell</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-PowerShell/Operational</p></td>
 <td class="text-align:left"><p>Executing Pipeline</p></td>
@@ -946,6 +998,7 @@
 <td class="text-align:left"><p>executed</p></td>
 <td class="text-align:left"><p>command</p></td>
 <td class="text-align:left"><p>4104</p></td>
+<td class="text-align:left"><p>Script Block Logging.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-PowerShell</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-PowerShell/Operational</p></td>
 <td class="text-align:left"><p>Execute a Remote Command</p></td>
@@ -959,6 +1012,7 @@
 <td class="text-align:left"><p>terminated</p></td>
 <td class="text-align:left"><p>None</p></td>
 <td class="text-align:left"><p>5</p></td>
+<td class="text-align:left"><p>Process terminated.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>ProcessTerminate</p></td>
@@ -972,6 +1026,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>4688</p></td>
+<td class="text-align:left"><p>A new process has been created.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Detailed Tracking</p></td>
@@ -985,6 +1040,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>1</p></td>
+<td class="text-align:left"><p>Process Creation.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>ProcessCreate</p></td>
@@ -998,6 +1054,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>4688</p></td>
+<td class="text-align:left"><p>A new process has been created.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Detailed Tracking</p></td>
@@ -1011,6 +1068,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>1</p></td>
+<td class="text-align:left"><p>Process Creation.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>ProcessCreate</p></td>
@@ -1024,6 +1082,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>thread</p></td>
 <td class="text-align:left"><p>8</p></td>
+<td class="text-align:left"><p>CreateRemoteThread.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>CreateRemoteThread</p></td>
@@ -1037,6 +1096,7 @@
 <td class="text-align:left"><p>terminated</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>4689</p></td>
+<td class="text-align:left"><p>A process has exited.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Detailed Tracking</p></td>
@@ -1050,6 +1110,7 @@
 <td class="text-align:left"><p>accessed</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>4663</p></td>
+<td class="text-align:left"><p>An attempt was made to access an object.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1063,6 +1124,7 @@
 <td class="text-align:left"><p>accessed</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>10</p></td>
+<td class="text-align:left"><p>ProcessAccess.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>ProcessAccess</p></td>
@@ -1076,6 +1138,7 @@
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>4656</p></td>
+<td class="text-align:left"><p>A handle to an object was requested.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1089,6 +1152,7 @@
 <td class="text-align:left"><p>connected to</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>5156</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has permitted a connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1102,6 +1166,7 @@
 <td class="text-align:left"><p>connected to</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>3</p></td>
+<td class="text-align:left"><p>Network connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>NetworkConnect</p></td>
@@ -1115,6 +1180,7 @@
 <td class="text-align:left"><p>connected to</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>5156</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has permitted a connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1128,6 +1194,7 @@
 <td class="text-align:left"><p>connected to</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>3</p></td>
+<td class="text-align:left"><p>Network connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>NetworkConnect</p></td>
@@ -1141,6 +1208,7 @@
 <td class="text-align:left"><p>connected to</p></td>
 <td class="text-align:left"><p>host</p></td>
 <td class="text-align:left"><p>3</p></td>
+<td class="text-align:left"><p>Network connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>NetworkConnect</p></td>
@@ -1154,6 +1222,7 @@
 <td class="text-align:left"><p>connected from</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>5156</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has permitted a connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1167,6 +1236,7 @@
 <td class="text-align:left"><p>connected from</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>3</p></td>
+<td class="text-align:left"><p>Network connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>NetworkConnect</p></td>
@@ -1180,6 +1250,7 @@
 <td class="text-align:left"><p>connected from</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>5156</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has permitted a connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1193,6 +1264,7 @@
 <td class="text-align:left"><p>connected from</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>3</p></td>
+<td class="text-align:left"><p>Network connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>NetworkConnect</p></td>
@@ -1206,6 +1278,7 @@
 <td class="text-align:left"><p>connected from</p></td>
 <td class="text-align:left"><p>host</p></td>
 <td class="text-align:left"><p>3</p></td>
+<td class="text-align:left"><p>Network connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>NetworkConnect</p></td>
@@ -1219,6 +1292,7 @@
 <td class="text-align:left"><p>connected to</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>3</p></td>
+<td class="text-align:left"><p>Network connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>NetworkConnect</p></td>
@@ -1232,6 +1306,7 @@
 <td class="text-align:left"><p>connected to</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>3</p></td>
+<td class="text-align:left"><p>Network connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>NetworkConnect</p></td>
@@ -1245,6 +1320,7 @@
 <td class="text-align:left"><p>connected to</p></td>
 <td class="text-align:left"><p>host</p></td>
 <td class="text-align:left"><p>3</p></td>
+<td class="text-align:left"><p>Network connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>NetworkConnect</p></td>
@@ -1258,6 +1334,7 @@
 <td class="text-align:left"><p>connected from</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>3</p></td>
+<td class="text-align:left"><p>Network connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>NetworkConnect</p></td>
@@ -1271,6 +1348,7 @@
 <td class="text-align:left"><p>connected from</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>3</p></td>
+<td class="text-align:left"><p>Network connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>NetworkConnect</p></td>
@@ -1284,6 +1362,7 @@
 <td class="text-align:left"><p>connected from</p></td>
 <td class="text-align:left"><p>host</p></td>
 <td class="text-align:left"><p>3</p></td>
+<td class="text-align:left"><p>Network connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>NetworkConnect</p></td>
@@ -1297,6 +1376,7 @@
 <td class="text-align:left"><p>blocked connection on</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>5031</p></td>
+<td class="text-align:left"><p>The Windows Firewall Service blocked an application from accepting incoming connections on the network.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1310,6 +1390,7 @@
 <td class="text-align:left"><p>blocked connection to</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>5157</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked a connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1323,6 +1404,7 @@
 <td class="text-align:left"><p>blocked connection to</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>5157</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked a connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1336,6 +1418,7 @@
 <td class="text-align:left"><p>blocked connection to</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>5157</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked a connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1349,6 +1432,7 @@
 <td class="text-align:left"><p>blocked connection from</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>5157</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked a connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1362,6 +1446,7 @@
 <td class="text-align:left"><p>blocked connection from</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>5157</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked a connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1375,6 +1460,7 @@
 <td class="text-align:left"><p>blocked connection from</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>5157</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked a connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1388,6 +1474,7 @@
 <td class="text-align:left"><p>attempted connection to</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>5157</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked a connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1401,6 +1488,7 @@
 <td class="text-align:left"><p>attempted connection to</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>5157</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked a connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1414,6 +1502,7 @@
 <td class="text-align:left"><p>attempted connection from</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>5157</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked a connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1427,6 +1516,7 @@
 <td class="text-align:left"><p>attempted connection from</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>5157</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked a connection.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1440,6 +1530,7 @@
 <td class="text-align:left"><p>permitted listener on</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>5154</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1453,6 +1544,7 @@
 <td class="text-align:left"><p>permitted listener on</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>5154</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1466,6 +1558,7 @@
 <td class="text-align:left"><p>permitted listener on</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>5154</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1479,6 +1572,7 @@
 <td class="text-align:left"><p>listened on</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>5154</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1492,6 +1586,7 @@
 <td class="text-align:left"><p>blocked listener on</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>5155</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1505,6 +1600,7 @@
 <td class="text-align:left"><p>blocked listener on</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>5155</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1518,6 +1614,7 @@
 <td class="text-align:left"><p>blocked listener on</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>5155</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1531,6 +1628,7 @@
 <td class="text-align:left"><p>attempted to listen on</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>5155</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1544,6 +1642,7 @@
 <td class="text-align:left"><p>permitted local port bind on</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>5158</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has permitted a bind to a local port.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1557,6 +1656,7 @@
 <td class="text-align:left"><p>permitted local port bind on</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>5158</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has permitted a bind to a local port.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1570,6 +1670,7 @@
 <td class="text-align:left"><p>permitted local port bind on</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>5158</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has permitted a bind to a local port.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1583,6 +1684,7 @@
 <td class="text-align:left"><p>bound to</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>5158</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has permitted a bind to a local port.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1596,6 +1698,7 @@
 <td class="text-align:left"><p>blocked local port bind on</p></td>
 <td class="text-align:left"><p>process</p></td>
 <td class="text-align:left"><p>5159</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked a bind to a local port.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1609,6 +1712,7 @@
 <td class="text-align:left"><p>blocked local port bind on</p></td>
 <td class="text-align:left"><p>ip</p></td>
 <td class="text-align:left"><p>5159</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked a bind to a local port.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1622,6 +1726,7 @@
 <td class="text-align:left"><p>blocked local port bind on</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>5159</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked a bind to a local port.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1635,6 +1740,7 @@
 <td class="text-align:left"><p>attempted to bind on</p></td>
 <td class="text-align:left"><p>port</p></td>
 <td class="text-align:left"><p>5159</p></td>
+<td class="text-align:left"><p>The Windows Filtering Platform has blocked a bind to a local port.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1648,6 +1754,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>schedule task</p></td>
 <td class="text-align:left"><p>4698</p></td>
+<td class="text-align:left"><p>A scheduled task was created.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1661,6 +1768,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>schedule task</p></td>
 <td class="text-align:left"><p>4699</p></td>
+<td class="text-align:left"><p>A scheduled task was deleted.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1674,6 +1782,7 @@
 <td class="text-align:left"><p>enabled</p></td>
 <td class="text-align:left"><p>schedule task</p></td>
 <td class="text-align:left"><p>4700</p></td>
+<td class="text-align:left"><p>A scheduled task was enabled.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1687,6 +1796,7 @@
 <td class="text-align:left"><p>disabled</p></td>
 <td class="text-align:left"><p>schedule task</p></td>
 <td class="text-align:left"><p>4701</p></td>
+<td class="text-align:left"><p>A scheduled task was disabled.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1700,6 +1810,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>schedule task</p></td>
 <td class="text-align:left"><p>4702</p></td>
+<td class="text-align:left"><p>A scheduled task was updated.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1713,6 +1824,7 @@
 <td class="text-align:left"><p>started</p></td>
 <td class="text-align:left"><p>None</p></td>
 <td class="text-align:left"><p>4</p></td>
+<td class="text-align:left"><p>Sysmon service state changed.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>ServiceStateChange</p></td>
@@ -1726,6 +1838,7 @@
 <td class="text-align:left"><p>started</p></td>
 <td class="text-align:left"><p>None</p></td>
 <td class="text-align:left"><p>5024</p></td>
+<td class="text-align:left"><p>The Windows Firewall Service has started successfully.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>System</p></td>
@@ -1739,6 +1852,7 @@
 <td class="text-align:left"><p>stopped</p></td>
 <td class="text-align:left"><p>None</p></td>
 <td class="text-align:left"><p>4</p></td>
+<td class="text-align:left"><p>Sysmon service state changed.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>ServiceStateChange</p></td>
@@ -1752,6 +1866,7 @@
 <td class="text-align:left"><p>stopped</p></td>
 <td class="text-align:left"><p>None</p></td>
 <td class="text-align:left"><p>5025</p></td>
+<td class="text-align:left"><p>The Windows Firewall Service has been stopped.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>System</p></td>
@@ -1765,6 +1880,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>service</p></td>
 <td class="text-align:left"><p>4697</p></td>
+<td class="text-align:left"><p>A service was installed in the system.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>System</p></td>
@@ -1778,6 +1894,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>service</p></td>
 <td class="text-align:left"><p>7045</p></td>
+<td class="text-align:left"><p>A new service was installed in the system.</p></td>
 <td class="text-align:left"><p>Service Control Manager</p></td>
 <td class="text-align:left"><p>System</p></td>
 <td class="text-align:left"><p>NA</p></td>
@@ -1791,6 +1908,7 @@
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>service</p></td>
 <td class="text-align:left"><p>4656</p></td>
+<td class="text-align:left"><p>A handle to an object was requested.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -1804,6 +1922,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>4720</p></td>
+<td class="text-align:left"><p>A user account was created.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Account Management</p></td>
@@ -1817,6 +1936,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>4726</p></td>
+<td class="text-align:left"><p>A user account was deleted.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Account Management</p></td>
@@ -1830,6 +1950,7 @@
 <td class="text-align:left"><p>enabled</p></td>
 <td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>4722</p></td>
+<td class="text-align:left"><p>A user account was enabled.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Account Management</p></td>
@@ -1843,6 +1964,7 @@
 <td class="text-align:left"><p>disabled</p></td>
 <td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>4725</p></td>
+<td class="text-align:left"><p>A user account was disabled.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Account Management</p></td>
@@ -1856,6 +1978,7 @@
 <td class="text-align:left"><p>locked</p></td>
 <td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>4740</p></td>
+<td class="text-align:left"><p>A user account was locked out.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Account Management</p></td>
@@ -1869,6 +1992,7 @@
 <td class="text-align:left"><p>unlocked</p></td>
 <td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>4767</p></td>
+<td class="text-align:left"><p>A user account was unlocked.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Account Management</p></td>
@@ -1882,6 +2006,7 @@
 <td class="text-align:left"><p>requested modification</p></td>
 <td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>4723</p></td>
+<td class="text-align:left"><p>An attempt was made to change an account’s password.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Account Management</p></td>
@@ -1895,6 +2020,7 @@
 <td class="text-align:left"><p>requested modification</p></td>
 <td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>4724</p></td>
+<td class="text-align:left"><p>An attempt was made to reset an account’s password.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Account Management</p></td>
@@ -1908,6 +2034,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>4738</p></td>
+<td class="text-align:left"><p>A user account was changed.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Account Management</p></td>
@@ -1921,6 +2048,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>4781</p></td>
+<td class="text-align:left"><p>The name of an account was changed.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Account Management</p></td>
@@ -1934,6 +2062,7 @@
 <td class="text-align:left"><p>granted access</p></td>
 <td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>4717</p></td>
+<td class="text-align:left"><p>System security access was granted to an account.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Policy Change</p></td>
@@ -1947,6 +2076,7 @@
 <td class="text-align:left"><p>removed access</p></td>
 <td class="text-align:left"><p>user</p></td>
 <td class="text-align:left"><p>4718</p></td>
+<td class="text-align:left"><p>System security access was removed from an account.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Policy Change</p></td>
@@ -1960,6 +2090,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>ad object</p></td>
 <td class="text-align:left"><p>5137</p></td>
+<td class="text-align:left"><p>A directory service object was created.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>DS Access</p></td>
@@ -1973,6 +2104,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>ad object</p></td>
 <td class="text-align:left"><p>5141</p></td>
+<td class="text-align:left"><p>A directory service object was deleted.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>DS Access</p></td>
@@ -1986,6 +2118,7 @@
 <td class="text-align:left"><p>undeleted</p></td>
 <td class="text-align:left"><p>ad object</p></td>
 <td class="text-align:left"><p>5138</p></td>
+<td class="text-align:left"><p>A directory service object was undeleted.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>DS Access</p></td>
@@ -1999,6 +2132,7 @@
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>ad object</p></td>
 <td class="text-align:left"><p>4661</p></td>
+<td class="text-align:left"><p>A handle to an object was requested.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>DS Access</p></td>
@@ -2012,6 +2146,7 @@
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>ad object</p></td>
 <td class="text-align:left"><p>4661</p></td>
+<td class="text-align:left"><p>A handle to an object was requested.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>DS Access</p></td>
@@ -2025,6 +2160,7 @@
 <td class="text-align:left"><p>accessed</p></td>
 <td class="text-align:left"><p>ad object</p></td>
 <td class="text-align:left"><p>4662</p></td>
+<td class="text-align:left"><p>An operation was performed on an object.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>DS Access</p></td>
@@ -2038,6 +2174,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>ad object</p></td>
 <td class="text-align:left"><p>5136</p></td>
+<td class="text-align:left"><p>A directory service object was modified.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>DS Access</p></td>
@@ -2051,6 +2188,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>ad object</p></td>
 <td class="text-align:left"><p>5139</p></td>
+<td class="text-align:left"><p>A directory service object was moved.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>DS Access</p></td>
@@ -2064,6 +2202,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>windows registry key</p></td>
 <td class="text-align:left"><p>12</p></td>
+<td class="text-align:left"><p>RegistryEvent (Object create and delete).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>RegistryEvent</p></td>
@@ -2077,6 +2216,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>windows registry key value</p></td>
 <td class="text-align:left"><p>12</p></td>
+<td class="text-align:left"><p>RegistryEvent (Object create and delete).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>RegistryEvent</p></td>
@@ -2090,6 +2230,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>windows registry key</p></td>
 <td class="text-align:left"><p>4660</p></td>
+<td class="text-align:left"><p>An object was deleted.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -2103,6 +2244,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>windows registry key</p></td>
 <td class="text-align:left"><p>12</p></td>
+<td class="text-align:left"><p>RegistryEvent (Object create and delete).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>RegistryEvent</p></td>
@@ -2116,6 +2258,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>windows registry key</p></td>
 <td class="text-align:left"><p>4660</p></td>
+<td class="text-align:left"><p>An object was deleted.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -2129,6 +2272,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>windows registry key value</p></td>
 <td class="text-align:left"><p>12</p></td>
+<td class="text-align:left"><p>RegistryEvent (Object create and delete).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>RegistryEvent</p></td>
@@ -2142,6 +2286,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>windows registry key</p></td>
 <td class="text-align:left"><p>13</p></td>
+<td class="text-align:left"><p>RegistryEvent (Value Set).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>RegistryEvent</p></td>
@@ -2155,6 +2300,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>windows registry key</p></td>
 <td class="text-align:left"><p>14</p></td>
+<td class="text-align:left"><p>RegistryEvent (Key and Value Rename).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>RegistryEvent</p></td>
@@ -2168,6 +2314,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>windows registry key</p></td>
 <td class="text-align:left"><p>4670</p></td>
+<td class="text-align:left"><p>Permissions on an object were changed.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -2181,6 +2328,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>windows registry key value</p></td>
 <td class="text-align:left"><p>13</p></td>
+<td class="text-align:left"><p>RegistryEvent (Value Set).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>RegistryEvent</p></td>
@@ -2194,6 +2342,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>windows registry key value</p></td>
 <td class="text-align:left"><p>14</p></td>
+<td class="text-align:left"><p>RegistryEvent (Key and Value Rename).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>RegistryEvent</p></td>
@@ -2207,6 +2356,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>windows registry key value</p></td>
 <td class="text-align:left"><p>4657</p></td>
+<td class="text-align:left"><p>A registry value was modified.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -2220,6 +2370,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>windows registry key</p></td>
 <td class="text-align:left"><p>4670</p></td>
+<td class="text-align:left"><p>Permissions on an object were changed.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -2233,6 +2384,7 @@
 <td class="text-align:left"><p>modified</p></td>
 <td class="text-align:left"><p>windows registry key value</p></td>
 <td class="text-align:left"><p>4657</p></td>
+<td class="text-align:left"><p>A registry value was modified.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -2246,6 +2398,7 @@
 <td class="text-align:left"><p>accessed</p></td>
 <td class="text-align:left"><p>windows registry key</p></td>
 <td class="text-align:left"><p>4663</p></td>
+<td class="text-align:left"><p>An attempt was made to access an object.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -2259,6 +2412,7 @@
 <td class="text-align:left"><p>accessed</p></td>
 <td class="text-align:left"><p>windows registry key</p></td>
 <td class="text-align:left"><p>4663</p></td>
+<td class="text-align:left"><p>An attempt was made to access an object.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -2272,6 +2426,7 @@
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>windows registry key</p></td>
 <td class="text-align:left"><p>4656</p></td>
+<td class="text-align:left"><p>A handle to an object was requested.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -2285,6 +2440,7 @@
 <td class="text-align:left"><p>requested access</p></td>
 <td class="text-align:left"><p>windows registry key</p></td>
 <td class="text-align:left"><p>4656</p></td>
+<td class="text-align:left"><p>A handle to an object was requested.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Security-Auditing</p></td>
 <td class="text-align:left"><p>Security</p></td>
 <td class="text-align:left"><p>Object Access</p></td>
@@ -2298,6 +2454,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>None</p></td>
 <td class="text-align:left"><p>5861</p></td>
+<td class="text-align:left"><p>WMI permanent event created.</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-WMI-Activity</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-WMI-Activity/Operational</p></td>
 <td class="text-align:left"><p>NA</p></td>
@@ -2311,6 +2468,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>wmi filter</p></td>
 <td class="text-align:left"><p>19</p></td>
+<td class="text-align:left"><p>WmiEvent (WmiEventFilter activity detected).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>WmiEvent</p></td>
@@ -2324,6 +2482,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>wmi consumer</p></td>
 <td class="text-align:left"><p>20</p></td>
+<td class="text-align:left"><p>WmiEvent (WmiEventConsumer activity detected).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>WmiEvent</p></td>
@@ -2337,6 +2496,7 @@
 <td class="text-align:left"><p>created</p></td>
 <td class="text-align:left"><p>wmi subscription</p></td>
 <td class="text-align:left"><p>21</p></td>
+<td class="text-align:left"><p>WmiEvent (WmiEventConsumerToFilter activity detected).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>WmiEvent</p></td>
@@ -2350,6 +2510,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>wmi filter</p></td>
 <td class="text-align:left"><p>19</p></td>
+<td class="text-align:left"><p>WmiEvent (WmiEventFilter activity detected).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>WmiEvent</p></td>
@@ -2363,6 +2524,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>wmi consumer</p></td>
 <td class="text-align:left"><p>20</p></td>
+<td class="text-align:left"><p>WmiEvent (WmiEventConsumer activity detected).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>WmiEvent</p></td>
@@ -2376,6 +2538,7 @@
 <td class="text-align:left"><p>deleted</p></td>
 <td class="text-align:left"><p>wmi subscription</p></td>
 <td class="text-align:left"><p>21</p></td>
+<td class="text-align:left"><p>WmiEvent (WmiEventConsumerToFilter activity detected).</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon</p></td>
 <td class="text-align:left"><p>Microsoft-Windows-Sysmon/Operational</p></td>
 <td class="text-align:left"><p>WmiEvent</p></td>
