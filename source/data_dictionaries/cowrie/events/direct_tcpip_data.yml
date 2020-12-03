@@ -1,0 +1,65 @@
+title: Cowrie direct-tcpip data
+description: This dictionary details the fields for the direct tcp-ip data event of the Cowrie honeypot, which triggers when someone tries to use the honeypot to forward data. This event holds the data that is attempted to be forwarded.
+platform: cowrie
+log_source: honeypot
+event_code: 'cowrie.direct-tcpip.data'
+event_version: '0'
+event_fields:
+- standard_name: event_timestamp
+  standard_type: date_time
+  name: timestamp
+  type: string
+  description: Timestamp when the data was discovered in ISO 8601 format
+  sample_value: '2020-10-06T06:45:02.021156' 
+- standard_name: src_ip_addr
+  standard_type: ip
+  name: src_ip
+  type: string
+  description: The originating/source IP address of the SSH connection
+  sample_value: '192.168.1.4'
+- standard_name: event_message
+  standard_type: string
+  name: message
+  type: string
+  description: The message contained in the event
+  sample_value: 'SSH client hassh fingerprint: aaaabbbbcccc11112222'
+- standard_name: dvc_hostname
+  standard_type: string
+  name: sensor
+  type: string
+  description: The name of the device that generated the event
+  sample_value: 'hk-lab1'
+- standard_name: network_session_id
+  standard_type: string
+  name: session
+  type: string
+  description: A unique identifier for a cowrie SSH session
+  sample_value: aaacde98ab17
+- standard_name: dst_ip_addr 
+  standard_type: ip
+  name: dst_ip
+  type: string
+  description: The IP towards which the forwarding attempt was executed
+  sample_value: '192.168.1.23'
+- standard_name: dst_port
+  standard_type: integer
+  name: dst_port
+  type: integer
+  description: The port towards which the forwarding attempt was executed
+  sample_value: 80
+- standard_name: TBD
+  standard_type: TBD
+  name: data
+  type: binary string
+  description: The data contained in the request
+  sample_value: 'b''\GET / HTTP/1.1\\r\\nHost: localhost:80\\r\\nUser-Agent: Mozilla/5.0'''
+- standard_name: TBD
+  standard_type: TBD
+  name: id
+  type: integer
+  description: An id for the request, which gets incremented for each new request
+  sample_value: 1
+references:
+- text: Cowrie forwarding code
+  link: https://github.com/cowrie/cowrie/blob/master/src/cowrie/ssh/forwarding.py#L94
+tags: []

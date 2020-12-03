@@ -1,0 +1,49 @@
+title: Cowrie log open
+description: This dictionary details the fields for the log open event of the Cowrie honeypot. This does not seem to trigger anymore.
+platform: cowrie
+log_source: honeypot
+event_code: 'cowrie.log.open'
+event_version: '0'
+event_fields:
+- standard_name: event_timestamp
+  standard_type: date_time
+  name: timestamp
+  type: string
+  description: Timestamp when the data was discovered in ISO 8601 format
+  sample_value: '2020-10-06T06:45:02.021156' 
+- standard_name: src_ip_addr
+  standard_type: ip
+  name: src_ip
+  type: string
+  description: The originating/source IP address of the SSH connection
+  sample_value: '192.168.1.4'
+- standard_name: event_message
+  standard_type: string
+  name: message
+  type: string
+  description: The message contained in the event
+  sample_value: 'SSH client hassh fingerprint: aaaabbbbcccc11112222'
+- standard_name: dvc_hostname
+  standard_type: string
+  name: sensor
+  type: string
+  description: The name of the device that generated the event
+  sample_value: 'hk-lab1'
+- standard_name: network_session_id
+  standard_type: string
+  name: session
+  type: string
+  description: A unique identifier for a cowrie SSH session
+  sample_value: aaacde98ab17
+- standard_name: TBD 
+  standard_type: TBD
+  name: ttylog
+  type: string
+  description: The path to the tty log file
+  sample_value: 'log/tty/20170123-092633-None-0i.log'
+references:
+- text: Old version of cowrie terminal emulation code
+  link: https://github.com/cowrie/cowrie/blob/b9fb147d982f9c76351b1275217c1b7ad2abee64/src/cowrie/insults/insults.py#L77
+- text: Commit that removed it
+  link: https://github.com/cowrie/cowrie/commit/85035a419c9bb75dd7086340cc99bce07ce77f96#
+tags: []

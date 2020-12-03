@@ -1,0 +1,71 @@
+title: Cowrie file upload
+description: This dictionary details the fields for the file upload event of the Cowrie honeypot, which triggers when a file is downloaded to the honeypot, for example with wget.
+platform: cowrie
+log_source: honeypot
+event_code: 'cowrie.session.file_download'
+event_version: '0'
+event_fields:
+- standard_name: event_timestamp
+  standard_type: date_time
+  name: timestamp
+  type: string
+  description: Timestamp when the data was discovered in ISO 8601 format
+  sample_value: '2020-10-06T06:45:02.021156' 
+- standard_name: src_ip_addr
+  standard_type: ip
+  name: src_ip
+  type: string
+  description: The originating/source IP address of the SSH connection
+  sample_value: '192.168.1.4'
+- standard_name: event_message
+  standard_type: string
+  name: message
+  type: string
+  description: The message contained in the event
+  sample_value: 'SSH client hassh fingerprint: aaaabbbbcccc11112222'
+- standard_name: dvc_hostname
+  standard_type: string
+  name: sensor
+  type: string
+  description: The name of the device that generated the event
+  sample_value: 'hk-lab1'
+- standard_name: network_session_id
+  standard_type: string
+  name: session
+  type: string
+  description: A unique identifier for a cowrie SSH session
+  sample_value: aaacde98ab17
+- standard_name: file_name
+  standard_type: string
+  name: filename 
+  type: string
+  description: The name of the file downloaded
+  sample_value: 'bad.exe'
+- standard_name: file_path
+  standard_type: string
+  name: outfile
+  type: string
+  description: The path where the file is stored on the file system (outside of the honeypot)
+  sample_value: 'var/lib/cowrie/downloads/2267ef2579a94a6c2b0ba83e56a52031d4c21e916e1c45b7dfd1e01c98d6c5d9'
+- standard_name: file_hash_sha256
+  standard_type: string
+  name: shasum
+  type: string
+  description: The SHA256 hash of the file 
+  sample_value: 2267ef2579a94a6c2b0ba83e56a52031d4c21e916e1c45b7dfd1e01c98d6c5d9
+- standard_name: TBD
+  standard_type: TBD
+  name: destfile
+  type: string
+  description: The path where the file is stored on the honeypot file system
+  sample_value: '/root/bad.exe'
+- standard_name: url_original
+  standard_type: string
+  name: url
+  type: string
+  description: The url from which the file was downloaded
+  sample_value: 'https://google.com'
+references:
+- text: Cowrie code
+  link: TODO
+tags: []
