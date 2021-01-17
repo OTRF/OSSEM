@@ -1,0 +1,65 @@
+title: Cowrie client fingerprint
+description: This dictionary details the fields for the client fingerprint event of the Cowrie honeypot, which happens on public key authentication attempts.
+platform: cowrie
+log_source: honeypot
+event_code: 'cowrie.client.fingerprint'
+event_version: '0'
+event_fields:
+- standard_name: event_timestamp
+  standard_type: date_time
+  name: timestamp
+  type: string
+  description: Timestamp when the data was discovered in ISO 8601 format
+  sample_value: '2020-10-06T06:45:02.021156' 
+- standard_name: src_ip_addr
+  standard_type: ip
+  name: src_ip
+  type: string
+  description: The originating/source IP address of the SSH connection
+  sample_value: '192.168.1.4'
+- standard_name: event_message
+  standard_type: string
+  name: message
+  type: string
+  description: The message contained in the event
+  sample_value: 'SSH client hassh fingerprint: aaaabbbbcccc11112222'
+- standard_name: dvc_hostname
+  standard_type: string
+  name: sensor
+  type: string
+  description: The name of the device that generated the event
+  sample_value: 'hk-lab1'
+- standard_name: network_session_id
+  standard_type: string
+  name: session
+  type: string
+  description: A unique identifier for a cowrie SSH session
+  sample_value: aaacde98ab17
+- standard_name: user_name 
+  standard_type: string
+  name: username
+  type: string
+  description: The user name used for the authentication attempt
+  sample_value: root
+- standard_name: TBD
+  standard_type: TBD
+  name: key
+  type: string
+  description: The public key used for the authentication attempt 
+  sample_value: 'ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSUGPl+nafzlHDTYW7hdI4yZ5ew18JH4JW9jbhUFrviQzM7xlELEVf4h9lFX5QVkbPppSwg0cda3Pbv7kOdJ/MTyBlWXFCR+HAo3FXRitBqxiX1nKhXpHAZsMciLq8V6RjsNAQwdsdMFvSlVK/7XAt3FaoJoAsncM1Q9x5+3V0Ww68/eIFmb1zuUFljQJKprrX88XypNDvjYNby6vw/Pb0rwert/EnmZ+AW4OZPnTPI89ZPmVMLuayrD2cE86Z/il8b+gw3r3+1nKatmIkjn2so1d01QraTlMqVSsbxNrRFi9wrf+M7Q== schacon@mylaptop.local'
+- standard_name: TBD
+  standard_type: TBD
+  name: type
+  type: string
+  description: The type of the public key
+  sample_value: 'ssh-rsa'
+- standard_name: TBD
+  standard_type: TBD
+  name: fingerprint
+  type: string
+  description: The fingerprint of the public key used for the authentication attempt 
+  sample_value: 'd0:82:24:8e:d7:f1:bb:9b:33:53:96:93:49:da:9b:e3'
+references:
+- text: Cowrie authentication checking code
+  link: https://github.com/cowrie/cowrie/blob/master/src/cowrie/core/checkers.py#L37
+tags: []

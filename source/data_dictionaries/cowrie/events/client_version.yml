@@ -1,0 +1,47 @@
+title: Cowrie client version
+description: This dictionary details the fields for the client version event of the Cowrie honeypot, which triggers on SSH authentication attempts and logs the version of the remote SSH client.
+platform: cowrie
+log_source: honeypot
+event_code: 'cowrie.client.version'
+event_version: '0'
+event_fields:
+- standard_name: event_timestamp
+  standard_type: date_time
+  name: timestamp
+  type: string
+  description: Timestamp when the data was discovered in ISO 8601 format
+  sample_value: '2020-10-06T06:45:02.021156' 
+- standard_name: src_ip_addr
+  standard_type: ip
+  name: src_ip
+  type: string
+  description: The originating/source IP address of the SSH connection
+  sample_value: '192.168.1.4'
+- standard_name: event_message
+  standard_type: string
+  name: message
+  type: string
+  description: The message contained in the event
+  sample_value: 'SSH client hassh fingerprint: aaaabbbbcccc11112222'
+- standard_name: dvc_hostname
+  standard_type: string
+  name: sensor
+  type: string
+  description: The name of the device that generated the event
+  sample_value: 'hk-lab1'
+- standard_name: network_session_id
+  standard_type: string
+  name: session
+  type: string
+  description: A unique identifier for a cowrie SSH session
+  sample_value: aaacde98ab17
+- standard_name: TBD
+  standard_type: string
+  name: version
+  type: binary string
+  description: SSH version of the client
+  sample_value: 'b''SSH-2.0-libssh2_1.8.0'''
+references:
+- text: Cowrie SSH transport code
+  link: https://github.com/cowrie/cowrie/blob/master/src/cowrie/ssh/transport.py#L103
+tags: []

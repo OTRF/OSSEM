@@ -1,0 +1,47 @@
+title: Cowrie command input
+description: This dictionary details the fields for the command input of the Cowrie honeypot, which triggers when a command is input in an interactive session.
+platform: cowrie
+log_source: honeypot
+event_code: 'cowrie.command.input'
+event_version: '0'
+event_fields:
+- standard_name: event_timestamp
+  standard_type: date_time
+  name: timestamp
+  type: string
+  description: Timestamp when the data was discovered in ISO 8601 format
+  sample_value: '2020-10-06T06:45:02.021156' 
+- standard_name: src_ip_addr
+  standard_type: ip
+  name: src_ip
+  type: string
+  description: The originating/source IP address of the SSH connection
+  sample_value: '192.168.1.4'
+- standard_name: event_message
+  standard_type: string
+  name: message
+  type: string
+  description: The message contained in the event
+  sample_value: 'SSH client hassh fingerprint: aaaabbbbcccc11112222'
+- standard_name: dvc_hostname
+  standard_type: string
+  name: sensor
+  type: string
+  description: The name of the device that generated the event
+  sample_value: 'hk-lab1'
+- standard_name: network_session_id
+  standard_type: string
+  name: session
+  type: string
+  description: A unique identifier for a cowrie session
+  sample_value: aaacde98ab17
+- standard_name: process_command_line
+  standard_type: string
+  name: input
+  type: string
+  description: A command that was executed in a cowrie session
+  sample_value: 'wget google.ch'
+references:
+- text: Cowrie fake shell code
+  link: https://github.com/cowrie/cowrie/blob/master/src/cowrie/shell/honeypot.py#L39
+tags: []

@@ -1,0 +1,89 @@
+title: Cowrie client key exchange
+description: This dictionary details the fields for the key exchange event of the Cowrie honeypot.
+platform: cowrie
+log_source: honeypot
+event_code: 'cowrie.client.kex'
+event_version: '0'
+event_fields:
+- standard_name: event_timestamp
+  standard_type: date_time
+  name: timestamp
+  type: string
+  description: Timestamp when the data was discovered in ISO 8601 format
+  sample_value: '2020-10-06T06:45:02.021156' 
+- standard_name: src_ip_addr
+  standard_type: ip
+  name: src_ip
+  type: string
+  description: The originating/source IP address of the SSH connection
+  sample_value: '192.168.1.4'
+- standard_name: event_message
+  standard_type: string
+  name: message
+  type: string
+  description: The message contained in the event
+  sample_value: 'SSH client hassh fingerprint: aaaabbbbcccc11112222'
+- standard_name: dvc_hostname
+  standard_type: string
+  name: sensor
+  type: string
+  description: The name of the device that generated the event
+  sample_value: 'hk-lab1'
+- standard_name: network_session_id
+  standard_type: string
+  name: session
+  type: string
+  description: A unique identifier for a cowrie SSH session
+  sample_value: aaacde98ab17
+- standard_name: TBD
+  standard_type: TBD
+  name: hassh
+  type: string
+  description: '[Hassh](https://github.com/salesforce/hassh) fingerprinting of the client supported algorithms'
+  sample_value: de30354b88bae4c2810426614e1b6976
+- standard_name: TBD
+  standard_type: TBD
+  name: hasshAlgorithms
+  type: string
+  description: List of algorithms used for the hassh fingerprint
+  sample_value: 'diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,rijndael-cbc@lysator.liu.se,aes192-cbc,aes128-cbc,blowfish-cbc,arcfour128,arcfour,cast128-cbc,3des-cbc;hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,hmac-md5,hmac-md5-96,hmac-ripemd160,hmac-ripemd160@openssh.com;none'
+- standard_name: TBD 
+  standard_type: TBD
+  name: kexAlgs
+  type: list
+  description: List of key exchange algorithms proposed 
+  sample_value: ['diffie-hellman-group-exchange-sha256','diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+- standard_name: TBD
+  standard_type: TBD
+  name: keyAlgs
+  type: list
+  description: Host key algorithms
+  sample_value:  ['ssh-rsa', 'ssh-dss']
+- standard_name: TBD
+  standard_type: TBD
+  name: encCS
+  type: list
+  description: Encryption algorithms
+  sample_value: ['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes256-cbc']
+- standard_name: TBD 
+  standard_type: TBD
+  name: macCS
+  type: list
+  description: MAC algorithms
+  sample_value: ['hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1']
+- standard_name: TBD
+  standard_type: TBD
+  name: compCS
+  type: list
+  description: Compression algorithms
+  sample_value: ['none', 'zlib@openssh.com', 'zlib']
+- standard_name: TBD
+  standard_type: TBD
+  name: langCS
+  type: list
+  description: TBD
+  sample_value: TBD
+references:
+- text: Cowrie SSH key exchange code
+  link: https://github.com/cowrie/cowrie/blob/master/src/cowrie/ssh/transport.py#L181 
+tags: []

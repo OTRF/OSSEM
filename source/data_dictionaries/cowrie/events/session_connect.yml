@@ -1,0 +1,67 @@
+title: Cowrie session connection
+description: This dictionary details the fields for the session connect event of the Cowrie honeypot.
+platform: cowrie
+log_source: honeypot
+event_code: 'cowrie.session.connect'
+event_version: '0'
+event_fields:
+- standard_name: event_timestamp
+  standard_type: date_time
+  name: timestamp
+  type: string
+  description: Timestamp when the data was discovered in ISO 8601 format
+  sample_value: '2020-10-06T06:45:02.021156' 
+- standard_name: src_ip_addr
+  standard_type: ip
+  name: src_ip
+  type: string
+  description: The originating/source IP address of the SSH connection
+  sample_value: '192.168.1.4'
+- standard_name: event_message
+  standard_type: string
+  name: message
+  type: string
+  description: The message contained in the event
+  sample_value: 'SSH client hassh fingerprint: aaaabbbbcccc11112222'
+- standard_name: dvc_hostname
+  standard_type: string
+  name: sensor
+  type: string
+  description: The name of the device that generated the event
+  sample_value: 'hk-lab1'
+- standard_name: network_session_id
+  standard_type: string
+  name: session
+  type: string
+  description: A unique identifier for a cowrie SSH session
+  sample_value: aaacde98ab17
+- standard_name: src_port 
+  standard_type: integer
+  name: src_port
+  type: int
+  description: The port from which the SSH connection originated
+  sample_value: 54973
+- standard_name: dst_ip_addr
+  standard_type: ip
+  name: dst_ip
+  type: string
+  description: Destination IP of the connection. Should be one of Cowrie's IP addresses 
+  sample_value: '192.168.1.22'
+- standard_name: dst_port
+  standard_type: integer
+  name: dst_port
+  type: int
+  description: Destination port of the connection. Typically 22/2222/23/2223
+  sample_value: 2222
+- standard_name: network_application_protocol
+  standard_type: string
+  name: protocol
+  type: string
+  description: The protocol, SSH or telnet
+  sample_value: ssh
+references:
+- text: Cowrie SSH transport code
+  link: https://github.com/cowrie/cowrie/blob/master/src/cowrie/ssh/transport.py#L56
+- text: Cowrie telnet transport code
+  link: https://github.com/cowrie/cowrie/blob/master/src/cowrie/telnet/transport.py#L29
+tags: []
