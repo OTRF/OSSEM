@@ -307,8 +307,8 @@ ProcessId = EventDetail.[3].["#text"],
 Image = EventDetail.[4].["#text"], 
 TargetFilename = EventDetail.[5].["#text"], 
 CreationUtcTime = EventDetail.[6].["#text"], 
-Hash = EventDetail.[7].["#text"], 
 Contents = EventDetail.[8].["#text"]
+| extend Hash = extract_all(@"(?P<key>\w+)=(?P<value>[a-zA-Z0-9]+)", dynamic(["key","value"]), tostring(EventDetail.[7].["#text"]))| mv-apply Hash on (summarize Hash = make_bag(pack(tostring(Hash[0]), tostring(Hash[1]))))
 | project-away EventDetail
 ;
 processEvents;
@@ -507,7 +507,8 @@ SYSMON_PROCESS_IMAGE_TAMPERING_25
 | extend Details = column_ifexists("Details", ""), 
 RuleName = column_ifexists("RuleName", ""),
 PreviousCreationUtcTime=column_ifexists("PreviousCreationUtcTime", ""),
-Hashes = column_ifexists("Hashes", "")
+Hashes = column_ifexists("Hashes", ""),
+Hash = column_ifexists("Hash", "")
 | project TimeGenerated, 
 Source, 
 Computer, 
