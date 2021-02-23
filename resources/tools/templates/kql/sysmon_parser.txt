@@ -8,22 +8,42 @@
 let EventData = Event
 | where Source == "Microsoft-Windows-Sysmon"
 | extend RenderedDescription = tostring(split(RenderedDescription, ":")[0])
-| project TimeGenerated, Source, EventID, Computer, UserName, EventData, RenderedDescription
+| project TimeGenerated,
+    Source,
+    EventID,
+    Computer,
+    UserName,
+    EventData,
+    RenderedDescription
 | extend EvData = parse_xml(EventData)
 | extend EventDetail = EvData.DataItem.EventData.Data
-| project-away EventData, EvData
-;{% endraw %}
-{% for event in sysmon %}let {{event['name']}}_{{event['id']}}{% raw %}=() {
+| project-away EventData,
+    EvData;{% endraw %}
+{% for event in sysmon %}// Event ID {{event['id']}}
+//--------------------------
+let {{event['name']}}_{{event['id']}}{% raw %}=() {
 let processEvents = EventData
 | where EventID == {% endraw %}{{event['id']}}
-| extend {% for field in event['events'] %}{{field['name']}}{% raw %} = EventDetail.[{% endraw %}{{field['index']}}{% raw %}].["#text"]{% endraw %}{{ ", " if not loop.last else "" }}{% endfor %}
-{% for e in event['events'] %}{% for k,v in e.items() %}{% if v == 'Hashes' %}{% raw %}| parse Hashes with * 'SHA1=' SHA1 ',' * 'MD5=' MD5 ',' * 'SHA256=' SHA256 ',' * 'IMPHASH=' IMPHASH{% endraw %}{% endif %}{%- endfor -%}{%- endfor -%}{% raw %}| project-away EventDetail
+| extend {% for field in event['events'] if field['name'] != 'Hashes' %}{{field['name']}}{% raw %} = EventDetail.[{% endraw %}{{field['index']}}{% raw %}].["#text"]{% endraw %}{{ ", " if not loop.last else "" }}
+{% endfor -%}
+{% for field in event['events'] -%}
+    {% if field['name'] == 'Hashes' -%}
+        {%- raw %}| extend Hashes = extract_all(@"(?P<key>\w+)=(?P<value>[a-zA-Z0-9]+)", dynamic(["key","value"]), tostring(EventDetail.[{% endraw %}{{field['index']}}{% raw %}].["#text"])){% endraw %}
+        {%- raw %}| mv-apply Hashes on (summarize Hashes = make_bag(pack(tostring(Hashes[0]), tostring(Hashes[1])))){% endraw %}
+{% endif %}{% endfor %}
+{%- raw %}| project-away EventDetail
 ;
 processEvents;
 };
 {% endraw %}
 {%- endfor -%}
 {% raw %}(union isfuzzy=true{% endraw %}
-{% for event in sysmon %}{{event['name']}}_{{event['id']}}{{ ", " if not loop.last else "" }}{% endfor %}){% raw %}
-| extend Details = column_ifexists("Details", ""), RuleName = column_ifexists("RuleName", ""), PreviousCreationUtcTime=column_ifexists("PreviousCreationUtcTime", ""){% endraw %}
-{%raw%}| project {% endraw %}{% for uniqueevent in uniquesysmon %}{{ uniqueevent }}{{ ", " if not loop.last else "" }}{% endfor %}
+{% for event in sysmon -%}
+    {{event['name']}}_{{event['id']}}{{ ", " if not loop.last else "" }}
+{% endfor -%}){% raw %}
+| extend Details = column_ifexists("Details", ""), 
+RuleName = column_ifexists("RuleName", ""),
+PreviousCreationUtcTime=column_ifexists("PreviousCreationUtcTime", ""),
+Hashes = column_ifexists("Hashes", ""){% endraw %}
+{%raw%}| project {% endraw %}{% for uniqueevent in uniquesysmon %}{{ uniqueevent }}{{ ", " if not loop.last else "" }}
+{% endfor -%}
