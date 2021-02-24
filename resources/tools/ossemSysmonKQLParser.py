@@ -90,7 +90,7 @@ for item in eventlist:
 
 # ******** Unique List of Events ****************
 log.info('Creating a list of all unique field names')
-unique_fields = ['EventID']
+unique_fields = ['TimeGenerated','Source','Computer','UserName','EventID']
 for sysevent in all_sysmon:
     for field in sysevent['events']:
         if field['name'] not in unique_fields:
