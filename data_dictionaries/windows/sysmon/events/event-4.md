@@ -7,7 +7,7 @@ The **service state change** event reports the state of the Sysmon service (star
 ## Data Dictionary
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
-|event_date_creation|UtcTime|date|Time in UTC when event was created|`4/11/18 5:36`|
+|event_creation_time|UtcTime|date|Time in UTC when event was created|`4/11/18 5:36`|
 |service_state|State|string|sysmon service state (i.e. stopped)|`Stopped`|
 |file_version|Version|string|sysmon version|`7.01`|
 |sysmon_schema_version|SchemaVersion|string|sysmon config schema version|`4`|

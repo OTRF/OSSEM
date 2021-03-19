@@ -15,7 +15,7 @@ event_fields:
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_date_creation
+- standard_name: event_creation_time
   standard_type: TBD
   name: UtcTime
   type: date
@@ -33,7 +33,7 @@ event_fields:
   type: integer
   description: Process ID used by the os to identify the created process (child)
   sample_value: '4756'
-- standard_name: process_path
+- standard_name: process_file_path
   standard_type: TBD
   name: Image
   type: string
@@ -79,7 +79,7 @@ event_fields:
   description: Arguments which were passed to the executable associated with the main
     process
   sample_value: ??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1
-- standard_name: file_current_directory
+- standard_name: process_file_directory
   standard_type: TBD
   name: CurrentDirectory
   type: string
@@ -138,7 +138,7 @@ event_fields:
   type: integer
   description: Process ID of the process that spawned/created the main process (child)
   sample_value: '240'
-- standard_name: process_parent_path
+- standard_name: process_parent_file_path
   standard_type: TBD
   name: ParentImage
   type: string

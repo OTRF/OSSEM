@@ -8,13 +8,13 @@ The **CreateRemoteThread** event detects when a process creates a thread in anot
 |Standard Name|Field Name|Type|Description|Sample Value|
 |---|---|---|---|---|
 |tag|RuleName|string|custom tag mapped to event. i.e ATT&CK technique ID|`T1114`|
-|event_date_creation|UtcTime|date|Time in UTC when event was created|`4/11/18 5:25`|
+|event_creation_time|UtcTime|date|Time in UTC when event was created|`4/11/18 5:25`|
 |process_guid|SourceProcessGuid|string|Process Guid of the source process that created a thread in another process|`{A98268C1-9586-5ACD-0000-001070A20000}`|
 |process_id|SourceProcessId|integer|Process ID used by the os to identify the source process that created a thread in another process|`684`|
-|process_path|SourceImage|string|File path of the source process that created a thread in another process|`C:\Windows\System32\csrss.exe`|
+|process_file_path|SourceImage|string|File path of the source process that created a thread in another process|`C:\Windows\System32\csrss.exe`|
 |target_process_guid|TargetProcessGuid|string|Process Guid of the target process|`{A98268C1-9C2E-5ACD-0000-00100266AB00}`|
 |target_process_id|TargetProcessId|integer|Process ID used by the os to identify the target process|`240`|
-|target_process_path|TargetImage|string|File path of the target process|`C:\Windows\System32\cmd.exe`|
+|target_process_file_path|TargetImage|string|File path of the target process|`C:\Windows\System32\cmd.exe`|
 |thread_new_id|NewThreadId|integer|Id of the new thread created in the target process|`2336`|
 |thread_start_address|StartAddress|string|New thread start address|`0x00007FFA356A7E40`|
 |thread_start_module|StartModule|string|Start module determined from thread start address mapping to PEB loaded module list|`C:\WINDOWS\System32\KERNELBASE.dll`|

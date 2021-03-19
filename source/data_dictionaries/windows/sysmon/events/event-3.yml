@@ -14,7 +14,7 @@ event_fields:
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_date_creation
+- standard_name: event_creation_time
   standard_type: TBD
   name: UtcTime
   type: date
@@ -33,7 +33,7 @@ event_fields:
   description: Process ID used by the os to identify the process that made the network
     connection
   sample_value: '4'
-- standard_name: process_path
+- standard_name: process_file_path
   standard_type: TBD
   name: Image
   type: string
@@ -52,13 +52,13 @@ event_fields:
   type: string
   description: Protocol being used for the network connection
   sample_value: udp
-- standard_name: network_connection_initiated
+- standard_name: network_initiated
   standard_type: TBD
   name: Initiated
   type: boolean
   description: Indicated process initiated tcp connection
   sample_value: 'FALSE'
-- standard_name: src_is_ipv6
+- standard_name: src_ip_is_ipv6
   standard_type: TBD
   name: SourceIsIpv6
   type: boolean
@@ -70,13 +70,13 @@ event_fields:
   type: ip
   description: source ip address that made the network connection
   sample_value: 192.168.64.255
-- standard_name: src_host_name
+- standard_name: src_dvc_hostname
   standard_type: TBD
   name: SourceHostname
   type: string
   description: name of the host that made the network connection
   sample_value: computer_name or none for broadcast
-- standard_name: src_port
+- standard_name: src_port_number
   standard_type: TBD
   name: SourcePort
   type: integer
@@ -88,7 +88,7 @@ event_fields:
   type: string
   description: name of the source port being used (i.e. netbios-dgm)
   sample_value: netbios-dgm
-- standard_name: dst_is_ipv6
+- standard_name: dst_ip_is_ipv6
   standard_type: TBD
   name: DestinationIsIpv6
   type: boolean
@@ -100,13 +100,13 @@ event_fields:
   type: ip
   description: ip address destination
   sample_value: 192.168.64.135
-- standard_name: dst_host_name
+- standard_name: dst_dvc_hostname
   standard_type: TBD
   name: DestinationHostname
   type: string
   description: name of the host that received the network connection
   sample_value: DC-WD-001
-- standard_name: dst_port
+- standard_name: dst_port_number
   standard_type: TBD
   name: DestinationPort
   type: integer

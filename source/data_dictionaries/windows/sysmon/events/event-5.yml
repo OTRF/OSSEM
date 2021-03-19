@@ -12,7 +12,7 @@ event_fields:
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_date_creation
+- standard_name: event_creation_time
   standard_type: TBD
   name: UtcTime
   type: date
@@ -30,7 +30,7 @@ event_fields:
   type: integer
   description: Process ID used by the os to identify the process that terminated
   sample_value: '2428'
-- standard_name: process_path
+- standard_name: process_file_path
   standard_type: TBD
   name: Image
   type: string

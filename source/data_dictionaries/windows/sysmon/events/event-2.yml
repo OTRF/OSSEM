@@ -16,7 +16,7 @@ event_fields:
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_date_creation
+- standard_name: event_creation_time
   standard_type: TBD
   name: UtcTime
   type: date
@@ -35,7 +35,7 @@ event_fields:
   description: Process ID used by the os to identify the process changing the file
     creation time
   sample_value: '1252'
-- standard_name: process_path
+- standard_name: process_file_path
   standard_type: TBD
   name: Image
   type: string
@@ -47,13 +47,13 @@ event_fields:
   type: string
   description: full path name of the file
   sample_value: C:\Users\wardog\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\7G23PHTPHSQ3S2RVKKPS.temp
-- standard_name: file_date_creation
+- standard_name: file_creation_time
   standard_type: TBD
   name: CreationUtcTime
   type: date
   description: new creation time of the file
   sample_value: 11/13/17 16:57
-- standard_name: file_previous_date_creation
+- standard_name: file_previous_creation_time
   standard_type: TBD
   name: PreviousCreationUtcTime
   type: date

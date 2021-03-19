@@ -12,7 +12,7 @@ event_fields:
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_date_creation
+- standard_name: event_creation_time
   standard_type: TBD
   name: UtcTime
   type: date
@@ -36,19 +36,19 @@ event_fields:
   type: string
   description: DNS query name
   sample_value: chrome.google.com
-- standard_name: dns_query_status
+- standard_name: dns_response_code
   standard_type: TBD
   name: QueryStatus
   type: string
   description: DNS query status
   sample_value: '0'
-- standard_name: dns_query_results
+- standard_name: dns_response_name
   standard_type: TBD
   name: QueryResults
   type: string
   description: DNS query results
   sample_value: 'type: 5 www3.l.google.com;172.217.7.206;'
-- standard_name: process_path
+- standard_name: process_file_path
   standard_type: TBD
   name: Image
   type: string

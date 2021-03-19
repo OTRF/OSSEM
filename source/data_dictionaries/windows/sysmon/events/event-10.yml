@@ -18,7 +18,7 @@ event_fields:
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_date_creation
+- standard_name: event_creation_time
   standard_type: TBD
   name: UtcTime
   type: date
@@ -46,7 +46,7 @@ event_fields:
   description: ID of the specific thread inside of the source process that opened
     another process
   sample_value: '2804'
-- standard_name: process_path
+- standard_name: process_file_path
   standard_type: TBD
   name: SourceImage
   type: string
@@ -64,7 +64,7 @@ event_fields:
   type: integer
   description: Process ID used by the os to identify the target process
   sample_value: '2288'
-- standard_name: target_process_path
+- standard_name: target_process_file_path
   standard_type: TBD
   name: TargetImage
   type: string
