@@ -12,7 +12,7 @@
 |process_guid|ProcessGuid|string|Process Guid of the process that created the file|`{A98268C1-958A-5ACD-0000-0010C62F0100}`|
 |process_id|ProcessId|integer|Process ID used by the os to identify the process that created the file (child)|`1044`|
 |process_file_path|Image|string|File path of the process that created the file|`C:\WINDOWS\System32\svchost.exe`|
-|file_name|TargetFilename|string|Name of the file|`C:\Windows\Prefetch\CONHOST.EXE-1F3E9D7E.pf`|
+|file_path|TargetFilename|string|Name of the file|`C:\Windows\Prefetch\CONHOST.EXE-1F3E9D7E.pf`|
 |file_creation_time|CreationUtcTime|date|File creation time|`12/4/17 17:38`|
 
 ## References

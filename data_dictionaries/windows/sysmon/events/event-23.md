@@ -13,7 +13,7 @@ This event logs when a **file is deleted** by a process.
 |process_id|ProcessId|integer|Process ID used by the os to identify the process that deleted the file|`1896`|
 |process_file_path|Image|string|File path of the process that deleted the file|`C:\WINDOWS\system32\explorer.exe`|
 |user_name|User|string|Name of the account who deleted the file.|`DESKTOP-WARDOG\wardog`|
-|file_name|TargetFilename|string|full path name of the deleted file|`C:\Users\wardog\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\7G23PHTPHSQ3S2RVKKPS.temp`|
+|file_path|TargetFilename|string|full path name of the deleted file|`C:\Users\wardog\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\7G23PHTPHSQ3S2RVKKPS.temp`|
 |TBD|Hashes|string|Hashes captured by sysmon driver of the deleted file|`SHA1=B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2, MD5=6A255BEBF3DBCD13585538ED47DBAFD7, SHA256=4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C, IMPHASH=2505BD03D7BD285E50CE89CEC02B333B`|
 |TBD|IsExecutable|bool|TBD|`TBD`|
 |TBD|Archived|string|States if the file was archived when deleted|`True`|
