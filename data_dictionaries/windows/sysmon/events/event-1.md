@@ -12,11 +12,11 @@ The **process creation** event provides extended information about a newly creat
 |process_guid|ProcessGuid|string|Process Guid of the process that got spawned/created (child)|`{A98268C1-9C2E-5ACD-0000-0010396CAB00}`|
 |process_id|ProcessId|integer|Process ID used by the os to identify the created process (child)|`4756`|
 |process_file_path|Image|string|File path of the process being spawned/created. Considered also the child or source process|`C:\Windows\System32\conhost.exe`|
-|file_version|FileVersion|string|Version of the image associated with the main process (child)|`10.0.16299.15 (WinBuild.160101.0800)`|
-|file_description|Description|string|Description of the image associated with the main process (child)|`Console Window Host`|
-|file_product|Product|string|Product name the image associated with the main process (child) belongs to|`Microsoft® Windows® Operating System`|
-|file_company|Company|string|Company name the image associated with the main process (child) belongs to|`Microsoft Corporation`|
-|file_name_original|OriginalFileName|string|original file name|`wuauclt.exe`|
+|process_file_version|FileVersion|string|Version of the image associated with the main process (child)|`10.0.16299.15 (WinBuild.160101.0800)`|
+|process_file_description|Description|string|Description of the image associated with the main process (child)|`Console Window Host`|
+|process_file_product|Product|string|Product name the image associated with the main process (child) belongs to|`Microsoft® Windows® Operating System`|
+|process_file_company|Company|string|Company name the image associated with the main process (child) belongs to|`Microsoft Corporation`|
+|process_file_name_original|OriginalFileName|string|original file name|`wuauclt.exe`|
 |process_command_line|CommandLine|string|Arguments which were passed to the executable associated with the main process|`??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1`|
 |process_file_directory|CurrentDirectory|string|The path without the name of the image associated with the process|`C:\WINDOWS`|
 |user_name|User|string|Name of the account who created the process (child) . It usually contains domain name and user name (Parsed to show only username without the domain)|`DESKTOP-WARDOG\wardog`|
