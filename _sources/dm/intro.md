@@ -1,6 +1,14 @@
 # Introduction
 
-This part of the project focuses on defining the required data in form of data objects and the relationships among each other needed to facilitate the creation of data analytics and validate the detection of adversary techniques. This is inspired by the awesome work of MITRE with their project https://github.com/mitre-attack/attack-datasources.
+This part of the project focuses on defining the required data in form of data objects and the relationships among each other needed to facilitate the creation of data analytics and validate the detection of adversary techniques. We have also extended this concept to the MITRE-ATT&CK framework [here](use-cases/mitre_attack).
+
+## Available documents
+|File|Description|
+|---|---|
+|[OSSEM Event Mappings (YAML file)](https://github.com/OTRF/OSSEM-DM/blob/main/relationships/_all_ossem_relationships.yml)|Security event logs mapped to OSSEM relationships (Includes ATT&CK data sources metadata)||
+|[ATT&CK Event Mappings (MD file)](https://github.com/OTRF/OSSEM/tree/master/docs/dm/mitre_attack/attack_ds_events_mappings.md)|Security event logs mapped to ATT&CK Data Sources Objects||
+|[ATT&CK Event Mappings (YAML file)](https://github.com/OTRF/OSSEM-DM/blob/main/use-cases/mitre_attack/attack_relationships.yml)|Security event logs mapped to ATT&CK Data Sources Objects||
+|[ATT&CK Event Mappings (CVS file)](https://github.com/OTRF/OSSEM-DM/blob/main/use-cases/mitre_attack/attack_events_mapping.csv)|Security event logs mapped to ATT&CK Data Sources Objects||
 
 ## References
 * [Defining ATT&CK Data Sources, Part I: Enhancing the Current State](https://medium.com/mitre-attack/defining-attack-data-sources-part-i-4c39e581454f)
