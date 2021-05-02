@@ -3,7 +3,7 @@
   chapters:
   - file: dd/intro
   - file: dd/guidelines/intro
-    sections: 
+    sections:
     - file: dd/guidelines/authoring_data_dictionaries
 - part: Common Data Model
   chapters:
@@ -57,9 +57,8 @@
 - part: Detection Model
   chapters:
   - file: dm/intro
+  - file: dm/ossem_relationships_to_events
   - file: dm/mitre_attack/intro
     sections:
-      - file: dm/mitre_attack/data_sources
-      - file: dm/mitre_attack/security_events_mappings
-  - file: dm/relationships
-  - file: notebooks/dm/attack_ds_event_mappings_nb
+    - file: dm/mitre_attack/attack_techniques_to_events
+    - file: dm/mitre_attack/security_events_mappings
