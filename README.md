@@ -29,7 +29,7 @@ There are three main folders:
   * Besides data [schema entities](https://github.com/OTRF/OSSEM-CDM/tree/master/schemas/entities), it provides the concept of [schema tables](https://github.com/OTRF/OSSEM-CDM/tree/master/schemas/tables) to aggregate common entities that can be used to parse several data sources with similar context. For example, the HTTP,Port and User Agent entities can be used to normalize data providing context about the network traffic metadata captured in a network environment. 
 * **Data Dictionaries (DD)**:
   * Contains specific information about several security event logs organized by operating system and their respective data providers
-  * Each dictionary describes a single event log and its corresponding event field names
+  * Each [dictionary](https://github.com/OTRF/OSSEM-DD) describes a single event log and its corresponding event field names
   * It provides the foundational concepts to create a data wiki in an organization.
 * **Detection Model (DM)**:
   * Focuses on defining the required data in form of data objects and [relationships](https://github.com/OTRF/OSSEM-DM/tree/main/relationships) among each other needed to facilitate the creation of data analytics and validate the detection of adversary techniques
