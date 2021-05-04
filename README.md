@@ -32,13 +32,14 @@ There are three main folders:
   * Each dictionary describes a single event log and its corresponding event field names
   * It provides the foundational concepts to create a data wiki in an organization.
 * **Detection Model (DM)**:
-  * Focuses on defining the required data in form of data objects and relationships among each other needed to facilitate the creation of data analytics and validate the detection of adversary techniques
+  * Focuses on defining the required data in form of data objects and [relationships](https://github.com/OTRF/OSSEM-DM/tree/main/relationships) among each other needed to facilitate the creation of data analytics and validate the detection of adversary techniques
   * Developed initially to extend the definitions of ATT&CK Data Sources.
     * [MITRE ATT&CKcon 2018: Hunters ATT&CKing with the Data](https://youtu.be/QCDBjFJ_C3g)
     * [MITRE ATT&CKcon 2.0: Ready to ATT&CK? Bring Your Own Data (BYOD) and Validate Your Data Analytics!](https://youtu.be/eM0c_Gil-38)
   * Initial work in this project has been migrated to ATT&CK and improved by [@Cyb3rPandah](https://twitter.com/Cyb3rPandaH)
     * [Defining ATT&CK Data Sources, Part I: Enhancing the Current State](https://medium.com/mitre-attack/defining-attack-data-sources-part-i-4c39e581454f)
-    * This part of the project is an extension of the [ATT&CK Data Sources Objects](https://github.com/mitre-attack/attack-datasources) repo.
+    * [Defining ATT&CK Data Sources, Part II: Operationalizing the Methodology](https://medium.com/mitre-attack/defining-attack-data-sources-part-ii-1fc98738ba5b)
+    * This part of the project considers a use case that extends the [ATT&CK Data Sources Objects](https://github.com/mitre-attack/attack-datasources) project [here](https://github.com/OTRF/OSSEM-DM/tree/main/use-cases/mitre_attack).
 
 # Author
 
