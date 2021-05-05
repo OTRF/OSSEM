@@ -80,7 +80,7 @@ Event fields used to define/normalize the source (client) in a network connectio
  | src_process_file_directory | string | Current working directory for the Image file related to the process. It does not include the Image file name. Only the Path. | ```C:\WINDOWS\system32\``` |
  | src_process_file_name | string | Name of the Image file or executable file used to define the initial code and data mapped into the process' virtual address space. This does not contain the full patth of the Image file. | ```conhost.exe``` |
  | src_process_file_path | string | The complete path and name of the Image file or executable file used to define the initial code and data mapped into the process' virtual address space. | ```C:\Windows\System32\conhost.exe``` |
- | src_process_file_product | string | The Image's file product name | ```Microsoft® Windows® Operating System``` |
+ | src_process_file_product | string | The Image's file product name | ```MicrosoftÂ® WindowsÂ® Operating System``` |
  | src_process_file_version | string | Version of the Image file | ```10.0.16299.15 (WinBuild.160101.0800)``` |
  | src_process_granted_access | string | granted access code requested/used to open a target process | ```0x1000``` |
  | src_process_guid | string | Process global unique identifer used to identify a process across other operating systems. This can be created by group hashing values such as Process Name, Process Id, Process Start Time, Process Path and even Computer Name. Datasets such as Sysmon call this the ProcessGuid. This is similar to the output from the UUIDGEN command. | ```A98268C1-9C2E-5ACD-0000-0010396CAB00``` |
@@ -101,7 +101,7 @@ Event fields used to define/normalize the source (client) in a network connectio
  | src_process_parent_file_directory | string | Current working directory for the Image file related to the process. It does not include the Image file name. Only the Path. | ```C:\WINDOWS\system32\``` |
  | src_process_parent_file_name | string | Name of the Image file or executable file used to define the initial code and data mapped into the process' virtual address space. This does not contain the full patth of the Image file. | ```conhost.exe``` |
  | src_process_parent_file_path | string | The complete path and name of the Image file or executable file used to define the initial code and data mapped into the process' virtual address space. | ```C:\Windows\System32\conhost.exe``` |
- | src_process_parent_file_product | string | The Image's file product name | ```Microsoft® Windows® Operating System``` |
+ | src_process_parent_file_product | string | The Image's file product name | ```MicrosoftÂ® WindowsÂ® Operating System``` |
  | src_process_parent_file_version | string | Version of the Image file | ```10.0.16299.15 (WinBuild.160101.0800)``` |
  | src_process_parent_granted_access | string | granted access code requested/used to open a target process | ```0x1000``` |
  | src_process_parent_guid | string | Process global unique identifer used to identify a process across other operating systems. This can be created by group hashing values such as Process Name, Process Id, Process Start Time, Process Path and even Computer Name. Datasets such as Sysmon call this the ProcessGuid. This is similar to the output from the UUIDGEN command. | ```A98268C1-9C2E-5ACD-0000-0010396CAB00``` |
