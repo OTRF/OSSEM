@@ -23,7 +23,7 @@ RUN adduser --disabled-password \
 USER ${NB_USER}
 
 RUN mkdir -p ${HOME}/docs/notebooks \
-    && python3 -m pip install requests PyYAML attackcti==0.3.4.3 pandas==1.1.4 bokeh==2.2.3 networkx==2.5 --user
+    && python3 -m pip install requests PyYAML attackcti==0.3.4.3 pandas==1.1.4 bokeh==2.2.3 networkx==2.5 openhunt==1.7.7 --user
 
 COPY docs/dm ${HOME}/docs/dm
 
