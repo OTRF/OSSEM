@@ -25,7 +25,7 @@ USER ${NB_USER}
 RUN mkdir -p ${HOME}/docs/notebooks \
     && python3 -m pip install requests PyYAML attackcti==0.3.4.3 pandas==1.1.4 bokeh==2.2.3 networkx==2.5 --user
 
-COPY docs/notebooks ${HOME}/docs/notebooks
+COPY docs/dm ${HOME}/docs/dm
 
 USER root
 
