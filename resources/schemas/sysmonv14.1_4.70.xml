@@ -1,4 +1,4 @@
-<manifest schemaversion="4.60" binaryversion="14.0">
+<manifest schemaversion="4.70" binaryversion="14.1">
   <configuration>
     <options>
       <!-- Command-line only options -->
@@ -25,7 +25,7 @@
       <option switch="n" name="NetworkConnect" argument="optional" rule="true" />
       <option switch="r" name="CheckRevocation" argument="optional" />
     </options>
-    <filters default="is">is,is not,contains,contains any,is any,contains all,excludes,excludes any,excludes all,begin with,end with,less than,more than,image</filters>
+    <filters default="is">is,is not,contains,contains any,is any,contains all,excludes,excludes any,excludes all,begin with,not begin with,end with,not end with,less than,more than,image</filters>
   </configuration>
   <events>
     <event name="SYSMONEVENT_ERROR" value="255" level="Error" template="Error report" version="3">
