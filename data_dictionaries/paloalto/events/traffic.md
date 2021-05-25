@@ -1,0 +1,83 @@
+# Traffic Log
+
+## Description
+Palo Alto Networks Traffic log fields.
+based on [version 9.1 syslog format output](https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-admin/monitoring/use-syslog-for-monitoring/syslog-field-descriptions/traffic-log-fields.html)
+
+## Data Dictionary
+
+| Standard Name                     | Field Name                      | Type                            | Description                                                                                                                                               | Sample Value                                                                                                                                                                                                                                              |
+| -------------------------------   | ------------------------------- | ------------------------------- | -------------------------------                                                                                                                           | -------------------------------                                                                                                                                                                                                                           |
+|	TBD	|	Receive Time (receive_time or cef-formatted-receive_time)	|	TBD	|	Time the log was received at the management plane.	|	``	|
+|	TBD	|	Serial Number (serial)	|	TBD	|	Serial number of the firewall that generated the log.	|	``	|
+|	#TODO: this should maybe be event_type  change zeek stuff or other stuff.. use event_vendor for what was previously event_type.. and change rest...	|	Type (type)	|	TBD	|	Specifies the type of log; value is TRAFFIC.	|	``	|
+|	#TODO: this should maybe be event_sub_type change zeek stuff or other stuff.. use event_vendor for what was previously event_type.. and change rest...	|	Threat/Content Type (subtype)	|	TBD	|	Subtype of traffic log; values are start, end, drop, and deny Start—session started End—session ended Drop—session dropped before the application is identified and there is no rule that allows the session. Deny—session dropped after the application is identified and there is a rule to block or no rule that allows the session.	|	``	|
+|	event_recorded_time	|	Generated Time (time_generated or cef-formatted-time_generated)	|	TBD	|	Time the log was generated on the dataplane.	|	``	|
+|	src_ip_addr	|	Source Address (src)	|	TBD	|	Original session source IP address.	|	``	|
+|	dst_ip_addr	|	Destination Address (dst)	|	TBD	|	Original session destination IP address.	|	``	|
+|	src_nat_ip_addr	|	NAT Source IP (natsrc)	|	TBD	|	If Source NAT performed, the post-NAT Source IP address.	|	``	|
+|	dst_nat_ip_addr	|	NAT Destination IP (natdst)	|	TBD	|	If Destination NAT performed, the post-NAT Destination IP address.	|	``	|
+|	TBD	|	Rule Name (rule)	|	TBD	|	Name of the rule that the session matched.	|	``	|
+|	src_user_name	|	Source User (srcuser)	|	TBD	|	Username of the user who initiated the session.	|	``	|
+|	dst_user_name	|	Destination User (dstuser)	|	TBD	|	Username of the user to which the session was destined.	|	``	|
+|	network_application_protocol	|	Application (app)	|	TBD	|	Application associated with the session.	|	``	|
+|	TBD	|	Virtual System (vsys)	|	TBD	|	Virtual System associated with the session.	|	``	|
+|	TBD	|	Source Zone (from)	|	TBD	|	Zone the session was sourced from.	|	``	|
+|	TBD	|	Destination Zone (to)	|	TBD	|	Zone the session was destined to.	|	``	|
+|	TBD	|	Inbound Interface (inbound_if)	|	TBD	|	Interface that the session was sourced from.	|	``	|
+|	TBD	|	Outbound Interface (outbound_if)	|	TBD	|	Interface that the session was destined to.	|	``	|
+|	TBD	|	Log Action (logset)	|	TBD	|	Log Forwarding Profile that was applied to the session.	|	``	|
+|	TBD	|	Session ID (sessionid)	|	TBD	|	An internal numerical identifier applied to each session.	|	``	|
+|	TBD	|	Repeat Count (repeatcnt)	|	TBD	|	Number of sessions with same Source IP, Destination IP, Application, and Subtype seen within 5 seconds.	|	``	|
+|	src_port	|	Source Port (sport)	|	TBD	|	Source port utilized by the session.	|	``	|
+|	dst_port	|	Destination Port (dport)	|	TBD	|	Destination port utilized by the session.	|	``	|
+|	src_nat_port	|	NAT Source Port (natsport)	|	TBD	|	Post-NAT source port.	|	``	|
+|	dst_nat_port	|	NAT Destination Port (natdport)	|	TBD	|	Post-NAT destination port.	|	``	|
+|	TBD	|	Flags (flags)	|	TBD	|	32-bit field that provides details on session; this field can be decoded by AND-ing the values with the logged value: 0x80000000—session has a packet capture (PCAP) 0x40000000—option is enabled to allow a client to use multiple paths to connect to a destination host 0x20000000—file is submitted to WildFire for a verdict 0x10000000—enterprise credential submission by end user detected 0x08000000— source for the flow is whitelisted and not subject to recon protection 0x02000000—IPv6 session 0x01000000—SSL session is decrypted (SSL Proxy) 0x00800000—session is denied via URL filtering 0x00400000—session has a NAT translation performed 0x00200000—user information for the session was captured through Captive Portal 0x00100000—application traffic is on a non-standard destination port 0x00080000 —X-Forwarded-For value from a proxy is in the source user field 0x00040000—log corresponds to a transaction within a http proxy session (Proxy Transaction) 0x00020000—Client to Server flow is subject to policy based forwarding 0x00010000—Server to Client flow is subject to policy based forwarding 0x00008000—session is a container page access (Container Page) 0x00002000—session has a temporary match on a rule for implicit application dependency handling. Available in PAN-OS 5.0.0 and above. 0x00000800—symmetric return is used to forward traffic for this session 0x00000400—decrypted traffic is being sent out clear text through a mirror port 0x00000100—payload of the outer tunnel is being inspected	|	``	|
+|	TBD	|	IP Protocol (proto)	|	TBD	|	IP protocol associated with the session.	|	``	|
+|	TBD	|	Action (action)	|	TBD	|	Action taken for the session; possible values are: allow—session was allowed by policy deny—session was denied by policy drop—session was dropped silently drop ICMP—session was silently dropped with an ICMP unreachable message to the host or application reset both—session was terminated and a TCP reset is sent to both the sides of the connection reset client—session was terminated and a TCP reset is sent to the client reset server—session was terminated and a TCP reset is sent to the server	|	``	|
+|	network_bytes	|	Bytes (bytes)	|	TBD	|	Number of total bytes (transmit and receive) for the session.	|	``	|
+|	src_bytes	|	Bytes Sent (bytes_sent)	|	TBD	|	Number of bytes in the client-to-server direction of the session.	|	``	|
+|	dst_bytes	|	Bytes Received (bytes_received)	|	TBD	|	Number of bytes in the server-to-client direction of the session.	|	``	|
+|	network_packets	|	Packets (packets)	|	TBD	|	Number of total packets (transmit and receive) for the session.	|	``	|
+|	event_original_time	|	Start Time (start)	|	TBD	|	Time of session start.	|	``	|
+|	event_duration	|	Elapsed Time (sec)	|	TBD	|	Elapsed time of the session.	|	``	|
+|	meta_dst_host_name_category	|	Category (category)	|	TBD	|	URL category associated with the session (if applicable).	|	``	|
+|	TBD	|	Sequence Number (seqno)	|	TBD	|	A 64-bit log entry identifier incremented sequentially; each log type has a unique number space.	|	``	|
+|	TBD	|	Action Flags (actionflags)	|	TBD	|	A bit field indicating if the log was forwarded to Panorama.	|	``	|
+|	TBD	|	Source Country (srcloc)	|	TBD	|	Source country or Internal region for private addresses; maximum length is 32 bytes.	|	``	|
+|	TBD	|	Destination Country (dstloc)	|	TBD	|	Destination country or Internal region for private addresses. Maximum length is 32 bytes.	|	``	|
+|	src_packets	|	Packets Sent (pkts_sent)	|	TBD	|	Number of client-to-server packets for the session.	|	``	|
+|	dst_packets	|	Packets Received (pkts_received)	|	TBD	|	Number of server-to-client packets for the session.	|	``	|
+|	TBD	|	Session End Reason (session_end_reason)	|	TBD	|	The reason a session terminated. If the termination had multiple causes, this field displays only the highest priority reason. The possible session end reason values are as follows, in order of priority (where the first is highest): threat—The firewall detected a threat associated with a reset, drop, or block (IP address) action. policy-deny—The session matched a security rule with a deny or drop action. decrypt-cert-validation—The session terminated because you configured the firewall to block SSL forward proxy decryption or SSL inbound inspection when the session uses client authentication or when the session uses a server certificate with any of the following conditions: expired, untrusted issuer, unknown status, or status verification time-out. This session end reason also displays when the server certificate produces a fatal error alert of type bad_certificate, unsupported_certificate, certificate_revoked, access_denied, or no_certificate_RESERVED (SSLv3 only). decrypt-unsupport-param—The session terminated because you configured the firewall to block SSL forward proxy decryption or SSL inbound inspection when the session uses an unsupported protocol version, cipher, or SSH algorithm. This session end reason is displays when the session produces a fatal error alert of type unsupported_extension, unexpected_message, or handshake_failure. decrypt-error—The session terminated because you configured the firewall to block SSL forward proxy decryption or SSL inbound inspection when firewall resources or the hardware security module (HSM) were unavailable. This session end reason is also displayed when you configured the firewall to block SSL traffic that has SSH errors or that produced any fatal error alert other than those listed for the decrypt-cert-validation and decrypt-unsupport-param end reasons. tcp-rst-from-client—The client sent a TCP reset to the server. tcp-rst-from-server—The server sent a TCP reset to the client. resources-unavailable—The session dropped because of a system resource limitation. For example, the session could have exceeded the number of out-of-order packets allowed per flow or the global out-of-order packet queue. tcp-fin—One host or both hosts in the connection sent a TCP FIN message to close the session. tcp-reuse—A session is reused and the firewall closes the previous session. decoder—The decoder detects a new connection within the protocol (such as HTTP-Proxy) and ends the previous connection. aged-out—The session aged out. unknown—This value applies in the following situations: Session terminations that the preceding reasons do not cover (for example, a clear session all command). For logs generated in a PAN-OS release that does not support the session end reason field (releases older than PAN-OS 6.1), the value will be unknown after an upgrade to the current PAN-OS release or after the logs are loaded onto the firewall. In Panorama, logs received from firewalls for which the PAN-OS version does not support session end reasons will have a value of unknown. n/a—This value applies when the traffic log type is not end.	|	``	|
+|	TBD	|	Device Group Hierarchy (dg_hier_level_1 to dg_hier_level_4)	|	TBD	|	A sequence of identification numbers that indicate the device group’s location within a device group hierarchy. The firewall (or virtual system) generating the log includes the identification number of each ancestor in its device group hierarchy. The shared device group (level 0) is not included in this structure.If the log values are 12, 34, 45, 0, it means that the log was generated by a firewall (or virtual system) that belongs to device group 45, and its ancestors are 34, and 12. To view the device group names that correspond to the value 12, 34 or 45, use one of the following methods:API query:/api/?type=op&cmd=<show><dg-hierarchy></dg-hierarchy></show>	|	``	|
+|	TBD	|	Virtual System Name (vsys_name)	|	TBD	|	The name of the virtual system associated with the session; only valid on firewalls enabled for multiple virtual systems.	|	``	|
+|	TBD	|	Device Name (device_name)	|	TBD	|	The hostname of the firewall on which the session was logged.	|	``	|
+|	TBD	|	Action Source (action_source)	|	TBD	|	Specifies whether the action taken to allow or block an application was defined in the application or in policy. The actions can be allow, deny, drop, reset- server, reset-client or reset-both for the session.	|	``	|
+|	TBD	|	Source VM UUID (src_uuid)	|	TBD	|	Identifies the source universal unique identifier for a guest virtual machine in the VMware NSX environment.	|	``	|
+|	TBD	|	Destination VM UUID (dst_uuid)	|	TBD	|	Identifies the destination universal unique identifier for a guest virtual machine in the VMware NSX environment.	|	``	|
+|	TBD	|	Tunnel ID/IMSI (tunnelid/imsi)	|	TBD	|	International Mobile Subscriber Identity (IMSI) is a unique number allocated to each mobile subscriber in the GSM/UMTS/EPS system. IMSI shall consist of decimal digits (0 through 9) only and maximum number of digits allowed are 15.	|	``	|
+|	TBD	|	Monitor Tag/IMEI (monitortag/imei)	|	TBD	|	International Mobile Equipment Identity (IMEI) is a unique 15 or 16 digit number allocated to each mobile station equipment.	|	``	|
+|	TBD	|	Parent Session ID (parent_session_id)	|	TBD	|	ID of the session in which this session is tunneled. Applies to inner tunnel (if two levels of tunneling) or inside content (if one level of tunneling) only.	|	``	|
+|	TBD	|	Parent Start Time (parent_start_time)	|	TBD	|	Year/month/day hours:minutes:seconds that the parent tunnel session began.	|	``	|
+|	TBD	|	Tunnel Type (tunnel)	|	TBD	|	Type of tunnel, such as GRE or IPSec.	|	``	|
+|	TBD	|	SCTP Association ID (assoc_id)	|	TBD	|	Number that identifies all connections for an association between two SCTP endpoints.	|	``	|
+|	TBD	|	SCTP Chunks (chunks)	|	TBD	|	Sum of SCTP chunks sent and received for an association.	|	``	|
+|	TBD	|	SCTP Chunks Sent (chunks_sent)	|	TBD	|	Number of SCTP chunks sent for an association.	|	``	|
+|	TBD	|	SCTP Chunks Received (chunks_received)	|	TBD	|	Number of SCTP chunks received for an association.	|	``	|
+|	TBD	|	Rule UUID (rule_uuid)	|	TBD	|	The UUID that permanently identifies the rule.	|	``	|
+|	TBD	|	HTTP/2 Connection	|	TBD	|	Identifies if traffic used an HTTP/2 Connection by displaying one of the following values: Parent session ID—HTTP/2 connection 0—SSL session	|	``	|
+|	TBD	|	Link Change Count (link_change_count)	|	TBD	|	Number of link flaps that occurred during the session.	|	``	|
+|	TBD	|	Policy ID (policy_id)	|	TBD	|	Name of the SD-WAN policy.	|	``	|
+|	TBD	|	Link Switches (link_switches)	|	TBD	|	Contains up to four link flap entries, with each entry containing the link name, link tag, link type, physical interface, timestamp, bytes read, bytes written, link health, and link flap cause.	|	``	|
+|	TBD	|	SD-WAN Cluster (sdwan_cluster)	|	TBD	|	Name of the SD-WAN cluster.	|	``	|
+|	TBD	|	SD-WAN Device Type (sdwan_device_type)	|	TBD	|	Type of device (hub or branch).	|	``	|
+|	TBD	|	SD-WAN Cluster Type (sdwan_cluster_type)	|	TBD	|	Type of cluster (mesh or hub-spoke).	|	``	|
+|	TBD	|	SW-WAN Site (sdwan_site)	|	TBD	|	Name of the SD-WAN site.	|	``	|
+|	TBD	|	Dynamic User Group Name (dynusergroup_name)	|	TBD	|	Name of the dynamic user group that contains the user who initiated the session.	|	``	|
+
+## Event CSV
+
+```csv
+FUTURE_USE, Receive Time, Serial Number, Type, Threat/Content Type, FUTURE_USE, Generated Time, Source Address, Destination Address, NAT Source IP, NAT Destination IP, Rule Name, Source User, Destination User, Application, Virtual System, Source Zone, Destination Zone, Inbound Interface, Outbound Interface, Log Action, FUTURE_USE, Session ID, Repeat Count, Source Port, Destination Port, NAT Source Port, NAT Destination Port, Flags, Protocol, Action, Bytes, Bytes Sent, Bytes Received, Packets, Start Time, Elapsed Time, Category, FUTURE_USE, Sequence Number, Action Flags, Source Location, Destination Location, FUTURE_USE, Packets Sent, Packets Received, Session End Reason, Device Group Hierarchy Level 1, Device Group Hierarchy Level 2, Device Group Hierarchy Level 3, Device Group Hierarchy Level 4, Virtual System Name, Device Name, Action Source, Source VM UUID, Destination VM UUID, Tunnel ID/IMSI, Monitor Tag/IMEI, Parent Session ID, Parent Start Time, Tunnel Type, SCTP Association ID, SCTP Chunks, SCTP Chunks Sent, SCTP Chunks Received, Rule UUID, HTTP/2 Connection, Link Change Count, Policy ID, Link Switches, SD-WAN Cluster, SD-WAN Device Type, SD-WAN Site, Dynamic User Group Name
+```
