@@ -68,14 +68,20 @@ conn
 - Network connection
 ```
 
-We have created a [python script](https://github.com/OTRF/OSSEM/tree/master/resources/scripts/md_to_yaml.py) to parse markdown files that follow the structure of this template into yaml files (the official contribution format). By using the following commands, you can parse all the **.md** files in your current directory (except readme.md).
+We have created a [python script](https://github.com/OTRF/OSSEM/tree/master/resources/scripts/md_to_yaml.py) that creates a data dictionary in yaml format per markdown file. The name of the markdown file will be used as the name of the yaml file. By using the following commands, you can parse all the **.md** files in your current directory (except readme.md).
 
 ```python
 python3 md_to_yaml.py
 ```
 
 ### MS Excel
-Coming Soon!! :D
+If you love working on MS Excel, you can use the following [template](https://github.com/OTRF/OSSEM/tree/master/resources/scripts/templates/xlsx_to_yaml_template.xlsx) in order to document your proposed data dictionaries.
+
+We have created a [python script](https://github.com/OTRF/OSSEM/tree/master/resources/scripts/xlsx_to_yaml.py) that creates a data dictionary in yaml format per sheet within the Ms Excel file. The name of the sheet will be used as the name of the yaml file. By using the following commands, you can parse all the **.xlsx** files in your current directory.
+
+```python
+python3 xlsx_to_yaml.py
+```
 
 ## How to Contribute?
 All the data dictionaries in yaml format are stored in the [OSSEM-DD](https://github.com/OTRF/OSSEM-DD) sub-repository. You can add a new data dictionary following the organization section of the [data dictionary authoring guide](https://github.com/OTRF/OSSEM/blob/master/docs/dd/guidelines/authoring_data_dictionaries.md)
