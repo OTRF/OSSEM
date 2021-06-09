@@ -28,12 +28,12 @@ The event **definion** fields are:
 * Platform: the platform where the log source is hosted
 * Log source: the log source that generates the event
 * Event code: the code or ID of the event
+* Event version: the version of the event
 * Reference list: text and link for external references relevant to the event
 * Tag list: tags applicable to the event
 
 For every **field** in the event, the properties are:
 * Standard name: the standard name assigned to the field name, if applicable
-* Standard type: the standard type assigned to the field type, if applicable
 * Name: the field name as per vendor documentation
 * Type: the field type as per vendor documentation
 * Description: the field description
@@ -46,27 +46,24 @@ description: This event generates every time system time was changed.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
 event_code: '4616'
+event_version: '1'
 event_fields:
 - standard_name: user_sid
-  standard_type: TBD
   name: SubjectUserSid
   type: SID
   description: SID of account that requested the "change system time" operation.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
 - standard_name: user_name
-  standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
   description: the name of the account that requested the "change system time" operation.
   sample_value: dadmin
 - standard_name: user_domain
-  standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
   description: subject's domain or computer name.
   sample_value: CONTOSO
 - standard_name: user_logon_id
-  standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
   description: 'hexadecimal value that can help you correlate this event with recent
@@ -74,19 +71,16 @@ event_fields:
     successfully logged on".'
   sample_value: '0x48f29'
 - standard_name: TBD
-  standard_type: TBD
   name: PreviousTime
   type: FILETIME
   description: previous time in UTC time zone.
   sample_value: '2015-10-09T05:04:30.000941900Z'
 - standard_name: TBD
-  standard_type: TBD
   name: NewTime
   type: FILETIME
   description: new time that was set in UTC time zone.
   sample_value: '2015-10-09T05:04:30.000000000Z'
 - standard_name: process_id
-  standard_type: TBD
   name: ProcessId
   type: Pointer
   description: hexadecimal Process ID of the process that changed the system time.
@@ -94,7 +88,6 @@ event_fields:
     an active process.
   sample_value: '0x1074'
 - standard_name: process_path
-  standard_type: TBD
   name: ProcessName
   type: UnicodeString
   description: full path and the name of the executable for the process.
@@ -115,25 +108,23 @@ tags:
 ```
 
 ### Standardization
-The **standard_name** and **standard_type** are special properties of event fields, as they represent the first layer of data standardization on the event.
+The **standard_name** is a special property of event fields, as it represents the first layer of data standardization on the event.
 
 In the example above (event 4616), the `SubjectUserSid` name was *translated* to `user_logon_id` standard name. This *translation* ensures the data dictionary is aligned with the [Common Data Model](https://ossemproject.com/cdm/intro.html) (CDM) [User schema](https://ossemproject.com/cdm/entities/user.html), reduces complexity, and enhances the development of detection analytics.
-
-The `standard type` is still work in progress, thus the *to-be-defined* default, but it aims at defining standard field types like 'boolean', 'list', 'json', etc. The goal is to provide guidance to anyone post-processing/enriching base events.
 
 Note that its not mandatory that you define a standard name for every field on your event. Some good practices when defining standard names include:
 * Search for the field name in other OSSEM events. Its not uncommon that you can apply the same standard name to identical field names, specially if the log source is the same.
 * Check if the standard name already exists in one of the [Common Data Model](https://ossemproject.com/cdm/intro.html) entities schema.
 
 ## Organization
-OSSEM built-in data dictionaries are primarily organized in a file system folder structure, that ensures the grouping according to data dictionaries characteristics. While there is no limit to the folder depth, the **root folder** and **log sources** must follow a predefined structure.
+OSSEM built-in data dictionaries are primarily organized in a file system folder structure, that ensures the grouping according to data dictionaries characteristics. While there is no limit to the folder depth, the **platform** and **log sources** folders must follow a predefined structure.
 
-Data dictionaries are located in `/source/data_dictionaries`, the **root folder**. The first level of organization is by **platform**.
+Data dictionaries are located in the [OSSEM-DD sub-repository](https://github.com/OTRF/OSSEM-DD). The first level of organization is by **platform**.
 
 An example of a build-in **Sysmon** data dictionary follows:
 ```
 .
-├── data_dictionaries   <--------- root folder
+├── OSSEM-DD            <--------- sub-repository
 │   ├── README.yml
 │   ├── windows         <--------- platform (operating system/sensor folder)
 │   │   ├── README.yml
