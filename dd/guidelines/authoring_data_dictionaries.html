@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
@@ -37,6 +37,7 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -53,7 +54,7 @@
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Introduction" href="../../cdm/intro.html" />
+    <link rel="next" title="Notebooks" href="../notebooks/intro.html" />
     <link rel="prev" title="Guidelines" href="intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -112,6 +113,23 @@
    </li>
   </ul>
  </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../notebooks/intro.html">
+   Notebooks
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../notebooks/security_events_correlation.html">
+     Correlating Windows Security Auditing
+    </a>
+   </li>
+  </ul>
+ </li>
 </ul>
 <p class="caption">
  <span class="caption-text">
@@ -128,8 +146,8 @@
   <a class="reference internal" href="../../cdm/guidelines/intro.html">
    Guidelines
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -160,8 +178,8 @@
   <a class="reference internal" href="../../cdm/entities/intro.html">
    Entities
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -347,8 +365,8 @@
   <a class="reference internal" href="../../cdm/tables/intro.html">
    Tables
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
-  <label for="toctree-checkbox-4">
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -381,8 +399,8 @@
   <a class="reference internal" href="../../dm/mitre_attack/intro.html">
    MITRE ATT&amp;CK
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
-  <label for="toctree-checkbox-5">
+  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+  <label for="toctree-checkbox-6">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -570,13 +588,13 @@
 <li><p>Platform: the platform where the log source is hosted</p></li>
 <li><p>Log source: the log source that generates the event</p></li>
 <li><p>Event code: the code or ID of the event</p></li>
+<li><p>Event version: the version of the event</p></li>
 <li><p>Reference list: text and link for external references relevant to the event</p></li>
 <li><p>Tag list: tags applicable to the event</p></li>
 </ul>
 <p>For every <strong>field</strong> in the event, the properties are:</p>
 <ul class="simple">
 <li><p>Standard name: the standard name assigned to the field name, if applicable</p></li>
-<li><p>Standard type: the standard type assigned to the field type, if applicable</p></li>
 <li><p>Name: the field name as per vendor documentation</p></li>
 <li><p>Type: the field type as per vendor documentation</p></li>
 <li><p>Description: the field description</p></li>
@@ -588,27 +606,24 @@
 <span class="n">platform</span><span class="p">:</span> <span class="n">windows</span>
 <span class="n">log_source</span><span class="p">:</span> <span class="n">Microsoft</span><span class="o">-</span><span class="n">Windows</span><span class="o">-</span><span class="n">Security</span><span class="o">-</span><span class="n">Auditing</span>
 <span class="n">event_code</span><span class="p">:</span> <span class="s1">&#39;4616&#39;</span>
+<span class="n">event_version</span><span class="p">:</span> <span class="s1">&#39;1&#39;</span>
 <span class="n">event_fields</span><span class="p">:</span>
 <span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">user_sid</span>
-  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
   <span class="n">name</span><span class="p">:</span> <span class="n">SubjectUserSid</span>
   <span class="nb">type</span><span class="p">:</span> <span class="n">SID</span>
   <span class="n">description</span><span class="p">:</span> <span class="n">SID</span> <span class="n">of</span> <span class="n">account</span> <span class="n">that</span> <span class="n">requested</span> <span class="n">the</span> <span class="s2">&quot;change system time&quot;</span> <span class="n">operation</span><span class="o">.</span>
   <span class="n">sample_value</span><span class="p">:</span> <span class="n">S</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="mi">5</span><span class="o">-</span><span class="mi">21</span><span class="o">-</span><span class="mi">3457937927</span><span class="o">-</span><span class="mi">2839227994</span><span class="o">-</span><span class="mi">823803824</span><span class="o">-</span><span class="mi">1104</span>
 <span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">user_name</span>
-  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
   <span class="n">name</span><span class="p">:</span> <span class="n">SubjectUserName</span>
   <span class="nb">type</span><span class="p">:</span> <span class="n">UnicodeString</span>
   <span class="n">description</span><span class="p">:</span> <span class="n">the</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">account</span> <span class="n">that</span> <span class="n">requested</span> <span class="n">the</span> <span class="s2">&quot;change system time&quot;</span> <span class="n">operation</span><span class="o">.</span>
   <span class="n">sample_value</span><span class="p">:</span> <span class="n">dadmin</span>
 <span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">user_domain</span>
-  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
   <span class="n">name</span><span class="p">:</span> <span class="n">SubjectDomainName</span>
   <span class="nb">type</span><span class="p">:</span> <span class="n">UnicodeString</span>
   <span class="n">description</span><span class="p">:</span> <span class="n">subject</span><span class="s1">&#39;s domain or computer name.</span>
   <span class="n">sample_value</span><span class="p">:</span> <span class="n">CONTOSO</span>
 <span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">user_logon_id</span>
-  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
   <span class="n">name</span><span class="p">:</span> <span class="n">SubjectLogonId</span>
   <span class="nb">type</span><span class="p">:</span> <span class="n">HexInt64</span>
   <span class="n">description</span><span class="p">:</span> <span class="s1">&#39;hexadecimal value that can help you correlate this event with recent</span>
@@ -616,19 +631,16 @@
     <span class="n">successfully</span> <span class="n">logged</span> <span class="n">on</span><span class="s2">&quot;.&#39;</span>
   <span class="n">sample_value</span><span class="p">:</span> <span class="s1">&#39;0x48f29&#39;</span>
 <span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">TBD</span>
-  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
   <span class="n">name</span><span class="p">:</span> <span class="n">PreviousTime</span>
   <span class="nb">type</span><span class="p">:</span> <span class="n">FILETIME</span>
   <span class="n">description</span><span class="p">:</span> <span class="n">previous</span> <span class="n">time</span> <span class="ow">in</span> <span class="n">UTC</span> <span class="n">time</span> <span class="n">zone</span><span class="o">.</span>
   <span class="n">sample_value</span><span class="p">:</span> <span class="s1">&#39;2015-10-09T05:04:30.000941900Z&#39;</span>
 <span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">TBD</span>
-  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
   <span class="n">name</span><span class="p">:</span> <span class="n">NewTime</span>
   <span class="nb">type</span><span class="p">:</span> <span class="n">FILETIME</span>
   <span class="n">description</span><span class="p">:</span> <span class="n">new</span> <span class="n">time</span> <span class="n">that</span> <span class="n">was</span> <span class="nb">set</span> <span class="ow">in</span> <span class="n">UTC</span> <span class="n">time</span> <span class="n">zone</span><span class="o">.</span>
   <span class="n">sample_value</span><span class="p">:</span> <span class="s1">&#39;2015-10-09T05:04:30.000000000Z&#39;</span>
 <span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">process_id</span>
-  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
   <span class="n">name</span><span class="p">:</span> <span class="n">ProcessId</span>
   <span class="nb">type</span><span class="p">:</span> <span class="n">Pointer</span>
   <span class="n">description</span><span class="p">:</span> <span class="n">hexadecimal</span> <span class="n">Process</span> <span class="n">ID</span> <span class="n">of</span> <span class="n">the</span> <span class="n">process</span> <span class="n">that</span> <span class="n">changed</span> <span class="n">the</span> <span class="n">system</span> <span class="n">time</span><span class="o">.</span>
@@ -636,11 +648,10 @@
     <span class="n">an</span> <span class="n">active</span> <span class="n">process</span><span class="o">.</span>
   <span class="n">sample_value</span><span class="p">:</span> <span class="s1">&#39;0x1074&#39;</span>
 <span class="o">-</span> <span class="n">standard_name</span><span class="p">:</span> <span class="n">process_path</span>
-  <span class="n">standard_type</span><span class="p">:</span> <span class="n">TBD</span>
   <span class="n">name</span><span class="p">:</span> <span class="n">ProcessName</span>
   <span class="nb">type</span><span class="p">:</span> <span class="n">UnicodeString</span>
   <span class="n">description</span><span class="p">:</span> <span class="n">full</span> <span class="n">path</span> <span class="ow">and</span> <span class="n">the</span> <span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">executable</span> <span class="k">for</span> <span class="n">the</span> <span class="n">process</span><span class="o">.</span>
-  <span class="n">sample_value</span><span class="p">:</span> <span class="n">C</span><span class="p">:</span>\<span class="n">Windows</span>\<span class="n">WinSxS</span>\<span class="n">amd64_microsoft</span><span class="o">-</span><span class="n">windows</span><span class="o">-</span><span class="n">com</span><span class="o">-</span><span class="n">surrogate</span><span class="o">-</span><span class="n">core_31bf3856ad364e35_6</span><span class="mf">.3.9600.16384</span><span class="n">_none_25a8f00faa8f185c</span>\<span class="n">dllhost</span><span class="o">.</span><span class="n">exe</span>
+  <span class="n">sample_value</span><span class="p">:</span> <span class="n">C</span><span class="p">:</span>\<span class="n">Windows</span>\<span class="n">WinSxS</span>\<span class="n">amd64_microsoft</span><span class="o">-</span><span class="n">windows</span><span class="o">-</span><span class="n">com</span><span class="o">-</span><span class="n">surrogate</span><span class="o">-</span><span class="n">core_31bf3856ad364e35_6</span><span class="o">.</span><span class="mf">3.9600</span><span class="o">.</span><span class="mi">16384</span><span class="n">_none_25a8f00faa8f185c</span>\<span class="n">dllhost</span><span class="o">.</span><span class="n">exe</span>
 <span class="n">references</span><span class="p">:</span>
 <span class="o">-</span> <span class="n">text</span><span class="p">:</span> <span class="n">MS</span> <span class="n">SOURCE</span>
   <span class="n">link</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">MicrosoftDocs</span><span class="o">/</span><span class="n">windows</span><span class="o">-</span><span class="n">itpro</span><span class="o">-</span><span class="n">docs</span><span class="o">/</span><span class="n">blob</span><span class="o">/</span><span class="n">public</span><span class="o">/</span><span class="n">windows</span><span class="o">/</span><span class="n">security</span><span class="o">/</span><span class="n">threat</span><span class="o">-</span><span class="n">protection</span><span class="o">/</span><span class="n">auditing</span><span class="o">/</span><span class="n">event</span><span class="o">-</span><span class="mf">4616.</span><span class="n">md</span>
@@ -658,9 +669,8 @@
 </div>
 <div class="section" id="standardization">
 <h3>Standardization<a class="headerlink" href="#standardization" title="Permalink to this headline">¶</a></h3>
-<p>The <strong>standard_name</strong> and <strong>standard_type</strong> are special properties of event fields, as they represent the first layer of data standardization on the event.</p>
+<p>The <strong>standard_name</strong> is a special property of event fields, as it represents the first layer of data standardization on the event.</p>
 <p>In the example above (event 4616), the <code class="docutils literal notranslate"><span class="pre">SubjectUserSid</span></code> name was <em>translated</em> to <code class="docutils literal notranslate"><span class="pre">user_logon_id</span></code> standard name. This <em>translation</em> ensures the data dictionary is aligned with the <a class="reference external" href="https://ossemproject.com/cdm/intro.html">Common Data Model</a> (CDM) <a class="reference external" href="https://ossemproject.com/cdm/entities/user.html">User schema</a>, reduces complexity, and enhances the development of detection analytics.</p>
-<p>The <code class="docutils literal notranslate"><span class="pre">standard</span> <span class="pre">type</span></code> is still work in progress, thus the <em>to-be-defined</em> default, but it aims at defining standard field types like ‘boolean’, ‘list’, ‘json’, etc. The goal is to provide guidance to anyone post-processing/enriching base events.</p>
 <p>Note that its not mandatory that you define a standard name for every field on your event. Some good practices when defining standard names include:</p>
 <ul class="simple">
 <li><p>Search for the field name in other OSSEM events. Its not uncommon that you can apply the same standard name to identical field names, specially if the log source is the same.</p></li>
@@ -670,11 +680,11 @@
 </div>
 <div class="section" id="organization">
 <h2>Organization<a class="headerlink" href="#organization" title="Permalink to this headline">¶</a></h2>
-<p>OSSEM built-in data dictionaries are primarily organized in a file system folder structure, that ensures the grouping according to data dictionaries characteristics. While there is no limit to the folder depth, the <strong>root folder</strong> and <strong>log sources</strong> must follow a predefined structure.</p>
-<p>Data dictionaries are located in <code class="docutils literal notranslate"><span class="pre">/source/data_dictionaries</span></code>, the <strong>root folder</strong>. The first level of organization is by <strong>platform</strong>.</p>
+<p>OSSEM built-in data dictionaries are primarily organized in a file system folder structure, that ensures the grouping according to data dictionaries characteristics. While there is no limit to the folder depth, the <strong>platform</strong> and <strong>log sources</strong> folders must follow a predefined structure.</p>
+<p>Data dictionaries are located in the <a class="reference external" href="https://github.com/OTRF/OSSEM-DD">OSSEM-DD sub-repository</a>. The first level of organization is by <strong>platform</strong>.</p>
 <p>An example of a build-in <strong>Sysmon</strong> data dictionary follows:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.
-├── data_dictionaries   &lt;--------- root folder
+├── OSSEM-DD            &lt;--------- sub-repository
 │   ├── README.yml
 │   ├── windows         &lt;--------- platform (operating system/sensor folder)
 │   │   ├── README.yml
@@ -737,7 +747,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./dd\guidelines"
+            path: "./dd/guidelines"
         },
         predefinedOutput: true
     }
@@ -750,7 +760,7 @@
         <div class='prev-next-bottom'>
             
     <a class='left-prev' id="prev-link" href="intro.html" title="previous page">Guidelines</a>
-    <a class='right-next' id="next-link" href="../../cdm/intro.html" title="next page">Introduction</a>
+    <a class='right-next' id="next-link" href="../notebooks/intro.html" title="next page">Notebooks</a>
 
         </div>
         
