@@ -97,8 +97,9 @@ for sysevent in all_sysmon:
             unique_fields.append(field['name'])
 
 # ******** Open Sysmon KQL Parser template ****************
+sysmon_parser_template = os.path.join(os.path.dirname(__file__), "templates/kql/sysmon_parser.txt")
 log.info('Reading KQL parser template')
-kql_parser_template = Template(open('templates/kql/sysmon_parser.txt').read())
+kql_parser_template = Template(open(sysmon_parser_template).read())
 
 # ******** Processing Sysmon Events and Jinja template ****************
 log.info('Processing Jinja template')
