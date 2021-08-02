@@ -18,6 +18,8 @@ platform: zeek
 log_source: network-protocols
 event_code: conn
 event_version: '0'
+attack_data_sources:
+- Network Traffic
 event_fields:
 - standard_name: '@timestamp'
   name: ts
@@ -55,6 +57,8 @@ network-protocols
 conn
 ## Event Version
 0
+## ATT&CK Data Sources
+Network Traffic
 ## Data Dictionary
 | Standard Name | Field Name | Type | Description | Sample Value |
 | --- | --- | --- | --- | --- |
@@ -68,6 +72,8 @@ conn
 - Network connection
 ```
 
+*Note: To complete the attack_data_sources field, consider a comma (,) to separate data sources.*
+
 We have created a [python script](https://github.com/OTRF/OSSEM/tree/master/resources/scripts/md_to_yaml.py) that creates a data dictionary in yaml format per markdown file. The name of the markdown file will be used as the name of the yaml file. By using the following commands, you can parse all the **.md** files in your current directory (except readme.md).
 
 ```python
@@ -76,6 +82,8 @@ python3 md_to_yaml.py
 
 ### MS Excel
 If you love working on MS Excel, you can use the following [template](https://github.com/OTRF/OSSEM/tree/master/resources/scripts/templates/xlsx_to_yaml_template.xlsx) in order to document your proposed data dictionaries.
+
+*Note: To complete the attack_data_sources field, consider a comma (,) to separate data sources.*
 
 We have created a [python script](https://github.com/OTRF/OSSEM/tree/master/resources/scripts/xlsx_to_yaml.py) that creates a data dictionary in yaml format per sheet within the Ms Excel file. The name of the sheet will be used as the name of the yaml file. By using the following commands, you can parse all the **.xlsx** files in your current directory.
 

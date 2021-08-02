@@ -60,6 +60,8 @@ for excel_file_path in excel_files:
                 event_code_yaml = line[1]
             if line[0] == 'event_version':
                 event_version_yaml = line[1]
+            if line[0] == 'attack_data_sources':
+                attack_data_sources_yaml = line[1].split(',')
             if control == 'data dictionary':
                 if line == (None,None,None,None,None):
                     continue
@@ -83,6 +85,7 @@ for excel_file_path in excel_files:
                     'log_source' : log_source_yaml,
                     'event_code' : event_code_yaml,
                     'event_version' : event_version_yaml,
+                    'attack_data_sources' : attack_data_sources_yaml,
                     'event_fields' : event_fields_yaml,
                     'references' : references_yaml,
                     'tags' : tags_yaml}

@@ -54,6 +54,9 @@ for md_file_path in md_files:
         if line.startswith('## Event Version'):
             control = 'event version'
             continue
+        if line.startswith('## ATT&CK Data Sources'):
+            control = 'attack data sources'
+            continue
         if line.startswith('## Data Dictionary'):
             control = 'data dictionary'
             continue
@@ -74,6 +77,8 @@ for md_file_path in md_files:
             event_code_yaml = line.rstrip()
         if control == 'event version':
             event_version_yaml = line.rstrip()
+        if control == 'attack data sources':
+            attack_data_sources_yaml = line.rstrip().split(',')
         if control == 'data dictionary':
             if line.startswith('|'):
                 if not (line.startswith('| Standard Name') or line.startswith('| --')):
@@ -97,6 +102,7 @@ for md_file_path in md_files:
                 'log_source' : log_source_yaml,
                 'event_code' : event_code_yaml,
                 'event_version' : event_version_yaml,
+                'attack_data_sources' : attack_data_sources_yaml,
                 'event_fields' : event_fields_yaml,
                 'references' : references_yaml,
                 'tags' : tags_yaml}
