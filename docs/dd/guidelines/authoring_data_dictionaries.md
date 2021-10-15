@@ -1,4 +1,4 @@
-# Data Dictionary Authoring Guide
+# Authoring Guide
 This guide details the process of data dictionary authoring, by describing the structure and organization of events.
 
 Lets recap what a data dictionary event is, before going into the nitty-gritty details.

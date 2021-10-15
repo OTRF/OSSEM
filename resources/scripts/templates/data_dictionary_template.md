@@ -5,10 +5,10 @@
 {{entry['description']}}
 
 ## Data Dictionary
-|Standard Name|Field Name|Type|Description|Sample Value|
-|---|---|---|---|---|
+|Field Name|Type|Description|Sample Value|
+|---|---|---|---|
 {%- for row in entry['event_fields'] %}
-|{{row['standard_name']}}|{{row['name']}}|{{row['type']}}|{{row['description']}}|`{{row['sample_value']}}`|
+|{{row['name']}}|{{row['type']}}|{{row['description']}}|`{{row['sample_value']}}`|
 {%- endfor %}
 {% if entry['references'] %}
 ## References

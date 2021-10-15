@@ -29,7 +29,8 @@ Event fields used to define/normalize metadata about files either locally or ove
  | file_previous_changed_time | date | When the file was previously changed | ```2016-11-25 18:21:47``` |
  | file_previous_creation_time | date | When the file was previously created | ```2016-11-25 18:21:47``` |
  | file_previous_modified_time | date | When the file was previously modified | ```2016-11-25 18:21:47``` |
- | file_previous_name | string | The file's previous name | ```C:\\Windows\system32\cmd.exe``` |
+ | file_previous_name | string | The file's previous name | ```cmd.exe``` |
+ | file_previous_path | string | The file's previous path | ```C:\\Windows\system32\cmd.exe``` |
  | file_product | string | The file's product name | ```Microsoft® Windows® Operating System``` |
  | file_size | integer | Size of the file, in bytes. | ```45``` |
  | file_symlink | integer | 1 if the path is a symlink, otherwise 0 | ```0``` |

@@ -55,7 +55,8 @@ Event fields used to define/normalize the destination (server) in a network conn
  | dst_file_previous_changed_time | date | When the file was previously changed | ```2016-11-25 18:21:47``` |
  | dst_file_previous_creation_time | date | When the file was previously created | ```2016-11-25 18:21:47``` |
  | dst_file_previous_modified_time | date | When the file was previously modified | ```2016-11-25 18:21:47``` |
- | dst_file_previous_name | string | The file's previous name | ```C:\\Windows\system32\cmd.exe``` |
+ | dst_file_previous_name | string | The file's previous name | ```cmd.exe``` |
+ | dst_file_previous_path | string | The file's previous path | ```C:\\Windows\system32\cmd.exe``` |
  | dst_file_product | string | The file's product name | ```Microsoft® Windows® Operating System``` |
  | dst_file_size | integer | Size of the file, in bytes. | ```45``` |
  | dst_file_symlink | integer | 1 if the path is a symlink, otherwise 0 | ```0``` |

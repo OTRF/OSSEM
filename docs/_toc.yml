@@ -1,14 +1,29 @@
-- file: intro
-- part: Data Dictionaries
+format: jb-book
+root: intro
+parts:
+- caption: Data Dictionaries
   chapters:
   - file: dd/intro
   - file: dd/guidelines/intro
     sections:
+    - file: dd/guidelines/contributing_data_dictionaries
     - file: dd/guidelines/authoring_data_dictionaries
   - file: dd/notebooks/intro
     sections:
     - file: dd/notebooks/security_events_correlation
-- part: Common Data Model
+  - file: dd/dictionaries/linux/intro
+    sections:
+    - file: dd/dictionaries/linux/sysmon/intro
+      sections:
+      - file: dd/dictionaries/linux/sysmon/event-1
+      - file: dd/dictionaries/linux/sysmon/event-11
+      - file: dd/dictionaries/linux/sysmon/event-16
+      - file: dd/dictionaries/linux/sysmon/event-23
+      - file: dd/dictionaries/linux/sysmon/event-3
+      - file: dd/dictionaries/linux/sysmon/event-4
+      - file: dd/dictionaries/linux/sysmon/event-5
+      - file: dd/dictionaries/linux/sysmon/event-9
+- caption: Common Data Model
   chapters:
   - file: cdm/intro
   - file: cdm/guidelines/intro
@@ -57,7 +72,7 @@
   - file: cdm/tables/intro
     sections:
     - file: cdm/tables/network_session
-- part: Detection Model
+- caption: Detection Model
   chapters:
   - file: dm/intro
   - file: dm/ossem_relationships_to_events

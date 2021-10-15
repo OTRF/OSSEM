@@ -1,4 +1,4 @@
-# Data Dictionary Contributing Guide
+# Contributing Guide
 This guide details the process of data dictionary contributing.
 
 ## Table of Contents
