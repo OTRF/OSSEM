@@ -47,7 +47,8 @@ Event fields used to define/normalize the source (client) in a network connectio
  | src_file_previous_changed_time | date | When the file was previously changed | ```2016-11-25 18:21:47``` |
  | src_file_previous_creation_time | date | When the file was previously created | ```2016-11-25 18:21:47``` |
  | src_file_previous_modified_time | date | When the file was previously modified | ```2016-11-25 18:21:47``` |
- | src_file_previous_name | string | The file's previous name | ```C:\\Windows\system32\cmd.exe``` |
+ | src_file_previous_name | string | The file's previous name | ```cmd.exe``` |
+ | src_file_previous_path | string | The file's previous path | ```C:\\Windows\system32\cmd.exe``` |
  | src_file_product | string | The file's product name | ```Microsoft® Windows® Operating System``` |
  | src_file_size | integer | Size of the file, in bytes. | ```45``` |
  | src_file_symlink | integer | 1 if the path is a symlink, otherwise 0 | ```0``` |
@@ -76,8 +77,8 @@ Event fields used to define/normalize the source (client) in a network connectio
  | src_process_call_trace | string | Stack trace of where open process is called | ```C:\WINDOWS\SYSTEM32\ntdll.dll+a0344 | C:\WINDOWS\System32\KERNELBASE.dll+64794| c:\windows\system32\lsm.dll+10e93| c:\windows\system32\lsm.dll+f9ea| C:\WINDOWS\System32\RPCRT4.dll+76d23| C:\WINDOWS\System32\RPCRT4.dll+d9390| C:\WINDOWS\System32\RPCRT4.dll+a81c| C:\WINDOWS\System32\RPCRT4.dll+273b4| C:\WINDOWS\System32\RPCRT4.dll+2654e| C:\WINDOWS\System32\RPCRT4.dll+26cfb| C:\WINDOWS\System32\RPCRT4.dll+3083f| C:\WINDOWS\System32\RPCRT4.dll+313a6| C:\WINDOWS\System32\RPCRT4.dll+2d12e| C:\WINDOWS\System32\RPCRT4.dll+2e853| C:\WINDOWS\System32\RPCRT4.dll+5cc68| C:\WINDOWS\SYSTEM32\ntdll.dll+365ce| C:\WINDOWS\SYSTEM32\ntdll.dll+34b46| C:\WINDOWS\System32\KERNEL32.DLL+11fe4| C:\WINDOWS\SYSTEM32\ntdll.dll+6efc1``` |
  | src_process_command_line | string | Command arguments that were were executed by the process in the endpoint. | ```C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1``` |
  | src_process_company | string | Company name metadata of the Image file | ```Microsoft Corporation``` |
+ | src_process_current_directory | string | The full path to the current directory for the process. The string can also specify a UNC path. | ```C:\Users\Panda\Test``` |
  | src_process_file_description | string | Description of the Image file | ```Console Window Host``` |
- | src_process_file_directory | string | Current working directory for the Image file related to the process. It does not include the Image file name. Only the Path. | ```C:\WINDOWS\system32\``` |
  | src_process_file_name | string | Name of the Image file or executable file used to define the initial code and data mapped into the process' virtual address space. This does not contain the full patth of the Image file. | ```conhost.exe``` |
  | src_process_file_path | string | The complete path and name of the Image file or executable file used to define the initial code and data mapped into the process' virtual address space. | ```C:\Windows\System32\conhost.exe``` |
  | src_process_file_product | string | The Image's file product name | ```Microsoft Windows Operating System``` |
@@ -97,8 +98,8 @@ Event fields used to define/normalize the source (client) in a network connectio
  | src_process_parent_call_trace | string | Stack trace of where open process is called | ```C:\WINDOWS\SYSTEM32\ntdll.dll+a0344 | C:\WINDOWS\System32\KERNELBASE.dll+64794| c:\windows\system32\lsm.dll+10e93| c:\windows\system32\lsm.dll+f9ea| C:\WINDOWS\System32\RPCRT4.dll+76d23| C:\WINDOWS\System32\RPCRT4.dll+d9390| C:\WINDOWS\System32\RPCRT4.dll+a81c| C:\WINDOWS\System32\RPCRT4.dll+273b4| C:\WINDOWS\System32\RPCRT4.dll+2654e| C:\WINDOWS\System32\RPCRT4.dll+26cfb| C:\WINDOWS\System32\RPCRT4.dll+3083f| C:\WINDOWS\System32\RPCRT4.dll+313a6| C:\WINDOWS\System32\RPCRT4.dll+2d12e| C:\WINDOWS\System32\RPCRT4.dll+2e853| C:\WINDOWS\System32\RPCRT4.dll+5cc68| C:\WINDOWS\SYSTEM32\ntdll.dll+365ce| C:\WINDOWS\SYSTEM32\ntdll.dll+34b46| C:\WINDOWS\System32\KERNEL32.DLL+11fe4| C:\WINDOWS\SYSTEM32\ntdll.dll+6efc1``` |
  | src_process_parent_command_line | string | Command arguments that were were executed by the process in the endpoint. | ```C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1``` |
  | src_process_parent_company | string | Company name metadata of the Image file | ```Microsoft Corporation``` |
+ | src_process_parent_current_directory | string | The full path to the current directory for the process. The string can also specify a UNC path. | ```C:\Users\Panda\Test``` |
  | src_process_parent_file_description | string | Description of the Image file | ```Console Window Host``` |
- | src_process_parent_file_directory | string | Current working directory for the Image file related to the process. It does not include the Image file name. Only the Path. | ```C:\WINDOWS\system32\``` |
  | src_process_parent_file_name | string | Name of the Image file or executable file used to define the initial code and data mapped into the process' virtual address space. This does not contain the full patth of the Image file. | ```conhost.exe``` |
  | src_process_parent_file_path | string | The complete path and name of the Image file or executable file used to define the initial code and data mapped into the process' virtual address space. | ```C:\Windows\System32\conhost.exe``` |
  | src_process_parent_file_product | string | The Image's file product name | ```Microsoft Windows Operating System``` |
