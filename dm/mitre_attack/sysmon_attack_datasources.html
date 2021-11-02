@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ATT&amp;CK Techniques to Security Events &#8212; The OSSEM Project</title>
+    <title>Sysmon - Explore ATT&amp;CK Data Sources &#8212; The OSSEM Project</title>
     
   <link href="../../_static/css/theme.css" rel="stylesheet" />
   <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -49,12 +49,10 @@
         const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="https://ossemproject.com/dm/mitre_attack/attack_techniques_to_events.html" />
+    <link rel="canonical" href="https://ossemproject.com/dm/mitre_attack/sysmon_attack_datasources.html" />
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="ATT&amp;CK DS Event Mappings" href="attack_ds_events_mappings.html" />
-    <link rel="prev" title="MITRE ATT&amp;CK" href="intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -452,7 +450,7 @@
   Detection Model
  </span>
 </p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../intro.html">
    Introduction
@@ -463,18 +461,18 @@
    Relationships to Events
   </a>
  </li>
- <li class="toctree-l1 current active has-children">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="intro.html">
    MITRE ATT&amp;CK
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+  <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
   <label for="toctree-checkbox-8">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul class="current">
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="attack_techniques_to_events.html">
      ATT&amp;CK Techniques to Security Events
     </a>
    </li>
@@ -526,7 +524,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/dm/mitre_attack/attack_techniques_to_events.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/dm/mitre_attack/sysmon_attack_datasources.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
@@ -546,10 +544,10 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/OTRF/OSSEM/issues/new?title=Issue%20on%20page%20%2Fdm/mitre_attack/attack_techniques_to_events.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/OTRF/OSSEM/issues/new?title=Issue%20on%20page%20%2Fdm/mitre_attack/sysmon_attack_datasources.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/OTRF/OSSEM/edit/master/docs/dm/mitre_attack/attack_techniques_to_events.ipynb"><button
+        <a class="edit-button" href="https://github.com/OTRF/OSSEM/edit/master/docs/dm/mitre_attack/sysmon_attack_datasources.ipynb"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -569,7 +567,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/OTRF/OSSEM/master?urlpath=tree/docs/dm/mitre_attack/attack_techniques_to_events.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/OTRF/OSSEM/master?urlpath=tree/docs/dm/mitre_attack/sysmon_attack_datasources.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../../_static/images/logo_binder.svg"
@@ -577,7 +575,7 @@
         
         
         
-        <a class="colab-button" href="https://colab.research.google.com/github/OTRF/OSSEM/blob/master/docs/dm/mitre_attack/attack_techniques_to_events.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+        <a class="colab-button" href="https://colab.research.google.com/github/OTRF/OSSEM/blob/master/docs/dm/mitre_attack/sysmon_attack_datasources.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
                 title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
                     src="../../_static/images/logo_colab.png"
                     alt="Interact on Colab">Colab</button></a>
@@ -600,13 +598,18 @@
             <nav id="bd-toc-nav">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#importing-python-libraries">
-   Importing Python Libraries
+  <a class="reference internal nav-link" href="#goals">
+   Goals:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#import-python-libraries">
+   1. Import Python Libraries
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#importing-sub-techniques-to-security-events-mapping-yaml-file">
-   Importing (Sub)Techniques to Security Events Mapping Yaml File
+   2. Importing (Sub)Techniques to Security Events Mapping Yaml File
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -614,43 +617,11 @@
      Which are the most relevant data sources for Sub-Technqiues within the Enterprise Matrix?
     </a>
    </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#which-are-the-most-relevant-data-components-for-sub-technqiues-within-the-enterprise-matrix">
-     Which are the most relevant data components for Sub-Technqiues within the Enterprise Matrix?
-    </a>
-   </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#use-case-os-credential-dumping-lsass-memory-t1003-001">
-   Use Case: OS Credential Dumping: LSASS Memory (T1003.001)
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#what-are-the-recommended-data-sources">
-     What are the recommended data sources?
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#what-security-events-can-we-use-to-get-more-context-about-this-technique">
-     What security events can we use to get more context about this technique?
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#this-is-really-cool-we-have-covered-all-the-recommended-data-sources-components-d">
-   This is really cool!!! We have covered all the recommended data sources/components :D
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-other-security-event-logs-would-you-recommend-for-this-data-source-component-contribute-to-the-community-through-ossem-d">
-   What other security event logs would you recommend for this data source/component? Contribute to the community through OSSEM :D
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#you-can-contribute-and-map-more-security-events-here">
-   You can contribute and map more security events here
+  <a class="reference internal nav-link" href="#getting-only-linux-techniques">
+   3. Getting Only Linux Techniques
   </a>
  </li>
 </ul>
@@ -664,23 +635,20 @@
         
               <div>
                 
-  <div class="section" id="att-ck-techniques-to-security-events">
-<h1>ATT&amp;CK Techniques to Security Events<a class="headerlink" href="#att-ck-techniques-to-security-events" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="sysmon-explore-att-ck-data-sources">
+<h1>Sysmon - Explore ATT&amp;CK Data Sources<a class="headerlink" href="#sysmon-explore-att-ck-data-sources" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
+<div class="section" id="goals">
+<h2>Goals:<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p><strong>Author</strong>: Jose Luis Rodriguez - <a class="reference external" href="https://twitter.com/Cyb3rPandaH">&#64;Cyb3rPandaH</a></p></li>
-<li><p><strong>Organization</strong>: <a class="reference external" href="https://github.com/OTRF">Open Threat Research (OTR)</a></p></li>
-<li><p><strong>References</strong>:</p></li>
+<li><p>Access ATT&amp;CK data sources in STIX format via a public TAXII server</p></li>
+<li><p>Learn to interact with ATT&amp;CK data all at once</p></li>
+<li><p>Explore and idenfity patterns in the data retrieved</p></li>
+<li><p>Learn more about ATT&amp;CK data sources</p></li>
 </ul>
-<ul class="simple">
-<li><p><a class="reference external" href="https://github.com/OTRF/OSSEM-DM/blob/main/use-cases/mitre_attack/techniques_to_events_mapping.yaml">OSSEM - ATT&amp;CK Event Mapping</a></p></li>
-<li><p><a class="reference external" href="https://medium.com/mitre-attack/attack-april-2021-release-39accaf23c81">Data Sources, Containers, Cloud, and More: What’s New in ATT&amp;CK v9?</a></p></li>
-<li><p><a class="reference external" href="https://medium.com/mitre-attack/defining-attack-data-sources-part-i-4c39e581454f">Defining ATT&amp;CK Data Sources, Part I: Enhancing the Current State</a></p></li>
-<li><p><a class="reference external" href="https://medium.com/mitre-attack/defining-attack-data-sources-part-ii-1fc98738ba5b">Defining ATT&amp;CK Data Sources, Part II: Operationalizing the Methodology</a></p></li>
-<li><p><a class="reference external" href="https://github.com/mitre-attack/attack-datasources/tree/main/contribution">ATT&amp;CK - Data Sources Definition</a></p></li>
-</ul>
-<div class="section" id="importing-python-libraries">
-<h2>Importing Python Libraries<a class="headerlink" href="#importing-python-libraries" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="import-python-libraries">
+<h2>1. Import Python Libraries<a class="headerlink" href="#import-python-libraries" title="Permalink to this headline">¶</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Importing library to manipulate data</span>
@@ -698,7 +666,7 @@
 </div>
 </div>
 <div class="section" id="importing-sub-techniques-to-security-events-mapping-yaml-file">
-<h2>Importing (Sub)Techniques to Security Events Mapping Yaml File<a class="headerlink" href="#importing-sub-techniques-to-security-events-mapping-yaml-file" title="Permalink to this headline">¶</a></h2>
+<h2>2. Importing (Sub)Techniques to Security Events Mapping Yaml File<a class="headerlink" href="#importing-sub-techniques-to-security-events-mapping-yaml-file" title="Permalink to this headline">¶</a></h2>
 <p>Using the <strong><a class="reference external" href="https://attackcti.com/intro.html">attackcti</a></strong> Python library, we were able to collect all the techniques within the Enterprise matrix. After that, we mapped several security events to each data source/component/relationship. Here is the result:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -883,107 +851,58 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/attack_techniques_to_events_8_0.png" src="../../_images/attack_techniques_to_events_8_0.png" />
+<img alt="../../_images/sysmon_attack_datasources_7_0.png" src="../../_images/sysmon_attack_datasources_7_0.png" />
 </div>
 </div>
 </div>
-<div class="section" id="which-are-the-most-relevant-data-components-for-sub-technqiues-within-the-enterprise-matrix">
-<h3>Which are the most relevant data components for Sub-Technqiues within the Enterprise Matrix?<a class="headerlink" href="#which-are-the-most-relevant-data-components-for-sub-technqiues-within-the-enterprise-matrix" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="getting-only-linux-techniques">
+<h2>3. Getting Only Linux Techniques<a class="headerlink" href="#getting-only-linux-techniques" title="Permalink to this headline">¶</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">enterprise_sub</span> <span class="o">=</span> <span class="n">mapping</span><span class="p">[</span><span class="n">mapping</span><span class="p">[</span><span class="s1">&#39;x_mitre_is_subtechnique&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="kc">True</span><span class="p">][[</span><span class="s1">&#39;technique_id&#39;</span><span class="p">,</span><span class="s1">&#39;data_source&#39;</span><span class="p">,</span><span class="s1">&#39;data_component&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">()</span>
-<span class="n">top15_data_source</span> <span class="o">=</span> <span class="n">enterprise_sub</span><span class="p">[</span><span class="s1">&#39;data_component&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">nlargest</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span><span class="o">.</span><span class="n">to_frame</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
-<span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Most Relevant Data Components (Top 15)</span><span class="se">\n</span><span class="s1">Enterprise Techniques&#39;</span>
-<span class="n">vis</span><span class="o">.</span><span class="n">barh_chart</span><span class="p">(</span><span class="n">top15_data_source</span><span class="p">,</span><span class="s1">&#39;data_component&#39;</span><span class="p">,</span><span class="s1">&#39;index&#39;</span><span class="p">,</span><span class="n">title</span><span class="p">,</span> <span class="n">xlabel</span> <span class="o">=</span> <span class="s1">&#39;Count of Sub-Techniques&#39;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">filter_df</span> <span class="o">=</span> <span class="p">(</span><span class="n">mapping</span><span class="p">[</span><span class="s1">&#39;x_mitre_is_subtechnique&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="kc">True</span><span class="p">)</span> <span class="o">&amp;</span> \
+    <span class="p">(</span><span class="n">mapping</span><span class="p">[</span><span class="s1">&#39;platform&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="s1">&#39;Windows&#39;</span> <span class="ow">in</span> <span class="n">x</span><span class="p">))</span> <span class="o">&amp;</span> \
+    <span class="p">(</span><span class="n">mapping</span><span class="p">[</span><span class="s1">&#39;data_source&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span>  <span class="n">x</span><span class="p">:</span> <span class="s1">&#39;wmi&#39;</span> <span class="ow">in</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">()))</span>
+<span class="n">linux_enterprise_sub</span> <span class="o">=</span> <span class="n">mapping</span><span class="p">[</span><span class="n">filter_df</span><span class="p">][[</span><span class="s1">&#39;technique_id&#39;</span><span class="p">,</span><span class="s1">&#39;data_source&#39;</span><span class="p">,</span><span class="s1">&#39;data_component&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">()</span>
+<span class="n">top15_data_source</span> <span class="o">=</span> <span class="n">linux_enterprise_sub</span><span class="p">[</span><span class="s1">&#39;data_source&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">nlargest</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span><span class="o">.</span><span class="n">to_frame</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Linux - Most Relevant Data Sources (Top 15)</span><span class="se">\n</span><span class="s1">Enterprise Techniques&#39;</span>
+<span class="n">vis</span><span class="o">.</span><span class="n">barh_chart</span><span class="p">(</span><span class="n">top15_data_source</span><span class="p">,</span><span class="s1">&#39;data_source&#39;</span><span class="p">,</span><span class="s1">&#39;index&#39;</span><span class="p">,</span><span class="n">title</span><span class="p">,</span> <span class="n">xlabel</span> <span class="o">=</span> <span class="s1">&#39;Count of Sub-Techniques&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/attack_techniques_to_events_10_0.png" src="../../_images/attack_techniques_to_events_10_0.png" />
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>C:\Users\rorodri\AppData\Local\Programs\Python\Python39\lib\site-packages\openhunt\visualizations.py:48: UserWarning: Attempting to set identical left == right == 1 results in singular transformations; automatically expanding.
+  ax.set_xlim(min_freq, max_freq) # expand xlim to make labels easier to read
+</pre></div>
+</div>
+<img alt="../../_images/sysmon_attack_datasources_9_1.png" src="../../_images/sysmon_attack_datasources_9_1.png" />
 </div>
 </div>
-</div>
-</div>
-<div class="section" id="use-case-os-credential-dumping-lsass-memory-t1003-001">
-<h2>Use Case: OS Credential Dumping: LSASS Memory (T1003.001)<a class="headerlink" href="#use-case-os-credential-dumping-lsass-memory-t1003-001" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="what-are-the-recommended-data-sources">
-<h3>What are the recommended data sources?<a class="headerlink" href="#what-are-the-recommended-data-sources" title="Permalink to this headline">¶</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">mapping</span><span class="p">[</span><span class="n">mapping</span><span class="p">[</span><span class="s1">&#39;technique_id&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;T1003.001&#39;</span><span class="p">][[</span><span class="s1">&#39;data_source&#39;</span><span class="p">,</span> <span class="s1">&#39;data_component&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">()</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">filter_df</span> <span class="o">=</span> <span class="p">(</span><span class="n">mapping</span><span class="p">[</span><span class="s1">&#39;x_mitre_is_subtechnique&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="kc">False</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">mapping</span><span class="p">[</span><span class="s1">&#39;platform&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span>  <span class="n">x</span><span class="p">:</span> <span class="s1">&#39;Linux&#39;</span> <span class="ow">in</span> <span class="n">x</span><span class="p">))</span>
+    <span class="c1">#(mapping[&#39;platform&#39;].apply(lambda x: &#39;Windows&#39; in x)) &amp; \</span>
+    <span class="c1">#(mapping[&#39;data_source&#39;].apply(lambda  x: &#39;wmi&#39; in str(x)))</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">mapping</span><span class="p">[</span><span class="n">filter_df</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>data_source</th>
-      <th>data_component</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>4876</th>
-      <td>process</td>
-      <td>process creation</td>
-    </tr>
-    <tr>
-      <th>4886</th>
-      <td>process</td>
-      <td>process access</td>
-    </tr>
-    <tr>
-      <th>4894</th>
-      <td>command</td>
-      <td>command execution</td>
-    </tr>
-    <tr>
-      <th>4903</th>
-      <td>process</td>
-      <td>os api execution</td>
-    </tr>
-  </tbody>
-</table>
-</div></div></div>
-</div>
-</div>
-<div class="section" id="what-security-events-can-we-use-to-get-more-context-about-this-technique">
-<h3>What security events can we use to get more context about this technique?<a class="headerlink" href="#what-security-events-can-we-use-to-get-more-context-about-this-technique" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><p>Network Graph</p></li>
-</ul>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">vis</span><span class="o">.</span><span class="n">attack_network_graph</span><span class="p">(</span><span class="n">mapping</span><span class="p">[(</span><span class="n">mapping</span><span class="p">[</span><span class="s1">&#39;technique_id&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;T1039&#39;</span><span class="p">)])</span>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>4061
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/attack_techniques_to_events_16_0.png" src="../../_images/attack_techniques_to_events_16_0.png" />
 </div>
-</div>
-<ul class="simple">
-<li><p>Table</p></li>
-</ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">mapping</span><span class="p">[</span><span class="n">mapping</span><span class="p">[</span><span class="s1">&#39;technique_id&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;T1003.001&#39;</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">t</span>
 </pre></div>
 </div>
 </div>
@@ -1030,12 +949,35 @@
   </thead>
   <tbody>
     <tr>
-      <th>4876</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
+      <th>31</th>
+      <td>T1614</td>
+      <td>False</td>
+      <td>System Location Discovery</td>
+      <td>[discovery]</td>
+      <td>[Windows, Linux, macOS, IaaS]</td>
+      <td>instance</td>
+      <td>instance metadata</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>T1614</td>
+      <td>False</td>
+      <td>System Location Discovery</td>
+      <td>[discovery]</td>
+      <td>[Windows, Linux, macOS, IaaS]</td>
       <td>process</td>
       <td>process creation</td>
       <td>Process created Process</td>
@@ -1053,12 +995,12 @@
       <td>NaN</td>
     </tr>
     <tr>
-      <th>4877</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
+      <th>33</th>
+      <td>T1614</td>
+      <td>False</td>
+      <td>System Location Discovery</td>
+      <td>[discovery]</td>
+      <td>[Windows, Linux, macOS, IaaS]</td>
       <td>process</td>
       <td>process creation</td>
       <td>Process created Process</td>
@@ -1076,12 +1018,12 @@
       <td>NaN</td>
     </tr>
     <tr>
-      <th>4878</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
+      <th>34</th>
+      <td>T1614</td>
+      <td>False</td>
+      <td>System Location Discovery</td>
+      <td>[discovery]</td>
+      <td>[Windows, Linux, macOS, IaaS]</td>
       <td>process</td>
       <td>process creation</td>
       <td>Process created Process</td>
@@ -1099,12 +1041,12 @@
       <td>NaN</td>
     </tr>
     <tr>
-      <th>4879</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
+      <th>35</th>
+      <td>T1614</td>
+      <td>False</td>
+      <td>System Location Discovery</td>
+      <td>[discovery]</td>
+      <td>[Windows, Linux, macOS, IaaS]</td>
       <td>process</td>
       <td>process creation</td>
       <td>Process created Process</td>
@@ -1122,541 +1064,81 @@
       <td>NaN</td>
     </tr>
     <tr>
-      <th>4880</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>12515</th>
+      <td>T1003</td>
+      <td>False</td>
+      <td>OS Credential Dumping</td>
       <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>process</td>
-      <td>process creation</td>
-      <td>Process created Thread</td>
-      <td>process</td>
-      <td>created</td>
-      <td>thread</td>
-      <td>8</td>
-      <td>CreateRemoteThread.</td>
-      <td>Windows</td>
-      <td>CreateRemoteThread</td>
+      <td>[Windows, Linux, macOS]</td>
+      <td>network traffic</td>
+      <td>network traffic flow</td>
       <td>NaN</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>Microsoft-Windows-Sysmon</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>4881</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
+      <th>12516</th>
+      <td>T1003</td>
+      <td>False</td>
+      <td>OS Credential Dumping</td>
       <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>process</td>
-      <td>process creation</td>
-      <td>Process created Thread</td>
-      <td>process</td>
-      <td>created</td>
-      <td>thread</td>
-      <td>CreateRemoteThreadApiCall</td>
-      <td>CreateRemoteThreadApiCall</td>
-      <td>Windows</td>
-      <td>None</td>
+      <td>[Windows, Linux, macOS]</td>
+      <td>network traffic</td>
+      <td>network traffic content</td>
       <td>NaN</td>
-      <td>DeviceEvents</td>
-      <td>Microsoft Defender for Endpoint</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>4882</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
+      <th>12517</th>
+      <td>T1003</td>
+      <td>False</td>
+      <td>OS Credential Dumping</td>
       <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>process</td>
-      <td>process creation</td>
-      <td>User created Process</td>
-      <td>user</td>
-      <td>created</td>
-      <td>process</td>
-      <td>4688</td>
-      <td>A new process has been created.</td>
-      <td>Windows</td>
-      <td>Detailed Tracking</td>
-      <td>Process Creation</td>
-      <td>Security</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4883</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>process</td>
-      <td>process creation</td>
-      <td>User created Process</td>
-      <td>user</td>
-      <td>created</td>
-      <td>process</td>
-      <td>1</td>
-      <td>Process Creation.</td>
-      <td>Windows</td>
-      <td>ProcessCreate</td>
-      <td>NaN</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>Microsoft-Windows-Sysmon</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4884</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>process</td>
-      <td>process creation</td>
-      <td>User created Process</td>
-      <td>user</td>
-      <td>created</td>
-      <td>process</td>
-      <td>1</td>
-      <td>Process Creation.</td>
-      <td>Windows</td>
-      <td>ProcessCreate</td>
-      <td>NaN</td>
-      <td>Linux-Sysmon/Operational</td>
-      <td>Linux-Sysmon</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4885</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>process</td>
-      <td>process creation</td>
-      <td>User created Process</td>
-      <td>user</td>
-      <td>created</td>
-      <td>process</td>
-      <td>ProcessCreated</td>
-      <td>ProcessCreated</td>
-      <td>Windows</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>DeviceProcessEvents</td>
-      <td>Microsoft Defender for Endpoint</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4886</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>process</td>
-      <td>process access</td>
-      <td>Process accessed Process</td>
-      <td>process</td>
-      <td>accessed</td>
-      <td>process</td>
-      <td>10</td>
-      <td>ProcessAccess.</td>
-      <td>Windows</td>
-      <td>ProcessAccess</td>
-      <td>NaN</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>Microsoft-Windows-Sysmon</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4887</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>process</td>
-      <td>process access</td>
-      <td>Process accessed Process</td>
-      <td>process</td>
-      <td>accessed</td>
-      <td>process</td>
-      <td>4663</td>
-      <td>An attempt was made to access an object.</td>
-      <td>Windows</td>
-      <td>Object Access</td>
-      <td>Kernel Object</td>
-      <td>Security</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>[{'ObjectType': 'Process'}]</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4888</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>process</td>
-      <td>process access</td>
-      <td>Process accessed Process</td>
-      <td>process</td>
-      <td>accessed</td>
-      <td>process</td>
-      <td>OpenProcessApiCall</td>
-      <td>OpenProcessApiCall</td>
-      <td>Windows</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>DeviceEvents</td>
-      <td>Microsoft Defender for Endpoint</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4889</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>process</td>
-      <td>process access</td>
-      <td>Process requested access to Process</td>
-      <td>process</td>
-      <td>requested access to</td>
-      <td>process</td>
-      <td>4656</td>
-      <td>A handle to an object was requested.</td>
-      <td>Windows</td>
-      <td>Object Access</td>
-      <td>Kernel Object</td>
-      <td>Security</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>[{'ObjectType': 'Process'}]</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4890</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>process</td>
-      <td>process access</td>
-      <td>Process requested access to Process</td>
-      <td>process</td>
-      <td>requested access to</td>
-      <td>process</td>
-      <td>10</td>
-      <td>Process Access.</td>
-      <td>Windows</td>
-      <td>ProcessAccess</td>
-      <td>NaN</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>Microsoft-Windows-Sysmon</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4891</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>process</td>
-      <td>process access</td>
-      <td>Process requested access to Process</td>
-      <td>process</td>
-      <td>requested access to</td>
-      <td>process</td>
-      <td>OpenProcessApiCall</td>
-      <td>OpenProcessApiCall</td>
-      <td>Windows</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>DeviceEvents</td>
-      <td>Microsoft Defender for Endpoint</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4892</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>process</td>
-      <td>process access</td>
-      <td>User accessed Process</td>
-      <td>user</td>
-      <td>accessed</td>
-      <td>process</td>
-      <td>4663</td>
-      <td>An attempt was made to access an object.</td>
-      <td>Windows</td>
-      <td>Object Access</td>
-      <td>Kernel Object</td>
-      <td>Security</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>[{'ObjectType': 'Process'}]</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4893</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>process</td>
-      <td>process access</td>
-      <td>User accessed Process</td>
-      <td>user</td>
-      <td>accessed</td>
-      <td>process</td>
-      <td>OpenProcessApiCall</td>
-      <td>OpenProcessApiCall</td>
-      <td>Windows</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>DeviceEvents</td>
-      <td>Microsoft Defender for Endpoint</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4894</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>command</td>
-      <td>command execution</td>
-      <td>Process executed Command</td>
-      <td>process</td>
-      <td>executed</td>
-      <td>command</td>
-      <td>4688</td>
-      <td>A new process has been created.</td>
-      <td>Windows</td>
-      <td>Detailed Tracking</td>
-      <td>Process Creation</td>
-      <td>Security</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4895</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>command</td>
-      <td>command execution</td>
-      <td>Process executed Command</td>
-      <td>process</td>
-      <td>executed</td>
-      <td>command</td>
-      <td>1</td>
-      <td>Process Creation.</td>
-      <td>Windows</td>
-      <td>ProcessCreate</td>
-      <td>NaN</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>Microsoft-Windows-Sysmon</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4896</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>command</td>
-      <td>command execution</td>
-      <td>Process executed Command</td>
-      <td>process</td>
-      <td>executed</td>
-      <td>command</td>
-      <td>1</td>
-      <td>Process Creation.</td>
-      <td>Linux</td>
-      <td>ProcessCreate</td>
-      <td>NaN</td>
-      <td>Linux-Sysmon/Operational</td>
-      <td>Linux-Sysmon</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4897</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>command</td>
-      <td>command execution</td>
-      <td>Process executed Command</td>
-      <td>process</td>
-      <td>executed</td>
-      <td>command</td>
-      <td>4103</td>
-      <td>Module logging.</td>
-      <td>Windows</td>
-      <td>Executing Pipeline</td>
-      <td>NaN</td>
-      <td>Microsoft-Windows-PowerShell/Operational</td>
-      <td>Microsoft-Windows-PowerShell</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4898</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>command</td>
-      <td>command execution</td>
-      <td>Process executed Command</td>
-      <td>process</td>
-      <td>executed</td>
-      <td>command</td>
-      <td>ProcessCreated</td>
-      <td>ProcessCreated</td>
-      <td>Windows</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>DeviceProcessEvents</td>
-      <td>Microsoft Defender for Endpoint</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4899</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>command</td>
-      <td>command execution</td>
-      <td>User executed Command</td>
-      <td>user</td>
-      <td>executed</td>
-      <td>command</td>
-      <td>4688</td>
-      <td>A new process has been created.</td>
-      <td>Windows</td>
-      <td>Detailed Tracking</td>
-      <td>Process Creation</td>
-      <td>Security</td>
-      <td>Microsoft-Windows-Security-Auditing</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4900</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>command</td>
-      <td>command execution</td>
-      <td>User executed Command</td>
-      <td>user</td>
-      <td>executed</td>
-      <td>command</td>
-      <td>1</td>
-      <td>Process Creation.</td>
-      <td>Windows</td>
-      <td>ProcessCreate</td>
-      <td>NaN</td>
-      <td>Microsoft-Windows-Sysmon/Operational</td>
-      <td>Microsoft-Windows-Sysmon</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4901</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>command</td>
-      <td>command execution</td>
-      <td>User executed Command</td>
-      <td>user</td>
-      <td>executed</td>
-      <td>command</td>
-      <td>4103</td>
-      <td>Module logging.</td>
-      <td>Windows</td>
-      <td>Executing Pipeline</td>
-      <td>NaN</td>
-      <td>Microsoft-Windows-PowerShell/Operational</td>
-      <td>Microsoft-Windows-PowerShell</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4902</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
-      <td>command</td>
-      <td>command execution</td>
-      <td>User executed Command</td>
-      <td>user</td>
-      <td>executed</td>
-      <td>command</td>
-      <td>ProcessCreated</td>
-      <td>ProcessCreated</td>
-      <td>Windows</td>
-      <td>None</td>
-      <td>NaN</td>
-      <td>DeviceProcessEvents</td>
-      <td>Microsoft Defender for Endpoint</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4903</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
-      <td>[credential-access]</td>
-      <td>[Windows]</td>
+      <td>[Windows, Linux, macOS]</td>
       <td>process</td>
       <td>os api execution</td>
       <td>Process executed Api call</td>
@@ -1674,12 +1156,12 @@
       <td>NaN</td>
     </tr>
     <tr>
-      <th>4904</th>
-      <td>T1003.001</td>
-      <td>True</td>
-      <td>LSASS Memory</td>
+      <th>12518</th>
+      <td>T1003</td>
+      <td>False</td>
+      <td>OS Credential Dumping</td>
       <td>[credential-access]</td>
-      <td>[Windows]</td>
+      <td>[Windows, Linux, macOS]</td>
       <td>process</td>
       <td>os api execution</td>
       <td>Process executed Api call</td>
@@ -1693,23 +1175,37 @@
       <td>NaN</td>
       <td>DeviceEvents</td>
       <td>Microsoft Defender for Endpoint</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>12519</th>
+      <td>T1001</td>
+      <td>False</td>
+      <td>Data Obfuscation</td>
+      <td>[command-and-control]</td>
+      <td>[Linux, macOS, Windows]</td>
+      <td>network traffic</td>
+      <td>network traffic content</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
   </tbody>
 </table>
+<p>4061 rows × 20 columns</p>
 </div></div></div>
 </div>
-</div>
-</div>
-<div class="section" id="this-is-really-cool-we-have-covered-all-the-recommended-data-sources-components-d">
-<h2>This is really cool!!! We have covered all the recommended data sources/components :D<a class="headerlink" href="#this-is-really-cool-we-have-covered-all-the-recommended-data-sources-components-d" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="what-other-security-event-logs-would-you-recommend-for-this-data-source-component-contribute-to-the-community-through-ossem-d">
-<h2>What other security event logs would you recommend for this data source/component? Contribute to the community through OSSEM :D<a class="headerlink" href="#what-other-security-event-logs-would-you-recommend-for-this-data-source-component-contribute-to-the-community-through-ossem-d" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="you-can-contribute-and-map-more-security-events-here">
-<h2>You can contribute and map more security events <a class="reference external" href="https://github.com/OTRF/OSSEM-DM/tree/main/relationships">here</a><a class="headerlink" href="#you-can-contribute-and-map-more-security-events-here" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -1738,8 +1234,6 @@
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">MITRE ATT&amp;CK</a>
-    <a class='right-next' id="next-link" href="attack_ds_events_mappings.html" title="next page">ATT&amp;CK DS Event Mappings</a>
 
         </div>
         
