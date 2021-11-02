@@ -14,4 +14,4 @@
 |Image|string|File path of the process that created the file|`/usr/sbin/rsyslogd`|
 |TargetFilename|string|Name of the file|`/run/rsyslogd.pid.tmp`|
 |CreationUtcTime|date|File creation time|`2021-10-14T22:39:15.5650000Z`|
-|user|string|user that created the file|`root`|
+|User|string|user that created the file|`root`|

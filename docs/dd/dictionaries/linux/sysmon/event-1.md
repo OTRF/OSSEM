@@ -18,7 +18,7 @@ The **process creation** event provides extended information about a newly creat
 |Company|string|Company name the image associated with the main process (child) belongs to|``|
 |OriginalFileName|string|original file name|``|
 |CommandLine|string|Arguments which were passed to the executable associated with the main process|`/usr/sbin/rsyslogd -n`|
-|CurrentDirectory|string|The path without the name of the image associated with the process|``|
+|CurrentDirectory|string|Current working directory from which the main process executed.|``|
 |IntegrityLevel|string|Integrity label assigned to a process|`no level`|
 |User|string|Name of the account who created the process (child) .|`root`|
 |LogonGuid|string|Logon GUID of the user who created the new process. Value that can help you correlate this event with others that contain the same Logon GUID (Sysmon Events)|`{844e14fa-0000-0000-0000-000000000000}`|
