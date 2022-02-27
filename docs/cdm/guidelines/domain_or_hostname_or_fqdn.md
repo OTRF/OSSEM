@@ -1,4 +1,4 @@
-# Domain vs FQDN vs Host Name Implementation
+# Domain vs Host Name vs FQDN Implementation
 
 This guide will show you how to label FQDNs, Domains, and Hostnames (for both source/destination) commonly found in logs for Endpoint, DNS, HTTP, SSL, SMB, Radius, URLs, etc...  
 However, there is an incredible amount of ambiguity, in logging, regarding the values for a Domain, Hostname, and FQDN (fully qualified domain name).
