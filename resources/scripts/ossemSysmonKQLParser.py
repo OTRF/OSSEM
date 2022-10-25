@@ -84,6 +84,7 @@ for item in eventlist:
         field_name = dict()
         field_name['name'] = field['name']
         field_name['index'] = count
+        field_name['type'] = field['inType']
         sysmon_event['events'].append(field_name)
         count += 1
     all_sysmon.append(sysmon_event)
@@ -95,6 +96,17 @@ for sysevent in all_sysmon:
     for field in sysevent['events']:
         if field['name'] not in unique_fields:
             unique_fields.append(field['name'])
+        if (field['type'].startswith("win:UInt") or
+            field['type'].startswith("win:HexInt")):
+            field['type'] = "toint"
+        elif (field['type'] == "win:UnicodeString" or
+              field['type'] == "win:GUID"):
+            field['type'] = "tostring"
+        elif (field['type'] == "win:Boolean"):
+            field['type'] = "tobool"
+        else:
+            field['type'] = "" #make it backwards and forwards compatible so it doesn't break
+
 
 # ******** Open Sysmon KQL Parser template ****************
 sysmon_parser_template = os.path.join(os.path.dirname(__file__), "templates/kql/sysmon_parser.txt")

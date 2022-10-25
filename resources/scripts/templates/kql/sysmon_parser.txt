@@ -24,7 +24,7 @@ let EventData = Event
 let {{event['name']}}_{{event['id']}}{% raw %}=() {
 let processEvents = EventData
 | where EventID == {% endraw %}{{event['id']}}
-| extend {% for field in event['events'] if field['name'] not in ['Hashes','Hash'] %}{{field['name']}}{% raw %} = EventDetail.[{% endraw %}{{field['index']}}{% raw %}].["#text"]{% endraw %}{{ ", " if not loop.last else "" }}
+| extend {% for field in event['events'] if field['name'] not in ['Hashes','Hash'] %}{{field['name']}}{% raw %} = {% endraw %}{{field['type']}}{% raw %}(EventDetail.[{% endraw %}{{field['index']}}{% raw %}].["#text"]){% endraw %}{{ ", " if not loop.last else "" }}
 {% endfor -%}
 {% for field in event['events'] -%}
     {% if field['name'] in ['Hashes','Hash'] -%}
