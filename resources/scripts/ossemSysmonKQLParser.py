@@ -82,7 +82,7 @@ for item in eventlist:
     for field in fieldlist:
         log.debug('Field Name: {}'.format(field['name']))
         field_name = dict()
-        field_name['name'] = field['name']
+        field_name['name'] = field['name'] if ("GUID" not in field['name']) else field['name'].replace('GUID', 'Guid')
         field_name['index'] = count
         sysmon_event['events'].append(field_name)
         count += 1
